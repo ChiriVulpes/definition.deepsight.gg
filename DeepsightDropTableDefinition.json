@@ -2540,10 +2540,10 @@
 		}
 	},
 	"lostSector": {
-		"hash": 3981864035,
+		"hash": 1962464162,
 		"displayProperties": {
-			"name": "Bunker E15",
-			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Disruption] Overload\n\nThreat: [Void] Void\n\nShields: [Void] Void\n\nModifiers: Shocker",
+			"name": "Perdition",
+			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Disruption] Overload\n\nThreat: [Arc] Arc\n\nShields: [Arc] Arc, [Void] Void\n\nModifiers: Shocker",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
 		},
 		"dropTable": {
@@ -2574,11 +2574,11 @@
 					"3583275737": {}
 				}
 			],
-			"current": 463,
-			"next": "2025-03-06T17:00:00Z"
+			"current": 464,
+			"next": "2025-03-07T17:00:00Z"
 		},
 		"availability": "rotator",
-		"endTime": "2025-03-06T17:00:00Z",
+		"endTime": "2025-03-07T17:00:00Z",
 		"type": "lost-sector",
 		"typeDisplayProperties": {
 			"name": "Lost Sector",
