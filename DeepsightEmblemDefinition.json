@@ -4020,9 +4020,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/b8002743e562e2270a9632c0ec9335cd.png",
 		"secondarySpecial": "/common/destiny2_content/icons/e9006e036fc0e7be545939e7d06066a3.jpg",
 		"backgroundColor": {
-			"red": 191,
-			"green": 52,
-			"blue": 13,
+			"red": 189,
+			"green": 53,
+			"blue": 15,
 			"alpha": 255
 		}
 	},
@@ -15177,8 +15177,8 @@
 		"secondarySpecial": "/common/destiny2_content/icons/5f77ab650f3c2d4f122d19663ab5abe6.jpg",
 		"backgroundColor": {
 			"red": 62,
-			"green": 101,
-			"blue": 117,
+			"green": 103,
+			"blue": 116,
 			"alpha": 255
 		}
 	},
