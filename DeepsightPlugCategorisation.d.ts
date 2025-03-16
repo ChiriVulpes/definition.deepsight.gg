@@ -32,6 +32,7 @@ export declare const enum DeepsightPlugTypeIntrinsic {
 	ArmorArtifice,
 	ArmorLegacy,
 	Shaped,
+	EmptyCraftingSocket,
 }
 
 export declare const enum DeepsightPlugTypePerk {

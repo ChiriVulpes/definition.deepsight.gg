@@ -27604,10 +27604,10 @@
 	"1219897208": {
 		"hash": 1219897208,
 		"category": 1,
-		"type": 1,
+		"type": 11,
 		"categoryName": "Intrinsic",
-		"typeName": "Frame",
-		"fullName": "Intrinsic/Frame"
+		"typeName": "EmptyCraftingSocket",
+		"fullName": "Intrinsic/EmptyCraftingSocket"
 	},
 	"1220310607": {
 		"hash": 1220310607,
