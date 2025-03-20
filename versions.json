@@ -5,8 +5,8 @@
 	"DeepsightWallpaperDefinition": 11,
 	"Enums": 49,
 	"Destiny2/Manifest": "232176.25.03.12.2000-2-bnet.58852",
-	"Interfaces": 20,
-	"deepsight": 1072,
+	"Interfaces": 21,
+	"deepsight": 1073,
 	"DeepsightTierTypeDefinition": 1,
 	"lastDailyReset": "2025-03-19T17:00:00Z",
 	"lastWeeklyReset": "2025-03-18T17:00:00Z",
@@ -15,15 +15,15 @@
 		"instanceId": "16003330404",
 		"period": "2025-03-19T17:35:52Z"
 	},
-	"updated": "2025-03-20T11:01:40Z",
+	"updated": "2025-03-20T11:17:50Z",
 	"DeepsightVendorDefinition": 514,
 	"DeepsightStats": 0,
 	"DeepsightCollectionsDefinition": 10,
 	"DeepsightSocketCategorisation": 24,
 	"DeepsightAdeptDefinition": 3,
-	"DeepsightEmblemDefinition": 356,
+	"DeepsightEmblemDefinition": 357,
 	"DeepsightSocketExtendedDefinition": 1,
 	"DeepsightCatalystDefinition": 4,
-	"DeepsightBreakerSourceDefinition": 0,
-	"DeepsightBreakerTypeDefinition": 1
+	"DeepsightBreakerSourceDefinition": 1,
+	"DeepsightBreakerTypeDefinition": 2
 }
