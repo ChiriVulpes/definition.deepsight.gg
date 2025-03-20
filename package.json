@@ -1,7 +1,7 @@
 {
 	"name": "deepsight.gg",
 	"description": "Manifests provided by deepsight.gg, the next evolution of item management in Destiny 2.",
-	"version": "1.0.1070",
+	"version": "1.0.1071",
 	"types": "Interfaces.d.ts",
 	"license": "MIT",
 	"keywords": [
