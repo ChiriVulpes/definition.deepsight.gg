@@ -11977,6 +11977,12 @@
 		"typeName": "OrnamentWeaponExotic",
 		"fullName": "Cosmetic/OrnamentWeaponExotic"
 	},
+	"521275120": {
+		"hash": 521275120,
+		"category": 5,
+		"categoryName": "Artifact",
+		"fullName": "Artifact"
+	},
 	"521275121": {
 		"hash": 521275121,
 		"category": 5,
@@ -30028,6 +30034,12 @@
 		"categoryName": "Artifact",
 		"fullName": "Artifact"
 	},
+	"1319563985": {
+		"hash": 1319563985,
+		"category": 5,
+		"categoryName": "Artifact",
+		"fullName": "Artifact"
+	},
 	"1319563986": {
 		"hash": 1319563986,
 		"category": 5,
@@ -31015,9 +31027,11 @@
 	},
 	"1362729566": {
 		"hash": 1362729566,
-		"category": 9,
-		"categoryName": "Classified",
-		"fullName": "Classified"
+		"category": 16,
+		"type": 9,
+		"categoryName": "Seasonal",
+		"typeName": "ArtifactBoost",
+		"fullName": "Seasonal/ArtifactBoost"
 	},
 	"1362793604": {
 		"hash": 1362793604,
@@ -52663,6 +52677,12 @@
 		"categoryName": "Artifact",
 		"fullName": "Artifact"
 	},
+	"2297703045": {
+		"hash": 2297703045,
+		"category": 5,
+		"categoryName": "Artifact",
+		"fullName": "Artifact"
+	},
 	"2297703046": {
 		"hash": 2297703046,
 		"category": 5,
@@ -54009,9 +54029,11 @@
 	},
 	"2362049303": {
 		"hash": 2362049303,
-		"category": 9,
-		"categoryName": "Classified",
-		"fullName": "Classified"
+		"category": 16,
+		"type": 9,
+		"categoryName": "Seasonal",
+		"typeName": "ArtifactBoost",
+		"fullName": "Seasonal/ArtifactBoost"
 	},
 	"2362217257": {
 		"hash": 2362217257,
@@ -58862,6 +58884,12 @@
 	},
 	"2596646301": {
 		"hash": 2596646301,
+		"category": 5,
+		"categoryName": "Artifact",
+		"fullName": "Artifact"
+	},
+	"2596646302": {
+		"hash": 2596646302,
 		"category": 5,
 		"categoryName": "Artifact",
 		"fullName": "Artifact"
@@ -72168,15 +72196,19 @@
 	},
 	"3161732497": {
 		"hash": 3161732497,
-		"category": 9,
-		"categoryName": "Classified",
-		"fullName": "Classified"
+		"category": 16,
+		"type": 9,
+		"categoryName": "Seasonal",
+		"typeName": "ArtifactBoost",
+		"fullName": "Seasonal/ArtifactBoost"
 	},
 	"3161732498": {
 		"hash": 3161732498,
-		"category": 9,
-		"categoryName": "Classified",
-		"fullName": "Classified"
+		"category": 16,
+		"type": 9,
+		"categoryName": "Seasonal",
+		"typeName": "ArtifactBoost",
+		"fullName": "Seasonal/ArtifactBoost"
 	},
 	"3161816588": {
 		"hash": 3161816588,
@@ -80459,6 +80491,14 @@
 		"raid": false,
 		"artifice": false
 	},
+	"3522714284": {
+		"hash": 3522714284,
+		"category": 16,
+		"type": 9,
+		"categoryName": "Seasonal",
+		"typeName": "ArtifactBoost",
+		"fullName": "Seasonal/ArtifactBoost"
+	},
 	"3522918471": {
 		"hash": 3522918471,
 		"category": 6,
@@ -81778,6 +81818,12 @@
 	},
 	"3585856466": {
 		"hash": 3585856466,
+		"category": 5,
+		"categoryName": "Artifact",
+		"fullName": "Artifact"
+	},
+	"3585856467": {
+		"hash": 3585856467,
 		"category": 5,
 		"categoryName": "Artifact",
 		"fullName": "Artifact"
@@ -85506,6 +85552,14 @@
 		"categoryName": "Cosmetic",
 		"typeName": "OrnamentArmor",
 		"fullName": "Cosmetic/OrnamentArmor"
+	},
+	"3770462349": {
+		"hash": 3770462349,
+		"category": 16,
+		"type": 9,
+		"categoryName": "Seasonal",
+		"typeName": "ArtifactBoost",
+		"fullName": "Seasonal/ArtifactBoost"
 	},
 	"3770475778": {
 		"hash": 3770475778,
