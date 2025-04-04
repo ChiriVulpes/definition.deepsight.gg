@@ -1,4 +1,156 @@
 {
+	"300092127": {
+		"hash": 300092127,
+		"displayProperties": {
+			"icon": "/common/destiny2_content/icons/1406f929d0c25506a5ab5ea73956fcb3.png",
+			"name": "Vesper's Host",
+			"description": "Defy the algorithm. Cut through its web."
+		},
+		"dropTable": {
+			"93061497": {}
+		},
+		"encounters": [
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Embarkation",
+					"description": "Search for a way into Vesper Station."
+				}
+			},
+			{
+				"displayProperties": {
+					"name": "Vesper Station",
+					"directive": "Activation",
+					"description": "Reactivate station power to open the path ahead."
+				},
+				"dropTable": {
+					"239405325": {},
+					"480133716": {},
+					"1025368892": {},
+					"1105725465": {},
+					"1364804507": {},
+					"1615763427": {},
+					"1762785662": {},
+					"1762785663": {},
+					"1808327005": {},
+					"2436714433": {},
+					"2867324653": {},
+					"3067211509": {},
+					"3113666223": {},
+					"3234613634": {},
+					"3255995532": {},
+					"3592158071": {},
+					"3820841619": {},
+					"3901727798": {},
+					"4132376063": {},
+					"4190676582": {}
+				}
+			},
+			{
+				"traversal": true,
+				"displayProperties": {
+					"directive": "Infiltration",
+					"description": "Continue moving forward through the station to uncover its mysteries."
+				}
+			},
+			{
+				"displayProperties": {
+					"name": "Raneiks Unified",
+					"directive": "Dismemberment",
+					"description": "Find a way to defeat the Unified Servitor."
+				},
+				"dropTable": {
+					"213803727": {
+						"requiresQuest": 1928367095
+					},
+					"239405325": {},
+					"283230886": {},
+					"498496285": {},
+					"514586330": {
+						"requiresQuest": 1928367095
+					},
+					"898451378": {},
+					"1025368892": {},
+					"1105725465": {},
+					"1265540521": {
+						"requiresQuest": 1928367095
+					},
+					"1364804507": {},
+					"1446639859": {},
+					"1762785662": {},
+					"1808327005": {},
+					"2147583688": {
+						"requiresQuest": 1928367095
+					},
+					"2155757770": {
+						"requiresQuest": 1928367095
+					},
+					"2244013188": {},
+					"2867324653": {},
+					"3113666223": {},
+					"3219219484": {
+						"requiresQuest": 1928367095
+					},
+					"3234613634": {},
+					"3255995532": {},
+					"3592158071": {},
+					"3901727798": {},
+					"4036496212": {},
+					"4132376063": {},
+					"4232480042": {}
+				}
+			},
+			{
+				"traversal": true,
+				"displayProperties": {
+					"directive": "Acceleration",
+					"description": "Make your way closer to the Anomaly to find a way to shut it down."
+				}
+			},
+			{
+				"displayProperties": {
+					"name": "The Corrupted Puppeteer",
+					"directive": "Shutdown",
+					"description": "Take down the Corrupted Puppeteer and stop it from channeling power to the Anomaly."
+				},
+				"dropTable": {
+					"239405325": {},
+					"283230886": {},
+					"480133716": {},
+					"498496285": {},
+					"898451378": {},
+					"1025368892": {},
+					"1105725465": {},
+					"1111334348": {},
+					"1446639859": {},
+					"1615763427": {},
+					"1762785663": {},
+					"2244013188": {},
+					"2436714433": {},
+					"3067211509": {},
+					"3113666223": {},
+					"3820841619": {},
+					"3901727798": {},
+					"4036496212": {},
+					"4132376063": {},
+					"4190676582": {},
+					"4232480042": {}
+				}
+			}
+		],
+		"master": {
+			"activityHash": 4293676253,
+			"availability": "rotator"
+		},
+		"availability": "rotator",
+		"endTime": "2025-04-08T17:00:00Z",
+		"type": "dungeon",
+		"typeDisplayProperties": {
+			"name": "Dungeon",
+			"description": "Form a fireteam of up to three, and brave the strange and powerful realms of our enemies.",
+			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_f20ebb76bee675ca429e470cec58cc7b.png"
+		}
+	},
 	"313828469": {
 		"hash": 313828469,
 		"displayProperties": {
