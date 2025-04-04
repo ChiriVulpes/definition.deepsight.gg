@@ -2,32 +2,35 @@
 	"300092127": {
 		"hash": 300092127,
 		"displayProperties": {
-			"icon": "/common/destiny2_content/icons/1406f929d0c25506a5ab5ea73956fcb3.png",
+			"icon": "./image/png/activity/vespershost.png",
 			"name": "Vesper's Host",
 			"description": "Defy the algorithm. Cut through its web."
 		},
 		"dropTable": {
-			"93061497": {}
+			"93061497": {},
+			"239405325": {},
+			"1025368892": {},
+			"1105725465": {},
+			"3113666223": {},
+			"3901727798": {},
+			"4132376063": {}
 		},
 		"encounters": [
 			{
 				"traversal": true,
 				"displayProperties": {
-					"name": "Embarkation",
+					"directive": "Embarkation",
 					"description": "Search for a way into Vesper Station."
 				}
 			},
 			{
 				"displayProperties": {
-					"name": "Vesper Station",
-					"directive": "Activation",
+					"name": "Activation",
+					"directive": "Reactivate Vesper Station",
 					"description": "Reactivate station power to open the path ahead."
 				},
 				"dropTable": {
-					"239405325": {},
 					"480133716": {},
-					"1025368892": {},
-					"1105725465": {},
 					"1364804507": {},
 					"1615763427": {},
 					"1762785662": {},
@@ -36,13 +39,10 @@
 					"2436714433": {},
 					"2867324653": {},
 					"3067211509": {},
-					"3113666223": {},
 					"3234613634": {},
 					"3255995532": {},
 					"3592158071": {},
 					"3820841619": {},
-					"3901727798": {},
-					"4132376063": {},
 					"4190676582": {}
 				}
 			},
@@ -55,48 +55,33 @@
 			},
 			{
 				"displayProperties": {
-					"name": "Raneiks Unified",
-					"directive": "Dismemberment",
+					"name": "Dismemberment",
+					"directive": "Defeat Raneiks Unified",
 					"description": "Find a way to defeat the Unified Servitor."
 				},
 				"dropTable": {
 					"213803727": {
 						"requiresQuest": 1928367095
 					},
-					"239405325": {},
 					"283230886": {},
 					"498496285": {},
 					"514586330": {
 						"requiresQuest": 1928367095
 					},
 					"898451378": {},
-					"1025368892": {},
-					"1105725465": {},
-					"1265540521": {
-						"requiresQuest": 1928367095
-					},
 					"1364804507": {},
 					"1446639859": {},
 					"1762785662": {},
 					"1808327005": {},
-					"2147583688": {
-						"requiresQuest": 1928367095
-					},
-					"2155757770": {
-						"requiresQuest": 1928367095
-					},
 					"2244013188": {},
 					"2867324653": {},
-					"3113666223": {},
 					"3219219484": {
 						"requiresQuest": 1928367095
 					},
 					"3234613634": {},
 					"3255995532": {},
 					"3592158071": {},
-					"3901727798": {},
 					"4036496212": {},
-					"4132376063": {},
 					"4232480042": {}
 				}
 			},
@@ -109,30 +94,33 @@
 			},
 			{
 				"displayProperties": {
-					"name": "The Corrupted Puppeteer",
-					"directive": "Shutdown",
+					"name": "Shutdown",
+					"directive": "Defeat The Corrupted Puppeteer",
 					"description": "Take down the Corrupted Puppeteer and stop it from channeling power to the Anomaly."
 				},
 				"dropTable": {
-					"239405325": {},
 					"283230886": {},
 					"480133716": {},
 					"498496285": {},
 					"898451378": {},
-					"1025368892": {},
-					"1105725465": {},
 					"1111334348": {},
+					"1265540521": {
+						"requiresQuest": 1928367095
+					},
 					"1446639859": {},
 					"1615763427": {},
 					"1762785663": {},
+					"2147583688": {
+						"requiresQuest": 1928367095
+					},
+					"2155757770": {
+						"requiresQuest": 1928367095
+					},
 					"2244013188": {},
 					"2436714433": {},
 					"3067211509": {},
-					"3113666223": {},
 					"3820841619": {},
-					"3901727798": {},
 					"4036496212": {},
-					"4132376063": {},
 					"4190676582": {},
 					"4232480042": {}
 				}
@@ -2053,6 +2041,126 @@
 		},
 		"availability": "rotator",
 		"endTime": "2025-04-08T17:00:00Z",
+		"type": "dungeon",
+		"typeDisplayProperties": {
+			"name": "Dungeon",
+			"description": "Form a fireteam of up to three, and brave the strange and powerful realms of our enemies.",
+			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_f20ebb76bee675ca429e470cec58cc7b.png"
+		}
+	},
+	"3834447244": {
+		"hash": 3834447244,
+		"displayProperties": {
+			"icon": "./image/png/activity/sundereddoctrine.png",
+			"name": "Sundered Doctrine",
+			"description": "Power lies in the deepest vault."
+		},
+		"dropTable": {
+			"115752785": {},
+			"267671509": {},
+			"431596278": {},
+			"571745874": {},
+			"874160718": {},
+			"945703242": {},
+			"1274101249": {},
+			"1303313141": {},
+			"1643875408": {},
+			"2112020760": {},
+			"2146870895": {},
+			"2485881870": {},
+			"2501618648": {},
+			"2549679488": {},
+			"2791329915": {},
+			"2965319081": {},
+			"3238482084": {},
+			"3781388955": {},
+			"3897001828": {},
+			"4241869859": {}
+		},
+		"encounters": [
+			{
+				"traversal": true,
+				"displayProperties": {
+					"directive": "Find the Path",
+					"description": "Make your way to where the Dread are congregating within the Pyramid."
+				}
+			},
+			{
+				"displayProperties": {
+					"name": "The Riddle",
+					"directive": "Solve the Riddle",
+					"description": "Cast a light on the mysteries of the Pyramid."
+				},
+				"dropTable": {
+					"2226158470": {}
+				}
+			},
+			{
+				"traversal": true,
+				"displayProperties": {
+					"directive": "Navigate the Maze",
+					"description": "Find your way through the labyrinth."
+				}
+			},
+			{
+				"displayProperties": {
+					"name": "Zoetic Lockset",
+					"directive": "Open the Locks",
+					"description": "Unbar your way forward."
+				},
+				"dropTable": {
+					"3360937899": {}
+				}
+			},
+			{
+				"traversal": true,
+				"displayProperties": {
+					"directive": "Locate the Vault",
+					"description": "Seek the Dread at the end of Rhulk's storehouses and laboratories."
+				}
+			},
+			{
+				"displayProperties": {
+					"name": "Kerrev, the Erased",
+					"directive": "Defeat Kerrev, the Erased",
+					"description": "Stop the dread from opening the vault door."
+				},
+				"dropTable": {
+					"187348246": {
+						"requiresQuest": 2405856252
+					},
+					"331231237": {},
+					"380371582": {},
+					"608948636": {},
+					"1930656621": {
+						"requiresQuest": 2405856252
+					},
+					"2226158470": {},
+					"2299285295": {},
+					"2319342865": {
+						"requiresQuest": 2405856252
+					},
+					"2578940720": {},
+					"3276331403": {
+						"requiresQuest": 2405856252
+					},
+					"3300886791": {},
+					"3360937899": {},
+					"4004965895": {
+						"requiresQuest": 2405856252
+					},
+					"4012478142": {
+						"requiresQuest": 2405856252
+					},
+					"4052335546": {}
+				}
+			}
+		],
+		"master": {
+			"activityHash": 3521648250,
+			"availability": "repeatable"
+		},
+		"availability": "repeatable",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
