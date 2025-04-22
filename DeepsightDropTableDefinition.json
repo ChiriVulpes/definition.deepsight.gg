@@ -269,11 +269,8 @@
 			}
 		],
 		"master": {
-			"activityHash": 2716998124,
-			"availability": "rotator"
+			"activityHash": 2716998124
 		},
-		"availability": "rotator",
-		"endTime": "2025-04-22T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -404,8 +401,6 @@
 				}
 			}
 		],
-		"availability": "rotator",
-		"endTime": "2025-04-22T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -821,8 +816,8 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 79,
-			"next": "2025-04-22T17:00:00Z"
+			"current": 80,
+			"next": "2025-04-29T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -982,8 +977,8 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 80,
-			"next": "2025-04-22T17:00:00Z"
+			"current": 81,
+			"next": "2025-04-29T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -1138,8 +1133,8 @@
 				1315424373
 			],
 			"interval": "weekly",
-			"current": 42,
-			"next": "2025-04-22T17:00:00Z"
+			"current": 43,
+			"next": "2025-04-29T17:00:00Z"
 		},
 		"master": {
 			"activityHash": 4129614942,
@@ -1446,8 +1441,11 @@
 			}
 		],
 		"master": {
-			"activityHash": 2534833093
+			"activityHash": 2534833093,
+			"availability": "rotator"
 		},
+		"availability": "rotator",
+		"endTime": "2025-04-29T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -1726,8 +1724,7 @@
 				"1986287028": {},
 				"2890082420": {},
 				"3493494807": {}
-			},
-			"availability": "rotator"
+			}
 		},
 		"rotations": {
 			"anchor": "2023-03-28T17:00:00Z",
@@ -1738,11 +1735,9 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 107,
-			"next": "2025-04-22T17:00:00Z"
+			"current": 108,
+			"next": "2025-04-29T17:00:00Z"
 		},
-		"availability": "rotator",
-		"endTime": "2025-04-22T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -1896,8 +1891,6 @@
 				}
 			}
 		],
-		"availability": "rotator",
-		"endTime": "2025-04-22T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -2320,7 +2313,8 @@
 				"851296754": {
 					"purchaseOnly": true
 				}
-			}
+			},
+			"availability": "rotator"
 		},
 		"rotations": {
 			"anchor": "2023-10-17T17:00:00Z",
@@ -2339,9 +2333,11 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 78,
-			"next": "2025-04-22T17:00:00Z"
+			"current": 79,
+			"next": "2025-04-29T17:00:00Z"
 		},
+		"availability": "rotator",
+		"endTime": "2025-04-29T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -2763,8 +2759,10 @@
 				"1239700299": {},
 				"3782662983": {},
 				"3926103986": {}
-			}
+			},
+			"availability": "new"
 		},
+		"availability": "new",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -2774,21 +2772,21 @@
 		}
 	},
 	"exoticMission": {
-		"hash": 2668737148,
+		"hash": 1221538367,
 		"displayProperties": {
-			"name": "Vox Obscura",
-			"description": "A Psionic propaganda transmission threatens to destabilize the Vanguard's Cabal allies. Breach the rebel stronghold to discover who's behind the new Psionic offensive.",
+			"name": "Operation: Seraph's Shield",
+			"description": "Infiltrate Seraph Station in Earth's orbit to plant a virus in the Warsat network.",
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		},
 		"dropTable": {
-			"46125926": {}
+			"1473821207": {}
 		},
 		"master": {
-			"activityHash": 666172264,
+			"activityHash": 2919809209,
 			"availability": "rotator"
 		},
 		"availability": "rotator",
-		"endTime": "2025-04-22T17:00:00Z",
+		"endTime": "2025-04-29T17:00:00Z",
 		"type": "exotic-mission",
 		"typeDisplayProperties": {
 			"name": "Exotic Mission",
@@ -2796,48 +2794,11 @@
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		}
 	},
-	"trials": {
-		"hash": 185468233,
-		"displayProperties": {
-			"name": "Dissonance",
-			"description": "Essence, Earth Orbit",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
-		},
-		"dropTable": {
-			"113167959": {},
-			"155308388": {},
-			"511773064": {},
-			"548809020": {},
-			"792171868": {},
-			"958384347": {},
-			"1054377087": {},
-			"1435559164": {},
-			"1479465109": {},
-			"1661393678": {},
-			"1893967086": {},
-			"2022294213": {},
-			"2300143112": {},
-			"2641704939": {},
-			"2751189771": {},
-			"2832013173": {},
-			"3503560035": {},
-			"3969379530": {},
-			"4154074649": {}
-		},
-		"availability": "rotator",
-		"endTime": "2025-04-22T17:00:00Z",
-		"type": "trials",
-		"typeDisplayProperties": {
-			"name": "Trials of Osiris",
-			"description": "Eliminate your opponents or capture the zone to win. Earn as many round and match wins on a ticket as you can.",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
-		}
-	},
 	"lostSector": {
-		"hash": 2504276276,
+		"hash": 2571435841,
 		"displayProperties": {
-			"name": "Exodus Garden 2A",
-			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Disruption] Overload\n\nThreat: [Void] Void\n\nShields: [Void] Void\n\nModifiers: Scorched Earth",
+			"name": "Aphelion's Rest",
+			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Disruption] Overload, [Stagger] Unstoppable\n\nThreat: [Stasis] Stasis\n\nShields: [Void] Void\n\nModifiers: Epitaph",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
 		},
 		"dropTable": {
@@ -2868,11 +2829,11 @@
 					"3583275737": {}
 				}
 			],
-			"current": 510,
-			"next": "2025-04-22T17:00:00Z"
+			"current": 511,
+			"next": "2025-04-23T17:00:00Z"
 		},
 		"availability": "rotator",
-		"endTime": "2025-04-22T17:00:00Z",
+		"endTime": "2025-04-23T17:00:00Z",
 		"type": "lost-sector",
 		"typeDisplayProperties": {
 			"name": "Lost Sector",
@@ -2881,24 +2842,24 @@
 		}
 	},
 	"nightfall": {
-		"hash": 2128786079,
+		"hash": 3416179771,
 		"displayProperties": {
-			"description": "The Lucent Hive have opened a portal between Savathûn's throne world and the Scarlet Keep. Break up the portal ritual, and prevent a full-scale invasion of Earth.",
-			"name": "PsiOps Battleground: Moon",
+			"description": "Pursue the Hive into the deep prison of the Dreadnaught.",
+			"name": "The Sunless Cell",
 			"icon": "./image/png/activity/strike.png",
 			"hasIcon": true
 		},
 		"dropTable": {
-			"2322926844": {}
+			"432476743": {}
 		},
 		"master": {
-			"activityHash": 1764280975,
+			"activityHash": 3089659738,
 			"dropTable": {
-				"1056103557": {}
+				"1481892490": {}
 			}
 		},
 		"availability": "rotator",
-		"endTime": "2025-04-22T17:00:00Z",
+		"endTime": "2025-04-29T17:00:00Z",
 		"type": "nightfall",
 		"typeDisplayProperties": {
 			"name": "Nightfall",
