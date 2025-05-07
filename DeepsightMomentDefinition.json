@@ -514,6 +514,18 @@
 			"icon": "/common/destiny2_content/icons/DestinySeasonDefinition_c704c59d44f0cfb7472cd09101eb8399.png"
 		}
 	},
+	"39": {
+		"id": "riteofthenine",
+		"displayProperties": {
+			"name": "Rite of the Nine",
+			"description": "The Emmisary brings you a message from The Nine. They put forth a challenge to the Lightbearers — We ask: make known your value, so divided gods may wield you in time.",
+			"icon": "/common/destiny2_content/icons/fb3f9c054e9c464e5db7553233e6fe16.png"
+		},
+		"iconWatermark": "/common/destiny2_content/icons/136e46f3f9271b60bcc1996d860b5c4e.png",
+		"year": 7,
+		"expansion": true,
+		"hash": 39
+	},
 	"-1": {
 		"id": "revelry",
 		"displayProperties": {

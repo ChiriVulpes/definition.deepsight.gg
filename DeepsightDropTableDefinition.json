@@ -127,11 +127,8 @@
 			}
 		],
 		"master": {
-			"activityHash": 4293676253,
-			"availability": "rotator"
+			"activityHash": 4293676253
 		},
-		"availability": "rotator",
-		"endTime": "2025-05-06T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -517,6 +514,8 @@
 				}
 			}
 		],
+		"availability": "rotator",
+		"endTime": "2025-05-13T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -807,7 +806,8 @@
 				"3407395594": {},
 				"3503019618": {},
 				"3904516037": {}
-			}
+			},
+			"availability": "rotator"
 		},
 		"rotations": {
 			"anchor": "2023-10-10T17:00:00Z",
@@ -819,9 +819,11 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 81,
-			"next": "2025-05-06T17:00:00Z"
+			"current": 82,
+			"next": "2025-05-13T17:00:00Z"
 		},
+		"availability": "rotator",
+		"endTime": "2025-05-13T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -969,8 +971,7 @@
 				"2886339027": {},
 				"2943293195": {},
 				"4038592169": {}
-			},
-			"availability": "rotator"
+			}
 		},
 		"rotations": {
 			"anchor": "2023-10-03T17:00:00Z",
@@ -981,11 +982,9 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 82,
-			"next": "2025-05-06T17:00:00Z"
+			"current": 83,
+			"next": "2025-05-13T17:00:00Z"
 		},
-		"availability": "rotator",
-		"endTime": "2025-05-06T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -1139,8 +1138,8 @@
 				1315424373
 			],
 			"interval": "weekly",
-			"current": 44,
-			"next": "2025-05-06T17:00:00Z"
+			"current": 45,
+			"next": "2025-05-13T17:00:00Z"
 		},
 		"master": {
 			"activityHash": 4129614942,
@@ -1310,8 +1309,6 @@
 				}
 			}
 		],
-		"availability": "rotator",
-		"endTime": "2025-05-06T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -1563,6 +1560,8 @@
 				}
 			}
 		],
+		"availability": "rotator",
+		"endTime": "2025-05-13T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -1740,8 +1739,8 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 109,
-			"next": "2025-05-06T17:00:00Z"
+			"current": 110,
+			"next": "2025-05-13T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -2036,8 +2035,11 @@
 			}
 		],
 		"master": {
-			"activityHash": 3012587626
+			"activityHash": 3012587626,
+			"availability": "rotator"
 		},
+		"availability": "rotator",
+		"endTime": "2025-05-13T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -2337,8 +2339,8 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 80,
-			"next": "2025-05-06T17:00:00Z"
+			"current": 81,
+			"next": "2025-05-13T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -2483,11 +2485,8 @@
 			}
 		],
 		"master": {
-			"activityHash": 1112917203,
-			"availability": "rotator"
+			"activityHash": 1112917203
 		},
-		"availability": "rotator",
-		"endTime": "2025-05-06T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -2775,21 +2774,21 @@
 		}
 	},
 	"exoticMission": {
-		"hash": 509188661,
+		"hash": 196691221,
 		"displayProperties": {
-			"name": "//node.ovrd.AVALON//",
-			"description": "Investigate a Vex network node in the EDZ that has been overwritten with a single word: AVALON.",
+			"name": "Starcrossed",
+			"description": "Within the Black Garden, the Sol Divisive toil endlessly, systematically shutting down potential futures. With Riven's blessing, it's time to shut them down.",
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		},
 		"dropTable": {
-			"3118061005": {}
+			"2910326942": {}
 		},
 		"master": {
-			"activityHash": 3951571983,
+			"activityHash": 3214480871,
 			"availability": "rotator"
 		},
 		"availability": "rotator",
-		"endTime": "2025-05-06T17:00:00Z",
+		"endTime": "2025-05-13T17:00:00Z",
 		"type": "exotic-mission",
 		"typeDisplayProperties": {
 			"name": "Exotic Mission",
@@ -2797,72 +2796,27 @@
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		}
 	},
-	"lostSector": {
-		"hash": 1869786712,
-		"displayProperties": {
-			"name": "Hydroponics Delta",
-			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Stagger] Unstoppable\n\nThreat: [Void] Void\n\nShields: None\n\nModifiers: Empath",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
-		},
-		"dropTable": {
-			"903043774": {},
-			"3853748946": {},
-			"4257549984": {}
-		},
-		"rotations": {
-			"anchor": "2023-11-28T17:00:00Z",
-			"interval": "daily",
-			"drops": [
-				{
-					"1106635211": {},
-					"1331824604": {},
-					"3678653083": {},
-					"3926811686": {}
-				},
-				{
-					"222606050": {},
-					"3637669759": {},
-					"3998080529": {},
-					"4233375372": {}
-				},
-				{
-					"358788212": {},
-					"1719687748": {},
-					"2767393525": {},
-					"3583275737": {}
-				}
-			],
-			"current": 524,
-			"next": "2025-05-06T17:00:00Z"
-		},
-		"availability": "rotator",
-		"endTime": "2025-05-06T17:00:00Z",
-		"type": "lost-sector",
-		"typeDisplayProperties": {
-			"name": "Lost Sector",
-			"description": "The Darkness grows stronger. Form a fireteam of three and face our enemies with new challenges.",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
-		}
-	},
 	"nightfall": {
-		"hash": 291911094,
+		"hash": 896593727,
 		"displayProperties": {
-			"description": "Break into the ancient Vex installation.",
-			"name": "The Insight Terminus",
+			"description": "Help the Drifter restore order at the Prison of Elders.",
+			"name": "Warden of Nothing",
 			"icon": "./image/png/activity/strike.png",
 			"hasIcon": true
 		},
 		"dropTable": {
-			"1289000550": {}
+			"233635202": {},
+			"3922217119": {}
 		},
 		"master": {
-			"activityHash": 3029388704,
+			"activityHash": 4196944364,
 			"dropTable": {
-				"534775659": {}
+				"2347178967": {},
+				"2697143634": {}
 			}
 		},
 		"availability": "rotator",
-		"endTime": "2025-05-06T17:00:00Z",
+		"endTime": "2025-05-13T17:00:00Z",
 		"type": "nightfall",
 		"typeDisplayProperties": {
 			"name": "Nightfall",

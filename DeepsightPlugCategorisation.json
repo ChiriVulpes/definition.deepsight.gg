@@ -5125,6 +5125,14 @@
 		"typeName": "FrameEnhanced",
 		"fullName": "Intrinsic/FrameEnhanced"
 	},
+	"218281600": {
+		"hash": 218281600,
+		"category": 1,
+		"type": 4,
+		"categoryName": "Intrinsic",
+		"typeName": "Exotic",
+		"fullName": "Intrinsic/Exotic"
+	},
 	"219816655": {
 		"hash": 219816655,
 		"category": 6,
@@ -7276,6 +7284,14 @@
 	},
 	"316107606": {
 		"hash": 316107606,
+		"category": 6,
+		"type": 18,
+		"categoryName": "Cosmetic",
+		"typeName": "OrnamentArmorExotic",
+		"fullName": "Cosmetic/OrnamentArmorExotic"
+	},
+	"316107607": {
+		"hash": 316107607,
 		"category": 6,
 		"type": 18,
 		"categoryName": "Cosmetic",
@@ -9468,6 +9484,14 @@
 	},
 	"413443795": {
 		"hash": 413443795,
+		"category": 6,
+		"type": 17,
+		"categoryName": "Cosmetic",
+		"typeName": "OrnamentArmor",
+		"fullName": "Cosmetic/OrnamentArmor"
+	},
+	"413644402": {
+		"hash": 413644402,
 		"category": 6,
 		"type": 17,
 		"categoryName": "Cosmetic",
@@ -15023,6 +15047,14 @@
 		"typeName": "Emote",
 		"fullName": "Cosmetic/Emote"
 	},
+	"667141846": {
+		"hash": 667141846,
+		"category": 6,
+		"type": 17,
+		"categoryName": "Cosmetic",
+		"typeName": "OrnamentArmor",
+		"fullName": "Cosmetic/OrnamentArmor"
+	},
 	"667908513": {
 		"hash": 667908513,
 		"category": 1,
@@ -18281,6 +18313,14 @@
 		"typeName": "Ghost",
 		"fullName": "Perk/Ghost"
 	},
+	"816788042": {
+		"hash": 816788042,
+		"category": 6,
+		"type": 17,
+		"categoryName": "Cosmetic",
+		"typeName": "OrnamentArmor",
+		"fullName": "Cosmetic/OrnamentArmor"
+	},
 	"817283478": {
 		"hash": 817283478,
 		"category": 6,
@@ -21148,6 +21188,14 @@
 		"typeName": "OrnamentArmor",
 		"fullName": "Cosmetic/OrnamentArmor"
 	},
+	"930593408": {
+		"hash": 930593408,
+		"category": 6,
+		"type": 17,
+		"categoryName": "Cosmetic",
+		"typeName": "OrnamentArmor",
+		"fullName": "Cosmetic/OrnamentArmor"
+	},
 	"930692523": {
 		"hash": 930692523,
 		"category": 1,
@@ -21232,6 +21280,14 @@
 		"categoryName": "Cosmetic",
 		"typeName": "OrnamentArmor",
 		"fullName": "Cosmetic/OrnamentArmor"
+	},
+	"935202422": {
+		"hash": 935202422,
+		"category": 2,
+		"type": 4,
+		"categoryName": "Perk",
+		"typeName": "Scope",
+		"fullName": "Perk/Scope"
 	},
 	"936010065": {
 		"hash": 936010065,
@@ -22466,6 +22522,14 @@
 	},
 	"984002469": {
 		"hash": 984002469,
+		"category": 6,
+		"type": 17,
+		"categoryName": "Cosmetic",
+		"typeName": "OrnamentArmor",
+		"fullName": "Cosmetic/OrnamentArmor"
+	},
+	"984139855": {
+		"hash": 984139855,
 		"category": 6,
 		"type": 17,
 		"categoryName": "Cosmetic",
@@ -24284,8 +24348,40 @@
 		"typeName": "Trait",
 		"fullName": "Perk/Trait"
 	},
+	"1059396448": {
+		"hash": 1059396448,
+		"category": 6,
+		"type": 1,
+		"categoryName": "Cosmetic",
+		"typeName": "Shader",
+		"fullName": "Cosmetic/Shader"
+	},
+	"1059396449": {
+		"hash": 1059396449,
+		"category": 6,
+		"type": 1,
+		"categoryName": "Cosmetic",
+		"typeName": "Shader",
+		"fullName": "Cosmetic/Shader"
+	},
 	"1059396450": {
 		"hash": 1059396450,
+		"category": 6,
+		"type": 1,
+		"categoryName": "Cosmetic",
+		"typeName": "Shader",
+		"fullName": "Cosmetic/Shader"
+	},
+	"1059396451": {
+		"hash": 1059396451,
+		"category": 6,
+		"type": 1,
+		"categoryName": "Cosmetic",
+		"typeName": "Shader",
+		"fullName": "Cosmetic/Shader"
+	},
+	"1059396454": {
+		"hash": 1059396454,
 		"category": 6,
 		"type": 1,
 		"categoryName": "Cosmetic",
@@ -24891,22 +24987,6 @@
 		"typeName": "ArmorLegacy",
 		"fullName": "Intrinsic/ArmorLegacy"
 	},
-	"1087971712": {
-		"hash": 1087971712,
-		"category": 6,
-		"type": 1,
-		"categoryName": "Cosmetic",
-		"typeName": "Shader",
-		"fullName": "Cosmetic/Shader"
-	},
-	"1087971713": {
-		"hash": 1087971713,
-		"category": 6,
-		"type": 1,
-		"categoryName": "Cosmetic",
-		"typeName": "Shader",
-		"fullName": "Cosmetic/Shader"
-	},
 	"1087971714": {
 		"hash": 1087971714,
 		"category": 6,
@@ -24949,14 +25029,6 @@
 	},
 	"1087971719": {
 		"hash": 1087971719,
-		"category": 6,
-		"type": 1,
-		"categoryName": "Cosmetic",
-		"typeName": "Shader",
-		"fullName": "Cosmetic/Shader"
-	},
-	"1087971726": {
-		"hash": 1087971726,
 		"category": 6,
 		"type": 1,
 		"categoryName": "Cosmetic",
@@ -25311,6 +25383,14 @@
 		"categoryName": "Cosmetic",
 		"typeName": "Shader",
 		"fullName": "Cosmetic/Shader"
+	},
+	"1106749879": {
+		"hash": 1106749879,
+		"category": 6,
+		"type": 17,
+		"categoryName": "Cosmetic",
+		"typeName": "OrnamentArmor",
+		"fullName": "Cosmetic/OrnamentArmor"
 	},
 	"1107740237": {
 		"hash": 1107740237,
@@ -26584,6 +26664,14 @@
 		"typeName": "Trait",
 		"fullName": "Perk/Trait"
 	},
+	"1168334715": {
+		"hash": 1168334715,
+		"category": 6,
+		"type": 17,
+		"categoryName": "Cosmetic",
+		"typeName": "OrnamentArmor",
+		"fullName": "Cosmetic/OrnamentArmor"
+	},
 	"1169613062": {
 		"hash": 1169613062,
 		"category": 6,
@@ -26791,6 +26879,14 @@
 		"categoryName": "Cosmetic",
 		"typeName": "OrnamentArmorExotic",
 		"fullName": "Cosmetic/OrnamentArmorExotic"
+	},
+	"1179571663": {
+		"hash": 1179571663,
+		"category": 1,
+		"type": 6,
+		"categoryName": "Intrinsic",
+		"typeName": "Controls",
+		"fullName": "Intrinsic/Controls"
 	},
 	"1179902636": {
 		"hash": 1179902636,
@@ -32947,6 +33043,14 @@
 		"typeName": "OrnamentArmor",
 		"fullName": "Cosmetic/OrnamentArmor"
 	},
+	"1442173688": {
+		"hash": 1442173688,
+		"category": 6,
+		"type": 17,
+		"categoryName": "Cosmetic",
+		"typeName": "OrnamentArmor",
+		"fullName": "Cosmetic/OrnamentArmor"
+	},
 	"1442860559": {
 		"hash": 1442860559,
 		"category": 6,
@@ -36144,6 +36248,14 @@
 		"categoryName": "Cosmetic",
 		"typeName": "OrnamentArmor",
 		"fullName": "Cosmetic/OrnamentArmor"
+	},
+	"1579100415": {
+		"hash": 1579100415,
+		"category": 2,
+		"type": 1,
+		"categoryName": "Perk",
+		"typeName": "Trait",
+		"fullName": "Perk/Trait"
 	},
 	"1579706082": {
 		"hash": 1579706082,
@@ -45716,6 +45828,14 @@
 		"typeName": "OrnamentArmor",
 		"fullName": "Cosmetic/OrnamentArmor"
 	},
+	"2009343294": {
+		"hash": 2009343294,
+		"category": 6,
+		"type": 17,
+		"categoryName": "Cosmetic",
+		"typeName": "OrnamentArmor",
+		"fullName": "Cosmetic/OrnamentArmor"
+	},
 	"2009456796": {
 		"hash": 2009456796,
 		"category": 1,
@@ -53131,6 +53251,14 @@
 		"typeName": "Trait",
 		"fullName": "Perk/Trait"
 	},
+	"2319132177": {
+		"hash": 2319132177,
+		"category": 6,
+		"type": 17,
+		"categoryName": "Cosmetic",
+		"typeName": "OrnamentArmor",
+		"fullName": "Cosmetic/OrnamentArmor"
+	},
 	"2319265678": {
 		"hash": 2319265678,
 		"category": 6,
@@ -55061,6 +55189,14 @@
 	},
 	"2412329837": {
 		"hash": 2412329837,
+		"category": 6,
+		"type": 1,
+		"categoryName": "Cosmetic",
+		"typeName": "Shader",
+		"fullName": "Cosmetic/Shader"
+	},
+	"2412474869": {
+		"hash": 2412474869,
 		"category": 6,
 		"type": 1,
 		"categoryName": "Cosmetic",
@@ -63423,6 +63559,14 @@
 		"typeName": "Trait",
 		"fullName": "Perk/Trait"
 	},
+	"2795461287": {
+		"hash": 2795461287,
+		"category": 6,
+		"type": 17,
+		"categoryName": "Cosmetic",
+		"typeName": "OrnamentArmor",
+		"fullName": "Cosmetic/OrnamentArmor"
+	},
 	"2795914918": {
 		"hash": 2795914918,
 		"category": 6,
@@ -65024,6 +65168,14 @@
 		"categoryName": "Perk",
 		"typeName": "TraitEnhanced",
 		"fullName": "Perk/TraitEnhanced"
+	},
+	"2861049498": {
+		"hash": 2861049498,
+		"category": 7,
+		"type": 7,
+		"categoryName": "Masterwork",
+		"typeName": "ExoticCatalyst",
+		"fullName": "Masterwork/ExoticCatalyst"
 	},
 	"2861849799": {
 		"hash": 2861849799,
@@ -72672,6 +72824,14 @@
 		"typeName": "OrnamentArmor",
 		"fullName": "Cosmetic/OrnamentArmor"
 	},
+	"3180900277": {
+		"hash": 3180900277,
+		"category": 6,
+		"type": 17,
+		"categoryName": "Cosmetic",
+		"typeName": "OrnamentArmor",
+		"fullName": "Cosmetic/OrnamentArmor"
+	},
 	"3180923638": {
 		"hash": 3180923638,
 		"category": 8,
@@ -73772,6 +73932,14 @@
 		"typeName": "HolidayOven",
 		"fullName": "Masterwork/HolidayOven"
 	},
+	"3213766144": {
+		"hash": 3213766144,
+		"category": 6,
+		"type": 17,
+		"categoryName": "Cosmetic",
+		"typeName": "OrnamentArmor",
+		"fullName": "Cosmetic/OrnamentArmor"
+	},
 	"3214073080": {
 		"hash": 3214073080,
 		"category": 6,
@@ -74721,9 +74889,11 @@
 	},
 	"3250524138": {
 		"hash": 3250524138,
-		"category": 9,
-		"categoryName": "Classified",
-		"fullName": "Classified"
+		"category": 6,
+		"type": 1,
+		"categoryName": "Cosmetic",
+		"typeName": "Shader",
+		"fullName": "Cosmetic/Shader"
 	},
 	"3251195262": {
 		"hash": 3251195262,
@@ -75418,6 +75588,14 @@
 		"categoryName": "Cosmetic",
 		"typeName": "OrnamentWeaponExotic",
 		"fullName": "Cosmetic/OrnamentWeaponExotic"
+	},
+	"3288161838": {
+		"hash": 3288161838,
+		"category": 6,
+		"type": 17,
+		"categoryName": "Cosmetic",
+		"typeName": "OrnamentArmor",
+		"fullName": "Cosmetic/OrnamentArmor"
 	},
 	"3288177452": {
 		"hash": 3288177452,
@@ -78206,6 +78384,14 @@
 		"categoryName": "Cosmetic",
 		"typeName": "OrnamentWeaponExotic",
 		"fullName": "Cosmetic/OrnamentWeaponExotic"
+	},
+	"3415982513": {
+		"hash": 3415982513,
+		"category": 6,
+		"type": 17,
+		"categoryName": "Cosmetic",
+		"typeName": "OrnamentArmor",
+		"fullName": "Cosmetic/OrnamentArmor"
 	},
 	"3416218761": {
 		"hash": 3416218761,
@@ -94876,6 +95062,14 @@
 		"bucketHashName": "Gauntlets",
 		"raid": false,
 		"artifice": false
+	},
+	"4182403848": {
+		"hash": 4182403848,
+		"category": 6,
+		"type": 1,
+		"categoryName": "Cosmetic",
+		"typeName": "Shader",
+		"fullName": "Cosmetic/Shader"
 	},
 	"4182737364": {
 		"hash": 4182737364,
