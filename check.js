@@ -99,6 +99,7 @@ async function apiRequest (endpoint) {
 		response = await fetch(`https://www.bungie.net/Platform/Destiny2/${endpoint}`, {
 			signal: abortController.signal,
 			headers: {
+				"User-Agent": "deepsight.gg:manifest/0.0.0",
 				"X-API-Key": /** @type {string} */(apiKey),
 			},
 		})
@@ -209,6 +210,7 @@ class PGCR {
 	static async getPGCR (id) {
 		return fetch(`${ENDPOINT_PGCR}/${id}/`, {
 			headers: {
+				"User-Agent": "deepsight.gg:manifest/0.0.0",
 				"X-API-Key": /** @type {string} */(apiKey),
 			},
 		});
