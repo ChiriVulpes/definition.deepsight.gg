@@ -5353,7 +5353,7 @@
 						"expirationTooltip": "",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"costs": [
 							{
 								"itemHash": 3159615086,
@@ -5452,13 +5452,13 @@
 				"items": [
 					{
 						"displayProperties": {
-							"description": "Create Orbs of Power in the EDZ.",
-							"name": "Generator",
+							"description": "Get grenade kills in the EDZ.",
+							"name": "Grenadier",
 							"icon": "/common/destiny2_content/icons/785c092d8c432c10d0b9c2bee92e3779.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 38,
-						"itemHash": 1202425489,
+						"vendorItemIndex": 36,
+						"itemHash": 840802057,
 						"quantity": 1,
 						"failureIndexes": [
 							1
@@ -5501,7 +5501,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -5555,13 +5555,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Acquire cache codes in Lost Sectors in the EDZ.",
-							"name": "Lost Territory",
+							"description": "Get Power weapon multikills in the EDZ.",
+							"name": "The Big Guns",
 							"icon": "/common/destiny2_content/icons/785c092d8c432c10d0b9c2bee92e3779.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 42,
-						"itemHash": 1297871573,
+						"vendorItemIndex": 37,
+						"itemHash": 2289410285,
 						"quantity": 1,
 						"failureIndexes": [
 							1
@@ -5604,7 +5604,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -5707,7 +5707,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -5761,13 +5761,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Defeat enemies with Void damage in the EDZ.",
-							"name": "Touch the Void",
+							"description": "Loot chests in the EDZ.",
+							"name": "Salzwerk Scavenger",
 							"icon": "/common/destiny2_content/icons/785c092d8c432c10d0b9c2bee92e3779.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 46,
-						"itemHash": 4122700291,
+						"vendorItemIndex": 45,
+						"itemHash": 2903313662,
 						"quantity": 1,
 						"failureIndexes": [
 							1
@@ -5810,7 +5810,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -8797,13 +8797,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Calibrate Machine Guns against any target. Earn bonus progress against opposing Guardians and for additional targets defeated without reloading.",
-							"name": "Machine Gun Calibration",
+							"description": "Calibrate Linear Fusion Rifles against any target. Earn bonus progress with precision and against opposing Guardians.",
+							"name": "Linear Fusion Rifle Calibration",
 							"icon": "/common/destiny2_content/icons/d7515897c31ba1bfc5fa699054bafaf4.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 69,
-						"itemHash": 3795659409,
+						"vendorItemIndex": 70,
+						"itemHash": 743499071,
 						"quantity": 1,
 						"failureIndexes": [
 							17
@@ -8899,13 +8899,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Calibrate Kinetic weapons against any target. Earn bonus progress with precision and against opposing Guardians.",
-							"name": "Kinetic Calibration",
+							"description": "Calibrate Void weapons against any target. Earn bonus progress using Power weapons and against opposing Guardians.",
+							"name": "Void Calibration",
 							"icon": "/common/destiny2_content/icons/d7515897c31ba1bfc5fa699054bafaf4.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 75,
-						"itemHash": 1869653095,
+						"vendorItemIndex": 77,
+						"itemHash": 3664752320,
 						"quantity": 1,
 						"failureIndexes": [
 							17
@@ -8941,7 +8941,7 @@
 						},
 						"displayCategory": "Bounties",
 						"inventoryBucketHash": 1345459588,
-						"visibilityScope": 0,
+						"visibilityScope": 3,
 						"purchasableScope": 4,
 						"exclusivity": -1,
 						"sortValue": 0,
@@ -10740,7 +10740,7 @@
 						"expirationTooltip": "",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"costs": [
 							{
 								"itemHash": 3159615086,
@@ -14202,13 +14202,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Complete waves in Terminal Overload.",
-							"name": "Hacker's Paradise",
+							"description": "Open chests after completing Terminal Overload.",
+							"name": "Terminal Rewards",
 							"icon": "/common/destiny2_content/icons/8825fc274662c2f058174ee85e1eb507.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 82,
-						"itemHash": 1403685365,
+						"vendorItemIndex": 84,
+						"itemHash": 1403685367,
 						"quantity": 1,
 						"failureIndexes": [
 							2,
@@ -14253,7 +14253,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -14358,7 +14358,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -14412,13 +14412,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "In Neomuna, defeat combatants with Void damage. Vex combatants grant additional progress.",
-							"name": "Vexing Void",
+							"description": "In Neomuna, defeat combatants with Solar final blows. Vex combatants grant additional progress.",
+							"name": "Cybernetic Meltdown",
 							"icon": "/common/destiny2_content/icons/d42e6ab4c9ca22b6a8b63ad7181e049f.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 62,
-						"itemHash": 4269063330,
+						"vendorItemIndex": 60,
+						"itemHash": 901575791,
 						"quantity": 1,
 						"failureIndexes": [
 							2,
@@ -14463,7 +14463,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -14568,7 +14568,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -14767,109 +14767,6 @@
 				"items": [
 					{
 						"displayProperties": {
-							"description": "Defeat enemies on Nessus.",
-							"name": "Power Fantasy",
-							"icon": "/common/destiny2_content/icons/e48653930791dd741130de860103f497.jpg",
-							"hasIcon": true
-						},
-						"vendorItemIndex": 33,
-						"itemHash": 3958224565,
-						"quantity": 1,
-						"failureIndexes": [
-							1
-						],
-						"priceOverrideEnabled": false,
-						"currencies": [
-							{
-								"scalarDenominator": 0,
-								"itemHash": 3159615086,
-								"quantity": 250,
-								"hasConditionalVisibility": false
-							}
-						],
-						"refundPolicy": 0,
-						"refundTimeLimit": 0,
-						"rewardAdjustorPointerHash": 0,
-						"creationLevels": [
-							{
-								"level": 0
-							}
-						],
-						"displayCategoryIndex": 4,
-						"seedOverride": 0,
-						"categoryIndex": 10,
-						"originalCategoryIndex": 10,
-						"weight": 0,
-						"minimumLevel": 0,
-						"maximumLevel": 0,
-						"licenseUnlockHash": 0,
-						"action": {
-							"executeSeconds": 0,
-							"isPositive": false
-						},
-						"displayCategory": "Bounties",
-						"inventoryBucketHash": 1345459588,
-						"visibilityScope": 3,
-						"purchasableScope": 4,
-						"exclusivity": -1,
-						"sortValue": 0,
-						"expirationTooltip": "Expires X after purchase.",
-						"redirectToSaleIndexes": [],
-						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
-						"apiPurchasable": true,
-						"costs": [
-							{
-								"itemHash": 3159615086,
-								"quantity": 250,
-								"hasConditionalVisibility": false
-							}
-						],
-						"itemComponent": {
-							"instances": {
-								"data": {},
-								"privacy": 0
-							},
-							"renderData": {
-								"data": {},
-								"privacy": 0
-							},
-							"stats": {
-								"data": {},
-								"privacy": 0
-							},
-							"sockets": {
-								"data": {},
-								"privacy": 0
-							},
-							"reusablePlugs": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugObjectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"talentGrids": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugStates": {
-								"data": {},
-								"privacy": 0
-							},
-							"objectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"perks": {
-								"data": {},
-								"privacy": 0
-							}
-						}
-					},
-					{
-						"displayProperties": {
 							"description": "Create Orbs of Power on Nessus.",
 							"name": "Lightbringer",
 							"icon": "/common/destiny2_content/icons/e48653930791dd741130de860103f497.jpg",
@@ -14919,7 +14816,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -14973,13 +14870,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Get Void kills on Nessus.",
-							"name": "Void of Information",
+							"description": "Defeat Cabal on Nessus.",
+							"name": "Cabal or Nothing",
 							"icon": "/common/destiny2_content/icons/e48653930791dd741130de860103f497.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 46,
-						"itemHash": 1409078654,
+						"vendorItemIndex": 41,
+						"itemHash": 1329813266,
 						"quantity": 1,
 						"failureIndexes": [
 							1
@@ -15022,7 +14919,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -15076,13 +14973,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Get Solar kills on Nessus.",
-							"name": "Sol Sure",
+							"description": "Get sniper kills on Nessus.",
+							"name": "Shot Through the Heart",
 							"icon": "/common/destiny2_content/icons/e48653930791dd741130de860103f497.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 48,
-						"itemHash": 756469295,
+						"vendorItemIndex": 43,
+						"itemHash": 2587962933,
 						"quantity": 1,
 						"failureIndexes": [
 							1
@@ -15125,7 +15022,110 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
+						"apiPurchasable": true,
+						"costs": [
+							{
+								"itemHash": 3159615086,
+								"quantity": 250,
+								"hasConditionalVisibility": false
+							}
+						],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					},
+					{
+						"displayProperties": {
+							"description": "Loot chests on Nessus.",
+							"name": "Cache Out",
+							"icon": "/common/destiny2_content/icons/e48653930791dd741130de860103f497.jpg",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 45,
+						"itemHash": 4060319896,
+						"quantity": 1,
+						"failureIndexes": [
+							1
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [
+							{
+								"scalarDenominator": 0,
+								"itemHash": 3159615086,
+								"quantity": 250,
+								"hasConditionalVisibility": false
+							}
+						],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 4,
+						"seedOverride": 0,
+						"categoryIndex": 10,
+						"originalCategoryIndex": 10,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 0,
+							"isPositive": false
+						},
+						"displayCategory": "Bounties",
+						"inventoryBucketHash": 1345459588,
+						"visibilityScope": 3,
+						"purchasableScope": 4,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "Expires X after purchase.",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -17597,13 +17597,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Loot chests on the Moon.",
-							"name": "Moon Cheese",
+							"description": "Collect Phantasmal Fragments by defeating Nightmares.\n\nNightmares can be found in Sorrow's Harbor and Lost Sectors.",
+							"name": "I Said What I Fragment",
 							"icon": "/common/destiny2_content/icons/5d90b469f98729bac59eda59c6b6baf1.png",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 43,
-						"itemHash": 3540140710,
+						"vendorItemIndex": 44,
+						"itemHash": 3540140705,
 						"quantity": 1,
 						"failureIndexes": [
 							5,
@@ -17647,7 +17647,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -17751,111 +17751,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
-						"apiPurchasable": true,
-						"costs": [
-							{
-								"itemHash": 3159615086,
-								"quantity": 250,
-								"hasConditionalVisibility": false
-							}
-						],
-						"itemComponent": {
-							"instances": {
-								"data": {},
-								"privacy": 0
-							},
-							"renderData": {
-								"data": {},
-								"privacy": 0
-							},
-							"stats": {
-								"data": {},
-								"privacy": 0
-							},
-							"sockets": {
-								"data": {},
-								"privacy": 0
-							},
-							"reusablePlugs": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugObjectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"talentGrids": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugStates": {
-								"data": {},
-								"privacy": 0
-							},
-							"objectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"perks": {
-								"data": {},
-								"privacy": 0
-							}
-						}
-					},
-					{
-						"displayProperties": {
-							"description": "Defeat 50 combatants on the Moon without dying.",
-							"name": "Moonstreak",
-							"icon": "/common/destiny2_content/icons/5d90b469f98729bac59eda59c6b6baf1.png",
-							"hasIcon": true
-						},
-						"vendorItemIndex": 45,
-						"itemHash": 709535747,
-						"quantity": 1,
-						"failureIndexes": [
-							5,
-							1
-						],
-						"priceOverrideEnabled": false,
-						"currencies": [
-							{
-								"scalarDenominator": 0,
-								"itemHash": 3159615086,
-								"quantity": 250,
-								"hasConditionalVisibility": false
-							}
-						],
-						"refundPolicy": 0,
-						"refundTimeLimit": 0,
-						"rewardAdjustorPointerHash": 0,
-						"creationLevels": [
-							{
-								"level": 0
-							}
-						],
-						"displayCategoryIndex": 7,
-						"seedOverride": 0,
-						"categoryIndex": 17,
-						"originalCategoryIndex": 17,
-						"weight": 0,
-						"minimumLevel": 0,
-						"maximumLevel": 0,
-						"licenseUnlockHash": 0,
-						"action": {
-							"executeSeconds": 0,
-							"isPositive": false
-						},
-						"displayCategory": "Moon Bounties",
-						"inventoryBucketHash": 1345459588,
-						"visibilityScope": 0,
-						"purchasableScope": 4,
-						"exclusivity": -1,
-						"sortValue": 0,
-						"expirationTooltip": "Expires after X.",
-						"redirectToSaleIndexes": [],
-						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -17959,7 +17855,111 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
+						"apiPurchasable": true,
+						"costs": [
+							{
+								"itemHash": 3159615086,
+								"quantity": 250,
+								"hasConditionalVisibility": false
+							}
+						],
+						"itemComponent": {
+							"instances": {
+								"data": {},
+								"privacy": 0
+							},
+							"renderData": {
+								"data": {},
+								"privacy": 0
+							},
+							"stats": {
+								"data": {},
+								"privacy": 0
+							},
+							"sockets": {
+								"data": {},
+								"privacy": 0
+							},
+							"reusablePlugs": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugObjectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"talentGrids": {
+								"data": {},
+								"privacy": 0
+							},
+							"plugStates": {
+								"data": {},
+								"privacy": 0
+							},
+							"objectives": {
+								"data": {},
+								"privacy": 0
+							},
+							"perks": {
+								"data": {},
+								"privacy": 0
+							}
+						}
+					},
+					{
+						"displayProperties": {
+							"description": "Using a Submachine Gun, rapidly defeat combatants in groups of 2 or more.",
+							"name": "Gun Runner",
+							"icon": "/common/destiny2_content/icons/5d90b469f98729bac59eda59c6b6baf1.png",
+							"hasIcon": true
+						},
+						"vendorItemIndex": 51,
+						"itemHash": 709535749,
+						"quantity": 1,
+						"failureIndexes": [
+							5,
+							1
+						],
+						"priceOverrideEnabled": false,
+						"currencies": [
+							{
+								"scalarDenominator": 0,
+								"itemHash": 3159615086,
+								"quantity": 250,
+								"hasConditionalVisibility": false
+							}
+						],
+						"refundPolicy": 0,
+						"refundTimeLimit": 0,
+						"rewardAdjustorPointerHash": 0,
+						"creationLevels": [
+							{
+								"level": 0
+							}
+						],
+						"displayCategoryIndex": 7,
+						"seedOverride": 0,
+						"categoryIndex": 17,
+						"originalCategoryIndex": 17,
+						"weight": 0,
+						"minimumLevel": 0,
+						"maximumLevel": 0,
+						"licenseUnlockHash": 0,
+						"action": {
+							"executeSeconds": 0,
+							"isPositive": false
+						},
+						"displayCategory": "Moon Bounties",
+						"inventoryBucketHash": 1345459588,
+						"visibilityScope": 0,
+						"purchasableScope": 4,
+						"exclusivity": -1,
+						"sortValue": 0,
+						"expirationTooltip": "Expires after X.",
+						"redirectToSaleIndexes": [],
+						"socketOverrides": [],
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -18365,110 +18365,6 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Defeat combatants anywhere within the Cosmodrome.",
-							"name": "Crowd Control",
-							"icon": "/common/destiny2_content/icons/d56fe09df8babc88871c5f930842ab82.jpg",
-							"hasIcon": true
-						},
-						"vendorItemIndex": 42,
-						"itemHash": 1961641732,
-						"quantity": 1,
-						"failureIndexes": [
-							3,
-							4
-						],
-						"priceOverrideEnabled": false,
-						"currencies": [
-							{
-								"scalarDenominator": 0,
-								"itemHash": 3159615086,
-								"quantity": 250,
-								"hasConditionalVisibility": false
-							}
-						],
-						"refundPolicy": 0,
-						"refundTimeLimit": 0,
-						"rewardAdjustorPointerHash": 0,
-						"creationLevels": [
-							{
-								"level": 0
-							}
-						],
-						"displayCategoryIndex": 12,
-						"seedOverride": 0,
-						"categoryIndex": 18,
-						"originalCategoryIndex": 18,
-						"weight": 0,
-						"minimumLevel": 0,
-						"maximumLevel": 0,
-						"licenseUnlockHash": 0,
-						"action": {
-							"executeSeconds": 0,
-							"isPositive": false
-						},
-						"displayCategory": "Bounties",
-						"inventoryBucketHash": 1345459588,
-						"visibilityScope": 4,
-						"purchasableScope": 4,
-						"exclusivity": -1,
-						"sortValue": 0,
-						"expirationTooltip": "Expires X after purchase.",
-						"redirectToSaleIndexes": [],
-						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
-						"apiPurchasable": true,
-						"costs": [
-							{
-								"itemHash": 3159615086,
-								"quantity": 250,
-								"hasConditionalVisibility": false
-							}
-						],
-						"itemComponent": {
-							"instances": {
-								"data": {},
-								"privacy": 0
-							},
-							"renderData": {
-								"data": {},
-								"privacy": 0
-							},
-							"stats": {
-								"data": {},
-								"privacy": 0
-							},
-							"sockets": {
-								"data": {},
-								"privacy": 0
-							},
-							"reusablePlugs": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugObjectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"talentGrids": {
-								"data": {},
-								"privacy": 0
-							},
-							"plugStates": {
-								"data": {},
-								"privacy": 0
-							},
-							"objectives": {
-								"data": {},
-								"privacy": 0
-							},
-							"perks": {
-								"data": {},
-								"privacy": 0
-							}
-						}
-					},
-					{
-						"displayProperties": {
 							"description": "Defeat Fallen anywhere within the Cosmodrome. They can be found in The Steppes and Mothyards, among other locations.",
 							"name": "From Grace",
 							"icon": "/common/destiny2_content/icons/d56fe09df8babc88871c5f930842ab82.jpg",
@@ -18519,7 +18415,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -18623,7 +18519,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -18727,7 +18623,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -18781,13 +18677,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Defeat combatants in the Cosmodrome using any of your abilities.",
-							"name": "Bring Your Toolbox",
+							"description": "Defeat combatants in the Cosmodrome using any Power weapon.",
+							"name": "Leave Nothing Behind",
 							"icon": "/common/destiny2_content/icons/d56fe09df8babc88871c5f930842ab82.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 49,
-						"itemHash": 1961641731,
+						"vendorItemIndex": 50,
+						"itemHash": 1961641740,
 						"quantity": 1,
 						"failureIndexes": [
 							3,
@@ -18831,7 +18727,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -18935,7 +18831,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -18989,13 +18885,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Complete public events in the Cosmodrome. Heroic public events contribute the most progress.",
-							"name": "Eventful Moments",
+							"description": "Complete a patrol in the Cosmodrome.",
+							"name": "Working Remotely",
 							"icon": "/common/destiny2_content/icons/d56fe09df8babc88871c5f930842ab82.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 54,
-						"itemHash": 351522029,
+						"vendorItemIndex": 53,
+						"itemHash": 351522030,
 						"quantity": 1,
 						"failureIndexes": [
 							3,
@@ -19039,7 +18935,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -19756,13 +19652,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "\"We don't have the resources to repair the Well if it fails. We must defend it.\" —Petra Venj",
-							"name": "Defender of the Well",
+							"description": "\"Our enemies outnumber the Awoken, but they cannot outlast the Guardians.\" —Petra Venj",
+							"name": "Decimation",
 							"icon": "/common/destiny2_content/icons/e5e582eab926231fe50a4ab892b5c382.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 26,
-						"itemHash": 2173508794,
+						"vendorItemIndex": 25,
+						"itemHash": 2192699203,
 						"quantity": 1,
 						"failureIndexes": [
 							1
@@ -19858,13 +19754,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Explore the Bay of Drowned Wishes in the Dreaming City.",
-							"name": "Lost in the Mists",
+							"description": "Explore the Chamber of Starlight in the Dreaming City.",
+							"name": "Lost in Rheasilvia",
 							"icon": "/common/destiny2_content/icons/e5e582eab926231fe50a4ab892b5c382.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 29,
-						"itemHash": 1225647738,
+						"vendorItemIndex": 30,
+						"itemHash": 973983247,
 						"quantity": 1,
 						"failureIndexes": [
 							1
@@ -19960,13 +19856,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "\"Is it true that the spirit of a Guardian wanders the Ascendant Plane?\" —Petra Venj",
-							"name": "Challenge: The Shattered",
+							"description": "\"Ah, I've seen how you Guardians fight. Put your back into it!\" —Paladin Kamala Rior",
+							"name": "Challenge: Heroic Public Events",
 							"icon": "/common/destiny2_content/icons/e5e582eab926231fe50a4ab892b5c382.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 36,
-						"itemHash": 2494871935,
+						"vendorItemIndex": 33,
+						"itemHash": 2662637005,
 						"quantity": 1,
 						"failureIndexes": [
 							1
@@ -23022,13 +22918,13 @@
 				"items": [
 					{
 						"displayProperties": {
-							"description": "In the Throne World, defeat combatants with precision final blows. Scorn grant additional progress.",
-							"name": "Destroy the Brain",
+							"description": "In the Throne World, defeat combatants with Arc damage. Lucent Hive grant additional progress.",
+							"name": "Mass Degaussing",
 							"icon": "/common/destiny2_content/icons/1d5f90e83340bcae90ae12d35c58cb3b.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 44,
-						"itemHash": 1164306017,
+						"vendorItemIndex": 40,
+						"itemHash": 1164306029,
 						"quantity": 1,
 						"failureIndexes": [
 							0,
@@ -23073,7 +22969,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -23178,7 +23074,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -23232,13 +23128,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "In a single life, defeat combatants in the Throne World using Sidearms, SMGs, Shotguns, or Swords.",
-							"name": "More Than a Vessel",
+							"description": "In a single life, defeat combatants in the Throne World with Pulse Rifles, Bows, Trace Rifles, or Grenade Launchers.",
+							"name": "Ballistic Practice",
 							"icon": "/common/destiny2_content/icons/1d5f90e83340bcae90ae12d35c58cb3b.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 51,
-						"itemHash": 2893357941,
+						"vendorItemIndex": 53,
+						"itemHash": 2893357943,
 						"quantity": 1,
 						"failureIndexes": [
 							0,
@@ -23283,7 +23179,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -23337,13 +23233,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "In the Throne World, complete patrols. Heroic patrols grant additional progress.",
-							"name": "A Two-Pronged Operation",
+							"description": "In the Throne World, defeat combatants with abilities while in Lost Sectors. Super final blows grant additional progress.",
+							"name": "Property Damage",
 							"icon": "/common/destiny2_content/icons/1d5f90e83340bcae90ae12d35c58cb3b.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 71,
-						"itemHash": 609421554,
+						"vendorItemIndex": 74,
+						"itemHash": 609421567,
 						"quantity": 1,
 						"failureIndexes": [
 							0,
@@ -23388,7 +23284,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -23891,13 +23787,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Defeat Fallen on Europa with precision final blows.",
-							"name": "Europan Precision",
+							"description": "Defeat Fallen on Europa with Void damage.",
+							"name": "Europan Gravity",
 							"icon": "/common/destiny2_content/icons/8ee76fa6e2ea9b8fc474feec3681601a.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 20,
-						"itemHash": 1190558125,
+						"vendorItemIndex": 25,
+						"itemHash": 1190558122,
 						"quantity": 1,
 						"failureIndexes": [
 							6,
@@ -23934,14 +23830,14 @@
 						},
 						"displayCategory": "Europa Bounties",
 						"inventoryBucketHash": 1345459588,
-						"visibilityScope": 0,
+						"visibilityScope": 3,
 						"purchasableScope": 4,
 						"exclusivity": -1,
 						"sortValue": 0,
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -23995,13 +23891,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Defeat Vex on Europa with finishers.",
-							"name": "A Vexing End",
+							"description": "Defeat Vex on Europa with Arc damage.",
+							"name": "Vex Shock",
 							"icon": "/common/destiny2_content/icons/8ee76fa6e2ea9b8fc474feec3681601a.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 27,
-						"itemHash": 1606160571,
+						"vendorItemIndex": 29,
+						"itemHash": 1606160575,
 						"quantity": 1,
 						"failureIndexes": [
 							6,
@@ -24038,14 +23934,14 @@
 						},
 						"displayCategory": "Europa Bounties",
 						"inventoryBucketHash": 1345459588,
-						"visibilityScope": 0,
+						"visibilityScope": 3,
 						"purchasableScope": 4,
 						"exclusivity": -1,
 						"sortValue": 0,
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -24099,13 +23995,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Using a Rocket Launcher, defeat combatants in groups of 3 or more in Europa Lost Sectors.",
-							"name": "Lost Sector Fireworks",
+							"description": "Using a Machine Gun, defeat combatants in groups of 2 or more in Europa Lost Sectors.",
+							"name": "They All Fall Down",
 							"icon": "/common/destiny2_content/icons/8ee76fa6e2ea9b8fc474feec3681601a.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 42,
-						"itemHash": 3831027418,
+						"vendorItemIndex": 41,
+						"itemHash": 1131956134,
 						"quantity": 1,
 						"failureIndexes": [
 							6,
@@ -24149,7 +24045,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -24203,13 +24099,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Complete a Heroic public event in Eventide Ruins.",
-							"name": "Golden Age Hero",
+							"description": "Complete patrols in Eventide Ruins.",
+							"name": "Golden Age Patrol",
 							"icon": "/common/destiny2_content/icons/8ee76fa6e2ea9b8fc474feec3681601a.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 54,
-						"itemHash": 2833790090,
+						"vendorItemIndex": 55,
+						"itemHash": 2833790091,
 						"quantity": 1,
 						"failureIndexes": [
 							6,
@@ -24253,7 +24149,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -47777,7 +47673,7 @@
 						"costs": [
 							{
 								"itemHash": 3147280338,
-								"quantity": 800,
+								"quantity": 600,
 								"hasConditionalVisibility": false
 							}
 						],
@@ -102749,13 +102645,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Defeat combatants with melee in Nightmare Hunts.",
-							"name": "Courageous Strike",
+							"description": "Defeat combatants in Nightmare Hunts with Solar damage.",
+							"name": "Pyrophantasmic",
 							"icon": "/common/destiny2_content/icons/0205a8d14cc223007ea259f10b131695.png",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 22,
-						"itemHash": 400298588,
+						"vendorItemIndex": 18,
+						"itemHash": 400298584,
 						"quantity": 1,
 						"failureIndexes": [
 							2
@@ -102798,7 +102694,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -102852,13 +102748,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Defeat combatants in Nightmare Hunts with finishers.",
-							"name": "Finishing the Hunt",
+							"description": "Generate Orbs of Power in Nightmare Hunts.",
+							"name": "Orbweaver",
 							"icon": "/common/destiny2_content/icons/0205a8d14cc223007ea259f10b131695.png",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 25,
-						"itemHash": 400298576,
+						"vendorItemIndex": 23,
+						"itemHash": 400298589,
 						"quantity": 1,
 						"failureIndexes": [
 							2
@@ -102901,7 +102797,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -102955,13 +102851,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Find the Lost Sector K1 Logistics and dispel the Nightmare within.",
-							"name": "Dream Logic",
+							"description": "Find the Lost Sector K1 Crew Quarters and dispel the Nightmare within.",
+							"name": "Once a Life",
 							"icon": "/common/destiny2_content/icons/0205a8d14cc223007ea259f10b131695.png",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 27,
-						"itemHash": 2305954617,
+						"vendorItemIndex": 26,
+						"itemHash": 2305954616,
 						"quantity": 1,
 						"failureIndexes": [
 							2
@@ -103004,7 +102900,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -103107,7 +103003,7 @@
 						"expirationTooltip": "Expires after X.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -104992,7 +104888,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -105096,7 +104992,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -105150,13 +105046,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Complete the following objectives in a single run of Dares of Eternity. Objectives will reset if not completed when the activity ends.\n\nGet Hand Cannon final blows or rapidly defeat combatants. Combatants rapidly defeated with Hand Cannons grant the most efficient progress.\n\nComplete the activity with a decent score.",
-							"name": "Cannon Fodder",
+							"description": "Complete the following objectives in a single run of Dares of Eternity. Objectives will reset if not completed when the activity ends.\n\nGet Sniper Rifle final blows or rapidly defeat combatants. Combatants rapidly defeated with Sniper Rifles grant the most efficient progress.\n\nComplete the activity with a decent score.",
+							"name": "From Beyond",
 							"icon": "/common/destiny2_content/icons/54786b9ee6f44d2cd4cc041e59c306df.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 14,
-						"itemHash": 1136139775,
+						"vendorItemIndex": 13,
+						"itemHash": 1136139774,
 						"quantity": 1,
 						"failureIndexes": [
 							9,
@@ -105200,7 +105096,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -106330,7 +106226,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -106384,13 +106280,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Defeat Champions in Dares of Eternity.",
-							"name": "Champions of Eternity",
+							"description": "Defeat encounter or final bosses in Dares of Eternity.",
+							"name": "Memories of Eternity",
 							"icon": "/common/destiny2_content/icons/797bfc14302e49eca63ea6544a857d9e.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 49,
-						"itemHash": 3539440753,
+						"vendorItemIndex": 34,
+						"itemHash": 1475436129,
 						"quantity": 1,
 						"failureIndexes": [
 							22
@@ -106433,7 +106329,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -106536,7 +106432,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -106639,7 +106535,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -106742,7 +106638,7 @@
 						"expirationTooltip": "",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-05-15T17:00:00Z",
+						"overrideNextRefreshDate": "2025-05-16T17:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
