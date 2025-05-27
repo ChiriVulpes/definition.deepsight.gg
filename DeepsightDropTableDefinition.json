@@ -269,11 +269,8 @@
 			}
 		],
 		"master": {
-			"activityHash": 2716998124,
-			"availability": "rotator"
+			"activityHash": 2716998124
 		},
-		"availability": "rotator",
-		"endTime": "2025-05-27T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -819,8 +816,8 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 84,
-			"next": "2025-05-27T17:00:00Z"
+			"current": 85,
+			"next": "2025-06-03T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -969,7 +966,8 @@
 				"2886339027": {},
 				"2943293195": {},
 				"4038592169": {}
-			}
+			},
+			"availability": "rotator"
 		},
 		"rotations": {
 			"anchor": "2023-10-03T17:00:00Z",
@@ -980,9 +978,11 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 85,
-			"next": "2025-05-27T17:00:00Z"
+			"current": 86,
+			"next": "2025-06-03T17:00:00Z"
 		},
+		"availability": "rotator",
+		"endTime": "2025-06-03T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -1136,8 +1136,8 @@
 				1315424373
 			],
 			"interval": "weekly",
-			"current": 47,
-			"next": "2025-05-27T17:00:00Z"
+			"current": 48,
+			"next": "2025-06-03T17:00:00Z"
 		},
 		"master": {
 			"activityHash": 4129614942,
@@ -1307,6 +1307,8 @@
 				}
 			}
 		],
+		"availability": "rotator",
+		"endTime": "2025-06-03T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -1444,8 +1446,11 @@
 			}
 		],
 		"master": {
-			"activityHash": 2534833093
+			"activityHash": 2534833093,
+			"availability": "rotator"
 		},
+		"availability": "rotator",
+		"endTime": "2025-06-03T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -1735,8 +1740,8 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 112,
-			"next": "2025-05-27T17:00:00Z"
+			"current": 113,
+			"next": "2025-06-03T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -2313,8 +2318,7 @@
 				"851296754": {
 					"purchaseOnly": true
 				}
-			},
-			"availability": "rotator"
+			}
 		},
 		"rotations": {
 			"anchor": "2023-10-17T17:00:00Z",
@@ -2333,11 +2337,9 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 83,
-			"next": "2025-05-27T17:00:00Z"
+			"current": 84,
+			"next": "2025-06-03T17:00:00Z"
 		},
-		"availability": "rotator",
-		"endTime": "2025-05-27T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -2481,8 +2483,11 @@
 			}
 		],
 		"master": {
-			"activityHash": 1112917203
+			"activityHash": 1112917203,
+			"availability": "rotator"
 		},
+		"availability": "rotator",
+		"endTime": "2025-06-03T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -2759,10 +2764,8 @@
 				"1239700299": {},
 				"3782662983": {},
 				"3926103986": {}
-			},
-			"availability": "new"
+			}
 		},
-		"availability": "new",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -2772,21 +2775,21 @@
 		}
 	},
 	"exoticMission": {
-		"hash": 2668737148,
+		"hash": 1221538367,
 		"displayProperties": {
-			"name": "Vox Obscura",
-			"description": "A Psionic propaganda transmission threatens to destabilize the Vanguard's Cabal allies. Breach the rebel stronghold to discover who's behind the new Psionic offensive.",
+			"name": "Operation: Seraph's Shield",
+			"description": "Infiltrate Seraph Station in Earth's orbit to plant a virus in the Warsat network.",
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		},
 		"dropTable": {
-			"46125926": {}
+			"1473821207": {}
 		},
 		"master": {
-			"activityHash": 666172264,
+			"activityHash": 2919809209,
 			"availability": "rotator"
 		},
 		"availability": "rotator",
-		"endTime": "2025-05-27T17:00:00Z",
+		"endTime": "2025-06-03T17:00:00Z",
 		"type": "exotic-mission",
 		"typeDisplayProperties": {
 			"name": "Exotic Mission",
@@ -2795,10 +2798,10 @@
 		}
 	},
 	"lostSector": {
-		"hash": 457172845,
+		"hash": 1869786712,
 		"displayProperties": {
-			"name": "Chamber of Starlight",
-			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Disruption] Overload, [Stagger] Unstoppable\n\nThreat: [Solar] Solar\n\nShields: [Solar] Solar, [Void] Void\n\nModifiers: Epitaph",
+			"name": "Hydroponics Delta",
+			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Stagger] Unstoppable\n\nThreat: [Void] Void\n\nShields: None\n\nModifiers: Empath",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
 		},
 		"dropTable": {
@@ -2829,11 +2832,11 @@
 					"3583275737": {}
 				}
 			],
-			"current": 545,
-			"next": "2025-05-27T17:00:00Z"
+			"current": 546,
+			"next": "2025-05-28T17:00:00Z"
 		},
 		"availability": "rotator",
-		"endTime": "2025-05-27T17:00:00Z",
+		"endTime": "2025-05-28T17:00:00Z",
 		"type": "lost-sector",
 		"typeDisplayProperties": {
 			"name": "Lost Sector",
@@ -2842,26 +2845,26 @@
 		}
 	},
 	"nightfall": {
-		"hash": 291911094,
+		"hash": 896593727,
 		"displayProperties": {
-			"description": "Break into the ancient Vex installation.",
-			"name": "The Insight Terminus",
+			"description": "Help the Drifter restore order at the Prison of Elders.",
+			"name": "Warden of Nothing",
 			"icon": "./image/png/activity/strike.png",
 			"hasIcon": true
 		},
 		"dropTable": {
 			"233635202": {},
-			"2889501828": {}
+			"2591257541": {}
 		},
 		"master": {
-			"activityHash": 3029388704,
+			"activityHash": 4196944364,
 			"dropTable": {
-				"1354727549": {},
+				"1492522228": {},
 				"2347178967": {}
 			}
 		},
 		"availability": "rotator",
-		"endTime": "2025-05-27T17:00:00Z",
+		"endTime": "2025-06-03T17:00:00Z",
 		"type": "nightfall",
 		"typeDisplayProperties": {
 			"name": "Nightfall",
