@@ -2797,11 +2797,50 @@
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		}
 	},
-	"lostSector": {
-		"hash": 584726931,
+	"trials": {
+		"hash": 2399854375,
 		"displayProperties": {
-			"name": "Thrilladrome",
-			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Disruption] Overload\n\nThreat: [Void] Void\n\nShields: [Arc] Arc, [Void] Void\n\nModifiers: Shocker",
+			"name": "Widow's Court",
+			"description": "European Dead Zone, Earth",
+			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
+		},
+		"dropTable": {
+			"51129316": {},
+			"113167959": {},
+			"155308388": {},
+			"511773064": {},
+			"548809020": {},
+			"792171868": {},
+			"958384347": {},
+			"1054377087": {},
+			"1201528146": {},
+			"1435559164": {},
+			"1479465109": {},
+			"1661393678": {},
+			"1893967086": {},
+			"2022294213": {},
+			"2300143112": {},
+			"2330860573": {},
+			"2641704939": {},
+			"2751189771": {},
+			"2832013173": {},
+			"3969379530": {},
+			"4154074649": {}
+		},
+		"availability": "rotator",
+		"endTime": "2025-06-03T17:00:00Z",
+		"type": "trials",
+		"typeDisplayProperties": {
+			"name": "Trials of Osiris",
+			"description": "Eliminate your opponents or capture the zone to win. Earn as many round and match wins on a ticket as you can.",
+			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
+		}
+	},
+	"lostSector": {
+		"hash": 2875391879,
+		"displayProperties": {
+			"name": "The Broken Deep",
+			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Disruption] Overload, [Stagger] Unstoppable\n\nThreat: [Strand] Strand\n\nShields: [Arc] Arc, [Solar] Solar\n\nModifiers: Epitaph, Chaff",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
 		},
 		"dropTable": {
@@ -2832,11 +2871,11 @@
 					"3583275737": {}
 				}
 			],
-			"current": 548,
-			"next": "2025-05-30T17:00:00Z"
+			"current": 549,
+			"next": "2025-05-31T17:00:00Z"
 		},
 		"availability": "rotator",
-		"endTime": "2025-05-30T17:00:00Z",
+		"endTime": "2025-05-31T17:00:00Z",
 		"type": "lost-sector",
 		"typeDisplayProperties": {
 			"name": "Lost Sector",
