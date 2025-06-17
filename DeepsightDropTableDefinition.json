@@ -269,8 +269,11 @@
 			}
 		],
 		"master": {
-			"activityHash": 2716998124
+			"activityHash": 2716998124,
+			"availability": "rotator"
 		},
+		"availability": "rotator",
+		"endTime": "2025-06-24T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -401,8 +404,6 @@
 				}
 			}
 		],
-		"availability": "rotator",
-		"endTime": "2025-06-17T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -647,11 +648,8 @@
 			}
 		],
 		"master": {
-			"activityHash": 2296818662,
-			"availability": "rotator"
+			"activityHash": 2296818662
 		},
-		"availability": "rotator",
-		"endTime": "2025-06-17T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -821,8 +819,8 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 87,
-			"next": "2025-06-17T17:00:00Z"
+			"current": 88,
+			"next": "2025-06-24T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -982,8 +980,8 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 88,
-			"next": "2025-06-17T17:00:00Z"
+			"current": 89,
+			"next": "2025-06-24T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -1138,8 +1136,8 @@
 				1315424373
 			],
 			"interval": "weekly",
-			"current": 50,
-			"next": "2025-06-17T17:00:00Z"
+			"current": 51,
+			"next": "2025-06-24T17:00:00Z"
 		},
 		"master": {
 			"activityHash": 4129614942,
@@ -1560,8 +1558,6 @@
 				}
 			}
 		],
-		"availability": "rotator",
-		"endTime": "2025-06-17T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -1728,8 +1724,7 @@
 				"1986287028": {},
 				"2890082420": {},
 				"3493494807": {}
-			},
-			"availability": "rotator"
+			}
 		},
 		"rotations": {
 			"anchor": "2023-03-28T17:00:00Z",
@@ -1740,11 +1735,9 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 115,
-			"next": "2025-06-17T17:00:00Z"
+			"current": 116,
+			"next": "2025-06-24T17:00:00Z"
 		},
-		"availability": "rotator",
-		"endTime": "2025-06-17T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -1898,6 +1891,8 @@
 				}
 			}
 		],
+		"availability": "rotator",
+		"endTime": "2025-06-24T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -2320,7 +2315,8 @@
 				"851296754": {
 					"purchaseOnly": true
 				}
-			}
+			},
+			"availability": "rotator"
 		},
 		"rotations": {
 			"anchor": "2023-10-17T17:00:00Z",
@@ -2339,9 +2335,11 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 86,
-			"next": "2025-06-17T17:00:00Z"
+			"current": 87,
+			"next": "2025-06-24T17:00:00Z"
 		},
+		"availability": "rotator",
+		"endTime": "2025-06-24T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -2763,8 +2761,10 @@
 				"1239700299": {},
 				"3782662983": {},
 				"3926103986": {}
-			}
+			},
+			"availability": "new"
 		},
+		"availability": "new",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -2774,21 +2774,21 @@
 		}
 	},
 	"exoticMission": {
-		"hash": 196691221,
+		"hash": 3883295757,
 		"displayProperties": {
-			"name": "Starcrossed",
-			"description": "Within the Black Garden, the Sol Divisive toil endlessly, systematically shutting down potential futures. With Riven's blessing, it's time to shut them down.",
+			"name": "Presage",
+			"description": "Jump coordinates matching an errant distress signal.",
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		},
 		"dropTable": {
-			"2910326942": {}
+			"2188764214": {}
 		},
 		"master": {
-			"activityHash": 3214480871,
+			"activityHash": 4201846671,
 			"availability": "rotator"
 		},
 		"availability": "rotator",
-		"endTime": "2025-06-17T17:00:00Z",
+		"endTime": "2025-06-24T17:00:00Z",
 		"type": "exotic-mission",
 		"typeDisplayProperties": {
 			"name": "Exotic Mission",
@@ -2796,50 +2796,11 @@
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		}
 	},
-	"trials": {
-		"hash": 281812211,
-		"displayProperties": {
-			"name": "Vostok",
-			"description": "Felwinter Peak, Earth",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
-		},
-		"dropTable": {
-			"51129316": {},
-			"113167959": {},
-			"155308388": {},
-			"511773064": {},
-			"548809020": {},
-			"792171868": {},
-			"958384347": {},
-			"1054377087": {},
-			"1435559164": {},
-			"1479465109": {},
-			"1661393678": {},
-			"1893967086": {},
-			"2022294213": {},
-			"2300143112": {},
-			"2330860573": {},
-			"2641704939": {},
-			"2751189771": {},
-			"2832013173": {},
-			"3503560035": {},
-			"3969379530": {},
-			"4154074649": {}
-		},
-		"availability": "rotator",
-		"endTime": "2025-06-17T17:00:00Z",
-		"type": "trials",
-		"typeDisplayProperties": {
-			"name": "Trials of Osiris",
-			"description": "Eliminate your opponents or capture the zone to win. Earn as many round and match wins on a ticket as you can.",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
-		}
-	},
 	"lostSector": {
-		"hash": 2571435846,
+		"hash": 457172842,
 		"displayProperties": {
-			"name": "Aphelion's Rest",
-			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Disruption] Overload, [Stagger] Unstoppable\n\nThreat: [Stasis] Stasis\n\nShields: [Void] Void\n\nModifiers: Epitaph",
+			"name": "Chamber of Starlight",
+			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Disruption] Overload, [Stagger] Unstoppable\n\nThreat: [Solar] Solar\n\nShields: [Solar] Solar, [Void] Void\n\nModifiers: Epitaph",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
 		},
 		"dropTable": {
@@ -2870,11 +2831,11 @@
 					"3583275737": {}
 				}
 			],
-			"current": 566,
-			"next": "2025-06-17T17:00:00Z"
+			"current": 567,
+			"next": "2025-06-18T17:00:00Z"
 		},
 		"availability": "rotator",
-		"endTime": "2025-06-17T17:00:00Z",
+		"endTime": "2025-06-18T17:00:00Z",
 		"type": "lost-sector",
 		"typeDisplayProperties": {
 			"name": "Lost Sector",
@@ -2883,26 +2844,26 @@
 		}
 	},
 	"nightfall": {
-		"hash": 808496216,
+		"hash": 3213068454,
 		"displayProperties": {
-			"description": "Stop the Shadow Legion from bringing down Neomuna's defenses.",
-			"name": "HyperNet Current",
+			"description": "Blitz the BrayTech Futurescape campus on Mars to repossess fragments of the submind Charlemagne's code.",
+			"name": "Heist Battleground: Mars",
 			"icon": "./image/png/activity/strike.png",
 			"hasIcon": true
 		},
 		"dropTable": {
 			"233635202": {},
-			"2322926844": {}
+			"432476743": {}
 		},
 		"master": {
-			"activityHash": 2039642510,
+			"activityHash": 507866990,
 			"dropTable": {
-				"1056103557": {},
+				"1481892490": {},
 				"2347178967": {}
 			}
 		},
 		"availability": "rotator",
-		"endTime": "2025-06-17T17:00:00Z",
+		"endTime": "2025-06-24T17:00:00Z",
 		"type": "nightfall",
 		"typeDisplayProperties": {
 			"name": "Nightfall",
