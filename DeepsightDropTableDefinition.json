@@ -269,11 +269,8 @@
 			}
 		],
 		"master": {
-			"activityHash": 2716998124,
-			"availability": "rotator"
+			"activityHash": 2716998124
 		},
-		"availability": "rotator",
-		"endTime": "2025-06-24T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -819,8 +816,8 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 88,
-			"next": "2025-06-24T17:00:00Z"
+			"current": 89,
+			"next": "2025-07-01T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -969,7 +966,8 @@
 				"2886339027": {},
 				"2943293195": {},
 				"4038592169": {}
-			}
+			},
+			"availability": "rotator"
 		},
 		"rotations": {
 			"anchor": "2023-10-03T17:00:00Z",
@@ -980,9 +978,11 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 89,
-			"next": "2025-06-24T17:00:00Z"
+			"current": 90,
+			"next": "2025-07-01T17:00:00Z"
 		},
+		"availability": "rotator",
+		"endTime": "2025-07-01T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -1136,8 +1136,8 @@
 				1315424373
 			],
 			"interval": "weekly",
-			"current": 51,
-			"next": "2025-06-24T17:00:00Z"
+			"current": 52,
+			"next": "2025-07-01T17:00:00Z"
 		},
 		"master": {
 			"activityHash": 4129614942,
@@ -1307,6 +1307,8 @@
 				}
 			}
 		],
+		"availability": "rotator",
+		"endTime": "2025-07-01T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -1444,8 +1446,11 @@
 			}
 		],
 		"master": {
-			"activityHash": 2534833093
+			"activityHash": 2534833093,
+			"availability": "rotator"
 		},
+		"availability": "rotator",
+		"endTime": "2025-07-01T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -1735,8 +1740,8 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 116,
-			"next": "2025-06-24T17:00:00Z"
+			"current": 117,
+			"next": "2025-07-01T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -1891,8 +1896,6 @@
 				}
 			}
 		],
-		"availability": "rotator",
-		"endTime": "2025-06-24T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -2315,8 +2318,7 @@
 				"851296754": {
 					"purchaseOnly": true
 				}
-			},
-			"availability": "rotator"
+			}
 		},
 		"rotations": {
 			"anchor": "2023-10-17T17:00:00Z",
@@ -2335,11 +2337,9 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 87,
-			"next": "2025-06-24T17:00:00Z"
+			"current": 88,
+			"next": "2025-07-01T17:00:00Z"
 		},
-		"availability": "rotator",
-		"endTime": "2025-06-24T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -2761,10 +2761,8 @@
 				"1239700299": {},
 				"3782662983": {},
 				"3926103986": {}
-			},
-			"availability": "new"
+			}
 		},
-		"availability": "new",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -2774,21 +2772,21 @@
 		}
 	},
 	"exoticMission": {
-		"hash": 3883295757,
+		"hash": 2668737148,
 		"displayProperties": {
-			"name": "Presage",
-			"description": "Jump coordinates matching an errant distress signal.",
+			"name": "Vox Obscura",
+			"description": "A Psionic propaganda transmission threatens to destabilize the Vanguard's Cabal allies. Breach the rebel stronghold to discover who's behind the new Psionic offensive.",
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		},
 		"dropTable": {
-			"2188764214": {}
+			"46125926": {}
 		},
 		"master": {
-			"activityHash": 4201846671,
+			"activityHash": 666172264,
 			"availability": "rotator"
 		},
 		"availability": "rotator",
-		"endTime": "2025-06-24T17:00:00Z",
+		"endTime": "2025-07-01T17:00:00Z",
 		"type": "exotic-mission",
 		"typeDisplayProperties": {
 			"name": "Exotic Mission",
@@ -2797,10 +2795,10 @@
 		}
 	},
 	"lostSector": {
-		"hash": 3981864036,
+		"hash": 1962464165,
 		"displayProperties": {
-			"name": "Bunker E15",
-			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Disruption] Overload\n\nThreat: [Void] Void\n\nShields: [Void] Void\n\nModifiers: Shocker",
+			"name": "Perdition",
+			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Disruption] Overload\n\nThreat: [Arc] Arc\n\nShields: [Arc] Arc, [Void] Void\n\nModifiers: Shocker",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
 		},
 		"dropTable": {
@@ -2831,11 +2829,11 @@
 					"3583275737": {}
 				}
 			],
-			"current": 573,
-			"next": "2025-06-24T17:00:00Z"
+			"current": 574,
+			"next": "2025-06-25T17:00:00Z"
 		},
 		"availability": "rotator",
-		"endTime": "2025-06-24T17:00:00Z",
+		"endTime": "2025-06-25T17:00:00Z",
 		"type": "lost-sector",
 		"typeDisplayProperties": {
 			"name": "Lost Sector",
@@ -2844,26 +2842,26 @@
 		}
 	},
 	"nightfall": {
-		"hash": 3213068454,
+		"hash": 1859320492,
 		"displayProperties": {
-			"description": "Blitz the BrayTech Futurescape campus on Mars to repossess fragments of the submind Charlemagne's code.",
-			"name": "Heist Battleground: Mars",
+			"description": "The Lucent Hive are using stolen Guardian Light for some wicked purpose. Breach their stronghold and uncover their plot.",
+			"name": "Legend PsiOps Battleground: Cosmodrome",
 			"icon": "./image/png/activity/strike.png",
 			"hasIcon": true
 		},
 		"dropTable": {
 			"233635202": {},
-			"432476743": {}
+			"1289000550": {}
 		},
 		"master": {
-			"activityHash": 507866990,
+			"activityHash": 968118631,
 			"dropTable": {
-				"1481892490": {},
+				"534775659": {},
 				"2347178967": {}
 			}
 		},
 		"availability": "rotator",
-		"endTime": "2025-06-24T17:00:00Z",
+		"endTime": "2025-07-01T17:00:00Z",
 		"type": "nightfall",
 		"typeDisplayProperties": {
 			"name": "Nightfall",
