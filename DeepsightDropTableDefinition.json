@@ -2798,10 +2798,10 @@
 		}
 	},
 	"trials": {
-		"hash": 1579576831,
+		"hash": 185468233,
 		"displayProperties": {
-			"name": "Cirrus Plaza",
-			"description": "Neomuna, Neptune",
+			"name": "Dissonance",
+			"description": "Essence, Earth Orbit",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
 		},
 		"dropTable": {
@@ -2837,10 +2837,10 @@
 		}
 	},
 	"lostSector": {
-		"hash": 1962464162,
+		"hash": 2310698359,
 		"displayProperties": {
-			"name": "Perdition",
-			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Disruption] Overload\n\nThreat: [Arc] Arc\n\nShields: [Arc] Arc, [Void] Void\n\nModifiers: Shocker",
+			"name": "Veles Labyrinth",
+			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Stagger] Unstoppable\n\nThreat: [Arc] Arc\n\nShields: [Arc] Arc, [Solar] Solar\n\nModifiers: Fire Pit",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
 		},
 		"dropTable": {
@@ -2871,11 +2871,11 @@
 					"3583275737": {}
 				}
 			],
-			"current": 585,
-			"next": "2025-07-06T17:00:00Z"
+			"current": 586,
+			"next": "2025-07-07T17:00:00Z"
 		},
 		"availability": "rotator",
-		"endTime": "2025-07-06T17:00:00Z",
+		"endTime": "2025-07-07T17:00:00Z",
 		"type": "lost-sector",
 		"typeDisplayProperties": {
 			"name": "Lost Sector",
