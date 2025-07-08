@@ -127,11 +127,8 @@
 			}
 		],
 		"master": {
-			"activityHash": 4293676253,
-			"availability": "rotator"
+			"activityHash": 4293676253
 		},
-		"availability": "rotator",
-		"endTime": "2025-07-08T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -404,6 +401,8 @@
 				}
 			}
 		],
+		"availability": "rotator",
+		"endTime": "2025-07-15T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -517,8 +516,6 @@
 				}
 			}
 		],
-		"availability": "rotator",
-		"endTime": "2025-07-08T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -809,8 +806,7 @@
 				"3407395594": {},
 				"3503019618": {},
 				"3904516037": {}
-			},
-			"availability": "rotator"
+			}
 		},
 		"rotations": {
 			"anchor": "2023-10-10T17:00:00Z",
@@ -822,11 +818,9 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 90,
-			"next": "2025-07-08T17:00:00Z"
+			"current": 91,
+			"next": "2025-07-15T17:00:00Z"
 		},
-		"availability": "rotator",
-		"endTime": "2025-07-08T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -985,8 +979,8 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 91,
-			"next": "2025-07-08T17:00:00Z"
+			"current": 92,
+			"next": "2025-07-15T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -1141,8 +1135,8 @@
 				1315424373
 			],
 			"interval": "weekly",
-			"current": 53,
-			"next": "2025-07-08T17:00:00Z"
+			"current": 54,
+			"next": "2025-07-15T17:00:00Z"
 		},
 		"master": {
 			"activityHash": 4129614942,
@@ -1563,6 +1557,8 @@
 				}
 			}
 		],
+		"availability": "rotator",
+		"endTime": "2025-07-15T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -1729,7 +1725,8 @@
 				"1986287028": {},
 				"2890082420": {},
 				"3493494807": {}
-			}
+			},
+			"availability": "rotator"
 		},
 		"rotations": {
 			"anchor": "2023-03-28T17:00:00Z",
@@ -1740,9 +1737,11 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 118,
-			"next": "2025-07-08T17:00:00Z"
+			"current": 119,
+			"next": "2025-07-15T17:00:00Z"
 		},
+		"availability": "rotator",
+		"endTime": "2025-07-15T17:00:00Z",
 		"type": "raid",
 		"typeDisplayProperties": {
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
@@ -2036,8 +2035,11 @@
 			}
 		],
 		"master": {
-			"activityHash": 3012587626
+			"activityHash": 3012587626,
+			"availability": "rotator"
 		},
+		"availability": "rotator",
+		"endTime": "2025-07-15T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -2337,8 +2339,8 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 89,
-			"next": "2025-07-08T17:00:00Z"
+			"current": 90,
+			"next": "2025-07-15T17:00:00Z"
 		},
 		"type": "raid",
 		"typeDisplayProperties": {
@@ -2483,11 +2485,8 @@
 			}
 		],
 		"master": {
-			"activityHash": 1112917203,
-			"availability": "rotator"
+			"activityHash": 1112917203
 		},
-		"availability": "rotator",
-		"endTime": "2025-07-08T17:00:00Z",
 		"type": "dungeon",
 		"typeDisplayProperties": {
 			"name": "Dungeon",
@@ -2775,21 +2774,21 @@
 		}
 	},
 	"exoticMission": {
-		"hash": 1221538367,
+		"hash": 509188661,
 		"displayProperties": {
-			"name": "Operation: Seraph's Shield",
-			"description": "Infiltrate Seraph Station in Earth's orbit to plant a virus in the Warsat network.",
+			"name": "//node.ovrd.AVALON//",
+			"description": "Investigate a Vex network node in the EDZ that has been overwritten with a single word: AVALON.",
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		},
 		"dropTable": {
-			"1473821207": {}
+			"3118061005": {}
 		},
 		"master": {
-			"activityHash": 2919809209,
+			"activityHash": 3951571983,
 			"availability": "rotator"
 		},
 		"availability": "rotator",
-		"endTime": "2025-07-08T17:00:00Z",
+		"endTime": "2025-07-15T17:00:00Z",
 		"type": "exotic-mission",
 		"typeDisplayProperties": {
 			"name": "Exotic Mission",
@@ -2797,50 +2796,11 @@
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_fbba06b79fd1752af47e133cce7a3f45.png"
 		}
 	},
-	"trials": {
-		"hash": 1090264270,
-		"displayProperties": {
-			"name": "Eventide Labs",
-			"description": "Rathmore Chaos, Europa",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
-		},
-		"dropTable": {
-			"51129316": {},
-			"113167959": {},
-			"155308388": {},
-			"501345268": {},
-			"511773064": {},
-			"548809020": {},
-			"792171868": {},
-			"958384347": {},
-			"1054377087": {},
-			"1435559164": {},
-			"1479465109": {},
-			"1661393678": {},
-			"1893967086": {},
-			"2022294213": {},
-			"2300143112": {},
-			"2330860573": {},
-			"2641704939": {},
-			"2751189771": {},
-			"2832013173": {},
-			"3969379530": {},
-			"4154074649": {}
-		},
-		"availability": "rotator",
-		"endTime": "2025-07-08T17:00:00Z",
-		"type": "trials",
-		"typeDisplayProperties": {
-			"name": "Trials of Osiris",
-			"description": "Eliminate your opponents or capture the zone to win. Earn as many round and match wins on a ticket as you can.",
-			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
-		}
-	},
 	"lostSector": {
-		"hash": 2504276276,
+		"hash": 2571435846,
 		"displayProperties": {
-			"name": "Exodus Garden 2A",
-			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Disruption] Overload\n\nThreat: [Void] Void\n\nShields: [Void] Void\n\nModifiers: Scorched Earth",
+			"name": "Aphelion's Rest",
+			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Disruption] Overload, [Stagger] Unstoppable\n\nThreat: [Stasis] Stasis\n\nShields: [Void] Void\n\nModifiers: Epitaph",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
 		},
 		"dropTable": {
@@ -2871,11 +2831,11 @@
 					"3583275737": {}
 				}
 			],
-			"current": 587,
-			"next": "2025-07-08T17:00:00Z"
+			"current": 588,
+			"next": "2025-07-09T17:00:00Z"
 		},
 		"availability": "rotator",
-		"endTime": "2025-07-08T17:00:00Z",
+		"endTime": "2025-07-09T17:00:00Z",
 		"type": "lost-sector",
 		"typeDisplayProperties": {
 			"name": "Lost Sector",
@@ -2884,26 +2844,26 @@
 		}
 	},
 	"nightfall": {
-		"hash": 808496216,
+		"hash": 3213068454,
 		"displayProperties": {
-			"description": "Stop the Shadow Legion from bringing down Neomuna's defenses.",
-			"name": "HyperNet Current",
+			"description": "Blitz the BrayTech Futurescape campus on Mars to repossess fragments of the submind Charlemagne's code.",
+			"name": "Heist Battleground: Mars",
 			"icon": "./image/png/activity/strike.png",
 			"hasIcon": true
 		},
 		"dropTable": {
 			"233635202": {},
-			"3922217119": {}
+			"1332123064": {}
 		},
 		"master": {
-			"activityHash": 2039642510,
+			"activityHash": 507866990,
 			"dropTable": {
-				"2347178967": {},
-				"2697143634": {}
+				"959037361": {},
+				"2347178967": {}
 			}
 		},
 		"availability": "rotator",
-		"endTime": "2025-07-08T17:00:00Z",
+		"endTime": "2025-07-15T17:00:00Z",
 		"type": "nightfall",
 		"typeDisplayProperties": {
 			"name": "Nightfall",
