@@ -2797,10 +2797,10 @@
 		}
 	},
 	"trials": {
-		"hash": 1229253616,
+		"hash": 176316743,
 		"displayProperties": {
-			"name": "The Burnout",
-			"description": "Vex Future, Infinite Forest",
+			"name": "Javelin-4",
+			"description": "Warsat Launch Facility, Io",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
 		},
 		"dropTable": {
@@ -2836,10 +2836,10 @@
 		}
 	},
 	"lostSector": {
-		"hash": 584726932,
+		"hash": 2875391872,
 		"displayProperties": {
-			"name": "Thrilladrome",
-			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Shield-Piercing] Barrier, [Disruption] Overload\n\nThreat: [Void] Void\n\nShields: [Arc] Arc, [Void] Void\n\nModifiers: Shocker",
+			"name": "The Broken Deep",
+			"description": "Expert Difficulty: Locked Equipment, Extra Shields\n\nChampions: [Disruption] Overload, [Stagger] Unstoppable\n\nThreat: [Strand] Strand\n\nShields: [Arc] Arc, [Solar] Solar\n\nModifiers: Epitaph, Chaff",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7d11acd7d5a3daebc0a0c906452932d6.png"
 		},
 		"dropTable": {
@@ -2870,11 +2870,11 @@
 					"3583275737": {}
 				}
 			],
-			"current": 592,
-			"next": "2025-07-13T17:00:00Z"
+			"current": 593,
+			"next": "2025-07-14T17:00:00Z"
 		},
 		"availability": "rotator",
-		"endTime": "2025-07-13T17:00:00Z",
+		"endTime": "2025-07-14T17:00:00Z",
 		"type": "lost-sector",
 		"typeDisplayProperties": {
 			"name": "Lost Sector",
