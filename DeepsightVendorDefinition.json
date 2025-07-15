@@ -108606,7 +108606,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-07-15T09:00:00Z",
+						"overrideNextRefreshDate": "2025-07-22T09:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -108660,13 +108660,13 @@
 					},
 					{
 						"displayProperties": {
-							"description": "Complete the following objectives in a single run of Dares of Eternity. Objectives will reset if not completed when the activity ends. \n\nDefeat combatants with Arc Swords, rapidly defeat combatants, and complete the activity with an impressive score.",
-							"name": "Balmung's Return",
+							"description": "Complete the following objectives in a single run of Dares of Eternity. Objectives will reset if not completed when the activity ends. \n\nDefeat combatants with grenade abilities or Grenade Launchers, rapidly defeat combatants, and complete the activity with an impressive score.",
+							"name": "Pins Pulled",
 							"icon": "/common/destiny2_content/icons/4d33e495f2c57892eab70dc46cf97591.jpg",
 							"hasIcon": true
 						},
-						"vendorItemIndex": 19,
-						"itemHash": 299576127,
+						"vendorItemIndex": 18,
+						"itemHash": 299576120,
 						"quantity": 1,
 						"failureIndexes": [
 							9,
@@ -108710,7 +108710,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-07-15T09:00:00Z",
+						"overrideNextRefreshDate": "2025-07-22T09:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
@@ -108815,7 +108815,7 @@
 						"expirationTooltip": "Expires X after purchase.",
 						"redirectToSaleIndexes": [],
 						"socketOverrides": [],
-						"overrideNextRefreshDate": "2025-07-15T09:00:00Z",
+						"overrideNextRefreshDate": "2025-07-22T09:00:00Z",
 						"apiPurchasable": true,
 						"costs": [
 							{
