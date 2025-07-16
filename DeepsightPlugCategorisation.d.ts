@@ -33,6 +33,8 @@ export declare const enum DeepsightPlugTypeIntrinsic {
 	ArmorLegacy,
 	Shaped,
 	EmptyCraftingSocket,
+	ArmorStat,
+	ArmorArchetype,
 }
 
 export declare const enum DeepsightPlugTypePerk {
@@ -63,6 +65,8 @@ export declare const enum DeepsightPlugTypePerk {
 	EmptyCraftingSocket,
 	EmblemAura,
 	Random,
+	Rail,
+	Bolt,
 }
 
 export declare const enum DeepsightPlugTypeMod {
@@ -80,6 +84,9 @@ export declare const enum DeepsightPlugTypeMod {
 	Fallback,
 	ArmorLocked,
 	ArmorExotic,
+	ArmorStatTuning,
+	GhostDeprecated,
+	WeaponEnhanced,
 }
 
 export declare const enum DeepsightPlugTypeSubclass {
@@ -251,7 +258,6 @@ export declare interface DeepsightPlugCategorisationMod extends DeepsightPlugCat
 export declare interface DeepsightPlugCategorisationSubclass extends DeepsightPlugCategorisationGeneric<DeepsightPlugCategory.Subclass> {
 	damageType?: DamageTypeHashes;
 	subclasses?: InventoryItemHashes[];
-	affectsClassStat?: true;
 }
 
 interface DeepsightPlugCategorisationMap {

@@ -33,6 +33,8 @@ export enum DeepsightPlugTypeIntrinsic {
 	ArmorLegacy,
 	Shaped,
 	EmptyCraftingSocket,
+	ArmorStat,
+	ArmorArchetype,
 }
 
 export enum DeepsightPlugTypePerk {
@@ -63,6 +65,8 @@ export enum DeepsightPlugTypePerk {
 	EmptyCraftingSocket,
 	EmblemAura,
 	Random,
+	Rail,
+	Bolt,
 }
 
 export enum DeepsightPlugTypeMod {
@@ -80,6 +84,9 @@ export enum DeepsightPlugTypeMod {
 	Fallback,
 	ArmorLocked,
 	ArmorExotic,
+	ArmorStatTuning,
+	GhostDeprecated,
+	WeaponEnhanced,
 }
 
 export enum DeepsightPlugTypeSubclass {
@@ -251,7 +258,6 @@ export interface DeepsightPlugCategorisationMod extends DeepsightPlugCategorisat
 export interface DeepsightPlugCategorisationSubclass extends DeepsightPlugCategorisationGeneric<DeepsightPlugCategory.Subclass> {
 	damageType?: DamageTypeHashes;
 	subclasses?: InventoryItemHashes[];
-	affectsClassStat?: true;
 }
 
 interface DeepsightPlugCategorisationMap {

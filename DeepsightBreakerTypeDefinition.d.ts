@@ -15,7 +15,6 @@ export declare const enum BreakerSource {
 	VolatileRounds,
 	Suppress,
 
-	Slow,
 	Freeze,
 	StasisCrystal,
 
