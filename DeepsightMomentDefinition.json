@@ -15,7 +15,6 @@
 		"id": "crimsondays",
 		"displayProperties": {
 			"name": "Crimson Days",
-			"icon": "./image/svg/moment/crimsondays.svg",
 			"description": ""
 		},
 		"iconWatermark": "/common/destiny2_content/icons/fe8bcc20fbfaf4cac69dfb640bb0b84e.png",
@@ -63,8 +62,7 @@
 		"id": "redwar",
 		"displayProperties": {
 			"name": "The Red War",
-			"description": "Includes the Red War story campaign.\n\nHumanity's Last Safe City has fallen to an overwhelming invasion force led by Dominus Ghaul, the imposing commander of the brutal Red Legion. He has stripped the City's Guardians of their power and forced the survivors to flee. You will venture to mysterious, unexplored worlds of our solar system to discover an arsenal of devastating weapons and powerful armor.\n\nYou can pick up this quest from Amanda Holliday in the Tower Hangar.",
-			"icon": "/common/destiny2_content/icons/b48ac90c9e677470087c71e58f9b2d47.png"
+			"description": "Includes the Red War story campaign.\n\nHumanity's Last Safe City has fallen to an overwhelming invasion force led by Dominus Ghaul, the imposing commander of the brutal Red Legion. He has stripped the City's Guardians of their power and forced the survivors to flee. You will venture to mysterious, unexplored worlds of our solar system to discover an arsenal of devastating weapons and powerful armor.\n\nYou can pick up this quest from Amanda Holliday in the Tower Hangar."
 		},
 		"iconWatermark": "/common/destiny2_content/icons/4f28dc0f39238fe25d298a894ea71389.png",
 		"expansion": true,
@@ -76,24 +74,22 @@
 	},
 	"6": {
 		"id": "osiris",
-		"displayProperties": {
-			"icon": "./image/svg/moment/osiris.svg",
-			"name": "Curse of Osiris",
-			"description": "A new season has begun! Venture into the Infinite Forest, uncover the mysteries of Osiris, and seek new challenges on Mercury."
-		},
 		"iconWatermark": "/common/destiny2_content/icons/7ba9d804508dd083ec20fcdb8ba0869d.png",
 		"expansion": true,
 		"season": 2,
 		"year": 1,
 		"seasonHash": 2973407602,
 		"hash": 6,
-		"iconWatermarkShelved": "/common/destiny2_content/icons/95b4ece09fb7ba577ed5a0c440042d0e.png"
+		"iconWatermarkShelved": "/common/destiny2_content/icons/95b4ece09fb7ba577ed5a0c440042d0e.png",
+		"displayProperties": {
+			"name": "Curse of Osiris",
+			"description": "A new season has begun! Venture into the Infinite Forest, uncover the mysteries of Osiris, and seek new challenges on Mercury."
+		}
 	},
 	"7": {
 		"id": "warmind",
 		"displayProperties": {
 			"name": "Warmind",
-			"icon": "./image/svg/moment/warmind.svg",
 			"description": "A new season has begun! Search for relics of the past, learn the secrets of Rasputin, and unearth things long forgotten beneath the frozen surface of Mars."
 		},
 		"iconWatermark": "/common/destiny2_content/icons/da5f961ef97b78293cc498978c10e178.png",
@@ -111,8 +107,7 @@
 		],
 		"displayProperties": {
 			"name": "Forsaken",
-			"description": "Return to the Reef, a lawless frontier and home to a broken people.\n\nHunt down a murderer and his gang, ally with the underbelly of the system, and walk the wrong side of right to see justice served.",
-			"icon": "./image/svg/moment/forsaken.svg"
+			"description": "Return to the Reef, a lawless frontier and home to a broken people.\n\nHunt down a murderer and his gang, ally with the underbelly of the system, and walk the wrong side of right to see justice served."
 		},
 		"iconWatermark": "/common/destiny2_content/icons/aeb95eb1abe8e45e1fe2573d6b3ab3c5.png",
 		"expansion": true,
@@ -124,52 +119,48 @@
 	},
 	"10": {
 		"id": "forge",
-		"displayProperties": {
-			"icon": "./image/svg/moment/forge.svg",
-			"name": "Season of the Forge",
-			"description": "A new season has begun! Rediscover the glories of the past and acquire beautiful new instruments of destruction."
-		},
 		"iconWatermark": "/common/destiny2_content/icons/e0c16042274fd7d9cbffc4489e340c5d.png",
 		"season": 5,
 		"year": 2,
 		"seasonHash": 2236269318,
 		"hash": 10,
-		"iconWatermarkShelved": "/common/destiny2_content/icons/3baa918ed7dd95f509ee3eaecdc1e5b3.png"
+		"iconWatermarkShelved": "/common/destiny2_content/icons/3baa918ed7dd95f509ee3eaecdc1e5b3.png",
+		"displayProperties": {
+			"name": "Season of the Forge",
+			"description": "A new season has begun! Rediscover the glories of the past and acquire beautiful new instruments of destruction."
+		}
 	},
 	"11": {
 		"id": "drifter",
-		"displayProperties": {
-			"icon": "./image/svg/moment/drifter.svg",
-			"name": "Season of the Drifter",
-			"description": "A new season has begun! Choose what kind of Guardian you will become. Reckon with the path that lies ahead."
-		},
 		"iconWatermark": "/common/destiny2_content/icons/2c022e452f395db7b1daec1cb44631fc.png",
 		"season": 6,
 		"year": 2,
 		"seasonHash": 2891088360,
 		"hash": 11,
-		"iconWatermarkShelved": "/common/destiny2_content/icons/a501d8889d7d89d44e87727218260754.png"
+		"iconWatermarkShelved": "/common/destiny2_content/icons/a501d8889d7d89d44e87727218260754.png",
+		"displayProperties": {
+			"name": "Season of the Drifter",
+			"description": "A new season has begun! Choose what kind of Guardian you will become. Reckon with the path that lies ahead."
+		}
 	},
 	"12": {
 		"id": "opulence",
-		"displayProperties": {
-			"icon": "./image/svg/moment/opulence.svg",
-			"name": "Season of Opulence",
-			"description": "A new season has begun! Lavish yourself in gifts from the mighty Emperor Calus. Seek lost treasures throughout the system."
-		},
 		"iconWatermark": "/common/destiny2_content/icons/58d3ec8338cc9746a2e0cf901fbcec0e.png",
 		"season": 7,
 		"year": 2,
 		"seasonHash": 4275747712,
 		"hash": 12,
-		"iconWatermarkShelved": "/common/destiny2_content/icons/851d625c6dddb90b6be61a68b4645deb.png"
+		"iconWatermarkShelved": "/common/destiny2_content/icons/851d625c6dddb90b6be61a68b4645deb.png",
+		"displayProperties": {
+			"name": "Season of Opulence",
+			"description": "A new season has begun! Lavish yourself in gifts from the mighty Emperor Calus. Seek lost treasures throughout the system."
+		}
 	},
 	"13": {
 		"id": "shadowkeep",
 		"displayProperties": {
 			"name": "Shadowkeep",
-			"description": "New nightmares have emerged from the shadows of our Moon. Called forth by haunting visions, Eris Morn has returned. Join her to slay these nightmares before they reach out beyond the Moon to cast humanity back into an age of darkness.",
-			"icon": "./image/svg/moment/shadowkeep.svg"
+			"description": "New nightmares have emerged from the shadows of our Moon. Called forth by haunting visions, Eris Morn has returned. Join her to slay these nightmares before they reach out beyond the Moon to cast humanity back into an age of darkness."
 		},
 		"iconWatermark": "/common/destiny2_content/icons/a15754752f40aaf7b1b00aadb70a8f35.png",
 		"expansion": true,
@@ -179,45 +170,44 @@
 	},
 	"14": {
 		"id": "undying",
-		"displayProperties": {
-			"icon": "./image/svg/moment/undying.svg",
-			"name": "Season of the Undying",
-			"description": "…in circles. Ancient enemies return to plague old battlegrounds. Time moves…"
-		},
 		"iconWatermark": "/common/destiny2_content/icons/0b212b58a961f150708bca95095e0ecb.png",
 		"season": 8,
 		"year": 3,
 		"seasonHash": 1743682818,
 		"hash": 14,
-		"iconWatermarkShelved": "/common/destiny2_content/icons/8ab1d58ebd3945a5686eec7575eb2f0a.png"
+		"iconWatermarkShelved": "/common/destiny2_content/icons/8ab1d58ebd3945a5686eec7575eb2f0a.png",
+		"displayProperties": {
+			"name": "Season of the Undying",
+			"description": "…in circles. Ancient enemies return to plague old battlegrounds. Time moves…",
+			"icon": "/common/destiny2_content/icons/DestinySeasonDefinition_b45d3d6ae817684a98d69aa44fc8ce58.png"
+		}
 	},
 	"15": {
 		"id": "dawn",
-		"displayProperties": {
-			"icon": "./image/svg/moment/dawn.svg",
-			"name": "Season of Dawn",
-			"description": "Re-entwine the strands of time on Mercury and ignite the flames of hope."
-		},
 		"iconWatermark": "/common/destiny2_content/icons/ede19a0e1a54564243b0e5e8a18bde84.png",
 		"season": 9,
 		"year": 3,
 		"seasonHash": 1743682819,
 		"hash": 15,
-		"iconWatermarkShelved": "/common/destiny2_content/icons/5fed5e618423591a8cf4bd66a4f69c97.png"
+		"iconWatermarkShelved": "/common/destiny2_content/icons/5fed5e618423591a8cf4bd66a4f69c97.png",
+		"displayProperties": {
+			"name": "Season of Dawn",
+			"description": "Re-entwine the strands of time on Mercury and ignite the flames of hope.",
+			"icon": "/common/destiny2_content/icons/DestinySeasonDefinition_b5a0daa606e06eb6ec2bca66c7572a26.png"
+		}
 	},
 	"16": {
 		"id": "worthy",
-		"displayProperties": {
-			"icon": "./image/svg/moment/worthy.svg",
-			"name": "Season of the Worthy",
-			"description": "With the Almighty bearing down on the Last City, Guardians from all walks of life unite to bring all their power to bear against the Cabal sun-killer and forge new bonds with old rivals."
-		},
 		"iconWatermark": "/common/destiny2_content/icons/247715dd42abef457b52ef37280c0e42.png",
 		"season": 10,
 		"year": 3,
 		"seasonHash": 2809059425,
 		"hash": 16,
-		"iconWatermarkShelved": "/common/destiny2_content/icons/4487c1c73c54e95ea54142058c0e1cae.png"
+		"iconWatermarkShelved": "/common/destiny2_content/icons/4487c1c73c54e95ea54142058c0e1cae.png",
+		"displayProperties": {
+			"name": "Season of the Worthy",
+			"description": "With the Almighty bearing down on the Last City, Guardians from all walks of life unite to bring all their power to bear against the Cabal sun-killer and forge new bonds with old rivals."
+		}
 	},
 	"17": {
 		"id": "arrivals",
@@ -237,8 +227,7 @@
 		"id": "beyondlight",
 		"displayProperties": {
 			"name": "Beyond Light",
-			"description": "Go beyond the Light and discover dark secrets held within the frozen frontier of Europa.",
-			"icon": "/common/destiny2_content/icons/7704bec77be6fc4b696d0849679bc815.png"
+			"description": "Go beyond the Light and discover dark secrets held within the frozen frontier of Europa."
 		},
 		"iconWatermark": "/common/destiny2_content/icons/bce51cf90464e28026140df77c4eb6ce.png",
 		"expansion": true,
@@ -306,8 +295,7 @@
 		"id": "30th",
 		"displayProperties": {
 			"name": "Bungie 30th Anniversary",
-			"description": "Celebrate Bungie's 30th Anniversary with a new dungeon, the Gjallarhorn Exotic Rocket Launcher, Thorn armor set, and an arsenal of weapons, gear, and cosmetics from classic Bungie games.",
-			"icon": "/common/destiny2_content/icons/ed7e19a3231e2eca90ae271960c1ed9c.png"
+			"description": "Celebrate Bungie's 30th Anniversary with a new dungeon, the Gjallarhorn Exotic Rocket Launcher, Thorn armor set, and an arsenal of weapons, gear, and cosmetics from classic Bungie games."
 		},
 		"iconWatermark": "/common/destiny2_content/icons/bcc26708e314306fb2fc8cb98fcbf47e.png",
 		"expansion": true,
@@ -319,8 +307,7 @@
 		"id": "witchqueen",
 		"displayProperties": {
 			"name": "The Witch Queen",
-			"description": "Delve into Savathûn's surreal throne world to uncover hidden memories and expose a web of lies.",
-			"icon": "/common/destiny2_content/icons/0e888294099a744d0a42bfaa7bf1d216.png"
+			"description": "Delve into Savathûn's surreal throne world to uncover hidden memories and expose a web of lies."
 		},
 		"iconWatermark": "/common/destiny2_content/icons/0b441021fbc328e6d0e2abc895f5c96e.png",
 		"expansion": true,
@@ -395,8 +382,7 @@
 		"id": "lightfall",
 		"displayProperties": {
 			"name": "Lightfall",
-			"description": "The Witness has arrived, threatening the City, the Traveler, and all of Sol. Aided by its newest disciple, Emperor Calus, the Witness aims to bring about a second collapse.\n\nRace Emperor Calus to the edge of the solar system. Learn the ways of the Cloud Striders, wield Strand, a new power of the Darkness, and bring an end to Calus's reign.",
-			"icon": "./image/svg/moment/lightfall.svg"
+			"description": "The Witness has arrived, threatening the City, the Traveler, and all of Sol. Aided by its newest disciple, Emperor Calus, the Witness aims to bring about a second collapse.\n\nRace Emperor Calus to the edge of the solar system. Learn the ways of the Cloud Striders, wield Strand, a new power of the Darkness, and bring an end to Calus's reign."
 		},
 		"iconWatermark": "/common/destiny2_content/icons/fc02418ad2002351a3f88faa5b14eb88.png",
 		"expansion": true,
@@ -464,8 +450,7 @@
 		"id": "intothelight",
 		"displayProperties": {
 			"name": "Into the Light",
-			"description": "The Witness's forces swell across Sol in unparalleled numbers. Arm yourself with Shaxx’s armory, and repel waves of the Witness’s forces in the new Onslaught PvE Activity.",
-			"icon": "/common/destiny2_content/icons/c0f7303fe5e0d0a54d7aadf1277f0488.png"
+			"description": "The Witness's forces swell across Sol in unparalleled numbers. Arm yourself with Shaxx’s armory, and repel waves of the Witness’s forces in the new Onslaught PvE Activity."
 		},
 		"iconWatermark": "/common/destiny2_content/icons/60d34bc853c51063b79592233c3661d4.png",
 		"expansion": true,
@@ -535,8 +520,7 @@
 		"id": "riteofthenine",
 		"displayProperties": {
 			"name": "Rite of the Nine",
-			"description": "The Emmisary brings you a message from The Nine. They put forth a challenge to the Lightbearers — We ask: make known your value, so divided gods may wield you in time.",
-			"icon": "/common/destiny2_content/icons/fb3f9c054e9c464e5db7553233e6fe16.png"
+			"description": "The Emmisary brings you a message from The Nine. They put forth a challenge to the Lightbearers — We ask: make known your value, so divided gods may wield you in time."
 		},
 		"iconWatermark": "/common/destiny2_content/icons/0d6c3365022ed3b059eac467b076978f.png",
 		"year": 7,
