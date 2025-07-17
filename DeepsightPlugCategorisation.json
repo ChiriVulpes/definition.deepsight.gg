@@ -1326,10 +1326,10 @@
 	"52802868": {
 		"hash": 52802868,
 		"category": 2,
-		"type": 13,
+		"type": 39,
 		"categoryName": "Perk",
-		"typeName": "Arrow",
-		"fullName": "Perk/Arrow"
+		"typeName": "ArrowEnhanced",
+		"fullName": "Perk/ArrowEnhanced"
 	},
 	"53292762": {
 		"hash": 53292762,
@@ -2731,10 +2731,10 @@
 	"111235976": {
 		"hash": 111235976,
 		"category": 2,
-		"type": 5,
+		"type": 32,
 		"categoryName": "Perk",
-		"typeName": "Barrel",
-		"fullName": "Perk/Barrel"
+		"typeName": "BarrelEnhanced",
+		"fullName": "Perk/BarrelEnhanced"
 	},
 	"113167959": {
 		"hash": 113167959,
@@ -3117,10 +3117,10 @@
 	"125241418": {
 		"hash": 125241418,
 		"category": 2,
-		"type": 11,
+		"type": 37,
 		"categoryName": "Perk",
-		"typeName": "Guard",
-		"fullName": "Perk/Guard"
+		"typeName": "GuardEnhanced",
+		"fullName": "Perk/GuardEnhanced"
 	},
 	"125496503": {
 		"hash": 125496503,
@@ -3390,10 +3390,10 @@
 	"137682932": {
 		"hash": 137682932,
 		"category": 2,
-		"type": 14,
+		"type": 40,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazine",
-		"fullName": "Perk/GrenadeLauncherMagazine"
+		"typeName": "GrenadeLauncherMagazineEnhanced",
+		"fullName": "Perk/GrenadeLauncherMagazineEnhanced"
 	},
 	"137876701": {
 		"hash": 137876701,
@@ -3923,10 +3923,10 @@
 	"155346308": {
 		"hash": 155346308,
 		"category": 2,
-		"type": 9,
+		"type": 35,
 		"categoryName": "Perk",
-		"typeName": "Stock",
-		"fullName": "Perk/Stock"
+		"typeName": "StockEnhanced",
+		"fullName": "Perk/StockEnhanced"
 	},
 	"155955678": {
 		"hash": 155955678,
@@ -4896,10 +4896,10 @@
 	"197518367": {
 		"hash": 197518367,
 		"category": 2,
-		"type": 8,
+		"type": 34,
 		"categoryName": "Perk",
-		"typeName": "Grip",
-		"fullName": "Perk/Grip"
+		"typeName": "GripEnhanced",
+		"fullName": "Perk/GripEnhanced"
 	},
 	"197672677": {
 		"hash": 197672677,
@@ -5434,10 +5434,10 @@
 	"223754954": {
 		"hash": 223754954,
 		"category": 2,
-		"type": 8,
+		"type": 34,
 		"categoryName": "Perk",
-		"typeName": "Grip",
-		"fullName": "Perk/Grip"
+		"typeName": "GripEnhanced",
+		"fullName": "Perk/GripEnhanced"
 	},
 	"223776600": {
 		"hash": 223776600,
@@ -5654,10 +5654,10 @@
 	"234526563": {
 		"hash": 234526563,
 		"category": 2,
-		"type": 27,
+		"type": 29,
 		"categoryName": "Perk",
-		"typeName": "Rail",
-		"fullName": "Perk/Rail"
+		"typeName": "RailEnhanced",
+		"fullName": "Perk/RailEnhanced"
 	},
 	"234582860": {
 		"hash": 234582860,
@@ -6846,10 +6846,10 @@
 	"274905539": {
 		"hash": 274905539,
 		"category": 2,
-		"type": 14,
+		"type": 40,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazine",
-		"fullName": "Perk/GrenadeLauncherMagazine"
+		"typeName": "GrenadeLauncherMagazineEnhanced",
+		"fullName": "Perk/GrenadeLauncherMagazineEnhanced"
 	},
 	"275145509": {
 		"hash": 275145509,
@@ -7332,10 +7332,10 @@
 	"290984395": {
 		"hash": 290984395,
 		"category": 2,
-		"type": 9,
+		"type": 35,
 		"categoryName": "Perk",
-		"typeName": "Stock",
-		"fullName": "Perk/Stock"
+		"typeName": "StockEnhanced",
+		"fullName": "Perk/StockEnhanced"
 	},
 	"291384463": {
 		"hash": 291384463,
@@ -9143,10 +9143,10 @@
 	"373417387": {
 		"hash": 373417387,
 		"category": 2,
-		"type": 15,
+		"type": 41,
 		"categoryName": "Perk",
-		"typeName": "Tube",
-		"fullName": "Perk/Tube"
+		"typeName": "TubeEnhanced",
+		"fullName": "Perk/TubeEnhanced"
 	},
 	"373634602": {
 		"hash": 373634602,
@@ -9992,10 +9992,10 @@
 	"409713597": {
 		"hash": 409713597,
 		"category": 2,
-		"type": 14,
+		"type": 40,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazine",
-		"fullName": "Perk/GrenadeLauncherMagazine"
+		"typeName": "GrenadeLauncherMagazineEnhanced",
+		"fullName": "Perk/GrenadeLauncherMagazineEnhanced"
 	},
 	"409820272": {
 		"hash": 409820272,
@@ -12374,10 +12374,10 @@
 	"494745090": {
 		"hash": 494745090,
 		"category": 2,
-		"type": 7,
+		"type": 33,
 		"categoryName": "Perk",
-		"typeName": "Magazine",
-		"fullName": "Perk/Magazine"
+		"typeName": "MagazineEnhanced",
+		"fullName": "Perk/MagazineEnhanced"
 	},
 	"494781965": {
 		"hash": 494781965,
@@ -13802,10 +13802,10 @@
 	"550838496": {
 		"hash": 550838496,
 		"category": 2,
-		"type": 7,
+		"type": 33,
 		"categoryName": "Perk",
-		"typeName": "Magazine",
-		"fullName": "Perk/Magazine"
+		"typeName": "MagazineEnhanced",
+		"fullName": "Perk/MagazineEnhanced"
 	},
 	"552112621": {
 		"hash": 552112621,
@@ -14046,10 +14046,10 @@
 	"564443854": {
 		"hash": 564443854,
 		"category": 2,
-		"type": 15,
+		"type": 41,
 		"categoryName": "Perk",
-		"typeName": "Tube",
-		"fullName": "Perk/Tube"
+		"typeName": "TubeEnhanced",
+		"fullName": "Perk/TubeEnhanced"
 	},
 	"564463357": {
 		"hash": 564463357,
@@ -14486,10 +14486,10 @@
 	"582768348": {
 		"hash": 582768348,
 		"category": 2,
-		"type": 15,
+		"type": 41,
 		"categoryName": "Perk",
-		"typeName": "Tube",
-		"fullName": "Perk/Tube"
+		"typeName": "TubeEnhanced",
+		"fullName": "Perk/TubeEnhanced"
 	},
 	"583145321": {
 		"hash": 583145321,
@@ -14888,10 +14888,10 @@
 	"600923142": {
 		"hash": 600923142,
 		"category": 2,
-		"type": 28,
+		"type": 30,
 		"categoryName": "Perk",
-		"typeName": "Bolt",
-		"fullName": "Perk/Bolt"
+		"typeName": "BoltEnhanced",
+		"fullName": "Perk/BoltEnhanced"
 	},
 	"601360799": {
 		"hash": 601360799,
@@ -18111,10 +18111,10 @@
 	"745577913": {
 		"hash": 745577913,
 		"category": 2,
-		"type": 14,
+		"type": 40,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazine",
-		"fullName": "Perk/GrenadeLauncherMagazine"
+		"typeName": "GrenadeLauncherMagazineEnhanced",
+		"fullName": "Perk/GrenadeLauncherMagazineEnhanced"
 	},
 	"745725302": {
 		"hash": 745725302,
@@ -18510,10 +18510,10 @@
 	"766579919": {
 		"hash": 766579919,
 		"category": 2,
-		"type": 10,
+		"type": 36,
 		"categoryName": "Perk",
-		"typeName": "Blade",
-		"fullName": "Perk/Blade"
+		"typeName": "BladeEnhanced",
+		"fullName": "Perk/BladeEnhanced"
 	},
 	"766618550": {
 		"hash": 766618550,
@@ -22015,10 +22015,10 @@
 	"905499626": {
 		"hash": 905499626,
 		"category": 2,
-		"type": 5,
+		"type": 32,
 		"categoryName": "Perk",
-		"typeName": "Barrel",
-		"fullName": "Perk/Barrel"
+		"typeName": "BarrelEnhanced",
+		"fullName": "Perk/BarrelEnhanced"
 	},
 	"905637376": {
 		"hash": 905637376,
@@ -24170,10 +24170,10 @@
 	"1002206008": {
 		"hash": 1002206008,
 		"category": 2,
-		"type": 7,
+		"type": 33,
 		"categoryName": "Perk",
-		"typeName": "Magazine",
-		"fullName": "Perk/Magazine"
+		"typeName": "MagazineEnhanced",
+		"fullName": "Perk/MagazineEnhanced"
 	},
 	"1002555530": {
 		"hash": 1002555530,
@@ -25864,10 +25864,10 @@
 	"1065371964": {
 		"hash": 1065371964,
 		"category": 2,
-		"type": 7,
+		"type": 33,
 		"categoryName": "Perk",
-		"typeName": "Magazine",
-		"fullName": "Perk/Magazine"
+		"typeName": "MagazineEnhanced",
+		"fullName": "Perk/MagazineEnhanced"
 	},
 	"1065458782": {
 		"hash": 1065458782,
@@ -26769,10 +26769,10 @@
 	"1111219233": {
 		"hash": 1111219233,
 		"category": 2,
-		"type": 13,
+		"type": 39,
 		"categoryName": "Perk",
-		"typeName": "Arrow",
-		"fullName": "Perk/Arrow"
+		"typeName": "ArrowEnhanced",
+		"fullName": "Perk/ArrowEnhanced"
 	},
 	"1113207372": {
 		"hash": 1113207372,
@@ -26971,10 +26971,10 @@
 	"1124871858": {
 		"hash": 1124871858,
 		"category": 2,
-		"type": 5,
+		"type": 32,
 		"categoryName": "Perk",
-		"typeName": "Barrel",
-		"fullName": "Perk/Barrel"
+		"typeName": "BarrelEnhanced",
+		"fullName": "Perk/BarrelEnhanced"
 	},
 	"1125064385": {
 		"hash": 1125064385,
@@ -27540,10 +27540,10 @@
 	"1147230557": {
 		"hash": 1147230557,
 		"category": 2,
-		"type": 5,
+		"type": 32,
 		"categoryName": "Perk",
-		"typeName": "Barrel",
-		"fullName": "Perk/Barrel"
+		"typeName": "BarrelEnhanced",
+		"fullName": "Perk/BarrelEnhanced"
 	},
 	"1147638875": {
 		"hash": 1147638875,
@@ -30343,10 +30343,10 @@
 	"1279785143": {
 		"hash": 1279785143,
 		"category": 2,
-		"type": 6,
+		"type": 43,
 		"categoryName": "Perk",
-		"typeName": "Battery",
-		"fullName": "Perk/Battery"
+		"typeName": "BatteryEnhanced",
+		"fullName": "Perk/BatteryEnhanced"
 	},
 	"1280248869": {
 		"hash": 1280248869,
@@ -31275,10 +31275,10 @@
 	"1301083363": {
 		"hash": 1301083363,
 		"category": 2,
-		"type": 12,
+		"type": 42,
 		"categoryName": "Perk",
-		"typeName": "Bowstring",
-		"fullName": "Perk/Bowstring"
+		"typeName": "BowstringEnhanced",
+		"fullName": "Perk/BowstringEnhanced"
 	},
 	"1301391064": {
 		"hash": 1301391064,
@@ -34860,10 +34860,10 @@
 	"1439751480": {
 		"hash": 1439751480,
 		"category": 2,
-		"type": 14,
+		"type": 40,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazine",
-		"fullName": "Perk/GrenadeLauncherMagazine"
+		"typeName": "GrenadeLauncherMagazineEnhanced",
+		"fullName": "Perk/GrenadeLauncherMagazineEnhanced"
 	},
 	"1440616900": {
 		"hash": 1440616900,
@@ -35429,10 +35429,10 @@
 	"1465283453": {
 		"hash": 1465283453,
 		"category": 2,
-		"type": 27,
+		"type": 29,
 		"categoryName": "Perk",
-		"typeName": "Rail",
-		"fullName": "Perk/Rail"
+		"typeName": "RailEnhanced",
+		"fullName": "Perk/RailEnhanced"
 	},
 	"1465405235": {
 		"hash": 1465405235,
@@ -36066,10 +36066,10 @@
 	"1488599449": {
 		"hash": 1488599449,
 		"category": 2,
-		"type": 7,
+		"type": 33,
 		"categoryName": "Perk",
-		"typeName": "Magazine",
-		"fullName": "Perk/Magazine"
+		"typeName": "MagazineEnhanced",
+		"fullName": "Perk/MagazineEnhanced"
 	},
 	"1488618333": {
 		"hash": 1488618333,
@@ -36351,10 +36351,10 @@
 	"1498024248": {
 		"hash": 1498024248,
 		"category": 2,
-		"type": 10,
+		"type": 36,
 		"categoryName": "Perk",
-		"typeName": "Blade",
-		"fullName": "Perk/Blade"
+		"typeName": "BladeEnhanced",
+		"fullName": "Perk/BladeEnhanced"
 	},
 	"1498689021": {
 		"hash": 1498689021,
@@ -37036,10 +37036,10 @@
 	"1529576681": {
 		"hash": 1529576681,
 		"category": 2,
-		"type": 8,
+		"type": 34,
 		"categoryName": "Perk",
-		"typeName": "Grip",
-		"fullName": "Perk/Grip"
+		"typeName": "GripEnhanced",
+		"fullName": "Perk/GripEnhanced"
 	},
 	"1529650477": {
 		"hash": 1529650477,
@@ -39670,10 +39670,10 @@
 	"1639399262": {
 		"hash": 1639399262,
 		"category": 2,
-		"type": 15,
+		"type": 41,
 		"categoryName": "Perk",
-		"typeName": "Tube",
-		"fullName": "Perk/Tube"
+		"typeName": "TubeEnhanced",
+		"fullName": "Perk/TubeEnhanced"
 	},
 	"1640013310": {
 		"hash": 1640013310,
@@ -39849,10 +39849,10 @@
 	"1649480699": {
 		"hash": 1649480699,
 		"category": 2,
-		"type": 13,
+		"type": 39,
 		"categoryName": "Perk",
-		"typeName": "Arrow",
-		"fullName": "Perk/Arrow"
+		"typeName": "ArrowEnhanced",
+		"fullName": "Perk/ArrowEnhanced"
 	},
 	"1649663920": {
 		"hash": 1649663920,
@@ -41250,10 +41250,10 @@
 	"1709045111": {
 		"hash": 1709045111,
 		"category": 2,
-		"type": 7,
+		"type": 33,
 		"categoryName": "Perk",
-		"typeName": "Magazine",
-		"fullName": "Perk/Magazine"
+		"typeName": "MagazineEnhanced",
+		"fullName": "Perk/MagazineEnhanced"
 	},
 	"1709236482": {
 		"hash": 1709236482,
@@ -42895,10 +42895,10 @@
 	"1777340333": {
 		"hash": 1777340333,
 		"category": 2,
-		"type": 12,
+		"type": 42,
 		"categoryName": "Perk",
-		"typeName": "Bowstring",
-		"fullName": "Perk/Bowstring"
+		"typeName": "BowstringEnhanced",
+		"fullName": "Perk/BowstringEnhanced"
 	},
 	"1778619592": {
 		"hash": 1778619592,
@@ -43038,10 +43038,10 @@
 	"1783397184": {
 		"hash": 1783397184,
 		"category": 2,
-		"type": 7,
+		"type": 33,
 		"categoryName": "Perk",
-		"typeName": "Magazine",
-		"fullName": "Perk/Magazine"
+		"typeName": "MagazineEnhanced",
+		"fullName": "Perk/MagazineEnhanced"
 	},
 	"1783582993": {
 		"hash": 1783582993,
@@ -43248,10 +43248,10 @@
 	"1796628141": {
 		"hash": 1796628141,
 		"category": 2,
-		"type": 13,
+		"type": 39,
 		"categoryName": "Perk",
-		"typeName": "Arrow",
-		"fullName": "Perk/Arrow"
+		"typeName": "ArrowEnhanced",
+		"fullName": "Perk/ArrowEnhanced"
 	},
 	"1797562252": {
 		"hash": 1797562252,
@@ -43362,10 +43362,10 @@
 	"1802305063": {
 		"hash": 1802305063,
 		"category": 2,
-		"type": 14,
+		"type": 40,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazine",
-		"fullName": "Perk/GrenadeLauncherMagazine"
+		"typeName": "GrenadeLauncherMagazineEnhanced",
+		"fullName": "Perk/GrenadeLauncherMagazineEnhanced"
 	},
 	"1803434835": {
 		"hash": 1803434835,
@@ -43462,10 +43462,10 @@
 	"1807273211": {
 		"hash": 1807273211,
 		"category": 2,
-		"type": 7,
+		"type": 33,
 		"categoryName": "Perk",
-		"typeName": "Magazine",
-		"fullName": "Perk/Magazine"
+		"typeName": "MagazineEnhanced",
+		"fullName": "Perk/MagazineEnhanced"
 	},
 	"1807439481": {
 		"hash": 1807439481,
@@ -44249,10 +44249,10 @@
 	"1834828808": {
 		"hash": 1834828808,
 		"category": 2,
-		"type": 16,
+		"type": 38,
 		"categoryName": "Perk",
-		"typeName": "Haft",
-		"fullName": "Perk/Haft"
+		"typeName": "HaftEnhanced",
+		"fullName": "Perk/HaftEnhanced"
 	},
 	"1835369552": {
 		"hash": 1835369552,
@@ -45160,10 +45160,10 @@
 	"1871180748": {
 		"hash": 1871180748,
 		"category": 2,
-		"type": 5,
+		"type": 32,
 		"categoryName": "Perk",
-		"typeName": "Barrel",
-		"fullName": "Perk/Barrel"
+		"typeName": "BarrelEnhanced",
+		"fullName": "Perk/BarrelEnhanced"
 	},
 	"1871253230": {
 		"hash": 1871253230,
@@ -45616,10 +45616,10 @@
 	"1890997540": {
 		"hash": 1890997540,
 		"category": 2,
-		"type": 7,
+		"type": 33,
 		"categoryName": "Perk",
-		"typeName": "Magazine",
-		"fullName": "Perk/Magazine"
+		"typeName": "MagazineEnhanced",
+		"fullName": "Perk/MagazineEnhanced"
 	},
 	"1891148055": {
 		"hash": 1891148055,
@@ -46670,10 +46670,10 @@
 	"1932356121": {
 		"hash": 1932356121,
 		"category": 2,
-		"type": 5,
+		"type": 32,
 		"categoryName": "Perk",
-		"typeName": "Barrel",
-		"fullName": "Perk/Barrel"
+		"typeName": "BarrelEnhanced",
+		"fullName": "Perk/BarrelEnhanced"
 	},
 	"1932613595": {
 		"hash": 1932613595,
@@ -47469,10 +47469,10 @@
 	"1968098204": {
 		"hash": 1968098204,
 		"category": 2,
-		"type": 7,
+		"type": 33,
 		"categoryName": "Perk",
-		"typeName": "Magazine",
-		"fullName": "Perk/Magazine"
+		"typeName": "MagazineEnhanced",
+		"fullName": "Perk/MagazineEnhanced"
 	},
 	"1968283192": {
 		"hash": 1968283192,
@@ -47909,10 +47909,10 @@
 	"1987021001": {
 		"hash": 1987021001,
 		"category": 2,
-		"type": 5,
+		"type": 32,
 		"categoryName": "Perk",
-		"typeName": "Barrel",
-		"fullName": "Perk/Barrel"
+		"typeName": "BarrelEnhanced",
+		"fullName": "Perk/BarrelEnhanced"
 	},
 	"1987234560": {
 		"hash": 1987234560,
@@ -49481,10 +49481,10 @@
 	"2052299741": {
 		"hash": 2052299741,
 		"category": 2,
-		"type": 15,
+		"type": 41,
 		"categoryName": "Perk",
-		"typeName": "Tube",
-		"fullName": "Perk/Tube"
+		"typeName": "TubeEnhanced",
+		"fullName": "Perk/TubeEnhanced"
 	},
 	"2052426051": {
 		"hash": 2052426051,
@@ -49971,10 +49971,10 @@
 	"2073750249": {
 		"hash": 2073750249,
 		"category": 2,
-		"type": 6,
+		"type": 43,
 		"categoryName": "Perk",
-		"typeName": "Battery",
-		"fullName": "Perk/Battery"
+		"typeName": "BatteryEnhanced",
+		"fullName": "Perk/BatteryEnhanced"
 	},
 	"2074460602": {
 		"hash": 2074460602,
@@ -50836,10 +50836,10 @@
 	"2108812838": {
 		"hash": 2108812838,
 		"category": 2,
-		"type": 14,
+		"type": 40,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazine",
-		"fullName": "Perk/GrenadeLauncherMagazine"
+		"typeName": "GrenadeLauncherMagazineEnhanced",
+		"fullName": "Perk/GrenadeLauncherMagazineEnhanced"
 	},
 	"2109129768": {
 		"hash": 2109129768,
@@ -51944,10 +51944,10 @@
 	"2154730217": {
 		"hash": 2154730217,
 		"category": 2,
-		"type": 16,
+		"type": 38,
 		"categoryName": "Perk",
-		"typeName": "Haft",
-		"fullName": "Perk/Haft"
+		"typeName": "HaftEnhanced",
+		"fullName": "Perk/HaftEnhanced"
 	},
 	"2155015844": {
 		"hash": 2155015844,
@@ -52357,10 +52357,10 @@
 	"2172195298": {
 		"hash": 2172195298,
 		"category": 2,
-		"type": 7,
+		"type": 33,
 		"categoryName": "Perk",
-		"typeName": "Magazine",
-		"fullName": "Perk/Magazine"
+		"typeName": "MagazineEnhanced",
+		"fullName": "Perk/MagazineEnhanced"
 	},
 	"2172504645": {
 		"hash": 2172504645,
@@ -52655,10 +52655,10 @@
 	"2181638943": {
 		"hash": 2181638943,
 		"category": 2,
-		"type": 28,
+		"type": 30,
 		"categoryName": "Perk",
-		"typeName": "Bolt",
-		"fullName": "Perk/Bolt"
+		"typeName": "BoltEnhanced",
+		"fullName": "Perk/BoltEnhanced"
 	},
 	"2182283512": {
 		"hash": 2182283512,
@@ -55456,10 +55456,10 @@
 	"2276384431": {
 		"hash": 2276384431,
 		"category": 2,
-		"type": 12,
+		"type": 42,
 		"categoryName": "Perk",
-		"typeName": "Bowstring",
-		"fullName": "Perk/Bowstring"
+		"typeName": "BowstringEnhanced",
+		"fullName": "Perk/BowstringEnhanced"
 	},
 	"2277119328": {
 		"hash": 2277119328,
@@ -56889,10 +56889,10 @@
 	"2338887882": {
 		"hash": 2338887882,
 		"category": 2,
-		"type": 11,
+		"type": 37,
 		"categoryName": "Perk",
-		"typeName": "Guard",
-		"fullName": "Perk/Guard"
+		"typeName": "GuardEnhanced",
+		"fullName": "Perk/GuardEnhanced"
 	},
 	"2339497078": {
 		"hash": 2339497078,
@@ -57348,10 +57348,10 @@
 	"2364577709": {
 		"hash": 2364577709,
 		"category": 2,
-		"type": 16,
+		"type": 38,
 		"categoryName": "Perk",
-		"typeName": "Haft",
-		"fullName": "Perk/Haft"
+		"typeName": "HaftEnhanced",
+		"fullName": "Perk/HaftEnhanced"
 	},
 	"2364756343": {
 		"hash": 2364756343,
@@ -57560,10 +57560,10 @@
 	"2371713880": {
 		"hash": 2371713880,
 		"category": 2,
-		"type": 5,
+		"type": 32,
 		"categoryName": "Perk",
-		"typeName": "Barrel",
-		"fullName": "Perk/Barrel"
+		"typeName": "BarrelEnhanced",
+		"fullName": "Perk/BarrelEnhanced"
 	},
 	"2371932404": {
 		"hash": 2371932404,
@@ -57736,10 +57736,10 @@
 	"2385083333": {
 		"hash": 2385083333,
 		"category": 2,
-		"type": 27,
+		"type": 29,
 		"categoryName": "Perk",
-		"typeName": "Rail",
-		"fullName": "Perk/Rail"
+		"typeName": "RailEnhanced",
+		"fullName": "Perk/RailEnhanced"
 	},
 	"2385145062": {
 		"hash": 2385145062,
@@ -58033,10 +58033,10 @@
 	"2398680997": {
 		"hash": 2398680997,
 		"category": 2,
-		"type": 27,
+		"type": 29,
 		"categoryName": "Perk",
-		"typeName": "Rail",
-		"fullName": "Perk/Rail"
+		"typeName": "RailEnhanced",
+		"fullName": "Perk/RailEnhanced"
 	},
 	"2398921588": {
 		"hash": 2398921588,
@@ -60760,10 +60760,10 @@
 	"2523856971": {
 		"hash": 2523856971,
 		"category": 2,
-		"type": 28,
+		"type": 30,
 		"categoryName": "Perk",
-		"typeName": "Bolt",
-		"fullName": "Perk/Bolt"
+		"typeName": "BoltEnhanced",
+		"fullName": "Perk/BoltEnhanced"
 	},
 	"2523963837": {
 		"hash": 2523963837,
@@ -61492,10 +61492,10 @@
 	"2552577806": {
 		"hash": 2552577806,
 		"category": 2,
-		"type": 28,
+		"type": 30,
 		"categoryName": "Perk",
-		"typeName": "Bolt",
-		"fullName": "Perk/Bolt"
+		"typeName": "BoltEnhanced",
+		"fullName": "Perk/BoltEnhanced"
 	},
 	"2552875793": {
 		"hash": 2552875793,
@@ -65113,10 +65113,10 @@
 	"2719770986": {
 		"hash": 2719770986,
 		"category": 2,
-		"type": 16,
+		"type": 38,
 		"categoryName": "Perk",
-		"typeName": "Haft",
-		"fullName": "Perk/Haft"
+		"typeName": "HaftEnhanced",
+		"fullName": "Perk/HaftEnhanced"
 	},
 	"2719854935": {
 		"hash": 2719854935,
@@ -65544,10 +65544,10 @@
 	"2732340361": {
 		"hash": 2732340361,
 		"category": 2,
-		"type": 13,
+		"type": 39,
 		"categoryName": "Perk",
-		"typeName": "Arrow",
-		"fullName": "Perk/Arrow"
+		"typeName": "ArrowEnhanced",
+		"fullName": "Perk/ArrowEnhanced"
 	},
 	"2732540911": {
 		"hash": 2732540911,
@@ -66608,10 +66608,10 @@
 	"2777563320": {
 		"hash": 2777563320,
 		"category": 2,
-		"type": 6,
+		"type": 43,
 		"categoryName": "Perk",
-		"typeName": "Battery",
-		"fullName": "Perk/Battery"
+		"typeName": "BatteryEnhanced",
+		"fullName": "Perk/BatteryEnhanced"
 	},
 	"2778321483": {
 		"hash": 2778321483,
@@ -66817,10 +66817,10 @@
 	"2783367502": {
 		"hash": 2783367502,
 		"category": 2,
-		"type": 28,
+		"type": 30,
 		"categoryName": "Perk",
-		"typeName": "Bolt",
-		"fullName": "Perk/Bolt"
+		"typeName": "BoltEnhanced",
+		"fullName": "Perk/BoltEnhanced"
 	},
 	"2783831726": {
 		"hash": 2783831726,
@@ -67297,10 +67297,10 @@
 	"2800182654": {
 		"hash": 2800182654,
 		"category": 2,
-		"type": 6,
+		"type": 43,
 		"categoryName": "Perk",
-		"typeName": "Battery",
-		"fullName": "Perk/Battery"
+		"typeName": "BatteryEnhanced",
+		"fullName": "Perk/BatteryEnhanced"
 	},
 	"2800463518": {
 		"hash": 2800463518,
@@ -68792,10 +68792,10 @@
 	"2860123632": {
 		"hash": 2860123632,
 		"category": 2,
-		"type": 5,
+		"type": 32,
 		"categoryName": "Perk",
-		"typeName": "Barrel",
-		"fullName": "Perk/Barrel"
+		"typeName": "BarrelEnhanced",
+		"fullName": "Perk/BarrelEnhanced"
 	},
 	"2860991074": {
 		"hash": 2860991074,
@@ -69926,10 +69926,10 @@
 	"2913786532": {
 		"hash": 2913786532,
 		"category": 2,
-		"type": 9,
+		"type": 35,
 		"categoryName": "Perk",
-		"typeName": "Stock",
-		"fullName": "Perk/Stock"
+		"typeName": "StockEnhanced",
+		"fullName": "Perk/StockEnhanced"
 	},
 	"2914474757": {
 		"hash": 2914474757,
@@ -70906,10 +70906,10 @@
 	"2953575380": {
 		"hash": 2953575380,
 		"category": 2,
-		"type": 27,
+		"type": 29,
 		"categoryName": "Perk",
-		"typeName": "Rail",
-		"fullName": "Perk/Rail"
+		"typeName": "RailEnhanced",
+		"fullName": "Perk/RailEnhanced"
 	},
 	"2954087609": {
 		"hash": 2954087609,
@@ -72668,10 +72668,10 @@
 	"3020906571": {
 		"hash": 3020906571,
 		"category": 2,
-		"type": 16,
+		"type": 38,
 		"categoryName": "Perk",
-		"typeName": "Haft",
-		"fullName": "Perk/Haft"
+		"typeName": "HaftEnhanced",
+		"fullName": "Perk/HaftEnhanced"
 	},
 	"3022208769": {
 		"hash": 3022208769,
@@ -73238,10 +73238,10 @@
 	"3048246338": {
 		"hash": 3048246338,
 		"category": 2,
-		"type": 5,
+		"type": 32,
 		"categoryName": "Perk",
-		"typeName": "Barrel",
-		"fullName": "Perk/Barrel"
+		"typeName": "BarrelEnhanced",
+		"fullName": "Perk/BarrelEnhanced"
 	},
 	"3048420653": {
 		"hash": 3048420653,
@@ -73490,10 +73490,10 @@
 	"3061646252": {
 		"hash": 3061646252,
 		"category": 2,
-		"type": 14,
+		"type": 40,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazine",
-		"fullName": "Perk/GrenadeLauncherMagazine"
+		"typeName": "GrenadeLauncherMagazineEnhanced",
+		"fullName": "Perk/GrenadeLauncherMagazineEnhanced"
 	},
 	"3061780015": {
 		"hash": 3061780015,
@@ -74052,10 +74052,10 @@
 	"3081681954": {
 		"hash": 3081681954,
 		"category": 2,
-		"type": 6,
+		"type": 43,
 		"categoryName": "Perk",
-		"typeName": "Battery",
-		"fullName": "Perk/Battery"
+		"typeName": "BatteryEnhanced",
+		"fullName": "Perk/BatteryEnhanced"
 	},
 	"3081867624": {
 		"hash": 3081867624,
@@ -75203,10 +75203,10 @@
 	"3128149872": {
 		"hash": 3128149872,
 		"category": 2,
-		"type": 27,
+		"type": 29,
 		"categoryName": "Perk",
-		"typeName": "Rail",
-		"fullName": "Perk/Rail"
+		"typeName": "RailEnhanced",
+		"fullName": "Perk/RailEnhanced"
 	},
 	"3128594062": {
 		"hash": 3128594062,
@@ -75992,10 +75992,10 @@
 	"3156458303": {
 		"hash": 3156458303,
 		"category": 2,
-		"type": 14,
+		"type": 40,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazine",
-		"fullName": "Perk/GrenadeLauncherMagazine"
+		"typeName": "GrenadeLauncherMagazineEnhanced",
+		"fullName": "Perk/GrenadeLauncherMagazineEnhanced"
 	},
 	"3156820619": {
 		"hash": 3156820619,
@@ -78309,10 +78309,10 @@
 	"3250572790": {
 		"hash": 3250572790,
 		"category": 2,
-		"type": 15,
+		"type": 41,
 		"categoryName": "Perk",
-		"typeName": "Tube",
-		"fullName": "Perk/Tube"
+		"typeName": "TubeEnhanced",
+		"fullName": "Perk/TubeEnhanced"
 	},
 	"3251195262": {
 		"hash": 3251195262,
@@ -78431,10 +78431,10 @@
 	"3256371876": {
 		"hash": 3256371876,
 		"category": 2,
-		"type": 6,
+		"type": 43,
 		"categoryName": "Perk",
-		"typeName": "Battery",
-		"fullName": "Perk/Battery"
+		"typeName": "BatteryEnhanced",
+		"fullName": "Perk/BatteryEnhanced"
 	},
 	"3256616328": {
 		"hash": 3256616328,
@@ -78733,10 +78733,10 @@
 	"3267421167": {
 		"hash": 3267421167,
 		"category": 2,
-		"type": 7,
+		"type": 33,
 		"categoryName": "Perk",
-		"typeName": "Magazine",
-		"fullName": "Perk/Magazine"
+		"typeName": "MagazineEnhanced",
+		"fullName": "Perk/MagazineEnhanced"
 	},
 	"3267437183": {
 		"hash": 3267437183,
@@ -79524,10 +79524,10 @@
 	"3311319252": {
 		"hash": 3311319252,
 		"category": 2,
-		"type": 5,
+		"type": 32,
 		"categoryName": "Perk",
-		"typeName": "Barrel",
-		"fullName": "Perk/Barrel"
+		"typeName": "BarrelEnhanced",
+		"fullName": "Perk/BarrelEnhanced"
 	},
 	"3311577151": {
 		"hash": 3311577151,
@@ -80686,10 +80686,10 @@
 	"3355117577": {
 		"hash": 3355117577,
 		"category": 2,
-		"type": 16,
+		"type": 38,
 		"categoryName": "Perk",
-		"typeName": "Haft",
-		"fullName": "Perk/Haft"
+		"typeName": "HaftEnhanced",
+		"fullName": "Perk/HaftEnhanced"
 	},
 	"3355499393": {
 		"hash": 3355499393,
@@ -80800,10 +80800,10 @@
 	"3358678417": {
 		"hash": 3358678417,
 		"category": 2,
-		"type": 8,
+		"type": 34,
 		"categoryName": "Perk",
-		"typeName": "Grip",
-		"fullName": "Perk/Grip"
+		"typeName": "GripEnhanced",
+		"fullName": "Perk/GripEnhanced"
 	},
 	"3358915164": {
 		"hash": 3358915164,
@@ -81778,10 +81778,10 @@
 	"3399528164": {
 		"hash": 3399528164,
 		"category": 2,
-		"type": 5,
+		"type": 32,
 		"categoryName": "Perk",
-		"typeName": "Barrel",
-		"fullName": "Perk/Barrel"
+		"typeName": "BarrelEnhanced",
+		"fullName": "Perk/BarrelEnhanced"
 	},
 	"3399906133": {
 		"hash": 3399906133,
@@ -83501,10 +83501,10 @@
 	"3471392239": {
 		"hash": 3471392239,
 		"category": 2,
-		"type": 15,
+		"type": 41,
 		"categoryName": "Perk",
-		"typeName": "Tube",
-		"fullName": "Perk/Tube"
+		"typeName": "TubeEnhanced",
+		"fullName": "Perk/TubeEnhanced"
 	},
 	"3471414563": {
 		"hash": 3471414563,
@@ -86469,10 +86469,10 @@
 	"3605260959": {
 		"hash": 3605260959,
 		"category": 2,
-		"type": 14,
+		"type": 40,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazine",
-		"fullName": "Perk/GrenadeLauncherMagazine"
+		"typeName": "GrenadeLauncherMagazineEnhanced",
+		"fullName": "Perk/GrenadeLauncherMagazineEnhanced"
 	},
 	"3605448950": {
 		"hash": 3605448950,
@@ -86866,10 +86866,10 @@
 	"3629421851": {
 		"hash": 3629421851,
 		"category": 2,
-		"type": 6,
+		"type": 43,
 		"categoryName": "Perk",
-		"typeName": "Battery",
-		"fullName": "Perk/Battery"
+		"typeName": "BatteryEnhanced",
+		"fullName": "Perk/BatteryEnhanced"
 	},
 	"3629884836": {
 		"hash": 3629884836,
@@ -87376,10 +87376,10 @@
 	"3648644469": {
 		"hash": 3648644469,
 		"category": 2,
-		"type": 14,
+		"type": 40,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazine",
-		"fullName": "Perk/GrenadeLauncherMagazine"
+		"typeName": "GrenadeLauncherMagazineEnhanced",
+		"fullName": "Perk/GrenadeLauncherMagazineEnhanced"
 	},
 	"3649276740": {
 		"hash": 3649276740,
@@ -87612,10 +87612,10 @@
 	"3653484343": {
 		"hash": 3653484343,
 		"category": 2,
-		"type": 11,
+		"type": 37,
 		"categoryName": "Perk",
-		"typeName": "Guard",
-		"fullName": "Perk/Guard"
+		"typeName": "GuardEnhanced",
+		"fullName": "Perk/GuardEnhanced"
 	},
 	"3653665300": {
 		"hash": 3653665300,
@@ -90248,10 +90248,10 @@
 	"3781548872": {
 		"hash": 3781548872,
 		"category": 2,
-		"type": 14,
+		"type": 40,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazine",
-		"fullName": "Perk/GrenadeLauncherMagazine"
+		"typeName": "GrenadeLauncherMagazineEnhanced",
+		"fullName": "Perk/GrenadeLauncherMagazineEnhanced"
 	},
 	"3782773412": {
 		"hash": 3782773412,
@@ -90870,10 +90870,10 @@
 	"3807404750": {
 		"hash": 3807404750,
 		"category": 2,
-		"type": 14,
+		"type": 40,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazine",
-		"fullName": "Perk/GrenadeLauncherMagazine"
+		"typeName": "GrenadeLauncherMagazineEnhanced",
+		"fullName": "Perk/GrenadeLauncherMagazineEnhanced"
 	},
 	"3807544519": {
 		"hash": 3807544519,
@@ -91162,10 +91162,10 @@
 	"3819272442": {
 		"hash": 3819272442,
 		"category": 2,
-		"type": 13,
+		"type": 39,
 		"categoryName": "Perk",
-		"typeName": "Arrow",
-		"fullName": "Perk/Arrow"
+		"typeName": "ArrowEnhanced",
+		"fullName": "Perk/ArrowEnhanced"
 	},
 	"3819277880": {
 		"hash": 3819277880,
@@ -91509,10 +91509,10 @@
 	"3837163218": {
 		"hash": 3837163218,
 		"category": 2,
-		"type": 12,
+		"type": 42,
 		"categoryName": "Perk",
-		"typeName": "Bowstring",
-		"fullName": "Perk/Bowstring"
+		"typeName": "BowstringEnhanced",
+		"fullName": "Perk/BowstringEnhanced"
 	},
 	"3837409374": {
 		"hash": 3837409374,
@@ -91581,10 +91581,10 @@
 	"3839493627": {
 		"hash": 3839493627,
 		"category": 2,
-		"type": 6,
+		"type": 43,
 		"categoryName": "Perk",
-		"typeName": "Battery",
-		"fullName": "Perk/Battery"
+		"typeName": "BatteryEnhanced",
+		"fullName": "Perk/BatteryEnhanced"
 	},
 	"3840083172": {
 		"hash": 3840083172,
@@ -91704,10 +91704,10 @@
 	"3845057226": {
 		"hash": 3845057226,
 		"category": 2,
-		"type": 9,
+		"type": 35,
 		"categoryName": "Perk",
-		"typeName": "Stock",
-		"fullName": "Perk/Stock"
+		"typeName": "StockEnhanced",
+		"fullName": "Perk/StockEnhanced"
 	},
 	"3845833465": {
 		"hash": 3845833465,
@@ -92460,10 +92460,10 @@
 	"3885243590": {
 		"hash": 3885243590,
 		"category": 2,
-		"type": 10,
+		"type": 36,
 		"categoryName": "Perk",
-		"typeName": "Blade",
-		"fullName": "Perk/Blade"
+		"typeName": "BladeEnhanced",
+		"fullName": "Perk/BladeEnhanced"
 	},
 	"3886232477": {
 		"hash": 3886232477,
@@ -93247,10 +93247,10 @@
 	"3923000764": {
 		"hash": 3923000764,
 		"category": 2,
-		"type": 11,
+		"type": 37,
 		"categoryName": "Perk",
-		"typeName": "Guard",
-		"fullName": "Perk/Guard"
+		"typeName": "GuardEnhanced",
+		"fullName": "Perk/GuardEnhanced"
 	},
 	"3923577992": {
 		"hash": 3923577992,
@@ -94006,10 +94006,10 @@
 	"3956406253": {
 		"hash": 3956406253,
 		"category": 2,
-		"type": 12,
+		"type": 42,
 		"categoryName": "Perk",
-		"typeName": "Bowstring",
-		"fullName": "Perk/Bowstring"
+		"typeName": "BowstringEnhanced",
+		"fullName": "Perk/BowstringEnhanced"
 	},
 	"3957071315": {
 		"hash": 3957071315,
@@ -94094,10 +94094,10 @@
 	"3959569796": {
 		"hash": 3959569796,
 		"category": 2,
-		"type": 10,
+		"type": 36,
 		"categoryName": "Perk",
-		"typeName": "Blade",
-		"fullName": "Perk/Blade"
+		"typeName": "BladeEnhanced",
+		"fullName": "Perk/BladeEnhanced"
 	},
 	"3960258378": {
 		"hash": 3960258378,
@@ -94210,10 +94210,10 @@
 	"3966296580": {
 		"hash": 3966296580,
 		"category": 2,
-		"type": 5,
+		"type": 32,
 		"categoryName": "Perk",
-		"typeName": "Barrel",
-		"fullName": "Perk/Barrel"
+		"typeName": "BarrelEnhanced",
+		"fullName": "Perk/BarrelEnhanced"
 	},
 	"3966416502": {
 		"hash": 3966416502,
@@ -96283,10 +96283,10 @@
 	"4039411798": {
 		"hash": 4039411798,
 		"category": 2,
-		"type": 8,
+		"type": 34,
 		"categoryName": "Perk",
-		"typeName": "Grip",
-		"fullName": "Perk/Grip"
+		"typeName": "GripEnhanced",
+		"fullName": "Perk/GripEnhanced"
 	},
 	"4040200521": {
 		"hash": 4040200521,
@@ -97447,10 +97447,10 @@
 	"4088159466": {
 		"hash": 4088159466,
 		"category": 2,
-		"type": 11,
+		"type": 37,
 		"categoryName": "Perk",
-		"typeName": "Guard",
-		"fullName": "Perk/Guard"
+		"typeName": "GuardEnhanced",
+		"fullName": "Perk/GuardEnhanced"
 	},
 	"4088731040": {
 		"hash": 4088731040,
@@ -99742,10 +99742,10 @@
 	"4185607275": {
 		"hash": 4185607275,
 		"category": 2,
-		"type": 12,
+		"type": 42,
 		"categoryName": "Perk",
-		"typeName": "Bowstring",
-		"fullName": "Perk/Bowstring"
+		"typeName": "BowstringEnhanced",
+		"fullName": "Perk/BowstringEnhanced"
 	},
 	"4185864113": {
 		"hash": 4185864113,
@@ -100201,10 +100201,10 @@
 	"4201007276": {
 		"hash": 4201007276,
 		"category": 2,
-		"type": 12,
+		"type": 42,
 		"categoryName": "Perk",
-		"typeName": "Bowstring",
-		"fullName": "Perk/Bowstring"
+		"typeName": "BowstringEnhanced",
+		"fullName": "Perk/BowstringEnhanced"
 	},
 	"4201060647": {
 		"hash": 4201060647,
@@ -101842,10 +101842,10 @@
 	"4267445637": {
 		"hash": 4267445637,
 		"category": 2,
-		"type": 11,
+		"type": 37,
 		"categoryName": "Perk",
-		"typeName": "Guard",
-		"fullName": "Perk/Guard"
+		"typeName": "GuardEnhanced",
+		"fullName": "Perk/GuardEnhanced"
 	},
 	"4267945040": {
 		"hash": 4267945040,
@@ -101908,10 +101908,10 @@
 	"4270598587": {
 		"hash": 4270598587,
 		"category": 2,
-		"type": 10,
+		"type": 36,
 		"categoryName": "Perk",
-		"typeName": "Blade",
-		"fullName": "Perk/Blade"
+		"typeName": "BladeEnhanced",
+		"fullName": "Perk/BladeEnhanced"
 	},
 	"4270910189": {
 		"hash": 4270910189,
