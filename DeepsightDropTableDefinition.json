@@ -558,8 +558,8 @@
 				1315424373
 			],
 			"interval": "weekly",
-			"current": 55,
-			"next": "2025-07-22T17:00:00Z"
+			"current": 56,
+			"next": "2025-07-29T17:00:00Z"
 		},
 		"master": {
 			"activityHash": 4129614942,
@@ -991,8 +991,8 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 92,
-			"next": "2025-07-22T17:00:00Z"
+			"current": 93,
+			"next": "2025-07-29T17:00:00Z"
 		},
 		"availability": "new",
 		"type": "raid",
@@ -1154,8 +1154,8 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 93,
-			"next": "2025-07-22T17:00:00Z"
+			"current": 94,
+			"next": "2025-07-29T17:00:00Z"
 		},
 		"availability": "new",
 		"type": "raid",
@@ -1744,8 +1744,8 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 120,
-			"next": "2025-07-22T17:00:00Z"
+			"current": 121,
+			"next": "2025-07-29T17:00:00Z"
 		},
 		"availability": "new",
 		"type": "raid",
@@ -2344,8 +2344,8 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 91,
-			"next": "2025-07-22T17:00:00Z"
+			"current": 92,
+			"next": "2025-07-29T17:00:00Z"
 		},
 		"availability": "new",
 		"type": "raid",
