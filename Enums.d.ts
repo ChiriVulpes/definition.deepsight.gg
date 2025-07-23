@@ -52055,27 +52055,6 @@ export declare const enum PlugSetHashes {
 	Ingredients_ReusablePlugItemsLength22 = 4217493531,
 }
 
-export declare const enum PowerCapHashes {
-	Invalid = 2166136261,
-	"999980" = 723350001,
-	"999970" = 1031089514,
-	"9999901862490583" = 1862490583,
-	"9999901862490584" = 1862490584,
-	"9999901862490585" = 1862490585,
-	"999960" = 2127292149,
-	"999950" = 2395677314,
-	"9999902470863920" = 2470863920,
-	"9999902470863921" = 2470863921,
-	"9999902470863922" = 2470863922,
-	"9999902470863923" = 2470863923,
-	"9999902470863925" = 2470863925,
-	"9999902470863926" = 2470863926,
-	"9999902470863927" = 2470863927,
-	"1010" = 2471437758,
-	"9999902759499571" = 2759499571,
-	"999940" = 3340296461,
-}
-
 export declare const enum PresentationNodeHashes {
 	Invalid = 2166136261,
 	Holochips = 3865886,
@@ -65263,6 +65242,7 @@ export declare const enum MomentHashes {
  * DestinyLoadoutIconDefinition
  * DestinyMaterialRequirementSetDefinition
  * DestinyPlatformBucketMappingDefinition
+ * DestinyPowerCapDefinition
  * DestinyProgressionLevelRequirementDefinition
  * DestinyRewardAdjusterPointerDefinition
  * DestinyRewardAdjusterProgressionMapDefinition
