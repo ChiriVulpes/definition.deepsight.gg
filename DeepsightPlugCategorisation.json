@@ -3392,8 +3392,8 @@
 		"category": 2,
 		"type": 40,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazineEnhanced",
-		"fullName": "Perk/GrenadeLauncherMagazineEnhanced"
+		"typeName": "MagazineGrenadeLauncherEnhanced",
+		"fullName": "Perk/MagazineGrenadeLauncherEnhanced"
 	},
 	"137876701": {
 		"hash": 137876701,
@@ -6848,8 +6848,8 @@
 		"category": 2,
 		"type": 40,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazineEnhanced",
-		"fullName": "Perk/GrenadeLauncherMagazineEnhanced"
+		"typeName": "MagazineGrenadeLauncherEnhanced",
+		"fullName": "Perk/MagazineGrenadeLauncherEnhanced"
 	},
 	"275145509": {
 		"hash": 275145509,
@@ -8158,8 +8158,8 @@
 		"category": 2,
 		"type": 14,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazine",
-		"fullName": "Perk/GrenadeLauncherMagazine"
+		"typeName": "MagazineGrenadeLauncher",
+		"fullName": "Perk/MagazineGrenadeLauncher"
 	},
 	"332170995": {
 		"hash": 332170995,
@@ -9996,8 +9996,8 @@
 		"category": 2,
 		"type": 40,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazineEnhanced",
-		"fullName": "Perk/GrenadeLauncherMagazineEnhanced"
+		"typeName": "MagazineGrenadeLauncherEnhanced",
+		"fullName": "Perk/MagazineGrenadeLauncherEnhanced"
 	},
 	"409820272": {
 		"hash": 409820272,
@@ -10012,8 +10012,8 @@
 		"category": 2,
 		"type": 14,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazine",
-		"fullName": "Perk/GrenadeLauncherMagazine"
+		"typeName": "MagazineGrenadeLauncher",
+		"fullName": "Perk/MagazineGrenadeLauncher"
 	},
 	"410486468": {
 		"hash": 410486468,
@@ -18123,8 +18123,8 @@
 		"category": 2,
 		"type": 40,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazineEnhanced",
-		"fullName": "Perk/GrenadeLauncherMagazineEnhanced"
+		"typeName": "MagazineGrenadeLauncherEnhanced",
+		"fullName": "Perk/MagazineGrenadeLauncherEnhanced"
 	},
 	"745725302": {
 		"hash": 745725302,
@@ -33508,8 +33508,8 @@
 		"category": 2,
 		"type": 14,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazine",
-		"fullName": "Perk/GrenadeLauncherMagazine"
+		"typeName": "MagazineGrenadeLauncher",
+		"fullName": "Perk/MagazineGrenadeLauncher"
 	},
 	"1380268164": {
 		"hash": 1380268164,
@@ -34902,8 +34902,8 @@
 		"category": 2,
 		"type": 40,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazineEnhanced",
-		"fullName": "Perk/GrenadeLauncherMagazineEnhanced"
+		"typeName": "MagazineGrenadeLauncherEnhanced",
+		"fullName": "Perk/MagazineGrenadeLauncherEnhanced"
 	},
 	"1440616900": {
 		"hash": 1440616900,
@@ -41406,8 +41406,8 @@
 		"category": 2,
 		"type": 14,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazine",
-		"fullName": "Perk/GrenadeLauncherMagazine"
+		"typeName": "MagazineGrenadeLauncher",
+		"fullName": "Perk/MagazineGrenadeLauncher"
 	},
 	"1716717668": {
 		"hash": 1716717668,
@@ -42828,8 +42828,8 @@
 		"category": 2,
 		"type": 14,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazine",
-		"fullName": "Perk/GrenadeLauncherMagazine"
+		"typeName": "MagazineGrenadeLauncher",
+		"fullName": "Perk/MagazineGrenadeLauncher"
 	},
 	"1772168355": {
 		"hash": 1772168355,
@@ -43404,8 +43404,8 @@
 		"category": 2,
 		"type": 40,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazineEnhanced",
-		"fullName": "Perk/GrenadeLauncherMagazineEnhanced"
+		"typeName": "MagazineGrenadeLauncherEnhanced",
+		"fullName": "Perk/MagazineGrenadeLauncherEnhanced"
 	},
 	"1803434835": {
 		"hash": 1803434835,
@@ -48151,8 +48151,8 @@
 		"category": 2,
 		"type": 14,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazine",
-		"fullName": "Perk/GrenadeLauncherMagazine"
+		"typeName": "MagazineGrenadeLauncher",
+		"fullName": "Perk/MagazineGrenadeLauncher"
 	},
 	"1997025201": {
 		"hash": 1997025201,
@@ -48367,8 +48367,8 @@
 		"category": 2,
 		"type": 14,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazine",
-		"fullName": "Perk/GrenadeLauncherMagazine"
+		"typeName": "MagazineGrenadeLauncher",
+		"fullName": "Perk/MagazineGrenadeLauncher"
 	},
 	"2005782761": {
 		"hash": 2005782761,
@@ -50890,8 +50890,8 @@
 		"category": 2,
 		"type": 40,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazineEnhanced",
-		"fullName": "Perk/GrenadeLauncherMagazineEnhanced"
+		"typeName": "MagazineGrenadeLauncherEnhanced",
+		"fullName": "Perk/MagazineGrenadeLauncherEnhanced"
 	},
 	"2109129768": {
 		"hash": 2109129768,
@@ -68075,8 +68075,8 @@
 		"category": 2,
 		"type": 14,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazine",
-		"fullName": "Perk/GrenadeLauncherMagazine"
+		"typeName": "MagazineGrenadeLauncher",
+		"fullName": "Perk/MagazineGrenadeLauncher"
 	},
 	"2822154467": {
 		"hash": 2822154467,
@@ -69104,8 +69104,8 @@
 		"category": 2,
 		"type": 14,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazine",
-		"fullName": "Perk/GrenadeLauncherMagazine"
+		"typeName": "MagazineGrenadeLauncher",
+		"fullName": "Perk/MagazineGrenadeLauncher"
 	},
 	"2870662108": {
 		"hash": 2870662108,
@@ -71859,8 +71859,8 @@
 		"category": 2,
 		"type": 14,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazine",
-		"fullName": "Perk/GrenadeLauncherMagazine"
+		"typeName": "MagazineGrenadeLauncher",
+		"fullName": "Perk/MagazineGrenadeLauncher"
 	},
 	"2985926430": {
 		"hash": 2985926430,
@@ -72972,8 +72972,8 @@
 		"category": 2,
 		"type": 14,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazine",
-		"fullName": "Perk/GrenadeLauncherMagazine"
+		"typeName": "MagazineGrenadeLauncher",
+		"fullName": "Perk/MagazineGrenadeLauncher"
 	},
 	"3032763153": {
 		"hash": 3032763153,
@@ -73576,8 +73576,8 @@
 		"category": 2,
 		"type": 40,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazineEnhanced",
-		"fullName": "Perk/GrenadeLauncherMagazineEnhanced"
+		"typeName": "MagazineGrenadeLauncherEnhanced",
+		"fullName": "Perk/MagazineGrenadeLauncherEnhanced"
 	},
 	"3061780015": {
 		"hash": 3061780015,
@@ -76080,8 +76080,8 @@
 		"category": 2,
 		"type": 40,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazineEnhanced",
-		"fullName": "Perk/GrenadeLauncherMagazineEnhanced"
+		"typeName": "MagazineGrenadeLauncherEnhanced",
+		"fullName": "Perk/MagazineGrenadeLauncherEnhanced"
 	},
 	"3156820619": {
 		"hash": 3156820619,
@@ -79430,8 +79430,8 @@
 		"category": 2,
 		"type": 14,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazine",
-		"fullName": "Perk/GrenadeLauncherMagazine"
+		"typeName": "MagazineGrenadeLauncher",
+		"fullName": "Perk/MagazineGrenadeLauncher"
 	},
 	"3302119490": {
 		"hash": 3302119490,
@@ -81325,8 +81325,8 @@
 		"category": 2,
 		"type": 14,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazine",
-		"fullName": "Perk/GrenadeLauncherMagazine"
+		"typeName": "MagazineGrenadeLauncher",
+		"fullName": "Perk/MagazineGrenadeLauncher"
 	},
 	"3373806360": {
 		"hash": 3373806360,
@@ -84177,8 +84177,8 @@
 		"category": 2,
 		"type": 14,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazine",
-		"fullName": "Perk/GrenadeLauncherMagazine"
+		"typeName": "MagazineGrenadeLauncher",
+		"fullName": "Perk/MagazineGrenadeLauncher"
 	},
 	"3492498209": {
 		"hash": 3492498209,
@@ -86389,8 +86389,8 @@
 		"category": 2,
 		"type": 14,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazine",
-		"fullName": "Perk/GrenadeLauncherMagazine"
+		"typeName": "MagazineGrenadeLauncher",
+		"fullName": "Perk/MagazineGrenadeLauncher"
 	},
 	"3598520298": {
 		"hash": 3598520298,
@@ -86565,8 +86565,8 @@
 		"category": 2,
 		"type": 40,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazineEnhanced",
-		"fullName": "Perk/GrenadeLauncherMagazineEnhanced"
+		"typeName": "MagazineGrenadeLauncherEnhanced",
+		"fullName": "Perk/MagazineGrenadeLauncherEnhanced"
 	},
 	"3605448950": {
 		"hash": 3605448950,
@@ -87472,8 +87472,8 @@
 		"category": 2,
 		"type": 40,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazineEnhanced",
-		"fullName": "Perk/GrenadeLauncherMagazineEnhanced"
+		"typeName": "MagazineGrenadeLauncherEnhanced",
+		"fullName": "Perk/MagazineGrenadeLauncherEnhanced"
 	},
 	"3649276740": {
 		"hash": 3649276740,
@@ -90352,8 +90352,8 @@
 		"category": 2,
 		"type": 40,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazineEnhanced",
-		"fullName": "Perk/GrenadeLauncherMagazineEnhanced"
+		"typeName": "MagazineGrenadeLauncherEnhanced",
+		"fullName": "Perk/MagazineGrenadeLauncherEnhanced"
 	},
 	"3782773412": {
 		"hash": 3782773412,
@@ -90650,8 +90650,8 @@
 		"category": 2,
 		"type": 14,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazine",
-		"fullName": "Perk/GrenadeLauncherMagazine"
+		"typeName": "MagazineGrenadeLauncher",
+		"fullName": "Perk/MagazineGrenadeLauncher"
 	},
 	"3796727602": {
 		"hash": 3796727602,
@@ -90974,8 +90974,8 @@
 		"category": 2,
 		"type": 40,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazineEnhanced",
-		"fullName": "Perk/GrenadeLauncherMagazineEnhanced"
+		"typeName": "MagazineGrenadeLauncherEnhanced",
+		"fullName": "Perk/MagazineGrenadeLauncherEnhanced"
 	},
 	"3807544519": {
 		"hash": 3807544519,
@@ -95117,8 +95117,8 @@
 		"category": 2,
 		"type": 14,
 		"categoryName": "Perk",
-		"typeName": "GrenadeLauncherMagazine",
-		"fullName": "Perk/GrenadeLauncherMagazine"
+		"typeName": "MagazineGrenadeLauncher",
+		"fullName": "Perk/MagazineGrenadeLauncher"
 	},
 	"3999699118": {
 		"hash": 3999699118,
