@@ -1,4 +1,22 @@
 {
+	"210441999": {
+		"hash": 210441999,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Enter into the Devils' Lair and weaken the Fallen presence within the Cosmodrome.",
+			"name": "The Devils' Lair",
+			"icon": "/img/misc/missing_icon_d2.png",
+			"hasIcon": false
+		},
+		"dropTable": {
+			"1663482635": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Fireteam Ops",
+			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries."
+		}
+	},
 	"300092127": {
 		"hash": 300092127,
 		"displayProperties": {
@@ -282,22 +300,22 @@
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_f20ebb76bee675ca429e470cec58cc7b.png"
 		}
 	},
-	"690276443": {
-		"hash": 690276443,
+	"576782083": {
+		"hash": 576782083,
 		"type": "bonus-focus",
 		"availability": "rotator",
 		"displayProperties": {
-			"description": "Defend the Advanced Defensive Unit against an onslaught of 30 combatant waves.",
-			"name": "Midtown",
+			"description": "Investigate a Taken anomaly deep beneath the surface of Io.",
+			"name": "The Whisper",
 			"icon": "/img/misc/missing_icon_d2.png",
 			"hasIcon": false
 		},
 		"dropTable": {
-			"2838279629": {}
+			"4146673634": {}
 		},
 		"typeDisplayProperties": {
-			"name": "Fireteam Ops",
-			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries."
+			"name": "Pinnacle Ops",
+			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come."
 		}
 	},
 	"910380154": {
@@ -848,24 +866,6 @@
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_f20ebb76bee675ca429e470cec58cc7b.png"
 		}
 	},
-	"1356455457": {
-		"hash": 1356455457,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Follow the flow of Vex radiolaria deep within Nessus.",
-			"name": "Battleground: Conduit",
-			"icon": "/img/misc/missing_icon_d2.png",
-			"hasIcon": false
-		},
-		"dropTable": {
-			"190747610": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Fireteam Ops",
-			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries."
-		}
-	},
 	"1374392663": {
 		"hash": 1374392663,
 		"displayProperties": {
@@ -1041,6 +1041,24 @@
 			"hasIcon": true
 		}
 	},
+	"1413939183": {
+		"hash": 1413939183,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Descend into Nessus and explore the Vex structures within.",
+			"name": "Battleground: Delve",
+			"icon": "/img/misc/missing_icon_d2.png",
+			"hasIcon": false
+		},
+		"dropTable": {
+			"2838279629": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Fireteam Ops",
+			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries."
+		}
+	},
 	"1441982566": {
 		"hash": 1441982566,
 		"displayProperties": {
@@ -1204,24 +1222,6 @@
 			"hasIcon": true
 		}
 	},
-	"1604785891": {
-		"hash": 1604785891,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Halt the efforts of old enemies beneath the Moon's surface.",
-			"name": "K1 Logistics",
-			"icon": "/img/misc/missing_icon_d2.png",
-			"hasIcon": false
-		},
-		"dropTable": {
-			"503854896": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Solo Ops",
-			"description": "Protect Earth from Sol's greatest foes as a one-Guardian fireteam and the Vanguard's last line of defense."
-		}
-	},
 	"1661734046": {
 		"hash": 1661734046,
 		"rotationActivityHash": 2122313384,
@@ -1376,42 +1376,6 @@
 			"name": "Raid",
 			"icon": "/common/destiny2_content/icons/bd7a1fc995f87be96698263bc16698e7.png",
 			"hasIcon": true
-		}
-	},
-	"1768099736": {
-		"hash": 1768099736,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Within the Black Garden, the Sol Divisive toil endlessly, systematically shutting down potential futures. With Riven's blessing, it's time to shut them down.",
-			"name": "Starcrossed",
-			"icon": "/img/misc/missing_icon_d2.png",
-			"hasIcon": false
-		},
-		"dropTable": {
-			"1465235089": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Pinnacle Ops",
-			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come."
-		}
-	},
-	"1813458730": {
-		"hash": 1813458730,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Defeat Caiatl's Chosen aboard the Land Tank, Halphas Electus, on Nessus.",
-			"name": "Proving Grounds",
-			"icon": "/img/misc/missing_icon_d2.png",
-			"hasIcon": false
-		},
-		"dropTable": {
-			"1411560894": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Fireteam Ops",
-			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries."
 		}
 	},
 	"2004855007": {
@@ -1850,26 +1814,6 @@
 			"hasIcon": true
 		}
 	},
-	"2383352312": {
-		"hash": 2383352312,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Volatile Weapon mods enabled for curated weapons. Hardware modifier active, no abilities or Supers. Weapons only.",
-			"name": "Arms Week: Hardware",
-			"icon": "/img/misc/missing_icon_d2.png",
-			"hasIcon": false
-		},
-		"dropTable": {
-			"1663482635": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Crucible Ops",
-			"description": "Hone your skills and win glory in battle against other Guardians.",
-			"icon": "/common/destiny2_content/icons/193fcaaf80f97c83eb10568dbe514cf1.png"
-		},
-		"pgcrImage": "/img/destiny_content/pgcr/crucible_twilight_gap.jpg"
-	},
 	"2582501063": {
 		"hash": 2582501063,
 		"displayProperties": {
@@ -2034,7 +1978,7 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"1193318082": {}
+			"2292070913": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Solo Ops",
@@ -2195,7 +2139,43 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"4150538093": {}
+			"4090134063": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Fireteam Ops",
+			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries."
+		}
+	},
+	"3214228047": {
+		"hash": 3214228047,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Protect the BrayTech facility from incursions by opposition forces.",
+			"name": "Creation",
+			"icon": "/img/misc/missing_icon_d2.png",
+			"hasIcon": false
+		},
+		"dropTable": {
+			"1589715538": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Solo Ops",
+			"description": "Protect Earth from Sol's greatest foes as a one-Guardian fireteam and the Vanguard's last line of defense."
+		}
+	},
+	"3661422819": {
+		"hash": 3661422819,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Defeat the new leader of the Fallen, Kridis, the Dark Priestess.",
+			"name": "Empire Hunt: The Dark Priestess",
+			"icon": "/img/misc/missing_icon_d2.png",
+			"hasIcon": false
+		},
+		"dropTable": {
+			"2111625436": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Fireteam Ops",
