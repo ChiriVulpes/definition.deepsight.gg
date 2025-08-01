@@ -1,16 +1,16 @@
 {
-	"210441999": {
-		"hash": 210441999,
+	"296790207": {
+		"hash": 296790207,
 		"type": "bonus-focus",
 		"availability": "rotator",
 		"displayProperties": {
-			"description": "Enter into the Devils' Lair and weaken the Fallen presence within the Cosmodrome.",
-			"name": "The Devils' Lair",
+			"description": "Defend the Advanced Defensive Unit against an onslaught of 30 combatant waves.",
+			"name": "Widow's Court",
 			"icon": "/img/misc/missing_icon_d2.png",
 			"hasIcon": false
 		},
 		"dropTable": {
-			"1663482635": {}
+			"2838279629": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Fireteam Ops",
@@ -300,23 +300,25 @@
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_f20ebb76bee675ca429e470cec58cc7b.png"
 		}
 	},
-	"576782083": {
-		"hash": 576782083,
+	"513922427": {
+		"hash": 513922427,
 		"type": "bonus-focus",
 		"availability": "rotator",
 		"displayProperties": {
-			"description": "Investigate a Taken anomaly deep beneath the surface of Io.",
-			"name": "The Whisper",
+			"description": "Cutting Edge: Only New Gear permitted. New Gear also grants reward bonuses.\n\nAchieve victory by defeating opponents. No teams. No allegiances. A free-for-all where the leader had better watch their back.",
+			"name": "Cutting Edge: Rumble",
 			"icon": "/img/misc/missing_icon_d2.png",
 			"hasIcon": false
 		},
 		"dropTable": {
-			"4146673634": {}
+			"1172384181": {}
 		},
 		"typeDisplayProperties": {
-			"name": "Pinnacle Ops",
-			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come."
-		}
+			"name": "Crucible Ops",
+			"description": "Hone your skills and win glory in battle against other Guardians.",
+			"icon": "/common/destiny2_content/icons/193fcaaf80f97c83eb10568dbe514cf1.png"
+		},
+		"pgcrImage": "/img/destiny_content/pgcr/crucible_twilight_gap.jpg"
 	},
 	"910380154": {
 		"hash": 910380154,
@@ -617,6 +619,24 @@
 			"name": "Raid",
 			"icon": "/common/destiny2_content/icons/bd7a1fc995f87be96698263bc16698e7.png",
 			"hasIcon": true
+		}
+	},
+	"941159359": {
+		"hash": 941159359,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "A group of former Red Legion Psions are communing with Vex prediction engines deep within Nessus. They seek to gain tactical insights by analyzing simulations of future events against their own psychic foresight.  Eliminate this threat before they can deliver their intelligence to Empress Caiatl.",
+			"name": "Battleground: Oracle",
+			"icon": "/img/misc/missing_icon_d2.png",
+			"hasIcon": false
+		},
+		"dropTable": {
+			"1411560894": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Fireteam Ops",
+			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries."
 		}
 	},
 	"1042180643": {
@@ -1041,24 +1061,6 @@
 			"hasIcon": true
 		}
 	},
-	"1413939183": {
-		"hash": 1413939183,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Descend into Nessus and explore the Vex structures within.",
-			"name": "Battleground: Delve",
-			"icon": "/img/misc/missing_icon_d2.png",
-			"hasIcon": false
-		},
-		"dropTable": {
-			"2838279629": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Fireteam Ops",
-			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries."
-		}
-	},
 	"1441982566": {
 		"hash": 1441982566,
 		"displayProperties": {
@@ -1376,6 +1378,42 @@
 			"name": "Raid",
 			"icon": "/common/destiny2_content/icons/bd7a1fc995f87be96698263bc16698e7.png",
 			"hasIcon": true
+		}
+	},
+	"1919941943": {
+		"hash": 1919941943,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Carve your way through a treacherous mountain pass teeming with Lucent Hive and Taken.",
+			"name": "Liminality",
+			"icon": "/img/misc/missing_icon_d2.png",
+			"hasIcon": false
+		},
+		"dropTable": {
+			"3926153598": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Fireteam Ops",
+			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries."
+		}
+	},
+	"1948474391": {
+		"hash": 1948474391,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Enter Fikrul's Revenant Fortress in the Tangled Shore, where dark reflections make it difficult to discern illusion from reality.",
+			"name": "Kell's Fall",
+			"icon": "/img/misc/missing_icon_d2.png",
+			"hasIcon": false
+		},
+		"dropTable": {
+			"464665629": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Pinnacle Ops",
+			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come."
 		}
 	},
 	"2004855007": {
@@ -1978,7 +2016,7 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"2292070913": {}
+			"3129990424": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Solo Ops",
@@ -2139,47 +2177,29 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"4090134063": {}
+			"1589715538": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Fireteam Ops",
 			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries."
 		}
 	},
-	"3214228047": {
-		"hash": 3214228047,
+	"3056702872": {
+		"hash": 3056702872,
 		"type": "bonus-focus",
 		"availability": "rotator",
 		"displayProperties": {
-			"description": "Protect the BrayTech facility from incursions by opposition forces.",
-			"name": "Creation",
+			"description": "Drive out enemies trying to anchor themselves on Nessus.",
+			"name": "The Conflux",
 			"icon": "/img/misc/missing_icon_d2.png",
 			"hasIcon": false
 		},
 		"dropTable": {
-			"1589715538": {}
+			"2292070913": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Solo Ops",
 			"description": "Protect Earth from Sol's greatest foes as a one-Guardian fireteam and the Vanguard's last line of defense."
-		}
-	},
-	"3661422819": {
-		"hash": 3661422819,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Defeat the new leader of the Fallen, Kridis, the Dark Priestess.",
-			"name": "Empire Hunt: The Dark Priestess",
-			"icon": "/img/misc/missing_icon_d2.png",
-			"hasIcon": false
-		},
-		"dropTable": {
-			"2111625436": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Fireteam Ops",
-			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries."
 		}
 	},
 	"3834447244": {
