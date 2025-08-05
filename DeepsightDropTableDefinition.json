@@ -22,6 +22,7 @@
 		"displayProperties": {
 			"icon": "./image/png/activity/vespershost.png",
 			"name": "Vesper's Host",
+			"subtitle": "Vesper's Host: Normal",
 			"description": "Defy the algorithm. Cut through its web."
 		},
 		"dropTable": {
@@ -161,6 +162,7 @@
 		"displayProperties": {
 			"icon": "./image/png/activity/gotd.png",
 			"name": "Ghosts of the Deep",
+			"subtitle": "Ghosts of the Deep: Standard",
 			"description": "Drown in the deep, or rise from it."
 		},
 		"dropTable": {
@@ -305,6 +307,7 @@
 		"displayProperties": {
 			"icon": "/common/destiny2_content/icons/ee3cec197ac9f92bdb6ebf635ab7a972.png",
 			"name": "Deep Stone Crypt",
+			"subtitle": "Deep Stone Crypt",
 			"description": "The chains of legacy must be broken."
 		},
 		"encounters": [
@@ -437,6 +440,7 @@
 		"displayProperties": {
 			"icon": "/common/destiny2_content/icons/4da15a79ac0497134721eb8ce11004e3.png",
 			"name": "Salvation's Edge",
+			"subtitle": "Salvation's Edge: Standard",
 			"description": "Free the Light."
 		},
 		"encounters": [
@@ -606,6 +610,7 @@
 		"displayProperties": {
 			"icon": "/common/destiny2_content/icons/e48d301e674a19f17c5cb249a2da0173.png",
 			"name": "Garden of Salvation",
+			"subtitle": "Garden of Salvation",
 			"description": "\"The Garden calls out to you.\""
 		},
 		"encounters": [
@@ -838,6 +843,7 @@
 		},
 		"displayProperties": {
 			"name": "Spire of the Watcher",
+			"subtitle": "Spire of the Watcher: Standard",
 			"description": "Machinations run wild in this dust-ridden ruin. Bring them to heel."
 		},
 		"availability": "repeatable",
@@ -853,6 +859,7 @@
 		"displayProperties": {
 			"icon": "/common/destiny2_content/icons/0e515c7cf25a2f2350b788e6f5b7f8eb.png",
 			"name": "King's Fall",
+			"subtitle": "King's Fall: Standard",
 			"description": "Long live the King…"
 		},
 		"encounters": [
@@ -1028,6 +1035,7 @@
 		"displayProperties": {
 			"icon": "/common/destiny2_content/icons/b84b6ea72dd05de7123aa2ae87ba0d6a.png",
 			"name": "Vow of the Disciple",
+			"subtitle": "Vow of the Disciple: Standard",
 			"description": "The disciple beckons…"
 		},
 		"encounters": [
@@ -1192,6 +1200,7 @@
 		"displayProperties": {
 			"icon": "/common/destiny2_content/icons/DestinyMilestoneDefinition_56d1f52f0cb40248a990408d7ac84bd3.png",
 			"name": "Last Wish",
+			"subtitle": "Last Wish: Normal",
 			"description": "\"The opportunity of a lifetime.\""
 		},
 		"dropTable": {
@@ -1383,6 +1392,7 @@
 		"displayProperties": {
 			"icon": "./image/png/activity/warlords.png",
 			"name": "Warlord's Ruin",
+			"subtitle": "Warlord's Ruin: Standard",
 			"description": "Nestled deep in the mountains of the EDZ, Scorn lay claim to a Dark Age castle containing dangerous relics, and a blighted vengeance festers in the dirt."
 		},
 		"dropTable": {
@@ -1523,6 +1533,7 @@
 		"displayProperties": {
 			"icon": "/common/destiny2_content/icons/208ce44c0342f8b0691d483d9622bd96.png",
 			"name": "The Shattered Throne",
+			"subtitle": "The Shattered Throne",
 			"description": "Strike back at the curse that plagues the Dreaming City."
 		},
 		"dropTable": {
@@ -1636,6 +1647,7 @@
 		"displayProperties": {
 			"icon": "/common/destiny2_content/icons/f2b6ec58e14244e4972705897667c246.png",
 			"name": "Root of Nightmares",
+			"subtitle": "Root of Nightmares: Standard",
 			"description": "A sinister threat has taken root."
 		},
 		"encounters": [
@@ -1857,6 +1869,7 @@
 		"displayProperties": {
 			"icon": "/common/destiny2_content/icons/b81eb997ce38aada427b13d23dd3564d.png",
 			"name": "Pit of Heresy",
+			"subtitle": "Pit of Heresy: Standard",
 			"description": "Deep beneath Sorrow's Harbor, the Hive keep their darkest secrets."
 		},
 		"dropTable": {
@@ -2156,6 +2169,7 @@
 		},
 		"displayProperties": {
 			"name": "Duality",
+			"subtitle": "Duality: Standard",
 			"description": "Dive into the depths of the exiled emperor's mind in search of dark secrets."
 		},
 		"availability": "repeatable",
@@ -2207,6 +2221,7 @@
 		"displayProperties": {
 			"icon": "./image/png/activity/sundereddoctrine.png",
 			"name": "Sundered Doctrine",
+			"subtitle": "Sundered Doctrine: Normal",
 			"description": "Power lies in the deepest vault."
 		},
 		"dropTable": {
@@ -2327,6 +2342,7 @@
 		"displayProperties": {
 			"icon": "/common/destiny2_content/icons/6d2ba4628f33a6884b5d32d62eac6a32.png",
 			"name": "Vault of Glass",
+			"subtitle": "Vault of Glass: Standard",
 			"description": "Beneath Venus, evil stirs…"
 		},
 		"encounters": [
@@ -2512,6 +2528,7 @@
 		"displayProperties": {
 			"icon": "/common/destiny2_content/icons/ed7e19a3231e2eca90ae271960c1ed9c.png",
 			"name": "Grasp of Avarice",
+			"subtitle": "Grasp of Avarice: Standard",
 			"description": "A cautionary tale for adventurers willing to trade their humanity for riches."
 		},
 		"dropTable": {
@@ -2658,6 +2675,7 @@
 		"displayProperties": {
 			"icon": "/common/destiny2_content/icons/1406f929d0c25506a5ab5ea73956fcb3.png",
 			"name": "Prophecy",
+			"subtitle": "Prophecy",
 			"description": "Enter the realm of the Nine and ask the question: \"What is the nature of the Darkness?\""
 		},
 		"encounters": [
@@ -2803,6 +2821,7 @@
 		"displayProperties": {
 			"icon": "/common/destiny2_content/icons/d89e12c918cb0c6b1087b073ad14d6c2.png",
 			"name": "Crota's End",
+			"subtitle": "Crota's End: Normal",
 			"description": "He waits in the dark below."
 		},
 		"encounters": [

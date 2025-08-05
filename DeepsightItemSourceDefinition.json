@@ -1,0 +1,82 @@
+{
+	"0": {
+		"hash": 0,
+		"displayProperties": {
+			"name": "Commander Zavala",
+			"subtitle": "Legacy Gear",
+			"description": "The resolute Commander Zavala advises Guardians on all Vanguard-related activities."
+		}
+	},
+	"1": {
+		"hash": 1,
+		"displayProperties": {
+			"name": "Lord Shaxx",
+			"subtitle": "Legacy Gear",
+			"description": "The Crucible is the arena in which Guardians forge their Light. Lord Shaxx is the Crucible."
+		}
+	},
+	"2": {
+		"hash": 2,
+		"displayProperties": {
+			"name": "The Drifter",
+			"subtitle": "Legacy Gear",
+			"description": "The name says it all."
+		}
+	},
+	"3": {
+		"hash": 3,
+		"displayProperties": {
+			"name": "Saint-14",
+			"subtitle": "Legacy Gear",
+			"description": "A legendary hero and the former Titan Vanguard, Saint-14 disappeared into the Infinite Forest only to be later rescued by a fellow Guardian."
+		}
+	},
+	"4": {
+		"hash": 4,
+		"displayProperties": {
+			"name": "Banshee-44",
+			"subtitle": "Focused Decoding",
+			"description": "Banshee-44 has lived many lives. As master weaponsmith for the Tower, he supplies Guardians with only the best."
+		}
+	},
+	"5": {
+		"hash": 5,
+		"displayProperties": {
+			"name": "Banshee-44",
+			"subtitle": "Gunsmith",
+			"description": "Banshee-44 has lived many lives. As master weaponsmith for the Tower, he supplies Guardians with only the best."
+		}
+	},
+	"6": {
+		"hash": 6,
+		"displayProperties": {
+			"name": "Monument to Lost Lights",
+			"subtitle": "Exotic Archive",
+			"description": "Built in honor of those who sacrificed their Light to defend humanity. Created in collaboration with Cryptarchs to help Guardians manage armaments."
+		}
+	},
+	"7": {
+		"hash": 7,
+		"displayProperties": {
+			"name": "Vanguard Ops",
+			"description": "The Vanguard seeks Guardians to undertake high-priority missions against the City's enemies.",
+			"icon": "/common/destiny2_content/icons/3642cf9e2acd174dcab5b5f9e3a3a45d.png"
+		}
+	},
+	"8": {
+		"hash": 8,
+		"displayProperties": {
+			"name": "Pinnacle Ops",
+			"description": "Test your might against the toughest combatants.",
+			"icon": "/common/destiny2_content/icons/7b198ee9689e83f5a1988cefd03df265.png"
+		}
+	},
+	"9": {
+		"hash": 9,
+		"displayProperties": {
+			"name": "The Crucible",
+			"description": "Hone your skills and win glory in battle against other Guardians.",
+			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_fb3e9149c43f7a2e8f8b66cbea7845fe.png"
+		}
+	}
+}
