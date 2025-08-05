@@ -1,11 +1,11 @@
 {
-	"192786114": {
-		"hash": 192786114,
+	"210441999": {
+		"hash": 210441999,
 		"type": "bonus-focus",
 		"availability": "rotator",
 		"displayProperties": {
-			"description": "End the Red Legion expedition that's ripped open the planet's surface.",
-			"name": "The Inverted Spire",
+			"description": "Enter into the Devils' Lair and weaken the Fallen presence within the Cosmodrome.",
+			"name": "The Devils' Lair",
 			"icon": "/img/misc/missing_icon_d2.png",
 			"hasIcon": false
 		},
@@ -300,24 +300,6 @@
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_f20ebb76bee675ca429e470cec58cc7b.png"
 		}
 	},
-	"521171764": {
-		"hash": 521171764,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Defeat Eramis's technology expert, Praksis, the Technocrat.",
-			"name": "Empire Hunt: The Technocrat",
-			"icon": "/img/misc/missing_icon_d2.png",
-			"hasIcon": false
-		},
-		"dropTable": {
-			"2838279629": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Fireteam Ops",
-			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries."
-		}
-	},
 	"910380154": {
 		"hash": 910380154,
 		"displayProperties": {
@@ -595,8 +577,8 @@
 				1315424373
 			],
 			"interval": "weekly",
-			"current": 57,
-			"next": "2025-08-05T17:00:00Z"
+			"current": 58,
+			"next": "2025-08-12T17:00:00Z"
 		},
 		"master": {
 			"activityHash": 4129614942,
@@ -1029,8 +1011,8 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 94,
-			"next": "2025-08-05T17:00:00Z"
+			"current": 95,
+			"next": "2025-08-12T17:00:00Z"
 		},
 		"availability": "repeatable",
 		"type": "raid",
@@ -1039,24 +1021,6 @@
 			"name": "Raid",
 			"icon": "/common/destiny2_content/icons/bd7a1fc995f87be96698263bc16698e7.png",
 			"hasIcon": true
-		}
-	},
-	"1408611635": {
-		"hash": 1408611635,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Defeat Eramis's military commander, Phylaks, the Warrior.",
-			"name": "Empire Hunt: The Warrior",
-			"icon": "/img/misc/missing_icon_d2.png",
-			"hasIcon": false
-		},
-		"dropTable": {
-			"1193318082": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Fireteam Ops",
-			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries."
 		}
 	},
 	"1441982566": {
@@ -1210,8 +1174,8 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 95,
-			"next": "2025-08-05T17:00:00Z"
+			"current": 96,
+			"next": "2025-08-12T17:00:00Z"
 		},
 		"availability": "repeatable",
 		"type": "raid",
@@ -1378,18 +1342,36 @@
 			"hasIcon": true
 		}
 	},
-	"1768099736": {
-		"hash": 1768099736,
+	"1813458730": {
+		"hash": 1813458730,
 		"type": "bonus-focus",
 		"availability": "rotator",
 		"displayProperties": {
-			"description": "Within the Black Garden, the Sol Divisive toil endlessly, systematically shutting down potential futures. With Riven's blessing, it's time to shut them down.",
-			"name": "Starcrossed",
+			"description": "Defeat Caiatl's Chosen aboard the Land Tank, Halphas Electus, on Nessus.",
+			"name": "Proving Grounds",
 			"icon": "/img/misc/missing_icon_d2.png",
 			"hasIcon": false
 		},
 		"dropTable": {
-			"42435996": {}
+			"1589715538": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Fireteam Ops",
+			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries."
+		}
+	},
+	"1948474391": {
+		"hash": 1948474391,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Enter Fikrul's Revenant Fortress in the Tangled Shore, where dark reflections make it difficult to discern illusion from reality.",
+			"name": "Kell's Fall",
+			"icon": "/img/misc/missing_icon_d2.png",
+			"hasIcon": false
+		},
+		"dropTable": {
+			"4146673635": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Pinnacle Ops",
@@ -1820,8 +1802,8 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 122,
-			"next": "2025-08-05T17:00:00Z"
+			"current": 123,
+			"next": "2025-08-12T17:00:00Z"
 		},
 		"availability": "repeatable",
 		"type": "raid",
@@ -1832,18 +1814,36 @@
 			"hasIcon": true
 		}
 	},
-	"2383352312": {
-		"hash": 2383352312,
+	"2489241976": {
+		"hash": 2489241976,
 		"type": "bonus-focus",
 		"availability": "rotator",
 		"displayProperties": {
-			"description": "Volatile Weapon mods enabled for curated weapons. Hardware modifier active, no abilities or Supers. Weapons only.",
-			"name": "Arms Week: Hardware",
+			"description": "Push back on encroaching enemy forces before they become entrenched.",
+			"name": "Caldera",
 			"icon": "/img/misc/missing_icon_d2.png",
 			"hasIcon": false
 		},
 		"dropTable": {
 			"2111625436": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Solo Ops",
+			"description": "Protect Earth from Sol's greatest foes as a one-Guardian fireteam and the Vanguard's last line of defense."
+		}
+	},
+	"2573014742": {
+		"hash": 2573014742,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Everyone on both teams has Scorch Cannons in Clash, Control, and Rift matches. Be brave.",
+			"name": "Solstice Scorched",
+			"icon": "/img/misc/missing_icon_d2.png",
+			"hasIcon": false
+		},
+		"dropTable": {
+			"1663482635": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Crucible Ops",
@@ -2016,7 +2016,7 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"503854896": {}
+			"190747610": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Solo Ops",
@@ -2177,7 +2177,25 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"2292070913": {}
+			"2838279629": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Fireteam Ops",
+			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries."
+		}
+	},
+	"3661422819": {
+		"hash": 3661422819,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Defeat the new leader of the Fallen, Kridis, the Dark Priestess.",
+			"name": "Empire Hunt: The Dark Priestess",
+			"icon": "/img/misc/missing_icon_d2.png",
+			"hasIcon": false
+		},
+		"dropTable": {
+			"503854896": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Fireteam Ops",
@@ -2477,8 +2495,8 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 93,
-			"next": "2025-08-05T17:00:00Z"
+			"current": 94,
+			"next": "2025-08-12T17:00:00Z"
 		},
 		"availability": "repeatable",
 		"type": "raid",
@@ -2487,24 +2505,6 @@
 			"name": "Raid",
 			"icon": "/common/destiny2_content/icons/bd7a1fc995f87be96698263bc16698e7.png",
 			"hasIcon": true
-		}
-	},
-	"4008836256": {
-		"hash": 4008836256,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Stop new enemies from gaining a foothold in the depths of the EDZ.",
-			"name": "The Salt Mines",
-			"icon": "/img/misc/missing_icon_d2.png",
-			"hasIcon": false
-		},
-		"dropTable": {
-			"3926153598": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Solo Ops",
-			"description": "Protect Earth from Sol's greatest foes as a one-Guardian fireteam and the Vanguard's last line of defense."
 		}
 	},
 	"4078656646": {
@@ -2935,21 +2935,21 @@
 		}
 	},
 	"exoticMission": {
-		"hash": 509188661,
+		"hash": 196691221,
 		"displayProperties": {
-			"name": "//node.ovrd.AVALON//",
-			"description": "Investigate a Vex network node in the EDZ that has been overwritten with a single word: AVALON.",
+			"name": "Starcrossed",
+			"description": "Within the Black Garden, the Sol Divisive toil endlessly, systematically shutting down potential futures. With Riven's blessing, it's time to shut them down.",
 			"icon": "/common/destiny2_content/icons/2ffa90c58bdadcca8226f553315212e7.png"
 		},
 		"dropTable": {
-			"3118061005": {}
+			"2910326942": {}
 		},
 		"master": {
-			"activityHash": 3951571983,
+			"activityHash": 3214480871,
 			"availability": "rotator"
 		},
 		"availability": "rotator",
-		"endTime": "2025-08-05T17:00:00Z",
+		"endTime": "2025-08-12T17:00:00Z",
 		"type": "exotic-mission",
 		"typeDisplayProperties": {
 			"name": "Exotic Mission",
