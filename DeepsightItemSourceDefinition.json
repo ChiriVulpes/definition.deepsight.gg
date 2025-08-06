@@ -5,7 +5,8 @@
 		"displayProperties": {
 			"name": "Commander Zavala",
 			"subtitle": "Legacy Gear",
-			"description": "The resolute Commander Zavala advises Guardians on all Vanguard-related activities."
+			"description": "The resolute Commander Zavala advises Guardians on all Vanguard-related activities.",
+			"icon": "/common/destiny2_content/icons/b46bfdaa8287c0af02e597a6090ca767.png"
 		}
 	},
 	"1": {
@@ -14,7 +15,8 @@
 		"displayProperties": {
 			"name": "Lord Shaxx",
 			"subtitle": "Legacy Gear",
-			"description": "The Crucible is the arena in which Guardians forge their Light. Lord Shaxx is the Crucible."
+			"description": "The Crucible is the arena in which Guardians forge their Light. Lord Shaxx is the Crucible.",
+			"icon": "/common/destiny2_content/icons/63912bb6dbdbaab769880e7a15a55386.png"
 		}
 	},
 	"2": {
@@ -23,7 +25,8 @@
 		"displayProperties": {
 			"name": "The Drifter",
 			"subtitle": "Legacy Gear",
-			"description": "The name says it all."
+			"description": "The name says it all.",
+			"icon": "/common/destiny2_content/icons/b7c164377f46128cd26d9268115039ad.png"
 		}
 	},
 	"3": {
@@ -32,7 +35,8 @@
 		"displayProperties": {
 			"name": "Saint-14",
 			"subtitle": "Legacy Gear",
-			"description": "A legendary hero and the former Titan Vanguard, Saint-14 disappeared into the Infinite Forest only to be later rescued by a fellow Guardian."
+			"description": "A legendary hero and the former Titan Vanguard, Saint-14 disappeared into the Infinite Forest only to be later rescued by a fellow Guardian.",
+			"icon": "/common/destiny2_content/icons/7add0da73da4c4d88cb3cbb717d5ddf9.png"
 		}
 	},
 	"4": {
@@ -42,7 +46,8 @@
 		"displayProperties": {
 			"name": "Banshee-44",
 			"subtitle": "Focused Decoding",
-			"description": "Banshee-44 has lived many lives. As master weaponsmith for the Tower, he supplies Guardians with only the best."
+			"description": "Banshee-44 has lived many lives. As master weaponsmith for the Tower, he supplies Guardians with only the best.",
+			"icon": "/common/destiny2_content/icons/16f38e867ad607cb5e1aae5c3594fbdc.png"
 		}
 	},
 	"5": {
@@ -52,7 +57,8 @@
 		"displayProperties": {
 			"name": "Banshee-44",
 			"subtitle": "Gunsmith",
-			"description": "Banshee-44 has lived many lives. As master weaponsmith for the Tower, he supplies Guardians with only the best."
+			"description": "Banshee-44 has lived many lives. As master weaponsmith for the Tower, he supplies Guardians with only the best.",
+			"icon": "/common/destiny2_content/icons/16f38e867ad607cb5e1aae5c3594fbdc.png"
 		}
 	},
 	"6": {
@@ -61,7 +67,8 @@
 		"displayProperties": {
 			"name": "Monument to Lost Lights",
 			"subtitle": "Exotic Archive",
-			"description": "Built in honor of those who sacrificed their Light to defend humanity. Created in collaboration with Cryptarchs to help Guardians manage armaments."
+			"description": "Built in honor of those who sacrificed their Light to defend humanity. Created in collaboration with Cryptarchs to help Guardians manage armaments.",
+			"icon": "/common/destiny2_content/icons/e1538aa0647a83af5b8e010f1ba29dc5.png"
 		}
 	},
 	"7": {
