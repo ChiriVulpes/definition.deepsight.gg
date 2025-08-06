@@ -1,6 +1,7 @@
 {
 	"0": {
 		"hash": 0,
+		"category": 0,
 		"displayProperties": {
 			"name": "Commander Zavala",
 			"subtitle": "Legacy Gear",
@@ -9,6 +10,7 @@
 	},
 	"1": {
 		"hash": 1,
+		"category": 0,
 		"displayProperties": {
 			"name": "Lord Shaxx",
 			"subtitle": "Legacy Gear",
@@ -17,6 +19,7 @@
 	},
 	"2": {
 		"hash": 2,
+		"category": 0,
 		"displayProperties": {
 			"name": "The Drifter",
 			"subtitle": "Legacy Gear",
@@ -25,6 +28,7 @@
 	},
 	"3": {
 		"hash": 3,
+		"category": 0,
 		"displayProperties": {
 			"name": "Saint-14",
 			"subtitle": "Legacy Gear",
@@ -33,6 +37,8 @@
 	},
 	"4": {
 		"hash": 4,
+		"category": 0,
+		"rotates": true,
 		"displayProperties": {
 			"name": "Banshee-44",
 			"subtitle": "Focused Decoding",
@@ -41,6 +47,8 @@
 	},
 	"5": {
 		"hash": 5,
+		"category": 0,
+		"rotates": true,
 		"displayProperties": {
 			"name": "Banshee-44",
 			"subtitle": "Gunsmith",
@@ -49,6 +57,7 @@
 	},
 	"6": {
 		"hash": 6,
+		"category": 0,
 		"displayProperties": {
 			"name": "Monument to Lost Lights",
 			"subtitle": "Exotic Archive",
@@ -57,6 +66,7 @@
 	},
 	"7": {
 		"hash": 7,
+		"category": 1,
 		"displayProperties": {
 			"name": "Vanguard Ops",
 			"description": "The Vanguard seeks Guardians to undertake high-priority missions against the City's enemies.",
@@ -65,6 +75,7 @@
 	},
 	"8": {
 		"hash": 8,
+		"category": 1,
 		"displayProperties": {
 			"name": "Pinnacle Ops",
 			"description": "Test your might against the toughest combatants.",
@@ -73,10 +84,38 @@
 	},
 	"9": {
 		"hash": 9,
+		"category": 1,
 		"displayProperties": {
-			"name": "The Crucible",
+			"name": "Crucible Ops",
 			"description": "Hone your skills and win glory in battle against other Guardians.",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_fb3e9149c43f7a2e8f8b66cbea7845fe.png"
+		}
+	},
+	"10": {
+		"hash": 10,
+		"category": 1,
+		"displayProperties": {
+			"name": "Trials of Osiris",
+			"description": "Eliminate your opponents or capture the zone to win. Earn as many round and match wins on a ticket as you can.\n\nPassages grant reward bonus.",
+			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
+		}
+	},
+	"11": {
+		"hash": 11,
+		"category": 2,
+		"displayProperties": {
+			"name": "Arms Week",
+			"icon": "/common/destiny2_content/icons/DestinyEventCardDefinition_a6387809eb029e6fb70d40c3326d8a02.png",
+			"description": ""
+		}
+	},
+	"12": {
+		"hash": 12,
+		"category": 2,
+		"displayProperties": {
+			"name": "Solstice",
+			"icon": "/common/destiny2_content/icons/DestinyEventCardDefinition_4f9324534754826fe140c9b487884b9d.png",
+			"description": ""
 		}
 	}
 }
