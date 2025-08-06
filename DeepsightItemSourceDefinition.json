@@ -109,9 +109,10 @@
 	},
 	"11": {
 		"hash": 11,
-		"category": 2,
+		"category": 0,
 		"displayProperties": {
 			"name": "Arms Week",
+			"subtitle": "Armor Synthesis",
 			"icon": "/common/destiny2_content/icons/DestinyEventCardDefinition_a6387809eb029e6fb70d40c3326d8a02.png",
 			"description": ""
 		}
