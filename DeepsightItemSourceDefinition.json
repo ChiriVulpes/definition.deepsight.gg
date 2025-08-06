@@ -112,7 +112,7 @@
 		"category": 0,
 		"displayProperties": {
 			"name": "Arms Week",
-			"subtitle": "Armor Synthesis",
+			"subtitle": "Ada-1",
 			"icon": "/common/destiny2_content/icons/DestinyEventCardDefinition_a6387809eb029e6fb70d40c3326d8a02.png",
 			"description": ""
 		}
@@ -123,6 +123,16 @@
 		"displayProperties": {
 			"name": "Solstice",
 			"icon": "/common/destiny2_content/icons/DestinyEventCardDefinition_4f9324534754826fe140c9b487884b9d.png",
+			"description": ""
+		}
+	},
+	"13": {
+		"hash": 13,
+		"category": 3,
+		"displayProperties": {
+			"name": "Kepler",
+			"subtitle": "The Edge of Fate",
+			"icon": "/common/destiny2_content/icons/c197d7085c39c4bc2385f2cdb0dbb65d.png",
 			"description": ""
 		}
 	}
