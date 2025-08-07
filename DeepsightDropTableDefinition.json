@@ -291,7 +291,7 @@
 		"displayProperties": {
 			"description": "Defeat Eramis's technology expert, Praksis, the Technocrat.",
 			"name": "Empire Hunt: The Technocrat",
-			"icon": "/img/misc/missing_icon_d2.png",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
 			"hasIcon": false
 		},
 		"dropTable": {
@@ -309,7 +309,7 @@
 		"displayProperties": {
 			"description": "Investigate a Taken anomaly deep beneath the surface of Io.",
 			"name": "The Whisper",
-			"icon": "/img/misc/missing_icon_d2.png",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
 			"hasIcon": false
 		},
 		"dropTable": {
@@ -1055,7 +1055,7 @@
 		"displayProperties": {
 			"description": "Defeat Eramis's military commander, Phylaks, the Warrior.",
 			"name": "Empire Hunt: The Warrior",
-			"icon": "/img/misc/missing_icon_d2.png",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
 			"hasIcon": false
 		},
 		"dropTable": {
@@ -1394,7 +1394,7 @@
 		"displayProperties": {
 			"description": "Venture into the Lunar Complex and beyond.",
 			"name": "Skywatch",
-			"icon": "/img/misc/missing_icon_d2.png",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
 			"hasIcon": false
 		},
 		"dropTable": {
@@ -1412,7 +1412,7 @@
 		"displayProperties": {
 			"description": "Carve your way through a treacherous mountain pass teeming with Lucent Hive and Taken.",
 			"name": "Liminality",
-			"icon": "/img/misc/missing_icon_d2.png",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
 			"hasIcon": false
 		},
 		"dropTable": {
@@ -2023,7 +2023,7 @@
 		"displayProperties": {
 			"description": "A rotating selection of activities at a moderate difficulty level.",
 			"name": "Quickplay: Advanced",
-			"icon": "/img/misc/missing_icon_d2.png",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
 			"hasIcon": false
 		},
 		"dropTable": {
@@ -2185,7 +2185,7 @@
 		"displayProperties": {
 			"description": "A rotating selection of activities at a moderate difficulty level.",
 			"name": "Quickplay: Advanced",
-			"icon": "/img/misc/missing_icon_d2.png",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
 			"hasIcon": false
 		},
 		"dropTable": {
@@ -2203,7 +2203,7 @@
 		"displayProperties": {
 			"description": "Matches affect your Competitive Division placement. Wins will lead to promotions. Losses will lead to demotion. \nHigher divisions grant greater reward bonus.",
 			"name": "Competitive",
-			"icon": "/img/misc/missing_icon_d2.png",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
 			"hasIcon": false
 		},
 		"dropTable": {
