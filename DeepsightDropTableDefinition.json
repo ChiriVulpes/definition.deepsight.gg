@@ -720,6 +720,162 @@
 			"hasIcon": true
 		}
 	},
+	"1044919065": {
+		"hash": 1044919065,
+		"displayProperties": {
+			"icon": "/common/destiny2_content/icons/3e37cea4ff8edd40642545eb9fdb074b.png",
+			"name": "The Desert Perpetual",
+			"subtitle": "The Desert Perpetual: Standard",
+			"description": "Step across the threshold of the infinite."
+		},
+		"encounters": [
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Reconnoiter",
+					"description": "Your feet find purchase in shifting sands."
+				}
+			},
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Predestination",
+					"description": "Choose your lot in life."
+				}
+			},
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Deeper, Deeper",
+					"description": "Descend into the core of the world."
+				}
+			},
+			{
+				"displayProperties": {
+					"name": "Living Rhythm",
+					"directive": "Iatros, Inward-Turned",
+					"description": "Defeat Iatros, Inward-Turned."
+				},
+				"dropTable": {
+					"285521900": {},
+					"1004271921": {},
+					"1090936013": {},
+					"1822989949": {},
+					"1880646964": {},
+					"2396904861": {},
+					"2559878186": {},
+					"2565439347": {},
+					"2725426834": {},
+					"3090407945": {},
+					"3241217409": {},
+					"3396725088": {},
+					"3415771751": {},
+					"3858892752": {},
+					"4131269494": {}
+				}
+			},
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Outwards",
+					"description": "Make your way towards a study hall abandoned in haste."
+				}
+			},
+			{
+				"displayProperties": {
+					"name": "Clear Sight",
+					"directive": "Epoptes, Lord of Quanta",
+					"description": "Defeat Epoptes, Lord of Quanta."
+				},
+				"dropTable": {
+					"285521900": {},
+					"688593230": {},
+					"835524739": {},
+					"931254038": {},
+					"1004271921": {},
+					"1090936013": {},
+					"1553681400": {},
+					"2300393285": {},
+					"2565439347": {},
+					"3090407945": {},
+					"3858892752": {},
+					"4131269494": {}
+				}
+			},
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Past's Wreckage",
+					"description": "The Vex labor in the wreckage of the Aionians' first home. Find them."
+				}
+			},
+			{
+				"displayProperties": {
+					"name": "Inverse Function",
+					"directive": "Agraios, Inherent",
+					"description": "Defeat Agraios, Inherent."
+				},
+				"dropTable": {
+					"285521900": {},
+					"688593230": {},
+					"835524739": {},
+					"931254038": {},
+					"1004271921": {},
+					"1435808083": {},
+					"1822989949": {},
+					"2300393285": {},
+					"2559878186": {},
+					"2565439347": {},
+					"2725426834": {},
+					"3396725088": {}
+				}
+			},
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Uncertain Future",
+					"description": ""
+				}
+			},
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Wayfinding",
+					"description": ""
+				}
+			},
+			{
+				"displayProperties": {
+					"name": "The End Times",
+					"directive": "Koregos, the Worldline",
+					"description": "Defeat Koregos, the Worldline"
+				},
+				"dropTable": {
+					"285521900": {},
+					"835524739": {},
+					"931254038": {},
+					"1004271921": {},
+					"1202007252": {},
+					"1435808083": {},
+					"1553681400": {},
+					"1822989949": {},
+					"2300393285": {},
+					"2559878186": {},
+					"2565439347": {},
+					"3241217409": {},
+					"3396725088": {}
+				}
+			}
+		],
+		"availability": "repeatable",
+		"type": "raid",
+		"typeDisplayProperties": {
+			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
+			"name": "Raid",
+			"icon": "/common/destiny2_content/icons/bd7a1fc995f87be96698263bc16698e7.png",
+			"hasIcon": true
+		}
+	},
 	"1262462921": {
 		"hash": 1262462921,
 		"dropTable": {
