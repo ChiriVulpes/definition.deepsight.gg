@@ -1,22 +1,4 @@
 {
-	"192786114": {
-		"hash": 192786114,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "End the Red Legion expedition that's ripped open the planet's surface.",
-			"name": "The Inverted Spire",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"hasIcon": false
-		},
-		"dropTable": {
-			"1193318082": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Fireteam Ops",
-			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries."
-		}
-	},
 	"300092127": {
 		"hash": 300092127,
 		"displayProperties": {
@@ -300,6 +282,42 @@
 			"name": "Dungeon",
 			"description": "Form a fireteam of up to three, and brave the strange and powerful realms of our enemies.",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_f20ebb76bee675ca429e470cec58cc7b.png"
+		}
+	},
+	"521171764": {
+		"hash": 521171764,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Defeat Eramis's technology expert, Praksis, the Technocrat.",
+			"name": "Empire Hunt: The Technocrat",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"hasIcon": false
+		},
+		"dropTable": {
+			"3129990424": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Fireteam Ops",
+			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries."
+		}
+	},
+	"576782083": {
+		"hash": 576782083,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Investigate a Taken anomaly deep beneath the surface of Io.",
+			"name": "The Whisper",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"hasIcon": false
+		},
+		"dropTable": {
+			"1154629600": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Pinnacle Ops",
+			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come."
 		}
 	},
 	"910380154": {
@@ -603,6 +621,24 @@
 			"name": "Raid",
 			"icon": "/common/destiny2_content/icons/bd7a1fc995f87be96698263bc16698e7.png",
 			"hasIcon": true
+		}
+	},
+	"941159359": {
+		"hash": 941159359,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "A group of former Red Legion Psions are communing with Vex prediction engines deep within Nessus. They seek to gain tactical insights by analyzing simulations of future events against their own psychic foresight.  Eliminate this threat before they can deliver their intelligence to Empress Caiatl.",
+			"name": "Battleground: Oracle",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"hasIcon": false
+		},
+		"dropTable": {
+			"2111625436": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Fireteam Ops",
+			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries."
 		}
 	},
 	"1042180643": {
@@ -1010,6 +1046,24 @@
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_f20ebb76bee675ca429e470cec58cc7b.png"
 		}
 	},
+	"1356455457": {
+		"hash": 1356455457,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Follow the flow of Vex radiolaria deep within Nessus.",
+			"name": "Battleground: Conduit",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"hasIcon": false
+		},
+		"dropTable": {
+			"4090134063": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Fireteam Ops",
+			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries."
+		}
+	},
 	"1374392663": {
 		"hash": 1374392663,
 		"displayProperties": {
@@ -1186,42 +1240,6 @@
 			"hasIcon": true
 		}
 	},
-	"1408611635": {
-		"hash": 1408611635,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Defeat Eramis's military commander, Phylaks, the Warrior.",
-			"name": "Empire Hunt: The Warrior",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"hasIcon": false
-		},
-		"dropTable": {
-			"4090134063": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Fireteam Ops",
-			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries."
-		}
-	},
-	"1413939183": {
-		"hash": 1413939183,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Descend into Nessus and explore the Vex structures within.",
-			"name": "Battleground: Delve",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"hasIcon": false
-		},
-		"dropTable": {
-			"2111625436": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Fireteam Ops",
-			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries."
-		}
-	},
 	"1441982566": {
 		"hash": 1441982566,
 		"displayProperties": {
@@ -1384,24 +1402,6 @@
 			"name": "Raid",
 			"icon": "/common/destiny2_content/icons/bd7a1fc995f87be96698263bc16698e7.png",
 			"hasIcon": true
-		}
-	},
-	"1604785891": {
-		"hash": 1604785891,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Halt the efforts of old enemies beneath the Moon's surface.",
-			"name": "K1 Logistics",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"hasIcon": false
-		},
-		"dropTable": {
-			"190747610": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Solo Ops",
-			"description": "Protect Earth from Sol's greatest foes as a one-Guardian fireteam and the Vanguard's last line of defense."
 		}
 	},
 	"1661734046": {
@@ -2000,6 +2000,24 @@
 			"hasIcon": true
 		}
 	},
+	"2489241976": {
+		"hash": 2489241976,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Push back on encroaching enemy forces before they become entrenched.",
+			"name": "Caldera",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"hasIcon": false
+		},
+		"dropTable": {
+			"503854896": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Solo Ops",
+			"description": "Protect Earth from Sol's greatest foes as a one-Guardian fireteam and the Vanguard's last line of defense."
+		}
+	},
 	"2582501063": {
 		"hash": 2582501063,
 		"displayProperties": {
@@ -2165,7 +2183,7 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"503854896": {}
+			"4150538093": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Solo Ops",
@@ -2327,30 +2345,32 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"1589715538": {}
+			"190747610": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Fireteam Ops",
 			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries."
 		}
 	},
-	"3120544689": {
-		"hash": 3120544689,
+	"3413518092": {
+		"hash": 3413518092,
 		"type": "bonus-focus",
 		"availability": "rotator",
 		"displayProperties": {
-			"description": "Explore the strange structures at the core of Nessus, converted by the Vex at the Conductor's command.",
-			"name": "Encore",
+			"description": "Matches affect your Competitive Division placement. Wins will lead to promotions. Losses will lead to demotion. \nHigher divisions grant greater reward bonus.",
+			"name": "Competitive",
 			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
 			"hasIcon": false
 		},
 		"dropTable": {
-			"1183125954": {}
+			"1663482635": {}
 		},
 		"typeDisplayProperties": {
-			"name": "Pinnacle Ops",
-			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come."
-		}
+			"name": "Crucible Ops",
+			"description": "Hone your skills and win glory in battle against other Guardians.",
+			"icon": "/common/destiny2_content/icons/193fcaaf80f97c83eb10568dbe514cf1.png"
+		},
+		"pgcrImage": "/img/destiny_content/pgcr/crucible_twilight_gap.jpg"
 	},
 	"3834447244": {
 		"hash": 3834447244,
