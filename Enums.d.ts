@@ -51713,6 +51713,7 @@ export declare const enum MilestoneHashes {
 	TheDesertPerpetual = 3022338715,
 	LastWish = 3181387331,
 	AndOutFlyTheWolves = 3196139068,
+	Purification = 3281608164,
 	RootOfNightmares = 3699252268,
 	LegacyShadowkeep_MilestoneType1 = 3742917278,
 	BeyondLight_Quests3616224969ObjectLength3 = 3765298039,

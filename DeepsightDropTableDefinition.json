@@ -1,22 +1,4 @@
 {
-	"192786114": {
-		"hash": 192786114,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "End the Red Legion expedition that's ripped open the planet's surface.",
-			"name": "The Inverted Spire",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"hasIcon": false
-		},
-		"dropTable": {
-			"2838279629": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Fireteam Ops",
-			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries."
-		}
-	},
 	"300092127": {
 		"hash": 300092127,
 		"displayProperties": {
@@ -581,8 +563,8 @@
 				1315424373
 			],
 			"interval": "weekly",
-			"current": 58,
-			"next": "2025-08-12T17:00:00Z"
+			"current": 59,
+			"next": "2025-08-19T17:00:00Z"
 		},
 		"master": {
 			"activityHash": 4129614942,
@@ -603,6 +585,24 @@
 			"name": "Raid",
 			"icon": "/common/destiny2_content/icons/bd7a1fc995f87be96698263bc16698e7.png",
 			"hasIcon": true
+		}
+	},
+	"941159359": {
+		"hash": 941159359,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "A group of former Red Legion Psions are communing with Vex prediction engines deep within Nessus. They seek to gain tactical insights by analyzing simulations of future events against their own psychic foresight.  Eliminate this threat before they can deliver their intelligence to Empress Caiatl.",
+			"name": "Battleground: Oracle",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"hasIcon": false
+		},
+		"dropTable": {
+			"2838279629": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Fireteam Ops",
+			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries."
 		}
 	},
 	"1042180643": {
@@ -876,24 +876,6 @@
 			"hasIcon": true
 		}
 	},
-	"1160700330": {
-		"hash": 1160700330,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Master the magic of the Witch Queen's Spire and open the way to the Altars of Summoning.",
-			"name": "Savathûn's Spire",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"hasIcon": false
-		},
-		"dropTable": {
-			"190747610": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Fireteam Ops",
-			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries."
-		}
-	},
 	"1262462921": {
 		"hash": 1262462921,
 		"dropTable": {
@@ -1026,6 +1008,24 @@
 			"name": "Dungeon",
 			"description": "Form a fireteam of up to three, and brave the strange and powerful realms of our enemies.",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_f20ebb76bee675ca429e470cec58cc7b.png"
+		}
+	},
+	"1356455457": {
+		"hash": 1356455457,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Follow the flow of Vex radiolaria deep within Nessus.",
+			"name": "Battleground: Conduit",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"hasIcon": false
+		},
+		"dropTable": {
+			"1589715538": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Fireteam Ops",
+			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries."
 		}
 	},
 	"1374392663": {
@@ -1192,8 +1192,8 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 95,
-			"next": "2025-08-12T17:00:00Z"
+			"current": 96,
+			"next": "2025-08-19T17:00:00Z"
 		},
 		"availability": "repeatable",
 		"type": "raid",
@@ -1356,8 +1356,8 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 96,
-			"next": "2025-08-12T17:00:00Z"
+			"current": 97,
+			"next": "2025-08-19T17:00:00Z"
 		},
 		"availability": "repeatable",
 		"type": "raid",
@@ -1366,24 +1366,6 @@
 			"name": "Raid",
 			"icon": "/common/destiny2_content/icons/bd7a1fc995f87be96698263bc16698e7.png",
 			"hasIcon": true
-		}
-	},
-	"1604785891": {
-		"hash": 1604785891,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Halt the efforts of old enemies beneath the Moon's surface.",
-			"name": "K1 Logistics",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"hasIcon": false
-		},
-		"dropTable": {
-			"2111625436": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Solo Ops",
-			"description": "Protect Earth from Sol's greatest foes as a one-Guardian fireteam and the Vanguard's last line of defense."
 		}
 	},
 	"1661734046": {
@@ -1543,18 +1525,36 @@
 			"hasIcon": true
 		}
 	},
-	"1948474391": {
-		"hash": 1948474391,
+	"1734879670": {
+		"hash": 1734879670,
 		"type": "bonus-focus",
 		"availability": "rotator",
 		"displayProperties": {
-			"description": "Enter Fikrul's Revenant Fortress in the Tangled Shore, where dark reflections make it difficult to discern illusion from reality.",
-			"name": "Kell's Fall",
+			"description": "Venture into the Lunar Complex and beyond.",
+			"name": "Skywatch",
 			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
 			"hasIcon": false
 		},
 		"dropTable": {
-			"4146673634": {}
+			"190747610": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Solo Ops",
+			"description": "Protect Earth from Sol's greatest foes as a one-Guardian fireteam and the Vanguard's last line of defense."
+		}
+	},
+	"1768099736": {
+		"hash": 1768099736,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Within the Black Garden, the Sol Divisive toil endlessly, systematically shutting down potential futures. With Riven's blessing, it's time to shut them down.",
+			"name": "Starcrossed",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"hasIcon": false
+		},
+		"dropTable": {
+			"42435996": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Pinnacle Ops",
@@ -1988,8 +1988,8 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 123,
-			"next": "2025-08-12T17:00:00Z"
+			"current": 124,
+			"next": "2025-08-19T17:00:00Z"
 		},
 		"availability": "repeatable",
 		"type": "raid",
@@ -2165,7 +2165,7 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"1663482635": {}
+			"3129990424": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Solo Ops",
@@ -2327,25 +2327,43 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"3129990424": {}
+			"4150538093": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Fireteam Ops",
 			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries."
 		}
 	},
-	"3148168425": {
-		"hash": 3148168425,
+	"3049845845": {
+		"hash": 3049845845,
 		"type": "bonus-focus",
 		"availability": "rotator",
 		"displayProperties": {
-			"description": "Eliminate your opponents or capture the zone to win. Earn as many round and match wins on a ticket as you can.\n\nPassages grant reward bonus.",
-			"name": "Trials of Osiris",
+			"description": "In an act of vengeance for the destruction of their homeworld, the Cabal have struck out against a Hive nest dug deep into the Cosmodrome. Use this opportunity to hit the Cabal hard and show them that humanity will not back down.",
+			"name": "Battleground: Foothold",
 			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
 			"hasIcon": false
 		},
 		"dropTable": {
-			"4049127142": {}
+			"1411560894": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Fireteam Ops",
+			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries."
+		}
+	},
+	"3413518092": {
+		"hash": 3413518092,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Matches affect your Competitive Division placement. Wins will lead to promotions. Losses will lead to demotion. \nHigher divisions grant greater reward bonus.",
+			"name": "Competitive",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"hasIcon": false
+		},
+		"dropTable": {
+			"3602242905": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Crucible Ops",
@@ -2353,24 +2371,6 @@
 			"icon": "/common/destiny2_content/icons/193fcaaf80f97c83eb10568dbe514cf1.png"
 		},
 		"pgcrImage": "/img/destiny_content/pgcr/crucible_twilight_gap.jpg"
-	},
-	"3661422819": {
-		"hash": 3661422819,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Defeat the new leader of the Fallen, Kridis, the Dark Priestess.",
-			"name": "Empire Hunt: The Dark Priestess",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"hasIcon": false
-		},
-		"dropTable": {
-			"1589715538": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Fireteam Ops",
-			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries."
-		}
 	},
 	"3834447244": {
 		"hash": 3834447244,
@@ -2667,8 +2667,8 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 94,
-			"next": "2025-08-12T17:00:00Z"
+			"current": 95,
+			"next": "2025-08-19T17:00:00Z"
 		},
 		"availability": "repeatable",
 		"type": "raid",
@@ -3110,21 +3110,21 @@
 		}
 	},
 	"exoticMission": {
-		"hash": 196691221,
+		"hash": 2880643894,
 		"displayProperties": {
-			"name": "Starcrossed",
-			"description": "Within the Black Garden, the Sol Divisive toil endlessly, systematically shutting down potential futures. With Riven's blessing, it's time to shut them down.",
+			"name": "Encore",
+			"description": "Explore the strange structures at the core of Nessus, converted by the Vex at the Conductor's command.",
 			"icon": "/common/destiny2_content/icons/2ffa90c58bdadcca8226f553315212e7.png"
 		},
 		"dropTable": {
-			"2910326942": {}
+			"3698448090": {}
 		},
 		"master": {
-			"activityHash": 3214480871,
+			"activityHash": 2166410122,
 			"availability": "rotator"
 		},
 		"availability": "rotator",
-		"endTime": "2025-08-12T17:00:00Z",
+		"endTime": "2025-08-19T17:00:00Z",
 		"type": "exotic-mission",
 		"typeDisplayProperties": {
 			"name": "Exotic Mission",
