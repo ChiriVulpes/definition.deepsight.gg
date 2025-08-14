@@ -2334,6 +2334,30 @@
 			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries."
 		}
 	},
+	"2880643894": {
+		"hash": 2880643894,
+		"displayProperties": {
+			"name": "Encore",
+			"description": "Explore the strange structures at the core of Nessus, converted by the Vex at the Conductor's command.",
+			"icon": "/common/destiny2_content/icons/2ffa90c58bdadcca8226f553315212e7.png",
+			"subtitle": "Encore: Standard"
+		},
+		"dropTable": {
+			"3698448090": {}
+		},
+		"master": {
+			"activityHash": 2166410122,
+			"availability": "rotator"
+		},
+		"availability": "rotator",
+		"endTime": "2025-08-19T17:00:00Z",
+		"type": "exotic-mission",
+		"typeDisplayProperties": {
+			"name": "Exotic Mission",
+			"description": "Form a fireteam of up to three, and brave the strange and powerful realms of our enemies.",
+			"icon": "/common/destiny2_content/icons/2ffa90c58bdadcca8226f553315212e7.png"
+		}
+	},
 	"3413518092": {
 		"hash": 3413518092,
 		"type": "bonus-focus",
@@ -3107,29 +3131,6 @@
 			"name": "Raid",
 			"icon": "/common/destiny2_content/icons/bd7a1fc995f87be96698263bc16698e7.png",
 			"hasIcon": true
-		}
-	},
-	"exoticMission": {
-		"hash": 2880643894,
-		"displayProperties": {
-			"name": "Encore",
-			"description": "Explore the strange structures at the core of Nessus, converted by the Vex at the Conductor's command.",
-			"icon": "/common/destiny2_content/icons/2ffa90c58bdadcca8226f553315212e7.png"
-		},
-		"dropTable": {
-			"3698448090": {}
-		},
-		"master": {
-			"activityHash": 2166410122,
-			"availability": "rotator"
-		},
-		"availability": "rotator",
-		"endTime": "2025-08-19T17:00:00Z",
-		"type": "exotic-mission",
-		"typeDisplayProperties": {
-			"name": "Exotic Mission",
-			"description": "Form a fireteam of up to three, and brave the strange and powerful realms of our enemies.",
-			"icon": "/common/destiny2_content/icons/2ffa90c58bdadcca8226f553315212e7.png"
 		}
 	}
 }
