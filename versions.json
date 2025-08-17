@@ -6,7 +6,7 @@
 	"Enums": 62,
 	"Destiny2/Manifest": "235972.25.08.06.2000-1-bnet.61330",
 	"Interfaces": 34,
-	"deepsight": 1420,
+	"deepsight": 1421,
 	"DeepsightTierTypeDefinition": 1,
 	"lastDailyReset": "2025-08-17T17:00:00Z",
 	"lastWeeklyReset": "2025-08-12T17:00:00Z",
@@ -15,13 +15,13 @@
 		"instanceId": "16469402819",
 		"period": "2025-08-17T17:37:09Z"
 	},
-	"updated": "2025-08-17T17:52:24Z",
+	"updated": "2025-08-17T18:14:02Z",
 	"DeepsightVendorDefinition": 630,
 	"DeepsightStats": 1,
 	"DeepsightCollectionsDefinition": 14,
 	"DeepsightSocketCategorisation": 30,
 	"DeepsightAdeptDefinition": 6,
-	"DeepsightEmblemDefinition": 554,
+	"DeepsightEmblemDefinition": 555,
 	"DeepsightSocketExtendedDefinition": 1,
 	"DeepsightCatalystDefinition": 5,
 	"DeepsightBreakerSourceDefinition": 3,
@@ -29,5 +29,5 @@
 	"DeepsightItemDamageTypesDefinition": 0,
 	"DeepsightItemSourceDefinition": 6,
 	"DeepsightItemSourceListDefinition": 4,
-	"DeepsightFormattedClarityDescriptions": 0
+	"DeepsightFormattedClarityDescriptions": 1
 }
