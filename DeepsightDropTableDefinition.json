@@ -284,24 +284,26 @@
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_f20ebb76bee675ca429e470cec58cc7b.png"
 		}
 	},
-	"521171764": {
-		"hash": 521171764,
+	"513922427": {
+		"hash": 513922427,
 		"type": "bonus-focus",
 		"availability": "rotator",
 		"displayProperties": {
-			"description": "Defeat Eramis's technology expert, Praksis, the Technocrat.",
-			"name": "Empire Hunt: The Technocrat",
+			"iconHash": 0,
+			"description": "Cutting Edge: Only New Gear permitted. New Gear also grants reward bonuses.\n\nAchieve victory by defeating opponents. No teams. No allegiances. A free-for-all where the leader had better watch their back.",
+			"name": "Cutting Edge: Rumble",
 			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
 			"hasIcon": false
 		},
 		"dropTable": {
-			"4090134063": {}
+			"1663482635": {}
 		},
 		"typeDisplayProperties": {
-			"name": "Fireteam Ops",
-			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
-			"icon": "./image/png/activity/portal_fireteam.png"
-		}
+			"name": "Crucible Ops",
+			"description": "Hone your skills and win glory in battle against other Guardians.",
+			"icon": "./image/png/activity/portal_crucible.png"
+		},
+		"pgcrImage": "/img/destiny_content/pgcr/crucible_twilight_gap.jpg"
 	},
 	"910380154": {
 		"hash": 910380154,
@@ -430,6 +432,7 @@
 		"availability": "repeatable",
 		"type": "raid",
 		"typeDisplayProperties": {
+			"iconHash": 0,
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
 			"name": "Raid",
 			"icon": "/common/destiny2_content/icons/bd7a1fc995f87be96698263bc16698e7.png",
@@ -582,8 +585,8 @@
 				1315424373
 			],
 			"interval": "weekly",
-			"current": 59,
-			"next": "2025-08-19T17:00:00Z"
+			"current": 60,
+			"next": "2025-08-26T17:00:00Z"
 		},
 		"master": {
 			"activityHash": 4129614942,
@@ -600,10 +603,31 @@
 		"availability": "repeatable",
 		"type": "raid",
 		"typeDisplayProperties": {
+			"iconHash": 0,
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
 			"name": "Raid",
 			"icon": "/common/destiny2_content/icons/bd7a1fc995f87be96698263bc16698e7.png",
 			"hasIcon": true
+		}
+	},
+	"941159359": {
+		"hash": 941159359,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"iconHash": 0,
+			"description": "A group of former Red Legion Psions are communing with Vex prediction engines deep within Nessus. They seek to gain tactical insights by analyzing simulations of future events against their own psychic foresight.  Eliminate this threat before they can deliver their intelligence to Empress Caiatl.",
+			"name": "Battleground: Oracle",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"hasIcon": false
+		},
+		"dropTable": {
+			"3129990424": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Fireteam Ops",
+			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
+			"icon": "./image/png/activity/portal_fireteam.png"
 		}
 	},
 	"1042180643": {
@@ -715,6 +739,7 @@
 		"availability": "repeatable",
 		"type": "raid",
 		"typeDisplayProperties": {
+			"iconHash": 0,
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
 			"name": "Raid",
 			"icon": "/common/destiny2_content/icons/bd7a1fc995f87be96698263bc16698e7.png",
@@ -871,29 +896,11 @@
 		"availability": "repeatable",
 		"type": "raid",
 		"typeDisplayProperties": {
+			"iconHash": 0,
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
 			"name": "Raid",
 			"icon": "/common/destiny2_content/icons/bd7a1fc995f87be96698263bc16698e7.png",
 			"hasIcon": true
-		}
-	},
-	"1160700330": {
-		"hash": 1160700330,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Master the magic of the Witch Queen's Spire and open the way to the Altars of Summoning.",
-			"name": "Savathûn's Spire",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"hasIcon": false
-		},
-		"dropTable": {
-			"3129990424": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Fireteam Ops",
-			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
-			"icon": "./image/png/activity/portal_fireteam.png"
 		}
 	},
 	"1262462921": {
@@ -1194,16 +1201,37 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 96,
-			"next": "2025-08-19T17:00:00Z"
+			"current": 97,
+			"next": "2025-08-26T17:00:00Z"
 		},
 		"availability": "repeatable",
 		"type": "raid",
 		"typeDisplayProperties": {
+			"iconHash": 0,
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
 			"name": "Raid",
 			"icon": "/common/destiny2_content/icons/bd7a1fc995f87be96698263bc16698e7.png",
 			"hasIcon": true
+		}
+	},
+	"1408611635": {
+		"hash": 1408611635,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"iconHash": 0,
+			"description": "Defeat Eramis's military commander, Phylaks, the Warrior.",
+			"name": "Empire Hunt: The Warrior",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"hasIcon": false
+		},
+		"dropTable": {
+			"4150538093": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Fireteam Ops",
+			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
+			"icon": "./image/png/activity/portal_fireteam.png"
 		}
 	},
 	"1441982566": {
@@ -1358,16 +1386,37 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 97,
-			"next": "2025-08-19T17:00:00Z"
+			"current": 98,
+			"next": "2025-08-26T17:00:00Z"
 		},
 		"availability": "repeatable",
 		"type": "raid",
 		"typeDisplayProperties": {
+			"iconHash": 0,
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
 			"name": "Raid",
 			"icon": "/common/destiny2_content/icons/bd7a1fc995f87be96698263bc16698e7.png",
 			"hasIcon": true
+		}
+	},
+	"1604785891": {
+		"hash": 1604785891,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"iconHash": 0,
+			"description": "Halt the efforts of old enemies beneath the Moon's surface.",
+			"name": "K1 Logistics",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"hasIcon": false
+		},
+		"dropTable": {
+			"3926153598": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Solo Ops",
+			"description": "Protect Earth from Sol's greatest foes as a one-Guardian fireteam and the Vanguard's last line of defense.",
+			"icon": "./image/png/activity/portal_solo.png"
 		}
 	},
 	"1661734046": {
@@ -1521,10 +1570,51 @@
 		"availability": "repeatable",
 		"type": "raid",
 		"typeDisplayProperties": {
+			"iconHash": 0,
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
 			"name": "Raid",
 			"icon": "/common/destiny2_content/icons/bd7a1fc995f87be96698263bc16698e7.png",
 			"hasIcon": true
+		}
+	},
+	"1813458730": {
+		"hash": 1813458730,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"iconHash": 0,
+			"description": "Defeat Caiatl's Chosen aboard the Land Tank, Halphas Electus, on Nessus.",
+			"name": "Proving Grounds",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"hasIcon": false
+		},
+		"dropTable": {
+			"503854896": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Fireteam Ops",
+			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
+			"icon": "./image/png/activity/portal_fireteam.png"
+		}
+	},
+	"1948474391": {
+		"hash": 1948474391,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"iconHash": 0,
+			"description": "Enter Fikrul's Revenant Fortress in the Tangled Shore, where dark reflections make it difficult to discern illusion from reality.",
+			"name": "Kell's Fall",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"hasIcon": false
+		},
+		"dropTable": {
+			"464665629": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Pinnacle Ops",
+			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
+			"icon": "./image/png/activity/portal_pinnacle.png"
 		}
 	},
 	"2004855007": {
@@ -1954,12 +2044,13 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 124,
-			"next": "2025-08-19T17:00:00Z"
+			"current": 125,
+			"next": "2025-08-26T17:00:00Z"
 		},
 		"availability": "repeatable",
 		"type": "raid",
 		"typeDisplayProperties": {
+			"iconHash": 0,
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
 			"name": "Raid",
 			"icon": "/common/destiny2_content/icons/bd7a1fc995f87be96698263bc16698e7.png",
@@ -2125,13 +2216,14 @@
 		"type": "bonus-focus",
 		"availability": "rotator",
 		"displayProperties": {
+			"iconHash": 0,
 			"description": "A rotating selection of activities at a moderate difficulty level.",
 			"name": "Quickplay: Advanced",
 			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
 			"hasIcon": false
 		},
 		"dropTable": {
-			"2292070913": {}
+			"2111625436": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Solo Ops",
@@ -2288,94 +2380,14 @@
 		"type": "bonus-focus",
 		"availability": "rotator",
 		"displayProperties": {
+			"iconHash": 0,
 			"description": "A rotating selection of activities at a moderate difficulty level.",
 			"name": "Quickplay: Advanced",
 			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
 			"hasIcon": false
 		},
 		"dropTable": {
-			"190747610": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Fireteam Ops",
-			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
-			"icon": "./image/png/activity/portal_fireteam.png"
-		}
-	},
-	"2880643894": {
-		"hash": 2880643894,
-		"displayProperties": {
-			"name": "Encore",
-			"description": "Explore the strange structures at the core of Nessus, converted by the Vex at the Conductor's command.",
-			"icon": "/common/destiny2_content/icons/2ffa90c58bdadcca8226f553315212e7.png",
-			"subtitle": "Encore: Standard"
-		},
-		"dropTable": {
-			"3698448090": {}
-		},
-		"master": {
-			"activityHash": 2166410122,
-			"availability": "rotator"
-		},
-		"availability": "rotator",
-		"endTime": "2025-08-19T17:00:00Z",
-		"type": "exotic-mission",
-		"typeDisplayProperties": {
-			"name": "Exotic Mission",
-			"description": "Form a fireteam of up to three, and brave the strange and powerful realms of our enemies.",
-			"icon": "/common/destiny2_content/icons/2ffa90c58bdadcca8226f553315212e7.png"
-		}
-	},
-	"3120544689": {
-		"hash": 3120544689,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Explore the strange structures at the core of Nessus, converted by the Vex at the Conductor's command.",
-			"name": "Encore",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"hasIcon": false
-		},
-		"dropTable": {
-			"1154629600": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Pinnacle Ops",
-			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
-			"icon": "./image/png/activity/portal_pinnacle.png"
-		}
-	},
-	"3214228047": {
-		"hash": 3214228047,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Protect the BrayTech facility from incursions by opposition forces.",
-			"name": "Creation",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"hasIcon": false
-		},
-		"dropTable": {
-			"1663482635": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Solo Ops",
-			"description": "Protect Earth from Sol's greatest foes as a one-Guardian fireteam and the Vanguard's last line of defense.",
-			"icon": "./image/png/activity/portal_solo.png"
-		}
-	},
-	"3271010806": {
-		"hash": 3271010806,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Eramis activated the Vex portal once built by Clovis Bray. The Exo Stranger asks for your help in stopping the Vex incursion to Europa.",
-			"name": "The Glassway",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"hasIcon": false
-		},
-		"dropTable": {
-			"2111625436": {}
+			"2292070913": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Fireteam Ops",
@@ -2502,6 +2514,30 @@
 			"name": "Dungeon",
 			"description": "Form a fireteam of up to three, and brave the strange and powerful realms of our enemies.",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_f20ebb76bee675ca429e470cec58cc7b.png"
+		}
+	},
+	"3878270936": {
+		"hash": 3878270936,
+		"displayProperties": {
+			"name": "Kell's Fall",
+			"description": "Enter Fikrul's Revenant Fortress in the Tangled Shore, where dark reflections make it difficult to discern illusion from reality.",
+			"icon": "/common/destiny2_content/icons/2ffa90c58bdadcca8226f553315212e7.png",
+			"subtitle": "Kell's Fall"
+		},
+		"dropTable": {
+			"1047932517": {}
+		},
+		"master": {
+			"activityHash": 367562924,
+			"availability": "rotator"
+		},
+		"availability": "rotator",
+		"endTime": "2025-08-26T17:00:00Z",
+		"type": "exotic-mission",
+		"typeDisplayProperties": {
+			"name": "Exotic Mission",
+			"description": "Form a fireteam of up to three, and brave the strange and powerful realms of our enemies.",
+			"icon": "/common/destiny2_content/icons/2ffa90c58bdadcca8226f553315212e7.png"
 		}
 	},
 	"3881495763": {
@@ -2678,12 +2714,13 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 95,
-			"next": "2025-08-19T17:00:00Z"
+			"current": 96,
+			"next": "2025-08-26T17:00:00Z"
 		},
 		"availability": "repeatable",
 		"type": "raid",
 		"typeDisplayProperties": {
+			"iconHash": 0,
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
 			"name": "Raid",
 			"icon": "/common/destiny2_content/icons/bd7a1fc995f87be96698263bc16698e7.png",
@@ -2836,26 +2873,6 @@
 			"description": "Form a fireteam of up to three, and brave the strange and powerful realms of our enemies.",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_f20ebb76bee675ca429e470cec58cc7b.png"
 		}
-	},
-	"4107873900": {
-		"hash": 4107873900,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Achieve victory by capturing zones and defeating opponents.",
-			"name": "Control",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"hasIcon": false
-		},
-		"dropTable": {
-			"1109145282": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Crucible Ops",
-			"description": "Hone your skills and win glory in battle against other Guardians.",
-			"icon": "./image/png/activity/portal_crucible.png"
-		},
-		"pgcrImage": "/img/destiny_content/pgcr/crucible_twilight_gap.jpg"
 	},
 	"4148187374": {
 		"hash": 4148187374,
@@ -3134,6 +3151,7 @@
 		"availability": "repeatable",
 		"type": "raid",
 		"typeDisplayProperties": {
+			"iconHash": 0,
 			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
 			"name": "Raid",
 			"icon": "/common/destiny2_content/icons/bd7a1fc995f87be96698263bc16698e7.png",
