@@ -1958,15 +1958,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -1995,15 +1987,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -2012,15 +1996,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -3851,15 +3827,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -3868,15 +3836,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -3901,15 +3861,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -3918,15 +3870,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -4846,15 +4790,11 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
 					},
 					{
 						"type": "text",
-						"text": " Elites and higher: "
+						"text": "Elites and higher: "
 					},
 					{
 						"type": "numeric",
@@ -4863,15 +4803,11 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
 					},
 					{
 						"type": "text",
-						"text": " Players: "
+						"text": "Players: "
 					},
 					{
 						"type": "numeric",
@@ -9103,14 +9039,10 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds "
+						"text": " seconds"
 					},
 					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -9145,14 +9077,10 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds "
+						"text": " seconds"
 					},
 					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -9187,14 +9115,10 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds "
+						"text": " seconds"
 					},
 					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -9229,14 +9153,10 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds "
+						"text": " seconds"
 					},
 					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -10216,15 +10136,11 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
 					},
 					{
 						"type": "text",
-						"text": " Elites and higher: "
+						"text": "Elites and higher: "
 					},
 					{
 						"type": "numeric",
@@ -10233,15 +10149,11 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
 					},
 					{
 						"type": "text",
-						"text": " Players: "
+						"text": "Players: "
 					},
 					{
 						"type": "numeric",
@@ -11546,15 +11458,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -11563,15 +11467,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -11580,15 +11476,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -11597,15 +11485,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -11614,15 +11494,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -14139,15 +14011,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -14176,15 +14040,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -14839,17 +14695,11 @@
 					},
 					{
 						"type": "text",
-						"text": "st"
-					},
-					{
-						"type": "stackSeparator"
+						"text": "st|"
 					},
 					{
 						"type": "text",
-						"text": "..."
-					},
-					{
-						"type": "stackSeparator"
+						"text": "...|"
 					},
 					{
 						"type": "numeric",
@@ -19469,15 +19319,11 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
 					},
 					{
 						"type": "text",
-						"text": " Players, Elites, and higher: "
+						"text": "Players, Elites, and higher: "
 					},
 					{
 						"type": "numeric",
@@ -21378,15 +21224,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -21395,15 +21233,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -21412,15 +21242,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -21429,15 +21251,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -21446,15 +21260,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -21575,15 +21381,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -21592,15 +21390,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -21635,15 +21425,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -21652,15 +21434,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -22923,14 +22697,14 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Damage increases "
+						"text": "Damage increases"
 					},
 					{
 						"type": "stackSeparator"
 					},
 					{
 						"type": "text",
-						"text": " Passive Super Drain decreases:"
+						"text": "Passive Super Drain decreases:"
 					}
 				]
 			},
@@ -22960,15 +22734,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -23004,15 +22770,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -23048,15 +22806,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -24769,15 +24519,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -24806,15 +24548,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -24823,15 +24557,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -26996,14 +26722,14 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Hits needed to activate normally "
+						"text": "Hits needed to activate normally"
 					},
 					{
 						"type": "stackSeparator"
 					},
 					{
 						"type": "text",
-						"text": " while "
+						"text": "while "
 					},
 					{
 						"type": "icon",
@@ -27043,15 +26769,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "icon",
@@ -27093,15 +26811,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "icon",
@@ -27143,15 +26853,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "icon",
@@ -27193,15 +26895,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "icon",
@@ -27243,15 +26937,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "icon",
@@ -27293,15 +26979,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "icon",
@@ -28363,14 +28041,8 @@
 						"isEstimate": false
 					},
 					{
-						"type": "stackSeparator"
-					},
-					{
 						"type": "text",
-						"text": "…"
-					},
-					{
-						"type": "stackSeparator"
+						"text": "|…|"
 					},
 					{
 						"type": "numeric",
@@ -35593,15 +35265,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -35610,15 +35274,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -35643,15 +35299,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -35660,15 +35308,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -37925,15 +37565,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -37942,15 +37574,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -37988,15 +37612,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -38005,15 +37621,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -38051,15 +37659,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -38068,15 +37668,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -38118,15 +37710,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -38135,15 +37719,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -38173,15 +37749,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -38190,15 +37758,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -38382,11 +37942,8 @@
 						"isEstimate": false
 					},
 					{
-						"type": "stackSeparator"
-					},
-					{
 						"type": "text",
-						"text": "etc. 'charges':"
+						"text": "|etc. 'charges':"
 					}
 				]
 			},
@@ -38403,15 +37960,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -38420,15 +37969,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -38437,15 +37978,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -38454,15 +37987,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -38471,15 +37996,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -38488,15 +38005,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -38505,15 +38014,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -38541,15 +38042,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -38558,15 +38051,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -38575,15 +38060,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -38592,15 +38069,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -38609,15 +38078,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -38626,15 +38087,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -38643,15 +38096,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -41289,15 +40734,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -41306,15 +40743,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -41323,15 +40752,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -41832,11 +41253,8 @@
 						"isEstimate": false
 					},
 					{
-						"type": "stackSeparator"
-					},
-					{
 						"type": "text",
-						"text": "etc. 'charges':"
+						"text": "|etc. 'charges':"
 					}
 				]
 			},
@@ -41853,15 +41271,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -41870,15 +41280,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -41887,15 +41289,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -41904,15 +41298,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -41921,15 +41307,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -41938,15 +41316,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -41955,15 +41325,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -41991,15 +41353,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -42008,15 +41362,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -42025,15 +41371,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -42042,15 +41380,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -42059,15 +41389,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -42076,15 +41398,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -42093,15 +41407,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -43072,15 +42378,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -43109,15 +42407,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -43462,14 +42752,8 @@
 						"isEstimate": false
 					},
 					{
-						"type": "stackSeparator"
-					},
-					{
 						"type": "text",
-						"text": "…"
-					},
-					{
-						"type": "stackSeparator"
+						"text": "|…|"
 					},
 					{
 						"type": "numeric",
@@ -43575,15 +42859,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -43592,15 +42868,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -43609,15 +42877,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -43626,15 +42886,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -43643,15 +42895,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -44194,15 +43438,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -44211,15 +43447,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -44228,15 +43456,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -44245,15 +43465,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -45089,15 +44301,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "enhancedArrow",
@@ -45112,15 +44316,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "enhancedArrow",
@@ -45135,15 +44331,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "enhancedArrow",
@@ -45158,15 +44346,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -45191,15 +44371,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -45208,15 +44380,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -45225,15 +44389,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -45242,15 +44398,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -47560,15 +46708,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -47577,15 +46717,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -47594,15 +46726,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -47611,15 +46735,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -47644,15 +46760,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -47661,15 +46769,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -47678,15 +46778,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -47695,15 +46787,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -50051,15 +49135,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -50068,15 +49144,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -50112,15 +49180,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -50129,15 +49189,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -50755,15 +49807,11 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
 					},
 					{
 						"type": "text",
-						"text": " Melee: "
+						"text": "Melee: "
 					},
 					{
 						"type": "numeric",
@@ -50772,15 +49820,11 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
 					},
 					{
 						"type": "text",
-						"text": " Class Ability: "
+						"text": "Class Ability: "
 					},
 					{
 						"type": "numeric",
@@ -53884,10 +52928,7 @@
 					},
 					{
 						"type": "text",
-						"text": "..."
-					},
-					{
-						"type": "stackSeparator"
+						"text": "...|"
 					},
 					{
 						"type": "numeric",
@@ -58135,15 +57176,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -58209,15 +57242,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "icon",
@@ -58236,15 +57261,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "icon",
@@ -63832,11 +62849,8 @@
 						"isEstimate": false
 					},
 					{
-						"type": "stackSeparator"
-					},
-					{
 						"type": "text",
-						"text": "etc. 'charges':"
+						"text": "|etc. 'charges':"
 					}
 				]
 			},
@@ -63853,15 +62867,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -63870,15 +62876,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -63887,15 +62885,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -63904,15 +62894,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -63921,15 +62903,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -63938,15 +62912,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -63955,15 +62921,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -63991,15 +62949,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -64008,15 +62958,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -64025,15 +62967,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -64042,15 +62976,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -64059,15 +62985,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -64076,15 +62994,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -64093,15 +63003,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -64282,14 +63184,8 @@
 						"isEstimate": false
 					},
 					{
-						"type": "stackSeparator"
-					},
-					{
 						"type": "text",
-						"text": "…"
-					},
-					{
-						"type": "stackSeparator"
+						"text": "|…|"
 					},
 					{
 						"type": "numeric",
@@ -69029,15 +67925,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -69082,15 +67970,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -69190,15 +68070,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -69263,15 +68135,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -69474,11 +68338,8 @@
 						"isEstimate": false
 					},
 					{
-						"type": "stackSeparator"
-					},
-					{
 						"type": "text",
-						"text": "etc. 'charges':"
+						"text": "|etc. 'charges':"
 					}
 				]
 			},
@@ -69495,15 +68356,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -69512,15 +68365,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -69529,15 +68374,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -69546,15 +68383,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -69563,15 +68392,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -69580,15 +68401,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -69597,15 +68410,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -69633,15 +68438,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -69650,15 +68447,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -69667,15 +68456,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -69684,15 +68465,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -69701,15 +68474,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -69718,15 +68483,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -69735,15 +68492,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -70205,15 +68954,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -70242,15 +68983,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -71434,17 +70167,11 @@
 					},
 					{
 						"type": "text",
-						"text": "st"
-					},
-					{
-						"type": "stackSeparator"
+						"text": "st|"
 					},
 					{
 						"type": "text",
-						"text": "..."
-					},
-					{
-						"type": "stackSeparator"
+						"text": "...|"
 					},
 					{
 						"type": "numeric",
@@ -72721,15 +71448,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -72758,15 +71477,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -73112,15 +71823,11 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
 					},
 					{
 						"type": "text",
-						"text": " Elites: "
+						"text": "Elites: "
 					},
 					{
 						"type": "numeric",
@@ -73129,15 +71836,11 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
 					},
 					{
 						"type": "text",
-						"text": " Minibosses and higher: "
+						"text": "Minibosses and higher: "
 					},
 					{
 						"type": "numeric",
@@ -75040,15 +73743,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -75057,15 +73752,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -75074,15 +73761,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -75091,15 +73770,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -75124,15 +73795,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -75141,15 +73804,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -75158,15 +73813,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -75175,15 +73822,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -75208,15 +73847,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -75225,15 +73856,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -75242,15 +73865,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -75259,15 +73874,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -75292,15 +73899,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -75309,15 +73908,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -75326,15 +73917,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -75343,15 +73926,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -75376,15 +73951,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -75393,15 +73960,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -75410,15 +73969,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -75427,15 +73978,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -75460,15 +74003,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -75477,15 +74012,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -75494,15 +74021,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -75511,15 +74030,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -76685,15 +75196,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -76722,15 +75225,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -83110,15 +81605,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -83147,15 +81634,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -85344,15 +83823,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -85418,15 +83889,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "icon",
@@ -85445,15 +83908,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "icon",
@@ -99427,15 +97882,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -99444,15 +97891,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -99461,15 +97900,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -99478,15 +97909,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -100762,15 +99185,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -100779,15 +99194,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -100796,15 +99203,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -100813,15 +99212,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -100846,15 +99237,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -100863,15 +99246,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -100880,15 +99255,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -100897,15 +99264,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -101030,15 +99389,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -101047,15 +99398,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -101090,15 +99433,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -101107,15 +99442,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -106232,14 +104559,10 @@
 					},
 					{
 						"type": "text",
-						"text": " Hits "
+						"text": " Hits"
 					},
 					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -106284,14 +104607,10 @@
 					},
 					{
 						"type": "text",
-						"text": " Hits "
+						"text": " Hits"
 					},
 					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "icon",
@@ -106328,14 +104647,10 @@
 					},
 					{
 						"type": "text",
-						"text": " Hits "
+						"text": " Hits"
 					},
 					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "icon",
@@ -106372,14 +104687,10 @@
 					},
 					{
 						"type": "text",
-						"text": " Hits "
+						"text": " Hits"
 					},
 					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "icon",
@@ -106416,14 +104727,10 @@
 					},
 					{
 						"type": "text",
-						"text": " Hits "
+						"text": " Hits"
 					},
 					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "icon",
@@ -106460,14 +104767,10 @@
 					},
 					{
 						"type": "text",
-						"text": " Hits "
+						"text": " Hits"
 					},
 					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "icon",
@@ -106504,14 +104807,10 @@
 					},
 					{
 						"type": "text",
-						"text": " Hits "
+						"text": " Hits"
 					},
 					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "icon",
@@ -106548,14 +104847,10 @@
 					},
 					{
 						"type": "text",
-						"text": " Hits "
+						"text": " Hits"
 					},
 					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "icon",
@@ -106592,14 +104887,10 @@
 					},
 					{
 						"type": "text",
-						"text": " Hits "
+						"text": " Hits"
 					},
 					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "icon",
@@ -107194,15 +105485,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -107211,15 +105494,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -107254,15 +105529,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -107271,15 +105538,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -114827,11 +113086,8 @@
 						"isEstimate": false
 					},
 					{
-						"type": "stackSeparator"
-					},
-					{
 						"type": "text",
-						"text": "etc. 'charges':"
+						"text": "|etc. 'charges':"
 					}
 				]
 			},
@@ -114848,15 +113104,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -114865,15 +113113,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -114882,15 +113122,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -114899,15 +113131,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -114916,15 +113140,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -114933,15 +113149,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -114950,15 +113158,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -114986,15 +113186,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -115003,15 +113195,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -115020,15 +113204,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -115037,15 +113213,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -115054,15 +113222,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -115071,15 +113231,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -115088,15 +113240,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -115574,15 +113718,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -115616,15 +113752,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -115649,15 +113777,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -117863,15 +115983,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -117900,15 +116012,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -121979,15 +120083,7 @@
 						"isEstimate": true
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -121996,15 +120092,7 @@
 						"isEstimate": true
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -122029,15 +120117,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -122046,15 +120126,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -122079,15 +120151,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -122096,15 +120160,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -126487,14 +124543,8 @@
 						"isEstimate": false
 					},
 					{
-						"type": "stackSeparator"
-					},
-					{
 						"type": "text",
-						"text": "…"
-					},
-					{
-						"type": "stackSeparator"
+						"text": "|…|"
 					},
 					{
 						"type": "numeric",
@@ -126518,15 +124568,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -126535,15 +124577,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -126552,15 +124586,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -126569,15 +124595,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -126586,15 +124604,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -128662,14 +126672,10 @@
 					},
 					{
 						"type": "text",
-						"text": " Hits "
+						"text": " Hits"
 					},
 					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -128720,14 +126726,10 @@
 					},
 					{
 						"type": "text",
-						"text": " Hits "
+						"text": " Hits"
 					},
 					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "icon",
@@ -128770,14 +126772,10 @@
 					},
 					{
 						"type": "text",
-						"text": " Hits "
+						"text": " Hits"
 					},
 					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "icon",
@@ -128820,14 +126818,10 @@
 					},
 					{
 						"type": "text",
-						"text": " Hits "
+						"text": " Hits"
 					},
 					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "icon",
@@ -128870,14 +126864,10 @@
 					},
 					{
 						"type": "text",
-						"text": " Hits "
+						"text": " Hits"
 					},
 					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "icon",
@@ -128920,14 +126910,10 @@
 					},
 					{
 						"type": "text",
-						"text": " Hits "
+						"text": " Hits"
 					},
 					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "icon",
@@ -128970,14 +126956,10 @@
 					},
 					{
 						"type": "text",
-						"text": " Hits "
+						"text": " Hits"
 					},
 					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "icon",
@@ -129020,14 +127002,10 @@
 					},
 					{
 						"type": "text",
-						"text": " Hits "
+						"text": " Hits"
 					},
 					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "icon",
@@ -129070,14 +127048,10 @@
 					},
 					{
 						"type": "text",
-						"text": " Hits "
+						"text": " Hits"
 					},
 					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "icon",
@@ -129442,15 +127416,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -129479,15 +127445,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -130838,15 +128796,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -130875,15 +128825,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -132460,15 +130402,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -132497,15 +130431,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -134103,15 +132029,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -134140,15 +132058,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -137291,14 +135201,8 @@
 						"isEstimate": false
 					},
 					{
-						"type": "stackSeparator"
-					},
-					{
 						"type": "text",
-						"text": "…"
-					},
-					{
-						"type": "stackSeparator"
+						"text": "|…|"
 					},
 					{
 						"type": "numeric",
@@ -140884,15 +138788,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -140901,15 +138797,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -140947,15 +138835,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -140964,15 +138844,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -141010,15 +138882,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -141027,15 +138891,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -141077,15 +138933,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -141094,15 +138942,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -141132,15 +138972,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -141149,15 +138981,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -141533,14 +139357,14 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Hits needed to activate normally "
+						"text": "Hits needed to activate normally"
 					},
 					{
 						"type": "stackSeparator"
 					},
 					{
 						"type": "text",
-						"text": " while "
+						"text": "while "
 					},
 					{
 						"type": "icon",
@@ -141574,15 +139398,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "icon",
@@ -141618,15 +139434,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "icon",
@@ -141662,15 +139470,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "icon",
@@ -141706,15 +139506,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "icon",
@@ -141750,15 +139542,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "icon",
@@ -141794,15 +139578,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "icon",
@@ -143635,15 +141411,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -143652,15 +141420,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -143669,15 +141429,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -144028,15 +141780,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -144045,15 +141789,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -144062,15 +141798,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -144425,15 +142153,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -144462,15 +142182,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -144540,15 +142252,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -144577,15 +142281,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -146004,15 +143700,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -146021,15 +143709,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -146038,15 +143718,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -146055,15 +143727,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -148185,15 +145849,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -148202,15 +145858,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -148219,15 +145867,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -148236,15 +145876,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -148269,15 +145901,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -148286,15 +145910,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -148303,15 +145919,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -148320,15 +145928,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -148450,15 +146050,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -148487,15 +146079,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -149079,11 +146663,8 @@
 						"isEstimate": false
 					},
 					{
-						"type": "stackSeparator"
-					},
-					{
 						"type": "text",
-						"text": "etc. 'charges':"
+						"text": "|etc. 'charges':"
 					}
 				]
 			},
@@ -149100,15 +146681,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -149117,15 +146690,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -149134,15 +146699,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -149151,15 +146708,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -149168,15 +146717,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -149185,15 +146726,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -149202,15 +146735,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -149238,15 +146763,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -149255,15 +146772,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -149272,15 +146781,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -149289,15 +146790,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -149306,15 +146799,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -149323,15 +146808,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -149340,15 +146817,7 @@
 								"isEstimate": false
 							},
 							{
-								"type": "text",
-								"text": " "
-							},
-							{
 								"type": "stackSeparator"
-							},
-							{
-								"type": "text",
-								"text": " "
 							},
 							{
 								"type": "numeric",
@@ -149560,15 +147029,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -149597,15 +147058,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -151056,14 +148509,10 @@
 					},
 					{
 						"type": "text",
-						"text": " Activation Progress "
+						"text": " Activation Progress"
 					},
 					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -151097,15 +148546,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -151135,15 +148576,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -151830,15 +149263,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -151867,15 +149292,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -152629,14 +150046,10 @@
 					},
 					{
 						"type": "text",
-						"text": " on Hits "
+						"text": " on Hits"
 					},
 					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -152678,15 +150091,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -152724,15 +150129,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -152770,15 +150167,7 @@
 						"isEstimate": false
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "numeric",
@@ -153468,15 +150857,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -153505,15 +150886,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -153583,15 +150956,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
@@ -153620,15 +150985,7 @@
 						]
 					},
 					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "stackSeparator"
-					},
-					{
-						"type": "text",
-						"text": " "
 					},
 					{
 						"type": "pve",
