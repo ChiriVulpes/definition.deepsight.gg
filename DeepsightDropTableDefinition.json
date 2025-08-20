@@ -1,4 +1,24 @@
 {
+	"192786114": {
+		"hash": 192786114,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"iconHash": 0,
+			"description": "End the Red Legion expedition that's ripped open the planet's surface.",
+			"name": "The Inverted Spire",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"hasIcon": false
+		},
+		"dropTable": {
+			"4090134063": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Fireteam Ops",
+			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
+			"icon": "./image/png/activity/portal_fireteam.png"
+		}
+	},
 	"300092127": {
 		"hash": 300092127,
 		"displayProperties": {
@@ -283,27 +303,6 @@
 			"description": "Form a fireteam of up to three, and brave the strange and powerful realms of our enemies.",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_f20ebb76bee675ca429e470cec58cc7b.png"
 		}
-	},
-	"513922427": {
-		"hash": 513922427,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"iconHash": 0,
-			"description": "Cutting Edge: Only New Gear permitted. New Gear also grants reward bonuses.\n\nAchieve victory by defeating opponents. No teams. No allegiances. A free-for-all where the leader had better watch their back.",
-			"name": "Cutting Edge: Rumble",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"hasIcon": false
-		},
-		"dropTable": {
-			"1663482635": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Crucible Ops",
-			"description": "Hone your skills and win glory in battle against other Guardians.",
-			"icon": "./image/png/activity/portal_crucible.png"
-		},
-		"pgcrImage": "/img/destiny_content/pgcr/crucible_twilight_gap.jpg"
 	},
 	"910380154": {
 		"hash": 910380154,
@@ -608,26 +607,6 @@
 			"name": "Raid",
 			"icon": "/common/destiny2_content/icons/bd7a1fc995f87be96698263bc16698e7.png",
 			"hasIcon": true
-		}
-	},
-	"941159359": {
-		"hash": 941159359,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"iconHash": 0,
-			"description": "A group of former Red Legion Psions are communing with Vex prediction engines deep within Nessus. They seek to gain tactical insights by analyzing simulations of future events against their own psychic foresight.  Eliminate this threat before they can deliver their intelligence to Empress Caiatl.",
-			"name": "Battleground: Oracle",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"hasIcon": false
-		},
-		"dropTable": {
-			"3129990424": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Fireteam Ops",
-			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
-			"icon": "./image/png/activity/portal_fireteam.png"
 		}
 	},
 	"1042180643": {
@@ -1214,26 +1193,6 @@
 			"hasIcon": true
 		}
 	},
-	"1408611635": {
-		"hash": 1408611635,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"iconHash": 0,
-			"description": "Defeat Eramis's military commander, Phylaks, the Warrior.",
-			"name": "Empire Hunt: The Warrior",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"hasIcon": false
-		},
-		"dropTable": {
-			"4150538093": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Fireteam Ops",
-			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
-			"icon": "./image/png/activity/portal_fireteam.png"
-		}
-	},
 	"1441982566": {
 		"hash": 1441982566,
 		"displayProperties": {
@@ -1399,26 +1358,6 @@
 			"hasIcon": true
 		}
 	},
-	"1604785891": {
-		"hash": 1604785891,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"iconHash": 0,
-			"description": "Halt the efforts of old enemies beneath the Moon's surface.",
-			"name": "K1 Logistics",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"hasIcon": false
-		},
-		"dropTable": {
-			"3926153598": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Solo Ops",
-			"description": "Protect Earth from Sol's greatest foes as a one-Guardian fireteam and the Vanguard's last line of defense.",
-			"icon": "./image/png/activity/portal_solo.png"
-		}
-	},
 	"1661734046": {
 		"hash": 1661734046,
 		"rotationActivityHash": 2122313384,
@@ -1577,34 +1516,14 @@
 			"hasIcon": true
 		}
 	},
-	"1813458730": {
-		"hash": 1813458730,
+	"1768099736": {
+		"hash": 1768099736,
 		"type": "bonus-focus",
 		"availability": "rotator",
 		"displayProperties": {
 			"iconHash": 0,
-			"description": "Defeat Caiatl's Chosen aboard the Land Tank, Halphas Electus, on Nessus.",
-			"name": "Proving Grounds",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"hasIcon": false
-		},
-		"dropTable": {
-			"503854896": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Fireteam Ops",
-			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
-			"icon": "./image/png/activity/portal_fireteam.png"
-		}
-	},
-	"1948474391": {
-		"hash": 1948474391,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"iconHash": 0,
-			"description": "Enter Fikrul's Revenant Fortress in the Tangled Shore, where dark reflections make it difficult to discern illusion from reality.",
-			"name": "Kell's Fall",
+			"description": "Within the Black Garden, the Sol Divisive toil endlessly, systematically shutting down potential futures. With Riven's blessing, it's time to shut them down.",
+			"name": "Starcrossed",
 			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
 			"hasIcon": false
 		},
@@ -1615,6 +1534,26 @@
 			"name": "Pinnacle Ops",
 			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
 			"icon": "./image/png/activity/portal_pinnacle.png"
+		}
+	},
+	"1919941943": {
+		"hash": 1919941943,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"iconHash": 0,
+			"description": "Carve your way through a treacherous mountain pass teeming with Lucent Hive and Taken.",
+			"name": "Liminality",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"hasIcon": false
+		},
+		"dropTable": {
+			"3129990424": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Fireteam Ops",
+			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
+			"icon": "./image/png/activity/portal_fireteam.png"
 		}
 	},
 	"2004855007": {
@@ -2223,7 +2162,7 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"2111625436": {}
+			"1589715538": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Solo Ops",
@@ -2387,7 +2326,27 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"2292070913": {}
+			"4150538093": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Fireteam Ops",
+			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
+			"icon": "./image/png/activity/portal_fireteam.png"
+		}
+	},
+	"3271010806": {
+		"hash": 3271010806,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"iconHash": 0,
+			"description": "Eramis activated the Vex portal once built by Clovis Bray. The Exo Stranger asks for your help in stopping the Vex incursion to Europa.",
+			"name": "The Glassway",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"hasIcon": false
+		},
+		"dropTable": {
+			"1193318082": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Fireteam Ops",
@@ -2727,6 +2686,26 @@
 			"hasIcon": true
 		}
 	},
+	"4008836256": {
+		"hash": 4008836256,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"iconHash": 0,
+			"description": "Stop new enemies from gaining a foothold in the depths of the EDZ.",
+			"name": "The Salt Mines",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"hasIcon": false
+		},
+		"dropTable": {
+			"190747610": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Solo Ops",
+			"description": "Protect Earth from Sol's greatest foes as a one-Guardian fireteam and the Vanguard's last line of defense.",
+			"icon": "./image/png/activity/portal_solo.png"
+		}
+	},
 	"4078656646": {
 		"hash": 4078656646,
 		"displayProperties": {
@@ -2873,6 +2852,27 @@
 			"description": "Form a fireteam of up to three, and brave the strange and powerful realms of our enemies.",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_f20ebb76bee675ca429e470cec58cc7b.png"
 		}
+	},
+	"4107873900": {
+		"hash": 4107873900,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"iconHash": 0,
+			"description": "Achieve victory by capturing zones and defeating opponents.",
+			"name": "Control",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"hasIcon": false
+		},
+		"dropTable": {
+			"3602242905": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Crucible Ops",
+			"description": "Hone your skills and win glory in battle against other Guardians.",
+			"icon": "./image/png/activity/portal_crucible.png"
+		},
+		"pgcrImage": "/img/destiny_content/pgcr/crucible_twilight_gap.jpg"
 	},
 	"4148187374": {
 		"hash": 4148187374,
