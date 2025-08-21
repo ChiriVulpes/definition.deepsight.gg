@@ -105,6 +105,10 @@ export declare const enum DeepsightPlugTypeMod {
 	ArmorStatTuning,
 	GhostDeprecated,
 	WeaponEnhanced,
+	ArmorStatTuningEmpty,
+	ArmorArtifice,
+	ArmorArtificeEmpty,
+	ArmorArtificeAction,
 }
 
 export declare const enum DeepsightPlugTypeSubclass {
