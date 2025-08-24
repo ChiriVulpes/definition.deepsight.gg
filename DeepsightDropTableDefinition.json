@@ -284,19 +284,19 @@
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_f20ebb76bee675ca429e470cec58cc7b.png"
 		}
 	},
-	"387463532": {
-		"hash": 387463532,
+	"521171764": {
+		"hash": 521171764,
 		"type": "bonus-focus",
 		"availability": "rotator",
 		"displayProperties": {
 			"iconHash": 0,
-			"description": "Delve ever deeper into the myriad pathways of Riven's Lair in The Coil. Face greater challenges and retrieve greater rewards.",
-			"name": "The Coil",
+			"description": "Defeat Eramis's technology expert, Praksis, the Technocrat.",
+			"name": "Empire Hunt: The Technocrat",
 			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
 			"hasIcon": false
 		},
 		"dropTable": {
-			"2292070913": {}
+			"1411560894": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Fireteam Ops",
@@ -882,26 +882,6 @@
 			"hasIcon": true
 		}
 	},
-	"1160700330": {
-		"hash": 1160700330,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"iconHash": 0,
-			"description": "Master the magic of the Witch Queen's Spire and open the way to the Altars of Summoning.",
-			"name": "Savathûn's Spire",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"hasIcon": false
-		},
-		"dropTable": {
-			"1411560894": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Fireteam Ops",
-			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
-			"icon": "./image/png/activity/portal_fireteam.png"
-		}
-	},
 	"1262462921": {
 		"hash": 1262462921,
 		"dropTable": {
@@ -1213,6 +1193,26 @@
 			"hasIcon": true
 		}
 	},
+	"1413939183": {
+		"hash": 1413939183,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"iconHash": 0,
+			"description": "Descend into Nessus and explore the Vex structures within.",
+			"name": "Battleground: Delve",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"hasIcon": false
+		},
+		"dropTable": {
+			"2111625436": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Fireteam Ops",
+			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
+			"icon": "./image/png/activity/portal_fireteam.png"
+		}
+	},
 	"1441982566": {
 		"hash": 1441982566,
 		"displayProperties": {
@@ -1378,6 +1378,26 @@
 			"hasIcon": true
 		}
 	},
+	"1604785891": {
+		"hash": 1604785891,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"iconHash": 0,
+			"description": "Halt the efforts of old enemies beneath the Moon's surface.",
+			"name": "K1 Logistics",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"hasIcon": false
+		},
+		"dropTable": {
+			"1589715538": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Solo Ops",
+			"description": "Protect Earth from Sol's greatest foes as a one-Guardian fireteam and the Vanguard's last line of defense.",
+			"icon": "./image/png/activity/portal_solo.png"
+		}
+	},
 	"1661734046": {
 		"hash": 1661734046,
 		"rotationActivityHash": 2122313384,
@@ -1536,19 +1556,39 @@
 			"hasIcon": true
 		}
 	},
-	"1813458730": {
-		"hash": 1813458730,
+	"1768099736": {
+		"hash": 1768099736,
 		"type": "bonus-focus",
 		"availability": "rotator",
 		"displayProperties": {
 			"iconHash": 0,
-			"description": "Defeat Caiatl's Chosen aboard the Land Tank, Halphas Electus, on Nessus.",
-			"name": "Proving Grounds",
+			"description": "Within the Black Garden, the Sol Divisive toil endlessly, systematically shutting down potential futures. With Riven's blessing, it's time to shut them down.",
+			"name": "Starcrossed",
 			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
 			"hasIcon": false
 		},
 		"dropTable": {
-			"3129990424": {}
+			"464665629": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Pinnacle Ops",
+			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
+			"icon": "./image/png/activity/portal_pinnacle.png"
+		}
+	},
+	"1919941943": {
+		"hash": 1919941943,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"iconHash": 0,
+			"description": "Carve your way through a treacherous mountain pass teeming with Lucent Hive and Taken.",
+			"name": "Liminality",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"hasIcon": false
+		},
+		"dropTable": {
+			"503854896": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Fireteam Ops",
@@ -2162,7 +2202,7 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"1193318082": {}
+			"4090134063": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Solo Ops",
@@ -2326,7 +2366,7 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"2838279629": {}
+			"1193318082": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Fireteam Ops",
@@ -2334,45 +2374,26 @@
 			"icon": "./image/png/activity/portal_fireteam.png"
 		}
 	},
-	"3120544689": {
-		"hash": 3120544689,
+	"3148168425": {
+		"hash": 3148168425,
 		"type": "bonus-focus",
 		"availability": "rotator",
 		"displayProperties": {
 			"iconHash": 0,
-			"description": "Explore the strange structures at the core of Nessus, converted by the Vex at the Conductor's command.",
-			"name": "Encore",
+			"description": "Eliminate your opponents or capture the zone to win. Earn as many round and match wins on a ticket as you can.\n\nPassages grant reward bonus.",
+			"name": "Trials of Osiris",
 			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
 			"hasIcon": false
 		},
 		"dropTable": {
-			"42435996": {}
+			"3602242905": {}
 		},
 		"typeDisplayProperties": {
-			"name": "Pinnacle Ops",
-			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
-			"icon": "./image/png/activity/portal_pinnacle.png"
-		}
-	},
-	"3214228047": {
-		"hash": 3214228047,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"iconHash": 0,
-			"description": "Protect the BrayTech facility from incursions by opposition forces.",
-			"name": "Creation",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"hasIcon": false
+			"name": "Crucible Ops",
+			"description": "Hone your skills and win glory in battle against other Guardians.",
+			"icon": "./image/png/activity/portal_crucible.png"
 		},
-		"dropTable": {
-			"4090134063": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Solo Ops",
-			"description": "Protect Earth from Sol's greatest foes as a one-Guardian fireteam and the Vanguard's last line of defense.",
-			"icon": "./image/png/activity/portal_solo.png"
-		}
+		"pgcrImage": "/img/destiny_content/pgcr/crucible_twilight_gap.jpg"
 	},
 	"3834447244": {
 		"hash": 3834447244,
@@ -2852,27 +2873,6 @@
 			"description": "Form a fireteam of up to three, and brave the strange and powerful realms of our enemies.",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_f20ebb76bee675ca429e470cec58cc7b.png"
 		}
-	},
-	"4107873900": {
-		"hash": 4107873900,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"iconHash": 0,
-			"description": "Achieve victory by capturing zones and defeating opponents.",
-			"name": "Control",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"hasIcon": false
-		},
-		"dropTable": {
-			"2752429099": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Crucible Ops",
-			"description": "Hone your skills and win glory in battle against other Guardians.",
-			"icon": "./image/png/activity/portal_crucible.png"
-		},
-		"pgcrImage": "/img/destiny_content/pgcr/crucible_twilight_gap.jpg"
 	},
 	"4148187374": {
 		"hash": 4148187374,
