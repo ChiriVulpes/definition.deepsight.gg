@@ -339,7 +339,8 @@
 						"type": "text",
 						"text": "Echoes activities"
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -571,7 +572,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Increases Kinetic Weapon Damage while you have active Armor Charges:"
+						"text": "Increases Kinetic Weapon damage while you have active Armor Charges:"
 					}
 				]
 			},
@@ -665,7 +666,8 @@
 								"type": "text",
 								"text": " Mods"
 							}
-						]
+						],
+						"isListItem": true
 					}
 				]
 			},
@@ -722,7 +724,8 @@
 								"type": "text",
 								"text": " increased damage"
 							}
-						]
+						],
+						"isListItem": true
 					}
 				]
 			},
@@ -1458,7 +1461,8 @@
 						"type": "text",
 						"text": " seconds"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -1493,7 +1497,8 @@
 						"type": "text",
 						"text": " seconds"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -1528,7 +1533,8 @@
 						"type": "text",
 						"text": " seconds"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -1563,7 +1569,8 @@
 						"type": "text",
 						"text": " seconds"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -2206,17 +2213,17 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Ammo Brick Pickups grants an additional "
+						"text": "Ammo Brick pickups generally grant an "
 					},
 					{
 						"type": "numeric",
-						"text": "1%",
-						"isUnknown": true,
+						"text": "1",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " of your Total Reserves to "
+						"text": " additional ammo to "
 					},
 					{
 						"type": "icon",
@@ -2226,7 +2233,32 @@
 					},
 					{
 						"type": "text",
-						"text": "Solar Weapons matching the Ammo Type. This is increased to "
+						"text": "Solar Weapons matching the Ammo Type."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Machine Guns receive "
+					},
+					{
+						"type": "numeric",
+						"text": "7",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " additional ammo, Trace Rifles receive "
 					},
 					{
 						"type": "numeric",
@@ -2236,17 +2268,7 @@
 					},
 					{
 						"type": "text",
-						"text": " with Trace Rifles and Swords and to "
-					},
-					{
-						"type": "numeric",
-						"text": "5%",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " with Xenophage."
+						"text": " of their Total Reserves (rounded up) as additional ammo."
 					}
 				]
 			},
@@ -2261,34 +2283,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Eyes of Tomorrow"
-					},
-					{
-						"type": "text",
-						"text": ", and "
-					},
-					{
-						"type": "text",
-						"text": "Two-Tailed Fox"
-					},
-					{
-						"type": "text",
-						"text": " do not receive any extra ammo on pickups."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "line",
-				"content": [
-					{
-						"type": "text",
-						"text": "Always rounds up to the nearest whole number. Functions the same way regardless of what spawned the Ammo Brick."
+						"text": "Functions the same way regardless of what spawned the Ammo Brick."
 					}
 				]
 			},
@@ -2892,7 +2887,8 @@
 						"type": "text",
 						"text": "Jolt"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -2933,7 +2929,8 @@
 						"type": "text",
 						"text": "Scorch Stacks"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -2964,7 +2961,8 @@
 						"type": "text",
 						"text": "Volatile"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -3015,7 +3013,8 @@
 						"type": "text",
 						"text": " seconds"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -3046,7 +3045,8 @@
 						"type": "text",
 						"text": "Sever"
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -3131,7 +3131,8 @@
 						"type": "text",
 						"text": "Bows, Glaives (both Projectile and Melee), Grenade/Rocket Launchers (Impact and Detonation damage count separately), Sniper Rifles"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -3156,7 +3157,8 @@
 						"type": "text",
 						"text": "Scout Rifles"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -3181,7 +3183,8 @@
 						"type": "text",
 						"text": "Sidearms"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -3206,7 +3209,8 @@
 						"type": "text",
 						"text": "Submachine Guns"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -3231,7 +3235,8 @@
 						"type": "text",
 						"text": "Fusion Rifles"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -3256,7 +3261,8 @@
 						"type": "text",
 						"text": "Auto Rifles"
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -3341,7 +3347,8 @@
 						"type": "text",
 						"text": "Bows, Glaives (both Projectile and Melee), Grenade/Rocket Launchers (Impact and Detonation damage count separately), Sniper Rifles"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -3366,7 +3373,8 @@
 						"type": "text",
 						"text": "Scout Rifles"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -3391,7 +3399,8 @@
 						"type": "text",
 						"text": "Sidearms"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -3416,7 +3425,8 @@
 						"type": "text",
 						"text": "Submachine Guns"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -3441,7 +3451,8 @@
 						"type": "text",
 						"text": "Fusion Rifles"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -3466,7 +3477,8 @@
 						"type": "text",
 						"text": "Auto Rifles"
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -5175,7 +5187,8 @@
 						"type": "text",
 						"text": "Bolt Charge Stack"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -5226,7 +5239,8 @@
 						"type": "text",
 						"text": " seconds"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -5277,7 +5291,8 @@
 						"type": "text",
 						"text": " seconds"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -5328,7 +5343,8 @@
 						"type": "text",
 						"text": " seconds"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -5369,7 +5385,8 @@
 						"type": "text",
 						"text": " seconds"
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -5377,7 +5394,7 @@
 	"124726499": {
 		"hash": 124726499,
 		"name": "Facet of Ruin",
-		"lastUpload": 1738975855601,
+		"lastUpload": 1755984214899,
 		"type": "Subclass Fragment",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -5392,17 +5409,17 @@
 					},
 					{
 						"type": "text",
-						"text": "Ignitions have "
+						"text": "Ignitions have a "
 					},
 					{
 						"type": "numeric",
-						"text": "20?%",
+						"text": "25%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " increased radius."
+						"text": " increased blast radius."
 					}
 				]
 			},
@@ -5687,7 +5704,8 @@
 						"type": "text",
 						"text": " Light Transcendence Energy"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -5718,7 +5736,8 @@
 						"type": "text",
 						"text": " Darkness Transcendence Energy"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -5749,7 +5768,8 @@
 						"type": "text",
 						"text": " Darkness Transcendence Energy"
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -6493,7 +6513,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -6536,7 +6557,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -6727,7 +6749,8 @@
 						"type": "text",
 						"text": " increased damage (Baseline)"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -6758,7 +6781,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -6789,7 +6813,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -6820,7 +6845,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -6851,7 +6877,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -8834,7 +8861,8 @@
 						"type": "text",
 						"text": " HP restored"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -8872,7 +8900,8 @@
 						"type": "text",
 						"text": " HP restored"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -8910,7 +8939,8 @@
 						"type": "text",
 						"text": " HP restored"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -8948,7 +8978,8 @@
 						"type": "text",
 						"text": " HP restored"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -9255,7 +9286,8 @@
 						"type": "text",
 						"text": " Hits"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -9280,7 +9312,8 @@
 						"type": "text",
 						"text": " Hits"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -9305,7 +9338,8 @@
 						"type": "text",
 						"text": " Hits"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -9330,7 +9364,8 @@
 						"type": "text",
 						"text": " Hits"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -9361,7 +9396,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -10986,7 +11022,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -11007,7 +11044,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -11028,7 +11066,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -11855,7 +11894,8 @@
 						"type": "text",
 						"text": "Bows, Glaives (both Projectile and Melee), Grenade/Rocket Launchers (Impact and Detonation damage count separately), Sniper Rifles"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -11880,7 +11920,8 @@
 						"type": "text",
 						"text": "Scout Rifles"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -11905,7 +11946,8 @@
 						"type": "text",
 						"text": "Sidearms"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -11930,7 +11972,8 @@
 						"type": "text",
 						"text": "Submachine Guns"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -11955,7 +11998,8 @@
 						"type": "text",
 						"text": "Fusion Rifles"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -11980,7 +12024,8 @@
 						"type": "text",
 						"text": "Auto Rifles"
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -12211,7 +12256,7 @@
 	"362132290": {
 		"hash": 362132290,
 		"name": "Ember of Tempering",
-		"lastUpload": 1714219892088,
+		"lastUpload": 1755984214899,
 		"type": "Subclass Fragment",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -12240,7 +12285,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "12.5",
+						"text": "15",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -12278,15 +12323,6 @@
 				"content": [
 					{
 						"type": "numeric",
-						"text": "10",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "stackSeparator"
-					},
-					{
-						"type": "numeric",
 						"text": "20",
 						"isUnknown": false,
 						"isEstimate": false
@@ -12296,13 +12332,22 @@
 					},
 					{
 						"type": "numeric",
-						"text": "30",
+						"text": "40",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "60",
 						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " Recovery at "
+						"text": " Health stat at "
 					},
 					{
 						"type": "numeric",
@@ -12472,7 +12517,7 @@
 	"362132292": {
 		"hash": 362132292,
 		"name": "Ember of Benevolence",
-		"lastUpload": 1709226265485,
+		"lastUpload": 1755984214899,
 		"type": "Subclass Fragment",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -12485,7 +12530,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "400%",
+						"text": "300%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
@@ -12498,7 +12543,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "6",
+								"text": "7",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -12513,9 +12558,9 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "3",
+								"text": "3.5",
 								"isUnknown": false,
-								"isEstimate": false
+								"isEstimate": true
 							}
 						]
 					},
@@ -12640,15 +12685,7 @@
 					},
 					{
 						"type": "text",
-						"text": "'s Healing Pulse, and "
-					},
-					{
-						"type": "text",
-						"text": "Aeon Sect of Vigor"
-					},
-					{
-						"type": "text",
-						"text": "'s Healing"
+						"text": "'s Healing Pulse, Mothkeeper's Wraps Overshield Moth, Non-Solar Support Frame Auto Rifles"
 					}
 				]
 			}
@@ -12917,7 +12954,8 @@
 						"type": "text",
 						"text": "s"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -12950,7 +12988,8 @@
 						"type": "text",
 						"text": "s"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -12983,7 +13022,8 @@
 						"type": "text",
 						"text": "s"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -13016,7 +13056,8 @@
 						"type": "text",
 						"text": "s"
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -13253,7 +13294,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -13282,7 +13324,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -13311,7 +13354,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -13332,7 +13376,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -13361,7 +13406,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -14300,7 +14346,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -14321,7 +14368,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -14342,7 +14390,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -14610,7 +14659,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -14667,7 +14717,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -14729,7 +14780,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -14791,7 +14843,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -15837,7 +15890,8 @@
 						"type": "text",
 						"text": " of Magazine Capacity"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -15880,7 +15934,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -15962,7 +16017,7 @@
 	"426473316": {
 		"hash": 426473316,
 		"name": "Marksman's Dodge",
-		"lastUpload": 1732219732702,
+		"lastUpload": 1755984214899,
 		"type": "Subclass Class",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -15986,7 +16041,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Performs an evasive maneuver in your movement input's direction."
+						"text": "Performs an evasive maneuver in your movement input's direction that instantly reloads your held weapon."
 					}
 				]
 			},
@@ -16002,21 +16057,6 @@
 					{
 						"type": "text",
 						"text": "Removes tracking from PVE Combatant projectiles and disables Aim Assist on you for the duration of the animation."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "line",
-				"content": [
-					{
-						"type": "text",
-						"text": "Instantly reloads your held weapon upon dodging."
 					}
 				]
 			},
@@ -18547,7 +18587,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -18604,7 +18645,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -19313,7 +19355,7 @@
 	"531057500": {
 		"hash": 531057500,
 		"name": "Lucent Blades",
-		"lastUpload": 1755815364903,
+		"lastUpload": 1755986339031,
 		"stats": {
 			"Guard Charge Rate": [
 				{
@@ -19554,7 +19596,7 @@
 	"534479613": {
 		"hash": 534479613,
 		"name": "Arc Scavenger",
-		"lastUpload": 1735009175023,
+		"lastUpload": 1755984214899,
 		"type": "Armor Mod General",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -19578,17 +19620,17 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Ammo Brick Pickups grants an additional "
+						"text": "Ammo Brick pickups generally grant an "
 					},
 					{
 						"type": "numeric",
-						"text": "1%",
-						"isUnknown": true,
+						"text": "1",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " of your Total Reserves to "
+						"text": " additional ammo to "
 					},
 					{
 						"type": "icon",
@@ -19598,7 +19640,32 @@
 					},
 					{
 						"type": "text",
-						"text": "Arc Weapons matching the Ammo Type. This is increased to "
+						"text": "Arc Weapons matching the Ammo Type."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Machine Guns receive "
+					},
+					{
+						"type": "numeric",
+						"text": "7",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " additional ammo, Trace Rifles receive "
 					},
 					{
 						"type": "numeric",
@@ -19608,17 +19675,7 @@
 					},
 					{
 						"type": "text",
-						"text": " with Trace Rifles and Swords and to "
-					},
-					{
-						"type": "numeric",
-						"text": "5%",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " for Grand Overture."
+						"text": " of their Total Reserves (rounded up) as additional ammo."
 					}
 				]
 			},
@@ -19633,26 +19690,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Wardcliff Coil"
-					},
-					{
-						"type": "text",
-						"text": " does not receive any extra ammo on pickups."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "line",
-				"content": [
-					{
-						"type": "text",
-						"text": "Always rounds up to the nearest whole number. Functions the same way regardless of what spawned the Ammo Brick."
+						"text": "Functions the same way regardless of what spawned the Ammo Brick."
 					}
 				]
 			},
@@ -19947,7 +19985,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -19968,7 +20007,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -19989,7 +20029,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -20010,7 +20051,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -20818,7 +20860,8 @@
 								"isUnknown": true,
 								"isEstimate": false
 							}
-						]
+						],
+						"isListItem": true
 					}
 				]
 			},
@@ -20862,7 +20905,8 @@
 								"isUnknown": true,
 								"isEstimate": false
 							}
-						]
+						],
+						"isListItem": true
 					}
 				]
 			}
@@ -21183,7 +21227,8 @@
 						"type": "text",
 						"text": "Bows, Glaives (both Projectile and Melee), Grenade/Rocket Launchers (Impact and Detonation damage count separately), Sniper Rifles"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -21208,7 +21253,8 @@
 						"type": "text",
 						"text": "Scout Rifles"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -21233,7 +21279,8 @@
 						"type": "text",
 						"text": "Sidearms"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -21258,7 +21305,8 @@
 						"type": "text",
 						"text": "Submachine Guns"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -21283,7 +21331,8 @@
 						"type": "text",
 						"text": "Fusion Rifles"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -21308,7 +21357,8 @@
 						"type": "text",
 						"text": "Auto Rifles"
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -21719,53 +21769,17 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Ammo Brick Pickups grants an additional "
+						"text": "Ammo Brick pickups generally grant an "
 					},
 					{
 						"type": "numeric",
-						"text": "1%",
-						"isUnknown": true,
+						"text": "1",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " of your Total Reserves to Kinetic Weapons matching the Ammo Type. This is increased to "
-					},
-					{
-						"type": "numeric",
-						"text": "10?%",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " with "
-					},
-					{
-						"type": "text",
-						"text": "Microcosm"
-					},
-					{
-						"type": "text",
-						"text": " and to "
-					},
-					{
-						"type": "numeric",
-						"text": "2%",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " with "
-					},
-					{
-						"type": "text",
-						"text": "Forerunner"
-					},
-					{
-						"type": "text",
-						"text": "."
+						"text": " additional ammo to Kinetic Weapons matching the Ammo Type."
 					}
 				]
 			},
@@ -21780,7 +21794,32 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Always rounds up to the nearest whole number. Functions the same way regardless of what spawned the Ammo Brick."
+						"text": "Trace Rifles receive "
+					},
+					{
+						"type": "numeric",
+						"text": "10%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " of their Total Reserves (rounded up) as additional ammo."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Functions the same way regardless of what spawned the Ammo Brick."
 					}
 				]
 			},
@@ -22162,7 +22201,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -22198,7 +22238,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -22234,7 +22275,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -22725,7 +22767,8 @@
 						"type": "text",
 						"text": " meter radius"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -22790,7 +22833,8 @@
 						"type": "text",
 						"text": " meter radius"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -23084,7 +23128,8 @@
 						"type": "text",
 						"text": " second duration"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -23119,7 +23164,8 @@
 						"type": "text",
 						"text": "s duration"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -23154,7 +23200,8 @@
 						"type": "text",
 						"text": "s duration"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "line",
@@ -23751,7 +23798,8 @@
 						"type": "text",
 						"text": " seconds"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -23792,7 +23840,8 @@
 						"type": "text",
 						"text": " seconds"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -23833,7 +23882,8 @@
 						"type": "text",
 						"text": " seconds"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -23874,7 +23924,8 @@
 						"type": "text",
 						"text": " seconds"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -24542,7 +24593,7 @@
 	"688956976": {
 		"hash": 688956976,
 		"name": "Solar Scavenger",
-		"lastUpload": 1723480728683,
+		"lastUpload": 1755984214899,
 		"type": "Armor Mod General",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -24566,17 +24617,17 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Ammo Brick Pickups grants an additional "
+						"text": "Ammo Brick pickups generally grant an "
 					},
 					{
 						"type": "numeric",
-						"text": "1%",
-						"isUnknown": true,
+						"text": "1",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " of your Total Reserves to "
+						"text": " additional ammo to "
 					},
 					{
 						"type": "icon",
@@ -24586,7 +24637,32 @@
 					},
 					{
 						"type": "text",
-						"text": "Solar Weapons matching the Ammo Type. This is increased to "
+						"text": "Solar Weapons matching the Ammo Type."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Machine Guns receive "
+					},
+					{
+						"type": "numeric",
+						"text": "7",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " additional ammo, Trace Rifles receive "
 					},
 					{
 						"type": "numeric",
@@ -24596,17 +24672,7 @@
 					},
 					{
 						"type": "text",
-						"text": " with Trace Rifles and Swords and to "
-					},
-					{
-						"type": "numeric",
-						"text": "5%",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " with Xenophage."
+						"text": " of their Total Reserves (rounded up) as additional ammo."
 					}
 				]
 			},
@@ -24621,34 +24687,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Eyes of Tomorrow"
-					},
-					{
-						"type": "text",
-						"text": ", and "
-					},
-					{
-						"type": "text",
-						"text": "Two-Tailed Fox"
-					},
-					{
-						"type": "text",
-						"text": " do not receive any extra ammo on pickups."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "line",
-				"content": [
-					{
-						"type": "text",
-						"text": "Always rounds up to the nearest whole number. Functions the same way regardless of what spawned the Ammo Brick."
+						"text": "Functions the same way regardless of what spawned the Ammo Brick."
 					}
 				]
 			},
@@ -25715,7 +25754,8 @@
 						"type": "text",
 						"text": " Reload Speed"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -25752,7 +25792,8 @@
 						"type": "text",
 						"text": " Handling"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -25789,7 +25830,8 @@
 						"type": "text",
 						"text": " Stability"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -25826,7 +25868,8 @@
 						"type": "text",
 						"text": " Airborne Effectiveness"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -25873,7 +25916,8 @@
 						"type": "text",
 						"text": " decreased ADS Movement Speed Penalty"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -26203,7 +26247,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -26245,7 +26290,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -26287,7 +26333,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -26329,7 +26376,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -26371,7 +26419,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -26413,7 +26462,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -27091,7 +27141,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -27112,7 +27163,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -27133,7 +27185,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -27154,7 +27207,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -27175,7 +27229,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -27200,7 +27255,8 @@
 						"type": "text",
 						"text": " (Grenade and Class Ability only)"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -27629,7 +27685,8 @@
 						"type": "text",
 						"text": " Stacks"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -27654,7 +27711,8 @@
 						"type": "text",
 						"text": " Stacks"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -27679,7 +27737,8 @@
 						"type": "text",
 						"text": " Stack"
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -28314,7 +28373,8 @@
 						"type": "text",
 						"text": " additional base melee damage"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -28359,7 +28419,8 @@
 						"type": "text",
 						"text": " additional base melee damage"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -28581,7 +28642,8 @@
 						"type": "text",
 						"text": "Light attack"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -28600,7 +28662,8 @@
 						"type": "text",
 						"text": "Heavy attack"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -28619,7 +28682,8 @@
 						"type": "text",
 						"text": "Guard/Drain nearby combatants"
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -28627,7 +28691,7 @@
 	"802695661": {
 		"hash": 802695661,
 		"name": "Void Scavenger",
-		"lastUpload": 1727530279353,
+		"lastUpload": 1755984214899,
 		"type": "Armor Mod General",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -28651,17 +28715,17 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Ammo Brick Pickups grants an additional "
+						"text": "Ammo Brick pickups generally grant an "
 					},
 					{
 						"type": "numeric",
-						"text": "1%",
-						"isUnknown": true,
+						"text": "1",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " of your Total Reserves to "
+						"text": " additional ammo to "
 					},
 					{
 						"type": "icon",
@@ -28671,7 +28735,32 @@
 					},
 					{
 						"type": "text",
-						"text": "Void Weapons matching the Ammo Type. This is increased to "
+						"text": "Void Weapons matching the Ammo Type."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Machine Guns receive "
+					},
+					{
+						"type": "numeric",
+						"text": "7",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " additional ammo, Trace Rifles receive "
 					},
 					{
 						"type": "numeric",
@@ -28681,25 +28770,7 @@
 					},
 					{
 						"type": "text",
-						"text": " with Trace Rifles and Swords and to "
-					},
-					{
-						"type": "numeric",
-						"text": "2%",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " with "
-					},
-					{
-						"type": "text",
-						"text": "Choir of One"
-					},
-					{
-						"type": "text",
-						"text": "."
+						"text": " of their Total Reserves (rounded up) as additional ammo."
 					}
 				]
 			},
@@ -28714,26 +28785,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Two-Tailed Fox"
-					},
-					{
-						"type": "text",
-						"text": " does not receive any extra ammo on pickups."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "line",
-				"content": [
-					{
-						"type": "text",
-						"text": "Always rounds up to the nearest whole number. Functions the same way regardless of what spawned the Ammo Brick."
+						"text": "Functions the same way regardless of what spawned the Ammo Brick."
 					}
 				]
 			},
@@ -29107,7 +29159,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -29134,7 +29187,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -29171,7 +29225,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -30425,7 +30480,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -30446,7 +30502,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -30467,7 +30524,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -30608,7 +30666,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -30655,7 +30714,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -30702,7 +30762,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -30753,7 +30814,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -30792,7 +30854,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -31318,17 +31381,42 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Ammo Brick Pickups grants an additional "
+						"text": "Ammo Brick pickups generally grant an "
 					},
 					{
 						"type": "numeric",
-						"text": "1%",
-						"isUnknown": true,
+						"text": "1",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " of your Total Reserves to Weapons matching your Super Element and the Ammo Type. This is increased to "
+						"text": " additional ammo to Weapons matching your Super Element and the Ammo Type."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Machine Guns receive "
+					},
+					{
+						"type": "numeric",
+						"text": "7",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " additional ammo, Trace Rifles receive "
 					},
 					{
 						"type": "numeric",
@@ -31338,51 +31426,7 @@
 					},
 					{
 						"type": "text",
-						"text": " with Trace Rifles and Swords, to "
-					},
-					{
-						"type": "numeric",
-						"text": "5%",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " with "
-					},
-					{
-						"type": "text",
-						"text": "Grand Overture"
-					},
-					{
-						"type": "text",
-						"text": " and "
-					},
-					{
-						"type": "text",
-						"text": "Xenophage"
-					},
-					{
-						"type": "text",
-						"text": ", and to "
-					},
-					{
-						"type": "numeric",
-						"text": "2%",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " with "
-					},
-					{
-						"type": "text",
-						"text": "Choir of One"
-					},
-					{
-						"type": "text",
-						"text": "."
+						"text": " of their Total Reserves (rounded up) as additional ammo."
 					}
 				]
 			},
@@ -31397,42 +31441,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Eyes of Tomorrow"
-					},
-					{
-						"type": "text",
-						"text": ", "
-					},
-					{
-						"type": "text",
-						"text": "Two-Tailed Fox"
-					},
-					{
-						"type": "text",
-						"text": ", and "
-					},
-					{
-						"type": "text",
-						"text": "Wardcliff Coil"
-					},
-					{
-						"type": "text",
-						"text": " do not receive any extra ammo on pickups."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "line",
-				"content": [
-					{
-						"type": "text",
-						"text": "Always rounds up to the nearest whole number. Functions the same way regardless of what spawned the Ammo Brick."
+						"text": "Functions the same way regardless of what spawned the Ammo Brick."
 					}
 				]
 			},
@@ -32048,7 +32057,8 @@
 						"type": "text",
 						"text": "Bows, Glaives (both Projectile and Melee), Grenade/Rocket Launchers (Impact and Detonation damage count separately), Sniper Rifles"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -32073,7 +32083,8 @@
 						"type": "text",
 						"text": "Scout Rifles"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -32098,7 +32109,8 @@
 						"type": "text",
 						"text": "Sidearms"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -32123,7 +32135,8 @@
 						"type": "text",
 						"text": "Submachine Guns"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -32148,7 +32161,8 @@
 						"type": "text",
 						"text": "Fusion Rifles"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -32173,7 +32187,8 @@
 						"type": "text",
 						"text": "Auto Rifles"
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -32450,7 +32465,8 @@
 							}
 						]
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -32485,7 +32501,8 @@
 							}
 						]
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -32643,9 +32660,7 @@
 	"902934539": {
 		"hash": 902934539,
 		"name": "Blessing of Order",
-		"itemHash": 3045642045,
-		"itemName": "Boots of the Assembler",
-		"lastUpload": 1723480728683,
+		"lastUpload": 1755986339031,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -32672,7 +32687,7 @@
 					},
 					{
 						"type": "text",
-						"text": "."
+						"text": " and Noble Seekers grant Noble Rounds to it."
 					}
 				]
 			},
@@ -32698,27 +32713,17 @@
 					},
 					{
 						"type": "text",
-						"text": "Well of Radiance creates Noble Seekers every "
+						"text": "Well of Radiance creates Noble Seekers that seek out allies within "
 					},
 					{
 						"type": "numeric",
-						"text": "5",
+						"text": "40",
 						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " seconds that seek out allies within "
-					},
-					{
-						"type": "numeric",
-						"text": "35",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " meters and apply a buff to them:"
+						"text": " meters and apply buffs to them:"
 					}
 				]
 			},
@@ -32749,7 +32754,8 @@
 						"type": "text",
 						"text": " HP and starts Health Regeneration"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -32766,7 +32772,7 @@
 				"value": [
 					{
 						"type": "text",
-						"text": "Grants "
+						"text": "grants "
 					},
 					{
 						"type": "pve",
@@ -32816,7 +32822,8 @@
 						"type": "text",
 						"text": ")"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -32829,7 +32836,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Noble Seekers grant Noble Rounds to Lumina."
+						"text": "Noble seekers spawn at a constant rate based on your Fireteam size."
 					}
 				]
 			},
@@ -32844,27 +32851,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Number of Noble Seekers spawned is equal to [Fireteam Size]"
-					},
-					{
-						"type": "numeric",
-						"text": "-1",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": ", with a minimum of "
-					},
-					{
-						"type": "numeric",
-						"text": "1",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " Seeker."
+						"text": "Buffing allies with Noble Seekers grants Class Ability energy based on your Fireteam size."
 					}
 				]
 			},
@@ -32879,11 +32866,21 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Each time a Noble Seeker applies a buff, the Rift Duration is paused for "
+						"text": "Seekers prioritize allies who have not been healed in the last "
 					},
 					{
 						"type": "numeric",
-						"text": "5",
+						"text": "8",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds followed by nearby allies. Seekers will not target an ally more than once every "
+					},
+					{
+						"type": "numeric",
+						"text": "4",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -33438,7 +33435,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -33473,7 +33471,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -33502,7 +33501,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -33531,7 +33531,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -33560,7 +33561,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -33705,9 +33707,7 @@
 	"926349160": {
 		"hash": 926349160,
 		"name": "Tome of Dawn",
-		"itemHash": 370930766,
-		"itemName": "Wings of Sacred Dawn",
-		"lastUpload": 1727530279353,
+		"lastUpload": 1755986339031,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -33818,22 +33818,6 @@
 				"content": [
 					{
 						"type": "numeric",
-						"text": "25%",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " Flinch Resistance"
-					}
-				]
-			},
-			{
-				"type": "line",
-				"isListItem": true,
-				"content": [
-					{
-						"type": "numeric",
 						"text": "15%",
 						"isUnknown": true,
 						"isEstimate": false
@@ -33849,8 +33833,54 @@
 				"isListItem": true,
 				"content": [
 					{
+						"type": "numeric",
+						"text": "25%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
 						"type": "text",
-						"text": "Weapon Kills "
+						"text": " Flinch Resistance"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "Enemies are less accurate when targeting you"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "Weapon Kills grant "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Restoration "
+					},
+					{
+						"type": "numeric",
+						"text": "x1",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " and "
 					},
 					{
 						"type": "definitionReference",
@@ -33862,17 +33892,7 @@
 					},
 					{
 						"type": "text",
-						"text": " the magazines of all equipped "
-					},
-					{
-						"type": "icon",
-						"classNames": [
-							"solar"
-						]
-					},
-					{
-						"type": "text",
-						"text": "Solar Weapons from reserves"
+						"text": " the magazines of stowed weapons from reserves"
 					}
 				]
 			}
@@ -35638,7 +35658,8 @@
 						"type": "text",
 						"text": " of Magazine Capacity"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -35675,7 +35696,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": [
@@ -36143,7 +36165,8 @@
 						"type": "text",
 						"text": " Hits"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -36168,7 +36191,8 @@
 						"type": "text",
 						"text": " Hits"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -36193,7 +36217,8 @@
 						"type": "text",
 						"text": " Hits"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -36218,7 +36243,8 @@
 						"type": "text",
 						"text": " Hits"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -36249,7 +36275,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -37224,7 +37251,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -37271,7 +37299,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -37318,7 +37347,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -37369,7 +37399,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -37408,7 +37439,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -37890,7 +37922,8 @@
 						"type": "text",
 						"text": "untested"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -37921,7 +37954,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -37952,7 +37986,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -37983,7 +38018,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -38061,7 +38097,8 @@
 						"type": "text",
 						"text": " Submunition"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -38086,7 +38123,8 @@
 						"type": "text",
 						"text": " Submunitions"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -38111,7 +38149,8 @@
 						"type": "text",
 						"text": " Submunitions"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -38211,7 +38250,7 @@
 	"1051276348": {
 		"hash": 1051276348,
 		"name": "Ember of Eruption",
-		"lastUpload": 1704200924259,
+		"lastUpload": 1755984214899,
 		"type": "Subclass Fragment",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -38230,13 +38269,37 @@
 					},
 					{
 						"type": "numeric",
-						"text": "20?%",
+						"text": "25%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " increased blast radius."
+						"text": " increased blast radius ("
+					},
+					{
+						"type": "numeric",
+						"text": "8",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": "﻿🠚﻿"
+					},
+					{
+						"type": "numeric",
+						"text": "10",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meters)"
+					},
+					{
+						"type": "text",
+						"text": "."
 					}
 				]
 			}
@@ -38522,7 +38585,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -38551,7 +38615,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -38580,7 +38645,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -38601,7 +38667,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -38630,7 +38697,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -39303,7 +39371,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -39360,7 +39429,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -39492,7 +39562,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -39521,7 +39592,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -39552,7 +39624,8 @@
 							}
 						]
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -39581,7 +39654,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -39610,7 +39684,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -39635,7 +39710,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -39656,7 +39732,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -39702,7 +39779,7 @@
 	"1097608874": {
 		"hash": 1097608874,
 		"name": "Kinetic Scavenger",
-		"lastUpload": 1723480728683,
+		"lastUpload": 1755984214899,
 		"type": "Armor Mod General",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -39726,53 +39803,17 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Ammo Brick Pickups grants an additional "
+						"text": "Ammo Brick pickups generally grant an "
 					},
 					{
 						"type": "numeric",
-						"text": "1%",
-						"isUnknown": true,
+						"text": "1",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " of your Total Reserves to Kinetic Weapons matching the Ammo Type. This is increased to "
-					},
-					{
-						"type": "numeric",
-						"text": "10?%",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " with "
-					},
-					{
-						"type": "text",
-						"text": "Microcosm"
-					},
-					{
-						"type": "text",
-						"text": " and to "
-					},
-					{
-						"type": "numeric",
-						"text": "2%",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " with "
-					},
-					{
-						"type": "text",
-						"text": "Forerunner"
-					},
-					{
-						"type": "text",
-						"text": "."
+						"text": " additional ammo to Kinetic Weapons matching the Ammo Type."
 					}
 				]
 			},
@@ -39787,7 +39828,32 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Always rounds up to the nearest whole number. Functions the same way regardless of what spawned the Ammo Brick."
+						"text": "Trace Rifles receive "
+					},
+					{
+						"type": "numeric",
+						"text": "10%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " of their Total Reserves (rounded up) as additional ammo."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Functions the same way regardless of what spawned the Ammo Brick."
 					}
 				]
 			},
@@ -40762,7 +40828,8 @@
 						"type": "text",
 						"text": " m/s"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -40814,7 +40881,8 @@
 						"type": "text",
 						"text": " m/s"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -42132,7 +42200,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -42161,7 +42230,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -42190,7 +42260,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -42219,7 +42290,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -42806,7 +42878,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -42872,7 +42945,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -43738,7 +43812,8 @@
 						"type": "text",
 						"text": " Hits"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -43793,7 +43868,8 @@
 						"type": "text",
 						"text": "Primary Weapons) of Base Magazine Capacity rounded down"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -47253,7 +47329,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Performs an evasive maneuver in your movement input's direction."
+						"text": "Performs an evasive maneuver in your movement input's direction that instantly reloads your held weapon."
 					}
 				]
 			},
@@ -47269,21 +47345,6 @@
 					{
 						"type": "text",
 						"text": "Removes tracking from PVE Combatant projectiles and disables Aim Assist on you for the duration of the animation."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "line",
-				"content": [
-					{
-						"type": "text",
-						"text": "Instantly reloads your held weapon upon dodging."
 					}
 				]
 			},
@@ -47603,7 +47664,7 @@
 	"1301391064": {
 		"hash": 1301391064,
 		"name": "Harmonic Scavenger",
-		"lastUpload": 1727530279353,
+		"lastUpload": 1755984214899,
 		"type": "Armor Mod General",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -47627,17 +47688,42 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Ammo Brick Pickups grants an additional "
+						"text": "Ammo Brick pickups generally grant an "
 					},
 					{
 						"type": "numeric",
-						"text": "1%",
-						"isUnknown": true,
+						"text": "1",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " of your Total Reserves to Weapons matching your Super Element and the Ammo Type. This is increased to "
+						"text": " additional ammo to Weapons matching your Super Element and the Ammo Type."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Machine Guns receive "
+					},
+					{
+						"type": "numeric",
+						"text": "7",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " additional ammo, Trace Rifles receive "
 					},
 					{
 						"type": "numeric",
@@ -47647,51 +47733,7 @@
 					},
 					{
 						"type": "text",
-						"text": " with Trace Rifles and Swords, to "
-					},
-					{
-						"type": "numeric",
-						"text": "5%",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " with "
-					},
-					{
-						"type": "text",
-						"text": "Grand Overture"
-					},
-					{
-						"type": "text",
-						"text": " and "
-					},
-					{
-						"type": "text",
-						"text": "Xenophage"
-					},
-					{
-						"type": "text",
-						"text": ", and to "
-					},
-					{
-						"type": "numeric",
-						"text": "2%",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " with "
-					},
-					{
-						"type": "text",
-						"text": "Choir of One"
-					},
-					{
-						"type": "text",
-						"text": "."
+						"text": " of their Total Reserves (rounded up) as additional ammo."
 					}
 				]
 			},
@@ -47706,42 +47748,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Eyes of Tomorrow"
-					},
-					{
-						"type": "text",
-						"text": ", "
-					},
-					{
-						"type": "text",
-						"text": "Two-Tailed Fox"
-					},
-					{
-						"type": "text",
-						"text": ", and "
-					},
-					{
-						"type": "text",
-						"text": "Wardcliff Coil"
-					},
-					{
-						"type": "text",
-						"text": " do not receive any extra ammo on pickups."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "line",
-				"content": [
-					{
-						"type": "text",
-						"text": "Always rounds up to the nearest whole number. Functions the same way regardless of what spawned the Ammo Brick."
+						"text": "Functions the same way regardless of what spawned the Ammo Brick."
 					}
 				]
 			},
@@ -47976,17 +47983,17 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Ammo Brick Pickups grants an additional "
+						"text": "Ammo Brick pickups generally grant an "
 					},
 					{
 						"type": "numeric",
-						"text": "1%",
-						"isUnknown": true,
+						"text": "1",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " of your Total Reserves to "
+						"text": " additional ammo to "
 					},
 					{
 						"type": "icon",
@@ -47996,17 +48003,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Strand Weapons matching the Ammo Type. This is increased to "
-					},
-					{
-						"type": "numeric",
-						"text": "10%",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " with Trace Rifles and Swords."
+						"text": "Strand Weapons matching the Ammo Type."
 					}
 				]
 			},
@@ -48021,7 +48018,42 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Always rounds up to the nearest whole number. Functions the same way regardless of what spawned the Ammo Brick."
+						"text": "Machine Guns receive "
+					},
+					{
+						"type": "numeric",
+						"text": "7",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " additional ammo, Trace Rifles receive "
+					},
+					{
+						"type": "numeric",
+						"text": "10%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " of their Total Reserves (rounded up) as additional ammo."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Functions the same way regardless of what spawned the Ammo Brick."
 					}
 				]
 			},
@@ -48448,9 +48480,7 @@
 	"1341199512": {
 		"hash": 1341199512,
 		"name": "Devouring Rift",
-		"itemHash": 511888814,
-		"itemName": "Secant Filaments",
-		"lastUpload": 1738687242983,
+		"lastUpload": 1755986339031,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -48523,13 +48553,21 @@
 					},
 					{
 						"type": "numeric",
-						"text": "?%",
+						"text": "10%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " Class Ability energy."
+						"text": " Class Ability energy. Ability energy gained may be significantly decreased based on your selected ability's Chunk Energy Scalar. Learn more about this mechanic in "
+					},
+					{
+						"type": "text",
+						"text": "our explainer blog post on the Clarity website"
+					},
+					{
+						"type": "text",
+						"text": "."
 					}
 				]
 			},
@@ -49121,7 +49159,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -49166,7 +49205,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -49482,7 +49522,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -49503,7 +49544,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -50260,9 +50302,7 @@
 	"1420473289": {
 		"hash": 1420473289,
 		"name": "Blood Magic",
-		"itemHash": 3070555693,
-		"itemName": "Sanguine Alchemy",
-		"lastUpload": 1731793916910,
+		"lastUpload": 1755986339031,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -50378,6 +50418,31 @@
 					{
 						"type": "text",
 						"text": "Blood Magic pauses the duration of Rifts for as long as it is active. Doesn't apply to Well of Radiance."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Swapping to Sanguine Alchemy in combat disables its effects for "
+					},
+					{
+						"type": "numeric",
+						"text": "10",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds."
 					}
 				]
 			}
@@ -52086,7 +52151,8 @@
 						"type": "text",
 						"text": "Bows, Glaives (both Projectile and Melee), Grenade/Rocket Launchers (Impact and Detonation damage count separately), Sniper Rifles"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -52111,7 +52177,8 @@
 						"type": "text",
 						"text": "Scout Rifles"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -52136,7 +52203,8 @@
 						"type": "text",
 						"text": "Sidearms"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -52161,7 +52229,8 @@
 						"type": "text",
 						"text": "Submachine Guns"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -52186,7 +52255,8 @@
 						"type": "text",
 						"text": "Fusion Rifles"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -52211,7 +52281,8 @@
 						"type": "text",
 						"text": "Auto Rifles"
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -52524,7 +52595,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Strand Weapon Damage while you have active Armor Charges:"
+						"text": "Strand Weapon damage while you have active Armor Charges:"
 					}
 				]
 			},
@@ -52618,7 +52689,8 @@
 								"type": "text",
 								"text": " Mods"
 							}
-						]
+						],
+						"isListItem": true
 					}
 				]
 			},
@@ -52675,7 +52747,8 @@
 								"type": "text",
 								"text": " increased damage"
 							}
-						]
+						],
+						"isListItem": true
 					}
 				]
 			},
@@ -54043,7 +54116,8 @@
 							}
 						]
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -54090,7 +54164,8 @@
 							}
 						]
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -54137,7 +54212,8 @@
 							}
 						]
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -54184,7 +54260,8 @@
 							}
 						]
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -54493,7 +54570,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -54520,7 +54598,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -54547,7 +54626,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -54574,7 +54654,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -54601,7 +54682,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -54628,7 +54710,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -54671,7 +54754,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -54698,7 +54782,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -54735,7 +54820,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -56665,7 +56751,8 @@
 						"type": "text",
 						"text": "Bows, Glaives (both Projectile and Melee), Grenade/Rocket Launchers (Impact and Detonation damage count separately), Sniper Rifles"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -56690,7 +56777,8 @@
 						"type": "text",
 						"text": "Scout Rifles"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -56715,7 +56803,8 @@
 						"type": "text",
 						"text": "Sidearms"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -56740,7 +56829,8 @@
 						"type": "text",
 						"text": "Submachine Guns"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -56765,7 +56855,8 @@
 						"type": "text",
 						"text": "Fusion Rifles"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -56790,7 +56881,8 @@
 						"type": "text",
 						"text": "Auto Rifles"
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -59955,7 +60047,8 @@
 						"type": "text",
 						"text": " Stacks."
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -60832,7 +60925,7 @@
 	"1727069361": {
 		"hash": 1727069361,
 		"name": "Spark of Frequency",
-		"lastUpload": 1738975855601,
+		"lastUpload": 1755984214899,
 		"type": "Subclass Fragment",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -60875,7 +60968,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "5",
+						"text": "5.25",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -60917,7 +61010,11 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Stronger effect"
+						"text": "Stronger?"
+					},
+					{
+						"type": "text",
+						"text": " effect (no increase to the Reload Speed bonuses)"
 					}
 				]
 			},
@@ -60927,7 +61024,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "All sources of "
+						"text": "(Almost) all sources of "
 					},
 					{
 						"type": "icon",
@@ -60937,7 +61034,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Bolt Charge now grant an additional Stack"
+						"text": "Bolt Charge now grant an additional stack"
 					}
 				]
 			}
@@ -61058,7 +61155,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -61079,7 +61177,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -61100,7 +61199,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -61213,7 +61313,7 @@
 	"1727069365": {
 		"hash": 1727069365,
 		"name": "Spark of Momentum",
-		"lastUpload": 1738975855601,
+		"lastUpload": 1755984214899,
 		"type": "Subclass Fragment",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -61244,7 +61344,7 @@
 					},
 					{
 						"type": "text",
-						"text": " Stacks of "
+						"text": " stacks of "
 					},
 					{
 						"type": "icon",
@@ -61376,7 +61476,7 @@
 	"1727069367": {
 		"hash": 1727069367,
 		"name": "Spark of Beacons",
-		"lastUpload": 1717539628564,
+		"lastUpload": 1755984214899,
 		"type": "Subclass Fragment",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -61435,8 +61535,8 @@
 					},
 					{
 						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
+						"text": "7.5",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
@@ -62243,7 +62343,8 @@
 						"isUnknown": false,
 						"isEstimate": true
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -62264,7 +62365,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -62285,7 +62387,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -63337,7 +63440,8 @@
 						"type": "text",
 						"text": " Stacks"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -63362,7 +63466,8 @@
 						"type": "text",
 						"text": " Stacks"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -63387,7 +63492,8 @@
 						"type": "text",
 						"text": " Stack"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -64308,7 +64414,8 @@
 						"type": "text",
 						"text": " increased damage"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -64339,7 +64446,8 @@
 						"type": "text",
 						"text": " increased damage and grants a periodic burst of healing"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -64786,7 +64894,7 @@
 	"1834163303": {
 		"hash": 1834163303,
 		"name": "Arc Weapon Surge",
-		"lastUpload": 1716120788496,
+		"lastUpload": 1755984214899,
 		"type": "Armor Mod General",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -64806,7 +64914,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Arc Weapon Damage while you have active Armor Charges:"
+						"text": "Arc Weapon damage while you have active Armor Charges:"
 					}
 				]
 			},
@@ -64900,7 +65008,8 @@
 								"type": "text",
 								"text": " Mods"
 							}
-						]
+						],
+						"isListItem": true
 					}
 				]
 			},
@@ -64957,7 +65066,8 @@
 								"type": "text",
 								"text": " increased damage"
 							}
-						]
+						],
+						"isListItem": true
 					}
 				]
 			},
@@ -65161,7 +65271,8 @@
 						"type": "text",
 						"text": " seconds"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -65226,7 +65337,8 @@
 						"type": "text",
 						"text": "Ember of Ashes)"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -65291,7 +65403,8 @@
 						"type": "text",
 						"text": "Slow Stacks"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -65364,7 +65477,8 @@
 						"type": "text",
 						"text": " seconds"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -65409,7 +65523,8 @@
 						"type": "text",
 						"text": " seconds"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -65758,7 +65873,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -65783,7 +65899,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -65812,7 +65929,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -68674,9 +68792,7 @@
 	"1939153390": {
 		"hash": 1939153390,
 		"name": "Close Enough",
-		"itemHash": 121305948,
-		"itemName": "Geomag Stabilizers",
-		"lastUpload": 1739032704660,
+		"lastUpload": 1755986339031,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -68699,13 +68815,13 @@
 					},
 					{
 						"type": "numeric",
-						"text": "7%",
+						"text": "4%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " Super Energy with "
+						"text": " "
 					},
 					{
 						"type": "icon",
@@ -68715,7 +68831,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Chaos Reach selected."
+						"text": "Chaos Reach Super Energy."
 					}
 				]
 			},
@@ -68734,7 +68850,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "6",
+						"text": "5",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -68754,7 +68870,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "3.8",
+						"text": "1.5",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -68774,7 +68890,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "2",
+						"text": "0.33",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -68836,7 +68952,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Chaos Reach duration by ~"
+						"text": "Chaos Reach duration by up to ~"
 					},
 					{
 						"type": "numeric",
@@ -69738,7 +69854,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -69767,7 +69884,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -69788,7 +69906,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -69817,7 +69936,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -69846,7 +69966,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -69871,7 +69992,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -69892,7 +70014,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -70338,7 +70461,8 @@
 							}
 						]
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -70409,7 +70533,8 @@
 							}
 						]
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -71008,7 +71133,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -71045,7 +71171,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -74137,7 +74264,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -74200,7 +74328,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -74263,7 +74392,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -74353,7 +74483,8 @@
 						"type": "text",
 						"text": " Point"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -74404,7 +74535,8 @@
 						"type": "text",
 						"text": " Points"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -74439,7 +74571,8 @@
 						"type": "text",
 						"text": " Points"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -74464,7 +74597,8 @@
 						"type": "text",
 						"text": " Points"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -74507,7 +74641,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -74528,7 +74663,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -74637,7 +74773,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -74684,7 +74821,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -74731,7 +74869,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -74782,7 +74921,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -74821,7 +74961,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -75561,7 +75702,8 @@
 						"type": "text",
 						"text": "Bows, Glaives (both Projectile and Melee), Grenade/Rocket Launchers (Impact and Detonation damage count separately), Sniper Rifles"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -75586,7 +75728,8 @@
 						"type": "text",
 						"text": "Scout Rifles"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -75611,7 +75754,8 @@
 						"type": "text",
 						"text": "Sidearms"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -75636,7 +75780,8 @@
 						"type": "text",
 						"text": "Submachine Guns"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -75661,7 +75806,8 @@
 						"type": "text",
 						"text": "Fusion Rifles"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -75686,7 +75832,8 @@
 						"type": "text",
 						"text": "Auto Rifles"
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -76459,7 +76606,8 @@
 						"type": "text",
 						"text": " seconds"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -76514,7 +76662,8 @@
 						"type": "text",
 						"text": "Ember of Ashes)"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -76579,7 +76728,8 @@
 						"type": "text",
 						"text": "Whisper of Durance)"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -76634,7 +76784,8 @@
 						"type": "text",
 						"text": "Thread of Continuity)"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -76669,7 +76820,8 @@
 						"type": "text",
 						"text": " seconds"
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -78157,7 +78309,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Arc Weapon Damage while you have active Armor Charges:"
+						"text": "Arc Weapon damage while you have active Armor Charges:"
 					}
 				]
 			},
@@ -78251,7 +78403,8 @@
 								"type": "text",
 								"text": " Mods"
 							}
-						]
+						],
+						"isListItem": true
 					}
 				]
 			},
@@ -78308,7 +78461,8 @@
 								"type": "text",
 								"text": " increased damage"
 							}
-						]
+						],
+						"isListItem": true
 					}
 				]
 			},
@@ -78469,7 +78623,7 @@
 	"2257238439": {
 		"hash": 2257238439,
 		"name": "Strand Scavenger",
-		"lastUpload": 1723480728683,
+		"lastUpload": 1755984214899,
 		"type": "Armor Mod General",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -78493,17 +78647,17 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Ammo Brick Pickups grants an additional "
+						"text": "Ammo Brick pickups generally grant an "
 					},
 					{
 						"type": "numeric",
-						"text": "1%",
-						"isUnknown": true,
+						"text": "1",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " of your Total Reserves to "
+						"text": " additional ammo to "
 					},
 					{
 						"type": "icon",
@@ -78513,17 +78667,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Strand Weapons matching the Ammo Type. This is increased to "
-					},
-					{
-						"type": "numeric",
-						"text": "10%",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " with Trace Rifles and Swords."
+						"text": "Strand Weapons matching the Ammo Type."
 					}
 				]
 			},
@@ -78538,7 +78682,42 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Always rounds up to the nearest whole number. Functions the same way regardless of what spawned the Ammo Brick."
+						"text": "Machine Guns receive "
+					},
+					{
+						"type": "numeric",
+						"text": "7",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " additional ammo, Trace Rifles receive "
+					},
+					{
+						"type": "numeric",
+						"text": "10%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " of their Total Reserves (rounded up) as additional ammo."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Functions the same way regardless of what spawned the Ammo Brick."
 					}
 				]
 			},
@@ -78878,7 +79057,7 @@
 	"2272984657": {
 		"hash": 2272984657,
 		"name": "Echo of Domineering",
-		"lastUpload": 1714219892088,
+		"lastUpload": 1755984214899,
 		"type": "Subclass Fragment",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -78936,7 +79115,7 @@
 					},
 					{
 						"type": "text",
-						"text": " mobility for "
+						"text": " Weapons stat for "
 					},
 					{
 						"type": "numeric",
@@ -79060,7 +79239,7 @@
 	"2272984664": {
 		"hash": 2272984664,
 		"name": "Echo of Provision",
-		"lastUpload": 1735009175023,
+		"lastUpload": 1755984214899,
 		"type": "Subclass Fragment",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -79123,7 +79302,8 @@
 						"type": "text",
 						"text": "Void Spike, Void Wall, Scatter Grenade, and Vortex Grenade"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -79153,6 +79333,32 @@
 					{
 						"type": "text",
 						"text": "Chaos Accelerant aspect)"
+					}
+				],
+				"isListItem": true
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Does not work with "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"void"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Unbreakable."
 					}
 				]
 			},
@@ -79301,7 +79507,8 @@
 						"type": "text",
 						"text": " longer"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -79340,7 +79547,8 @@
 						"type": "text",
 						"text": " seconds earlier"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -79369,7 +79577,8 @@
 						"type": "text",
 						"text": " longer"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -79428,7 +79637,8 @@
 						"type": "text",
 						"text": " seconds earlier"
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -79491,7 +79701,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -79520,7 +79731,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -79549,7 +79761,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -79578,7 +79791,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -80217,7 +80431,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Solar Weapon Damage while you have active Armor Charges:"
+						"text": "Solar Weapon damage while you have active Armor Charges:"
 					}
 				]
 			},
@@ -80311,7 +80525,8 @@
 								"type": "text",
 								"text": " Mods"
 							}
-						]
+						],
+						"isListItem": true
 					}
 				]
 			},
@@ -80368,7 +80583,8 @@
 								"type": "text",
 								"text": " increased damage"
 							}
-						]
+						],
+						"isListItem": true
 					}
 				]
 			},
@@ -81187,7 +81403,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Increases Kinetic Weapon Damage while you have active Armor Charges:"
+						"text": "Increases Kinetic Weapon damage while you have active Armor Charges:"
 					}
 				]
 			},
@@ -81281,7 +81497,8 @@
 								"type": "text",
 								"text": " Mods"
 							}
-						]
+						],
+						"isListItem": true
 					}
 				]
 			},
@@ -81338,7 +81555,8 @@
 								"type": "text",
 								"text": " increased damage"
 							}
-						]
+						],
+						"isListItem": true
 					}
 				]
 			},
@@ -81740,7 +81958,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Solar Weapon Damage while you have active Armor Charges:"
+						"text": "Solar Weapon damage while you have active Armor Charges:"
 					}
 				]
 			},
@@ -81834,7 +82052,8 @@
 								"type": "text",
 								"text": " Mods"
 							}
-						]
+						],
+						"isListItem": true
 					}
 				]
 			},
@@ -81891,7 +82110,8 @@
 								"type": "text",
 								"text": " increased damage"
 							}
-						]
+						],
+						"isListItem": true
 					}
 				]
 			},
@@ -82644,7 +82864,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -82665,7 +82886,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -82686,7 +82908,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -82896,7 +83119,8 @@
 						"isUnknown": false,
 						"isEstimate": true
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -82917,7 +83141,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -82938,7 +83163,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -83188,7 +83414,8 @@
 						"type": "text",
 						"text": " meter radius"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -83253,7 +83480,8 @@
 						"type": "text",
 						"text": " meter radius"
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -84386,17 +84614,17 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Ammo Brick Pickups grants an additional "
+						"text": "Ammo Brick pickups generally grant an "
 					},
 					{
 						"type": "numeric",
-						"text": "1%",
-						"isUnknown": true,
+						"text": "1",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " of your Total Reserves to "
+						"text": " additional ammo to "
 					},
 					{
 						"type": "icon",
@@ -84406,7 +84634,32 @@
 					},
 					{
 						"type": "text",
-						"text": "Arc Weapons matching the Ammo Type. This is increased to "
+						"text": "Arc Weapons matching the Ammo Type."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Machine Guns receive "
+					},
+					{
+						"type": "numeric",
+						"text": "7",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " additional ammo, Trace Rifles receive "
 					},
 					{
 						"type": "numeric",
@@ -84416,17 +84669,7 @@
 					},
 					{
 						"type": "text",
-						"text": " with Trace Rifles and Swords and to "
-					},
-					{
-						"type": "numeric",
-						"text": "5%",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " for Grand Overture."
+						"text": " of their Total Reserves (rounded up) as additional ammo."
 					}
 				]
 			},
@@ -84441,26 +84684,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Wardcliff Coil"
-					},
-					{
-						"type": "text",
-						"text": " does not receive any extra ammo on pickups."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "line",
-				"content": [
-					{
-						"type": "text",
-						"text": "Always rounds up to the nearest whole number. Functions the same way regardless of what spawned the Ammo Brick."
+						"text": "Functions the same way regardless of what spawned the Ammo Brick."
 					}
 				]
 			},
@@ -86416,7 +86640,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -86447,7 +86672,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -86666,7 +86892,8 @@
 						"type": "text",
 						"text": " Grenade Ability Energy"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -86691,7 +86918,8 @@
 						"type": "text",
 						"text": " Melee Ability Energy"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -87683,7 +87911,8 @@
 						"type": "text",
 						"text": " stacks"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -87708,7 +87937,8 @@
 						"type": "text",
 						"text": " stacks"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -87733,7 +87963,8 @@
 						"type": "text",
 						"text": " stacks"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -87758,7 +87989,8 @@
 						"type": "text",
 						"text": " stacks"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -88047,7 +88279,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Stasis Weapon Damage while you have active Armor Charges:"
+						"text": "Stasis Weapon damage while you have active Armor Charges:"
 					}
 				]
 			},
@@ -88141,7 +88373,8 @@
 								"type": "text",
 								"text": " Mods"
 							}
-						]
+						],
+						"isListItem": true
 					}
 				]
 			},
@@ -88198,7 +88431,8 @@
 								"type": "text",
 								"text": " increased damage"
 							}
-						]
+						],
+						"isListItem": true
 					}
 				]
 			},
@@ -91539,9 +91773,7 @@
 	"2618534366": {
 		"hash": 2618534366,
 		"name": "Absorption Cells",
-		"itemHash": 3301944824,
-		"itemName": "Mantle of Battle Harmony",
-		"lastUpload": 1731793916910,
+		"lastUpload": 1755986339031,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -91596,7 +91828,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -91625,7 +91858,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -91654,7 +91888,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -91683,7 +91918,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -91700,11 +91936,12 @@
 				"value": [
 					{
 						"type": "numeric",
-						"text": "?%",
+						"text": "2.5?%",
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -92119,7 +92356,7 @@
 	"2626922120": {
 		"hash": 2626922120,
 		"name": "Facet of Protection",
-		"lastUpload": 1738975855601,
+		"lastUpload": 1755984214899,
 		"type": "Subclass Fragment",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -92164,7 +92401,7 @@
 						"type": "numeric",
 						"text": "15",
 						"isUnknown": false,
-						"isEstimate": true
+						"isEstimate": false
 					},
 					{
 						"type": "text",
@@ -92323,7 +92560,7 @@
 	"2626922122": {
 		"hash": 2626922122,
 		"name": "Facet of Hope",
-		"lastUpload": 1738975855601,
+		"lastUpload": 1755984214899,
 		"type": "Subclass Fragment",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -92332,7 +92569,42 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Elemental buffs grant "
+						"text": "Having an active elemental buff grants an additional "
+					},
+					{
+						"type": "numeric",
+						"text": "40%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Base Class Ability Regeneration Rate."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Having "
+					},
+					{
+						"type": "numeric",
+						"text": "2+",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " active elemental buffs grants an additional "
 					},
 					{
 						"type": "numeric",
@@ -92342,7 +92614,7 @@
 					},
 					{
 						"type": "text",
-						"text": " Additional Base Class Ability Regeneration Rate."
+						"text": " instead."
 					}
 				]
 			}
@@ -92352,7 +92624,7 @@
 	"2626922123": {
 		"hash": 2626922123,
 		"name": "Facet of Solitude",
-		"lastUpload": 1738975855601,
+		"lastUpload": 1755984214899,
 		"type": "Subclass Fragment",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -92436,7 +92708,7 @@
 						"type": "numeric",
 						"text": "3",
 						"isUnknown": false,
-						"isEstimate": true
+						"isEstimate": false
 					},
 					{
 						"type": "text",
@@ -92444,8 +92716,8 @@
 					},
 					{
 						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
+						"text": "6",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
@@ -92543,7 +92815,7 @@
 	"2626922124": {
 		"hash": 2626922124,
 		"name": "Facet of Courage",
-		"lastUpload": 1738975855601,
+		"lastUpload": 1755984214899,
 		"type": "Subclass Fragment",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -92583,6 +92855,31 @@
 					{
 						"type": "text",
 						"text": "Strand elemental debuffs."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Light Melee Abilities in PVE instead deal an additional "
+					},
+					{
+						"type": "numeric",
+						"text": "50%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " of their base damage."
 					}
 				]
 			}
@@ -92645,7 +92942,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -92666,7 +92964,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -92687,7 +92986,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -92708,7 +93008,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -92716,7 +93017,7 @@
 	"2626922126": {
 		"hash": 2626922126,
 		"name": "Facet of Dawn",
-		"lastUpload": 1738975855601,
+		"lastUpload": 1755984214899,
 		"type": "Subclass Fragment",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -92739,7 +93040,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "4",
+						"text": "5",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -92980,7 +93281,8 @@
 						"type": "text",
 						"text": " points"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -93013,7 +93315,8 @@
 						"type": "text",
 						"text": " points"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -93046,7 +93349,8 @@
 						"type": "text",
 						"text": " points"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -93079,7 +93383,8 @@
 						"type": "text",
 						"text": " points"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -93108,7 +93413,8 @@
 						"type": "text",
 						"text": " points"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -93133,7 +93439,8 @@
 						"type": "text",
 						"text": " points"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -93158,7 +93465,8 @@
 						"type": "text",
 						"text": " points"
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -95425,7 +95733,8 @@
 						"type": "text",
 						"text": " additional base melee damage"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -95470,7 +95779,8 @@
 						"type": "text",
 						"text": " additional base melee damage"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -95732,9 +96042,7 @@
 	"2710254013": {
 		"hash": 2710254013,
 		"name": "The Lost Voice",
-		"itemHash": 50291571,
-		"itemName": "Speaker's Sight",
-		"lastUpload": 1749077250275,
+		"lastUpload": 1755986339031,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -95808,7 +96116,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "15",
+						"text": "9",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -95821,6 +96129,14 @@
 						"text": "100",
 						"isUnknown": false,
 						"isEstimate": true
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "text",
+						"text": "Construct"
 					},
 					{
 						"type": "text",
@@ -96170,7 +96486,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Performs an evasive maneuver in your movement input's direction."
+						"text": "Performs an evasive maneuver in your movement input's direction that instantly reloads your held weapon."
 					}
 				]
 			},
@@ -96186,21 +96502,6 @@
 					{
 						"type": "text",
 						"text": "Removes tracking from PVE Combatant projectiles and disables Aim Assist on you for the duration of the animation."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "line",
-				"content": [
-					{
-						"type": "text",
-						"text": "Instantly reloads your held weapon upon dodging."
 					}
 				]
 			},
@@ -97456,9 +97757,7 @@
 	"2731901709": {
 		"hash": 2731901709,
 		"name": "Warlord's Sigil",
-		"itemHash": 3844826443,
-		"itemName": "Winter's Guile",
-		"lastUpload": 1731793916910,
+		"lastUpload": 1755986339031,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -97594,7 +97893,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "275%",
+						"text": "400%",
 						"isUnknown": true,
 						"isEstimate": false
 					}
@@ -98015,7 +98314,7 @@
 	"2734674728": {
 		"hash": 2734674728,
 		"name": "Stasis Scavenger",
-		"lastUpload": 1723480728683,
+		"lastUpload": 1755984214899,
 		"type": "Armor Mod General",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -98039,17 +98338,17 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Ammo Brick Pickups grants an additional "
+						"text": "Ammo Brick pickups generally grant an "
 					},
 					{
 						"type": "numeric",
-						"text": "1%",
-						"isUnknown": true,
+						"text": "1",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " of your Total Reserves to "
+						"text": " additional ammo to "
 					},
 					{
 						"type": "icon",
@@ -98059,17 +98358,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Stasis Weapons matching the Ammo Type. This is increased to "
-					},
-					{
-						"type": "numeric",
-						"text": "10%",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " with Trace Rifles and Swords."
+						"text": "Stasis Weapons matching the Ammo Type."
 					}
 				]
 			},
@@ -98084,7 +98373,42 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Always rounds up to the nearest whole number. Functions the same way regardless of what spawned the Ammo Brick."
+						"text": "Machine Guns receive "
+					},
+					{
+						"type": "numeric",
+						"text": "7",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " additional ammo, Trace Rifles receive "
+					},
+					{
+						"type": "numeric",
+						"text": "10%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " of their Total Reserves (rounded up) as additional ammo."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Functions the same way regardless of what spawned the Ammo Brick."
 					}
 				]
 			},
@@ -99087,7 +99411,8 @@
 								"isUnknown": true,
 								"isEstimate": false
 							}
-						]
+						],
+						"isListItem": true
 					}
 				]
 			},
@@ -99131,7 +99456,8 @@
 								"isUnknown": true,
 								"isEstimate": false
 							}
-						]
+						],
+						"isListItem": true
 					}
 				]
 			}
@@ -101154,17 +101480,17 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Ammo Brick Pickups grants an additional "
+						"text": "Ammo Brick pickups generally grant an "
 					},
 					{
 						"type": "numeric",
-						"text": "1%",
-						"isUnknown": true,
+						"text": "1",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " of your Total Reserves to "
+						"text": " additional ammo to "
 					},
 					{
 						"type": "icon",
@@ -101174,7 +101500,32 @@
 					},
 					{
 						"type": "text",
-						"text": "Void Weapons matching the Ammo Type. This is increased to "
+						"text": "Void Weapons matching the Ammo Type."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Machine Guns receive "
+					},
+					{
+						"type": "numeric",
+						"text": "7",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " additional ammo, Trace Rifles receive "
 					},
 					{
 						"type": "numeric",
@@ -101184,25 +101535,7 @@
 					},
 					{
 						"type": "text",
-						"text": " with Trace Rifles and Swords and to "
-					},
-					{
-						"type": "numeric",
-						"text": "2%",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " with "
-					},
-					{
-						"type": "text",
-						"text": "Choir of One"
-					},
-					{
-						"type": "text",
-						"text": "."
+						"text": " of their Total Reserves (rounded up) as additional ammo."
 					}
 				]
 			},
@@ -101217,26 +101550,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Two-Tailed Fox"
-					},
-					{
-						"type": "text",
-						"text": " does not receive any extra ammo on pickups."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "line",
-				"content": [
-					{
-						"type": "text",
-						"text": "Always rounds up to the nearest whole number. Functions the same way regardless of what spawned the Ammo Brick."
+						"text": "Functions the same way regardless of what spawned the Ammo Brick."
 					}
 				]
 			},
@@ -101311,7 +101625,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Performs an evasive maneuver in your movement input's direction."
+						"text": "Performs an evasive maneuver in your movement input's direction that instantly reloads your held weapon."
 					}
 				]
 			},
@@ -101327,21 +101641,6 @@
 					{
 						"type": "text",
 						"text": "Removes tracking from PVE Combatant projectiles and disables Aim Assist on you for the duration of the animation."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "line",
-				"content": [
-					{
-						"type": "text",
-						"text": "Instantly reloads your held weapon upon dodging."
 					}
 				]
 			},
@@ -101634,7 +101933,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -101655,7 +101955,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -101676,7 +101977,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -101857,6 +102159,169 @@
 					{
 						"type": "text",
 						"text": "."
+					}
+				]
+			}
+		],
+		"definitions": []
+	},
+	"2826938963": {
+		"hash": 2826938963,
+		"name": "Consul's Pitch",
+		"itemHash": 3481695565,
+		"itemName": "Eunoia",
+		"lastUpload": 1755986339031,
+		"type": "Armor Trait Exotic",
+		"uploadedBy": "Stardust",
+		"descriptions": [
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Hellion projectiles deal "
+					},
+					{
+						"type": "numeric",
+						"text": "25%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " increased damage after being in flight for "
+					},
+					{
+						"type": "numeric",
+						"text": "?",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Hellion projectiles that have been in flight for for "
+					},
+					{
+						"type": "numeric",
+						"text": "1",
+						"isUnknown": false,
+						"isEstimate": true
+					},
+					{
+						"type": "text",
+						"text": " second release "
+					},
+					{
+						"type": "numeric",
+						"text": "4",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " pieces of Shrapnel with slight tracking capabilities."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Shrapnel projectiles deal "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "18",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "?",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Solar Damage and apply "
+					},
+					{
+						"type": "numeric",
+						"text": "5",
+						"isUnknown": false,
+						"isEstimate": true
+					},
+					{
+						"type": "text",
+						"text": " stacks of "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Scorch."
 					}
 				]
 			}
@@ -104403,7 +104868,8 @@
 						"type": "text",
 						"text": "Scorch"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -104443,7 +104909,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -104483,7 +104950,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -104523,7 +104991,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -104563,7 +105032,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -104603,7 +105073,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -104643,7 +105114,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -104683,7 +105155,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -105281,7 +105754,8 @@
 								"isUnknown": true,
 								"isEstimate": false
 							}
-						]
+						],
+						"isListItem": true
 					}
 				]
 			},
@@ -105325,7 +105799,8 @@
 								"isUnknown": true,
 								"isEstimate": false
 							}
-						]
+						],
+						"isListItem": true
 					}
 				]
 			},
@@ -105707,7 +106182,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Stasis Weapon Damage while you have active Armor Charges:"
+						"text": "Stasis Weapon damage while you have active Armor Charges:"
 					}
 				]
 			},
@@ -105801,7 +106276,8 @@
 								"type": "text",
 								"text": " Mods"
 							}
-						]
+						],
+						"isListItem": true
 					}
 				]
 			},
@@ -105858,7 +106334,8 @@
 								"type": "text",
 								"text": " increased damage"
 							}
-						]
+						],
+						"isListItem": true
 					}
 				]
 			},
@@ -108659,7 +109136,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -108704,7 +109182,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -108749,7 +109228,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -109627,7 +110107,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -109648,7 +110129,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -109669,7 +110151,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -109690,7 +110173,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -111654,7 +112138,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -111675,7 +112160,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -111696,7 +112182,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -111724,7 +112211,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Strand Weapon Damage while you have active Armor Charges:"
+						"text": "Strand Weapon damage while you have active Armor Charges:"
 					}
 				]
 			},
@@ -111818,7 +112305,8 @@
 								"type": "text",
 								"text": " Mods"
 							}
-						]
+						],
+						"isListItem": true
 					}
 				]
 			},
@@ -111875,7 +112363,8 @@
 								"type": "text",
 								"text": " increased damage"
 							}
-						]
+						],
+						"isListItem": true
 					}
 				]
 			},
@@ -113164,17 +113653,17 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Ammo Brick Pickups grants an additional "
+						"text": "Ammo Brick pickups generally grant an "
 					},
 					{
 						"type": "numeric",
-						"text": "1%",
-						"isUnknown": true,
+						"text": "1",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " of your Total Reserves to "
+						"text": " additional ammo to "
 					},
 					{
 						"type": "icon",
@@ -113184,17 +113673,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Stasis Weapons matching the Ammo Type. This is increased to "
-					},
-					{
-						"type": "numeric",
-						"text": "10%",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " with Trace Rifles and Swords."
+						"text": "Stasis Weapons matching the Ammo Type."
 					}
 				]
 			},
@@ -113209,7 +113688,42 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Always rounds up to the nearest whole number. Functions the same way regardless of what spawned the Ammo Brick."
+						"text": "Machine Guns receive "
+					},
+					{
+						"type": "numeric",
+						"text": "7",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " additional ammo, Trace Rifles receive "
+					},
+					{
+						"type": "numeric",
+						"text": "10%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " of their Total Reserves (rounded up) as additional ammo."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Functions the same way regardless of what spawned the Ammo Brick."
 					}
 				]
 			},
@@ -113889,7 +114403,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -113910,7 +114425,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -113931,7 +114447,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -113952,7 +114469,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -113973,7 +114491,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -113994,7 +114513,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -114015,7 +114535,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -115138,7 +115659,8 @@
 						"type": "text",
 						"text": " increase)"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -115183,7 +115705,8 @@
 						"type": "text",
 						"text": " increase)"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -115228,7 +115751,8 @@
 						"type": "text",
 						"text": " increase)"
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -116791,7 +117315,7 @@
 	"3277705905": {
 		"hash": 3277705905,
 		"name": "Spark of Brilliance",
-		"lastUpload": 1714219892088,
+		"lastUpload": 1755984214899,
 		"type": "Subclass Fragment",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -116834,9 +117358,9 @@
 					},
 					{
 						"type": "numeric",
-						"text": "3",
+						"text": "7.5",
 						"isUnknown": false,
-						"isEstimate": true
+						"isEstimate": false
 					},
 					{
 						"type": "text",
@@ -116934,7 +117458,7 @@
 	"3277705907": {
 		"hash": 3277705907,
 		"name": "Spark of Feedback",
-		"lastUpload": 1714219892088,
+		"lastUpload": 1755984214899,
 		"type": "Subclass Fragment",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -116943,14 +117467,14 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Being struck by a Melee Attack grants "
+						"text": "Being struck by a Melee Attack grants an additional "
 					},
 					{
 						"type": "pve",
 						"content": [
 							{
 								"type": "numeric",
-								"text": "75%",
+								"text": "100%",
 								"isUnknown": true,
 								"isEstimate": false
 							}
@@ -116973,7 +117497,7 @@
 					},
 					{
 						"type": "text",
-						"text": " increased Melee Damage for your next Melee Attack within "
+						"text": " of your base Melee damage for your next Melee Attack within "
 					},
 					{
 						"type": "numeric",
@@ -118896,7 +119420,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -118933,7 +119458,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -119611,7 +120137,8 @@
 						"type": "text",
 						"text": " decreased total damage"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -119636,7 +120163,8 @@
 						"type": "text",
 						"text": "unchanged total damage"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -119667,7 +120195,8 @@
 						"type": "text",
 						"text": " increased total damage"
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -120511,7 +121040,8 @@
 							}
 						]
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -120558,7 +121088,8 @@
 							}
 						]
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -120605,7 +121136,8 @@
 							}
 						]
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -120652,7 +121184,8 @@
 							}
 						]
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -121231,7 +121764,8 @@
 						"type": "text",
 						"text": "untested"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -121274,7 +121808,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -121317,7 +121852,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -121360,7 +121896,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -121885,7 +122422,8 @@
 						"type": "text",
 						"text": " meter Radius"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -121920,7 +122458,8 @@
 						"type": "text",
 						"text": "m Radius"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -121955,7 +122494,8 @@
 						"type": "text",
 						"text": "m Radius"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -122200,7 +122740,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -122221,7 +122762,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -122242,7 +122784,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -122612,7 +123155,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Void Weapon Damage while you have active Armor Charges:"
+						"text": "Void Weapon damage while you have active Armor Charges:"
 					}
 				]
 			},
@@ -122706,7 +123249,8 @@
 								"type": "text",
 								"text": " Mods"
 							}
-						]
+						],
+						"isListItem": true
 					}
 				]
 			},
@@ -122763,7 +123307,8 @@
 								"type": "text",
 								"text": " increased damage"
 							}
-						]
+						],
+						"isListItem": true
 					}
 				]
 			},
@@ -122908,7 +123453,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -122937,7 +123483,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -122958,7 +123505,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -122987,7 +123535,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -123016,7 +123565,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -123041,7 +123591,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -123062,7 +123613,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -123143,7 +123695,7 @@
 	"3469412970": {
 		"hash": 3469412970,
 		"name": "Whisper of Hedrons",
-		"lastUpload": 1714219892088,
+		"lastUpload": 1755984214899,
 		"type": "Subclass Fragment",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -123179,13 +123731,13 @@
 				"content": [
 					{
 						"type": "numeric",
-						"text": "60",
-						"isUnknown": false,
+						"text": "?",
+						"isUnknown": true,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " Mobility, Resilience, and Recovery"
+						"text": " Handling"
 					}
 				]
 			},
@@ -123197,43 +123749,11 @@
 						"type": "numeric",
 						"text": "30",
 						"isUnknown": false,
-						"isEstimate": true
-					},
-					{
-						"type": "text",
-						"text": " Stability"
-					}
-				]
-			},
-			{
-				"type": "line",
-				"isListItem": true,
-				"content": [
-					{
-						"type": "numeric",
-						"text": "15",
-						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " Aim Assist"
-					}
-				]
-			},
-			{
-				"type": "line",
-				"isListItem": true,
-				"content": [
-					{
-						"type": "numeric",
-						"text": "20",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " Airborne Effectiveness"
+						"text": " Health stat"
 					}
 				]
 			}
@@ -123522,7 +124042,7 @@
 	"3478354816": {
 		"hash": 3478354816,
 		"name": "Spark of Instinct",
-		"lastUpload": 1732219732702,
+		"lastUpload": 1755984214899,
 		"type": "Subclass Fragment",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -123558,7 +124078,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "50",
+								"text": "46",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -123632,17 +124152,26 @@
 	"3478354817": {
 		"hash": 3478354817,
 		"name": "Spark of Haste",
-		"lastUpload": 1714219892088,
+		"lastUpload": 1755984214899,
 		"type": "Subclass Fragment",
 		"uploadedBy": "Stardust",
 		"descriptions": [
 			{
 				"type": "line",
-				"isLabel": true,
 				"content": [
 					{
 						"type": "text",
-						"text": "After "
+						"text": "Grants "
+					},
+					{
+						"type": "numeric",
+						"text": "50",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Health stat after "
 					},
 					{
 						"type": "numeric",
@@ -123662,26 +124191,7 @@
 					},
 					{
 						"type": "text",
-						"text": " meters per second:"
-					}
-				]
-			},
-			{
-				"type": "line",
-				"content": [
-					{
-						"type": "text",
-						"text": "Grants "
-					},
-					{
-						"type": "numeric",
-						"text": "20",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " Mobility, Resilience, and Recovery."
+						"text": " meters per second."
 					}
 				]
 			}
@@ -124486,7 +124996,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -124507,7 +125018,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -124532,7 +125044,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -124553,7 +125066,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -124574,7 +125088,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -124654,7 +125169,8 @@
 						"type": "text",
 						"text": " Reload Speed"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -124685,7 +125201,8 @@
 						"type": "text",
 						"text": " Handling"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -124716,7 +125233,8 @@
 						"type": "text",
 						"text": " Stability"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -124747,7 +125265,8 @@
 						"type": "text",
 						"text": " Airborne Effectiveness"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -124788,7 +125307,8 @@
 						"type": "text",
 						"text": " decreased ADS Movement Speed Penalty"
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -124845,7 +125365,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -124882,7 +125403,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -126631,7 +127153,8 @@
 						"type": "text",
 						"text": "Scorch"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -126677,7 +127200,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -126723,7 +127247,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -126769,7 +127294,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -126815,7 +127341,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -126861,7 +127388,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -126907,7 +127435,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -126953,7 +127482,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -127795,7 +128325,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Performs an evasive maneuver in your movement input's direction."
+						"text": "Performs an evasive maneuver in your movement input's direction that instantly reloads your held weapon."
 					}
 				]
 			},
@@ -127811,21 +128341,6 @@
 					{
 						"type": "text",
 						"text": "Removes tracking from PVE Combatant projectiles and disables Aim Assist on you for the duration of the animation."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "line",
-				"content": [
-					{
-						"type": "text",
-						"text": "Instantly reloads your held weapon upon dodging."
 					}
 				]
 			},
@@ -128105,7 +128620,8 @@
 						"type": "text",
 						"text": " increased damage"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -128136,7 +128652,8 @@
 						"type": "text",
 						"text": " increased damage and grants a periodic burst of healing"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -128504,7 +129021,8 @@
 						"type": "text",
 						"text": "Special Ammo Brick"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -128529,7 +129047,8 @@
 						"type": "text",
 						"text": "Heavy Ammo Brick"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -128999,7 +129518,8 @@
 						"type": "text",
 						"text": "Powered Melee Hits"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -129028,7 +129548,8 @@
 						"type": "text",
 						"text": "Knockout active"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -129049,7 +129570,8 @@
 						"type": "text",
 						"text": "Unpowered Melee and Glaive Melee Hits"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -130933,7 +131455,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -130978,7 +131501,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -131023,7 +131547,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -131147,7 +131672,8 @@
 						"type": "text",
 						"text": "Bows, Glaives (both Projectile and Melee), Grenade/Rocket Launchers (Impact and Detonation damage count separately), Sniper Rifles"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -131172,7 +131698,8 @@
 						"type": "text",
 						"text": "Scout Rifles"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -131197,7 +131724,8 @@
 						"type": "text",
 						"text": "Sidearms"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -131222,7 +131750,8 @@
 						"type": "text",
 						"text": "Submachine Guns"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -131247,7 +131776,8 @@
 						"type": "text",
 						"text": "Fusion Rifles"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -131272,7 +131802,8 @@
 						"type": "text",
 						"text": "Auto Rifles"
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -132280,7 +132811,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -132301,7 +132833,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -132322,7 +132855,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -132407,7 +132941,8 @@
 						"type": "text",
 						"text": "Bows, Glaives (both Projectile and Melee), Grenade/Rocket Launchers (Impact and Detonation damage count separately), Sniper Rifles"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -132432,7 +132967,8 @@
 						"type": "text",
 						"text": "Scout Rifles"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -132457,7 +132993,8 @@
 						"type": "text",
 						"text": "Sidearms"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -132482,7 +133019,8 @@
 						"type": "text",
 						"text": "Submachine Guns"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -132507,7 +133045,8 @@
 						"type": "text",
 						"text": "Fusion Rifles"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -132532,7 +133071,8 @@
 						"type": "text",
 						"text": "Auto Rifles"
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -132758,7 +133298,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -132779,7 +133320,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -132800,7 +133342,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -133390,7 +133933,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -133427,7 +133971,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -134070,7 +134615,8 @@
 						"type": "text",
 						"text": " seconds"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -134121,7 +134667,8 @@
 						"type": "text",
 						"text": " seconds"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -134152,7 +134699,8 @@
 						"type": "text",
 						"text": " seconds"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -134942,7 +135490,8 @@
 						"type": "text",
 						"text": " Stacks"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -134967,7 +135516,8 @@
 						"type": "text",
 						"text": " Stacks"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -134992,7 +135542,8 @@
 						"type": "text",
 						"text": " Stack"
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -136253,7 +136804,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -136274,7 +136826,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -136295,7 +136848,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -136316,7 +136870,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -136337,7 +136892,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -136358,7 +136914,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -136395,7 +136952,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -136416,7 +136974,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -136447,7 +137006,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -136872,7 +137432,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Void Weapon Damage while you have active Armor Charges:"
+						"text": "Void Weapon damage while you have active Armor Charges:"
 					}
 				]
 			},
@@ -136966,7 +137526,8 @@
 								"type": "text",
 								"text": " Mods"
 							}
-						]
+						],
+						"isListItem": true
 					}
 				]
 			},
@@ -137023,7 +137584,8 @@
 								"type": "text",
 								"text": " increased damage"
 							}
-						]
+						],
+						"isListItem": true
 					}
 				]
 			},
@@ -137806,9 +138368,7 @@
 	"3927963103": {
 		"hash": 3927963103,
 		"name": "Conduction Tines",
-		"itemHash": 3381022969,
-		"itemName": "Crown of Tempests",
-		"lastUpload": 1739032704660,
+		"lastUpload": 1755986339031,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -138030,7 +138590,7 @@
 					},
 					{
 						"type": "text",
-						"text": " Decreased Passive Super Drain (with the exception of "
+						"text": " decreased Passive "
 					},
 					{
 						"type": "icon",
@@ -138040,7 +138600,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Chaos Reach)"
+						"text": "Stormtrance Super Drain"
 					}
 				]
 			}
@@ -138074,7 +138634,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Performs an evasive maneuver in your movement input's direction."
+						"text": "Performs an evasive maneuver in your movement input's direction that instantly reloads your held weapon."
 					}
 				]
 			},
@@ -138090,21 +138650,6 @@
 					{
 						"type": "text",
 						"text": "Removes tracking from PVE Combatant projectiles and disables Aim Assist on you for the duration of the animation."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "line",
-				"content": [
-					{
-						"type": "text",
-						"text": "Instantly reloads your held weapon upon dodging."
 					}
 				]
 			},
@@ -138358,7 +138903,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -138405,7 +138951,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -138452,7 +138999,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -138503,7 +139051,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -138542,7 +139091,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -138965,7 +139515,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -139001,7 +139552,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -139037,7 +139589,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -139073,7 +139626,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -139109,7 +139663,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -139145,7 +139700,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -140291,7 +140847,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -140312,7 +140869,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -140333,7 +140891,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": [
@@ -140619,7 +141178,8 @@
 						"type": "text",
 						"text": " Hits"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -140674,7 +141234,8 @@
 						"type": "text",
 						"text": "Primary Weapons) of Base Magazine Capacity rounded down"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -141552,7 +142113,8 @@
 							}
 						]
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -141591,7 +142153,8 @@
 							}
 						]
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -141763,7 +142326,8 @@
 							}
 						]
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -141862,7 +142426,8 @@
 							}
 						]
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -143843,7 +144408,8 @@
 						"type": "text",
 						"text": "Arc Grenade Damage."
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -143888,7 +144454,8 @@
 						"type": "text",
 						"text": "Void Overshield on contact."
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -144119,7 +144686,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -144140,7 +144708,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -144161,7 +144730,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -144182,7 +144752,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -145044,7 +145615,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -145065,7 +145637,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -145086,7 +145659,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -145107,7 +145681,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -145757,59 +146332,16 @@
 	"4174493725": {
 		"hash": 4174493725,
 		"name": "Insatiable",
-		"itemHash": 1096253259,
-		"itemName": "Apotheosis Veil",
-		"lastUpload": 1727530279353,
+		"lastUpload": 1755986339031,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Stardust",
 		"descriptions": [
 			{
 				"type": "line",
-				"isLabel": true,
 				"content": [
 					{
 						"type": "text",
-						"text": "On Super Ability activation:"
-					}
-				]
-			},
-			{
-				"type": "line",
-				"isListItem": true,
-				"content": [
-					{
-						"type": "text",
-						"text": "Fully restores Health, Grenade, Melee, and Class Ability Energy"
-					}
-				]
-			},
-			{
-				"type": "line",
-				"isListItem": true,
-				"content": [
-					{
-						"type": "text",
-						"text": "Grants "
-					},
-					{
-						"type": "icon",
-						"classNames": [
-							"solar"
-						]
-					},
-					{
-						"type": "text",
-						"text": "Cure "
-					},
-					{
-						"type": "numeric",
-						"text": "x3",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " to allies within "
+						"text": "Super Ability activation fully restores Health, Grenade, Melee, and Class Ability Energy for you and allies within "
 					},
 					{
 						"type": "numeric",
@@ -145819,7 +146351,7 @@
 					},
 					{
 						"type": "text",
-						"text": " meters"
+						"text": " meters."
 					}
 				]
 			},
@@ -147152,7 +147684,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -147173,7 +147706,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -147771,7 +148305,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -147800,7 +148335,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -147829,7 +148365,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -147858,7 +148395,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -147975,7 +148513,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -148004,7 +148543,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -148033,7 +148573,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -148054,7 +148595,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -148083,7 +148625,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -148217,7 +148760,8 @@
 						"type": "text",
 						"text": " Threadling"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -148247,7 +148791,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -148277,7 +148822,8 @@
 						"isUnknown": false,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			}
 		],
 		"definitions": []
@@ -149115,7 +149661,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -149144,7 +149691,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -149173,7 +149721,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -149202,7 +149751,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -149223,7 +149773,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -149754,7 +150305,8 @@
 						"type": "text",
 						"text": " on Kills"
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -149792,7 +150344,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -149830,7 +150383,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -149868,7 +150422,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -149921,7 +150476,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -149942,7 +150498,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -149963,7 +150520,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -150391,7 +150949,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -150412,7 +150971,8 @@
 						"isUnknown": true,
 						"isEstimate": false
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -150607,7 +151167,8 @@
 							}
 						]
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "labelledLine",
@@ -150706,7 +151267,8 @@
 							}
 						]
 					}
-				]
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
