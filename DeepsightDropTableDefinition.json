@@ -284,19 +284,60 @@
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_f20ebb76bee675ca429e470cec58cc7b.png"
 		}
 	},
-	"521171764": {
-		"hash": 521171764,
+	"513922427": {
+		"hash": 513922427,
 		"type": "bonus-focus",
 		"availability": "rotator",
 		"displayProperties": {
 			"iconHash": 0,
-			"description": "Defeat Eramis's technology expert, Praksis, the Technocrat.",
-			"name": "Empire Hunt: The Technocrat",
+			"description": "Cutting Edge: Only New Gear permitted. New Gear also grants reward bonuses.\n\nAchieve victory by defeating opponents. No teams. No allegiances. A free-for-all where the leader had better watch their back.",
+			"name": "Cutting Edge: Rumble",
 			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
 			"hasIcon": false
 		},
 		"dropTable": {
 			"1411560894": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Crucible Ops",
+			"description": "Hone your skills and win glory in battle against other Guardians.",
+			"icon": "./image/png/activity/portal_crucible.png"
+		},
+		"pgcrImage": "/img/destiny_content/pgcr/crucible_twilight_gap.jpg"
+	},
+	"576782083": {
+		"hash": 576782083,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"iconHash": 0,
+			"description": "Investigate a Taken anomaly deep beneath the surface of Io.",
+			"name": "The Whisper",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"hasIcon": false
+		},
+		"dropTable": {
+			"81786728": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Pinnacle Ops",
+			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
+			"icon": "./image/png/activity/portal_pinnacle.png"
+		}
+	},
+	"690276443": {
+		"hash": 690276443,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"iconHash": 0,
+			"description": "Defend the Advanced Defensive Unit against an onslaught of 30 combatant waves.",
+			"name": "Midtown",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"hasIcon": false
+		},
+		"dropTable": {
+			"4150538093": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Fireteam Ops",
@@ -1193,19 +1234,19 @@
 			"hasIcon": true
 		}
 	},
-	"1413939183": {
-		"hash": 1413939183,
+	"1408611635": {
+		"hash": 1408611635,
 		"type": "bonus-focus",
 		"availability": "rotator",
 		"displayProperties": {
 			"iconHash": 0,
-			"description": "Descend into Nessus and explore the Vex structures within.",
-			"name": "Battleground: Delve",
+			"description": "Defeat Eramis's military commander, Phylaks, the Warrior.",
+			"name": "Empire Hunt: The Warrior",
 			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
 			"hasIcon": false
 		},
 		"dropTable": {
-			"2111625436": {}
+			"1589715538": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Fireteam Ops",
@@ -1378,26 +1419,6 @@
 			"hasIcon": true
 		}
 	},
-	"1604785891": {
-		"hash": 1604785891,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"iconHash": 0,
-			"description": "Halt the efforts of old enemies beneath the Moon's surface.",
-			"name": "K1 Logistics",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"hasIcon": false
-		},
-		"dropTable": {
-			"1589715538": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Solo Ops",
-			"description": "Protect Earth from Sol's greatest foes as a one-Guardian fireteam and the Vanguard's last line of defense.",
-			"icon": "./image/png/activity/portal_solo.png"
-		}
-	},
 	"1661734046": {
 		"hash": 1661734046,
 		"rotationActivityHash": 2122313384,
@@ -1554,46 +1575,6 @@
 			"name": "Raid",
 			"icon": "/common/destiny2_content/icons/bd7a1fc995f87be96698263bc16698e7.png",
 			"hasIcon": true
-		}
-	},
-	"1768099736": {
-		"hash": 1768099736,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"iconHash": 0,
-			"description": "Within the Black Garden, the Sol Divisive toil endlessly, systematically shutting down potential futures. With Riven's blessing, it's time to shut them down.",
-			"name": "Starcrossed",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"hasIcon": false
-		},
-		"dropTable": {
-			"464665629": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Pinnacle Ops",
-			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
-			"icon": "./image/png/activity/portal_pinnacle.png"
-		}
-	},
-	"1919941943": {
-		"hash": 1919941943,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"iconHash": 0,
-			"description": "Carve your way through a treacherous mountain pass teeming with Lucent Hive and Taken.",
-			"name": "Liminality",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"hasIcon": false
-		},
-		"dropTable": {
-			"503854896": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Fireteam Ops",
-			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
-			"icon": "./image/png/activity/portal_fireteam.png"
 		}
 	},
 	"2004855007": {
@@ -2202,7 +2183,7 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"4090134063": {}
+			"2111625436": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Solo Ops",
@@ -2366,7 +2347,7 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"1193318082": {}
+			"3129990424": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Fireteam Ops",
@@ -2374,26 +2355,45 @@
 			"icon": "./image/png/activity/portal_fireteam.png"
 		}
 	},
-	"3148168425": {
-		"hash": 3148168425,
+	"3214228047": {
+		"hash": 3214228047,
 		"type": "bonus-focus",
 		"availability": "rotator",
 		"displayProperties": {
 			"iconHash": 0,
-			"description": "Eliminate your opponents or capture the zone to win. Earn as many round and match wins on a ticket as you can.\n\nPassages grant reward bonus.",
-			"name": "Trials of Osiris",
+			"description": "Protect the BrayTech facility from incursions by opposition forces.",
+			"name": "Creation",
 			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
 			"hasIcon": false
 		},
 		"dropTable": {
-			"3602242905": {}
+			"190747610": {}
 		},
 		"typeDisplayProperties": {
-			"name": "Crucible Ops",
-			"description": "Hone your skills and win glory in battle against other Guardians.",
-			"icon": "./image/png/activity/portal_crucible.png"
+			"name": "Solo Ops",
+			"description": "Protect Earth from Sol's greatest foes as a one-Guardian fireteam and the Vanguard's last line of defense.",
+			"icon": "./image/png/activity/portal_solo.png"
+		}
+	},
+	"3661422819": {
+		"hash": 3661422819,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"iconHash": 0,
+			"description": "Defeat the new leader of the Fallen, Kridis, the Dark Priestess.",
+			"name": "Empire Hunt: The Dark Priestess",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"hasIcon": false
 		},
-		"pgcrImage": "/img/destiny_content/pgcr/crucible_twilight_gap.jpg"
+		"dropTable": {
+			"1663482635": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Fireteam Ops",
+			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
+			"icon": "./image/png/activity/portal_fireteam.png"
+		}
 	},
 	"3834447244": {
 		"hash": 3834447244,
