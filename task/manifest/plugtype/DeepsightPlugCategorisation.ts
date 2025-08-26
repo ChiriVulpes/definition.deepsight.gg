@@ -1,11 +1,10 @@
-/* eslint-disable @typescript-eslint/no-unsafe-enum-comparison */
 import { ActivityHashes, DamageTypeHashes, InventoryBucketHashes, InventoryItemHashes, ItemCategoryHashes, ItemTierTypeHashes, PlugCategoryHashes, StatHashes, TraitHashes } from '@deepsight.gg/Enums'
-import type { PromiseOr } from '@deepsight.gg/utility/Type'
 import type { DestinyInventoryBucketDefinition } from 'bungie-api-ts/destiny2'
 import { DestinyItemType } from 'bungie-api-ts/destiny2'
 import { EnumHelper } from '../../generate_enums'
 import Env from '../../utility/Env'
 import Log from '../../utility/Log'
+import type { PromiseOr } from '../../utility/Type'
 import type { DeepsightItemInvestmentStatDefinition, DeepsightPlugCategorisationMasterwork, DeepsightPlugCategorisationMod, DeepsightPlugCategorisationSubclass } from '../IDeepsightPlugCategorisation'
 import { DeepsightPlugCategorisation, DeepsightPlugCategory, DeepsightPlugTypeCosmetic, DeepsightPlugTypeDestination, DeepsightPlugTypeExtractable, DeepsightPlugTypeIntrinsic, DeepsightPlugTypeMap, DeepsightPlugTypeMasterwork, DeepsightPlugTypeMod, DeepsightPlugTypePerk, DeepsightPlugTypeSubclass, DeepsightPlugTypeVendor } from '../IDeepsightPlugCategorisation'
 import manifest from '../utility/endpoint/DestinyManifest'
