@@ -2,9 +2,8 @@
 	"name": "deepsight.gg",
 	"private": true,
 	"scripts": {
-		"build": "npx task clean install ensure_enums build",
-		"watch": "npx task clean install ensure_enums pre_watch_build -- serve watch",
-		"manifest": "npx task clean install ensure_enums deepsight_manifest",
+		"watch": "npx task clean ensure_enums static -- serve watch",
+		"manifest": "npx task clean ensure_enums deepsight_manifest",
 		"bump_versions": "npx task bump_versions",
 		"refresh_token": "npx task refresh_token"
 	},
@@ -37,6 +36,7 @@
 		"tsconfig-paths": "4.2.0",
 		"color-convert": "2.0.1",
 		"@types/color-convert": "2.0.3",
+		"bungie-api-ts": "5.7.0",
 		"lint": "github:fluff4me/lint",
 		"task": "github:chirivulpes/task#package",
 		"sharp": "0.34.3",

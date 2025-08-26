@@ -1,4 +1,3 @@
-import ArrayPrototypes from '@deepsight.gg/utility/prototype/ArrayPrototypes'
 import { Task } from 'task'
 import bump_versions from './bump_versions'
 import copy_manifest from './copy_manifest'
@@ -23,8 +22,9 @@ import DeepsightTierTypeDefinition from './manifest/DeepsightTierTypeDefinition'
 import DeepsightTypes from './manifest/DeepsightTypes'
 import DeepsightWallpaperDefinition from './manifest/DeepsightWallpaperDefinition'
 import refresh_token from './refresh_token'
+import Arrays from './utility/Arrays'
 
-ArrayPrototypes()
+Arrays.applyPrototypes()
 
 export default Task('deepsight_manifest', task => task.series(
 	copy_manifest,

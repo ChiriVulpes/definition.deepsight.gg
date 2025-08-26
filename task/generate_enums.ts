@@ -1,4 +1,3 @@
-import ArrayPrototypes from '@deepsight.gg/utility/prototype/ArrayPrototypes'
 import ansicolor from 'ansicolor'
 import type { AllDestinyManifestComponents, DestinyDisplayPropertiesDefinition, DestinyInventoryItemDefinition, DestinySocketTypeDefinition } from 'bungie-api-ts/destiny2'
 import { DestinyItemType } from 'bungie-api-ts/destiny2'
@@ -6,13 +5,14 @@ import fs from 'fs-extra'
 import { Task } from 'task'
 import { getDeepsightMomentDefinition } from './manifest/DeepsightMomentDefinition'
 import manifest from './manifest/utility/endpoint/DestinyManifest'
+import Arrays from './utility/Arrays'
 import Env from './utility/Env'
 import Log from './utility/Log'
 import Objects from './utility/Objects'
 
 const _ = undefined
 
-ArrayPrototypes()
+Arrays.applyPrototypes()
 
 const MISSING_ENUM_NAMES: Partial<Record<keyof AllDestinyManifestComponents, Record<number, string>>> = {
 	DestinyInventoryBucketDefinition: {
@@ -288,7 +288,7 @@ export class EnumHelper {
 			return undefined
 
 		const name = OVERRIDDEN_ENUM_NAMES[type]?.[definition.hash!]
-			// eslint-disable-next-line @typescript-eslint/no-unsafe-argument
+
 			?? await COMPONENT_NAME_GENERATORS[type]?.(definition as any, EnumHelper.getComponentNameGeneratorApi())
 			?? definition.displayProperties?.name
 			?? MISSING_ENUM_NAMES[type]?.[definition.hash!]
@@ -381,13 +381,13 @@ export default Task('generate_enums', async () => {
 		const componentData = componentDefs ?? await manifest[componentName as keyof AllDestinyManifestComponents].all()
 		const enumHelper = new EnumHelper(componentName)
 
-		for (const definition of Object.values(componentData) as Definition[]) {
+		for (const definition of Object.values(componentData)) {
 			const nameSource = (componentName === 'DestinyTraitDefinition' ? traitIds[definition.hash!] : undefined)
 				?? definition
 			await enumHelper.encounter(nameSource)
 		}
 
-		for (const definition of Object.values(componentData) as Definition[]) {
+		for (const definition of Object.values(componentData)) {
 			const nameSource = (componentName === 'DestinyTraitDefinition' ? traitIds[definition.hash!] : undefined)
 				?? definition
 			const name = await enumHelper.name(nameSource, undefined, componentName as keyof AllDestinyManifestComponents)
@@ -417,7 +417,7 @@ export default Task('generate_enums', async () => {
 		if (componentName === 'DestinyInventoryItemDefinition') {
 			stream.write('export declare const enum PlugCategoryHashes {\n')
 
-			for (const definition of Object.values(componentData) as DestinyInventoryItemDefinition[]) {
+			for (const definition of Object.values(componentData)) {
 				if (definition.traitIds?.length && definition.traitIds.length === definition.traitHashes?.length)
 					for (let i = 0; i < definition.traitIds.length; i++)
 						traitIds[definition.traitHashes[i]] = definition.traitIds[i]
