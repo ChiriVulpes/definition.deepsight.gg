@@ -52,7 +52,4 @@ export default Task('static', async (task, file?: string) => {
 	// eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
 	const t = require('./deepsight_manifest').default as typeof deepsight_manifest
 	await task.run(t)
-
-	await fs.rm('src/node_modules/deepsight.gg', { recursive: true })
-	await fs.copy('docs/manifest', 'src/node_modules/deepsight.gg', { recursive: true })
 })
