@@ -4,6 +4,6 @@ export { lint }
 export default [
 	...lint(import.meta.dirname),
 	{
-		ignores: ['static/manifest/Enums.d.ts'],
+		ignores: ['static/definitions/Enums.d.ts'],
 	},
 ]

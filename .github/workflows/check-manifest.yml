@@ -20,7 +20,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: manifest
+          ref: definitions
 
       - name: Setup Node.js environment
         uses: actions/setup-node@v4
@@ -33,24 +33,24 @@ jobs:
         run: node check.js
         continue-on-error: true
 
-      - name: Save versions.json artifact
+      - name: Save manifest.json artifact
         if: ${{ steps.updated.outcome == 'success' }}
         uses: actions/upload-artifact@v4
         with:
-          name: versions
-          path: versions.json
+          name: manifest
+          path: manifest.json
 
     outputs:
       updated: ${{ steps.updated.outcome }}
 
-  manifest:
+  definitions:
     needs: check
     if: ${{ needs.check.outputs.updated != 'failure' }}
-    uses: ./.github/workflows/manifest.yml
+    uses: ./.github/workflows/definitions.yml
     secrets: inherit
 
   deploy:
-    needs: manifest
+    needs: definitions
     uses: ./.github/workflows/deploy.yml  
     secrets: inherit
 

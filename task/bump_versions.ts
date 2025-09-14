@@ -34,24 +34,24 @@ const DEFAULT_VERSION = Env.DEEPSIGHT_ENVIRONMENT === 'dev' ? Date.now() : -1
 
 export default Task('bump_versions', async () => {
 	const isDev = Env.DEEPSIGHT_ENVIRONMENT === 'dev'
-	if (!isDev && !await fs.pathExists('manifest'))
+	if (!isDev && !await fs.pathExists('definitions'))
 		throw new Error('No output folder detected')
 
-	const dir = `${isDev ? 'docs/' : ''}manifest/`
-	const versionsFilePath = `${dir}versions.json`
+	const dir = `${isDev ? 'docs/' : ''}definitions/`
+	const versionsFilePath = `${dir}manifest.json`
 	const versions = await fs.readJson(versionsFilePath).catch(() => ({}))
-	const files = await fs.readdir('docs/manifest')
+	const files = await fs.readdir('docs/definitions')
 
 	let bumped = false
 	const bumpMap: Record<string, true> = {}
 
 	for (const file of files) {
-		if (file === 'versions.json')
+		if (file === 'manifest.json')
 			continue
 
-		const newPath = `docs/manifest/${file}`
+		const newPath = `docs/definitions/${file}`
 		if (!isDev) {
-			const oldPath = `manifest/${file}`
+			const oldPath = `definitions/${file}`
 			const jsonOld = await readData(oldPath).catch(() => undefined)
 			const jsonNew = await readData(newPath)
 			if (jsonOld && (typeof jsonNew === 'string' ? jsonOld === jsonNew : !diff(jsonOld, jsonNew)))
@@ -75,12 +75,12 @@ export default Task('bump_versions', async () => {
 		bumped = true
 	}
 
-	let interfacesFile = await fs.readFile('docs/manifest/Interfaces.d.ts', 'utf8')
+	let interfacesFile = await fs.readFile('docs/definitions/Interfaces.d.ts', 'utf8')
 	interfacesFile = interfacesFile.replace('// @inject:versions', Object.keys(bumpMap)
 		.map(key => `\t'${key}': number`)
 		.join('\n')
 		.slice(1))
-	await fs.writeFile('docs/manifest/Interfaces.d.ts', interfacesFile)
+	await fs.writeFile('docs/definitions/Interfaces.d.ts', interfacesFile)
 
 	if (bumped) {
 		versions.deepsight = (versions.deepsight ?? DEFAULT_VERSION) + 1

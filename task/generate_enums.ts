@@ -349,18 +349,18 @@ export class EnumHelper {
 }
 
 export default Task('generate_enums', async () => {
-	const enumsTime = await fs.stat('static/manifest/Enums.d.ts').then(stats => stats.mtimeMs).catch(() => 0)
+	const enumsTime = await fs.stat('static/definitions/Enums.d.ts').then(stats => stats.mtimeMs).catch(() => 0)
 	const manifestTime = await fs.stat('static/testiny/.v').then(stats => stats.mtimeMs).catch(() => 0)
 	if (enumsTime > manifestTime && !Env.ENUMS_NEED_UPDATE) {
 		Log.info(ansicolor.lightGreen('Enums OK!'))
-		await fs.mkdirp('docs/manifest')
-		await fs.copyFile('static/manifest/Enums.d.ts', 'docs/manifest/Enums.d.ts')
+		await fs.mkdirp('docs/definitions')
+		await fs.copyFile('static/definitions/Enums.d.ts', 'docs/definitions/Enums.d.ts')
 		return
 	}
 
 	const componentNames = await manifest.ALL
 
-	const stream = fs.createWriteStream('static/manifest/Enums.d.ts')
+	const stream = fs.createWriteStream('static/definitions/Enums.d.ts')
 
 	const componentNamesWithoutDefinitionNames: string[] = []
 	const plugHelper = new EnumHelper('DestinyItemPlugDefinition')
@@ -460,6 +460,6 @@ export default Task('generate_enums', async () => {
 	if (dedupeFailures.length)
 		throw new Error(`Failed to dedupe the following enums:\n\n${dedupeFailures.join('\n\n')}`)
 
-	await fs.mkdirp('docs/manifest')
-	await fs.copyFile('static/manifest/Enums.d.ts', 'docs/manifest/Enums.d.ts')
+	await fs.mkdirp('docs/definitions')
+	await fs.copyFile('static/definitions/Enums.d.ts', 'docs/definitions/Enums.d.ts')
 })

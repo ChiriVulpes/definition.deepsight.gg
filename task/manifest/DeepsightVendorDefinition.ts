@@ -34,6 +34,6 @@ export default Task("DeepsightVendorDefinition", async () => {
 	////////////////////////////////////
 	// Write!
 
-	await fs.mkdirp("docs/manifest");
-	await fs.writeJson("docs/manifest/DeepsightVendorDefinition.json", DeepsightVendorDefinition, { spaces: "\t" });
+	await fs.mkdirp('docs/definitions');
+	await fs.writeJson("docs/definitions/DeepsightVendorDefinition.json", DeepsightVendorDefinition, { spaces: "\t" });
 });

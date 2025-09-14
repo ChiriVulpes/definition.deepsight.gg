@@ -10,8 +10,8 @@
 		"skipLibCheck": true,
 		"paths": {
 			"bungie-api-ts/*": ["./src/node_modules/bungie-api-ts/*"],
-			"@deepsight.gg/Enums": ["./static/manifest/Enums.d.ts"],
-			"@deepsight.gg/Interfaces": ["./static/manifest/Interfaces.d.ts"]
+			"@deepsight.gg/Enums": ["./static/definitions/Enums.d.ts"],
+			"@deepsight.gg/Interfaces": ["./static/definitions/Interfaces.d.ts"]
 		}
 	},
 	"include": [

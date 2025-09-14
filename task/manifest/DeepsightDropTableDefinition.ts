@@ -3,7 +3,7 @@ import { ActivityGraphHashes, ActivityHashes, ActivityModeHashes, ActivityTypeHa
 import type { DestinyActivityGraphDefinition } from 'bungie-api-ts/destiny2/interfaces'
 import fs from 'fs-extra'
 import { Log, Task } from 'task'
-import type { DeepsightDisplayPropertiesDefinition, DeepsightDropTableRotationsDefinition } from '../../static/manifest/Interfaces'
+import type { DeepsightDisplayPropertiesDefinition, DeepsightDropTableRotationsDefinition } from '../../static/definitions/Interfaces'
 import Time from '../utility/Time'
 import { getCollectionsCopies } from './DeepsightCollectionsDefinition'
 import DestinyManifestReference from './DestinyManifestReference'
@@ -374,6 +374,6 @@ export default Task('DeepsightDropTableDefinition', async () => {
 	////////////////////////////////////
 	// Write!
 
-	await fs.mkdirp('docs/manifest')
-	await fs.writeJson('docs/manifest/DeepsightDropTableDefinition.json', DeepsightDropTableDefinition, { spaces: '\t' })
+	await fs.mkdirp('docs/definitions')
+	await fs.writeJson('docs/definitions/DeepsightDropTableDefinition.json', DeepsightDropTableDefinition, { spaces: '\t' })
 })

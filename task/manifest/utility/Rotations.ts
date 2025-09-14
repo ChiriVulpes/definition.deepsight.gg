@@ -1,4 +1,4 @@
-import type { ISOString } from "../../../static/manifest/Interfaces";
+import type { ISOString } from "../../../static/definitions/Interfaces";
 import Time from "../../utility/Time";
 
 export interface Rotation {

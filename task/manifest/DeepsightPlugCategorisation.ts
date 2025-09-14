@@ -6,9 +6,9 @@ export default Task("DeepsightPlugCategorisation", async () => {
 	DeepsightPlugCategorisation.reset();
 	const result = await DeepsightPlugCategorisation.resolve();
 
-	await fs.mkdirp("docs/manifest");
+	await fs.mkdirp('docs/definitions');
 
-	const stream = fs.createWriteStream("docs/manifest/DeepsightPlugCategorisation.json");
+	const stream = fs.createWriteStream("docs/definitions/DeepsightPlugCategorisation.json");
 	stream.write("{\n\t");
 	const entries = Object.entries(result);
 	let i = 0;

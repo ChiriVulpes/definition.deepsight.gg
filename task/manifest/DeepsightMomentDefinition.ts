@@ -27,7 +27,7 @@ export async function getDeepsightMomentDefinition () {
 }
 
 async function computeDeepsightMomentDefinition () {
-	const DeepsightMomentDefinition = await JSON5.readFile<Record<number, DeepsightMomentDefinition>>('static/manifest/DeepsightMomentDefinition.json5')
+	const DeepsightMomentDefinition = await JSON5.readFile<Record<number, DeepsightMomentDefinition>>('static/definitions/DeepsightMomentDefinition.json5')
 
 	const { DestinySeasonDefinition, DestinyEventCardDefinition } = manifest
 
@@ -74,6 +74,6 @@ export default Task('DeepsightMomentDefinition', async () => {
 	DeepsightMomentDefinition = undefined
 	const manifest = await getDeepsightMomentDefinition()
 
-	await fs.mkdirp('docs/manifest')
-	await fs.writeJson('docs/manifest/DeepsightMomentDefinition.json', manifest, { spaces: '\t' })
+	await fs.mkdirp('docs/definitions')
+	await fs.writeJson('docs/definitions/DeepsightMomentDefinition.json', manifest, { spaces: '\t' })
 })

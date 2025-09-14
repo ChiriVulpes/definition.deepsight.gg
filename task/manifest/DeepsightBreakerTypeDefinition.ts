@@ -131,14 +131,14 @@ export default Task("DeepsightBreakerTypeDefinition", async () => {
 	}
 
 
-	await fs.mkdirp("docs/manifest");
+	await fs.mkdirp('docs/definitions');
 
 	const breakerSources = Object.fromEntries(Object.entries(DeepsightBreakerSourceDefinition)
 		.map(([hash, source]) => [parseInt(hash), {
 			hash: parseInt(hash),
 			...source,
 		}]));
-	await fs.writeJson("docs/manifest/DeepsightBreakerSourceDefinition.json", breakerSources, { spaces: "\t" });
+	await fs.writeJson("docs/definitions/DeepsightBreakerSourceDefinition.json", breakerSources, { spaces: "\t" });
 
 	const breakerTypes = Object.fromEntries(Object.entries(DeepsightBreakerTypeDefinition)
 		.map(([hash, sources]) => [parseInt(hash), {
@@ -146,5 +146,5 @@ export default Task("DeepsightBreakerTypeDefinition", async () => {
 			sources,
 			types: [...new Set(sources.flatMap(source => DeepsightBreakerSourceDefinition[source].breakerTypes))],
 		}]));
-	await fs.writeJson("docs/manifest/DeepsightBreakerTypeDefinition.json", breakerTypes, { spaces: "\t" });
+	await fs.writeJson("docs/definitions/DeepsightBreakerTypeDefinition.json", breakerTypes, { spaces: "\t" });
 });

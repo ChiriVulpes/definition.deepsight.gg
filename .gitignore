@@ -4,11 +4,11 @@ docs/
 static/testiny
 static/js/vendor
 task/manifest/Enums.d.ts
-static/manifest/DeepsightPlugCategorisation.d.ts
-static/manifest/DeepsightBreakerTypeDefinition.d.ts
-static/manifest/DeepsightEmblemDefinition.json
-static/manifest/DeepsightIconDefinition.json
-static/manifest/Enums.d.ts
+static/definitions/DeepsightPlugCategorisation.d.ts
+static/definitions/DeepsightBreakerTypeDefinition.d.ts
+static/definitions/DeepsightEmblemDefinition.json
+static/definitions/DeepsightIconDefinition.json
+static/definitions/Enums.d.ts
 auth.json
 activitycache.json*
 charm/

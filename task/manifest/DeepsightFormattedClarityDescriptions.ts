@@ -294,6 +294,6 @@ export default Task('DeepsightFormattedClarityDescriptions', async task => {
 		}
 	}
 
-	await fs.mkdirp('docs/manifest')
-	await fs.writeJson('docs/manifest/DeepsightFormattedClarityDescriptions.json', DeepsightFormattedClarityDescriptions, { spaces: '\t' })
+	await fs.mkdirp('docs/definitions')
+	await fs.writeJson('docs/definitions/DeepsightFormattedClarityDescriptions.json', DeepsightFormattedClarityDescriptions, { spaces: '\t' })
 })

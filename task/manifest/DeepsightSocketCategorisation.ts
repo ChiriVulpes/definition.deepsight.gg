@@ -13,8 +13,8 @@ export default Task('DeepsightSocketCategorisation', async () => {
 	DeepsightSocketCategorisation = undefined
 	const result = await getDeepsightSocketCategorisation()
 
-	await fs.mkdirp('docs/manifest')
-	await fs.writeJson('docs/manifest/DeepsightSocketCategorisation.json', result, { spaces: '\t' })
+	await fs.mkdirp('docs/definitions')
+	await fs.writeJson('docs/definitions/DeepsightSocketCategorisation.json', result, { spaces: '\t' })
 })
 
 export async function getDeepsightSocketCategorisation () {

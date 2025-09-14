@@ -160,8 +160,8 @@ export default Task('DeepsightCollectionsDefinition', async () => {
 	DeepsightCollectionsDefinition = undefined
 	const result = await getDeepsightCollectionsDefinition()
 
-	await fs.mkdirp('docs/manifest')
-	await fs.writeJson('docs/manifest/DeepsightCollectionsDefinition.json', result, { spaces: '\t' })
+	await fs.mkdirp('docs/definitions')
+	await fs.writeJson('docs/definitions/DeepsightCollectionsDefinition.json', result, { spaces: '\t' })
 })
 
 export async function getDeepsightCollectionsDefinition () {

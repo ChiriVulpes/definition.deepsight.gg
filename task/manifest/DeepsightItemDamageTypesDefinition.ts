@@ -13,12 +13,12 @@ export default Task('DeepsightItemDamageTypesDefinition', async () => {
 		[InventoryItemHashes.TwoTailedFoxRocketLauncher]: { damageTypes: [DamageTypeHashes.Void, DamageTypeHashes.Solar, DamageTypeHashes.Arc] },
 	}
 
-	await fs.mkdirp('docs/manifest')
+	await fs.mkdirp('docs/definitions')
 
 	const damageTypes = Object.fromEntries(Object.entries(DeepsightItemDamageTypesDefinition)
 		.map(([hash, source]) => [parseInt(hash), {
 			hash: parseInt(hash),
 			...source,
 		}]))
-	await fs.writeJson('docs/manifest/DeepsightItemDamageTypesDefinition.json', damageTypes, { spaces: '\t' })
+	await fs.writeJson('docs/definitions/DeepsightItemDamageTypesDefinition.json', damageTypes, { spaces: '\t' })
 })

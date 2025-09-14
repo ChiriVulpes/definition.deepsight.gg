@@ -3,7 +3,6 @@ import fs from 'fs-extra'
 import * as path from 'path'
 import { Task } from 'task'
 import type deepsight_manifest from './deepsight_manifest'
-import DeepsightTypes from './manifest/DeepsightTypes'
 import Env from './utility/Env'
 import Log from './utility/Log'
 
@@ -15,24 +14,12 @@ export default Task('static', async (task, file?: string) => {
 			Env.ENUMS_NEED_UPDATE = 'true'
 	}
 
+	await fs.mkdirp('docs/definitions')
 	while (!await fs.copy('static', 'docs')
 		.then(() => true).catch(() => false));
 
-	await fs.copyFile('docs/manifest/Interfaces.d.ts', 'src/node_modules/deepsight.gg/Interfaces.d.ts')
-
 	if (!Env.DEEPSIGHT_PATH)
 		throw new Error('DEEPSIGHT_PATH env var must be set')
-
-	const html = await fs.readFile('docs/index.html', 'utf8')
-	await fs.writeFile('docs/index.html', html.replace(/\.\//g, Env.DEEPSIGHT_PATH))
-
-	if (Env.DEEPSIGHT_ENVIRONMENT !== 'dev') {
-		await task.run(DeepsightTypes)
-		// manifests are handled in a separate task in the build
-		await fs.rm('docs/manifest', { recursive: true })
-		await fs.rm('docs/manifest-auth.html')
-		return
-	}
 
 	// uncache deepsight manifest generation stuff before using it in case there were changes
 	const deepsightManifestEntryPoint = path.join(__dirname, 'deepsight_manifest.ts')

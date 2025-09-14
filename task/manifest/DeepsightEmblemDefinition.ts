@@ -13,7 +13,7 @@ export default Task('DeepsightEmblemDefinition', async () => {
 
 	// eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
 	const DeepsightEmblemDefinition: Record<number, DeepsightEmblemDefinition>
-		= await fs.readJson('static/manifest/DeepsightEmblemDefinition.json').catch(() => ({}))
+		= await fs.readJson('static/definitions/DeepsightEmblemDefinition.json').catch(() => ({}))
 
 	let i = 0
 	let logI = 0
@@ -67,7 +67,7 @@ export default Task('DeepsightEmblemDefinition', async () => {
 
 	await Promise.all(promises)
 
-	await fs.mkdirp('docs/manifest')
-	await fs.writeJson('static/manifest/DeepsightEmblemDefinition.json', DeepsightEmblemDefinition, { spaces: '\t' })
-	await fs.copyFile('static/manifest/DeepsightEmblemDefinition.json', 'docs/manifest/DeepsightEmblemDefinition.json')
+	await fs.mkdirp('docs/definitions')
+	await fs.writeJson('static/definitions/DeepsightEmblemDefinition.json', DeepsightEmblemDefinition, { spaces: '\t' })
+	await fs.copyFile('static/definitions/DeepsightEmblemDefinition.json', 'docs/definitions/DeepsightEmblemDefinition.json')
 })

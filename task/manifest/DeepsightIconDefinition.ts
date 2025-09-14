@@ -13,7 +13,7 @@ export default Task('DeepsightIconDefinition', async task => {
 
 	// eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
 	const DeepsightIconDefinition: Record<number, DestinyIconDefinition>
-		= await fs.readJson('static/manifest/DeepsightIconDefinition.json').catch(() => ({}))
+		= await fs.readJson('static/definitions/DeepsightIconDefinition.json').catch(() => ({}))
 
 	const [DestinyInventoryItemDefinition, DestinyIconDefinition, DeepsightPlugCategorisation] = await Promise.all([
 		DestinyManifest.DestinyInventoryItemDefinition.all(),
@@ -137,9 +137,9 @@ export default Task('DeepsightIconDefinition', async task => {
 
 	await Promise.all(promises)
 
-	await fs.mkdirp('docs/manifest')
-	await fs.writeJson('static/manifest/DeepsightIconDefinition.json', DeepsightIconDefinition, { spaces: '\t' })
-	await fs.copyFile('static/manifest/DeepsightIconDefinition.json', 'docs/manifest/DeepsightIconDefinition.json')
+	await fs.mkdirp('docs/definitions')
+	await fs.writeJson('static/definitions/DeepsightIconDefinition.json', DeepsightIconDefinition, { spaces: '\t' })
+	await fs.copyFile('static/definitions/DeepsightIconDefinition.json', 'docs/definitions/DeepsightIconDefinition.json')
 })
 
 const ensureTransparentCoords = [

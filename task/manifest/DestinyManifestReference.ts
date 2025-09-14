@@ -1,5 +1,5 @@
 import type { AllDestinyManifestComponents, DestinyDisplayPropertiesDefinition } from 'bungie-api-ts/destiny2'
-import type { BungieIconPath, DeepsightDisplayPropertiesDefinition, DeepsightIconPath } from '../../static/manifest/Interfaces'
+import type { BungieIconPath, DeepsightDisplayPropertiesDefinition, DeepsightIconPath } from '../../static/definitions/Interfaces'
 import Log from '../utility/Log'
 import type { DestinyManifestComponentValue } from './utility/endpoint/DestinyManifest'
 import manifest, { DESTINY_MANIFEST_MISSING_ICON_PATH } from './utility/endpoint/DestinyManifest'

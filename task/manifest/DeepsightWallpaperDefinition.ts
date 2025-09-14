@@ -1,10 +1,10 @@
 import fs from "fs-extra";
 import { Task } from "task";
-import type { DeepsightWallpaperDefinition } from "../../static/manifest/Interfaces";
+import type { DeepsightWallpaperDefinition } from "../../static/definitions/Interfaces";
 import JSON5 from "../utility/JSON5";
 
 export default Task("DeepsightWallpaperDefinition", async () => {
-	const input = await JSON5.readFile<Record<number, string[]>>("static/manifest/DeepsightWallpaperDefinition.json5");
+	const input = await JSON5.readFile<Record<number, string[]>>("static/definitions/DeepsightWallpaperDefinition.json5");
 	const DeepsightWallpaperDefinition: Record<number, DeepsightWallpaperDefinition> = {};
 
 	for (const [hashStr, value] of Object.entries(input)) {
@@ -27,6 +27,6 @@ export default Task("DeepsightWallpaperDefinition", async () => {
 		if (!value.wallpapers.length && !value.secondaryWallpapers.length)
 			delete DeepsightWallpaperDefinition[+hashStr];
 
-	await fs.mkdirp("docs/manifest");
-	await fs.writeJson("docs/manifest/DeepsightWallpaperDefinition.json", DeepsightWallpaperDefinition, { spaces: "\t" });
+	await fs.mkdirp('docs/definitions');
+	await fs.writeJson("docs/definitions/DeepsightWallpaperDefinition.json", DeepsightWallpaperDefinition, { spaces: "\t" });
 });

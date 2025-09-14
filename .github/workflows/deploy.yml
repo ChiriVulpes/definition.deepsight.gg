@@ -14,47 +14,25 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout build
+      - name: Checkout definitions
         uses: actions/checkout@v4
         with:
-          ref: build
+          ref: definitions
 
-      - name: Checkout build-beta
-        uses: actions/checkout@v4
-        with:
-          ref: build-beta
-          path: beta
-
-      - name: Checkout manifest
-        uses: actions/checkout@v4
-        with:
-          ref: manifest
-          path: manifest
-
-      - name: Checkout images
+      - name: Checkout static files
         uses: actions/checkout@v4
         with:
           ref: generated
           path: generated
 
-      - name: Checkout manifest to beta
-        uses: actions/checkout@v4
-        with:
-          ref: manifest
-          path: beta/manifest
-
       - name: Clear .git folders (no submodules here!)
         run: |
           rm -rf .git
-          rm -rf beta/.git
-          rm -rf manifest/.git
-          rm -rf beta/manifest/.git
           rm -rf generated/.git
-
-      - name: Put generated images in place
+  
+      - name: Put static files in place
         run: |
-          mkdir -p image/generated
-          cp -r generated/* image/generated/
+          cp -r generated/* ./
           rm -rf generated
       
       - name: Prepare for GitHub Pages

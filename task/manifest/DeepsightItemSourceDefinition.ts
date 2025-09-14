@@ -304,7 +304,7 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 		},
 	}
 
-	await fs.mkdir('docs/manifest', { recursive: true })
-	await fs.writeJson('docs/manifest/DeepsightItemSourceListDefinition.json', DeepsightItemSourceListDefinition, { spaces: '\t' })
-	await fs.writeJson('docs/manifest/DeepsightItemSourceDefinition.json', DeepsightItemSourceDefinition, { spaces: '\t' })
+	await fs.mkdir('docs', { recursive: true })
+	await fs.writeJson('docs/definitions/DeepsightItemSourceListDefinition.json', DeepsightItemSourceListDefinition, { spaces: '\t' })
+	await fs.writeJson('docs/definitions/DeepsightItemSourceDefinition.json', DeepsightItemSourceDefinition, { spaces: '\t' })
 })

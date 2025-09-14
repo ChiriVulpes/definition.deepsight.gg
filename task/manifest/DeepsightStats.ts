@@ -1,6 +1,6 @@
 import fs from "fs-extra";
 import { Task } from "task";
-import type { DeepsightStats } from "../../static/manifest/Interfaces";
+import type { DeepsightStats } from "../../static/definitions/Interfaces";
 import DestinyProfile from "./utility/endpoint/DestinyProfile";
 
 export default Task("DeepsightStats", async () => {
@@ -15,6 +15,6 @@ export default Task("DeepsightStats", async () => {
 		powerFloor,
 	};
 
-	await fs.mkdirp("docs/manifest");
-	await fs.writeJson("docs/manifest/DeepsightStats.json", DeepsightStats, { spaces: "\t" });
+	await fs.mkdirp('docs/definitions');
+	await fs.writeJson("docs/definitions/DeepsightStats.json", DeepsightStats, { spaces: "\t" });
 });

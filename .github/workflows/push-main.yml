@@ -12,13 +12,13 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  manifest:
-    uses: ./.github/workflows/manifest.yml
+  definitions:
+    uses: ./.github/workflows/definitions.yml
     secrets: inherit
 
   deploy:
-    needs: [manifest]
-    if: always() && needs.build.result == 'success' && needs.manifest.result == 'success'
+    needs: [definitions]
+    if: always() && needs.definitions.result == 'success'
     uses: ./.github/workflows/deploy.yml
     secrets: inherit
     

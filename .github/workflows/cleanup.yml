@@ -14,8 +14,8 @@ jobs:
           name: testiny-data
           failOnError: false
     
-      - name: Delete versions artifact
+      - name: Delete manifest artifact
         uses: geekyeggo/delete-artifact@v4
         with:
-          name: versions
+          name: manifest
           failOnError: false

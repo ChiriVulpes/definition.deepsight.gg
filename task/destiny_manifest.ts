@@ -69,7 +69,7 @@ export default Task("destiny_manifest", async () => {
 		let writeStream!: fs.WriteStream;
 		let isValid = false;
 		for (let attempt = 0; attempt < 5; attempt++) {
-			Log.info(`Downloading manifest ${key}...`);
+			Log.info(`Downloading definitions ${key}...`);
 			const downloaded = await new Promise<boolean>(resolve => https
 				.get(`https://www.bungie.net/${manifest!.jsonWorldComponentContentPaths.en[key]}`, {
 					headers: {

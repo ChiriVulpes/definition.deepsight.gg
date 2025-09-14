@@ -7,11 +7,11 @@ export default Task('DeepsightTypes', async () => {
 })
 
 async function emit (path: string) {
-	await fs.mkdirp('docs/manifest')
+	await fs.mkdirp('docs/definitions')
 	let contents = await fs.readFile(`task/manifest/I${path}.ts`, 'utf8')
 	contents = contents
 		.replace(/@deepsight.gg\//g, './')
-	await fs.writeFile(`docs/manifest/${path}.ts`, contents)
+	await fs.writeFile(`docs/definitions/${path}.ts`, contents)
 
 	// create d.ts version with declared const enums
 	contents = contents
@@ -21,6 +21,6 @@ async function emit (path: string) {
 		.replace(/export enum/g, 'export const enum')
 		.replace(/export /g, 'export declare ')
 
-	await fs.writeFile(`docs/manifest/${path}.d.ts`, contents)
-	await fs.copyFile(`docs/manifest/${path}.d.ts`, `static/manifest/${path}.d.ts`)
+	await fs.writeFile(`docs/definitions/${path}.d.ts`, contents)
+	await fs.copyFile(`docs/definitions/${path}.d.ts`, `static/definitions/${path}.d.ts`)
 }

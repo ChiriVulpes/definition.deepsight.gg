@@ -1,6 +1,6 @@
 import fs from "fs-extra";
 import { Task } from "task";
-import type { DeepsightTierTypeDefinition } from "../../static/manifest/Interfaces";
+import type { DeepsightTierTypeDefinition } from "../../static/definitions/Interfaces";
 import manifest from "./utility/endpoint/DestinyManifest";
 
 export default Task("DeepsightTierTypeDefinition", async () => {
@@ -31,6 +31,6 @@ export default Task("DeepsightTierTypeDefinition", async () => {
 
 	const DeepsightTierTypeDefinition = Object.fromEntries(defs.map(def => [def.hash, def]));
 
-	await fs.mkdirp("docs/manifest");
-	await fs.writeJson("docs/manifest/DeepsightTierTypeDefinition.json", DeepsightTierTypeDefinition, { spaces: "\t" });
+	await fs.mkdirp('docs/definitions');
+	await fs.writeJson("docs/definitions/DeepsightTierTypeDefinition.json", DeepsightTierTypeDefinition, { spaces: "\t" });
 });

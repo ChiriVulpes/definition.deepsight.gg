@@ -2,7 +2,7 @@ import type { ObjectiveHashes } from "@deepsight.gg/Enums";
 import { InventoryItemHashes, ItemTierTypeHashes, RecordHashes } from "@deepsight.gg/Enums";
 import fs from "fs-extra";
 import { Task } from "task";
-import type { DeepsightCatalystDefinition } from "../../static/manifest/Interfaces";
+import type { DeepsightCatalystDefinition } from "../../static/definitions/Interfaces";
 import { getDeepsightCollectionsDefinition } from "./DeepsightCollectionsDefinition";
 import manifest from "./utility/endpoint/DestinyManifest";
 
@@ -64,6 +64,6 @@ export default Task("DeepsightCatalystDefinition", async () => {
 	// if (exoticsMissingRecords.length)
 	// 	throw new Error(`Exotics missing catalyst records:${exoticsMissingRecords.map(item => `\n  - ${item.displayProperties.name}`).join("")}`);
 
-	await fs.mkdirp("docs/manifest");
-	await fs.writeJson("docs/manifest/DeepsightCatalystDefinition.json", DeepsightCatalystDefinition, { spaces: "\t" });
+	await fs.mkdirp('docs/definitions');
+	await fs.writeJson("docs/definitions/DeepsightCatalystDefinition.json", DeepsightCatalystDefinition, { spaces: "\t" });
 });

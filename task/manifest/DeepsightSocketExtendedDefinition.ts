@@ -94,6 +94,6 @@ export default Task("DeepsightSocketExtendedDefinition", async () => {
 		},
 	};
 
-	await fs.mkdirp("docs/manifest");
-	await fs.writeJson("docs/manifest/DeepsightSocketExtendedDefinition.json", DeepsightSocketExtendedDefinition, { spaces: "\t" });
+	await fs.mkdirp('docs/definitions');
+	await fs.writeJson("docs/definitions/DeepsightSocketExtendedDefinition.json", DeepsightSocketExtendedDefinition, { spaces: "\t" });
 });
