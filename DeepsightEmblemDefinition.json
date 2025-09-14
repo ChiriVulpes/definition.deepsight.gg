@@ -1152,9 +1152,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/b8002743e562e2270a9632c0ec9335cd.png",
 		"secondarySpecial": "/common/destiny2_content/icons/bd930d7d62684fe670138e55f851c435.jpg",
 		"backgroundColor": {
-			"red": 51,
-			"green": 70,
-			"blue": 87,
+			"red": 52,
+			"green": 67,
+			"blue": 86,
 			"alpha": 255
 		}
 	},
@@ -1472,9 +1472,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/5ba12b0eda5069e8aad4265efe6d3e71.png",
 		"secondarySpecial": "/common/destiny2_content/icons/bd930d7d62684fe670138e55f851c435.jpg",
 		"backgroundColor": {
-			"red": 52,
-			"green": 75,
-			"blue": 91,
+			"red": 36,
+			"green": 84,
+			"blue": 112,
 			"alpha": 255
 		}
 	},
@@ -2063,9 +2063,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/772ff7123a4a0beb752b1e82f97114a2.png",
 		"secondarySpecial": "/common/destiny2_content/icons/1c3371ff04d7db57ff71f979dc682af7.jpg",
 		"backgroundColor": {
-			"red": 76,
-			"green": 52,
-			"blue": 65,
+			"red": 71,
+			"green": 51,
+			"blue": 53,
 			"alpha": 255
 		}
 	},
@@ -2593,9 +2593,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/aec3d7dc34bebdfd7408d470a7e6c07b.png",
 		"secondarySpecial": "/common/destiny2_content/icons/09500ebb114877f3261dfe788f088f19.jpg",
 		"backgroundColor": {
-			"red": 40,
-			"green": 84,
-			"blue": 118,
+			"red": 37,
+			"green": 82,
+			"blue": 116,
 			"alpha": 255
 		}
 	},
@@ -2993,9 +2993,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/ee34476d08104a3fa1ff372e77b779ec.png",
 		"secondarySpecial": "/common/destiny2_content/icons/e9d80f2e22f7eb65594e8286dccea40b.jpg",
 		"backgroundColor": {
-			"red": 75,
-			"green": 58,
-			"blue": 74,
+			"red": 74,
+			"green": 59,
+			"blue": 73,
 			"alpha": 255
 		}
 	},
@@ -3114,8 +3114,8 @@
 		"secondarySpecial": "/common/destiny2_content/icons/380607591a2318234d55535b9a968c7f.jpg",
 		"backgroundColor": {
 			"red": 5,
-			"green": 22,
-			"blue": 36,
+			"green": 27,
+			"blue": 41,
 			"alpha": 255
 		}
 	},
@@ -3373,9 +3373,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/21085afe15f21696846dcffe931f4824.png",
 		"secondarySpecial": "/common/destiny2_content/icons/98d29256eea35646152b4313f2c5896e.jpg",
 		"backgroundColor": {
-			"red": 178,
+			"red": 177,
 			"green": 139,
-			"blue": 1,
+			"blue": 2,
 			"alpha": 255
 		}
 	},
@@ -3893,9 +3893,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/d70a14507dc86af3fe500057729c7b60.png",
 		"secondarySpecial": "/common/destiny2_content/icons/8a2c9b8891c6e71d8a1312ac6cf72ac0.jpg",
 		"backgroundColor": {
-			"red": 22,
-			"green": 22,
-			"blue": 24,
+			"red": 23,
+			"green": 23,
+			"blue": 23,
 			"alpha": 255
 		}
 	},
@@ -4013,9 +4013,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/e93ccb7ac1de784965fd79bbe1eafa98.png",
 		"secondarySpecial": "/common/destiny2_content/icons/ed9ec22aa1b3591820cb7d262d55b7da.jpg",
 		"backgroundColor": {
-			"red": 162,
-			"green": 41,
-			"blue": 11,
+			"red": 159,
+			"green": 46,
+			"blue": 15,
 			"alpha": 255
 		}
 	},
@@ -4233,9 +4233,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/c9cff0a8a9ea8409c07d98c397df70c2.png",
 		"secondarySpecial": "/common/destiny2_content/icons/84d6460fd5384bbd223d5704b3028024.jpg",
 		"backgroundColor": {
-			"red": 12,
-			"green": 42,
-			"blue": 44,
+			"red": 9,
+			"green": 52,
+			"blue": 43,
 			"alpha": 255
 		}
 	},
@@ -4333,9 +4333,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/4f30597229675aaa7989042eb6884a6b.png",
 		"secondarySpecial": "/common/destiny2_content/icons/bb4b8b67fd39ae99a9d25b34ccad6e05.jpg",
 		"backgroundColor": {
-			"red": 108,
-			"green": 147,
-			"blue": 153,
+			"red": 109,
+			"green": 146,
+			"blue": 151,
 			"alpha": 255
 		}
 	},
@@ -4793,9 +4793,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/70bb0dc1bbe425fd605b252f08932dc5.png",
 		"secondarySpecial": "/common/destiny2_content/icons/f846b90c715d46aad493ccf3dddf187c.jpg",
 		"backgroundColor": {
-			"red": 22,
-			"green": 14,
-			"blue": 15,
+			"red": 23,
+			"green": 13,
+			"blue": 14,
 			"alpha": 255
 		}
 	},
@@ -4813,9 +4813,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/9df66782ade6f3ef7ebe2e74b78de689.png",
 		"secondarySpecial": "/common/destiny2_content/icons/6f89985523a6e64d4937e453faf4651c.jpg",
 		"backgroundColor": {
-			"red": 26,
-			"green": 6,
-			"blue": 35,
+			"red": 25,
+			"green": 7,
+			"blue": 34,
 			"alpha": 255
 		}
 	},
@@ -5113,9 +5113,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/6c3d525b02c58818da6b52e8492e0ac1.png",
 		"secondarySpecial": "/common/destiny2_content/icons/5581171b749d60b389f29827386f807a.jpg",
 		"backgroundColor": {
-			"red": 73,
-			"green": 34,
-			"blue": 34,
+			"red": 74,
+			"green": 35,
+			"blue": 28,
 			"alpha": 255
 		}
 	},
@@ -5173,9 +5173,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/b39a2af711252eaf0275737fe18dd5b2.png",
 		"secondarySpecial": "/common/destiny2_content/icons/c681026607d68bbf016fcf2f37fc1618.jpg",
 		"backgroundColor": {
-			"red": 8,
-			"green": 31,
-			"blue": 99,
+			"red": 4,
+			"green": 29,
+			"blue": 103,
 			"alpha": 255
 		}
 	},
@@ -5986,9 +5986,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/8cb5a083e0a9c6904eb91ce5bda73148.png",
 		"secondarySpecial": "/common/destiny2_content/icons/bacba759104d71253803b9660faf7a14.jpg",
 		"backgroundColor": {
-			"red": 37,
-			"green": 42,
-			"blue": 45,
+			"red": 31,
+			"green": 44,
+			"blue": 50,
 			"alpha": 255
 		}
 	},
@@ -6226,9 +6226,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/dff29a997d4cdd00725e6683bc6ddac0.png",
 		"secondarySpecial": "/common/destiny2_content/icons/269d852d9c0fb80cca898249c9142463.jpg",
 		"backgroundColor": {
-			"red": 20,
-			"green": 54,
-			"blue": 82,
+			"red": 26,
+			"green": 43,
+			"blue": 71,
 			"alpha": 255
 		}
 	},
@@ -6466,9 +6466,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/50bf4ec2f7acee756bae23421d2caf10.png",
 		"secondarySpecial": "/common/destiny2_content/icons/e60b384ef98b5c2cd53448d87ad3a771.jpg",
 		"backgroundColor": {
-			"red": 56,
-			"green": 60,
-			"blue": 61,
+			"red": 50,
+			"green": 59,
+			"blue": 62,
 			"alpha": 255
 		}
 	},
@@ -6886,9 +6886,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/79bb8085442d53e655addbc7d1e347e2.png",
 		"secondarySpecial": "/common/destiny2_content/icons/5aaefbe39378330c103a37a27216c26c.jpg",
 		"backgroundColor": {
-			"red": 160,
-			"green": 3,
-			"blue": 3,
+			"red": 162,
+			"green": 1,
+			"blue": 1,
 			"alpha": 255
 		}
 	},
@@ -7406,9 +7406,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/3684bad69c58b97a7acd624edaa2adc0.png",
 		"secondarySpecial": "/common/destiny2_content/icons/6b1d9f15a682dc580d3df9dab0e8c9db.jpg",
 		"backgroundColor": {
-			"red": 121,
-			"green": 152,
-			"blue": 154,
+			"red": 122,
+			"green": 150,
+			"blue": 153,
 			"alpha": 255
 		}
 	},
@@ -8306,7 +8306,7 @@
 		"secondarySpecial": "/common/destiny2_content/icons/423b19dd24be0d273fe447b0fefc9cdb.jpg",
 		"backgroundColor": {
 			"red": 9,
-			"green": 19,
+			"green": 18,
 			"blue": 21,
 			"alpha": 255
 		}
@@ -8325,7 +8325,7 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/4701f9e66ac926772625b3eb0fd829cf.png",
 		"secondarySpecial": "/common/destiny2_content/icons/3632c2710eab78f95679473e40cd4a00.jpg",
 		"backgroundColor": {
-			"red": 39,
+			"red": 37,
 			"green": 37,
 			"blue": 70,
 			"alpha": 255
@@ -8645,9 +8645,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/860b2ff0c11a1b8f2ebc6d417784cef8.png",
 		"secondarySpecial": "/common/destiny2_content/icons/56fdf2c3699218c711c7e79262d4afe5.jpg",
 		"backgroundColor": {
-			"red": 162,
-			"green": 63,
-			"blue": 2,
+			"red": 156,
+			"green": 67,
+			"blue": 7,
 			"alpha": 255
 		}
 	},
@@ -9066,7 +9066,7 @@
 		"secondarySpecial": "/common/destiny2_content/icons/d41a1c871b987bad69f899d060bd7064.jpg",
 		"backgroundColor": {
 			"red": 86,
-			"green": 53,
+			"green": 51,
 			"blue": 6,
 			"alpha": 255
 		}
@@ -9245,9 +9245,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/f9b3e24af89c51b110c44043d520ae66.png",
 		"secondarySpecial": "/common/destiny2_content/icons/a766afda974dccfdcea5235dd1d91536.jpg",
 		"backgroundColor": {
-			"red": 34,
-			"green": 28,
-			"blue": 28,
+			"red": 31,
+			"green": 26,
+			"blue": 30,
 			"alpha": 255
 		}
 	},
@@ -9525,9 +9525,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/18dd2837041f04cdece3f39476dc71d4.png",
 		"secondarySpecial": "/common/destiny2_content/icons/0ef1f430816ae4c29678784a7a388f91.jpg",
 		"backgroundColor": {
-			"red": 120,
-			"green": 94,
-			"blue": 100,
+			"red": 87,
+			"green": 100,
+			"blue": 127,
 			"alpha": 255
 		}
 	},
@@ -9745,7 +9745,7 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/2d5aefb414d32066657da74e0dd15d05.png",
 		"secondarySpecial": "/common/destiny2_content/icons/e98e471ef5cef3da7f027b43e3209cbe.jpg",
 		"backgroundColor": {
-			"red": 37,
+			"red": 39,
 			"green": 32,
 			"blue": 64,
 			"alpha": 255
@@ -9886,8 +9886,8 @@
 		"secondarySpecial": "/common/destiny2_content/icons/02eadbecbb47e91cda20f3871b1137b3.jpg",
 		"backgroundColor": {
 			"red": 16,
-			"green": 4,
-			"blue": 6,
+			"green": 10,
+			"blue": 10,
 			"alpha": 255
 		}
 	},
@@ -9985,8 +9985,8 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/bf7d32159710271d12fa030ccc319386.png",
 		"secondarySpecial": "/common/destiny2_content/icons/280c76b9936eb1043b425cc29e0845e4.jpg",
 		"backgroundColor": {
-			"red": 39,
-			"green": 22,
+			"red": 40,
+			"green": 21,
 			"blue": 36,
 			"alpha": 255
 		}
@@ -10065,9 +10065,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/c7ffa574187c7f598d31f8d95138e46a.png",
 		"secondarySpecial": "/common/destiny2_content/icons/84339170817bb377f78333c729b899f3.jpg",
 		"backgroundColor": {
-			"red": 95,
-			"green": 97,
-			"blue": 149,
+			"red": 102,
+			"green": 104,
+			"blue": 143,
 			"alpha": 255
 		}
 	},
@@ -10936,9 +10936,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/63b020aecb400ff8c9b82767ec62a066.png",
 		"secondarySpecial": "/common/destiny2_content/icons/f0306a6baacd3e18d7c364e45963518d.png",
 		"backgroundColor": {
-			"red": 60,
-			"green": 61,
-			"blue": 56,
+			"red": 72,
+			"green": 45,
+			"blue": 50,
 			"alpha": 255
 		}
 	},
@@ -11955,9 +11955,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/1106d53dd9a82731b86fe793923a789d.png",
 		"secondarySpecial": "/common/destiny2_content/icons/16313e4e36f8886a3062cfa78734da0e.jpg",
 		"backgroundColor": {
-			"red": 95,
-			"green": 144,
-			"blue": 171,
+			"red": 98,
+			"green": 142,
+			"blue": 167,
 			"alpha": 255
 		}
 	},
@@ -12455,9 +12455,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/9e1a77e8018d0bbce2984e6262b4d8ed.png",
 		"secondarySpecial": "/common/destiny2_content/icons/54a9a0f02859549274233631f3ffcb4e.jpg",
 		"backgroundColor": {
-			"red": 18,
-			"green": 10,
-			"blue": 7,
+			"red": 12,
+			"green": 14,
+			"blue": 13,
 			"alpha": 255
 		}
 	},
@@ -12495,9 +12495,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/cf4449619593b29a046a6c811af487fa.png",
 		"secondarySpecial": "/common/destiny2_content/icons/43fc8791f1d48159b85a6428b1cf0d96.jpg",
 		"backgroundColor": {
-			"red": 6,
-			"green": 33,
-			"blue": 50,
+			"red": 5,
+			"green": 36,
+			"blue": 51,
 			"alpha": 255
 		}
 	},
@@ -12736,7 +12736,7 @@
 		"secondarySpecial": "/common/destiny2_content/icons/1b57b13b9e774786c50d36d6693e1c7f.jpg",
 		"backgroundColor": {
 			"red": 0,
-			"green": 113,
+			"green": 109,
 			"blue": 199,
 			"alpha": 255
 		}
@@ -13694,8 +13694,8 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/24617d36edd46fc90b5260c405a21a64.png",
 		"secondarySpecial": "/common/destiny2_content/icons/31a5e24d0c8490972622a34a1123cbf5.jpg",
 		"backgroundColor": {
-			"red": 56,
-			"green": 57,
+			"red": 57,
+			"green": 56,
 			"blue": 61,
 			"alpha": 255
 		}
@@ -13949,9 +13949,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/2fce513a9d77b2461ba2ff381fe9c84b.png",
 		"secondarySpecial": "/common/destiny2_content/icons/1a8129622e23eaa7a6fe55ecc733a831.jpg",
 		"backgroundColor": {
-			"red": 167,
-			"green": 66,
-			"blue": 32,
+			"red": 168,
+			"green": 65,
+			"blue": 31,
 			"alpha": 255
 		}
 	},
@@ -14209,9 +14209,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/f5585f4326472d3506b9cf1e7468a1bc.png",
 		"secondarySpecial": "/common/destiny2_content/icons/4178c30ce3a4a96a0898952e73ad75d7.jpg",
 		"backgroundColor": {
-			"red": 35,
-			"green": 16,
-			"blue": 20,
+			"red": 32,
+			"green": 19,
+			"blue": 23,
 			"alpha": 255
 		}
 	},
@@ -14309,9 +14309,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/c2cb395bcebe39e751f8e128d13a26b6.png",
 		"secondarySpecial": "/common/destiny2_content/icons/4533f329980911e8c11ff2969173bada.jpg",
 		"backgroundColor": {
-			"red": 40,
+			"red": 42,
 			"green": 36,
-			"blue": 50,
+			"blue": 51,
 			"alpha": 255
 		}
 	},
@@ -14570,7 +14570,7 @@
 		"secondarySpecial": "/common/destiny2_content/icons/6317dcd35646fb0391282e0dc5f5b647.jpg",
 		"backgroundColor": {
 			"red": 15,
-			"green": 25,
+			"green": 26,
 			"blue": 82,
 			"alpha": 255
 		}
@@ -14629,9 +14629,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/f4b95d2ebfde5674f38b3d9a9f5cbdd9.png",
 		"secondarySpecial": "/common/destiny2_content/icons/b8b340b097ee44677a3eaab3956c23f6.jpg",
 		"backgroundColor": {
-			"red": 231,
-			"green": 86,
-			"blue": 70,
+			"red": 228,
+			"green": 68,
+			"blue": 73,
 			"alpha": 255
 		}
 	},
@@ -15387,9 +15387,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/b197d2de72aae8b9e2ad07951a31fd6e.png",
 		"secondarySpecial": "/common/destiny2_content/icons/3bca34776f6543090fb5b26aa6ef3622.jpg",
 		"backgroundColor": {
-			"red": 78,
-			"green": 45,
-			"blue": 66,
+			"red": 81,
+			"green": 42,
+			"blue": 67,
 			"alpha": 255
 		}
 	},
@@ -15867,8 +15867,8 @@
 		"secondarySpecial": "/common/destiny2_content/icons/1553f7e9e114590851e47d1cf71e5d88.jpg",
 		"backgroundColor": {
 			"red": 180,
-			"green": 77,
-			"blue": 245,
+			"green": 78,
+			"blue": 244,
 			"alpha": 255
 		}
 	},
@@ -15986,9 +15986,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/488b4af39dffb4fcfc85ca7f8347c6fb.png",
 		"secondarySpecial": "/common/destiny2_content/icons/24a6d3a6c54caad25e524868a3090cb8.jpg",
 		"backgroundColor": {
-			"red": 120,
-			"green": 104,
-			"blue": 130,
+			"red": 124,
+			"green": 90,
+			"blue": 144,
 			"alpha": 255
 		}
 	},
@@ -16006,9 +16006,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/830f31f6746dd8b047bf53ed59c0c9aa.png",
 		"secondarySpecial": "/common/destiny2_content/icons/15044a2565609457f53315b3b6ecfeb5.jpg",
 		"backgroundColor": {
-			"red": 162,
-			"green": 1,
-			"blue": 1,
+			"red": 163,
+			"green": 0,
+			"blue": 3,
 			"alpha": 255
 		}
 	},
@@ -16106,9 +16106,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/2765d3b869f4ea15761093561ec6e49b.png",
 		"secondarySpecial": "/common/destiny2_content/icons/87433bdd6afc3ef077f6ee658d8c1c2d.jpg",
 		"backgroundColor": {
-			"red": 26,
+			"red": 25,
 			"green": 32,
-			"blue": 60,
+			"blue": 62,
 			"alpha": 255
 		}
 	},
@@ -16686,9 +16686,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/e285ba5668ee879f79b6553b9a8dd95d.png",
 		"secondarySpecial": "/common/destiny2_content/icons/e1c43a2d5a819c02187ddd99a36477d3.jpg",
 		"backgroundColor": {
-			"red": 27,
-			"green": 26,
-			"blue": 24,
+			"red": 30,
+			"green": 27,
+			"blue": 21,
 			"alpha": 255
 		}
 	},
