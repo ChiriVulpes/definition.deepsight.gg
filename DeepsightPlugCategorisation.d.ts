@@ -109,6 +109,8 @@ export declare const enum DeepsightPlugTypeMod {
 	ArmorArtifice,
 	ArmorArtificeEmpty,
 	ArmorArtificeAction,
+	ArmorItemSet,
+	ArmorItemSetEmpty,
 }
 
 export declare const enum DeepsightPlugTypeSubclass {
