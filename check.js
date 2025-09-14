@@ -226,7 +226,7 @@ void (async () => {
 	let savedVersion;
 	let savedLastDailyReset = 0;
 	try {
-		const versionsString = await fs.readFile("versions.json", "utf8");
+		const versionsString = await fs.readFile("manifest.json", "utf8");
 		versions = JSON.parse(versionsString) ?? {};
 		savedVersion = versions["Destiny2/Manifest"];
 		savedLastDailyReset = new Date(versions.lastDailyReset ?? savedLastDailyReset).getTime();
@@ -276,7 +276,7 @@ void (async () => {
 				instanceId: recentPGCR.activityDetails.instanceId,
 				period: recentPGCR.period,
 			};
-			await fs.writeFile("versions.json", JSON.stringify(versions, null, "\t") + "\n");
+			await fs.writeFile("manifest.json", JSON.stringify(versions, null, "\t") + "\n");
 
 			if (!process.env.DEEPSIGHT_MANIFEST_NO_INCREMENT_VERSION) {
 				const packageJson = JSON.parse(await fs.readFile("package.json", "utf8"));
