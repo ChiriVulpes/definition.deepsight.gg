@@ -15,7 +15,7 @@ export default Task('static', async (task, file?: string) => {
 	}
 
 	await fs.mkdirp('docs/definitions')
-	while (!await fs.copy('static', 'docs')
+	while (!await fs.copy('static', 'docs', { recursive: true })
 		.then(() => true).catch(() => false));
 
 	// uncache deepsight manifest generation stuff before using it in case there were changes
