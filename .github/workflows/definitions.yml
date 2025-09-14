@@ -85,10 +85,10 @@ jobs:
       - name: Commit & Publish definitions
         run: |
           cd definitions
+          git add .
           if [[ -n $(git diff) ]]; then
             git config user.name "GitHub Actions"
             git config user.email "actions@github.com"
-            git add .
             git commit -m "Updated definitions"
             git push
           else
@@ -104,12 +104,16 @@ jobs:
           cd generated
           git rm -rf .
           cd ..
+          echo "Everything in docs:"
+          ls -laR docs
           cp -r docs/ generated/
+          echo "Everything in generated after copy:"
+          ls -laR generated
           cd generated
+          git add .
           if [[ -n $(git diff) ]]; then
             git config user.name "GitHub Actions"
             git config user.email "actions@github.com"
-            git add .
             git commit -m "Updated static files"
             git push
           else
