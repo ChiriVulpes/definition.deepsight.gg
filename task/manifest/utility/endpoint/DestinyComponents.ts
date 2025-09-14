@@ -1,4 +1,4 @@
-import { DestinyComponentType } from "bungie-api-ts/destiny2";
+import { DestinyComponentType } from 'bungie-api-ts/destiny2'
 
 export default [
 	DestinyComponentType.Profiles,
@@ -38,4 +38,4 @@ export default [
 	DestinyComponentType.StringVariables,
 	DestinyComponentType.Craftables,
 	DestinyComponentType.SocialCommendations,
-];
+]
