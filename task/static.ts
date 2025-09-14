@@ -18,9 +18,6 @@ export default Task('static', async (task, file?: string) => {
 	while (!await fs.copy('static', 'docs')
 		.then(() => true).catch(() => false));
 
-	if (!Env.DEEPSIGHT_PATH)
-		throw new Error('DEEPSIGHT_PATH env var must be set')
-
 	// uncache deepsight manifest generation stuff before using it in case there were changes
 	const deepsightManifestEntryPoint = path.join(__dirname, 'deepsight_manifest.ts')
 	const generateEnumsEntryPoint = path.join(__dirname, 'generate_enums.ts')

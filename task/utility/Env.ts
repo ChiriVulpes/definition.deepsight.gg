@@ -1,6 +1,5 @@
 export default process.env as {
 	DEEPSIGHT_ENVIRONMENT?: 'dev' | 'beta' | 'prod'
-	DEEPSIGHT_PATH?: string
 	DEEPSIGHT_REWRITE?: string
 	DEEPSIGHT_MANIFEST_API_KEY?: string
 	DEEPSIGHT_MANIFEST_CLIENT_ID?: string
