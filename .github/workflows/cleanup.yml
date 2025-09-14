@@ -8,12 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     
     steps: 
-      - name: Delete testiny artifact
-        uses: geekyeggo/delete-artifact@v4
-        with:
-          name: testiny-data
-          failOnError: false
-    
       - name: Delete manifest artifact
         uses: geekyeggo/delete-artifact@v4
         with:
