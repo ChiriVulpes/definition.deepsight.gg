@@ -3,7 +3,7 @@
 	"private": true,
 	"scripts": {
 		"watch": "npx task clean ensure_enums static -- serve watch",
-		"manifest": "npx task clean ensure_enums deepsight_manifest",
+		"manifest": "npx task clean ensure_enums static deepsight_manifest",
 		"bump_versions": "npx task bump_versions",
 		"refresh_token": "npx task refresh_token"
 	},
