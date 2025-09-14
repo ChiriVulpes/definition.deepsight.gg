@@ -102,7 +102,7 @@ jobs:
         run: |
           rm -rf docs/definitions
           cd generated
-          git rm -rf
+          git rm -rf .
           cd ..
           cp -r docs/ generated/
           cd generated
