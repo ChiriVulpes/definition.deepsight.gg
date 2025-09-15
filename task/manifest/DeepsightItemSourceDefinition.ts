@@ -132,7 +132,7 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 		[DeepsightItemSourceType.VanguardOps]: await getDropsFromActivityGraphs(ACTIVITY_GRAPH_HASH_SOLO_OPS, ACTIVITY_GRAPH_HASH_FIRETEAM_OPS),
 		[DeepsightItemSourceType.PinnacleOps]: await getDropsFromActivityGraphs(ACTIVITY_GRAPH_HASH_PINNACLE_OPS),
 		[DeepsightItemSourceType.CrucibleOps]: await getDropsFromActivityGraphs(ACTIVITY_GRAPH_HASH_CRUCIBLE_OPS),
-		[DeepsightItemSourceType.TrialsOfOsiris]: await getVendorCategories(VendorHashes.TrialsOfOsirisGear110620395).then(getVendorCategoryItems),
+		[DeepsightItemSourceType.TrialsOfOsiris]: await getVendorCategories(VendorHashes.TrialsOfOsirisGear1404716958).then(getVendorCategoryItems),
 		[DeepsightItemSourceType.ArmsWeekEvent]: await getVendorCategories(VendorHashes.TowerShootingRangeAdaFocusing, VendorHashes.ArmsWeekEventWeaponsEngram237769120).then(getVendorCategoryItems),
 		[DeepsightItemSourceType.SolsticeEvent]: await getVendorCategories(VendorHashes.DistortedSolsticeEngram2110607183).then(getVendorCategoryItems),
 		[DeepsightItemSourceType.Kepler]: await getVendorCategories(VendorHashes.FocusedDecoding3550596112).then(getVendorCategoryItems),
@@ -140,6 +140,9 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 		[DeepsightItemSourceType.NewTerritoriesReclaimEvent]: await getVendorCategories(VendorHashes.NewTerritoriesReclaimWeaponEngram536789678).then(getVendorCategoryItems),
 		[DeepsightItemSourceType.IronBannerEvent]: await getVendorCategories(VendorHashes.IronBannerEngram610661400).then(getVendorCategoryItems),
 	}
+
+	itemSources[DeepsightItemSourceType.CrucibleOps] = itemSources[DeepsightItemSourceType.CrucibleOps]
+		.filter(item => !itemSources[DeepsightItemSourceType.TrialsOfOsiris].includes(item))
 
 	const items = new Set(Object.values(itemSources).flat())
 

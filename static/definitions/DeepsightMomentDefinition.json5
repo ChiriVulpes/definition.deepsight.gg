@@ -363,6 +363,9 @@
 		year: 8,
 		season: 27,
 		seasonHash: 2758726575,
+		itemHashes: [
+			3524386983, // submersion
+		],
 	},
 	"-1": {
 		id: "revelry",
