@@ -444,6 +444,9 @@ export declare const enum DeepsightItemSourceType {
 	ArmsWeekEvent,
 	SolsticeEvent,
 	Kepler,
+	HeavyMetalEvent,
+	NewTerritoriesReclaimEvent,
+	IronBannerEvent,
 }
 
 export declare const enum DeepsightItemSourceCategory {

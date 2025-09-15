@@ -135,5 +135,32 @@
 			"icon": "/common/destiny2_content/icons/c197d7085c39c4bc2385f2cdb0dbb65d.png",
 			"description": ""
 		}
+	},
+	"14": {
+		"hash": 14,
+		"category": 2,
+		"displayProperties": {
+			"name": "Heavy Metal",
+			"icon": "/common/destiny2_content/icons/DestinyEventCardDefinition_8219d7d63beb7cbaf05cf2c0c2ba1648.png",
+			"description": ""
+		}
+	},
+	"15": {
+		"hash": 15,
+		"category": 2,
+		"displayProperties": {
+			"name": "New Territories: Reclaim",
+			"icon": "/common/destiny2_content/icons/DestinyEventCardDefinition_2d6d2d0032c2f4ef2f3fce99c76a0ddc.png",
+			"description": ""
+		}
+	},
+	"16": {
+		"hash": 16,
+		"category": 2,
+		"displayProperties": {
+			"name": "Iron Banner",
+			"icon": "/common/destiny2_content/icons/DestinyEventCardDefinition_056b2afd04dbab4ba6c41d6a44ae9ea6.png",
+			"description": ""
+		}
 	}
 }
