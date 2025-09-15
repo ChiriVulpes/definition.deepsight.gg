@@ -136,6 +136,9 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 		[DeepsightItemSourceType.ArmsWeekEvent]: await getVendorCategories(VendorHashes.TowerShootingRangeAdaFocusing, VendorHashes.ArmsWeekEventWeaponsEngram237769120).then(getVendorCategoryItems),
 		[DeepsightItemSourceType.SolsticeEvent]: await getVendorCategories(VendorHashes.DistortedSolsticeEngram2110607183).then(getVendorCategoryItems),
 		[DeepsightItemSourceType.Kepler]: await getVendorCategories(VendorHashes.FocusedDecoding3550596112).then(getVendorCategoryItems),
+		[DeepsightItemSourceType.HeavyMetalEvent]: await getVendorCategories(VendorHashes.HeavyMetalEngram2880054250).then(getVendorCategoryItems),
+		[DeepsightItemSourceType.NewTerritoriesReclaimEvent]: await getVendorCategories(VendorHashes.NewTerritoriesReclaimWeaponEngram536789678).then(getVendorCategoryItems),
+		[DeepsightItemSourceType.IronBannerEvent]: await getVendorCategories(VendorHashes.IronBannerArmorEngram491291904).then(getVendorCategoryItems),
 	}
 
 	const items = new Set(Object.values(itemSources).flat())
@@ -300,6 +303,30 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 				name: { DestinyPresentationNodeDefinition: PresentationNodeHashes.Kepler },
 				subtitle: { DestinyActivityDefinition: ActivityHashes.TheEdgeOfFate_PlaceHash4076196532 },
 				icon: { DestinyPresentationNodeDefinition: { hash: PresentationNodeHashes.Kepler, iconSequence: 1, frame: 0 } },
+			}),
+		},
+		[DeepsightItemSourceType.HeavyMetalEvent]: {
+			hash: DeepsightItemSourceType.HeavyMetalEvent,
+			category: DeepsightItemSourceCategory.EventReward,
+			displayProperties: await DestinyManifestReference.resolveAll({
+				name: { DestinyEventCardDefinition: EventCardHashes.HeavyMetal },
+				icon: { DestinyEventCardDefinition: EventCardHashes.HeavyMetal },
+			}),
+		},
+		[DeepsightItemSourceType.NewTerritoriesReclaimEvent]: {
+			hash: DeepsightItemSourceType.NewTerritoriesReclaimEvent,
+			category: DeepsightItemSourceCategory.EventReward,
+			displayProperties: await DestinyManifestReference.resolveAll({
+				name: { DestinyEventCardDefinition: EventCardHashes.NewTerritoriesReclaim },
+				icon: { DestinyEventCardDefinition: EventCardHashes.NewTerritoriesReclaim },
+			}),
+		},
+		[DeepsightItemSourceType.IronBannerEvent]: {
+			hash: DeepsightItemSourceType.IronBannerEvent,
+			category: DeepsightItemSourceCategory.EventReward,
+			displayProperties: await DestinyManifestReference.resolveAll({
+				name: { DestinyEventCardDefinition: EventCardHashes.IronBanner },
+				icon: { DestinyEventCardDefinition: EventCardHashes.IronBanner },
 			}),
 		},
 	}
