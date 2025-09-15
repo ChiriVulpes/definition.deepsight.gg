@@ -138,7 +138,7 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 		[DeepsightItemSourceType.Kepler]: await getVendorCategories(VendorHashes.FocusedDecoding3550596112).then(getVendorCategoryItems),
 		[DeepsightItemSourceType.HeavyMetalEvent]: await getVendorCategories(VendorHashes.HeavyMetalEngram2880054250).then(getVendorCategoryItems),
 		[DeepsightItemSourceType.NewTerritoriesReclaimEvent]: await getVendorCategories(VendorHashes.NewTerritoriesReclaimWeaponEngram536789678).then(getVendorCategoryItems),
-		[DeepsightItemSourceType.IronBannerEvent]: await getVendorCategories(VendorHashes.IronBannerArmorEngram491291904).then(getVendorCategoryItems),
+		[DeepsightItemSourceType.IronBannerEvent]: await getVendorCategories(VendorHashes.IronBannerEngram610661400).then(getVendorCategoryItems),
 	}
 
 	const items = new Set(Object.values(itemSources).flat())
