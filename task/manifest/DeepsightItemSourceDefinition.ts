@@ -128,7 +128,7 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 		[DeepsightItemSourceType.BansheeFeatured]: await getVendorCategories(VendorHashes.Gunsmith)
 			.then(categories => categories.filter(([category]) => category.identifier === 'category_weapon_meta'))
 			.then(getVendorCategoryItems),
-		// [DeepsightItemSourceType.XurFeatured]: [],
+		[DeepsightItemSourceType.XurStrangeGear]: await getVendorCategories(VendorHashes.TowerNineGear).then(getVendorCategoryItems),
 		[DeepsightItemSourceType.VanguardOpsActivityReward]: await getDropsFromActivityGraphs(ACTIVITY_GRAPH_HASH_SOLO_OPS, ACTIVITY_GRAPH_HASH_FIRETEAM_OPS),
 		[DeepsightItemSourceType.VanguardOpsBonusReward]: await getVendorCategories(VendorHashes.PortalActivitiesGear941620657).then(getVendorCategoryItems),
 		[DeepsightItemSourceType.PinnacleOps]: await getDropsFromActivityGraphs(ACTIVITY_GRAPH_HASH_PINNACLE_OPS),
@@ -203,14 +203,6 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 				icon: { DestinyVendorDefinition: { hash: VendorHashes.TowerSaint14, property: 'mapIcon' } },
 			}),
 		},
-		// [DeepsightItemSourceType.SaladinLegacyGear]: {
-		// 	hash: DeepsightItemSourceType.SaladinLegacyGear,
-		// 	displayProperties: await DestinyManifestReference.resolveAll({
-		// 		name: { DestinyVendorDefinition: VendorHashes.Saladin_Enabledtrue },
-		// 		subtitle: { DestinyVendorDefinition: VendorHashes.LegacyGear2672927612 },
-		// 		description: { DestinyVendorDefinition: VendorHashes.Saladin_Enabledtrue },
-		// 	}),
-		// },
 		[DeepsightItemSourceType.ExoticKioskLegacyGear]: {
 			hash: DeepsightItemSourceType.ExoticKioskLegacyGear,
 			category: DeepsightItemSourceCategory.Vendor,
@@ -243,13 +235,17 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 				icon: { DestinyVendorDefinition: { hash: VendorHashes.Gunsmith, property: 'mapIcon' } },
 			}),
 		},
-		// [DeepsightItemSourceType.XurFeatured]: {
-		// 	hash: DeepsightItemSourceType.XurFeatured,
-		// 	displayProperties: await DestinyManifestReference.resolveAll({
-		// 		name: { DestinyVendorDefinition: VendorHashes.Xur_CategoriesLength13 },
-		// 		description: { DestinyVendorDefinition: VendorHashes.Xur_CategoriesLength13 },
-		// 	}),
-		// },
+		[DeepsightItemSourceType.XurStrangeGear]: {
+			hash: DeepsightItemSourceType.XurStrangeGear,
+			category: DeepsightItemSourceCategory.Vendor,
+			rotates: true,
+			displayProperties: await DestinyManifestReference.resolveAll({
+				name: { DestinyVendorDefinition: VendorHashes.TowerNine },
+				subtitle: { DestinyVendorDefinition: VendorHashes.TowerNineGear },
+				description: { DestinyVendorDefinition: VendorHashes.TowerNine },
+				icon: { DestinyVendorDefinition: { hash: VendorHashes.TowerNine, property: 'mapIcon' } },
+			}),
+		},
 		[DeepsightItemSourceType.VanguardOpsActivityReward]: {
 			hash: DeepsightItemSourceType.VanguardOpsActivityReward,
 			category: DeepsightItemSourceCategory.ActivityReward,
