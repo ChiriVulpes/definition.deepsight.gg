@@ -459,9 +459,9 @@ export declare const enum DeepsightItemSourceType {
 	BansheeFocusedDecoding,
 	BansheeFeatured,
 	ExoticKioskLegacyGear,
-	VanguardOps,
+	VanguardOpsActivityReward,
 	PinnacleOps,
-	CrucibleOps,
+	CrucibleOpsActivityReward,
 	TrialsOfOsiris,
 	ArmsWeekEvent,
 	SolsticeEvent,
@@ -469,6 +469,8 @@ export declare const enum DeepsightItemSourceType {
 	HeavyMetalEvent,
 	NewTerritoriesReclaimEvent,
 	IronBannerEvent,
+	VanguardOpsBonusReward,
+	CrucibleOpsBonusReward,
 }
 
 export declare const enum DeepsightItemSourceCategory {
@@ -477,6 +479,7 @@ export declare const enum DeepsightItemSourceCategory {
 	EventReward,
 	Destination,
 	EventVendor,
+	BonusReward,
 }
 
 export declare interface DeepsightItemSourceListDefinition {
