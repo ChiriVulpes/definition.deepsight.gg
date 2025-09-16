@@ -273,6 +273,7 @@ export declare interface DeepsightMomentDefinition {
 	displayProperties: DeepsightDisplayPropertiesDefinition
 	iconWatermark?: string
 	iconWatermarkShelved?: string
+	subsumeIconWatermarks?: string[]
 	/**
 	 * For events, the event card hash. If there isn't an event card, `true`
 	 */
@@ -375,6 +376,27 @@ export declare interface DeepsightCollectionsDefinition {
 	buckets: Partial<Record<InventoryBucketHashes, InventoryItemHashes[]>>
 }
 export declare type DeepsightCollectionsDefinitionManifest = Partial<Record<MomentHashes, DeepsightCollectionsDefinition>>
+
+export declare interface DeepsightVariantDefinition {
+	variantGroupLookupTable: Partial<Record<InventoryItemHashes, number>>
+	groups: DeepsightVariantDefinitionGroup[]
+}
+
+export declare type DeepsightVariantDefinitionGroup = DeepsightVariantDefinitionEntry[]
+
+export declare interface DeepsightVariantDefinitionEntry {
+	hash: InventoryItemHashes
+	type: Lowercase<keyof typeof DeepsightVariantTag>
+	moment?: MomentHashes
+}
+
+export declare const enum DeepsightVariantTag {
+	Dummy,
+	Generic,
+	Adept,
+	Artifice,
+	Holofoil,
+}
 
 export declare interface DeepsightAdeptDefinition {
 	hash: InventoryItemHashes

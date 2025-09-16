@@ -551,12 +551,12 @@
 			"icon": "/common/destiny2_content/icons/DestinySeasonDefinition_a16e9585a24eaccc9ef3021a1769e50d.png"
 		},
 		"iconWatermark": "/common/destiny2_content/icons/249813e647271a8227bae0d8a39ed505.png",
+		"subsumeIconWatermarks": [
+			"/common/destiny2_content/icons/6eeb62a30439cecc7699c22f3e1fb3cf.png"
+		],
 		"year": 8,
 		"season": 27,
 		"seasonHash": 2758726575,
-		"itemHashes": [
-			3524386983
-		],
 		"hash": 41,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/0e7739e80c1a520923e42610c7c52467.png"
 	},
