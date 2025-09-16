@@ -180,5 +180,16 @@
 			"description": "Hone your skills and win glory in battle against other Guardians.",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_fb3e9149c43f7a2e8f8b66cbea7845fe.png"
 		}
+	},
+	"19": {
+		"hash": 19,
+		"category": 0,
+		"rotates": true,
+		"displayProperties": {
+			"name": "Xûr",
+			"subtitle": "Strange Gear Offers",
+			"description": "A peddler of strange curios, Xûr's motives are not his own. He bows to his distant masters, the Nine.",
+			"icon": "/common/destiny2_content/icons/0c4e426abcae67819183ec3ce6d2a68c.png"
+		}
 	}
 }
