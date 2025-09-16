@@ -184,6 +184,24 @@ export async function getCollectionsCopies (...items: (InventoryItemHashes | Des
 		&& unCollectionsItems.some(item => item.displayProperties.name === c.displayProperties.name))
 }
 
+let WatermarkToMomentHashLookupTable: PromiseOr<Partial<Record<string, MomentHashes>>> | undefined
+async function computeWatermarkToMomentHashLookupTable () {
+	const DeepsightMomentDefinition = await getDeepsightMomentDefinition()
+	return Object.values(DeepsightMomentDefinition)
+		.flatMap(moment => [
+			[moment.iconWatermark, moment.hash],
+			[moment.iconWatermarkShelved, moment.hash],
+			...moment.subsumeIconWatermarks?.map(icon => [icon, moment.hash] as const) ?? [],
+		])
+		.filter(([iconPath]) => iconPath !== undefined)
+		.toObject() as Record<string, MomentHashes>
+}
+
+export async function getWatermarkToMomentHashLookupTable () {
+	WatermarkToMomentHashLookupTable ??= computeWatermarkToMomentHashLookupTable()
+	return WatermarkToMomentHashLookupTable = await WatermarkToMomentHashLookupTable
+}
+
 async function computeDeepsightCollectionsDefinition () {
 	const { DestinyInventoryItemDefinition, DestinyPowerCapDefinition, DestinyPlugSetDefinition } = manifest
 	const DeepsightMomentDefinition = await getDeepsightMomentDefinition()
@@ -192,10 +210,7 @@ async function computeDeepsightCollectionsDefinition () {
 	const plugSets = await DestinyPlugSetDefinition.all()
 	const invItems = await DestinyInventoryItemDefinition.all()
 
-	const watermarkPathToMomentHashMap = Object.values(DeepsightMomentDefinition)
-		.flatMap(moment => [[moment.iconWatermark, moment.hash], [moment.iconWatermarkShelved, moment.hash]])
-		.filter(([iconPath]) => iconPath !== undefined)
-		.toObject() as Record<string, MomentHashes>
+	const watermarkPathToMomentHashMap = await getWatermarkToMomentHashLookupTable()
 
 	const overriddenItemMoments = Object.values(DeepsightMomentDefinition)
 		.flatMap(moment => (moment.itemHashes ?? []).map(itemHash => [itemHash, moment.hash]))

@@ -13,6 +13,7 @@ interface DeepsightMomentDefinition {
 	}
 	iconWatermark: string | DestinyManifestReference
 	iconWatermarkShelved: string | DestinyManifestReference
+	subsumeIconWatermarks?: (string | DestinyManifestReference)[]
 	event?: true | number
 	seasonHash?: number
 	hash?: number
@@ -36,6 +37,10 @@ async function computeDeepsightMomentDefinition () {
 
 		definition.iconWatermarkShelved = await DestinyManifestReference.resolve(definition.iconWatermarkShelved ?? (typeof definition.iconWatermark === 'object' ? definition.iconWatermark : undefined), 'iconWatermarkShelved') ?? definition.iconWatermarkShelved
 		definition.iconWatermark = await DestinyManifestReference.resolve(definition.iconWatermark, 'iconWatermark') ?? definition.iconWatermark
+		definition.subsumeIconWatermarks = await definition.subsumeIconWatermarks
+			?.map(icon => DestinyManifestReference.resolve(typeof icon === 'object' ? icon : undefined, 'iconWatermark') ?? icon)
+			.collect(watermarkPromises => Promise.all(watermarkPromises))
+			.then(watermarks => watermarks.filter(wm => wm !== undefined))
 
 		if (definition.displayProperties) {
 			definition.displayProperties.name = await DestinyManifestReference.resolve(definition.displayProperties.name, 'name')

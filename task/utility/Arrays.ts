@@ -62,6 +62,8 @@ declare global {
 		toMap<MAPPER extends ArrayToEntryMapper<T, KEY, VALUE>, KEY, VALUE> (mapper: MAPPER): MAPPER extends ArrayToEntryMapper<T, infer KEY, infer VALUE> ? Map<KEY, VALUE> : never
 		toMap<MAPPER extends ArrayToEntryMapper<T, KEY, VALUE>, KEY, VALUE> (mapper?: MAPPER): (MAPPER extends ArrayToEntryMapper<T, infer KEY, infer VALUE> ? Map<KEY, VALUE> : never) | (T extends readonly [infer KEY, infer VALUE, ...any[]] ? Map<KEY, VALUE> : never)
 
+		toSet (): Set<T>
+
 		distinct (): this
 		distinct (mapper: (value: T) => any): this
 
@@ -69,6 +71,7 @@ declare global {
 		findMap<RETURN> (predicate: (value: T, index: number, obj: T[]) => boolean, mapper: (value: T, index: number, obj: T[]) => RETURN): RETURN | undefined
 
 		groupBy<GROUP> (grouper: (value: T, index: number, obj: T[]) => GROUP): [GROUP, T[]][]
+		groupBy<GROUP, RETURN> (grouper: (value: T, index: number, obj: T[]) => GROUP, mapper: (value: T, index: number, obj: T[]) => RETURN): [GROUP, RETURN[]][]
 	}
 }
 
@@ -139,6 +142,10 @@ namespace Arrays {
 			return new Map(mapper ? this.map(mapper) : this)
 		})
 
+		Define(Array.prototype, 'toSet', function () {
+			return new Set(this)
+		})
+
 		Define(Array.prototype, 'distinct', function <T> (this: T[], mapper?: (value: T) => any) {
 			const result: T[] = []
 			const encountered = mapper ? [] : result
@@ -165,10 +172,10 @@ namespace Arrays {
 			return undefined
 		})
 
-		Define(Array.prototype, 'groupBy', function (grouper) {
+		Define(Array.prototype, 'groupBy', function (grouper, mapper) {
 			const result: Record<string, any[]> = {}
 			for (let i = 0; i < this.length; i++)
-				(result[String(grouper(this[i], i, this))] ??= []).push(this[i])
+				(result[String(grouper(this[i], i, this))] ??= []).push(!mapper ? this[i] : mapper(this[i], i, this))
 
 			return Object.entries(result)
 		})

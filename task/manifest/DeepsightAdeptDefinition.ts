@@ -1,8 +1,23 @@
+import { ItemTierTypeHashes, type InventoryItemHashes } from '@deepsight.gg/Enums'
+import { DeepsightAdeptDefinition } from '@deepsight.gg/Interfaces'
 import fs from 'fs-extra'
 import { Task } from 'task'
+import type { PromiseOr } from '../utility/Type'
 import { getDeepsightCollectionsDefinition } from './DeepsightCollectionsDefinition'
 import ItemPreferred from './utility/ItemPreferred'
 import manifest from './utility/endpoint/DestinyManifest'
+
+let DeepsightAdeptDefinition: PromiseOr<Partial<Record<InventoryItemHashes, DeepsightAdeptDefinition>>> | undefined
+export async function getDeepsightAdeptDefinition () {
+	DeepsightAdeptDefinition ??= computeDeepsightAdeptDefinition()
+	return DeepsightAdeptDefinition = await DeepsightAdeptDefinition
+}
+
+export default Task('DeepsightAdeptDefinition', async () => {
+	const DeepsightAdeptDefinition = await getDeepsightAdeptDefinition()
+	await fs.mkdirp('docs/definitions')
+	await fs.writeJson('docs/definitions/DeepsightAdeptDefinition.json', DeepsightAdeptDefinition, { spaces: '\t' })
+})
 
 const NAME_OVERRIDES: Record<string, string> = {
 	Judgement: 'Judgment',
@@ -12,14 +27,16 @@ function name (name: string) {
 	return NAME_OVERRIDES[name] ?? name
 }
 
-export default Task('DeepsightAdeptDefinition', async () => {
+export const REGEX_ADEPT = /^(.*?) \(.*?\)\s*$/
+
+async function computeDeepsightAdeptDefinition () {
 	const { DestinyInventoryItemDefinition } = manifest
 	const invItems = await DestinyInventoryItemDefinition.all()
 	const collections = Object.values(await getDeepsightCollectionsDefinition())
 		.flatMap(collection => Object.values(collection.buckets))
 		.flat()
 
-	const DeepsightAdeptDefinition: Record<number, { hash: number, base: number }> = {}
+	const DeepsightAdeptDefinition: Record<number, DeepsightAdeptDefinition> = {}
 
 	for (const itemHash of collections) {
 		const item = invItems[itemHash]
@@ -29,7 +46,10 @@ export default Task('DeepsightAdeptDefinition', async () => {
 		if (ItemPreferred.isEquippableDummy(item))
 			continue
 
-		const [, adeptName] = item.displayProperties.name.match(/^(.*?) \(.*?\)\s*$/) ?? []
+		if (item.inventory?.tierTypeHash !== ItemTierTypeHashes.Legendary)
+			continue
+
+		const [, adeptName] = item.displayProperties.name.match(REGEX_ADEPT) ?? []
 		if (!adeptName)
 			continue
 
@@ -47,6 +67,5 @@ export default Task('DeepsightAdeptDefinition', async () => {
 		DeepsightAdeptDefinition[itemHash] = { hash: itemHash, base: normalHash }
 	}
 
-	await fs.mkdirp('docs/definitions')
-	await fs.writeJson('docs/definitions/DeepsightAdeptDefinition.json', DeepsightAdeptDefinition, { spaces: '\t' })
-})
+	return DeepsightAdeptDefinition
+}

@@ -20,6 +20,7 @@ import DeepsightSocketExtendedDefinition from './manifest/DeepsightSocketExtende
 import DeepsightStats from './manifest/DeepsightStats'
 import DeepsightTierTypeDefinition from './manifest/DeepsightTierTypeDefinition'
 import DeepsightTypes from './manifest/DeepsightTypes'
+import DeepsightVariantDefinition from './manifest/DeepsightVariantDefinition'
 import DeepsightWallpaperDefinition from './manifest/DeepsightWallpaperDefinition'
 import refresh_token from './refresh_token'
 import Arrays from './utility/Arrays'
@@ -59,6 +60,9 @@ export default Task('deepsight_manifest', task => task.series(
 				DeepsightAdeptDefinition,
 				DeepsightCatalystDefinition,
 			),
+			task.parallel(
+				DeepsightVariantDefinition,
+			)
 		),
 	),
 	bump_versions,

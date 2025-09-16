@@ -360,12 +360,12 @@
 			"description": { DestinyInventoryItemDefinition: 1399867989 },
 		},
 		iconWatermark: { DestinyInventoryItemDefinition: 2973900274 }, // Third Iteration exotic scout
+		subsumeIconWatermarks: [
+			{ DestinyInventoryItemDefinition: 3524386983 }, // Submersion 
+		],
 		year: 8,
 		season: 27,
 		seasonHash: 2758726575,
-		itemHashes: [
-			3524386983, // submersion
-		],
 	},
 	"-1": {
 		id: "revelry",
