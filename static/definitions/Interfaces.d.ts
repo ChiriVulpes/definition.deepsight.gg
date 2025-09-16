@@ -386,17 +386,17 @@ export declare type DeepsightVariantDefinitionGroup = DeepsightVariantDefinition
 
 export declare interface DeepsightVariantDefinitionEntry {
 	hash: InventoryItemHashes
-	type: Lowercase<keyof typeof DeepsightVariantTag>
+	type: DeepsightVariantTag
 	moment?: MomentHashes
 }
 
-export declare const enum DeepsightVariantTag {
-	Dummy,
-	Generic,
-	Adept,
-	Artifice,
-	Holofoil,
-}
+export declare type DeepsightVariantTag = (
+	| 'dummy'
+	| 'generic'
+	| 'adept'
+	| 'artifice'
+	| 'holofoil'
+)
 
 export declare interface DeepsightAdeptDefinition {
 	hash: InventoryItemHashes

@@ -1,5 +1,5 @@
 import type { InventoryItemHashes } from '@deepsight.gg/Enums'
-import type { DeepsightVariantDefinition, DeepsightVariantDefinitionEntry } from '@deepsight.gg/Interfaces'
+import type { DeepsightVariantDefinition, DeepsightVariantDefinitionEntry, DeepsightVariantTag } from '@deepsight.gg/Interfaces'
 import type { DestinyInventoryItemDefinition } from 'bungie-api-ts/destiny2'
 import fs from 'fs-extra'
 import { Task } from 'task'
@@ -36,7 +36,7 @@ export default Task('DeepsightVariantDefinition', async () => {
 		return `${def.classType}: ${def.inventory?.bucketTypeHash}: ${baseName}`
 	}
 
-	function getType (def: DestinyInventoryItemDefinition): DeepsightVariantDefinitionEntry['type'] {
+	function getType (def: DestinyInventoryItemDefinition): DeepsightVariantTag {
 		if (ItemPreferred.isEquippableDummy(def)) return 'dummy'
 		if (def.isHolofoil) return 'holofoil'
 		if (isArtifice(def.hash)) return 'artifice'
@@ -66,16 +66,16 @@ export default Task('DeepsightVariantDefinition', async () => {
 			continue
 
 		const itemDef = DestinyInventoryItemDefinition[itemHash]
-		if (!itemDef.screenshot)
+		const type = getType(itemDef)
+		if (type === 'generic' && !itemDef.collectibleHash)
+			continue
+
+		if (type !== 'dummy' && !itemDef.screenshot)
 			continue
 
 		const name = getDedupeName(itemDef)
 		const group = variantGroups.get(name)
 		if (!group)
-			continue
-
-		const type = getType(itemDef)
-		if (type === 'generic' && !itemDef.collectibleHash)
 			continue
 
 		group.push({
