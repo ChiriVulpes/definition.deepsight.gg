@@ -143,8 +143,6 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 		[DeepsightItemSourceType.IronBannerEvent]: await getVendorCategories(VendorHashes.IronBannerEngram610661400).then(getVendorCategoryItems),
 	}
 
-	console.log(itemSources[DeepsightItemSourceType.PinnacleOps])
-
 	itemSources[DeepsightItemSourceType.CrucibleOpsActivityReward] = itemSources[DeepsightItemSourceType.CrucibleOpsActivityReward]
 		.filter(item => !itemSources[DeepsightItemSourceType.TrialsOfOsiris].includes(item))
 
@@ -279,7 +277,7 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 			displayProperties: await DestinyManifestReference.resolveAll({
 				name: { DestinyFireteamFinderActivityGraphDefinition: FireteamFinderActivityGraphHashes.CrucibleOps },
 				description: { DestinyFireteamFinderActivityGraphDefinition: FireteamFinderActivityGraphHashes.CrucibleOps },
-				icon: { DestinyActivityModeDefinition: ActivityModeHashes.Crucible },
+				icon: { DestinyActivityDefinition: ActivityHashes.CuttingEdgeRumbleMatchmade },
 			}),
 		},
 		[DeepsightItemSourceType.CrucibleOpsBonusReward]: {
