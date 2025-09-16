@@ -91,6 +91,7 @@ jobs:
             git config user.email "actions@github.com"
             git commit -m "Updated definitions"
             git push
+            npm publish
           else
             echo "No changes to commit & publish"
           fi
