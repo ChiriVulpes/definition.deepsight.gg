@@ -36,7 +36,7 @@
 		"tsconfig-paths": "4.2.0",
 		"color-convert": "2.0.1",
 		"@types/color-convert": "2.0.3",
-		"bungie-api-ts": "5.7.0",
+		"bungie-api-ts": "5.8.0",
 		"lint": "github:fluff4me/lint",
 		"task": "github:chirivulpes/task#package",
 		"sharp": "0.34.3",
