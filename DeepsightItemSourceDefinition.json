@@ -110,6 +110,7 @@
 	"11": {
 		"hash": 11,
 		"category": 4,
+		"event": 1392131908,
 		"displayProperties": {
 			"name": "Arms Week",
 			"subtitle": "Ada-1",
@@ -120,6 +121,7 @@
 	"12": {
 		"hash": 12,
 		"category": 2,
+		"event": 3841872876,
 		"displayProperties": {
 			"name": "Solstice",
 			"icon": "/common/destiny2_content/icons/DestinyEventCardDefinition_4f9324534754826fe140c9b487884b9d.png",
@@ -139,6 +141,7 @@
 	"14": {
 		"hash": 14,
 		"category": 2,
+		"event": 1625344077,
 		"displayProperties": {
 			"name": "Heavy Metal",
 			"icon": "/common/destiny2_content/icons/DestinyEventCardDefinition_8219d7d63beb7cbaf05cf2c0c2ba1648.png",
@@ -148,6 +151,7 @@
 	"15": {
 		"hash": 15,
 		"category": 2,
+		"event": 1386309626,
 		"displayProperties": {
 			"name": "New Territories: Reclaim",
 			"icon": "/common/destiny2_content/icons/DestinyEventCardDefinition_2d6d2d0032c2f4ef2f3fce99c76a0ddc.png",
@@ -157,6 +161,7 @@
 	"16": {
 		"hash": 16,
 		"category": 2,
+		"event": 3319172235,
 		"displayProperties": {
 			"name": "Iron Banner",
 			"icon": "/common/destiny2_content/icons/DestinyEventCardDefinition_056b2afd04dbab4ba6c41d6a44ae9ea6.png",
