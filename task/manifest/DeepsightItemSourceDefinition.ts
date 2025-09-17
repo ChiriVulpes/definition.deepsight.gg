@@ -122,7 +122,6 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 		[DeepsightItemSourceType.LordShaxxLegacyGear]: await getVendorCategories(VendorHashes.CrucibleEngramFocusingLegacy).then(getVendorCategoryItems),
 		[DeepsightItemSourceType.DrifterLegacyGear]: await getVendorCategories(VendorHashes.GambitEngramFocusingLegacy).then(getVendorCategoryItems),
 		[DeepsightItemSourceType.Saint14LegacyGear]: await getVendorCategories(VendorHashes.TrialsEngramFocusingLegacy).then(getVendorCategoryItems),
-		// [DeepsightItemSourceType.SaladinLegacyGear]: await getCategories(VendorHashes.LegacyGear2672927612).then(getItems),
 		[DeepsightItemSourceType.ExoticKioskLegacyGear]: await getVendorCategories(VendorHashes.TowerExoticArchivePinnacle).then(getVendorCategoryItems),
 		[DeepsightItemSourceType.BansheeFocusedDecoding]: await getVendorCategories(VendorHashes.GunsmithFocusedDecoding).then(getVendorCategoryItems),
 		[DeepsightItemSourceType.BansheeFeatured]: await getVendorCategories(VendorHashes.Gunsmith)
@@ -141,6 +140,7 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 		[DeepsightItemSourceType.HeavyMetalEvent]: await getVendorCategories(VendorHashes.HeavyMetalEngram2880054250).then(getVendorCategoryItems),
 		[DeepsightItemSourceType.NewTerritoriesReclaimEvent]: await getVendorCategories(VendorHashes.NewTerritoriesReclaimWeaponEngram536789678).then(getVendorCategoryItems),
 		[DeepsightItemSourceType.IronBannerEvent]: await getVendorCategories(VendorHashes.IronBannerEngram610661400).then(getVendorCategoryItems),
+		[DeepsightItemSourceType.ValusSaladinLegacyGear]: await getVendorCategories(VendorHashes.IronBannerEngramFocusingLegacy).then(getVendorCategoryItems),
 	}
 
 	itemSources[DeepsightItemSourceType.CrucibleOpsActivityReward] = itemSources[DeepsightItemSourceType.CrucibleOpsActivityReward]
@@ -199,6 +199,17 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 				subtitle: { DestinyVendorDefinition: VendorHashes.TrialsEngramFocusingLegacy },
 				description: { DestinyVendorDefinition: VendorHashes.TowerSaint14 },
 				icon: { DestinyVendorDefinition: { hash: VendorHashes.TowerSaint14, property: 'mapIcon' } },
+			}),
+		},
+		[DeepsightItemSourceType.ValusSaladinLegacyGear]: {
+			hash: DeepsightItemSourceType.ValusSaladinLegacyGear,
+			category: DeepsightItemSourceCategory.Vendor,
+			event: EventCardHashes.IronBanner,
+			displayProperties: await DestinyManifestReference.resolveAll({
+				name: { DestinyVendorDefinition: VendorHashes.IronBanner },
+				subtitle: { DestinyVendorDefinition: VendorHashes.IronBannerEngramFocusingLegacy },
+				description: { DestinyVendorDefinition: VendorHashes.IronBanner },
+				icon: { DestinyVendorDefinition: { hash: VendorHashes.IronBanner, property: 'mapIcon' } },
 			}),
 		},
 		[DeepsightItemSourceType.ExoticKioskLegacyGear]: {
