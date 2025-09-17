@@ -73,7 +73,7 @@ export declare interface DeepsightManifestComponentsMap {
 	DeepsightPlugCategorisation: Record<number, DeepsightPlugCategorisation>
 	DeepsightSocketCategorisation: Record<number, DeepsightSocketCategorisationDefinition>
 	DeepsightSocketExtendedDefinition: Record<number, DeepsightSocketExtendedDefinition>
-	DeepsightStats: Record<number, DeepsightStats>
+	DeepsightStats: DeepsightStats
 	DeepsightTierTypeDefinition: Record<number, DeepsightTierTypeDefinition>
 	DeepsightWallpaperDefinition: Record<number, DeepsightWallpaperDefinition>
 	DeepsightItemSourceDefinition: Record<number, DeepsightItemSourceDefinition>
@@ -369,6 +369,7 @@ export declare interface DeepsightVendorItemDefinition extends DestinyVendorItem
 
 export declare interface DeepsightStats {
 	powerFloor: number
+	activeEvent?: EventCardHashes
 }
 
 export declare interface DeepsightCollectionsDefinition {
