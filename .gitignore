@@ -9,6 +9,7 @@ static/definitions/DeepsightBreakerTypeDefinition.d.ts
 static/definitions/DeepsightEmblemDefinition.json
 static/definitions/DeepsightIconDefinition.json
 static/definitions/Enums.d.ts
+static/definitions/Enums.json
 auth.json
 activitycache.json*
 charm/

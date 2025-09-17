@@ -445,8 +445,22 @@ export default Task('generate_enums', async () => {
 
 	await generateEnum('DestinyTraitDefinition')
 
-	const momentHashesFile = await fs.readFile('task/manifest/enum/MomentHashes.ts', 'utf8')
-	stream.write(momentHashesFile.replace(/export enum MomentHashes {/, `export declare const enum MomentHashes {\n\tInvalid = ${INVALID_HASH},`))
+	async function translateDeepsightEnum (enumName: string) {
+		let content = await fs.readFile(`task/manifest/enum/${enumName}.ts`, 'utf8')
+		content = content.replace(/export enum ([a-zA-Z]+) {/, `export declare const enum $1 {\n\tInvalid = ${INVALID_HASH},`)
+		let replaced = true
+		while (replaced) {
+			const previousContent = content
+			content = content.replace(
+				/(?<=[a-zA-Z0-9_"']+ = (-?[0-9]+),\s*[a-zA-Z0-9_"']+)(?=,)/,
+				(_: string, previousHash: string) => ` = ${+previousHash + 1}`,
+			)
+			replaced = content !== previousContent
+		}
+		stream.write(content)
+	}
+
+	await translateDeepsightEnum('MomentHashes')
 
 	stream.write(`/*\n * Unnameable components:\n * ${componentNamesWithoutDefinitionNames.join('\n * ')}\n */\n`)
 	stream.close()

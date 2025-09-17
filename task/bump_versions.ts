@@ -14,6 +14,9 @@ async function readData (file: string) {
 	switch (path.extname(file)) {
 		case '.json':
 			return fs.readJson(file)
+				.catch(err => {
+					throw new Error(`Failed to parse ${file}: ${err.message}`)
+				})
 		case '.ts': {
 			const basename = path.basename(file)
 			if (basename === 'Enums.d.ts')
@@ -22,8 +25,17 @@ async function readData (file: string) {
 						.replace(/\/\*.*?\*\//gs, '')
 						.replace(/export declare const enum (\w+)|([$\w]+) =/g, '"$1$2":').replace(/ =/g, ':')
 						.replace(/(?<=})\n+(?=")/g, ',\n')
-						.replace(/,(?=\n+})/g, ''))
-					.then(jsonText => JSON.parse(`{${jsonText}}`))
+						.replace(/,(?=\s+})/g, '')
+					)
+					.then(async jsonText => {
+						jsonText = `{${jsonText}}`
+						if (Env.DEEPSIGHT_ENVIRONMENT === 'dev')
+							await fs.writeFile(path.join(path.dirname(file), 'Enums.json'), jsonText)
+						return JSON.parse(jsonText)
+					})
+					.catch(err => {
+						throw new Error(`Failed to parse ${file}: ${err.message}`)
+					})
 
 			return fs.readFile(file, 'utf8')
 		}
@@ -60,6 +72,7 @@ export default Task('bump_versions', async () => {
 			await fs.copyFile(newPath, oldPath)
 		}
 		else {
+			await readData(newPath)
 			if (!await Hash.fileChanged(newPath))
 				continue
 		}
