@@ -492,6 +492,7 @@ export declare interface DeepsightItemSourceDefinition {
 	hash: DeepsightItemSourceType
 	category: DeepsightItemSourceCategory
 	rotates?: true
+	event?: EventCardHashes
 	displayProperties: DeepsightDisplayPropertiesDefinition
 }
 

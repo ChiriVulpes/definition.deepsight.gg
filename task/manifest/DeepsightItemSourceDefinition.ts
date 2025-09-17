@@ -301,6 +301,7 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 		[DeepsightItemSourceType.ArmsWeekEvent]: {
 			hash: DeepsightItemSourceType.ArmsWeekEvent,
 			category: DeepsightItemSourceCategory.EventVendor,
+			event: EventCardHashes.ArmsWeek,
 			displayProperties: await DestinyManifestReference.resolveAll({
 				name: { DestinyEventCardDefinition: EventCardHashes.ArmsWeek },
 				subtitle: { DestinyVendorDefinition: { hash: VendorHashes.TowerShootingRangeAda, property: 'name' } },
@@ -310,6 +311,7 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 		[DeepsightItemSourceType.SolsticeEvent]: {
 			hash: DeepsightItemSourceType.SolsticeEvent,
 			category: DeepsightItemSourceCategory.EventReward,
+			event: EventCardHashes.Solstice,
 			displayProperties: await DestinyManifestReference.resolveAll({
 				name: { DestinyEventCardDefinition: EventCardHashes.Solstice },
 				icon: { DestinyEventCardDefinition: EventCardHashes.Solstice },
@@ -327,6 +329,7 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 		[DeepsightItemSourceType.HeavyMetalEvent]: {
 			hash: DeepsightItemSourceType.HeavyMetalEvent,
 			category: DeepsightItemSourceCategory.EventReward,
+			event: EventCardHashes.HeavyMetal,
 			displayProperties: await DestinyManifestReference.resolveAll({
 				name: { DestinyEventCardDefinition: EventCardHashes.HeavyMetal },
 				icon: { DestinyEventCardDefinition: EventCardHashes.HeavyMetal },
@@ -335,6 +338,7 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 		[DeepsightItemSourceType.NewTerritoriesReclaimEvent]: {
 			hash: DeepsightItemSourceType.NewTerritoriesReclaimEvent,
 			category: DeepsightItemSourceCategory.EventReward,
+			event: EventCardHashes.NewTerritoriesReclaim,
 			displayProperties: await DestinyManifestReference.resolveAll({
 				name: { DestinyEventCardDefinition: EventCardHashes.NewTerritoriesReclaim },
 				icon: { DestinyEventCardDefinition: EventCardHashes.NewTerritoriesReclaim },
@@ -343,6 +347,7 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 		[DeepsightItemSourceType.IronBannerEvent]: {
 			hash: DeepsightItemSourceType.IronBannerEvent,
 			category: DeepsightItemSourceCategory.EventReward,
+			event: EventCardHashes.IronBanner,
 			displayProperties: await DestinyManifestReference.resolveAll({
 				name: { DestinyEventCardDefinition: EventCardHashes.IronBanner },
 				icon: { DestinyEventCardDefinition: EventCardHashes.IronBanner },
