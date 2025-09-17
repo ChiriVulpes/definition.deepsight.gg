@@ -270,6 +270,7 @@ export declare interface DeepsightDropTableRotationsDefinition {
 export declare interface DeepsightMomentDefinition {
 	hash: MomentHashes
 	id: string
+	aliases?: string[]
 	displayProperties: DeepsightDisplayPropertiesDefinition
 	iconWatermark?: string
 	iconWatermarkShelved?: string

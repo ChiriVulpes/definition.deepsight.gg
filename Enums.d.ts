@@ -66437,6 +66437,7 @@ export declare const enum TraitHashes {
 
 export declare const enum MomentHashes {
 	Invalid = 2166136261,
+	TheRevelry = -1,
 	TheDawning = 0,
 	CrimsonDays = 1,
 	GuardianGames = 2,
@@ -66477,10 +66478,8 @@ export declare const enum MomentHashes {
 	EpisodeHeresy = 38,
 	RiteOfTheNine = 39,
 	EdgeOfFate = 40,
-	Reclamation = 41,
-	TheRevelry = -1,
+	SeasonReclamation = 41,
 }
-
 /*
  * Unnameable components:
  * DestinyActivityDifficultyTierCollectionDefinition
