@@ -1,20 +1,21 @@
-import fs from "fs-extra";
-import { Task } from "task";
-import type { DeepsightStats } from "../../static/definitions/Interfaces";
-import DestinyProfile from "./utility/endpoint/DestinyProfile";
+import fs from 'fs-extra'
+import { Task } from 'task'
+import type { DeepsightStats } from '../../static/definitions/Interfaces'
+import DestinyProfile from './utility/endpoint/DestinyProfile'
 
-export default Task("DeepsightStats", async () => {
-	const profile = await DestinyProfile.get();
+export default Task('DeepsightStats', async () => {
+	const profile = await DestinyProfile.get()
 
-	const chiriSunsetMountaintopInstanceId = "6917530005261965302";
-	const powerFloor = profile?.itemComponents?.instances?.data?.[chiriSunsetMountaintopInstanceId]?.primaryStat?.value;
+	const chiriSunsetMountaintopInstanceId = '6917530005261965302'
+	const powerFloor = profile?.itemComponents?.instances?.data?.[chiriSunsetMountaintopInstanceId]?.primaryStat?.value
 	if (!powerFloor)
-		throw new Error("Unable to fetch power floor from Chiri's sunset mountaintop instance");
+		throw new Error('Unable to fetch power floor from Chiri\'s sunset mountaintop instance')
 
 	const DeepsightStats: DeepsightStats = {
 		powerFloor,
-	};
+		activeEvent: profile?.profile?.data?.activeEventCardHash,
+	}
 
-	await fs.mkdirp('docs/definitions');
-	await fs.writeJson("docs/definitions/DeepsightStats.json", DeepsightStats, { spaces: "\t" });
-});
+	await fs.mkdirp('docs/definitions')
+	await fs.writeJson('docs/definitions/DeepsightStats.json', DeepsightStats, { spaces: '\t' })
+})

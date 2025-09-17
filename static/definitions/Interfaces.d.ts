@@ -369,6 +369,7 @@ export declare interface DeepsightVendorItemDefinition extends DestinyVendorItem
 
 export declare interface DeepsightStats {
 	powerFloor: number
+	activeEvent?: EventCardHashes
 }
 
 export declare interface DeepsightCollectionsDefinition {
