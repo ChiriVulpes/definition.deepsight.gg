@@ -3,7 +3,6 @@ import type { AllDestinyManifestComponents, DestinyDisplayPropertiesDefinition, 
 import { DestinyItemType } from 'bungie-api-ts/destiny2'
 import fs from 'fs-extra'
 import { Task } from 'task'
-import { getDeepsightMomentDefinition } from './manifest/DeepsightMomentDefinition'
 import manifest from './manifest/utility/endpoint/DestinyManifest'
 import Arrays from './utility/Arrays'
 import Env from './utility/Env'
@@ -446,13 +445,13 @@ export default Task('generate_enums', async () => {
 
 	await generateEnum('DestinyTraitDefinition')
 
-	const DeepsightMomentDefinition = await getDeepsightMomentDefinition()
-	await generateEnum('DeepsightMomentDefinition', DeepsightMomentDefinition)
+	const momentHashesFile = await fs.readFile('task/manifest/enum/MomentHashes.ts', 'utf8')
+	stream.write(momentHashesFile.replace(/export enum MomentHashes {/, `export declare const enum MomentHashes {\n\tInvalid = ${INVALID_HASH},`))
 
 	stream.write(`/*\n * Unnameable components:\n * ${componentNamesWithoutDefinitionNames.join('\n * ')}\n */\n`)
 	stream.close()
 
-	if (!stream.writableFinished)
+	if (!stream.writableFinished && stream)
 		await new Promise(resolve => stream.on('finish', resolve))
 
 	delete Env.ENUMS_NEED_UPDATE
