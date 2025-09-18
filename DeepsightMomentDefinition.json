@@ -337,7 +337,7 @@
 		},
 		"iconWatermark": "/common/destiny2_content/icons/247715dd42abef457b52ef37280c0e42.png",
 		"images": [
-			"/common/destiny2_content/icons/744fb5199c86a4c421a0c85377b0a763.jpg"
+			"/common/destiny2_content/icons/2646778c3ed0b1399453791f656e7823.jpg"
 		],
 		"season": 10,
 		"year": 3,
@@ -345,7 +345,7 @@
 		"hash": 16,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/4487c1c73c54e95ea54142058c0e1cae.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/4487c1c73c54e95ea54142058c0e1cae.png",
-		"primaryImage": "/common/destiny2_content/icons/744fb5199c86a4c421a0c85377b0a763.jpg"
+		"primaryImage": "/common/destiny2_content/icons/2646778c3ed0b1399453791f656e7823.jpg"
 	},
 	"17": {
 		"id": "arrivals",
@@ -646,6 +646,7 @@
 			"icon": "/common/destiny2_content/icons/764123441e45763f0cdc279486d01e49.png"
 		},
 		"iconWatermark": "/common/destiny2_content/icons/fc02418ad2002351a3f88faa5b14eb88.png",
+		"primaryImage": "/img/destiny_content/pgcr/lightfall_mission_workout.jpg",
 		"images": [
 			"/img/destiny_content/pgcr/lightfall_mission_chaos_orbit.jpg",
 			"/img/destiny_content/pgcr/lightfall_mission_haste.jpg",
@@ -661,8 +662,7 @@
 		"year": 6,
 		"hash": 29,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/df9d5f7f1d41a9f5feae229442acaf3e.png",
-		"iconWatermarkFeatured": "/common/destiny2_content/icons/df9d5f7f1d41a9f5feae229442acaf3e.png",
-		"primaryImage": "/img/destiny_content/pgcr/lightfall_mission_chaos_orbit.jpg"
+		"iconWatermarkFeatured": "/common/destiny2_content/icons/df9d5f7f1d41a9f5feae229442acaf3e.png"
 	},
 	"30": {
 		"id": "defiance",
