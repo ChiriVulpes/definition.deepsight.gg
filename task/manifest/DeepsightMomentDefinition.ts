@@ -307,7 +307,7 @@ const DeepsightMomentDefinitionData: Record<keyof typeof MomentHashes, Deepsight
 		},
 		iconWatermark: { DestinyInventoryItemDefinition: InventoryItemHashes.MasterfulFlowEmotePlug },
 		images: [
-			{ DestinyInventoryItemDefinition: { hash: InventoryItemHashes.EmblemOfTheWorthyEmblem, property: 'secondarySpecial' } },
+			{ DestinyInventoryItemDefinition: { hash: InventoryItemHashes.WarmindedEmblem, property: 'secondarySpecial' } },
 		],
 		season: 10,
 		year: 3,
@@ -554,6 +554,7 @@ const DeepsightMomentDefinitionData: Record<keyof typeof MomentHashes, Deepsight
 			icon: { DestinyInventoryItemDefinition: { hash: InventoryItemHashes.LightfallQuestStep_Step1_StatsObjectLength4, iconSequence: 0, frame: 2 } },
 		},
 		iconWatermark: { DestinyInventoryItemDefinition: InventoryItemHashes.ScintillantTrajectoryShaderPlug },
+		primaryImage: { DestinyActivityDefinition: { hash: ActivityHashes.OnTheVergeNormal, property: 'pgcrImage' } },
 		images: [
 			{ DestinyActivityDefinition: { hash: ActivityHashes.FirstContactNormal_ModifiersLength6, property: 'pgcrImage' } },
 			{ DestinyActivityDefinition: { hash: ActivityHashes.UnderSiegeNormal, property: 'pgcrImage' } },
