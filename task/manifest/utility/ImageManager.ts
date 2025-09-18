@@ -83,7 +83,7 @@ namespace ImageManager {
 		const colours: HSL[] = []
 		const usedPadding = 0.2
 
-		const { data, info } = await image.ensureAlpha().raw().toBuffer({ resolveWithObject: true })
+		const { data, info } = await image.ensureAlpha().toColourspace('srgb').raw().toBuffer({ resolveWithObject: true })
 		const channels = info.channels // Should be 4 for RGBA
 
 		for (let x = 0; x < width; x = x > width * usedPadding && x < width * (1 - usedPadding) ? Math.floor(x + width * (1 - usedPadding * 2)) : x + 1) {
