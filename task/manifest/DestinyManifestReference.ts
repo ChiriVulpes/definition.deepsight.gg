@@ -32,7 +32,7 @@ namespace DestinyManifestReference {
 		icon?: string | DestinyManifestReference
 	}
 
-	export async function resolve (ref: string | DestinyManifestReference | undefined, type: 'name' | 'subtitle' | 'description' | 'icon' | 'iconWatermark' | 'iconWatermarkShelved', alternativeSources?: Record<string, HasDisplayPropertiesOrIconWatermark | undefined>) {
+	export async function resolve (ref: string | DestinyManifestReference | undefined, type: 'name' | 'subtitle' | 'description' | 'icon' | 'iconWatermark' | 'iconWatermarkShelved' | 'iconWatermarkFeatured' | 'pgcrImage', alternativeSources?: Record<string, HasDisplayPropertiesOrIconWatermark | undefined>) {
 		if (typeof ref === 'string')
 			return ref
 
@@ -53,14 +53,28 @@ namespace DestinyManifestReference {
 				return icon
 			}
 
-			if (typeof which === 'object' && 'property' in which && 'displayProperties' in definition) {
-				const propertyValue = definition.displayProperties[which.property as 'name']
+			const propertyError = (definition: DestinyManifestComponentValue, property: string) => {
+				const name = 'displayProperties' in definition ? definition.displayProperties.name : 'No name'
+				Log.error(`Unable to resolve property from manifest reference: ${name} (${componentName} ${hash}), property ${property}`)
+			}
+			if (typeof which === 'object' && 'property' in which && which.property in definition) {
+				const propertyValue = definition[which.property as keyof typeof definition]
 				if (!propertyValue) {
-					Log.error(`Unable to resolve icon from manifest reference: ${definition.displayProperties.name} (${componentName}), property ${which.property}`)
+					propertyError(definition, which.property)
 					return undefined
 				}
 
-				return propertyValue
+				return `${propertyValue}`
+			}
+
+			if (typeof which === 'object' && 'property' in which && 'displayProperties' in definition) {
+				const propertyValue = definition.displayProperties[which.property as 'name']
+				if (!propertyValue) {
+					propertyError(definition, which.property)
+					return undefined
+				}
+
+				return `${propertyValue}`
 			}
 
 			const result = resolveSource(definition, type)
@@ -80,7 +94,7 @@ namespace DestinyManifestReference {
 		return undefined
 	}
 
-	function resolveSource (definition: DestinyManifestComponentValue, type: 'name' | 'subtitle' | 'description' | 'icon' | 'iconWatermark' | 'iconWatermarkShelved') {
+	function resolveSource (definition: DestinyManifestComponentValue, type: 'name' | 'subtitle' | 'description' | 'icon' | 'iconWatermark' | 'iconWatermarkShelved' | 'iconWatermarkFeatured' | 'pgcrImage') {
 		if (!definition)
 			return undefined
 
@@ -93,6 +107,18 @@ namespace DestinyManifestReference {
 		if (type === 'iconWatermarkShelved') {
 			if ('iconWatermarkShelved' in definition)
 				return definition.iconWatermarkShelved || undefined
+			return undefined
+		}
+
+		if (type === 'iconWatermarkFeatured') {
+			if ('iconWatermarkFeatured' in definition)
+				return definition.iconWatermarkFeatured || undefined
+			return undefined
+		}
+
+		if (type === 'pgcrImage') {
+			if ('pgcrImage' in definition)
+				return definition.pgcrImage || undefined
 			return undefined
 		}
 
