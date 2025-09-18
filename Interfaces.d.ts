@@ -272,9 +272,12 @@ export declare interface DeepsightMomentDefinition {
 	id: string
 	aliases?: string[]
 	displayProperties: DeepsightDisplayPropertiesDefinition
-	iconWatermark?: string
+	iconWatermark: string
 	iconWatermarkShelved?: string
+	iconWatermarkFeatured?: string
 	subsumeIconWatermarks?: string[]
+	primaryImage?: string
+	images?: string[]
 	/**
 	 * For events, the event card hash. If there isn't an event card, `true`
 	 */
