@@ -1,11 +1,11 @@
 {
-	"DeepsightDropTableDefinition": 689,
+	"DeepsightDropTableDefinition": 690,
 	"DeepsightMomentDefinition": 17,
 	"DeepsightPlugCategorisation": 45,
 	"DeepsightWallpaperDefinition": 13,
-	"Enums": 66,
+	"Enums": 67,
 	"Interfaces": 45,
-	"deepsight": 1528,
+	"deepsight": 1529,
 	"DeepsightTierTypeDefinition": 1,
 	"lastDailyReset": "2025-09-22T17:00:00Z",
 	"lastWeeklyReset": "2025-09-16T17:00:00Z",
@@ -14,13 +14,13 @@
 		"instanceId": "16556281859",
 		"period": "2025-09-22T17:35:37Z"
 	},
-	"updated": "2025-09-22T17:59:08Z",
+	"updated": "2025-09-23T17:09:50Z",
 	"DeepsightVendorDefinition": 630,
-	"DeepsightStats": 2,
+	"DeepsightStats": 3,
 	"DeepsightCollectionsDefinition": 18,
 	"DeepsightSocketCategorisation": 33,
 	"DeepsightAdeptDefinition": 8,
-	"DeepsightEmblemDefinition": 627,
+	"DeepsightEmblemDefinition": 628,
 	"DeepsightSocketExtendedDefinition": 1,
 	"DeepsightCatalystDefinition": 6,
 	"DeepsightBreakerSourceDefinition": 3,
@@ -31,5 +31,5 @@
 	"DeepsightFormattedClarityDescriptions": 5,
 	"DeepsightIconDefinition": 4,
 	"DeepsightVariantDefinition": 2,
-	"Destiny2/Manifest": "236735.25.09.10.2001-1-bnet.61823"
+	"Destiny2/Manifest": "236941.25.09.18.2000-1-bnet.61941"
 }
