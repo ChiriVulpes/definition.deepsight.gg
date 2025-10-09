@@ -170,24 +170,6 @@
 	},
 	"17": {
 		"hash": 17,
-		"category": 5,
-		"displayProperties": {
-			"name": "Vanguard Ops",
-			"description": "The Vanguard seeks Guardians to undertake high-priority missions against the City's enemies.",
-			"icon": "/common/destiny2_content/icons/3642cf9e2acd174dcab5b5f9e3a3a45d.png"
-		}
-	},
-	"18": {
-		"hash": 18,
-		"category": 5,
-		"displayProperties": {
-			"name": "Crucible Ops",
-			"description": "Hone your skills and win glory in battle against other Guardians.",
-			"icon": "/common/destiny2_content/icons/DestinyActivityDefinition_b843fe750dcb70115d677e5bc1b7070c.png"
-		}
-	},
-	"19": {
-		"hash": 19,
 		"category": 0,
 		"rotates": true,
 		"displayProperties": {
@@ -197,8 +179,8 @@
 			"icon": "/common/destiny2_content/icons/0c4e426abcae67819183ec3ce6d2a68c.png"
 		}
 	},
-	"20": {
-		"hash": 20,
+	"18": {
+		"hash": 18,
 		"category": 0,
 		"event": 3319172235,
 		"displayProperties": {

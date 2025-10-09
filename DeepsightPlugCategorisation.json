@@ -8629,6 +8629,16 @@
 		"raid": false,
 		"artifice": false
 	},
+	"350414343": {
+		"hash": 350414343,
+		"category": 3,
+		"type": 10,
+		"categoryName": "Mod",
+		"typeName": "Deprecated",
+		"fullName": "Mod/Deprecated",
+		"raid": false,
+		"artifice": false
+	},
 	"351285766": {
 		"hash": 351285766,
 		"category": 6,
@@ -17624,14 +17634,6 @@
 	},
 	"715074198": {
 		"hash": 715074198,
-		"category": 6,
-		"type": 17,
-		"categoryName": "Cosmetic",
-		"typeName": "OrnamentArmor",
-		"fullName": "Cosmetic/OrnamentArmor"
-	},
-	"715074199": {
-		"hash": 715074199,
 		"category": 6,
 		"type": 17,
 		"categoryName": "Cosmetic",
@@ -26727,14 +26729,6 @@
 		"typeName": "Shader",
 		"fullName": "Cosmetic/Shader"
 	},
-	"1088003008": {
-		"hash": 1088003008,
-		"category": 6,
-		"type": 17,
-		"categoryName": "Cosmetic",
-		"typeName": "OrnamentArmor",
-		"fullName": "Cosmetic/OrnamentArmor"
-	},
 	"1088003009": {
 		"hash": 1088003009,
 		"category": 6,
@@ -28928,14 +28922,6 @@
 	},
 	"1188269734": {
 		"hash": 1188269734,
-		"category": 6,
-		"type": 17,
-		"categoryName": "Cosmetic",
-		"typeName": "OrnamentArmor",
-		"fullName": "Cosmetic/OrnamentArmor"
-	},
-	"1188269735": {
-		"hash": 1188269735,
 		"category": 6,
 		"type": 17,
 		"categoryName": "Cosmetic",
@@ -32126,14 +32112,6 @@
 		"typeName": "OrnamentArmor",
 		"fullName": "Cosmetic/OrnamentArmor"
 	},
-	"1318336710": {
-		"hash": 1318336710,
-		"category": 6,
-		"type": 17,
-		"categoryName": "Cosmetic",
-		"typeName": "OrnamentArmor",
-		"fullName": "Cosmetic/OrnamentArmor"
-	},
 	"1318336711": {
 		"hash": 1318336711,
 		"category": 6,
@@ -33302,14 +33280,6 @@
 	},
 	"1361869536": {
 		"hash": 1361869536,
-		"category": 6,
-		"type": 17,
-		"categoryName": "Cosmetic",
-		"typeName": "OrnamentArmor",
-		"fullName": "Cosmetic/OrnamentArmor"
-	},
-	"1361869537": {
-		"hash": 1361869537,
 		"category": 6,
 		"type": 17,
 		"categoryName": "Cosmetic",
@@ -39027,14 +38997,6 @@
 		"stat": 16120457,
 		"complete": true,
 		"value": 10
-	},
-	"1582463880": {
-		"hash": 1582463880,
-		"category": 6,
-		"type": 17,
-		"categoryName": "Cosmetic",
-		"typeName": "OrnamentArmor",
-		"fullName": "Cosmetic/OrnamentArmor"
 	},
 	"1582463881": {
 		"hash": 1582463881,
@@ -45099,14 +45061,6 @@
 		"typeName": "OrnamentArmor",
 		"fullName": "Cosmetic/OrnamentArmor"
 	},
-	"1834458043": {
-		"hash": 1834458043,
-		"category": 6,
-		"type": 17,
-		"categoryName": "Cosmetic",
-		"typeName": "OrnamentArmor",
-		"fullName": "Cosmetic/OrnamentArmor"
-	},
 	"1834458047": {
 		"hash": 1834458047,
 		"category": 6,
@@ -45668,14 +45622,6 @@
 	},
 	"1858642588": {
 		"hash": 1858642588,
-		"category": 6,
-		"type": 17,
-		"categoryName": "Cosmetic",
-		"typeName": "OrnamentArmor",
-		"fullName": "Cosmetic/OrnamentArmor"
-	},
-	"1858642590": {
-		"hash": 1858642590,
 		"category": 6,
 		"type": 17,
 		"categoryName": "Cosmetic",
@@ -51592,14 +51538,6 @@
 		"typeName": "OrnamentArmor",
 		"fullName": "Cosmetic/OrnamentArmor"
 	},
-	"2099254713": {
-		"hash": 2099254713,
-		"category": 6,
-		"type": 17,
-		"categoryName": "Cosmetic",
-		"typeName": "OrnamentArmor",
-		"fullName": "Cosmetic/OrnamentArmor"
-	},
 	"2099254717": {
 		"hash": 2099254717,
 		"category": 6,
@@ -53392,36 +53330,6 @@
 		"categoryName": "Cosmetic",
 		"typeName": "OrnamentArmor",
 		"fullName": "Cosmetic/OrnamentArmor"
-	},
-	"2174169160": {
-		"hash": 2174169160,
-		"category": 3,
-		"type": 10,
-		"categoryName": "Mod",
-		"typeName": "Deprecated",
-		"fullName": "Mod/Deprecated",
-		"raid": false,
-		"artifice": false
-	},
-	"2174169162": {
-		"hash": 2174169162,
-		"category": 3,
-		"type": 10,
-		"categoryName": "Mod",
-		"typeName": "Deprecated",
-		"fullName": "Mod/Deprecated",
-		"raid": false,
-		"artifice": false
-	},
-	"2174169163": {
-		"hash": 2174169163,
-		"category": 3,
-		"type": 10,
-		"categoryName": "Mod",
-		"typeName": "Deprecated",
-		"fullName": "Mod/Deprecated",
-		"raid": false,
-		"artifice": false
 	},
 	"2174503023": {
 		"hash": 2174503023,
@@ -58661,14 +58569,6 @@
 		"typeName": "OrnamentArmor",
 		"fullName": "Cosmetic/OrnamentArmor"
 	},
-	"2374528260": {
-		"hash": 2374528260,
-		"category": 6,
-		"type": 17,
-		"categoryName": "Cosmetic",
-		"typeName": "OrnamentArmor",
-		"fullName": "Cosmetic/OrnamentArmor"
-	},
 	"2374528261": {
 		"hash": 2374528261,
 		"category": 6,
@@ -58887,6 +58787,14 @@
 	},
 	"2390728923": {
 		"hash": 2390728923,
+		"category": 6,
+		"type": 17,
+		"categoryName": "Cosmetic",
+		"typeName": "OrnamentArmor",
+		"fullName": "Cosmetic/OrnamentArmor"
+	},
+	"2390807586": {
+		"hash": 2390807586,
 		"category": 6,
 		"type": 17,
 		"categoryName": "Cosmetic",
@@ -60456,6 +60364,14 @@
 		"categoryName": "Cosmetic",
 		"typeName": "Shader",
 		"fullName": "Cosmetic/Shader"
+	},
+	"2462335932": {
+		"hash": 2462335932,
+		"category": 6,
+		"type": 17,
+		"categoryName": "Cosmetic",
+		"typeName": "OrnamentArmor",
+		"fullName": "Cosmetic/OrnamentArmor"
 	},
 	"2462411480": {
 		"hash": 2462411480,
@@ -62957,14 +62873,6 @@
 	},
 	"2568935224": {
 		"hash": 2568935224,
-		"category": 6,
-		"type": 17,
-		"categoryName": "Cosmetic",
-		"typeName": "OrnamentArmor",
-		"fullName": "Cosmetic/OrnamentArmor"
-	},
-	"2568935228": {
-		"hash": 2568935228,
 		"category": 6,
 		"type": 17,
 		"categoryName": "Cosmetic",
@@ -77538,16 +77446,6 @@
 		"typeName": "Emote",
 		"fullName": "Cosmetic/Emote"
 	},
-	"3157964220": {
-		"hash": 3157964220,
-		"category": 3,
-		"type": 10,
-		"categoryName": "Mod",
-		"typeName": "Deprecated",
-		"fullName": "Mod/Deprecated",
-		"raid": false,
-		"artifice": false
-	},
 	"3158739321": {
 		"hash": 3158739321,
 		"category": 6,
@@ -80662,14 +80560,6 @@
 		"typeName": "OrnamentArmor",
 		"fullName": "Cosmetic/OrnamentArmor"
 	},
-	"3284561381": {
-		"hash": 3284561381,
-		"category": 6,
-		"type": 17,
-		"categoryName": "Cosmetic",
-		"typeName": "OrnamentArmor",
-		"fullName": "Cosmetic/OrnamentArmor"
-	},
 	"3286479728": {
 		"hash": 3286479728,
 		"category": 6,
@@ -81598,14 +81488,6 @@
 		"categoryName": "Cosmetic",
 		"typeName": "OrnamentArmorExotic",
 		"fullName": "Cosmetic/OrnamentArmorExotic"
-	},
-	"3335316330": {
-		"hash": 3335316330,
-		"category": 6,
-		"type": 17,
-		"categoryName": "Cosmetic",
-		"typeName": "OrnamentArmor",
-		"fullName": "Cosmetic/OrnamentArmor"
 	},
 	"3335316331": {
 		"hash": 3335316331,
@@ -90153,14 +90035,6 @@
 		"typeName": "OrnamentArmor",
 		"fullName": "Cosmetic/OrnamentArmor"
 	},
-	"3679474761": {
-		"hash": 3679474761,
-		"category": 6,
-		"type": 17,
-		"categoryName": "Cosmetic",
-		"typeName": "OrnamentArmor",
-		"fullName": "Cosmetic/OrnamentArmor"
-	},
 	"3679474765": {
 		"hash": 3679474765,
 		"category": 6,
@@ -90768,6 +90642,14 @@
 		"categoryName": "Intrinsic",
 		"typeName": "ArmorLegacy",
 		"fullName": "Intrinsic/ArmorLegacy"
+	},
+	"3717501117": {
+		"hash": 3717501117,
+		"category": 6,
+		"type": 1,
+		"categoryName": "Cosmetic",
+		"typeName": "Shader",
+		"fullName": "Cosmetic/Shader"
 	},
 	"3717985200": {
 		"hash": 3717985200,
@@ -99247,14 +99129,6 @@
 		"activityHash": 3711931140,
 		"artifice": false
 	},
-	"4077910010": {
-		"hash": 4077910010,
-		"category": 6,
-		"type": 17,
-		"categoryName": "Cosmetic",
-		"typeName": "OrnamentArmor",
-		"fullName": "Cosmetic/OrnamentArmor"
-	},
 	"4077910011": {
 		"hash": 4077910011,
 		"category": 6,
@@ -99636,6 +99510,14 @@
 		"categoryName": "Cosmetic",
 		"typeName": "Shader",
 		"fullName": "Cosmetic/Shader"
+	},
+	"4095816113": {
+		"hash": 4095816113,
+		"category": 6,
+		"type": 17,
+		"categoryName": "Cosmetic",
+		"typeName": "OrnamentArmor",
+		"fullName": "Cosmetic/OrnamentArmor"
 	},
 	"4096009948": {
 		"hash": 4096009948,
@@ -103742,6 +103624,36 @@
 		"categoryName": "Perk",
 		"typeName": "Scope",
 		"fullName": "Perk/Scope"
+	},
+	"4260972669": {
+		"hash": 4260972669,
+		"category": 3,
+		"type": 10,
+		"categoryName": "Mod",
+		"typeName": "Deprecated",
+		"fullName": "Mod/Deprecated",
+		"raid": false,
+		"artifice": false
+	},
+	"4260972670": {
+		"hash": 4260972670,
+		"category": 3,
+		"type": 10,
+		"categoryName": "Mod",
+		"typeName": "Deprecated",
+		"fullName": "Mod/Deprecated",
+		"raid": false,
+		"artifice": false
+	},
+	"4260972671": {
+		"hash": 4260972671,
+		"category": 3,
+		"type": 10,
+		"categoryName": "Mod",
+		"typeName": "Deprecated",
+		"fullName": "Mod/Deprecated",
+		"raid": false,
+		"artifice": false
 	},
 	"4261618303": {
 		"hash": 4261618303,

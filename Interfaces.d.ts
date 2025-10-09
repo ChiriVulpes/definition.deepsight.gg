@@ -474,8 +474,6 @@ export declare const enum DeepsightItemSourceType {
 	HeavyMetalEvent,
 	NewTerritoriesReclaimEvent,
 	IronBannerEvent,
-	VanguardOpsBonusReward,
-	CrucibleOpsBonusReward,
 	XurStrangeGear,
 	ValusSaladinLegacyGear,
 }
@@ -486,7 +484,6 @@ export declare const enum DeepsightItemSourceCategory {
 	EventReward,
 	Destination,
 	EventVendor,
-	BonusReward,
 }
 
 export declare interface DeepsightItemSourceListDefinition {
