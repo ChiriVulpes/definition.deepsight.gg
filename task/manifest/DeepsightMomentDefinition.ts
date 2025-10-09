@@ -377,7 +377,7 @@ const DeepsightMomentDefinitionData: Record<keyof typeof MomentHashes, Deepsight
 			{ DestinyActivityDefinition: { hash: ActivityHashes.BattlegroundHailstone24843407, property: 'pgcrImage' } },
 			{ DestinyActivityDefinition: { hash: ActivityHashes.BattlegroundFoothold176258399, property: 'pgcrImage' } },
 			{ DestinyActivityDefinition: { hash: ActivityHashes.BattlegroundOracle679234423, property: 'pgcrImage' } },
-			{ DestinyActivityDefinition: { hash: ActivityHashes.ProvingGroundsMatchmade, property: 'pgcrImage' } },
+			{ DestinyActivityDefinition: { hash: ActivityHashes.ProvingGroundsCustomize_RewardsLength0, property: 'pgcrImage' } },
 			{ DestinyActivityDefinition: { hash: ActivityHashes.PresageStandard, property: 'pgcrImage' } },
 		],
 		season: 13,
@@ -618,7 +618,7 @@ const DeepsightMomentDefinitionData: Record<keyof typeof MomentHashes, Deepsight
 		iconWatermark: { DestinyInventoryItemDefinition: InventoryItemHashes.LethalAbundanceAutoRifle2189073092 },
 		images: [
 			{ DestinyActivityDefinition: { hash: ActivityHashes.FinalWish, property: 'pgcrImage' } },
-			{ DestinyActivityDefinition: { hash: ActivityHashes.TheCoilCustomize, property: 'pgcrImage' } },
+			{ DestinyActivityDefinition: { hash: ActivityHashes.TheCoilCustomize_RewardsLength0, property: 'pgcrImage' } },
 			{ DestinyActivityDefinition: { hash: ActivityHashes.Chiasmus_ModifiersLength2, property: 'pgcrImage' } },
 			{ DestinyActivityDefinition: { hash: ActivityHashes.StarcrossedCustomize, property: 'pgcrImage' } },
 			{ DestinyActivityDefinition: { hash: ActivityHashes.Starcrossed, property: 'pgcrImage' } },

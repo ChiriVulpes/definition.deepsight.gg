@@ -128,13 +128,11 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 			.then(categories => categories.filter(([category]) => category.identifier === 'category_weapon_meta'))
 			.then(getVendorCategoryItems),
 		[DeepsightItemSourceType.XurStrangeGear]: await getVendorCategories(VendorHashes.TowerNineGear).then(getVendorCategoryItems),
-		[DeepsightItemSourceType.VanguardOpsActivityReward]: await getDropsFromActivityGraphs(ACTIVITY_GRAPH_HASH_SOLO_OPS, ACTIVITY_GRAPH_HASH_FIRETEAM_OPS),
-		[DeepsightItemSourceType.VanguardOpsBonusReward]: await getVendorCategories(VendorHashes.PortalActivitiesGear941620657).then(getVendorCategoryItems),
+		[DeepsightItemSourceType.VanguardOpsActivityReward]: await getVendorCategories(VendorHashes.PortalActivitiesGear941620657).then(getVendorCategoryItems),
 		[DeepsightItemSourceType.PinnacleOps]: await getDropsFromActivityGraphs(ACTIVITY_GRAPH_HASH_PINNACLE_OPS),
-		[DeepsightItemSourceType.CrucibleOpsActivityReward]: await getDropsFromActivityGraphs(ACTIVITY_GRAPH_HASH_CRUCIBLE_OPS),
-		[DeepsightItemSourceType.CrucibleOpsBonusReward]: await getVendorCategories(VendorHashes.CrucibleOpsGear627167795).then(getVendorCategoryItems),
+		[DeepsightItemSourceType.CrucibleOpsActivityReward]: await getVendorCategories(VendorHashes.CrucibleOpsGear627167795).then(getVendorCategoryItems),
 		[DeepsightItemSourceType.TrialsOfOsiris]: await getVendorCategories(VendorHashes.TrialsOfOsirisGear1404716958).then(getVendorCategoryItems),
-		[DeepsightItemSourceType.ArmsWeekEvent]: await getVendorCategories(VendorHashes.TowerShootingRangeAdaFocusing, VendorHashes.ArmsWeekEventWeaponsEngram237769120).then(getVendorCategoryItems),
+		[DeepsightItemSourceType.ArmsWeekEvent]: await getVendorCategories(VendorHashes.TowerShootingRangeAda, VendorHashes.DistortedArmsWeekEngram1034573018).then(getVendorCategoryItems),
 		[DeepsightItemSourceType.SolsticeEvent]: await getVendorCategories(VendorHashes.DistortedSolsticeEngram2110607183).then(getVendorCategoryItems),
 		[DeepsightItemSourceType.Kepler]: await getVendorCategories(VendorHashes.FocusedDecoding3550596112).then(getVendorCategoryItems),
 		[DeepsightItemSourceType.HeavyMetalEvent]: await getVendorCategories(VendorHashes.HeavyMetalEngram2880054250).then(getVendorCategoryItems),
@@ -264,15 +262,6 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 				icon: { DestinyActivityDefinition: ActivityHashes.VanguardOps },
 			}),
 		},
-		[DeepsightItemSourceType.VanguardOpsBonusReward]: {
-			hash: DeepsightItemSourceType.VanguardOpsBonusReward,
-			category: DeepsightItemSourceCategory.BonusReward,
-			displayProperties: await DestinyManifestReference.resolveAll({
-				name: { DestinyActivityDefinition: ActivityHashes.VanguardOps },
-				description: { DestinyActivityDefinition: ActivityHashes.VanguardOps },
-				icon: { DestinyActivityDefinition: ActivityHashes.VanguardOps },
-			}),
-		},
 		[DeepsightItemSourceType.PinnacleOps]: {
 			hash: DeepsightItemSourceType.PinnacleOps,
 			category: DeepsightItemSourceCategory.ActivityReward,
@@ -288,16 +277,7 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 			displayProperties: await DestinyManifestReference.resolveAll({
 				name: { DestinyFireteamFinderActivityGraphDefinition: FireteamFinderActivityGraphHashes.CrucibleOps },
 				description: { DestinyFireteamFinderActivityGraphDefinition: FireteamFinderActivityGraphHashes.CrucibleOps },
-				icon: { DestinyActivityDefinition: ActivityHashes.CuttingEdgeRumbleMatchmade },
-			}),
-		},
-		[DeepsightItemSourceType.CrucibleOpsBonusReward]: {
-			hash: DeepsightItemSourceType.CrucibleOpsBonusReward,
-			category: DeepsightItemSourceCategory.BonusReward,
-			displayProperties: await DestinyManifestReference.resolveAll({
-				name: { DestinyFireteamFinderActivityGraphDefinition: FireteamFinderActivityGraphHashes.CrucibleOps },
-				description: { DestinyFireteamFinderActivityGraphDefinition: FireteamFinderActivityGraphHashes.CrucibleOps },
-				icon: { DestinyActivityDefinition: ActivityHashes.CuttingEdgeRumbleMatchmade },
+				icon: { DestinyActivityDefinition: ActivityHashes.CuttingEdgeRumbleMatchmade_RewardsLength25 },
 			}),
 		},
 		[DeepsightItemSourceType.TrialsOfOsiris]: {

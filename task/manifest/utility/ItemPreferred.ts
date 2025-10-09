@@ -56,6 +56,7 @@ namespace ItemPreferred {
 		InventoryItemHashes.TheTitleSubmachineGun655712834, // older
 		InventoryItemHashes.FortunateStarCombatBow2326578623, // older
 		InventoryItemHashes.JudgmentAdeptHandCannon_IsHolofoiltrue, // special
+		InventoryItemHashes.ArcaneEmbraceShotgun3649985571, // older
 	]
 
 	export function isIgnored (item: InventoryItemHashes) {
