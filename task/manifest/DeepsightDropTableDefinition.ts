@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unsafe-enum-comparison */
 import { ActivityGraphHashes, ActivityHashes, ActivityModeHashes, ActivityTypeHashes, FireteamFinderActivityGraphHashes, InventoryItemHashes, PresentationNodeHashes, RecordHashes, TraitHashes } from '@deepsight.gg/Enums'
 import type { DestinyActivityGraphDefinition } from 'bungie-api-ts/destiny2/interfaces'
 import fs from 'fs-extra'
@@ -354,7 +353,7 @@ export default Task('DeepsightDropTableDefinition', async () => {
 					availability: 'rotator',
 					displayProperties: {
 						...displayProperties,
-						icon: await DestinyManifestReference.resolve({ DestinyRecordDefinition: RecordHashes.BonusFocus_RewardItemsLength5 }, 'icon'),
+						icon: await DestinyManifestReference.resolve({ DestinyRecordDefinition: RecordHashes.BonusFocus_RewardItems0Quantity1 }, 'icon'),
 					},
 					dropTable: {
 						[bonusFocus.itemQuantity.itemHash]: {},
