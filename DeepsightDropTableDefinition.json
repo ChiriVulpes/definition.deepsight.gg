@@ -296,12 +296,32 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"4146673634": {}
+			"81786728": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Pinnacle Ops",
 			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
 			"icon": "./image/png/activity/portal_pinnacle.png"
+		}
+	},
+	"843932907": {
+		"hash": 843932907,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Take Earth back from the Conductor's forces! Fight across combat zones in the now SIVA-free Plaguelands, from a ruined tanker to an ancient missile silo. Battle to secure powerful Golden Age salvage before your foes do!",
+			"name": "Cabal's Watch",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"iconHash": 0,
+			"hasIcon": false
+		},
+		"dropTable": {
+			"2941172034": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Fireteam Ops",
+			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
+			"icon": "./image/png/activity/portal_fireteam.png"
 		}
 	},
 	"910380154": {
@@ -584,8 +604,8 @@
 				1315424373
 			],
 			"interval": "weekly",
-			"current": 67,
-			"next": "2025-10-14T17:00:00Z"
+			"current": 68,
+			"next": "2025-10-21T17:00:00Z"
 		},
 		"master": {
 			"activityHash": 4129614942,
@@ -880,26 +900,6 @@
 			"icon": "/common/destiny2_content/icons/bd7a1fc995f87be96698263bc16698e7.png",
 			"iconHash": 0,
 			"hasIcon": true
-		}
-	},
-	"1160700330": {
-		"hash": 1160700330,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Master the magic of the Witch Queen's Spire and open the way to the Altars of Summoning.",
-			"name": "Savathûn's Spire",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"iconHash": 0,
-			"hasIcon": false
-		},
-		"dropTable": {
-			"190747610": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Fireteam Ops",
-			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
-			"icon": "./image/png/activity/portal_fireteam.png"
 		}
 	},
 	"1262462921": {
@@ -1200,8 +1200,8 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 104,
-			"next": "2025-10-14T17:00:00Z"
+			"current": 105,
+			"next": "2025-10-21T17:00:00Z"
 		},
 		"availability": "repeatable",
 		"type": "raid",
@@ -1365,8 +1365,8 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 105,
-			"next": "2025-10-14T17:00:00Z"
+			"current": 106,
+			"next": "2025-10-21T17:00:00Z"
 		},
 		"availability": "repeatable",
 		"type": "raid",
@@ -1534,46 +1534,6 @@
 			"icon": "/common/destiny2_content/icons/bd7a1fc995f87be96698263bc16698e7.png",
 			"iconHash": 0,
 			"hasIcon": true
-		}
-	},
-	"1734879670": {
-		"hash": 1734879670,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Venture into the Lunar Complex and beyond.",
-			"name": "Skywatch",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"iconHash": 0,
-			"hasIcon": false
-		},
-		"dropTable": {
-			"2155534128": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Solo Ops",
-			"description": "Protect Earth from Sol's greatest foes as a one-Guardian fireteam and the Vanguard's last line of defense.",
-			"icon": "./image/png/activity/portal_solo.png"
-		}
-	},
-	"1756429361": {
-		"hash": 1756429361,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Break into the ancient Vex installation.",
-			"name": "The Insight Terminus",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"iconHash": 0,
-			"hasIcon": false
-		},
-		"dropTable": {
-			"1193318082": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Fireteam Ops",
-			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
-			"icon": "./image/png/activity/portal_fireteam.png"
 		}
 	},
 	"2004855007": {
@@ -2003,8 +1963,8 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 132,
-			"next": "2025-10-14T17:00:00Z"
+			"current": 133,
+			"next": "2025-10-21T17:00:00Z"
 		},
 		"availability": "repeatable",
 		"type": "raid",
@@ -2014,6 +1974,26 @@
 			"icon": "/common/destiny2_content/icons/bd7a1fc995f87be96698263bc16698e7.png",
 			"iconHash": 0,
 			"hasIcon": true
+		}
+	},
+	"2425464470": {
+		"hash": 2425464470,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Dig up buried pirate riches on Europa, fight off raiders, and deliver the treasure haul to your Ketch!",
+			"name": "Expedition: Europa",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"iconHash": 0,
+			"hasIcon": false
+		},
+		"dropTable": {
+			"1193318082": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Fireteam Ops",
+			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
+			"icon": "./image/png/activity/portal_fireteam.png"
 		}
 	},
 	"2582501063": {
@@ -2170,6 +2150,27 @@
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_f20ebb76bee675ca429e470cec58cc7b.png"
 		}
 	},
+	"2723561970": {
+		"hash": 2723561970,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Eliminate your opponents or capture the zone to win. Earn as many round and match wins on a ticket as you can.\n\nPassages grant reward bonus.",
+			"name": "Trials of Osiris",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"iconHash": 0,
+			"hasIcon": false
+		},
+		"dropTable": {
+			"3946054154": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Crucible Ops",
+			"description": "Hone your skills and win glory in battle against other Guardians.",
+			"icon": "./image/png/activity/portal_crucible.png"
+		},
+		"pgcrImage": "/img/destiny_content/pgcr/crucible_twilight_gap.jpg"
+	},
 	"2823159265": {
 		"hash": 2823159265,
 		"dropTable": {
@@ -2314,40 +2315,39 @@
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_f20ebb76bee675ca429e470cec58cc7b.png"
 		}
 	},
-	"2855477577": {
-		"hash": 2855477577,
+	"3049845845": {
+		"hash": 3049845845,
 		"type": "bonus-focus",
 		"availability": "rotator",
 		"displayProperties": {
-			"description": "Cutting Edge: Only New Gear permitted. New Gear also grants reward bonuses.\n\nFight for victory by defeating opponents.",
-			"name": "Cutting Edge: Clash",
+			"description": "In an act of vengeance for the destruction of their homeworld, the Cabal have struck out against a Hive nest dug deep into the Cosmodrome. Use this opportunity to hit the Cabal hard and show them that humanity will not back down.",
+			"name": "Battleground: Foothold",
 			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
 			"iconHash": 0,
 			"hasIcon": false
 		},
 		"dropTable": {
-			"438409602": {}
+			"3755454909": {}
 		},
 		"typeDisplayProperties": {
-			"name": "Crucible Ops",
-			"description": "Hone your skills and win glory in battle against other Guardians.",
-			"icon": "./image/png/activity/portal_crucible.png"
-		},
-		"pgcrImage": "/img/destiny_content/pgcr/crucible_twilight_gap.jpg"
+			"name": "Fireteam Ops",
+			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
+			"icon": "./image/png/activity/portal_fireteam.png"
+		}
 	},
 	"3437865231": {
 		"hash": 3437865231,
 		"type": "bonus-focus",
 		"availability": "rotator",
 		"displayProperties": {
-			"description": "A rotating selection of activities at a higher difficulty level.",
-			"name": "Quickplay: Master",
+			"description": "A rotating selection of activities at a low difficulty level.",
+			"name": "Quickplay",
 			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
 			"iconHash": 0,
 			"hasIcon": false
 		},
 		"dropTable": {
-			"1663482635": {}
+			"2111625436": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Fireteam Ops",
@@ -2367,7 +2367,7 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"4146673635": {}
+			"2423071981": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Pinnacle Ops",
@@ -2387,7 +2387,7 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"81786728": {}
+			"1154629600": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Pinnacle Ops",
@@ -2514,30 +2514,6 @@
 			"name": "Dungeon",
 			"description": "Form a fireteam of up to three, and brave the strange and powerful realms of our enemies.",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_f20ebb76bee675ca429e470cec58cc7b.png"
-		}
-	},
-	"3878270936": {
-		"hash": 3878270936,
-		"displayProperties": {
-			"name": "Kell's Fall",
-			"description": "Enter Fikrul's Revenant Fortress in the Tangled Shore, where dark reflections make it difficult to discern illusion from reality.",
-			"icon": "/common/destiny2_content/icons/2ffa90c58bdadcca8226f553315212e7.png",
-			"subtitle": "Kell's Fall"
-		},
-		"dropTable": {
-			"1047932517": {}
-		},
-		"master": {
-			"activityHash": 367562924,
-			"availability": "rotator"
-		},
-		"availability": "rotator",
-		"endTime": "2025-10-14T17:00:00Z",
-		"type": "exotic-mission",
-		"typeDisplayProperties": {
-			"name": "Exotic Mission",
-			"description": "Form a fireteam of up to three, and brave the strange and powerful realms of our enemies.",
-			"icon": "/common/destiny2_content/icons/2ffa90c58bdadcca8226f553315212e7.png"
 		}
 	},
 	"3881495763": {
@@ -2714,8 +2690,8 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 103,
-			"next": "2025-10-14T17:00:00Z"
+			"current": 104,
+			"next": "2025-10-21T17:00:00Z"
 		},
 		"availability": "repeatable",
 		"type": "raid",
@@ -2727,24 +2703,48 @@
 			"hasIcon": true
 		}
 	},
-	"4011344973": {
-		"hash": 4011344973,
+	"3883295757": {
+		"hash": 3883295757,
+		"displayProperties": {
+			"name": "Presage",
+			"description": "Jump coordinates matching an errant distress signal.",
+			"icon": "/common/destiny2_content/icons/2ffa90c58bdadcca8226f553315212e7.png",
+			"subtitle": "Presage: Standard"
+		},
+		"dropTable": {
+			"2188764214": {}
+		},
+		"master": {
+			"activityHash": 4201846671,
+			"availability": "rotator"
+		},
+		"availability": "rotator",
+		"endTime": "2025-10-21T17:00:00Z",
+		"type": "exotic-mission",
+		"typeDisplayProperties": {
+			"name": "Exotic Mission",
+			"description": "Form a fireteam of up to three, and brave the strange and powerful realms of our enemies.",
+			"icon": "/common/destiny2_content/icons/2ffa90c58bdadcca8226f553315212e7.png"
+		}
+	},
+	"4008836256": {
+		"hash": 4008836256,
 		"type": "bonus-focus",
 		"availability": "rotator",
 		"displayProperties": {
-			"description": "Defend Earth from the Conductor's forces by claiming long-lost Golden Age salvage before they do! Jump between battlefields in the Plaguelands and Cosmodrome, fighting over the ruined husks of transport ships and abandoned spacecraft.",
-			"name": "Fallen Bunker",
+			"description": "Stop new enemies from gaining a foothold in the depths of the EDZ.",
+			"name": "The Salt Mines",
 			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
 			"iconHash": 0,
 			"hasIcon": false
 		},
 		"dropTable": {
-			"3946054154": {}
+			"1003997240": {}
 		},
 		"typeDisplayProperties": {
-			"name": "Fireteam Ops",
-			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
-			"icon": "./image/png/activity/portal_fireteam.png"
+			"name": "Solo Ops",
+			"description": "Protect Earth from Sol's greatest foes as a one-Guardian fireteam and the Vanguard's last line of defense.",
+			"icon": "./image/png/activity/portal_solo.png"
 		}
 	},
 	"4078656646": {
@@ -3183,14 +3183,14 @@
 		"type": "bonus-focus",
 		"availability": "rotator",
 		"displayProperties": {
-			"description": "A rotating selection of activities at a higher difficulty level.",
-			"name": "Quickplay: Master",
+			"description": "A rotating selection of activities at a low difficulty level.",
+			"name": "Quickplay",
 			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
 			"iconHash": 0,
 			"hasIcon": false
 		},
 		"dropTable": {
-			"3926153598": {}
+			"2348082405": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Solo Ops",
