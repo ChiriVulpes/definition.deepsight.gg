@@ -90,13 +90,12 @@ async function hasProfileCharacter () {
 /**
  * @param {string} endpoint
  */
-async function apiRequest (endpoint) {
+async function apiRequest (endpoint, maxAttempts = 1) {
 	let response;
-	const maxAttempts = 1;
 	for (let attempts = 0; !response && attempts < maxAttempts; attempts++) {
 		const abortController = new AbortController();
 		setTimeout(() => abortController.abort(), 20000); // 20 seconds max for a request
-		response = await fetch(`https://www.bungie.net/Platform/Destiny2/${endpoint}`, {
+		response = await fetch(endpoint.startsWith('http') ? endpoint : `https://www.bungie.net/Platform/Destiny2/${endpoint}`, {
 			signal: abortController.signal,
 			headers: {
 				"User-Agent": "deepsight.gg:manifest/0.0.0",
@@ -158,7 +157,7 @@ class PGCR {
 		searchStart = lastValid // - ESTIMATED_PGCRS_PER_SECOND * 60 * 5; // approximately 5 minutes ago
 
 		for (let i = 0; i < 100; i++) {
-			const response = await this.getPGCR(searchStart + i).then(response => response.json());
+			const response = await this.getPGCR(searchStart + i, 3);
 			const date = new Date(response?.Response?.period ?? 0);
 			console.log(`[PGCR Search] ${searchStart + i} is ${date.toLocaleString("en-NZ", { timeZone: "Pacific/Auckland" })}.`);
 			if (date.getTime() > targetTime)
@@ -187,9 +186,9 @@ class PGCR {
 			lastMid = mid;
 
 			console.log("[PGCR Search] Query:", mid, "Current range:", searchStart, searchEnd, "Query count:", attempts);
-			const response = await this.getPGCR(mid).then(response => response.json());
+			const response = await this.getPGCR(mid).catch(() => undefined);
 
-			if (response?.Response) {
+			if (response) {
 				searchStart = mid + 1;
 			} else {
 				searchEnd = mid - 1;
@@ -207,13 +206,8 @@ class PGCR {
 	/**
 	 * @param {number} id
 	 */
-	static async getPGCR (id) {
-		return fetch(`${ENDPOINT_PGCR}/${id}/`, {
-			headers: {
-				"User-Agent": "deepsight.gg:manifest/0.0.0",
-				"X-API-Key": /** @type {string} */(apiKey),
-			},
-		});
+	static async getPGCR (id, maxAttempts = 1) {
+		return apiRequest(`${ENDPOINT_PGCR}/${id}/`, maxAttempts);
 	}
 }
 
