@@ -139,6 +139,7 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 		[DeepsightItemSourceType.NewTerritoriesReclaimEvent]: await getVendorCategories(VendorHashes.NewTerritoriesReclaimWeaponEngram536789678).then(getVendorCategoryItems),
 		[DeepsightItemSourceType.IronBannerEvent]: await getVendorCategories(VendorHashes.IronBannerEngram610661400).then(getVendorCategoryItems),
 		[DeepsightItemSourceType.ValusSaladinLegacyGear]: await getVendorCategories(VendorHashes.IronBannerEngramFocusingLegacy).then(getVendorCategoryItems),
+		[DeepsightItemSourceType.FestivalOfTheLost]: await getVendorCategories(VendorHashes.EerieWeaponsEngram1123009796).then(getVendorCategoryItems),
 	}
 
 	itemSources[DeepsightItemSourceType.CrucibleOpsActivityReward] = itemSources[DeepsightItemSourceType.CrucibleOpsActivityReward]
@@ -342,6 +343,15 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 			displayProperties: await DestinyManifestReference.resolveAll({
 				name: { DestinyEventCardDefinition: EventCardHashes.IronBanner },
 				icon: { DestinyEventCardDefinition: EventCardHashes.IronBanner },
+			}),
+		},
+		[DeepsightItemSourceType.FestivalOfTheLost]: {
+			hash: DeepsightItemSourceType.FestivalOfTheLost,
+			category: DeepsightItemSourceCategory.EventReward,
+			event: EventCardHashes.FestivalOfTheLost,
+			displayProperties: await DestinyManifestReference.resolveAll({
+				name: { DestinyEventCardDefinition: EventCardHashes.FestivalOfTheLost },
+				icon: { DestinyEventCardDefinition: EventCardHashes.FestivalOfTheLost },
 			}),
 		},
 	}

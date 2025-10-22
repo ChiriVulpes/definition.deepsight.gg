@@ -476,6 +476,7 @@ export declare const enum DeepsightItemSourceType {
 	IronBannerEvent,
 	XurStrangeGear,
 	ValusSaladinLegacyGear,
+	FestivalOfTheLost,
 }
 
 export declare const enum DeepsightItemSourceCategory {
