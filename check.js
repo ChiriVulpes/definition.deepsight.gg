@@ -259,7 +259,7 @@ void (async () => {
 		if (lastRefPGCR) {
 			const refId = +lastRefPGCR.instanceId;
 			const refTime = new Date(lastRefPGCR.period).getTime();
-			searchStart = refId + ESTIMATED_PGCRS_PER_SECOND * Time.elapsed("seconds", refTime, lastDailyReset) - ESTIMATED_PGCRS_PER_SECOND * (Time.days(1) / Time.seconds(1));
+			searchStart = refId;
 			searchEnd = refId + ESTIMATED_PGCRS_PER_SECOND * Time.elapsed("seconds", refTime, Date.now()) * 20;
 		}
 
