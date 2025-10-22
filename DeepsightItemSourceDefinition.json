@@ -189,5 +189,15 @@
 			"description": "Saladin Forge, the last surviving Iron Lord and Valus of Caiatl's empire, oversees the Iron Banner event: trial by combat where only the strongest survive.",
 			"icon": "/common/destiny2_content/icons/e21e97ef6c0343c611a46b77f8b9937c.png"
 		}
+	},
+	"19": {
+		"hash": 19,
+		"category": 2,
+		"event": 3265920761,
+		"displayProperties": {
+			"name": "Festival of the Lost",
+			"icon": "/common/destiny2_content/icons/DestinyEventCardDefinition_1a1e3f8074c98241af80f4bee77084c3.png",
+			"description": ""
+		}
 	}
 }
