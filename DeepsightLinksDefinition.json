@@ -78,6 +78,10 @@
 					"path": "crafting.outputItemHash"
 				},
 				{
+					"component": "DestinySocketTypeDefinition",
+					"path": "crafting.requiredSocketTypeHashes.[]"
+				},
+				{
 					"component": "DestinyMaterialRequirementSetDefinition",
 					"path": "crafting.baseMaterialRequirements"
 				},
@@ -174,8 +178,16 @@
 					"path": "value.itemValue.[].itemHash"
 				},
 				{
+					"component": "DestinyRewardSourceDefinition",
+					"path": "sourceData.sourceHashes.[]"
+				},
+				{
 					"component": "DestinyStatDefinition",
 					"path": "sourceData.sources.[].computedStats.{}.statHash"
+				},
+				{
+					"component": "DestinyRewardSourceDefinition",
+					"path": "sourceData.sources.[].sourceHashes.[]"
 				},
 				{
 					"enum": "BungieMembershipType",
@@ -186,12 +198,24 @@
 					"path": "sourceData.vendorSources.[].vendorHash"
 				},
 				{
+					"component": "DestinyObjectiveDefinition",
+					"path": "objectives.objectiveHashes.[]"
+				},
+				{
+					"component": "DestinyActivityDefinition",
+					"path": "objectives.displayActivityHashes.[]"
+				},
+				{
 					"component": "DestinyInventoryItemDefinition",
 					"path": "objectives.questlineItemHash"
 				},
 				{
 					"component": "DestinyActivityDefinition",
 					"path": "objectives.perObjectiveDisplayProperties.[].activityHash"
+				},
+				{
+					"component": "DestinyPresentationNodeDefinition",
+					"path": "metrics.availableMetricCategoryNodeHashes.[]"
 				},
 				{
 					"component": "DestinyMaterialRequirementSetDefinition",
@@ -232,6 +256,10 @@
 				{
 					"enum": "DestinyEnergyType",
 					"path": "plug.energyCost.energyType"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "gearset.itemList.[]"
 				},
 				{
 					"component": "DestinySocketTypeDefinition",
@@ -294,6 +322,10 @@
 					"path": "summaryItemHash"
 				},
 				{
+					"component": "DestinyItemCategoryDefinition",
+					"path": "itemCategoryHashes.[]"
+				},
+				{
 					"enum": "SpecialItemType",
 					"path": "specialItemType"
 				},
@@ -316,6 +348,10 @@
 				{
 					"component": "DestinyBreakerTypeDefinition",
 					"path": "breakerTypeHash"
+				},
+				{
+					"component": "DestinyDamageTypeDefinition",
+					"path": "damageTypeHashes.[]"
 				},
 				{
 					"enum": "DamageType",
@@ -475,6 +511,10 @@
 					"path": "displayProperties.iconHash"
 				},
 				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "setItems.[]"
+				},
+				{
 					"component": "DestinySandboxPerkDefinition",
 					"path": "setPerks.[].sandboxPerkHash"
 				}
@@ -520,6 +560,10 @@
 				{
 					"component": "DestinyIconDefinition",
 					"path": "displayProperties.iconHash"
+				},
+				{
+					"enum": "DestinyGender",
+					"path": "genderedClassNames.{}"
 				},
 				{
 					"component": "DestinyVendorDefinition",
@@ -763,8 +807,20 @@
 					"path": "challenges.[].dummyRewards.[].itemHash"
 				},
 				{
+					"component": "DestinyActivityFamilyDefinition",
+					"path": "activityFamilyHashes.[]"
+				},
+				{
+					"component": "DestinyTraitDefinition",
+					"path": "traitHashes.[]"
+				},
+				{
 					"component": "DestinyActivityDifficultyTierCollectionDefinition",
 					"path": "difficultyTierCollectionHash"
+				},
+				{
+					"component": "DestinyActivitySelectableSkullCollectionDefinition",
+					"path": "selectableSkullCollectionHashes.[]"
 				},
 				{
 					"component": "DestinyActivityDefinition",
@@ -777,6 +833,10 @@
 				{
 					"enum": "DestinyActivityModeType",
 					"path": "playlistItems.[].directActivityModeType"
+				},
+				{
+					"component": "DestinyActivityModeDefinition",
+					"path": "playlistItems.[].activityModeHashes.[]"
 				},
 				{
 					"enum": "DestinyActivityModeType",
@@ -799,8 +859,16 @@
 					"path": "loadouts.[].requirements.[].equipmentSlotHash"
 				},
 				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "loadouts.[].requirements.[].allowedEquippedItemHashes.[]"
+				},
+				{
 					"enum": "DestinyItemSubType",
 					"path": "loadouts.[].requirements.[].allowedWeaponSubTypes.[]"
+				},
+				{
+					"component": "DestinyActivityModeDefinition",
+					"path": "activityModeHashes.[]"
 				},
 				{
 					"enum": "DestinyActivityModeType",
@@ -945,6 +1013,27 @@
 				}
 			]
 		},
+		"DestinyActivityFamilyDefinition": {
+			"component": "DestinyActivityFamilyDefinition",
+			"links": [
+				{
+					"component": "DestinyTraitDefinition",
+					"path": "traits.[]"
+				},
+				{
+					"component": "DestinyActivitySkullCategoryDefinition",
+					"path": "disabledSkullCategoryHashes.[]"
+				},
+				{
+					"component": "DestinyActivitySkullSubcategoryDefinition",
+					"path": "disabledSkullSubcategoryHashes.[]"
+				},
+				{
+					"component": "DestinyActivitySkullSubcategoryDefinition",
+					"path": "fixedSkullSubcategoryHashes.[]"
+				}
+			]
+		},
 		"DestinyTraitDefinition": {
 			"component": "DestinyTraitDefinition",
 			"links": [
@@ -1014,6 +1103,10 @@
 				{
 					"component": "DestinyTraitDefinition",
 					"path": "difficultyTiers.[].optionalRequiredTrait"
+				},
+				{
+					"component": "DestinyActivitySelectableSkullCollectionDefinition",
+					"path": "difficultyTiers.[].selectableSkullCollectionHashes.[]"
 				}
 			]
 		},
@@ -1023,6 +1116,10 @@
 				{
 					"component": "DestinyIconDefinition",
 					"path": "displayProperties.iconHash"
+				},
+				{
+					"component": "DestinyActivitySkullSubcategoryDefinition",
+					"path": "skullSubcategoryHashes.[]"
 				},
 				{
 					"component": "DestinyTraitDefinition",
@@ -1055,6 +1152,15 @@
 				{
 					"enum": "DestinyActivityModifierConnotation",
 					"path": "selectableActivitySkulls.[].activitySkull.activityModifierConnotation"
+				}
+			]
+		},
+		"DestinyActivityLoadoutRestrictionDefinition": {
+			"component": "DestinyActivityLoadoutRestrictionDefinition",
+			"links": [
+				{
+					"component": "DestinyEquipmentSlotDefinition",
+					"path": "restrictedEquipmentSlotHashes.[]"
 				}
 			]
 		},
@@ -1193,6 +1299,14 @@
 				{
 					"enum": "DestinyPresentationNodeType",
 					"path": "presentationNodeType"
+				},
+				{
+					"component": "DestinyTraitDefinition",
+					"path": "traitHashes.[]"
+				},
+				{
+					"component": "DestinyPresentationNodeDefinition",
+					"path": "parentNodeHashes.[]"
 				}
 			]
 		},
@@ -1228,12 +1342,24 @@
 					"path": "presentationInfo.presentationNodeType"
 				},
 				{
+					"component": "DestinyPresentationNodeDefinition",
+					"path": "presentationInfo.parentPresentationNodeHashes.[]"
+				},
+				{
 					"enum": "DestinyPresentationDisplayStyle",
 					"path": "presentationInfo.displayStyle"
 				},
 				{
 					"enum": "DestinyPresentationNodeType",
 					"path": "presentationNodeType"
+				},
+				{
+					"component": "DestinyTraitDefinition",
+					"path": "traitHashes.[]"
+				},
+				{
+					"component": "DestinyPresentationNodeDefinition",
+					"path": "parentNodeHashes.[]"
 				}
 			]
 		},
@@ -1253,6 +1379,10 @@
 					"path": "presentationInfo.presentationNodeType"
 				},
 				{
+					"component": "DestinyPresentationNodeDefinition",
+					"path": "presentationInfo.parentPresentationNodeHashes.[]"
+				},
+				{
 					"enum": "DestinyPresentationDisplayStyle",
 					"path": "presentationInfo.displayStyle"
 				},
@@ -1261,8 +1391,16 @@
 					"path": "loreHash"
 				},
 				{
+					"component": "DestinyObjectiveDefinition",
+					"path": "objectiveHashes.[]"
+				},
+				{
 					"enum": "DestinyRecordValueStyle",
 					"path": "recordValueStyle"
+				},
+				{
+					"enum": "DestinyGender",
+					"path": "titleInfo.titlesByGender.{}"
 				},
 				{
 					"component": "DestinyRecordDefinition",
@@ -1287,6 +1425,14 @@
 				{
 					"enum": "DestinyPresentationNodeType",
 					"path": "presentationNodeType"
+				},
+				{
+					"component": "DestinyTraitDefinition",
+					"path": "traitHashes.[]"
+				},
+				{
+					"component": "DestinyPresentationNodeDefinition",
+					"path": "parentNodeHashes.[]"
 				}
 			]
 		},
@@ -1313,6 +1459,14 @@
 				{
 					"enum": "DestinyPresentationNodeType",
 					"path": "presentationNodeType"
+				},
+				{
+					"component": "DestinyTraitDefinition",
+					"path": "traitHashes.[]"
+				},
+				{
+					"component": "DestinyPresentationNodeDefinition",
+					"path": "parentNodeHashes.[]"
 				}
 			]
 		},
@@ -1345,6 +1499,10 @@
 					"path": "displayProperties.iconHash"
 				},
 				{
+					"component": "DestinyMaterialRequirementSetDefinition",
+					"path": "reusablePlugItems.[].craftingRequirements.materialRequirementHashes.[]"
+				},
+				{
 					"component": "DestinyInventoryItemDefinition",
 					"path": "reusablePlugItems.[].plugItemHash"
 				}
@@ -1372,6 +1530,10 @@
 				{
 					"enum": "DestinyClass",
 					"path": "grantDestinyClass"
+				},
+				{
+					"component": "DestinyItemCategoryDefinition",
+					"path": "groupedCategoryHashes.[]"
 				}
 			]
 		},
@@ -1455,6 +1617,10 @@
 				},
 				{
 					"component": "DestinyInventoryItemDefinition",
+					"path": "eventCardCurrencyList.[]"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
 					"path": "ticketCurrencyItemHash"
 				},
 				{
@@ -1535,6 +1701,14 @@
 				{
 					"component": "DestinySocialCommendationNodeDefinition",
 					"path": "parentCommendationNodeHash"
+				},
+				{
+					"component": "DestinySocialCommendationNodeDefinition",
+					"path": "childCommendationNodeHashes.[]"
+				},
+				{
+					"component": "DestinySocialCommendationDefinition",
+					"path": "childCommendationHashes.[]"
 				}
 			]
 		},
@@ -1565,6 +1739,10 @@
 				{
 					"enum": "DestinyRace",
 					"path": "raceType"
+				},
+				{
+					"enum": "DestinyGender",
+					"path": "genderedRaceNames.{}"
 				}
 			]
 		},
@@ -1685,6 +1863,10 @@
 				},
 				{
 					"component": "DestinyPresentationNodeDefinition",
+					"path": "pathfinderConstants.allPathfinderRootNodeHashes.[]"
+				},
+				{
+					"component": "DestinyPresentationNodeDefinition",
 					"path": "collectionsRootNodeHash"
 				},
 				{
@@ -1745,12 +1927,41 @@
 				}
 			]
 		},
+		"DestinyItemFilterDefinition": {
+			"component": "DestinyItemFilterDefinition",
+			"links": [
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "allowedItems.[]"
+				}
+			]
+		},
 		"DestinyLoadoutConstantsDefinition": {
 			"component": "DestinyLoadoutConstantsDefinition",
 			"links": [
 				{
 					"component": "DestinyIconDefinition",
 					"path": "displayProperties.iconHash"
+				},
+				{
+					"component": "DestinySocketCategoryDefinition",
+					"path": "loadoutPreviewFilterOutSocketCategoryHashes.[]"
+				},
+				{
+					"component": "DestinySocketTypeDefinition",
+					"path": "loadoutPreviewFilterOutSocketTypeHashes.[]"
+				},
+				{
+					"component": "DestinyLoadoutNameDefinition",
+					"path": "loadoutNameHashes.[]"
+				},
+				{
+					"component": "DestinyLoadoutIconDefinition",
+					"path": "loadoutIconHashes.[]"
+				},
+				{
+					"component": "DestinyLoadoutColorDefinition",
+					"path": "loadoutColorHashes.[]"
 				}
 			]
 		},
@@ -1760,6 +1971,10 @@
 				{
 					"component": "DestinyIconDefinition",
 					"path": "displayProperties.iconHash"
+				},
+				{
+					"component": "DestinyGuardianRankDefinition",
+					"path": "guardianRankHashes.[]"
 				},
 				{
 					"component": "DestinyPresentationNodeDefinition",
@@ -1773,6 +1988,14 @@
 				{
 					"component": "DestinyIconDefinition",
 					"path": "displayProperties.iconHash"
+				},
+				{
+					"component": "DestinyFireteamFinderActivityGraphDefinition",
+					"path": "fireteamFinderActivityGraphRootCategoryHashes.[]"
+				},
+				{
+					"component": "DestinyActivityDefinition",
+					"path": "allFireteamFinderActivityHashes.[]"
 				},
 				{
 					"component": "DestinyIconDefinition",
@@ -1796,8 +2019,24 @@
 					"path": "parentHash"
 				},
 				{
+					"component": "DestinyFireteamFinderActivityGraphDefinition",
+					"path": "children.[]"
+				},
+				{
+					"component": "DestinyFireteamFinderActivityGraphDefinition",
+					"path": "selfAndAllDescendantHashes.[]"
+				},
+				{
+					"component": "DestinyFireteamFinderActivitySetDefinition",
+					"path": "relatedActivitySetHashes.[]"
+				},
+				{
 					"component": "DestinyFireteamFinderActivitySetDefinition",
 					"path": "specificActivitySetHash"
+				},
+				{
+					"component": "DestinyActivityDefinition",
+					"path": "relatedActivityHashes.[]"
 				},
 				{
 					"component": "DestinyActivityGraphDefinition",
@@ -1808,12 +2047,37 @@
 					"path": "relatedInteractableActivities.[].activityInteractableHash"
 				},
 				{
+					"component": "DestinyLocationDefinition",
+					"path": "relatedLocationHashes.[]"
+				},
+				{
 					"enum": "DestinyActivityTreeType",
 					"path": "enabledOnTreeTypesListEnum.[]"
 				},
 				{
 					"enum": "DestinyActivityTreeChildSortMode",
 					"path": "activityTreeChildSortMode"
+				}
+			]
+		},
+		"DestinyFireteamFinderActivitySetDefinition": {
+			"component": "DestinyFireteamFinderActivitySetDefinition",
+			"links": [
+				{
+					"component": "DestinyFireteamFinderOptionDefinition",
+					"path": "optionHashes.[]"
+				},
+				{
+					"component": "DestinyFireteamFinderLabelDefinition",
+					"path": "labelHashes.[]"
+				},
+				{
+					"component": "DestinyFireteamFinderActivityGraphDefinition",
+					"path": "activityGraphHashes.[]"
+				},
+				{
+					"component": "DestinyActivityDefinition",
+					"path": "activityHashes.[]"
 				}
 			]
 		},
@@ -2259,7 +2523,8 @@
 					"name": "Item",
 					"value": 2
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinyStatCategory": {
 			"name": "DestinyStatCategory",
@@ -2280,7 +2545,8 @@
 					"name": "Primary",
 					"value": 3
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinyProgressionScope": {
 			"name": "DestinyProgressionScope",
@@ -2321,7 +2587,8 @@
 					"name": "MappedUnlockValue",
 					"value": 8
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinyProgressionStepDisplayEffect": {
 			"name": "DestinyProgressionStepDisplayEffect",
@@ -2338,7 +2605,8 @@
 					"name": "Item",
 					"value": 2
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinyProgressionRewardItemAcquisitionBehavior": {
 			"name": "DestinyProgressionRewardItemAcquisitionBehavior",
@@ -2351,7 +2619,8 @@
 					"name": "PlayerClaimRequired",
 					"value": 1
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"TierType": {
 			"name": "TierType",
@@ -2397,7 +2666,8 @@
 					"name": "EquipOnAcquire",
 					"value": 1
 				}
-			]
+			],
+			"bitmask": true
 		},
 		"DestinyAmmunitionType": {
 			"name": "DestinyAmmunitionType",
@@ -2422,7 +2692,8 @@
 					"name": "Unknown",
 					"value": 4
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"PlugUiStyles": {
 			"name": "PlugUiStyles",
@@ -2435,7 +2706,8 @@
 					"name": "Masterwork",
 					"value": 1
 				}
-			]
+			],
+			"bitmask": true
 		},
 		"PlugAvailabilityMode": {
 			"name": "PlugAvailabilityMode",
@@ -2452,7 +2724,8 @@
 					"name": "AvailableIfSocketContainsMatchingPlugCategory",
 					"value": 2
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinyEnergyType": {
 			"name": "DestinyEnergyType",
@@ -2485,7 +2758,8 @@
 					"name": "Stasis",
 					"value": 6
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"SocketPlugSources": {
 			"name": "SocketPlugSources",
@@ -2515,7 +2789,8 @@
 					"value": 8,
 					"description": "Use the CharacterPlugSets (DestinyProfileResponse.characterPlugSets) component data to determine which plugs are valid for this socket."
 				}
-			]
+			],
+			"bitmask": true
 		},
 		"DamageType": {
 			"name": "DamageType",
@@ -2552,7 +2827,8 @@
 					"name": "Strand",
 					"value": 7
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"ItemPerkVisibility": {
 			"name": "ItemPerkVisibility",
@@ -2569,7 +2845,8 @@
 					"name": "Hidden",
 					"value": 2
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"SpecialItemType": {
 			"name": "SpecialItemType",
@@ -2610,7 +2887,8 @@
 					"name": "Currency",
 					"value": 29
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinyItemType": {
 			"name": "DestinyItemType",
@@ -2727,7 +3005,8 @@
 					"name": "Pattern",
 					"value": 30
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinyItemSubType": {
 			"name": "DestinyItemSubType",
@@ -2860,7 +3139,8 @@
 					"name": "Glaive",
 					"value": 33
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinyClass": {
 			"name": "DestinyClass",
@@ -2881,7 +3161,8 @@
 					"name": "Unknown",
 					"value": 3
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinyBreakerType": {
 			"name": "DestinyBreakerType",
@@ -2902,7 +3183,8 @@
 					"name": "Stagger",
 					"value": 3
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"SocketTypeActionType": {
 			"name": "SocketTypeActionType",
@@ -2919,7 +3201,8 @@
 					"name": "ReinitializeSocket",
 					"value": 2
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinySocketVisibility": {
 			"name": "DestinySocketVisibility",
@@ -2940,7 +3223,8 @@
 					"name": "HiddenIfNoPlugsAvailable",
 					"value": 3
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinySocketCategoryStyle": {
 			"name": "DestinySocketCategoryStyle",
@@ -2981,7 +3265,8 @@
 					"name": "Supers",
 					"value": 8
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"BucketScope": {
 			"name": "BucketScope",
@@ -2994,7 +3279,8 @@
 					"name": "Account",
 					"value": 1
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"BucketCategory": {
 			"name": "BucketCategory",
@@ -3019,7 +3305,8 @@
 					"name": "Ignored",
 					"value": 4
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"ItemLocation": {
 			"name": "ItemLocation",
@@ -3044,7 +3331,8 @@
 					"name": "Postmaster",
 					"value": 4
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinyGender": {
 			"name": "DestinyGender",
@@ -3061,7 +3349,8 @@
 					"name": "Unknown",
 					"value": 2
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinyVendorProgressionType": {
 			"name": "DestinyVendorProgressionType",
@@ -3081,7 +3370,8 @@
 					"value": 2,
 					"description": "A vendor progression with no seasonal refresh. For example: Xur in the Eternity destination for the 30th Anniversary."
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"VendorDisplayCategorySortOrder": {
 			"name": "VendorDisplayCategorySortOrder",
@@ -3094,7 +3384,8 @@
 					"name": "SortByTier",
 					"value": 1
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinyVendorInteractionRewardSelection": {
 			"name": "DestinyVendorInteractionRewardSelection",
@@ -3111,7 +3402,8 @@
 					"name": "All",
 					"value": 2
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinyVendorReplyType": {
 			"name": "DestinyVendorReplyType",
@@ -3128,7 +3420,8 @@
 					"name": "Complete",
 					"value": 2
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"VendorInteractionType": {
 			"name": "VendorInteractionType",
@@ -3187,7 +3480,8 @@
 					"value": 10,
 					"description": "Also seem inconsistent. I also don't know what these are offhand."
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinyItemSortType": {
 			"name": "DestinyItemSortType",
@@ -3204,7 +3498,8 @@
 					"name": "StackSize",
 					"value": 2
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinyVendorItemRefundPolicy": {
 			"name": "DestinyVendorItemRefundPolicy",
@@ -3221,7 +3516,8 @@
 					"name": "RevokesLicense",
 					"value": 2
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinyGatingScope": {
 			"name": "DestinyGatingScope",
@@ -3254,7 +3550,8 @@
 					"name": "AssumedWorstCase",
 					"value": 6
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"ActivityGraphNodeHighlightType": {
 			"name": "ActivityGraphNodeHighlightType",
@@ -3279,7 +3576,8 @@
 					"name": "RiseOfIron",
 					"value": 4
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinyGraphNodeState": {
 			"name": "DestinyGraphNodeState",
@@ -3304,7 +3602,8 @@
 					"name": "Completed",
 					"value": 4
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinyActivityModeType": {
 			"name": "DestinyActivityModeType",
@@ -3650,7 +3949,8 @@
 					"name": "Relic",
 					"value": 92
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinyUnlockValueUIStyle": {
 			"name": "DestinyUnlockValueUIStyle",
@@ -3730,7 +4030,8 @@
 					"value": 14,
 					"description": "Show the value as a level and a reward."
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinyObjectiveGrantStyle": {
 			"name": "DestinyObjectiveGrantStyle",
@@ -3747,7 +4048,8 @@
 					"name": "Always",
 					"value": 2
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinyObjectiveUiStyle": {
 			"name": "DestinyObjectiveUiStyle",
@@ -3804,7 +4106,8 @@
 					"name": "DiscoverableExotic",
 					"value": 12
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinyActivityNavPointType": {
 			"name": "DestinyActivityNavPointType",
@@ -3877,7 +4180,8 @@
 					"name": "TrackedQuest",
 					"value": 16
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinyActivityModeCategory": {
 			"name": "DestinyActivityModeCategory",
@@ -3902,7 +4206,8 @@
 					"value": 3,
 					"description": "PVE competitive activities, where you shoot whoever you want whenever you want. Or run around collecting small glowing triangles."
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinyActivityDifficultyId": {
 			"name": "DestinyActivityDifficultyId",
@@ -3943,7 +4248,8 @@
 					"name": "Count",
 					"value": 8
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinyActivitySkullDynamicUse": {
 			"name": "DestinyActivitySkullDynamicUse",
@@ -3964,7 +4270,8 @@
 					"name": "Count",
 					"value": 3
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinyActivityModifierDisplayCategory": {
 			"name": "DestinyActivityModifierDisplayCategory",
@@ -4001,7 +4308,8 @@
 					"name": "Count",
 					"value": 7
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinyActivityModifierConnotation": {
 			"name": "DestinyActivityModifierConnotation",
@@ -4038,7 +4346,8 @@
 					"name": "Count",
 					"value": 7
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinyActivityDifficultyTierType": {
 			"name": "DestinyActivityDifficultyTierType",
@@ -4055,7 +4364,8 @@
 					"name": "Count",
 					"value": 2
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinyRewardSourceCategory": {
 			"name": "DestinyRewardSourceCategory",
@@ -4080,7 +4390,8 @@
 					"value": 3,
 					"description": "This source is a custom aggregation of items that can be earned in many ways, but that share some other property in common that is useful to share. For instance, in Destiny 1 we would make \"Reward Sources\" for every game expansion: that way, you could search reward sources to see what items became available with any given Expansion."
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinyPresentationNodeType": {
 			"name": "DestinyPresentationNodeType",
@@ -4109,7 +4420,8 @@
 					"name": "Craftable",
 					"value": 5
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinyScope": {
 			"name": "DestinyScope",
@@ -4122,7 +4434,8 @@
 					"name": "Character",
 					"value": 1
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinyPresentationDisplayStyle": {
 			"name": "DestinyPresentationDisplayStyle",
@@ -4212,7 +4525,8 @@
 					"name": "CategoryUpgradeMaterials",
 					"value": 20
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinyPresentationScreenStyle": {
 			"name": "DestinyPresentationScreenStyle",
@@ -4232,7 +4546,8 @@
 					"value": 2,
 					"description": "Show sub-items as Badges. (I know, I know. We don't need no stinkin' badges har har har)"
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinyRecordValueStyle": {
 			"name": "DestinyRecordValueStyle",
@@ -4257,7 +4572,8 @@
 					"name": "Decimal",
 					"value": 4
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinyRecordToastStyle": {
 			"name": "DestinyRecordToastStyle",
@@ -4330,7 +4646,8 @@
 					"name": "SeasonDailyComplete",
 					"value": 16
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinyRace": {
 			"name": "DestinyRace",
@@ -4351,7 +4668,8 @@
 					"name": "Unknown",
 					"value": 3
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinyMilestoneDisplayPreference": {
 			"name": "DestinyMilestoneDisplayPreference",
@@ -4371,7 +4689,8 @@
 					"value": 2,
 					"description": "Indicates you should show the displayProperties for any currently active Activities and their Challenges in DestinyMilestone.activities."
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinyMilestoneType": {
 			"name": "DestinyMilestoneType",
@@ -4405,7 +4724,8 @@
 					"value": 5,
 					"description": "Special indicates that the event is not on a daily/weekly cadence, but does occur more than once. For instance, Iron Banner in Destiny 1 or the Dawning were examples of what could be termed \"Special\" events."
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinyActivityTreeType": {
 			"name": "DestinyActivityTreeType",
@@ -4430,7 +4750,8 @@
 					"name": "Count",
 					"value": 4
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DestinyActivityTreeChildSortMode": {
 			"name": "DestinyActivityTreeChildSortMode",
@@ -4447,7 +4768,8 @@
 					"name": "BonusAndFocusFirst",
 					"value": 2
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"FireteamFinderCodeOptionType": {
 			"name": "FireteamFinderCodeOptionType",
@@ -4484,7 +4806,8 @@
 					"name": "MicrophoneRequired",
 					"value": 7
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"FireteamFinderOptionAvailability": {
 			"name": "FireteamFinderOptionAvailability",
@@ -4509,7 +4832,8 @@
 					"name": "LobbyViewer",
 					"value": 8
 				}
-			]
+			],
+			"bitmask": true
 		},
 		"FireteamFinderOptionVisibility": {
 			"name": "FireteamFinderOptionVisibility",
@@ -4522,7 +4846,8 @@
 					"name": "ShowWhenChangedFromDefault",
 					"value": 1
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"FireteamFinderOptionControlType": {
 			"name": "FireteamFinderOptionControlType",
@@ -4539,7 +4864,8 @@
 					"name": "RadioButton",
 					"value": 2
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"FireteamFinderOptionSearchFilterType": {
 			"name": "FireteamFinderOptionSearchFilterType",
@@ -4580,7 +4906,8 @@
 					"name": "LessThanOrEqualTo",
 					"value": 8
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"FireteamFinderOptionDisplayFormat": {
 			"name": "FireteamFinderOptionDisplayFormat",
@@ -4601,7 +4928,8 @@
 					"name": "FormatString",
 					"value": 3
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"FireteamFinderOptionValueProviderType": {
 			"name": "FireteamFinderOptionValueProviderType",
@@ -4630,7 +4958,8 @@
 					"name": "FireteamFinderUIActivityTree",
 					"value": 5
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"FireteamFinderOptionValueFlags": {
 			"name": "FireteamFinderOptionValueFlags",
@@ -4647,7 +4976,8 @@
 					"name": "SearchFilterDefaultValue",
 					"value": 2
 				}
-			]
+			],
+			"bitmask": true
 		},
 		"FireteamFinderLabelFieldType": {
 			"name": "FireteamFinderLabelFieldType",
@@ -4660,7 +4990,8 @@
 					"name": "Label",
 					"value": 1
 				}
-			]
+			],
+			"bitmask": false
 		},
 		"DeepsightItemSourceType": {
 			"name": "DeepsightItemSourceType",
