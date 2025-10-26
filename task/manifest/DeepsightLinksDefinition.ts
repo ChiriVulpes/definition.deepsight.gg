@@ -470,6 +470,9 @@ export default Task('DeepsightLinksDefinition', async () => {
 	}
 	addAugmentation('DestinyInventoryItemDefinition', 'DeepsightPlugCategorisation')
 
+	addAugmentation('DestinyInventoryItemDefinition', 'ClarityDescriptions')
+	addAugmentation('DestinyInventoryItemDefinition', 'DeepsightFormattedClarityDescriptions')
+
 	//#endregion
 	////////////////////////////////////
 
