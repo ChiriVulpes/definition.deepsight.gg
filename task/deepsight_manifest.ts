@@ -13,6 +13,7 @@ import DeepsightFormattedClarityDescriptions from './manifest/DeepsightFormatted
 import DeepsightIconDefinition from './manifest/DeepsightIconDefinition'
 import DeepsightItemDamageTypesDefinition from './manifest/DeepsightItemDamageTypesDefinition'
 import DeepsightItemSourceDefinition from './manifest/DeepsightItemSourceDefinition'
+import DeepsightLinksDefinition from './manifest/DeepsightLinksDefinition'
 import DeepsightMomentDefinition from './manifest/DeepsightMomentDefinition'
 import DeepsightPlugCategorisation from './manifest/DeepsightPlugCategorisation'
 import DeepsightSocketCategorisation from './manifest/DeepsightSocketCategorisation'
@@ -46,6 +47,7 @@ export default Task('deepsight_manifest', task => task.series(
 		DeepsightItemSourceDefinition,
 		DeepsightFormattedClarityDescriptions,
 		DeepsightIconDefinition,
+		DeepsightLinksDefinition,
 
 		task.series(
 			task.parallel(
