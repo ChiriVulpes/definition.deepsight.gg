@@ -47,6 +47,7 @@ export default Task('DeepsightLinksDefinition', async () => {
 		'format': OpenAPINumberFormat
 		'enum': `${number}`[]
 		'x-enum-values'?: OpenAPIEnumValue[]
+		'x-enum-is-bitmask'?: true
 	}
 
 	interface OpenAPIEnumValue {
@@ -70,6 +71,7 @@ export default Task('DeepsightLinksDefinition', async () => {
 		}
 		'allOf'?: (OpenAPIDefinition | OpenAPIReference)[]
 		'x-destiny-component-type-dependency'?: string
+		'x-dictionary-key'?: OpenAPINumberDefinition | OpenAPIStringDefinition
 	}
 
 	//#endregion
@@ -79,8 +81,11 @@ export default Task('DeepsightLinksDefinition', async () => {
 	//#region Array
 
 	interface OpenAPIArrayDefinition extends OpenAPIBaseDefinition {
-		type: 'array'
-		items: OpenAPIDefinition | OpenAPIReference
+		'type': 'array'
+		'items': OpenAPIDefinition | OpenAPIReference
+		'x-mapped-definition'?: {
+			$ref: `${typeof OPEN_API_REFERENCE_PREFIX}${string}`
+		}
 	}
 
 	//#endregion
@@ -104,11 +109,11 @@ export default Task('DeepsightLinksDefinition', async () => {
 		'type': 'number' | 'integer'
 		'format': OpenAPINumberFormat
 		'x-enum-reference'?: {
-			$ref: `#/components/schemas/${string}`
+			$ref: `${typeof OPEN_API_REFERENCE_PREFIX}${string}`
 		}
 		'x-enum-is-bitmask'?: boolean
 		'x-mapped-definition'?: {
-			$ref: `#/definitions/${string}`
+			$ref: `${typeof OPEN_API_REFERENCE_PREFIX}${string}`
 		}
 	}
 
@@ -157,7 +162,7 @@ export default Task('DeepsightLinksDefinition', async () => {
 				links,
 			}
 
-		function getLinks (def?: OpenAPIDefinition | OpenAPIReference, path: string[] = []): (DeepsightDefinitionLinkDefinition | DeepsightEnumLinkDefinition)[] {
+		function getLinks (def?: OpenAPIDefinition | OpenAPIReference, path: string[] = [], mappedDef?: OpenAPIReference): (DeepsightDefinitionLinkDefinition | DeepsightEnumLinkDefinition)[] {
 			if (!def)
 				return []
 
@@ -167,7 +172,8 @@ export default Task('DeepsightLinksDefinition', async () => {
 			}
 
 			if (def.type === 'number' || (def.type === 'integer' && !('enum' in def) && !('x-enum-reference' in def))) {
-				const defName = def['x-mapped-definition']?.$ref.slice(OPEN_API_REFERENCE_PREFIX.length)
+				mappedDef = def['x-mapped-definition'] ?? mappedDef
+				const defName = mappedDef?.$ref.slice(OPEN_API_REFERENCE_PREFIX.length)
 				const componentName = defName && componentNamesToDefNamesAndViceVersa.get(defName) as ComponentNames | undefined
 				return !componentName ? []
 					: [{ component: componentName, path: path.join('.') }]
@@ -184,17 +190,24 @@ export default Task('DeepsightLinksDefinition', async () => {
 				return []
 
 			if (def.type === 'array')
-				return getLinks(def.items, [...path, '[]'])
+				return getLinks(def.items, [...path, '[]'], def['x-mapped-definition'])
 
 			const links: (DeepsightDefinitionLinkDefinition | DeepsightEnumLinkDefinition)[] = []
+
 			if (def.properties)
 				for (const [propName, propDef] of Object.entries(def.properties))
 					links.push(...getLinks(propDef, [...path, propName]))
+
+			if (def.additionalProperties && def['x-dictionary-key'])
+				links.push(...getLinks(def['x-dictionary-key'], [...path, '{}']))
+
 			if (def.additionalProperties && '$ref' in def.additionalProperties)
 				links.push(...getLinks(def.additionalProperties, [...path, '{}']))
+
 			if (def.allOf)
 				for (const subDef of def.allOf)
 					links.push(...getLinks(subDef, path))
+
 			return links
 		}
 	}
@@ -234,6 +247,7 @@ export default Task('DeepsightLinksDefinition', async () => {
 			enums[enumName] = {
 				name: enumName,
 				members,
+				bitmask: schema['x-enum-is-bitmask'],
 			}
 		}
 	}

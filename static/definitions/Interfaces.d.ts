@@ -622,7 +622,7 @@ export declare interface DeepsightEnumDefinition {
 	name: string
 	description?: string
 	members: DeepsightEnumMemberDefinition[]
-	bitwise?: true
+	bitmask?: true
 }
 
 export declare interface DeepsightEnumMemberDefinition {
