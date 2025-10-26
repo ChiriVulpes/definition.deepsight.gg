@@ -1,4 +1,4 @@
-import type { DestinyColor, DestinyDisplayCategoryDefinition, DestinyDisplayPropertiesDefinition, DestinyIconDefinition, DestinyItemComponentSetOfuint32, DestinyItemQuantity, DestinyVendorItemDefinition, DestinyVendorLocationDefinition, TierType } from 'bungie-api-ts/destiny2'
+import type { AllDestinyManifestComponents, DestinyColor, DestinyDisplayCategoryDefinition, DestinyDisplayPropertiesDefinition, DestinyIconDefinition, DestinyItemComponentSetOfuint32, DestinyItemQuantity, DestinyVendorItemDefinition, DestinyVendorLocationDefinition, TierType } from 'bungie-api-ts/destiny2'
 import type { BreakerSource } from './DeepsightBreakerTypeDefinition'
 import type { DeepsightPlugCategorisation, DeepsightSocketCategorisationDefinition } from './DeepsightPlugCategorisation'
 import type { ActivityHashes, ActivityModifierHashes, BreakerTypeHashes, CollectibleHashes, DamageTypeHashes, EventCardHashes, InventoryBucketHashes, InventoryItemHashes, ItemTierTypeHashes, MomentHashes, ObjectiveHashes, RecordHashes, SeasonHashes, TraitHashes, VendorGroupHashes, VendorHashes } from './Enums'
@@ -80,6 +80,8 @@ export declare interface DeepsightManifestComponentsMap {
 	DeepsightItemSourceListDefinition: Record<number, DeepsightItemSourceListDefinition>
 	DeepsightFormattedClarityDescriptions: Record<number, ClarityDescription>
 	DeepsightIconDefinition: Record<number, DestinyIconDefinition>
+	DeepsightVariantDefinition: DeepsightVariantDefinition
+	DeepsightLinksDefinition: DeepsightLinksDefinition
 }
 
 export declare interface DeepsightDisplayPropertiesDefinition {
@@ -102,6 +104,9 @@ export declare interface DeepsightDisplayPropertiesDefinition {
 
 export declare type DeepsightIconPath = `./${string}`
 export declare type BungieIconPath = `/${string}`
+
+////////////////////////////////////
+//#region Drop Tables
 
 export declare interface DeepsightDropTableDefinition {
 	/**
@@ -267,6 +272,12 @@ export declare interface DeepsightDropTableRotationsDefinition {
 	challenges?: ActivityModifierHashes[]
 }
 
+//#endregion
+////////////////////////////////////
+
+////////////////////////////////////
+//#region Moment
+
 export declare interface DeepsightMomentDefinition {
 	hash: MomentHashes
 	id: string
@@ -293,6 +304,12 @@ export declare interface DeepsightMomentDefinition {
 	itemHashes?: InventoryItemHashes[]
 }
 
+//#endregion
+////////////////////////////////////
+
+////////////////////////////////////
+//#region Wallpapers
+
 /**
  * Destiny 2 wallpapers Bungie has released indexed by `DeepsightMomentDefinition` hashes.
  */
@@ -315,6 +332,12 @@ export declare interface DeepsightWallpaperDefinition {
 	secondaryWallpapers: string[]
 }
 
+//#endregion
+////////////////////////////////////
+
+////////////////////////////////////
+//#region Tier Type
+
 export declare interface DeepsightTierTypeDefinition {
 	/**
 	 * A `DestinyItemTierTypeDefinition` hash.
@@ -329,6 +352,12 @@ export declare interface DeepsightTierTypeDefinition {
 	 */
 	displayProperties: DeepsightDisplayPropertiesDefinition
 }
+
+//#endregion
+////////////////////////////////////
+
+////////////////////////////////////
+//#region Vendor
 
 export declare interface DeepsightVendorDefinition {
 	/**
@@ -371,16 +400,34 @@ export declare interface DeepsightVendorItemDefinition extends DestinyVendorItem
 	itemComponent: DestinyItemComponentSetOfuint32
 }
 
+//#endregion
+////////////////////////////////////
+
+////////////////////////////////////
+//#region Stats
+
 export declare interface DeepsightStats {
 	powerFloor: number
 	activeEvent?: EventCardHashes
 }
+
+//#endregion
+////////////////////////////////////
+
+////////////////////////////////////
+//#region Collections
 
 export declare interface DeepsightCollectionsDefinition {
 	hash: MomentHashes
 	buckets: Partial<Record<InventoryBucketHashes, InventoryItemHashes[]>>
 }
 export declare type DeepsightCollectionsDefinitionManifest = Partial<Record<MomentHashes, DeepsightCollectionsDefinition>>
+
+//#endregion
+////////////////////////////////////
+
+////////////////////////////////////
+//#region Variant
 
 export declare interface DeepsightVariantDefinition {
 	variantGroupLookupTable: Partial<Record<InventoryItemHashes, number>>
@@ -403,10 +450,22 @@ export declare type DeepsightVariantTag = (
 	| 'holofoil'
 )
 
+//#endregion
+////////////////////////////////////
+
+////////////////////////////////////
+//#region Adept
+
 export declare interface DeepsightAdeptDefinition {
 	hash: InventoryItemHashes
 	base: InventoryItemHashes
 }
+
+//#endregion
+////////////////////////////////////
+
+////////////////////////////////////
+//#region Emblem
 
 export declare interface DeepsightEmblemDefinition {
 	hash: InventoryItemHashes
@@ -417,6 +476,12 @@ export declare interface DeepsightEmblemDefinition {
 	backgroundColor: DestinyColor
 	collectibleHash?: CollectibleHashes
 }
+
+//#endregion
+////////////////////////////////////
+
+////////////////////////////////////
+//#region Socket Extended
 
 export declare interface DeepsightSocketExtendedDefinition {
 	hash: InventoryItemHashes
@@ -431,12 +496,24 @@ export declare interface DeepsightSocketExtendedPlugItemDefinition {
 	plugItemHash: InventoryItemHashes
 }
 
+//#endregion
+////////////////////////////////////
+
+////////////////////////////////////
+//#region Catalyst
+
 export declare interface DeepsightCatalystDefinition {
 	hash: InventoryItemHashes
 	record: RecordHashes
 	primaryObjectiveHashes: ObjectiveHashes[]
 	progressDescription: string
 }
+
+//#endregion
+////////////////////////////////////
+
+////////////////////////////////////
+//#region Breaker
 
 export declare interface DeepsightBreakerSourceDefinition {
 	hash: BreakerSource
@@ -451,10 +528,22 @@ export declare interface DeepsightBreakerTypeDefinition {
 	types: BreakerTypeHashes[]
 }
 
+//#endregion
+////////////////////////////////////
+
+////////////////////////////////////
+//#region Damage Types
+
 export declare interface DeepsightItemDamageTypesDefinition {
 	hash: InventoryItemHashes
 	damageTypes: DamageTypeHashes[]
 }
+
+//#endregion
+////////////////////////////////////
+
+////////////////////////////////////
+//#region Source
 
 export declare const enum DeepsightItemSourceType {
 	CommanderZavalaLegacyGear,
@@ -499,6 +588,54 @@ export declare interface DeepsightItemSourceDefinition {
 	event?: EventCardHashes
 	displayProperties: DeepsightDisplayPropertiesDefinition
 }
+
+//#endregion
+////////////////////////////////////
+
+////////////////////////////////////
+//#region Links
+
+export declare type ComponentName = keyof AllDestinyManifestComponents | keyof DeepsightManifestComponentsMap | 'ClarityDescriptions'
+export declare interface DeepsightLinksDefinition {
+	components: Partial<Record<ComponentName, DeepsightComponentLinksDefinition>>
+	enums: Partial<Record<string, DeepsightEnumDefinition>>
+}
+
+export declare interface DeepsightComponentLinksDefinition {
+	component: ComponentName
+	links?: (DeepsightDefinitionLinkDefinition | DeepsightEnumLinkDefinition)[]
+	augmentations?: ComponentName[]
+}
+
+export declare interface DeepsightDefinitionLinkDefinition {
+	path: string
+	component: ComponentName
+	primaryKey?: string
+}
+
+export declare interface DeepsightEnumLinkDefinition {
+	path: string
+	enum: string
+}
+
+export declare interface DeepsightEnumDefinition {
+	name: string
+	description?: string
+	members: DeepsightEnumMemberDefinition[]
+	bitwise?: true
+}
+
+export declare interface DeepsightEnumMemberDefinition {
+	name: string
+	value: number
+	description?: string
+}
+
+//#endregion
+////////////////////////////////////
+
+////////////////////////////////////
+//#region Clarity
 
 export interface ClarityDescription {
 	hash: number
@@ -622,3 +759,6 @@ export interface ClarityDefinitionReferenceComponent extends ClarityComponentBas
 	type: 'definitionReference'
 	index: number
 }
+
+//#endregion
+////////////////////////////////////

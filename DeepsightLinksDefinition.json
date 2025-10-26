@@ -1,0 +1,4918 @@
+{
+	"components": {
+		"DestinyStatDefinition": {
+			"component": "DestinyStatDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"enum": "DestinyStatAggregationType",
+					"path": "aggregationType"
+				},
+				{
+					"enum": "DestinyStatCategory",
+					"path": "statCategory"
+				}
+			]
+		},
+		"DestinyProgressionDefinition": {
+			"component": "DestinyProgressionDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"enum": "DestinyProgressionScope",
+					"path": "scope"
+				},
+				{
+					"enum": "DestinyProgressionStepDisplayEffect",
+					"path": "steps.[].displayEffectType"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "steps.[].rewardItems.[].itemHash"
+				},
+				{
+					"component": "DestinyFactionDefinition",
+					"path": "factionHash"
+				},
+				{
+					"enum": "DestinyProgressionRewardItemAcquisitionBehavior",
+					"path": "rewardItems.[].acquisitionBehavior"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "rewardItems.[].socketOverrides.[].overrideSingleItemHash"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "rewardItems.[].itemHash"
+				}
+			]
+		},
+		"DestinyInventoryItemDefinition": {
+			"component": "DestinyInventoryItemDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"component": "DestinyCollectibleDefinition",
+					"path": "collectibleHash"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "action.requiredItems.[].itemHash"
+				},
+				{
+					"component": "DestinyProgressionMappingDefinition",
+					"path": "action.progressionRewards.[].progressionMappingHash"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "crafting.outputItemHash"
+				},
+				{
+					"component": "DestinyMaterialRequirementSetDefinition",
+					"path": "crafting.baseMaterialRequirements"
+				},
+				{
+					"component": "DestinySocketTypeDefinition",
+					"path": "crafting.bonusPlugs.[].socketTypeHash"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "crafting.bonusPlugs.[].plugItemHash"
+				},
+				{
+					"component": "DestinyInventoryBucketDefinition",
+					"path": "inventory.bucketTypeHash"
+				},
+				{
+					"component": "DestinyInventoryBucketDefinition",
+					"path": "inventory.recoveryBucketTypeHash"
+				},
+				{
+					"component": "DestinyItemTierTypeDefinition",
+					"path": "inventory.tierTypeHash"
+				},
+				{
+					"enum": "TierType",
+					"path": "inventory.tierType"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "inventory.recipeItemHash"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "setData.itemList.[].itemHash"
+				},
+				{
+					"component": "DestinyStatGroupDefinition",
+					"path": "stats.statGroupHash"
+				},
+				{
+					"component": "DestinyStatDefinition",
+					"path": "stats.stats.{}.statHash"
+				},
+				{
+					"component": "DestinyStatDefinition",
+					"path": "stats.primaryBaseStatHash"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "equippingBlock.gearsetItemHash"
+				},
+				{
+					"component": "DestinyEquipmentSlotDefinition",
+					"path": "equippingBlock.equipmentSlotTypeHash"
+				},
+				{
+					"enum": "EquippingItemBlockAttributes",
+					"path": "equippingBlock.attributes"
+				},
+				{
+					"enum": "DestinyAmmunitionType",
+					"path": "equippingBlock.ammoType"
+				},
+				{
+					"component": "DestinyEquipableItemSetDefinition",
+					"path": "equippingBlock.equipableItemSetHash"
+				},
+				{
+					"component": "DestinySandboxPatternDefinition",
+					"path": "translationBlock.weaponPatternHash"
+				},
+				{
+					"component": "DestinyClassDefinition",
+					"path": "translationBlock.arrangements.[].classHash"
+				},
+				{
+					"component": "DestinyVendorDefinition",
+					"path": "preview.previewVendorHash"
+				},
+				{
+					"component": "DestinyArtifactDefinition",
+					"path": "preview.artifactHash"
+				},
+				{
+					"component": "DestinyProgressionLevelRequirementDefinition",
+					"path": "quality.progressionLevelRequirementHash"
+				},
+				{
+					"component": "DestinyPowerCapDefinition",
+					"path": "quality.versions.[].powerCapHash"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "value.itemValue.[].itemHash"
+				},
+				{
+					"component": "DestinyStatDefinition",
+					"path": "sourceData.sources.[].computedStats.{}.statHash"
+				},
+				{
+					"enum": "BungieMembershipType",
+					"path": "sourceData.exclusive"
+				},
+				{
+					"component": "DestinyVendorDefinition",
+					"path": "sourceData.vendorSources.[].vendorHash"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "objectives.questlineItemHash"
+				},
+				{
+					"component": "DestinyActivityDefinition",
+					"path": "objectives.perObjectiveDisplayProperties.[].activityHash"
+				},
+				{
+					"component": "DestinyMaterialRequirementSetDefinition",
+					"path": "plug.insertionMaterialRequirementHash"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "plug.previewItemOverrideHash"
+				},
+				{
+					"component": "DestinyMaterialRequirementSetDefinition",
+					"path": "plug.enabledMaterialRequirementHash"
+				},
+				{
+					"enum": "PlugUiStyles",
+					"path": "plug.plugStyle"
+				},
+				{
+					"enum": "PlugAvailabilityMode",
+					"path": "plug.plugAvailability"
+				},
+				{
+					"enum": "PlugUiStyles",
+					"path": "plug.alternatePlugStyle"
+				},
+				{
+					"component": "DestinyEnergyTypeDefinition",
+					"path": "plug.energyCapacity.energyTypeHash"
+				},
+				{
+					"enum": "DestinyEnergyType",
+					"path": "plug.energyCapacity.energyType"
+				},
+				{
+					"component": "DestinyEnergyTypeDefinition",
+					"path": "plug.energyCost.energyTypeHash"
+				},
+				{
+					"enum": "DestinyEnergyType",
+					"path": "plug.energyCost.energyType"
+				},
+				{
+					"component": "DestinySocketTypeDefinition",
+					"path": "sockets.socketEntries.[].socketTypeHash"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "sockets.socketEntries.[].singleInitialItemHash"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "sockets.socketEntries.[].reusablePlugItems.[].plugItemHash"
+				},
+				{
+					"enum": "SocketPlugSources",
+					"path": "sockets.socketEntries.[].plugSources"
+				},
+				{
+					"component": "DestinyPlugSetDefinition",
+					"path": "sockets.socketEntries.[].reusablePlugSetHash"
+				},
+				{
+					"component": "DestinyPlugSetDefinition",
+					"path": "sockets.socketEntries.[].randomizedPlugSetHash"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "sockets.intrinsicSockets.[].plugItemHash"
+				},
+				{
+					"component": "DestinySocketTypeDefinition",
+					"path": "sockets.intrinsicSockets.[].socketTypeHash"
+				},
+				{
+					"component": "DestinySocketCategoryDefinition",
+					"path": "sockets.socketCategories.[].socketCategoryHash"
+				},
+				{
+					"enum": "DamageType",
+					"path": "talentGrid.hudDamageType"
+				},
+				{
+					"component": "DestinyStatDefinition",
+					"path": "investmentStats.[].statTypeHash"
+				},
+				{
+					"component": "DestinySandboxPerkDefinition",
+					"path": "perks.[].perkHash"
+				},
+				{
+					"enum": "ItemPerkVisibility",
+					"path": "perks.[].perkVisibility"
+				},
+				{
+					"component": "DestinyLoreDefinition",
+					"path": "loreHash"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "summaryItemHash"
+				},
+				{
+					"enum": "SpecialItemType",
+					"path": "specialItemType"
+				},
+				{
+					"enum": "DestinyItemType",
+					"path": "itemType"
+				},
+				{
+					"enum": "DestinyItemSubType",
+					"path": "itemSubType"
+				},
+				{
+					"enum": "DestinyClass",
+					"path": "classType"
+				},
+				{
+					"enum": "DestinyBreakerType",
+					"path": "breakerType"
+				},
+				{
+					"component": "DestinyBreakerTypeDefinition",
+					"path": "breakerTypeHash"
+				},
+				{
+					"enum": "DamageType",
+					"path": "damageTypes.[]"
+				},
+				{
+					"enum": "DamageType",
+					"path": "defaultDamageType"
+				},
+				{
+					"component": "DestinyDamageTypeDefinition",
+					"path": "defaultDamageTypeHash"
+				},
+				{
+					"component": "DestinySeasonDefinition",
+					"path": "seasonHash"
+				}
+			],
+			"augmentations": [
+				"DeepsightItemSourceListDefinition",
+				"DeepsightItemDamageTypesDefinition",
+				"DeepsightBreakerTypeDefinition",
+				"DeepsightCatalystDefinition",
+				"DeepsightSocketExtendedDefinition",
+				"DeepsightEmblemDefinition",
+				"DeepsightAdeptDefinition",
+				"DeepsightSocketCategorisation",
+				"DeepsightPlugCategorisation",
+				"ClarityDescriptions",
+				"DeepsightFormattedClarityDescriptions"
+			]
+		},
+		"DestinyProgressionMappingDefinition": {
+			"component": "DestinyProgressionMappingDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				}
+			]
+		},
+		"DestinySocketTypeDefinition": {
+			"component": "DestinySocketTypeDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"enum": "SocketTypeActionType",
+					"path": "insertAction.actionType"
+				},
+				{
+					"component": "DestinySocketCategoryDefinition",
+					"path": "socketCategoryHash"
+				},
+				{
+					"enum": "DestinySocketVisibility",
+					"path": "visibility"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "currencyScalars.[].currencyItemHash"
+				}
+			]
+		},
+		"DestinySocketCategoryDefinition": {
+			"component": "DestinySocketCategoryDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"enum": "DestinySocketCategoryStyle",
+					"path": "categoryStyle"
+				}
+			]
+		},
+		"DestinyMaterialRequirementSetDefinition": {
+			"component": "DestinyMaterialRequirementSetDefinition",
+			"links": [
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "materials.[].itemHash"
+				}
+			]
+		},
+		"DestinyInventoryBucketDefinition": {
+			"component": "DestinyInventoryBucketDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"enum": "BucketScope",
+					"path": "scope"
+				},
+				{
+					"enum": "BucketCategory",
+					"path": "category"
+				},
+				{
+					"enum": "ItemLocation",
+					"path": "location"
+				}
+			]
+		},
+		"DestinyItemTierTypeDefinition": {
+			"component": "DestinyItemTierTypeDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				}
+			],
+			"augmentations": [
+				"DeepsightTierTypeDefinition"
+			]
+		},
+		"DestinyStatGroupDefinition": {
+			"component": "DestinyStatGroupDefinition",
+			"links": [
+				{
+					"component": "DestinyStatDefinition",
+					"path": "scaledStats.[].statHash"
+				},
+				{
+					"component": "DestinyStatDefinition",
+					"path": "overrides.{}.statHash"
+				},
+				{
+					"component": "DestinyIconDefinition",
+					"path": "overrides.{}.displayProperties.iconHash"
+				}
+			]
+		},
+		"DestinyEquipmentSlotDefinition": {
+			"component": "DestinyEquipmentSlotDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"component": "DestinyInventoryBucketDefinition",
+					"path": "bucketTypeHash"
+				}
+			]
+		},
+		"DestinyEquipableItemSetDefinition": {
+			"component": "DestinyEquipableItemSetDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"component": "DestinySandboxPerkDefinition",
+					"path": "setPerks.[].sandboxPerkHash"
+				}
+			]
+		},
+		"DestinySandboxPerkDefinition": {
+			"component": "DestinySandboxPerkDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"enum": "DamageType",
+					"path": "damageType"
+				},
+				{
+					"component": "DestinyDamageTypeDefinition",
+					"path": "damageTypeHash"
+				}
+			]
+		},
+		"DestinyDamageTypeDefinition": {
+			"component": "DestinyDamageTypeDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"enum": "DamageType",
+					"path": "enumValue"
+				}
+			]
+		},
+		"DestinyClassDefinition": {
+			"component": "DestinyClassDefinition",
+			"links": [
+				{
+					"enum": "DestinyClass",
+					"path": "classType"
+				},
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"component": "DestinyVendorDefinition",
+					"path": "mentorVendorHash"
+				}
+			]
+		},
+		"DestinyGenderDefinition": {
+			"component": "DestinyGenderDefinition",
+			"links": [
+				{
+					"enum": "DestinyGender",
+					"path": "genderType"
+				},
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				}
+			]
+		},
+		"DestinyVendorDefinition": {
+			"component": "DestinyVendorDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"enum": "DestinyVendorProgressionType",
+					"path": "vendorProgressionType"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "displayItemHash"
+				},
+				{
+					"component": "DestinyFactionDefinition",
+					"path": "factionHash"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "categories.[].overlay.currencyItemHash"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "originalCategories.[].overlay.currencyItemHash"
+				},
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayCategories.[].displayProperties.iconHash"
+				},
+				{
+					"component": "DestinyProgressionDefinition",
+					"path": "displayCategories.[].progressionHash"
+				},
+				{
+					"enum": "VendorDisplayCategorySortOrder",
+					"path": "displayCategories.[].sortOrder"
+				},
+				{
+					"enum": "DestinyVendorInteractionRewardSelection",
+					"path": "interactions.[].replies.[].itemRewardsSelection"
+				},
+				{
+					"enum": "DestinyVendorReplyType",
+					"path": "interactions.[].replies.[].replyType"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "interactions.[].questlineItemHash"
+				},
+				{
+					"enum": "VendorInteractionType",
+					"path": "interactions.[].interactionType"
+				},
+				{
+					"component": "DestinyIconDefinition",
+					"path": "interactions.[].headerDisplayProperties.iconHash"
+				},
+				{
+					"component": "DestinyIconDefinition",
+					"path": "inventoryFlyouts.[].displayProperties.iconHash"
+				},
+				{
+					"component": "DestinyInventoryBucketDefinition",
+					"path": "inventoryFlyouts.[].buckets.[].inventoryBucketHash"
+				},
+				{
+					"enum": "DestinyItemSortType",
+					"path": "inventoryFlyouts.[].buckets.[].sortItemsBy"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "itemList.[].itemHash"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "itemList.[].currencies.[].itemHash"
+				},
+				{
+					"enum": "DestinyVendorItemRefundPolicy",
+					"path": "itemList.[].refundPolicy"
+				},
+				{
+					"component": "DestinyInventoryBucketDefinition",
+					"path": "itemList.[].inventoryBucketHash"
+				},
+				{
+					"enum": "DestinyGatingScope",
+					"path": "itemList.[].visibilityScope"
+				},
+				{
+					"enum": "DestinyGatingScope",
+					"path": "itemList.[].purchasableScope"
+				},
+				{
+					"enum": "BungieMembershipType",
+					"path": "itemList.[].exclusivity"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "itemList.[].socketOverrides.[].singleItemHash"
+				},
+				{
+					"component": "DestinySocketTypeDefinition",
+					"path": "itemList.[].socketOverrides.[].socketTypeHash"
+				},
+				{
+					"component": "DestinyInventoryBucketDefinition",
+					"path": "acceptedItems.[].acceptedInventoryBucketHash"
+				},
+				{
+					"component": "DestinyInventoryBucketDefinition",
+					"path": "acceptedItems.[].destinationInventoryBucketHash"
+				},
+				{
+					"component": "DestinyDestinationDefinition",
+					"path": "locations.[].destinationHash"
+				},
+				{
+					"component": "DestinyVendorGroupDefinition",
+					"path": "groups.[].vendorGroupHash"
+				}
+			]
+		},
+		"DestinyDestinationDefinition": {
+			"component": "DestinyDestinationDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"component": "DestinyPlaceDefinition",
+					"path": "placeHash"
+				},
+				{
+					"component": "DestinyActivityDefinition",
+					"path": "defaultFreeroamActivityHash"
+				},
+				{
+					"component": "DestinyActivityGraphDefinition",
+					"path": "activityGraphEntries.[].activityGraphHash"
+				},
+				{
+					"component": "DestinyIconDefinition",
+					"path": "bubbleSettings.[].displayProperties.iconHash"
+				},
+				{
+					"component": "DestinyIconDefinition",
+					"path": "bubbles.[].displayProperties.iconHash"
+				}
+			]
+		},
+		"DestinyActivityGraphDefinition": {
+			"component": "DestinyActivityGraphDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "nodes.[].overrideDisplay.iconHash"
+				},
+				{
+					"enum": "ActivityGraphNodeHighlightType",
+					"path": "nodes.[].featuringStates.[].highlightType"
+				},
+				{
+					"component": "DestinyActivityDefinition",
+					"path": "nodes.[].activities.[].activityHash"
+				},
+				{
+					"enum": "DestinyGraphNodeState",
+					"path": "nodes.[].states.[].state"
+				},
+				{
+					"component": "DestinyObjectiveDefinition",
+					"path": "displayObjectives.[].objectiveHash"
+				}
+			]
+		},
+		"DestinyActivityDefinition": {
+			"component": "DestinyActivityDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"component": "DestinyIconDefinition",
+					"path": "originalDisplayProperties.iconHash"
+				},
+				{
+					"component": "DestinyIconDefinition",
+					"path": "selectionScreenDisplayProperties.iconHash"
+				},
+				{
+					"component": "DestinyDestinationDefinition",
+					"path": "destinationHash"
+				},
+				{
+					"component": "DestinyPlaceDefinition",
+					"path": "placeHash"
+				},
+				{
+					"component": "DestinyActivityTypeDefinition",
+					"path": "activityTypeHash"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "rewards.[].rewardItems.[].itemHash"
+				},
+				{
+					"component": "DestinyActivityModifierDefinition",
+					"path": "modifiers.[].activityModifierHash"
+				},
+				{
+					"component": "DestinyObjectiveDefinition",
+					"path": "challenges.[].objectiveHash"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "challenges.[].dummyRewards.[].itemHash"
+				},
+				{
+					"component": "DestinyActivityDifficultyTierCollectionDefinition",
+					"path": "difficultyTierCollectionHash"
+				},
+				{
+					"component": "DestinyActivityDefinition",
+					"path": "playlistItems.[].activityHash"
+				},
+				{
+					"component": "DestinyActivityModeDefinition",
+					"path": "playlistItems.[].directActivityModeHash"
+				},
+				{
+					"enum": "DestinyActivityModeType",
+					"path": "playlistItems.[].directActivityModeType"
+				},
+				{
+					"enum": "DestinyActivityModeType",
+					"path": "playlistItems.[].activityModeTypes.[]"
+				},
+				{
+					"component": "DestinyActivityGraphDefinition",
+					"path": "activityGraphList.[].activityGraphHash"
+				},
+				{
+					"component": "DestinyActivityModeDefinition",
+					"path": "directActivityModeHash"
+				},
+				{
+					"enum": "DestinyActivityModeType",
+					"path": "directActivityModeType"
+				},
+				{
+					"component": "DestinyEquipmentSlotDefinition",
+					"path": "loadouts.[].requirements.[].equipmentSlotHash"
+				},
+				{
+					"enum": "DestinyItemSubType",
+					"path": "loadouts.[].requirements.[].allowedWeaponSubTypes.[]"
+				},
+				{
+					"enum": "DestinyActivityModeType",
+					"path": "activityModeTypes.[]"
+				},
+				{
+					"component": "DestinyLocationDefinition",
+					"path": "activityLocationMappings.[].locationHash"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "activityLocationMappings.[].itemHash"
+				},
+				{
+					"component": "DestinyObjectiveDefinition",
+					"path": "activityLocationMappings.[].objectiveHash"
+				},
+				{
+					"component": "DestinyActivityDefinition",
+					"path": "activityLocationMappings.[].activityHash"
+				}
+			],
+			"augmentations": [
+				"DeepsightDropTableDefinition"
+			]
+		},
+		"DestinyActivityModifierDefinition": {
+			"component": "DestinyActivityModifierDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				}
+			]
+		},
+		"DestinyObjectiveDefinition": {
+			"component": "DestinyObjectiveDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"enum": "DestinyGatingScope",
+					"path": "scope"
+				},
+				{
+					"component": "DestinyLocationDefinition",
+					"path": "locationHash"
+				},
+				{
+					"enum": "DestinyUnlockValueUIStyle",
+					"path": "valueStyle"
+				},
+				{
+					"component": "DestinySandboxPerkDefinition",
+					"path": "perks.perkHash"
+				},
+				{
+					"enum": "DestinyObjectiveGrantStyle",
+					"path": "perks.style"
+				},
+				{
+					"component": "DestinyStatDefinition",
+					"path": "stats.stat.statTypeHash"
+				},
+				{
+					"enum": "DestinyObjectiveGrantStyle",
+					"path": "stats.style"
+				},
+				{
+					"enum": "DestinyUnlockValueUIStyle",
+					"path": "completedValueStyle"
+				},
+				{
+					"enum": "DestinyUnlockValueUIStyle",
+					"path": "inProgressValueStyle"
+				},
+				{
+					"enum": "DestinyObjectiveUiStyle",
+					"path": "uiStyle"
+				}
+			]
+		},
+		"DestinyLocationDefinition": {
+			"component": "DestinyLocationDefinition",
+			"links": [
+				{
+					"component": "DestinyVendorDefinition",
+					"path": "vendorHash"
+				},
+				{
+					"component": "DestinyIconDefinition",
+					"path": "locationReleases.[].displayProperties.iconHash"
+				},
+				{
+					"component": "DestinyDestinationDefinition",
+					"path": "locationReleases.[].destinationHash"
+				},
+				{
+					"component": "DestinyActivityDefinition",
+					"path": "locationReleases.[].activityHash"
+				},
+				{
+					"enum": "DestinyActivityNavPointType",
+					"path": "locationReleases.[].navPointType"
+				}
+			]
+		},
+		"DestinyActivityModeDefinition": {
+			"component": "DestinyActivityModeDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"enum": "DestinyActivityModeType",
+					"path": "modeType"
+				},
+				{
+					"enum": "DestinyActivityModeCategory",
+					"path": "activityModeCategory"
+				}
+			]
+		},
+		"DestinyPlaceDefinition": {
+			"component": "DestinyPlaceDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				}
+			]
+		},
+		"DestinyActivityTypeDefinition": {
+			"component": "DestinyActivityTypeDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				}
+			]
+		},
+		"DestinyTraitDefinition": {
+			"component": "DestinyTraitDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				}
+			]
+		},
+		"DestinyActivitySkullCategoryDefinition": {
+			"component": "DestinyActivitySkullCategoryDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				}
+			]
+		},
+		"DestinyActivitySkullSubcategoryDefinition": {
+			"component": "DestinyActivitySkullSubcategoryDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"component": "DestinyActivitySkullCategoryDefinition",
+					"path": "parentSkullCategoryHash"
+				}
+			]
+		},
+		"DestinyActivityDifficultyTierCollectionDefinition": {
+			"component": "DestinyActivityDifficultyTierCollectionDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "difficultyTiers.[].displayProperties.iconHash"
+				},
+				{
+					"component": "DestinyIconDefinition",
+					"path": "difficultyTiers.[].fixedActivitySkulls.[].displayProperties.iconHash"
+				},
+				{
+					"enum": "DestinyActivityDifficultyId",
+					"path": "difficultyTiers.[].fixedActivitySkulls.[].skullOptions.[].minDisplayDifficultyId"
+				},
+				{
+					"enum": "DestinyActivitySkullDynamicUse",
+					"path": "difficultyTiers.[].fixedActivitySkulls.[].dynamicUse"
+				},
+				{
+					"component": "DestinyActivitySelectableSkullExclusionGroupDefinition",
+					"path": "difficultyTiers.[].fixedActivitySkulls.[].skullExclusionGroupHash"
+				},
+				{
+					"enum": "DestinyActivityModifierDisplayCategory",
+					"path": "difficultyTiers.[].fixedActivitySkulls.[].activityModifierDisplayCategory"
+				},
+				{
+					"enum": "DestinyActivityModifierConnotation",
+					"path": "difficultyTiers.[].fixedActivitySkulls.[].activityModifierConnotation"
+				},
+				{
+					"enum": "DestinyActivityDifficultyTierType",
+					"path": "difficultyTiers.[].tierType"
+				},
+				{
+					"component": "DestinyTraitDefinition",
+					"path": "difficultyTiers.[].optionalRequiredTrait"
+				}
+			]
+		},
+		"DestinyActivitySelectableSkullCollectionDefinition": {
+			"component": "DestinyActivitySelectableSkullCollectionDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"component": "DestinyTraitDefinition",
+					"path": "selectableActivitySkulls.[].requiredTraitHash"
+				},
+				{
+					"component": "DestinyActivityLoadoutRestrictionDefinition",
+					"path": "selectableActivitySkulls.[].loadoutRestrictionHash"
+				},
+				{
+					"component": "DestinyIconDefinition",
+					"path": "selectableActivitySkulls.[].activitySkull.displayProperties.iconHash"
+				},
+				{
+					"enum": "DestinyActivityDifficultyId",
+					"path": "selectableActivitySkulls.[].activitySkull.skullOptions.[].minDisplayDifficultyId"
+				},
+				{
+					"enum": "DestinyActivitySkullDynamicUse",
+					"path": "selectableActivitySkulls.[].activitySkull.dynamicUse"
+				},
+				{
+					"component": "DestinyActivitySelectableSkullExclusionGroupDefinition",
+					"path": "selectableActivitySkulls.[].activitySkull.skullExclusionGroupHash"
+				},
+				{
+					"enum": "DestinyActivityModifierDisplayCategory",
+					"path": "selectableActivitySkulls.[].activitySkull.activityModifierDisplayCategory"
+				},
+				{
+					"enum": "DestinyActivityModifierConnotation",
+					"path": "selectableActivitySkulls.[].activitySkull.activityModifierConnotation"
+				}
+			]
+		},
+		"DestinyFactionDefinition": {
+			"component": "DestinyFactionDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"component": "DestinyProgressionDefinition",
+					"path": "progressionHash"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "rewardItemHash"
+				},
+				{
+					"component": "DestinyVendorDefinition",
+					"path": "rewardVendorHash"
+				},
+				{
+					"component": "DestinyVendorDefinition",
+					"path": "vendors.[].vendorHash"
+				},
+				{
+					"component": "DestinyDestinationDefinition",
+					"path": "vendors.[].destinationHash"
+				}
+			]
+		},
+		"DestinySandboxPatternDefinition": {
+			"component": "DestinySandboxPatternDefinition",
+			"links": [
+				{
+					"enum": "DestinyItemSubType",
+					"path": "weaponType"
+				}
+			]
+		},
+		"DestinyArtifactDefinition": {
+			"component": "DestinyArtifactDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"component": "DestinySandboxPatternDefinition",
+					"path": "translationBlock.weaponPatternHash"
+				},
+				{
+					"component": "DestinyClassDefinition",
+					"path": "translationBlock.arrangements.[].classHash"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "tiers.[].items.[].itemHash"
+				}
+			]
+		},
+		"DestinyProgressionLevelRequirementDefinition": {
+			"component": "DestinyProgressionLevelRequirementDefinition",
+			"links": [
+				{
+					"component": "DestinyProgressionDefinition",
+					"path": "progressionHash"
+				}
+			]
+		},
+		"DestinyRewardSourceDefinition": {
+			"component": "DestinyRewardSourceDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"enum": "DestinyRewardSourceCategory",
+					"path": "category"
+				}
+			]
+		},
+		"DestinyPresentationNodeDefinition": {
+			"component": "DestinyPresentationNodeDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"enum": "DestinyPresentationNodeType",
+					"path": "nodeType"
+				},
+				{
+					"enum": "DestinyScope",
+					"path": "scope"
+				},
+				{
+					"component": "DestinyObjectiveDefinition",
+					"path": "objectiveHash"
+				},
+				{
+					"component": "DestinyRecordDefinition",
+					"path": "completionRecordHash"
+				},
+				{
+					"component": "DestinyPresentationNodeDefinition",
+					"path": "children.presentationNodes.[].presentationNodeHash"
+				},
+				{
+					"component": "DestinyCollectibleDefinition",
+					"path": "children.collectibles.[].collectibleHash"
+				},
+				{
+					"component": "DestinyRecordDefinition",
+					"path": "children.records.[].recordHash"
+				},
+				{
+					"component": "DestinyMetricDefinition",
+					"path": "children.metrics.[].metricHash"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "children.craftables.[].craftableItemHash"
+				},
+				{
+					"enum": "DestinyPresentationDisplayStyle",
+					"path": "displayStyle"
+				},
+				{
+					"enum": "DestinyPresentationScreenStyle",
+					"path": "screenStyle"
+				},
+				{
+					"enum": "DestinyPresentationNodeType",
+					"path": "presentationNodeType"
+				}
+			]
+		},
+		"DestinyCollectibleDefinition": {
+			"component": "DestinyCollectibleDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"enum": "DestinyScope",
+					"path": "scope"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "itemHash"
+				},
+				{
+					"component": "DestinyMaterialRequirementSetDefinition",
+					"path": "acquisitionInfo.acquireMaterialRequirementHash"
+				},
+				{
+					"component": "DestinyUnlockValueDefinition",
+					"path": "acquisitionInfo.acquireTimestampUnlockValueHash"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "stateInfo.obscuredOverrideItemHash"
+				},
+				{
+					"enum": "DestinyPresentationNodeType",
+					"path": "presentationInfo.presentationNodeType"
+				},
+				{
+					"enum": "DestinyPresentationDisplayStyle",
+					"path": "presentationInfo.displayStyle"
+				},
+				{
+					"enum": "DestinyPresentationNodeType",
+					"path": "presentationNodeType"
+				}
+			]
+		},
+		"DestinyRecordDefinition": {
+			"component": "DestinyRecordDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"enum": "DestinyScope",
+					"path": "scope"
+				},
+				{
+					"enum": "DestinyPresentationNodeType",
+					"path": "presentationInfo.presentationNodeType"
+				},
+				{
+					"enum": "DestinyPresentationDisplayStyle",
+					"path": "presentationInfo.displayStyle"
+				},
+				{
+					"component": "DestinyLoreDefinition",
+					"path": "loreHash"
+				},
+				{
+					"enum": "DestinyRecordValueStyle",
+					"path": "recordValueStyle"
+				},
+				{
+					"component": "DestinyRecordDefinition",
+					"path": "titleInfo.gildingTrackingRecordHash"
+				},
+				{
+					"enum": "DestinyRecordToastStyle",
+					"path": "completionInfo.toastStyle"
+				},
+				{
+					"component": "DestinyObjectiveDefinition",
+					"path": "intervalInfo.intervalObjectives.[].intervalObjectiveHash"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "intervalInfo.intervalRewards.[].intervalRewardItems.[].itemHash"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "rewardItems.[].itemHash"
+				},
+				{
+					"enum": "DestinyPresentationNodeType",
+					"path": "presentationNodeType"
+				}
+			]
+		},
+		"DestinyLoreDefinition": {
+			"component": "DestinyLoreDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				}
+			]
+		},
+		"DestinyMetricDefinition": {
+			"component": "DestinyMetricDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"component": "DestinyObjectiveDefinition",
+					"path": "trackingObjectiveHash"
+				},
+				{
+					"enum": "DestinyPresentationNodeType",
+					"path": "presentationNodeType"
+				}
+			]
+		},
+		"DestinyEnergyTypeDefinition": {
+			"component": "DestinyEnergyTypeDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"enum": "DestinyEnergyType",
+					"path": "enumValue"
+				},
+				{
+					"component": "DestinyStatDefinition",
+					"path": "capacityStatHash"
+				},
+				{
+					"component": "DestinyStatDefinition",
+					"path": "costStatHash"
+				}
+			]
+		},
+		"DestinyPlugSetDefinition": {
+			"component": "DestinyPlugSetDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "reusablePlugItems.[].plugItemHash"
+				}
+			]
+		},
+		"DestinyItemCategoryDefinition": {
+			"component": "DestinyItemCategoryDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"enum": "DestinyBreakerType",
+					"path": "grantDestinyBreakerType"
+				},
+				{
+					"enum": "DestinyItemType",
+					"path": "grantDestinyItemType"
+				},
+				{
+					"enum": "DestinyItemSubType",
+					"path": "grantDestinySubType"
+				},
+				{
+					"enum": "DestinyClass",
+					"path": "grantDestinyClass"
+				}
+			]
+		},
+		"DestinyBreakerTypeDefinition": {
+			"component": "DestinyBreakerTypeDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"enum": "DestinyBreakerType",
+					"path": "enumValue"
+				}
+			]
+		},
+		"DestinySeasonDefinition": {
+			"component": "DestinySeasonDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"component": "DestinySeasonPassDefinition",
+					"path": "seasonPassHash"
+				},
+				{
+					"component": "DestinySeasonPassDefinition",
+					"path": "seasonPassList.[].seasonPassHash"
+				},
+				{
+					"component": "DestinyProgressionDefinition",
+					"path": "seasonPassProgressionHash"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "artifactItemHash"
+				},
+				{
+					"component": "DestinyPresentationNodeDefinition",
+					"path": "sealPresentationNodeHash"
+				},
+				{
+					"component": "DestinyPresentationNodeDefinition",
+					"path": "seasonalChallengesPresentationNodeHash"
+				}
+			]
+		},
+		"DestinySeasonPassDefinition": {
+			"component": "DestinySeasonPassDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"component": "DestinyProgressionDefinition",
+					"path": "rewardProgressionHash"
+				},
+				{
+					"component": "DestinyProgressionDefinition",
+					"path": "prestigeProgressionHash"
+				}
+			]
+		},
+		"DestinyEventCardDefinition": {
+			"component": "DestinyEventCardDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"component": "DestinyPresentationNodeDefinition",
+					"path": "triumphsPresentationNodeHash"
+				},
+				{
+					"component": "DestinyPresentationNodeDefinition",
+					"path": "sealPresentationNodeHash"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "ticketCurrencyItemHash"
+				},
+				{
+					"component": "DestinyVendorDefinition",
+					"path": "ticketVendorHash"
+				},
+				{
+					"component": "DestinyProgressionDefinition",
+					"path": "rewardProgressionHash"
+				},
+				{
+					"component": "DestinyPresentationNodeDefinition",
+					"path": "weeklyChallengesPresentationNodeHash"
+				}
+			]
+		},
+		"DestinyGuardianRankDefinition": {
+			"component": "DestinyGuardianRankDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"component": "DestinyPresentationNodeDefinition",
+					"path": "presentationNodeHash"
+				}
+			]
+		},
+		"DestinyChecklistDefinition": {
+			"component": "DestinyChecklistDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"enum": "DestinyScope",
+					"path": "scope"
+				},
+				{
+					"component": "DestinyIconDefinition",
+					"path": "entries.[].displayProperties.iconHash"
+				},
+				{
+					"component": "DestinyDestinationDefinition",
+					"path": "entries.[].destinationHash"
+				},
+				{
+					"component": "DestinyLocationDefinition",
+					"path": "entries.[].locationHash"
+				},
+				{
+					"component": "DestinyActivityDefinition",
+					"path": "entries.[].activityHash"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "entries.[].itemHash"
+				},
+				{
+					"component": "DestinyVendorDefinition",
+					"path": "entries.[].vendorHash"
+				},
+				{
+					"enum": "DestinyScope",
+					"path": "entries.[].scope"
+				}
+			]
+		},
+		"DestinySocialCommendationNodeDefinition": {
+			"component": "DestinySocialCommendationNodeDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"component": "DestinySocialCommendationNodeDefinition",
+					"path": "parentCommendationNodeHash"
+				}
+			]
+		},
+		"DestinySocialCommendationDefinition": {
+			"component": "DestinySocialCommendationDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"component": "DestinySocialCommendationNodeDefinition",
+					"path": "parentCommendationNodeHash"
+				},
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayActivities.[].iconHash"
+				}
+			]
+		},
+		"DestinyRaceDefinition": {
+			"component": "DestinyRaceDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"enum": "DestinyRace",
+					"path": "raceType"
+				}
+			]
+		},
+		"DestinyMilestoneDefinition": {
+			"component": "DestinyMilestoneDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"enum": "DestinyMilestoneDisplayPreference",
+					"path": "displayPreference"
+				},
+				{
+					"enum": "DestinyMilestoneType",
+					"path": "milestoneType"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "quests.{}.questItemHash"
+				},
+				{
+					"component": "DestinyIconDefinition",
+					"path": "quests.{}.displayProperties.iconHash"
+				},
+				{
+					"component": "DestinyVendorDefinition",
+					"path": "quests.{}.questRewards.items.[].vendorHash"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "quests.{}.questRewards.items.[].itemHash"
+				},
+				{
+					"component": "DestinyActivityDefinition",
+					"path": "quests.{}.activities.{}.conceptualActivityHash"
+				},
+				{
+					"component": "DestinyActivityDefinition",
+					"path": "quests.{}.activities.{}.variants.{}.activityHash"
+				},
+				{
+					"component": "DestinyDestinationDefinition",
+					"path": "quests.{}.destinationHash"
+				},
+				{
+					"component": "DestinyIconDefinition",
+					"path": "rewards.{}.displayProperties.iconHash"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "rewards.{}.rewardEntries.{}.items.[].itemHash"
+				},
+				{
+					"component": "DestinyVendorDefinition",
+					"path": "rewards.{}.rewardEntries.{}.vendorHash"
+				},
+				{
+					"component": "DestinyIconDefinition",
+					"path": "rewards.{}.rewardEntries.{}.displayProperties.iconHash"
+				},
+				{
+					"component": "DestinyVendorDefinition",
+					"path": "vendors.[].vendorHash"
+				},
+				{
+					"component": "DestinyIconDefinition",
+					"path": "values.{}.displayProperties.iconHash"
+				},
+				{
+					"component": "DestinyActivityDefinition",
+					"path": "activities.[].activityHash"
+				},
+				{
+					"component": "DestinyObjectiveDefinition",
+					"path": "activities.[].challenges.[].challengeObjectiveHash"
+				}
+			]
+		},
+		"DestinyActivityInteractableDefinition": {
+			"component": "DestinyActivityInteractableDefinition",
+			"links": [
+				{
+					"component": "DestinyActivityDefinition",
+					"path": "entries.[].activityHash"
+				}
+			]
+		},
+		"DestinyUnlockDefinition": {
+			"component": "DestinyUnlockDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				}
+			]
+		},
+		"DestinyReportReasonCategoryDefinition": {
+			"component": "DestinyReportReasonCategoryDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"component": "DestinyIconDefinition",
+					"path": "reasons.{}.displayProperties.iconHash"
+				}
+			]
+		},
+		"DestinyGlobalConstantsDefinition": {
+			"component": "DestinyGlobalConstantsDefinition",
+			"links": [
+				{
+					"component": "DestinyPresentationNodeDefinition",
+					"path": "pathfinderConstants.thePaleHeartPathfinderRootNodeHash"
+				},
+				{
+					"component": "DestinyPresentationNodeDefinition",
+					"path": "collectionsRootNodeHash"
+				},
+				{
+					"component": "DestinyPresentationNodeDefinition",
+					"path": "collectionBadgesRootNodeHash"
+				},
+				{
+					"component": "DestinyPresentationNodeDefinition",
+					"path": "activeTriumphsRootNodeHash"
+				},
+				{
+					"component": "DestinyPresentationNodeDefinition",
+					"path": "activeSealsRootNodeHash"
+				},
+				{
+					"component": "DestinyPresentationNodeDefinition",
+					"path": "legacyTriumphsRootNodeHash"
+				},
+				{
+					"component": "DestinyPresentationNodeDefinition",
+					"path": "legacySealsRootNodeHash"
+				},
+				{
+					"component": "DestinyPresentationNodeDefinition",
+					"path": "medalsRootNodeHash"
+				},
+				{
+					"component": "DestinyPresentationNodeDefinition",
+					"path": "exoticCatalystsRootNodeHash"
+				},
+				{
+					"component": "DestinyPresentationNodeDefinition",
+					"path": "loreRootNodeHash"
+				},
+				{
+					"component": "DestinyPresentationNodeDefinition",
+					"path": "metricsRootNodeHash"
+				},
+				{
+					"component": "DestinyPresentationNodeDefinition",
+					"path": "craftingRootNodeHash"
+				},
+				{
+					"component": "DestinyPresentationNodeDefinition",
+					"path": "guardianRanksRootNodeHash"
+				},
+				{
+					"component": "DestinyEventCardDefinition",
+					"path": "seasonalHubEventCardHash"
+				},
+				{
+					"component": "DestinyPlugSetDefinition",
+					"path": "armorArchetypePlugSetHash"
+				},
+				{
+					"component": "DestinyItemFilterDefinition",
+					"path": "featuredItemsListHash"
+				}
+			]
+		},
+		"DestinyLoadoutConstantsDefinition": {
+			"component": "DestinyLoadoutConstantsDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				}
+			]
+		},
+		"DestinyGuardianRankConstantsDefinition": {
+			"component": "DestinyGuardianRankConstantsDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"component": "DestinyPresentationNodeDefinition",
+					"path": "rootNodeHash"
+				}
+			]
+		},
+		"DestinyFireteamFinderConstantsDefinition": {
+			"component": "DestinyFireteamFinderConstantsDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"component": "DestinyIconDefinition",
+					"path": "guardianOathDisplayProperties.iconHash"
+				},
+				{
+					"component": "DestinyIconDefinition",
+					"path": "guardianOathTenets.[].iconHash"
+				}
+			]
+		},
+		"DestinyFireteamFinderActivityGraphDefinition": {
+			"component": "DestinyFireteamFinderActivityGraphDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"component": "DestinyFireteamFinderActivityGraphDefinition",
+					"path": "parentHash"
+				},
+				{
+					"component": "DestinyFireteamFinderActivitySetDefinition",
+					"path": "specificActivitySetHash"
+				},
+				{
+					"component": "DestinyActivityGraphDefinition",
+					"path": "relatedDirectorNodes.[].activityGraphHash"
+				},
+				{
+					"component": "DestinyActivityInteractableDefinition",
+					"path": "relatedInteractableActivities.[].activityInteractableHash"
+				},
+				{
+					"enum": "DestinyActivityTreeType",
+					"path": "enabledOnTreeTypesListEnum.[]"
+				},
+				{
+					"enum": "DestinyActivityTreeChildSortMode",
+					"path": "activityTreeChildSortMode"
+				}
+			]
+		},
+		"DestinyFireteamFinderOptionDefinition": {
+			"component": "DestinyFireteamFinderOptionDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"component": "DestinyFireteamFinderOptionGroupDefinition",
+					"path": "groupHash"
+				},
+				{
+					"enum": "FireteamFinderCodeOptionType",
+					"path": "codeOptionType"
+				},
+				{
+					"enum": "FireteamFinderOptionAvailability",
+					"path": "availability"
+				},
+				{
+					"enum": "FireteamFinderOptionVisibility",
+					"path": "visibility"
+				},
+				{
+					"enum": "FireteamFinderOptionControlType",
+					"path": "creatorSettings.control.type"
+				},
+				{
+					"enum": "FireteamFinderOptionControlType",
+					"path": "searcherSettings.control.type"
+				},
+				{
+					"enum": "FireteamFinderOptionSearchFilterType",
+					"path": "searcherSettings.searchFilterType"
+				},
+				{
+					"component": "DestinyIconDefinition",
+					"path": "values.optionalNull.iconHash"
+				},
+				{
+					"enum": "FireteamFinderOptionDisplayFormat",
+					"path": "values.displayFormatType"
+				},
+				{
+					"enum": "FireteamFinderOptionValueProviderType",
+					"path": "values.type"
+				},
+				{
+					"component": "DestinyIconDefinition",
+					"path": "values.valueDefinitions.[].displayProperties.iconHash"
+				},
+				{
+					"enum": "FireteamFinderOptionValueFlags",
+					"path": "values.valueDefinitions.[].flags"
+				}
+			]
+		},
+		"DestinyFireteamFinderOptionGroupDefinition": {
+			"component": "DestinyFireteamFinderOptionGroupDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				}
+			]
+		},
+		"DestinyFireteamFinderLabelDefinition": {
+			"component": "DestinyFireteamFinderLabelDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				},
+				{
+					"component": "DestinyFireteamFinderLabelGroupDefinition",
+					"path": "groupHash"
+				},
+				{
+					"enum": "FireteamFinderLabelFieldType",
+					"path": "allowInFields"
+				}
+			]
+		},
+		"DestinyFireteamFinderLabelGroupDefinition": {
+			"component": "DestinyFireteamFinderLabelGroupDefinition",
+			"links": [
+				{
+					"component": "DestinyIconDefinition",
+					"path": "displayProperties.iconHash"
+				}
+			]
+		},
+		"DeepsightDropTableDefinition": {
+			"component": "DeepsightDropTableDefinition",
+			"links": [
+				{
+					"path": "rotationActivityHash",
+					"component": "DestinyActivityDefinition"
+				},
+				{
+					"path": "displayProperties.iconHash",
+					"component": "DestinyIconDefinition"
+				},
+				{
+					"path": "dropTable.{}",
+					"component": "DestinyInventoryItemDefinition"
+				},
+				{
+					"path": "dropTable.{}.requiresQuest",
+					"component": "DestinyInventoryItemDefinition"
+				},
+				{
+					"path": "dropTable.{}.requiresItems.[]",
+					"component": "DestinyInventoryItemDefinition"
+				},
+				{
+					"path": "encounters.[].dropTable.{}",
+					"component": "DestinyInventoryItemDefinition"
+				},
+				{
+					"path": "encounters.[].dropTable.{}.requiresQuest",
+					"component": "DestinyInventoryItemDefinition"
+				},
+				{
+					"path": "encounters.[].dropTable.{}.requiresItems.[]",
+					"component": "DestinyInventoryItemDefinition"
+				},
+				{
+					"path": "master.activityHash",
+					"component": "DestinyActivityDefinition"
+				},
+				{
+					"path": "master.dropTable.{}",
+					"component": "DestinyInventoryItemDefinition"
+				},
+				{
+					"path": "master.dropTable.{}.requiresQuest",
+					"component": "DestinyInventoryItemDefinition"
+				},
+				{
+					"path": "master.dropTable.{}.requiresItems.[]",
+					"component": "DestinyInventoryItemDefinition"
+				},
+				{
+					"path": "rotations.drops.{}",
+					"component": "DestinyInventoryItemDefinition"
+				},
+				{
+					"path": "rotations.drops.{}.requiresQuest",
+					"component": "DestinyInventoryItemDefinition"
+				},
+				{
+					"path": "rotations.drops.{}.requiresItems.[]",
+					"component": "DestinyInventoryItemDefinition"
+				},
+				{
+					"path": "rotations.drops.[]",
+					"component": "DestinyInventoryItemDefinition"
+				},
+				{
+					"path": "rotations.masterDrops.{}",
+					"component": "DestinyInventoryItemDefinition"
+				},
+				{
+					"path": "rotations.masterDrops.{}.requiresQuest",
+					"component": "DestinyInventoryItemDefinition"
+				},
+				{
+					"path": "rotations.masterDrops.{}.requiresItems.[]",
+					"component": "DestinyInventoryItemDefinition"
+				},
+				{
+					"path": "rotations.masterDrops.[]",
+					"component": "DestinyInventoryItemDefinition"
+				},
+				{
+					"path": "challenges.[]",
+					"component": "DestinyActivityModifierDefinition"
+				},
+				{
+					"path": "typeDisplayProperties.iconHash",
+					"component": "DestinyIconDefinition"
+				}
+			]
+		},
+		"DeepsightMomentDefinition": {
+			"component": "DeepsightMomentDefinition",
+			"links": [
+				{
+					"path": "displayProperties.iconHash",
+					"component": "DestinyIconDefinition"
+				},
+				{
+					"path": "event",
+					"component": "DestinyEventCardDefinition"
+				},
+				{
+					"path": "seasonHash",
+					"component": "DestinySeasonDefinition"
+				},
+				{
+					"path": "itemHashes.[]",
+					"component": "DestinyInventoryItemDefinition"
+				}
+			],
+			"augmentations": [
+				"DeepsightWallpaperDefinition",
+				"DeepsightCollectionsDefinition"
+			]
+		},
+		"DeepsightTierTypeDefinition": {
+			"component": "DeepsightTierTypeDefinition",
+			"links": [
+				{
+					"path": "displayProperties.iconHash",
+					"component": "DestinyIconDefinition"
+				},
+				{
+					"path": "itemHash",
+					"component": "DestinyInventoryItemDefinition"
+				},
+				{
+					"path": "tierType",
+					"enum": "TierType"
+				}
+			]
+		},
+		"DeepsightStats": {
+			"component": "DeepsightStats",
+			"links": [
+				{
+					"path": "activeEvent",
+					"component": "DestinyEventCardDefinition"
+				}
+			]
+		},
+		"DeepsightCollectionsDefinition": {
+			"component": "DeepsightCollectionsDefinition",
+			"links": [
+				{
+					"path": "buckets.{}",
+					"component": "DestinyInventoryBucketDefinition"
+				},
+				{
+					"path": "buckets.{}.[]",
+					"component": "DestinyInventoryItemDefinition"
+				}
+			]
+		},
+		"DeepsightVariantDefinition": {
+			"component": "DeepsightVariantDefinition",
+			"links": [
+				{
+					"path": "hash",
+					"component": "DestinyInventoryItemDefinition"
+				},
+				{
+					"path": "moment",
+					"component": "DeepsightMomentDefinition"
+				}
+			]
+		},
+		"DeepsightItemSourceListDefinition": {
+			"component": "DeepsightItemSourceListDefinition",
+			"links": [
+				{
+					"path": "sources.[]",
+					"enum": "DeepsightItemSourceType"
+				}
+			]
+		},
+		"DeepsightItemSourceDefinition": {
+			"component": "DeepsightItemSourceDefinition",
+			"links": [
+				{
+					"path": "hash",
+					"enum": "DeepsightItemSourceType"
+				},
+				{
+					"path": "category",
+					"enum": "DeepsightItemSourceCategory"
+				},
+				{
+					"path": "event",
+					"component": "DestinyEventCardDefinition"
+				},
+				{
+					"path": "displayProperties.iconHash",
+					"component": "DestinyIconDefinition"
+				}
+			]
+		},
+		"DeepsightItemDamageTypesDefinition": {
+			"component": "DeepsightItemDamageTypesDefinition",
+			"links": [
+				{
+					"path": "damageTypes.[]",
+					"component": "DestinyDamageTypeDefinition"
+				}
+			]
+		},
+		"DeepsightBreakerTypeDefinition": {
+			"component": "DeepsightBreakerTypeDefinition",
+			"links": [
+				{
+					"path": "sources.[]",
+					"component": "DeepsightBreakerSourceDefinition"
+				},
+				{
+					"path": "types.[]",
+					"component": "DestinyBreakerTypeDefinition"
+				}
+			]
+		},
+		"DeepsightBreakerSourceDefinition": {
+			"component": "DeepsightBreakerSourceDefinition",
+			"links": [
+				{
+					"path": "hash",
+					"enum": "BreakerSource"
+				},
+				{
+					"path": "trait",
+					"component": "DestinyTraitDefinition"
+				},
+				{
+					"path": "appliesTraits.[]",
+					"component": "DestinyTraitDefinition"
+				},
+				{
+					"path": "breakerTypes.[]",
+					"component": "DestinyBreakerTypeDefinition"
+				}
+			]
+		},
+		"DeepsightCatalystDefinition": {
+			"component": "DeepsightCatalystDefinition",
+			"links": [
+				{
+					"path": "record",
+					"component": "DestinyRecordDefinition"
+				},
+				{
+					"path": "primaryObjectiveHashes.[]",
+					"component": "DestinyObjectiveDefinition"
+				}
+			]
+		},
+		"DeepsightSocketExtendedDefinition": {
+			"component": "DeepsightSocketExtendedDefinition",
+			"links": [
+				{
+					"path": "sockets.{}.rewardPlugItems.[].plugItemHash",
+					"component": "DestinyInventoryItemDefinition"
+				}
+			]
+		},
+		"DeepsightEmblemDefinition": {
+			"component": "DeepsightEmblemDefinition",
+			"links": [
+				{
+					"path": "displayProperties.iconHash",
+					"component": "DestinyIconDefinition"
+				},
+				{
+					"path": "collectibleHash",
+					"component": "DestinyCollectibleDefinition"
+				}
+			]
+		},
+		"DeepsightAdeptDefinition": {
+			"component": "DeepsightAdeptDefinition",
+			"links": [
+				{
+					"path": "base",
+					"component": "DestinyInventoryItemDefinition"
+				}
+			]
+		},
+		"DeepsightSocketCategorisation": {
+			"component": "DeepsightSocketCategorisation",
+			"links": [
+				{
+					"path": "categorisation.[].category",
+					"enum": "DeepsightPlugCategory"
+				}
+			]
+		},
+		"DeepsightPlugCategorisation": {
+			"component": "DeepsightPlugCategorisation",
+			"links": [
+				{
+					"path": "itemCategoryHashes",
+					"component": "DestinyItemCategoryDefinition"
+				},
+				{
+					"path": "category",
+					"enum": "DeepsightPlugCategory"
+				},
+				{
+					"path": "bucketHash",
+					"component": "DestinyInventoryBucketDefinition"
+				},
+				{
+					"path": "stat",
+					"component": "DestinyStatDefinition"
+				},
+				{
+					"path": "activityHash",
+					"component": "DestinyActivityDefinition"
+				},
+				{
+					"path": "armourChargeStats.[].statTypeHash",
+					"component": "DestinyStatDefinition"
+				},
+				{
+					"path": "damageType",
+					"component": "DestinyDamageTypeDefinition"
+				},
+				{
+					"path": "subclasses.[]",
+					"component": "DestinyInventoryItemDefinition"
+				}
+			]
+		}
+	},
+	"enums": {
+		"DestinyStatAggregationType": {
+			"name": "DestinyStatAggregationType",
+			"members": [
+				{
+					"name": "CharacterAverage",
+					"value": 0
+				},
+				{
+					"name": "Character",
+					"value": 1
+				},
+				{
+					"name": "Item",
+					"value": 2
+				}
+			]
+		},
+		"DestinyStatCategory": {
+			"name": "DestinyStatCategory",
+			"members": [
+				{
+					"name": "Gameplay",
+					"value": 0
+				},
+				{
+					"name": "Weapon",
+					"value": 1
+				},
+				{
+					"name": "Defense",
+					"value": 2
+				},
+				{
+					"name": "Primary",
+					"value": 3
+				}
+			]
+		},
+		"DestinyProgressionScope": {
+			"name": "DestinyProgressionScope",
+			"members": [
+				{
+					"name": "Account",
+					"value": 0
+				},
+				{
+					"name": "Character",
+					"value": 1
+				},
+				{
+					"name": "Clan",
+					"value": 2
+				},
+				{
+					"name": "Item",
+					"value": 3
+				},
+				{
+					"name": "ImplicitFromEquipment",
+					"value": 4
+				},
+				{
+					"name": "Mapped",
+					"value": 5
+				},
+				{
+					"name": "MappedAggregate",
+					"value": 6
+				},
+				{
+					"name": "MappedStat",
+					"value": 7
+				},
+				{
+					"name": "MappedUnlockValue",
+					"value": 8
+				}
+			]
+		},
+		"DestinyProgressionStepDisplayEffect": {
+			"name": "DestinyProgressionStepDisplayEffect",
+			"members": [
+				{
+					"name": "None",
+					"value": 0
+				},
+				{
+					"name": "Character",
+					"value": 1
+				},
+				{
+					"name": "Item",
+					"value": 2
+				}
+			]
+		},
+		"DestinyProgressionRewardItemAcquisitionBehavior": {
+			"name": "DestinyProgressionRewardItemAcquisitionBehavior",
+			"members": [
+				{
+					"name": "Instant",
+					"value": 0
+				},
+				{
+					"name": "PlayerClaimRequired",
+					"value": 1
+				}
+			]
+		},
+		"TierType": {
+			"name": "TierType",
+			"members": [
+				{
+					"name": "BasicQuest",
+					"value": 0
+				},
+				{
+					"name": "BasicCurrency",
+					"value": 1
+				},
+				{
+					"name": "Common",
+					"value": 2
+				},
+				{
+					"name": "Uncommon",
+					"value": 3
+				},
+				{
+					"name": "Rare",
+					"value": 4
+				},
+				{
+					"name": "Legendary",
+					"value": 5
+				},
+				{
+					"name": "Exotic",
+					"value": 6
+				}
+			]
+		},
+		"EquippingItemBlockAttributes": {
+			"name": "EquippingItemBlockAttributes",
+			"members": [
+				{
+					"name": "None",
+					"value": 0
+				},
+				{
+					"name": "EquipOnAcquire",
+					"value": 1
+				}
+			]
+		},
+		"DestinyAmmunitionType": {
+			"name": "DestinyAmmunitionType",
+			"members": [
+				{
+					"name": "None",
+					"value": 0
+				},
+				{
+					"name": "Primary",
+					"value": 1
+				},
+				{
+					"name": "Special",
+					"value": 2
+				},
+				{
+					"name": "Heavy",
+					"value": 3
+				},
+				{
+					"name": "Unknown",
+					"value": 4
+				}
+			]
+		},
+		"PlugUiStyles": {
+			"name": "PlugUiStyles",
+			"members": [
+				{
+					"name": "None",
+					"value": 0
+				},
+				{
+					"name": "Masterwork",
+					"value": 1
+				}
+			]
+		},
+		"PlugAvailabilityMode": {
+			"name": "PlugAvailabilityMode",
+			"members": [
+				{
+					"name": "Normal",
+					"value": 0
+				},
+				{
+					"name": "UnavailableIfSocketContainsMatchingPlugCategory",
+					"value": 1
+				},
+				{
+					"name": "AvailableIfSocketContainsMatchingPlugCategory",
+					"value": 2
+				}
+			]
+		},
+		"DestinyEnergyType": {
+			"name": "DestinyEnergyType",
+			"members": [
+				{
+					"name": "Any",
+					"value": 0
+				},
+				{
+					"name": "Arc",
+					"value": 1
+				},
+				{
+					"name": "Thermal",
+					"value": 2
+				},
+				{
+					"name": "Void",
+					"value": 3
+				},
+				{
+					"name": "Ghost",
+					"value": 4
+				},
+				{
+					"name": "Subclass",
+					"value": 5
+				},
+				{
+					"name": "Stasis",
+					"value": 6
+				}
+			]
+		},
+		"SocketPlugSources": {
+			"name": "SocketPlugSources",
+			"members": [
+				{
+					"name": "None",
+					"value": 0,
+					"description": "If there's no way we can detect to insert new plugs."
+				},
+				{
+					"name": "InventorySourced",
+					"value": 1,
+					"description": "Use plugs found in the player's inventory, based on the socket type rules (see DestinySocketTypeDefinition for more info)\r\nNote that a socket - like Shaders - can have *both* reusable plugs and inventory items inserted theoretically."
+				},
+				{
+					"name": "ReusablePlugItems",
+					"value": 2,
+					"description": "Use the DestinyItemSocketsComponent.sockets.reusablePlugs property to determine which plugs are valid for this socket. This may have to be combined with other sources, such as plug sets, if those flags are set.\r\n Note that \"Reusable\" plugs may not necessarily come from a plug set, nor from the \"reusablePlugItems\" in the socket's Definition data. They can sometimes be \"randomized\" in which case the only source of truth at the moment is still the runtime DestinyItemSocketsComponent.sockets.reusablePlugs property."
+				},
+				{
+					"name": "ProfilePlugSet",
+					"value": 4,
+					"description": "Use the ProfilePlugSets (DestinyProfileResponse.profilePlugSets) component data to determine which plugs are valid for this socket."
+				},
+				{
+					"name": "CharacterPlugSet",
+					"value": 8,
+					"description": "Use the CharacterPlugSets (DestinyProfileResponse.characterPlugSets) component data to determine which plugs are valid for this socket."
+				}
+			]
+		},
+		"DamageType": {
+			"name": "DamageType",
+			"members": [
+				{
+					"name": "None",
+					"value": 0
+				},
+				{
+					"name": "Kinetic",
+					"value": 1
+				},
+				{
+					"name": "Arc",
+					"value": 2
+				},
+				{
+					"name": "Thermal",
+					"value": 3
+				},
+				{
+					"name": "Void",
+					"value": 4
+				},
+				{
+					"name": "Raid",
+					"value": 5
+				},
+				{
+					"name": "Stasis",
+					"value": 6
+				},
+				{
+					"name": "Strand",
+					"value": 7
+				}
+			]
+		},
+		"ItemPerkVisibility": {
+			"name": "ItemPerkVisibility",
+			"members": [
+				{
+					"name": "Visible",
+					"value": 0
+				},
+				{
+					"name": "Disabled",
+					"value": 1
+				},
+				{
+					"name": "Hidden",
+					"value": 2
+				}
+			]
+		},
+		"SpecialItemType": {
+			"name": "SpecialItemType",
+			"members": [
+				{
+					"name": "None",
+					"value": 0
+				},
+				{
+					"name": "SpecialCurrency",
+					"value": 1
+				},
+				{
+					"name": "Armor",
+					"value": 8
+				},
+				{
+					"name": "Weapon",
+					"value": 9
+				},
+				{
+					"name": "Engram",
+					"value": 23
+				},
+				{
+					"name": "Consumable",
+					"value": 24
+				},
+				{
+					"name": "ExchangeMaterial",
+					"value": 25
+				},
+				{
+					"name": "MissionReward",
+					"value": 27
+				},
+				{
+					"name": "Currency",
+					"value": 29
+				}
+			]
+		},
+		"DestinyItemType": {
+			"name": "DestinyItemType",
+			"members": [
+				{
+					"name": "None",
+					"value": 0
+				},
+				{
+					"name": "Currency",
+					"value": 1
+				},
+				{
+					"name": "Armor",
+					"value": 2
+				},
+				{
+					"name": "Weapon",
+					"value": 3
+				},
+				{
+					"name": "Message",
+					"value": 7
+				},
+				{
+					"name": "Engram",
+					"value": 8
+				},
+				{
+					"name": "Consumable",
+					"value": 9
+				},
+				{
+					"name": "ExchangeMaterial",
+					"value": 10
+				},
+				{
+					"name": "MissionReward",
+					"value": 11
+				},
+				{
+					"name": "QuestStep",
+					"value": 12
+				},
+				{
+					"name": "QuestStepComplete",
+					"value": 13
+				},
+				{
+					"name": "Emblem",
+					"value": 14
+				},
+				{
+					"name": "Quest",
+					"value": 15
+				},
+				{
+					"name": "Subclass",
+					"value": 16
+				},
+				{
+					"name": "ClanBanner",
+					"value": 17
+				},
+				{
+					"name": "Aura",
+					"value": 18
+				},
+				{
+					"name": "Mod",
+					"value": 19
+				},
+				{
+					"name": "Dummy",
+					"value": 20
+				},
+				{
+					"name": "Ship",
+					"value": 21
+				},
+				{
+					"name": "Vehicle",
+					"value": 22
+				},
+				{
+					"name": "Emote",
+					"value": 23
+				},
+				{
+					"name": "Ghost",
+					"value": 24
+				},
+				{
+					"name": "Package",
+					"value": 25
+				},
+				{
+					"name": "Bounty",
+					"value": 26
+				},
+				{
+					"name": "Wrapper",
+					"value": 27
+				},
+				{
+					"name": "SeasonalArtifact",
+					"value": 28
+				},
+				{
+					"name": "Finisher",
+					"value": 29
+				},
+				{
+					"name": "Pattern",
+					"value": 30
+				}
+			]
+		},
+		"DestinyItemSubType": {
+			"name": "DestinyItemSubType",
+			"members": [
+				{
+					"name": "None",
+					"value": 0
+				},
+				{
+					"name": "Crucible",
+					"value": 1,
+					"description": "DEPRECATED. Items can be both \"Crucible\" and something else interesting."
+				},
+				{
+					"name": "Vanguard",
+					"value": 2,
+					"description": "DEPRECATED. An item can both be \"Vanguard\" and something else."
+				},
+				{
+					"name": "Exotic",
+					"value": 5,
+					"description": "DEPRECATED. An item can both be Exotic and something else."
+				},
+				{
+					"name": "AutoRifle",
+					"value": 6
+				},
+				{
+					"name": "Shotgun",
+					"value": 7
+				},
+				{
+					"name": "Machinegun",
+					"value": 8
+				},
+				{
+					"name": "HandCannon",
+					"value": 9
+				},
+				{
+					"name": "RocketLauncher",
+					"value": 10
+				},
+				{
+					"name": "FusionRifle",
+					"value": 11
+				},
+				{
+					"name": "SniperRifle",
+					"value": 12
+				},
+				{
+					"name": "PulseRifle",
+					"value": 13
+				},
+				{
+					"name": "ScoutRifle",
+					"value": 14
+				},
+				{
+					"name": "Crm",
+					"value": 16,
+					"description": "DEPRECATED. An item can both be CRM and something else."
+				},
+				{
+					"name": "Sidearm",
+					"value": 17
+				},
+				{
+					"name": "Sword",
+					"value": 18
+				},
+				{
+					"name": "Mask",
+					"value": 19
+				},
+				{
+					"name": "Shader",
+					"value": 20
+				},
+				{
+					"name": "Ornament",
+					"value": 21
+				},
+				{
+					"name": "FusionRifleLine",
+					"value": 22
+				},
+				{
+					"name": "GrenadeLauncher",
+					"value": 23
+				},
+				{
+					"name": "SubmachineGun",
+					"value": 24
+				},
+				{
+					"name": "TraceRifle",
+					"value": 25
+				},
+				{
+					"name": "HelmetArmor",
+					"value": 26
+				},
+				{
+					"name": "GauntletsArmor",
+					"value": 27
+				},
+				{
+					"name": "ChestArmor",
+					"value": 28
+				},
+				{
+					"name": "LegArmor",
+					"value": 29
+				},
+				{
+					"name": "ClassArmor",
+					"value": 30
+				},
+				{
+					"name": "Bow",
+					"value": 31
+				},
+				{
+					"name": "DummyRepeatableBounty",
+					"value": 32
+				},
+				{
+					"name": "Glaive",
+					"value": 33
+				}
+			]
+		},
+		"DestinyClass": {
+			"name": "DestinyClass",
+			"members": [
+				{
+					"name": "Titan",
+					"value": 0
+				},
+				{
+					"name": "Hunter",
+					"value": 1
+				},
+				{
+					"name": "Warlock",
+					"value": 2
+				},
+				{
+					"name": "Unknown",
+					"value": 3
+				}
+			]
+		},
+		"DestinyBreakerType": {
+			"name": "DestinyBreakerType",
+			"members": [
+				{
+					"name": "None",
+					"value": 0
+				},
+				{
+					"name": "ShieldPiercing",
+					"value": 1
+				},
+				{
+					"name": "Disruption",
+					"value": 2
+				},
+				{
+					"name": "Stagger",
+					"value": 3
+				}
+			]
+		},
+		"SocketTypeActionType": {
+			"name": "SocketTypeActionType",
+			"members": [
+				{
+					"name": "InsertPlug",
+					"value": 0
+				},
+				{
+					"name": "InfuseItem",
+					"value": 1
+				},
+				{
+					"name": "ReinitializeSocket",
+					"value": 2
+				}
+			]
+		},
+		"DestinySocketVisibility": {
+			"name": "DestinySocketVisibility",
+			"members": [
+				{
+					"name": "Visible",
+					"value": 0
+				},
+				{
+					"name": "Hidden",
+					"value": 1
+				},
+				{
+					"name": "HiddenWhenEmpty",
+					"value": 2
+				},
+				{
+					"name": "HiddenIfNoPlugsAvailable",
+					"value": 3
+				}
+			]
+		},
+		"DestinySocketCategoryStyle": {
+			"name": "DestinySocketCategoryStyle",
+			"members": [
+				{
+					"name": "Unknown",
+					"value": 0
+				},
+				{
+					"name": "Reusable",
+					"value": 1
+				},
+				{
+					"name": "Consumable",
+					"value": 2
+				},
+				{
+					"name": "Unlockable",
+					"value": 3
+				},
+				{
+					"name": "Intrinsic",
+					"value": 4
+				},
+				{
+					"name": "EnergyMeter",
+					"value": 5
+				},
+				{
+					"name": "LargePerk",
+					"value": 6
+				},
+				{
+					"name": "Abilities",
+					"value": 7
+				},
+				{
+					"name": "Supers",
+					"value": 8
+				}
+			]
+		},
+		"BucketScope": {
+			"name": "BucketScope",
+			"members": [
+				{
+					"name": "Character",
+					"value": 0
+				},
+				{
+					"name": "Account",
+					"value": 1
+				}
+			]
+		},
+		"BucketCategory": {
+			"name": "BucketCategory",
+			"members": [
+				{
+					"name": "Invisible",
+					"value": 0
+				},
+				{
+					"name": "Item",
+					"value": 1
+				},
+				{
+					"name": "Currency",
+					"value": 2
+				},
+				{
+					"name": "Equippable",
+					"value": 3
+				},
+				{
+					"name": "Ignored",
+					"value": 4
+				}
+			]
+		},
+		"ItemLocation": {
+			"name": "ItemLocation",
+			"members": [
+				{
+					"name": "Unknown",
+					"value": 0
+				},
+				{
+					"name": "Inventory",
+					"value": 1
+				},
+				{
+					"name": "Vault",
+					"value": 2
+				},
+				{
+					"name": "Vendor",
+					"value": 3
+				},
+				{
+					"name": "Postmaster",
+					"value": 4
+				}
+			]
+		},
+		"DestinyGender": {
+			"name": "DestinyGender",
+			"members": [
+				{
+					"name": "Male",
+					"value": 0
+				},
+				{
+					"name": "Female",
+					"value": 1
+				},
+				{
+					"name": "Unknown",
+					"value": 2
+				}
+			]
+		},
+		"DestinyVendorProgressionType": {
+			"name": "DestinyVendorProgressionType",
+			"members": [
+				{
+					"name": "Default",
+					"value": 0,
+					"description": "The original rank progression from token redemption."
+				},
+				{
+					"name": "Ritual",
+					"value": 1,
+					"description": "Progression from ranks in ritual content. For example: Crucible (Shaxx), Gambit (Drifter), and Season 13 Battlegrounds (War Table)."
+				},
+				{
+					"name": "NoSeasonalRefresh",
+					"value": 2,
+					"description": "A vendor progression with no seasonal refresh. For example: Xur in the Eternity destination for the 30th Anniversary."
+				}
+			]
+		},
+		"VendorDisplayCategorySortOrder": {
+			"name": "VendorDisplayCategorySortOrder",
+			"members": [
+				{
+					"name": "Default",
+					"value": 0
+				},
+				{
+					"name": "SortByTier",
+					"value": 1
+				}
+			]
+		},
+		"DestinyVendorInteractionRewardSelection": {
+			"name": "DestinyVendorInteractionRewardSelection",
+			"members": [
+				{
+					"name": "None",
+					"value": 0
+				},
+				{
+					"name": "One",
+					"value": 1
+				},
+				{
+					"name": "All",
+					"value": 2
+				}
+			]
+		},
+		"DestinyVendorReplyType": {
+			"name": "DestinyVendorReplyType",
+			"members": [
+				{
+					"name": "Accept",
+					"value": 0
+				},
+				{
+					"name": "Decline",
+					"value": 1
+				},
+				{
+					"name": "Complete",
+					"value": 2
+				}
+			]
+		},
+		"VendorInteractionType": {
+			"name": "VendorInteractionType",
+			"members": [
+				{
+					"name": "Unknown",
+					"value": 0
+				},
+				{
+					"name": "Undefined",
+					"value": 1,
+					"description": "An empty interaction. If this ends up in content, it is probably a game bug."
+				},
+				{
+					"name": "QuestComplete",
+					"value": 2,
+					"description": "An interaction shown when you complete a quest and receive a reward."
+				},
+				{
+					"name": "QuestContinue",
+					"value": 3,
+					"description": "An interaction shown when you talk to a Vendor as an intermediary step of a quest."
+				},
+				{
+					"name": "ReputationPreview",
+					"value": 4,
+					"description": "An interaction shown when you are previewing the vendor's reputation rewards."
+				},
+				{
+					"name": "RankUpReward",
+					"value": 5,
+					"description": "An interaction shown when you rank up with the vendor."
+				},
+				{
+					"name": "TokenTurnIn",
+					"value": 6,
+					"description": "An interaction shown when you have tokens to turn in for the vendor."
+				},
+				{
+					"name": "QuestAccept",
+					"value": 7,
+					"description": "An interaction shown when you're accepting a new quest."
+				},
+				{
+					"name": "ProgressTab",
+					"value": 8,
+					"description": "Honestly, this doesn't seem consistent to me. It is used to give you choices in the Cryptarch as well as some reward prompts by the Eververse vendor. I'll have to look into that further at some point."
+				},
+				{
+					"name": "End",
+					"value": 9,
+					"description": "These seem even less consistent. I don't know what these are."
+				},
+				{
+					"name": "Start",
+					"value": 10,
+					"description": "Also seem inconsistent. I also don't know what these are offhand."
+				}
+			]
+		},
+		"DestinyItemSortType": {
+			"name": "DestinyItemSortType",
+			"members": [
+				{
+					"name": "ItemId",
+					"value": 0
+				},
+				{
+					"name": "Timestamp",
+					"value": 1
+				},
+				{
+					"name": "StackSize",
+					"value": 2
+				}
+			]
+		},
+		"DestinyVendorItemRefundPolicy": {
+			"name": "DestinyVendorItemRefundPolicy",
+			"members": [
+				{
+					"name": "NotRefundable",
+					"value": 0
+				},
+				{
+					"name": "DeletesItem",
+					"value": 1
+				},
+				{
+					"name": "RevokesLicense",
+					"value": 2
+				}
+			]
+		},
+		"DestinyGatingScope": {
+			"name": "DestinyGatingScope",
+			"members": [
+				{
+					"name": "None",
+					"value": 0
+				},
+				{
+					"name": "Global",
+					"value": 1
+				},
+				{
+					"name": "Clan",
+					"value": 2
+				},
+				{
+					"name": "Profile",
+					"value": 3
+				},
+				{
+					"name": "Character",
+					"value": 4
+				},
+				{
+					"name": "Item",
+					"value": 5
+				},
+				{
+					"name": "AssumedWorstCase",
+					"value": 6
+				}
+			]
+		},
+		"ActivityGraphNodeHighlightType": {
+			"name": "ActivityGraphNodeHighlightType",
+			"members": [
+				{
+					"name": "None",
+					"value": 0
+				},
+				{
+					"name": "Normal",
+					"value": 1
+				},
+				{
+					"name": "Hyper",
+					"value": 2
+				},
+				{
+					"name": "Comet",
+					"value": 3
+				},
+				{
+					"name": "RiseOfIron",
+					"value": 4
+				}
+			]
+		},
+		"DestinyGraphNodeState": {
+			"name": "DestinyGraphNodeState",
+			"members": [
+				{
+					"name": "Hidden",
+					"value": 0
+				},
+				{
+					"name": "Visible",
+					"value": 1
+				},
+				{
+					"name": "Teaser",
+					"value": 2
+				},
+				{
+					"name": "Incomplete",
+					"value": 3
+				},
+				{
+					"name": "Completed",
+					"value": 4
+				}
+			]
+		},
+		"DestinyActivityModeType": {
+			"name": "DestinyActivityModeType",
+			"members": [
+				{
+					"name": "None",
+					"value": 0
+				},
+				{
+					"name": "Story",
+					"value": 2
+				},
+				{
+					"name": "Strike",
+					"value": 3
+				},
+				{
+					"name": "Raid",
+					"value": 4
+				},
+				{
+					"name": "AllPvP",
+					"value": 5
+				},
+				{
+					"name": "Patrol",
+					"value": 6
+				},
+				{
+					"name": "AllPvE",
+					"value": 7
+				},
+				{
+					"name": "Reserved9",
+					"value": 9
+				},
+				{
+					"name": "Control",
+					"value": 10
+				},
+				{
+					"name": "Reserved11",
+					"value": 11
+				},
+				{
+					"name": "Clash",
+					"value": 12,
+					"description": "Clash -> Destiny's name for Team Deathmatch. 4v4 combat, the team with the highest kills at the end of time wins."
+				},
+				{
+					"name": "Reserved13",
+					"value": 13
+				},
+				{
+					"name": "CrimsonDoubles",
+					"value": 15
+				},
+				{
+					"name": "Nightfall",
+					"value": 16
+				},
+				{
+					"name": "HeroicNightfall",
+					"value": 17
+				},
+				{
+					"name": "AllStrikes",
+					"value": 18
+				},
+				{
+					"name": "IronBanner",
+					"value": 19
+				},
+				{
+					"name": "Reserved20",
+					"value": 20
+				},
+				{
+					"name": "Reserved21",
+					"value": 21
+				},
+				{
+					"name": "Reserved22",
+					"value": 22
+				},
+				{
+					"name": "Reserved24",
+					"value": 24
+				},
+				{
+					"name": "AllMayhem",
+					"value": 25
+				},
+				{
+					"name": "Reserved26",
+					"value": 26
+				},
+				{
+					"name": "Reserved27",
+					"value": 27
+				},
+				{
+					"name": "Reserved28",
+					"value": 28
+				},
+				{
+					"name": "Reserved29",
+					"value": 29
+				},
+				{
+					"name": "Reserved30",
+					"value": 30
+				},
+				{
+					"name": "Supremacy",
+					"value": 31
+				},
+				{
+					"name": "PrivateMatchesAll",
+					"value": 32
+				},
+				{
+					"name": "Survival",
+					"value": 37
+				},
+				{
+					"name": "Countdown",
+					"value": 38
+				},
+				{
+					"name": "TrialsOfTheNine",
+					"value": 39
+				},
+				{
+					"name": "Social",
+					"value": 40
+				},
+				{
+					"name": "TrialsCountdown",
+					"value": 41
+				},
+				{
+					"name": "TrialsSurvival",
+					"value": 42
+				},
+				{
+					"name": "IronBannerControl",
+					"value": 43
+				},
+				{
+					"name": "IronBannerClash",
+					"value": 44
+				},
+				{
+					"name": "IronBannerSupremacy",
+					"value": 45
+				},
+				{
+					"name": "ScoredNightfall",
+					"value": 46
+				},
+				{
+					"name": "ScoredHeroicNightfall",
+					"value": 47
+				},
+				{
+					"name": "Rumble",
+					"value": 48
+				},
+				{
+					"name": "AllDoubles",
+					"value": 49
+				},
+				{
+					"name": "Doubles",
+					"value": 50
+				},
+				{
+					"name": "PrivateMatchesClash",
+					"value": 51
+				},
+				{
+					"name": "PrivateMatchesControl",
+					"value": 52
+				},
+				{
+					"name": "PrivateMatchesSupremacy",
+					"value": 53
+				},
+				{
+					"name": "PrivateMatchesCountdown",
+					"value": 54
+				},
+				{
+					"name": "PrivateMatchesSurvival",
+					"value": 55
+				},
+				{
+					"name": "PrivateMatchesMayhem",
+					"value": 56
+				},
+				{
+					"name": "PrivateMatchesRumble",
+					"value": 57
+				},
+				{
+					"name": "HeroicAdventure",
+					"value": 58
+				},
+				{
+					"name": "Showdown",
+					"value": 59
+				},
+				{
+					"name": "Lockdown",
+					"value": 60
+				},
+				{
+					"name": "Scorched",
+					"value": 61
+				},
+				{
+					"name": "ScorchedTeam",
+					"value": 62
+				},
+				{
+					"name": "Gambit",
+					"value": 63
+				},
+				{
+					"name": "AllPvECompetitive",
+					"value": 64
+				},
+				{
+					"name": "Breakthrough",
+					"value": 65
+				},
+				{
+					"name": "BlackArmoryRun",
+					"value": 66
+				},
+				{
+					"name": "Salvage",
+					"value": 67
+				},
+				{
+					"name": "IronBannerSalvage",
+					"value": 68
+				},
+				{
+					"name": "PvPCompetitive",
+					"value": 69
+				},
+				{
+					"name": "PvPQuickplay",
+					"value": 70
+				},
+				{
+					"name": "ClashQuickplay",
+					"value": 71
+				},
+				{
+					"name": "ClashCompetitive",
+					"value": 72
+				},
+				{
+					"name": "ControlQuickplay",
+					"value": 73
+				},
+				{
+					"name": "ControlCompetitive",
+					"value": 74
+				},
+				{
+					"name": "GambitPrime",
+					"value": 75
+				},
+				{
+					"name": "Reckoning",
+					"value": 76
+				},
+				{
+					"name": "Menagerie",
+					"value": 77
+				},
+				{
+					"name": "VexOffensive",
+					"value": 78
+				},
+				{
+					"name": "NightmareHunt",
+					"value": 79
+				},
+				{
+					"name": "Elimination",
+					"value": 80
+				},
+				{
+					"name": "Momentum",
+					"value": 81
+				},
+				{
+					"name": "Dungeon",
+					"value": 82
+				},
+				{
+					"name": "Sundial",
+					"value": 83
+				},
+				{
+					"name": "TrialsOfOsiris",
+					"value": 84
+				},
+				{
+					"name": "Dares",
+					"value": 85
+				},
+				{
+					"name": "Offensive",
+					"value": 86
+				},
+				{
+					"name": "LostSector",
+					"value": 87
+				},
+				{
+					"name": "Rift",
+					"value": 88
+				},
+				{
+					"name": "ZoneControl",
+					"value": 89
+				},
+				{
+					"name": "IronBannerRift",
+					"value": 90
+				},
+				{
+					"name": "IronBannerZoneControl",
+					"value": 91
+				},
+				{
+					"name": "Relic",
+					"value": 92
+				}
+			]
+		},
+		"DestinyUnlockValueUIStyle": {
+			"name": "DestinyUnlockValueUIStyle",
+			"members": [
+				{
+					"name": "Automatic",
+					"value": 0,
+					"description": "Generally, Automatic means \"Just show the number\""
+				},
+				{
+					"name": "Fraction",
+					"value": 1,
+					"description": "Show the number as a fractional value. For this to make sense, the value being displayed should have a comparable upper bound, like the progress to the next level of a Progression."
+				},
+				{
+					"name": "Checkbox",
+					"value": 2,
+					"description": "Show the number as a checkbox. 0 Will mean unchecked, any other value will mean checked."
+				},
+				{
+					"name": "Percentage",
+					"value": 3,
+					"description": "Show the number as a percentage. For this to make sense, the value being displayed should have a comparable upper bound, like the progress to the next level of a Progression."
+				},
+				{
+					"name": "DateTime",
+					"value": 4,
+					"description": "Show the number as a date and time. The number will be the number of seconds since the Unix Epoch (January 1st, 1970 at midnight UTC). It'll be up to you to convert this into a date and time format understandable to the user in their time zone."
+				},
+				{
+					"name": "FractionFloat",
+					"value": 5,
+					"description": "Show the number as a floating point value that represents a fraction, where 0 is min and 1 is max. For this to make sense, the value being displayed should have a comparable upper bound, like the progress to the next level of a Progression."
+				},
+				{
+					"name": "Integer",
+					"value": 6,
+					"description": "Show the number as a straight-up integer."
+				},
+				{
+					"name": "TimeDuration",
+					"value": 7,
+					"description": "Show the number as a time duration. The value will be returned as seconds."
+				},
+				{
+					"name": "Hidden",
+					"value": 8,
+					"description": "Don't bother showing the value at all, it's not easily human-interpretable, and used for some internal purpose."
+				},
+				{
+					"name": "Multiplier",
+					"value": 9,
+					"description": "Example: \"1.5x\""
+				},
+				{
+					"name": "GreenPips",
+					"value": 10,
+					"description": "Show the value as a series of green pips, like the wins in a Trials of Osiris score card."
+				},
+				{
+					"name": "RedPips",
+					"value": 11,
+					"description": "Show the value as a series of red pips, like the losses in a Trials of Osiris score card."
+				},
+				{
+					"name": "ExplicitPercentage",
+					"value": 12,
+					"description": "Show the value as a percentage. For example: \"51%\" - Does no division, only appends '%'"
+				},
+				{
+					"name": "RawFloat",
+					"value": 13,
+					"description": "Show the value as a floating-point number. For example: \"4.52\" NOTE: Passed along from Investment as whole number with last two digits as decimal values (452 -> 4.52)"
+				},
+				{
+					"name": "LevelAndReward",
+					"value": 14,
+					"description": "Show the value as a level and a reward."
+				}
+			]
+		},
+		"DestinyObjectiveGrantStyle": {
+			"name": "DestinyObjectiveGrantStyle",
+			"members": [
+				{
+					"name": "WhenIncomplete",
+					"value": 0
+				},
+				{
+					"name": "WhenComplete",
+					"value": 1
+				},
+				{
+					"name": "Always",
+					"value": 2
+				}
+			]
+		},
+		"DestinyObjectiveUiStyle": {
+			"name": "DestinyObjectiveUiStyle",
+			"members": [
+				{
+					"name": "None",
+					"value": 0
+				},
+				{
+					"name": "Highlighted",
+					"value": 1
+				},
+				{
+					"name": "CraftingWeaponLevel",
+					"value": 2
+				},
+				{
+					"name": "CraftingWeaponLevelProgress",
+					"value": 3
+				},
+				{
+					"name": "CraftingWeaponTimestamp",
+					"value": 4
+				},
+				{
+					"name": "CraftingMementos",
+					"value": 5
+				},
+				{
+					"name": "CraftingMementoTitle",
+					"value": 6
+				},
+				{
+					"name": "DiscoverableMystery0",
+					"value": 7
+				},
+				{
+					"name": "DiscoverableMystery1",
+					"value": 8
+				},
+				{
+					"name": "DiscoverableMystery2",
+					"value": 9
+				},
+				{
+					"name": "DiscoverableMystery3",
+					"value": 10
+				},
+				{
+					"name": "DiscoverableMystery4",
+					"value": 11
+				},
+				{
+					"name": "DiscoverableExotic",
+					"value": 12
+				}
+			]
+		},
+		"DestinyActivityNavPointType": {
+			"name": "DestinyActivityNavPointType",
+			"members": [
+				{
+					"name": "Inactive",
+					"value": 0
+				},
+				{
+					"name": "PrimaryObjective",
+					"value": 1
+				},
+				{
+					"name": "SecondaryObjective",
+					"value": 2
+				},
+				{
+					"name": "TravelObjective",
+					"value": 3
+				},
+				{
+					"name": "PublicEventObjective",
+					"value": 4
+				},
+				{
+					"name": "AmmoCache",
+					"value": 5
+				},
+				{
+					"name": "PointTypeFlag",
+					"value": 6
+				},
+				{
+					"name": "CapturePoint",
+					"value": 7
+				},
+				{
+					"name": "DefensiveEncounter",
+					"value": 8
+				},
+				{
+					"name": "GhostInteraction",
+					"value": 9
+				},
+				{
+					"name": "KillAi",
+					"value": 10
+				},
+				{
+					"name": "QuestItem",
+					"value": 11
+				},
+				{
+					"name": "PatrolMission",
+					"value": 12
+				},
+				{
+					"name": "Incoming",
+					"value": 13
+				},
+				{
+					"name": "ArenaObjective",
+					"value": 14
+				},
+				{
+					"name": "AutomationHint",
+					"value": 15
+				},
+				{
+					"name": "TrackedQuest",
+					"value": 16
+				}
+			]
+		},
+		"DestinyActivityModeCategory": {
+			"name": "DestinyActivityModeCategory",
+			"members": [
+				{
+					"name": "None",
+					"value": 0,
+					"description": "Activities that are neither PVP nor PVE, such as social activities."
+				},
+				{
+					"name": "PvE",
+					"value": 1,
+					"description": "PvE activities, where you shoot aliens in the face."
+				},
+				{
+					"name": "PvP",
+					"value": 2,
+					"description": "PvP activities, where you shoot your \"friends\"."
+				},
+				{
+					"name": "PvECompetitive",
+					"value": 3,
+					"description": "PVE competitive activities, where you shoot whoever you want whenever you want. Or run around collecting small glowing triangles."
+				}
+			]
+		},
+		"DestinyActivityDifficultyId": {
+			"name": "DestinyActivityDifficultyId",
+			"members": [
+				{
+					"name": "Trivial",
+					"value": 0
+				},
+				{
+					"name": "Easy",
+					"value": 1
+				},
+				{
+					"name": "Normal",
+					"value": 2
+				},
+				{
+					"name": "Challenging",
+					"value": 3
+				},
+				{
+					"name": "Hard",
+					"value": 4
+				},
+				{
+					"name": "Brave",
+					"value": 5
+				},
+				{
+					"name": "AlmostImpossible",
+					"value": 6
+				},
+				{
+					"name": "Impossible",
+					"value": 7
+				},
+				{
+					"name": "Count",
+					"value": 8
+				}
+			]
+		},
+		"DestinyActivitySkullDynamicUse": {
+			"name": "DestinyActivitySkullDynamicUse",
+			"members": [
+				{
+					"name": "Unknown",
+					"value": 0
+				},
+				{
+					"name": "Allowed",
+					"value": 1
+				},
+				{
+					"name": "Disallowed",
+					"value": 2
+				},
+				{
+					"name": "Count",
+					"value": 3
+				}
+			]
+		},
+		"DestinyActivityModifierDisplayCategory": {
+			"name": "DestinyActivityModifierDisplayCategory",
+			"members": [
+				{
+					"name": "None",
+					"value": 0
+				},
+				{
+					"name": "ModeRules",
+					"value": 1
+				},
+				{
+					"name": "SelfBuildcraft",
+					"value": 2
+				},
+				{
+					"name": "EnemyAdjustment",
+					"value": 3
+				},
+				{
+					"name": "EnemyBuildcraft",
+					"value": 4
+				},
+				{
+					"name": "Seasonal",
+					"value": 5
+				},
+				{
+					"name": "Fun",
+					"value": 6
+				},
+				{
+					"name": "Count",
+					"value": 7
+				}
+			]
+		},
+		"DestinyActivityModifierConnotation": {
+			"name": "DestinyActivityModifierConnotation",
+			"members": [
+				{
+					"name": "Neutral",
+					"value": 0
+				},
+				{
+					"name": "Positive",
+					"value": 1
+				},
+				{
+					"name": "Negative",
+					"value": 2
+				},
+				{
+					"name": "Affix",
+					"value": 3
+				},
+				{
+					"name": "Informational",
+					"value": 4
+				},
+				{
+					"name": "Reward",
+					"value": 5
+				},
+				{
+					"name": "Event",
+					"value": 6
+				},
+				{
+					"name": "Count",
+					"value": 7
+				}
+			]
+		},
+		"DestinyActivityDifficultyTierType": {
+			"name": "DestinyActivityDifficultyTierType",
+			"members": [
+				{
+					"name": "Default",
+					"value": 0
+				},
+				{
+					"name": "Training",
+					"value": 1
+				},
+				{
+					"name": "Count",
+					"value": 2
+				}
+			]
+		},
+		"DestinyRewardSourceCategory": {
+			"name": "DestinyRewardSourceCategory",
+			"members": [
+				{
+					"name": "None",
+					"value": 0,
+					"description": "The source doesn't fit well into any of the other types."
+				},
+				{
+					"name": "Activity",
+					"value": 1,
+					"description": "The source is directly related to the rewards gained by playing an activity or set of activities. This currently includes Quests and other action in-game."
+				},
+				{
+					"name": "Vendor",
+					"value": 2,
+					"description": "This source is directly related to items that Vendors sell."
+				},
+				{
+					"name": "Aggregate",
+					"value": 3,
+					"description": "This source is a custom aggregation of items that can be earned in many ways, but that share some other property in common that is useful to share. For instance, in Destiny 1 we would make \"Reward Sources\" for every game expansion: that way, you could search reward sources to see what items became available with any given Expansion."
+				}
+			]
+		},
+		"DestinyPresentationNodeType": {
+			"name": "DestinyPresentationNodeType",
+			"members": [
+				{
+					"name": "Default",
+					"value": 0
+				},
+				{
+					"name": "Category",
+					"value": 1
+				},
+				{
+					"name": "Collectibles",
+					"value": 2
+				},
+				{
+					"name": "Records",
+					"value": 3
+				},
+				{
+					"name": "Metric",
+					"value": 4
+				},
+				{
+					"name": "Craftable",
+					"value": 5
+				}
+			]
+		},
+		"DestinyScope": {
+			"name": "DestinyScope",
+			"members": [
+				{
+					"name": "Profile",
+					"value": 0
+				},
+				{
+					"name": "Character",
+					"value": 1
+				}
+			]
+		},
+		"DestinyPresentationDisplayStyle": {
+			"name": "DestinyPresentationDisplayStyle",
+			"members": [
+				{
+					"name": "Category",
+					"value": 0,
+					"description": "Display the item as a category, through which sub-items are filtered."
+				},
+				{
+					"name": "Badge",
+					"value": 1
+				},
+				{
+					"name": "Medals",
+					"value": 2
+				},
+				{
+					"name": "Collectible",
+					"value": 3
+				},
+				{
+					"name": "Record",
+					"value": 4
+				},
+				{
+					"name": "SeasonalTriumph",
+					"value": 5
+				},
+				{
+					"name": "GuardianRank",
+					"value": 6
+				},
+				{
+					"name": "CategoryCollectibles",
+					"value": 7
+				},
+				{
+					"name": "CategoryCurrencies",
+					"value": 8
+				},
+				{
+					"name": "CategoryEmblems",
+					"value": 9
+				},
+				{
+					"name": "CategoryEmotes",
+					"value": 10
+				},
+				{
+					"name": "CategoryEngrams",
+					"value": 11
+				},
+				{
+					"name": "CategoryFinishers",
+					"value": 12
+				},
+				{
+					"name": "CategoryGhosts",
+					"value": 13
+				},
+				{
+					"name": "CategoryMisc",
+					"value": 14
+				},
+				{
+					"name": "CategoryMods",
+					"value": 15
+				},
+				{
+					"name": "CategoryOrnaments",
+					"value": 16
+				},
+				{
+					"name": "CategoryShaders",
+					"value": 17
+				},
+				{
+					"name": "CategoryShips",
+					"value": 18
+				},
+				{
+					"name": "CategorySpawnfx",
+					"value": 19
+				},
+				{
+					"name": "CategoryUpgradeMaterials",
+					"value": 20
+				}
+			]
+		},
+		"DestinyPresentationScreenStyle": {
+			"name": "DestinyPresentationScreenStyle",
+			"members": [
+				{
+					"name": "Default",
+					"value": 0,
+					"description": "Use the \"default\" view for the presentation nodes."
+				},
+				{
+					"name": "CategorySets",
+					"value": 1,
+					"description": "Show sub-items as \"category sets\". In-game, you'd see these as a vertical list of child presentation nodes - armor sets for example - and the icons of items within those sets displayed horizontally."
+				},
+				{
+					"name": "Badge",
+					"value": 2,
+					"description": "Show sub-items as Badges. (I know, I know. We don't need no stinkin' badges har har har)"
+				}
+			]
+		},
+		"DestinyRecordValueStyle": {
+			"name": "DestinyRecordValueStyle",
+			"members": [
+				{
+					"name": "Integer",
+					"value": 0
+				},
+				{
+					"name": "Percentage",
+					"value": 1
+				},
+				{
+					"name": "Milliseconds",
+					"value": 2
+				},
+				{
+					"name": "Boolean",
+					"value": 3
+				},
+				{
+					"name": "Decimal",
+					"value": 4
+				}
+			]
+		},
+		"DestinyRecordToastStyle": {
+			"name": "DestinyRecordToastStyle",
+			"members": [
+				{
+					"name": "None",
+					"value": 0
+				},
+				{
+					"name": "Record",
+					"value": 1
+				},
+				{
+					"name": "Lore",
+					"value": 2
+				},
+				{
+					"name": "Badge",
+					"value": 3
+				},
+				{
+					"name": "MetaRecord",
+					"value": 4
+				},
+				{
+					"name": "MedalComplete",
+					"value": 5
+				},
+				{
+					"name": "SeasonChallengeComplete",
+					"value": 6
+				},
+				{
+					"name": "GildedTitleComplete",
+					"value": 7
+				},
+				{
+					"name": "CraftingRecipeUnlocked",
+					"value": 8
+				},
+				{
+					"name": "ToastGuardianRankDetails",
+					"value": 9
+				},
+				{
+					"name": "PathfinderObjectiveCompleteRituals",
+					"value": 10
+				},
+				{
+					"name": "PathfinderObjectiveCompleteSchism",
+					"value": 11
+				},
+				{
+					"name": "PathfinderObjectiveCompletePvp",
+					"value": 12
+				},
+				{
+					"name": "PathfinderObjectiveCompleteStrikes",
+					"value": 13
+				},
+				{
+					"name": "PathfinderObjectiveCompleteGambit",
+					"value": 14
+				},
+				{
+					"name": "SeasonWeeklyComplete",
+					"value": 15
+				},
+				{
+					"name": "SeasonDailyComplete",
+					"value": 16
+				}
+			]
+		},
+		"DestinyRace": {
+			"name": "DestinyRace",
+			"members": [
+				{
+					"name": "Human",
+					"value": 0
+				},
+				{
+					"name": "Awoken",
+					"value": 1
+				},
+				{
+					"name": "Exo",
+					"value": 2
+				},
+				{
+					"name": "Unknown",
+					"value": 3
+				}
+			]
+		},
+		"DestinyMilestoneDisplayPreference": {
+			"name": "DestinyMilestoneDisplayPreference",
+			"members": [
+				{
+					"name": "MilestoneDefinition",
+					"value": 0,
+					"description": "Indicates you should show DestinyMilestoneDefinition.displayProperties for this Milestone."
+				},
+				{
+					"name": "CurrentQuestSteps",
+					"value": 1,
+					"description": "Indicates you should show the displayProperties for any currently active Quest Steps in DestinyMilestone.availableQuests."
+				},
+				{
+					"name": "CurrentActivityChallenges",
+					"value": 2,
+					"description": "Indicates you should show the displayProperties for any currently active Activities and their Challenges in DestinyMilestone.activities."
+				}
+			]
+		},
+		"DestinyMilestoneType": {
+			"name": "DestinyMilestoneType",
+			"members": [
+				{
+					"name": "Unknown",
+					"value": 0
+				},
+				{
+					"name": "Tutorial",
+					"value": 1,
+					"description": "One-time milestones that are specifically oriented toward teaching players about new mechanics and gameplay modes."
+				},
+				{
+					"name": "OneTime",
+					"value": 2,
+					"description": "Milestones that, once completed a single time, can never be repeated."
+				},
+				{
+					"name": "Weekly",
+					"value": 3,
+					"description": "Milestones that repeat/reset on a weekly basis. They need not all reset on the same day or time, but do need to reset weekly to qualify for this type."
+				},
+				{
+					"name": "Daily",
+					"value": 4,
+					"description": "Milestones that repeat or reset on a daily basis."
+				},
+				{
+					"name": "Special",
+					"value": 5,
+					"description": "Special indicates that the event is not on a daily/weekly cadence, but does occur more than once. For instance, Iron Banner in Destiny 1 or the Dawning were examples of what could be termed \"Special\" events."
+				}
+			]
+		},
+		"DestinyActivityTreeType": {
+			"name": "DestinyActivityTreeType",
+			"members": [
+				{
+					"name": "FireteamFinder",
+					"value": 0
+				},
+				{
+					"name": "Curator",
+					"value": 1
+				},
+				{
+					"name": "EventHome",
+					"value": 2
+				},
+				{
+					"name": "SeasonHome",
+					"value": 3
+				},
+				{
+					"name": "Count",
+					"value": 4
+				}
+			]
+		},
+		"DestinyActivityTreeChildSortMode": {
+			"name": "DestinyActivityTreeChildSortMode",
+			"members": [
+				{
+					"name": "Investment",
+					"value": 0
+				},
+				{
+					"name": "FocusFirst",
+					"value": 1
+				},
+				{
+					"name": "BonusAndFocusFirst",
+					"value": 2
+				}
+			]
+		},
+		"FireteamFinderCodeOptionType": {
+			"name": "FireteamFinderCodeOptionType",
+			"members": [
+				{
+					"name": "None",
+					"value": 0
+				},
+				{
+					"name": "ApplicationOnly",
+					"value": 1
+				},
+				{
+					"name": "OnlineOnly",
+					"value": 2
+				},
+				{
+					"name": "PlayerCount",
+					"value": 3
+				},
+				{
+					"name": "Title",
+					"value": 4
+				},
+				{
+					"name": "Tags",
+					"value": 5
+				},
+				{
+					"name": "FinderActivityGraph",
+					"value": 6
+				},
+				{
+					"name": "MicrophoneRequired",
+					"value": 7
+				}
+			]
+		},
+		"FireteamFinderOptionAvailability": {
+			"name": "FireteamFinderOptionAvailability",
+			"members": [
+				{
+					"name": "None",
+					"value": 0
+				},
+				{
+					"name": "CreateListingBuilder",
+					"value": 1
+				},
+				{
+					"name": "SearchListingBuilder",
+					"value": 2
+				},
+				{
+					"name": "ListingViewer",
+					"value": 4
+				},
+				{
+					"name": "LobbyViewer",
+					"value": 8
+				}
+			]
+		},
+		"FireteamFinderOptionVisibility": {
+			"name": "FireteamFinderOptionVisibility",
+			"members": [
+				{
+					"name": "Always",
+					"value": 0
+				},
+				{
+					"name": "ShowWhenChangedFromDefault",
+					"value": 1
+				}
+			]
+		},
+		"FireteamFinderOptionControlType": {
+			"name": "FireteamFinderOptionControlType",
+			"members": [
+				{
+					"name": "None",
+					"value": 0
+				},
+				{
+					"name": "ValueCollection",
+					"value": 1
+				},
+				{
+					"name": "RadioButton",
+					"value": 2
+				}
+			]
+		},
+		"FireteamFinderOptionSearchFilterType": {
+			"name": "FireteamFinderOptionSearchFilterType",
+			"members": [
+				{
+					"name": "None",
+					"value": 0
+				},
+				{
+					"name": "All",
+					"value": 1
+				},
+				{
+					"name": "Any",
+					"value": 2
+				},
+				{
+					"name": "InRangeInclusive",
+					"value": 3
+				},
+				{
+					"name": "InRangeExclusive",
+					"value": 4
+				},
+				{
+					"name": "GreaterThan",
+					"value": 5
+				},
+				{
+					"name": "GreaterThanOrEqualTo",
+					"value": 6
+				},
+				{
+					"name": "LessThan",
+					"value": 7
+				},
+				{
+					"name": "LessThanOrEqualTo",
+					"value": 8
+				}
+			]
+		},
+		"FireteamFinderOptionDisplayFormat": {
+			"name": "FireteamFinderOptionDisplayFormat",
+			"members": [
+				{
+					"name": "Text",
+					"value": 0
+				},
+				{
+					"name": "Integer",
+					"value": 1
+				},
+				{
+					"name": "Bool",
+					"value": 2
+				},
+				{
+					"name": "FormatString",
+					"value": 3
+				}
+			]
+		},
+		"FireteamFinderOptionValueProviderType": {
+			"name": "FireteamFinderOptionValueProviderType",
+			"members": [
+				{
+					"name": "None",
+					"value": 0
+				},
+				{
+					"name": "Values",
+					"value": 1
+				},
+				{
+					"name": "PlayerCount",
+					"value": 2
+				},
+				{
+					"name": "FireteamFinderLabels",
+					"value": 3
+				},
+				{
+					"name": "FireteamFinderActivityGraph",
+					"value": 4
+				},
+				{
+					"name": "FireteamFinderUIActivityTree",
+					"value": 5
+				}
+			]
+		},
+		"FireteamFinderOptionValueFlags": {
+			"name": "FireteamFinderOptionValueFlags",
+			"members": [
+				{
+					"name": "None",
+					"value": 0
+				},
+				{
+					"name": "CreateListingDefaultValue",
+					"value": 1
+				},
+				{
+					"name": "SearchFilterDefaultValue",
+					"value": 2
+				}
+			]
+		},
+		"FireteamFinderLabelFieldType": {
+			"name": "FireteamFinderLabelFieldType",
+			"members": [
+				{
+					"name": "Title",
+					"value": 0
+				},
+				{
+					"name": "Label",
+					"value": 1
+				}
+			]
+		},
+		"DeepsightItemSourceType": {
+			"name": "DeepsightItemSourceType",
+			"members": [
+				{
+					"name": "CommanderZavalaLegacyGear",
+					"value": 0
+				},
+				{
+					"name": "LordShaxxLegacyGear",
+					"value": 1
+				},
+				{
+					"name": "DrifterLegacyGear",
+					"value": 2
+				},
+				{
+					"name": "Saint14LegacyGear",
+					"value": 3
+				},
+				{
+					"name": "BansheeFocusedDecoding",
+					"value": 4
+				},
+				{
+					"name": "BansheeFeatured",
+					"value": 5
+				},
+				{
+					"name": "ExoticKioskLegacyGear",
+					"value": 6
+				},
+				{
+					"name": "VanguardOpsActivityReward",
+					"value": 7
+				},
+				{
+					"name": "PinnacleOps",
+					"value": 8
+				},
+				{
+					"name": "CrucibleOpsActivityReward",
+					"value": 9
+				},
+				{
+					"name": "TrialsOfOsiris",
+					"value": 10
+				},
+				{
+					"name": "ArmsWeekEvent",
+					"value": 11
+				},
+				{
+					"name": "SolsticeEvent",
+					"value": 12
+				},
+				{
+					"name": "Kepler",
+					"value": 13
+				},
+				{
+					"name": "HeavyMetalEvent",
+					"value": 14
+				},
+				{
+					"name": "NewTerritoriesReclaimEvent",
+					"value": 15
+				},
+				{
+					"name": "IronBannerEvent",
+					"value": 16
+				},
+				{
+					"name": "XurStrangeGear",
+					"value": 17
+				},
+				{
+					"name": "ValusSaladinLegacyGear",
+					"value": 18
+				},
+				{
+					"name": "FestivalOfTheLost",
+					"value": 19
+				}
+			]
+		},
+		"DeepsightItemSourceCategory": {
+			"name": "DeepsightItemSourceCategory",
+			"members": [
+				{
+					"name": "Vendor",
+					"value": 0
+				},
+				{
+					"name": "ActivityReward",
+					"value": 1
+				},
+				{
+					"name": "EventReward",
+					"value": 2
+				},
+				{
+					"name": "Destination",
+					"value": 3
+				},
+				{
+					"name": "EventVendor",
+					"value": 4
+				}
+			]
+		},
+		"BreakerSource": {
+			"name": "BreakerSource",
+			"members": [
+				{
+					"name": "None",
+					"value": 0
+				},
+				{
+					"name": "IntrinsicShieldPierce",
+					"value": 1
+				},
+				{
+					"name": "IntrinsicDisruption",
+					"value": 2
+				},
+				{
+					"name": "IntrinsicStagger",
+					"value": 3
+				},
+				{
+					"name": "Blind",
+					"value": 4
+				},
+				{
+					"name": "Jolt",
+					"value": 5
+				},
+				{
+					"name": "Scorch",
+					"value": 6
+				},
+				{
+					"name": "Ignition",
+					"value": 7
+				},
+				{
+					"name": "Radiant",
+					"value": 8
+				},
+				{
+					"name": "VolatileRounds",
+					"value": 9
+				},
+				{
+					"name": "Suppress",
+					"value": 10
+				},
+				{
+					"name": "Slow",
+					"value": 11
+				},
+				{
+					"name": "Freeze",
+					"value": 12
+				},
+				{
+					"name": "StasisCrystal",
+					"value": 13
+				},
+				{
+					"name": "Suspend",
+					"value": 14
+				},
+				{
+					"name": "UnravelingRounds",
+					"value": 15
+				}
+			]
+		},
+		"DeepsightPlugCategory": {
+			"name": "DeepsightPlugCategory",
+			"members": [
+				{
+					"name": "None",
+					"value": 0
+				},
+				{
+					"name": "Intrinsic",
+					"value": 1
+				},
+				{
+					"name": "Perk",
+					"value": 2
+				},
+				{
+					"name": "Mod",
+					"value": 3
+				},
+				{
+					"name": "Subclass",
+					"value": 4
+				},
+				{
+					"name": "Artifact",
+					"value": 5
+				},
+				{
+					"name": "Cosmetic",
+					"value": 6
+				},
+				{
+					"name": "Masterwork",
+					"value": 7
+				},
+				{
+					"name": "Vendor",
+					"value": 8
+				},
+				{
+					"name": "Classified",
+					"value": 9
+				},
+				{
+					"name": "StatusEffect",
+					"value": 10
+				},
+				{
+					"name": "Unknown",
+					"value": 11
+				},
+				{
+					"name": "Extractable",
+					"value": 12
+				},
+				{
+					"name": "Infusion",
+					"value": 13
+				},
+				{
+					"name": "Destination",
+					"value": 14
+				},
+				{
+					"name": "Information",
+					"value": 15
+				},
+				{
+					"name": "Seasonal",
+					"value": 16
+				}
+			]
+		}
+	}
+}
