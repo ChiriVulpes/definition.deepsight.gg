@@ -970,13 +970,13 @@ namespace DeepsightPlugCategorisation {
 			const typeName = plugTypeEnum?.[type!]
 			DeepsightPlugCategorisation[+plugItemHash] = {
 				...Env.DEEPSIGHT_ENVIRONMENT !== 'dev' ? undefined : {
-					name: context.definition.displayProperties?.name,
-					itemTypeName: context.definition.itemTypeDisplayName,
-					itemTypeAndTierName: context.definition.itemTypeAndTierDisplayName,
-					itemCategoryHashes: context.definition.itemCategoryHashes,
-					itemCategoryIdentifiers: context.definition.itemCategoryHashes?.map(hash => EnumHelper.simplifyName(DestinyItemCategoryDefinition[hash].displayProperties?.name)),
-					plugCategoryIdentifier: context.definition.plug?.plugCategoryIdentifier,
-					traitIds: context.definition.traitIds,
+					_name: context.definition.displayProperties?.name,
+					_itemTypeName: context.definition.itemTypeDisplayName,
+					_itemTypeAndTierName: context.definition.itemTypeAndTierDisplayName,
+					_itemCategoryHashes: context.definition.itemCategoryHashes,
+					_itemCategoryIdentifiers: context.definition.itemCategoryHashes?.map(hash => EnumHelper.simplifyName(DestinyItemCategoryDefinition[hash].displayProperties?.name)),
+					_plugCategoryIdentifier: context.definition.plug?.plugCategoryIdentifier,
+					_traitIds: context.definition.traitIds,
 				},
 				hash: +plugItemHash,
 				category,
