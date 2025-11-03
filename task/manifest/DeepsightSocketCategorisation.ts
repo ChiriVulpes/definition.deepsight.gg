@@ -102,6 +102,9 @@ async function computeDeepsightSocketCategorisation () {
 			socketCategorisation.type = DeepsightPlugTypeMap[socketCategorisation.category]?.[socketCategorisation.typeName as never] as number | undefined
 		}
 
+		if (!socketCategorisations.length)
+			continue
+
 		DeepsightSocketCategorisation[item.hash] = {
 			hash: item.hash,
 			categorisation: socketCategorisations as DeepsightSocketCategorisation[],
