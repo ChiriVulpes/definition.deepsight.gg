@@ -371,6 +371,7 @@
 				}
 			],
 			"augmentations": [
+				"DestinyInventoryItemLiteDefinition",
 				"DeepsightItemSourceListDefinition",
 				"DeepsightItemDamageTypesDefinition",
 				"DeepsightBreakerTypeDefinition",

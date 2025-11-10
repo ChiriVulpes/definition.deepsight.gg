@@ -1,4 +1,24 @@
 {
+	"112486683": {
+		"hash": 112486683,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Descend into Nessus and explore the Vex structures within.",
+			"name": "Battleground: Delve",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"iconHash": 0,
+			"hasIcon": false
+		},
+		"dropTable": {
+			"1077454211": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Fireteam Ops",
+			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
+			"icon": "./image/png/activity/portal_fireteam.png"
+		}
+	},
 	"300092127": {
 		"hash": 300092127,
 		"displayProperties": {
@@ -328,6 +348,46 @@
 			"icon": "./image/png/activity/portal_pinnacle.png"
 		}
 	},
+	"651146256": {
+		"hash": 651146256,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Dig up buried pirate riches on Nessus, fight off raiders, and deliver the treasure haul to your Ketch!",
+			"name": "Expedition: Nessus",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"iconHash": 0,
+			"hasIcon": false
+		},
+		"dropTable": {
+			"1077454211": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Fireteam Ops",
+			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
+			"icon": "./image/png/activity/portal_fireteam.png"
+		}
+	},
+	"763890651": {
+		"hash": 763890651,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Stop the Shadow Legion from bringing down Neomuna's defenses.",
+			"name": "HyperNet Current",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"iconHash": 0,
+			"hasIcon": false
+		},
+		"dropTable": {
+			"1077454211": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Fireteam Ops",
+			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
+			"icon": "./image/png/activity/portal_fireteam.png"
+		}
+	},
 	"775989808": {
 		"hash": 775989808,
 		"type": "bonus-focus",
@@ -348,6 +408,27 @@
 			"icon": "./image/png/activity/portal_pinnacle.png"
 		}
 	},
+	"814159553": {
+		"hash": 814159553,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Matches affect your Competitive Division placement. Wins will lead to promotions. Losses will lead to demotion. \nHigher divisions grant greater reward bonus.",
+			"name": "Competitive",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"iconHash": 0,
+			"hasIcon": false
+		},
+		"dropTable": {
+			"4090134063": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Crucible Ops",
+			"description": "Hone your skills and win glory in battle against other Guardians.",
+			"icon": "./image/png/activity/portal_crucible.png"
+		},
+		"pgcrImage": "/img/destiny_content/pgcr/crucible_twilight_gap.jpg"
+	},
 	"843932907": {
 		"hash": 843932907,
 		"type": "bonus-focus",
@@ -360,7 +441,7 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"2111625436": {}
+			"1077454211": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Fireteam Ops",
@@ -1297,26 +1378,6 @@
 			"hasIcon": true
 		}
 	},
-	"1408611635": {
-		"hash": 1408611635,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Defeat Eramis's military commander, Phylaks, the Warrior.",
-			"name": "The Warrior",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"iconHash": 0,
-			"hasIcon": false
-		},
-		"dropTable": {
-			"1077454211": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Fireteam Ops",
-			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
-			"icon": "./image/png/activity/portal_fireteam.png"
-		}
-	},
 	"1441982566": {
 		"hash": 1441982566,
 		"displayProperties": {
@@ -1480,6 +1541,26 @@
 			"icon": "/common/destiny2_content/icons/bd7a1fc995f87be96698263bc16698e7.png",
 			"iconHash": 0,
 			"hasIcon": true
+		}
+	},
+	"1509484286": {
+		"hash": 1509484286,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "End the Red Legion expedition that's ripped open the planet's surface.",
+			"name": "The Inverted Spire",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"iconHash": 0,
+			"hasIcon": false
+		},
+		"dropTable": {
+			"1077454211": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Fireteam Ops",
+			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
+			"icon": "./image/png/activity/portal_fireteam.png"
 		}
 	},
 	"1534952762": {
@@ -1718,6 +1799,26 @@
 			"name": "Fireteam Ops",
 			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
 			"icon": "./image/png/activity/portal_fireteam.png"
+		}
+	},
+	"1768099736": {
+		"hash": 1768099736,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Within the Black Garden, the Sol Divisive toil endlessly, systematically shutting down potential futures. With Riven's blessing, it's time to shut them down.",
+			"name": "Starcrossed",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"iconHash": 0,
+			"hasIcon": false
+		},
+		"dropTable": {
+			"1077454211": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Pinnacle Ops",
+			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
+			"icon": "./image/png/activity/portal_pinnacle.png"
 		}
 	},
 	"1948474391": {
@@ -2200,13 +2301,13 @@
 			"hasIcon": true
 		}
 	},
-	"2396783420": {
-		"hash": 2396783420,
+	"2489241976": {
+		"hash": 2489241976,
 		"type": "bonus-focus",
 		"availability": "rotator",
 		"displayProperties": {
-			"description": "Dig up buried pirate riches on Nessus, fight off raiders, and deliver the treasure haul to your Ketch!",
-			"name": "Expedition: Nessus",
+			"description": "Push back on encroaching enemy forces before they become entrenched.",
+			"name": "Caldera",
 			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
 			"iconHash": 0,
 			"hasIcon": false
@@ -2215,51 +2316,10 @@
 			"1077454211": {}
 		},
 		"typeDisplayProperties": {
-			"name": "Fireteam Ops",
-			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
-			"icon": "./image/png/activity/portal_fireteam.png"
+			"name": "Solo Ops",
+			"description": "Protect Earth from Sol's greatest foes as a one-Guardian fireteam and the Vanguard's last line of defense.",
+			"icon": "./image/png/activity/portal_solo.png"
 		}
-	},
-	"2425464470": {
-		"hash": 2425464470,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Dig up buried pirate riches on Europa, fight off raiders, and deliver the treasure haul to your Ketch!",
-			"name": "Expedition: Europa",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"iconHash": 0,
-			"hasIcon": false
-		},
-		"dropTable": {
-			"4090134063": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Fireteam Ops",
-			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
-			"icon": "./image/png/activity/portal_fireteam.png"
-		}
-	},
-	"2459426953": {
-		"hash": 2459426953,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Cutting Edge: Only New Gear permitted. New Gear also grants reward bonuses.\n\nAchieve victory by eliminating all opponents in this round-based mode.",
-			"name": "Cutting Edge: Elimination",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"iconHash": 0,
-			"hasIcon": false
-		},
-		"dropTable": {
-			"358190158": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Crucible Ops",
-			"description": "Hone your skills and win glory in battle against other Guardians.",
-			"icon": "./image/png/activity/portal_crucible.png"
-		},
-		"pgcrImage": "/img/destiny_content/pgcr/crucible_twilight_gap.jpg"
 	},
 	"2546271325": {
 		"hash": 2546271325,
@@ -2443,26 +2503,6 @@
 		"displayProperties": {
 			"description": "Combat the Conductor's forces across the contested battlefields of Old Russia. Fight across multiple areas of operation, from a Golden Age military complex to an abandoned Fallen stronghold. Work to secure priceless Golden Age artifacts before your enemies!",
 			"name": "Conductor's Keep",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"iconHash": 0,
-			"hasIcon": false
-		},
-		"dropTable": {
-			"1077454211": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Fireteam Ops",
-			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
-			"icon": "./image/png/activity/portal_fireteam.png"
-		}
-	},
-	"2751501766": {
-		"hash": 2751501766,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Master the magic of the Witch Queen's Spire and open the way to the Altars of Summoning.",
-			"name": "Savathûn's Spire",
 			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
 			"iconHash": 0,
 			"hasIcon": false
@@ -2660,6 +2700,26 @@
 			"icon": "./image/png/activity/portal_pinnacle.png"
 		}
 	},
+	"3214228047": {
+		"hash": 3214228047,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Protect the BrayTech facility from incursions by opposition forces.",
+			"name": "Creation",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"iconHash": 0,
+			"hasIcon": false
+		},
+		"dropTable": {
+			"1077454211": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Solo Ops",
+			"description": "Protect Earth from Sol's greatest foes as a one-Guardian fireteam and the Vanguard's last line of defense.",
+			"icon": "./image/png/activity/portal_solo.png"
+		}
+	},
 	"3363349123": {
 		"hash": 3363349123,
 		"type": "bonus-focus",
@@ -2692,7 +2752,7 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"2941172034": {}
+			"738446555": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Fireteam Ops",
@@ -2732,7 +2792,7 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"1077454211": {}
+			"471764396": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Pinnacle Ops",
@@ -3100,7 +3160,7 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"1077454211": {}
+			"190747610": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Fireteam Ops",
@@ -3253,26 +3313,6 @@
 			"name": "Dungeon",
 			"description": "Form a fireteam of up to three, and brave the strange and powerful realms of our enemies.",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_f20ebb76bee675ca429e470cec58cc7b.png"
-		}
-	},
-	"4129522203": {
-		"hash": 4129522203,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Infiltrate a forgotten Golden Age facility to prevent the Conductor from launching a dangerously modified Warsat.",
-			"name": "Heliostat",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"iconHash": 0,
-			"hasIcon": false
-		},
-		"dropTable": {
-			"4146673635": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Pinnacle Ops",
-			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
-			"icon": "./image/png/activity/portal_pinnacle.png"
 		}
 	},
 	"4145089682": {
@@ -3591,7 +3631,7 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"2348082405": {}
+			"3946054154": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Solo Ops",
