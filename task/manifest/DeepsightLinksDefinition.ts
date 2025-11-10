@@ -4,6 +4,14 @@ import fs from 'fs-extra'
 import { Task } from 'task'
 import getDestinyManifestComponents from './utility/endpoint/DestinyManifestComponents'
 
+declare module 'bungie-api-ts/destiny2/manifest' {
+	export interface AllDestinyManifestComponents {
+		DestinyInventoryItemLiteDefinition: {
+			[key: number]: DestinyInventoryItemLiteDefinition
+		}
+	}
+}
+
 const _ = undefined
 
 export default Task('DeepsightLinksDefinition', async () => {
@@ -287,6 +295,8 @@ export default Task('DeepsightLinksDefinition', async () => {
 		component.augmentations.push(augmentation)
 	}
 
+	addAugmentation('DestinyInventoryItemDefinition', 'DestinyInventoryItemLiteDefinition')
+
 	////////////////////////////////////
 	//#region Deepsight
 
@@ -484,11 +494,11 @@ export default Task('DeepsightLinksDefinition', async () => {
 	}
 	addAugmentation('DestinyInventoryItemDefinition', 'DeepsightPlugCategorisation')
 
-	addAugmentation('DestinyInventoryItemDefinition', 'ClarityDescriptions')
-	addAugmentation('DestinyInventoryItemDefinition', 'DeepsightFormattedClarityDescriptions')
-
 	//#endregion
 	////////////////////////////////////
+
+	addAugmentation('DestinyInventoryItemDefinition', 'ClarityDescriptions')
+	addAugmentation('DestinyInventoryItemDefinition', 'DeepsightFormattedClarityDescriptions')
 
 	const DeepsightLinksDefinition: DeepsightLinksDefinition = { components, enums }
 
