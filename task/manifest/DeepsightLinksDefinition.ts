@@ -80,6 +80,7 @@ export default Task('DeepsightLinksDefinition', async () => {
 		'allOf'?: (OpenAPIDefinition | OpenAPIReference)[]
 		'x-destiny-component-type-dependency'?: string
 		'x-dictionary-key'?: OpenAPINumberDefinition | OpenAPIStringDefinition
+		'x-mapped-definition'?: { $ref: `${typeof OPEN_API_REFERENCE_PREFIX}${string}` }
 	}
 
 	//#endregion
@@ -207,7 +208,7 @@ export default Task('DeepsightLinksDefinition', async () => {
 					links.push(...getLinks(propDef, [...path, propName]))
 
 			if (def.additionalProperties && def['x-dictionary-key'])
-				links.push(...getLinks(def['x-dictionary-key'], [...path, '{}']))
+				links.push(...getLinks(def['x-dictionary-key'], [...path, '{}'], def['x-mapped-definition']))
 
 			if (def.additionalProperties && '$ref' in def.additionalProperties)
 				links.push(...getLinks(def.additionalProperties, [...path, '{}']))
