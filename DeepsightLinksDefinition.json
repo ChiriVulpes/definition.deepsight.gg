@@ -123,6 +123,10 @@
 				},
 				{
 					"component": "DestinyStatDefinition",
+					"path": "stats.stats.{}"
+				},
+				{
+					"component": "DestinyStatDefinition",
 					"path": "stats.stats.{}.statHash"
 				},
 				{
@@ -565,6 +569,10 @@
 				{
 					"enum": "DestinyGender",
 					"path": "genderedClassNames.{}"
+				},
+				{
+					"component": "DestinyGenderDefinition",
+					"path": "genderedClassNamesByGenderHash.{}"
 				},
 				{
 					"component": "DestinyVendorDefinition",
@@ -1404,6 +1412,10 @@
 					"path": "titleInfo.titlesByGender.{}"
 				},
 				{
+					"component": "DestinyGenderDefinition",
+					"path": "titleInfo.titlesByGenderHash.{}"
+				},
+				{
 					"component": "DestinyRecordDefinition",
 					"path": "titleInfo.gildingTrackingRecordHash"
 				},
@@ -1744,6 +1756,10 @@
 				{
 					"enum": "DestinyGender",
 					"path": "genderedRaceNames.{}"
+				},
+				{
+					"component": "DestinyGenderDefinition",
+					"path": "genderedRaceNamesByGenderHash.{}"
 				}
 			]
 		},
@@ -1780,7 +1796,15 @@
 				},
 				{
 					"component": "DestinyActivityDefinition",
+					"path": "quests.{}.activities.{}"
+				},
+				{
+					"component": "DestinyActivityDefinition",
 					"path": "quests.{}.activities.{}.conceptualActivityHash"
+				},
+				{
+					"component": "DestinyActivityDefinition",
+					"path": "quests.{}.activities.{}.variants.{}"
 				},
 				{
 					"component": "DestinyActivityDefinition",

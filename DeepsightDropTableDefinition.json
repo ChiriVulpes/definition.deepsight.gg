@@ -328,6 +328,46 @@
 			"icon": "./image/png/activity/portal_pinnacle.png"
 		}
 	},
+	"775989808": {
+		"hash": 775989808,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Investigate a Vex network node in the EDZ that has been overwritten with a single word: AVALON.",
+			"name": "//node.ovrd.AVALON//",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"iconHash": 0,
+			"hasIcon": false
+		},
+		"dropTable": {
+			"471764396": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Pinnacle Ops",
+			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
+			"icon": "./image/png/activity/portal_pinnacle.png"
+		}
+	},
+	"843932907": {
+		"hash": 843932907,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Take Earth back from the Conductor's forces! Fight across combat zones in the now SIVA-free Plaguelands, from a ruined tanker to an ancient missile silo. Battle to secure powerful Golden Age salvage before your foes do!",
+			"name": "Cabal's Watch",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"iconHash": 0,
+			"hasIcon": false
+		},
+		"dropTable": {
+			"3946054154": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Fireteam Ops",
+			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
+			"icon": "./image/png/activity/portal_fireteam.png"
+		}
+	},
 	"910380154": {
 		"hash": 910380154,
 		"displayProperties": {
@@ -1540,6 +1580,26 @@
 			"hasIcon": true
 		}
 	},
+	"1756429361": {
+		"hash": 1756429361,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Break into the ancient Vex installation.",
+			"name": "The Insight Terminus",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"iconHash": 0,
+			"hasIcon": false
+		},
+		"dropTable": {
+			"3926153598": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Fireteam Ops",
+			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
+			"icon": "./image/png/activity/portal_fireteam.png"
+		}
+	},
 	"2004855007": {
 		"hash": 2004855007,
 		"displayProperties": {
@@ -2021,6 +2081,26 @@
 		},
 		"pgcrImage": "/img/destiny_content/pgcr/crucible_twilight_gap.jpg"
 	},
+	"2489241976": {
+		"hash": 2489241976,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Push back on encroaching enemy forces before they become entrenched.",
+			"name": "Caldera",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"iconHash": 0,
+			"hasIcon": false
+		},
+		"dropTable": {
+			"2941172034": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Solo Ops",
+			"description": "Protect Earth from Sol's greatest foes as a one-Guardian fireteam and the Vanguard's last line of defense.",
+			"icon": "./image/png/activity/portal_solo.png"
+		}
+	},
 	"2582501063": {
 		"hash": 2582501063,
 		"displayProperties": {
@@ -2175,26 +2255,6 @@
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_f20ebb76bee675ca429e470cec58cc7b.png"
 		}
 	},
-	"2635766528": {
-		"hash": 2635766528,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Combat the Conductor's forces across the contested battlefields of Old Russia. Fight across multiple areas of operation, from a Golden Age military complex to an abandoned Fallen stronghold. Work to secure priceless Golden Age artifacts before your enemies!",
-			"name": "Conductor's Keep",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"iconHash": 0,
-			"hasIcon": false
-		},
-		"dropTable": {
-			"3926153598": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Fireteam Ops",
-			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
-			"icon": "./image/png/activity/portal_fireteam.png"
-		}
-	},
 	"2823159265": {
 		"hash": 2823159265,
 		"dropTable": {
@@ -2339,26 +2399,6 @@
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_f20ebb76bee675ca429e470cec58cc7b.png"
 		}
 	},
-	"2823915183": {
-		"hash": 2823915183,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Stop the Shadow Legion from bringing down Neomuna's defenses.",
-			"name": "HyperNet Current",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"iconHash": 0,
-			"hasIcon": false
-		},
-		"dropTable": {
-			"1663482635": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Fireteam Ops",
-			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
-			"icon": "./image/png/activity/portal_fireteam.png"
-		}
-	},
 	"2882175931": {
 		"hash": 2882175931,
 		"type": "bonus-focus",
@@ -2379,46 +2419,6 @@
 			"icon": "./image/png/activity/portal_solo.png"
 		}
 	},
-	"3049845845": {
-		"hash": 3049845845,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "In an act of vengeance for the destruction of their homeworld, the Cabal have struck out against a Hive nest dug deep into the Cosmodrome. Use this opportunity to hit the Cabal hard and show them that humanity will not back down.",
-			"name": "Battleground: Foothold",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"iconHash": 0,
-			"hasIcon": false
-		},
-		"dropTable": {
-			"3755454909": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Fireteam Ops",
-			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
-			"icon": "./image/png/activity/portal_fireteam.png"
-		}
-	},
-	"3214228047": {
-		"hash": 3214228047,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Protect the BrayTech facility from incursions by opposition forces.",
-			"name": "Creation",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"iconHash": 0,
-			"hasIcon": false
-		},
-		"dropTable": {
-			"2280816555": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Solo Ops",
-			"description": "Protect Earth from Sol's greatest foes as a one-Guardian fireteam and the Vanguard's last line of defense.",
-			"icon": "./image/png/activity/portal_solo.png"
-		}
-	},
 	"3437865231": {
 		"hash": 3437865231,
 		"type": "bonus-focus",
@@ -2431,7 +2431,7 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"4090134063": {}
+			"358190158": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Fireteam Ops",
@@ -2451,12 +2451,32 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"1197073834": {}
+			"1465235089": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Pinnacle Ops",
 			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
 			"icon": "./image/png/activity/portal_pinnacle.png"
+		}
+	},
+	"3661422819": {
+		"hash": 3661422819,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Defeat the new leader of the Fallen, Kridis, the Dark Priestess.",
+			"name": "The Dark Priestess",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"iconHash": 0,
+			"hasIcon": false
+		},
+		"dropTable": {
+			"3755454909": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Fireteam Ops",
+			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
+			"icon": "./image/png/activity/portal_fireteam.png"
 		}
 	},
 	"3834447244": {
@@ -3230,7 +3250,7 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"3946054154": {}
+			"2838279629": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Solo Ops",
