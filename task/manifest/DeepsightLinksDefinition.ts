@@ -228,6 +228,22 @@ export default Task('DeepsightLinksDefinition', async () => {
 			console.log(`- ${componentName}`)
 	}
 
+	function addMissingDestinyComponentLink (inTable: ComponentNames, path: string, targetTable: ComponentNames) {
+		if (components[inTable]?.links?.some(link => link.path === path))
+			throw new Error(`Link already exists for ${inTable}:${path}`)
+
+		components[inTable] ??= { component: inTable }
+		components[inTable].links ??= []
+		components[inTable].links.push({ component: targetTable, path })
+	}
+
+	// add missing ones
+	addMissingDestinyComponentLink(
+		'DestinyGlobalConstantsDefinition',
+		'portalActivityGraphRootNodesWithIcons.{}',
+		'DestinyFireteamFinderActivityGraphDefinition',
+	)
+
 	//#endregion
 	////////////////////////////////////
 
