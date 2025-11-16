@@ -1949,6 +1949,10 @@
 				{
 					"component": "DestinyItemFilterDefinition",
 					"path": "featuredItemsListHash"
+				},
+				{
+					"component": "DestinyFireteamFinderActivityGraphDefinition",
+					"path": "portalActivityGraphRootNodesWithIcons.{}"
 				}
 			]
 		},
