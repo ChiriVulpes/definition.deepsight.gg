@@ -169,7 +169,7 @@ const DeepsightMomentDefinitionData: Record<keyof typeof MomentHashes, Deepsight
 		displayProperties: {
 			name: { DestinyInventoryItemDefinition: InventoryItemHashes.WarmindDummy },
 			description: { DestinyInventoryItemDefinition: InventoryItemHashes.WarmindDummy },
-			icon: { DestinyInventoryItemDefinition: InventoryItemHashes.AiComRspnRebootTransmatEffectPlug },
+			icon: { DestinySandboxPerkDefinition: SandboxPerkHashes.AiComRspnReboot },
 		},
 		iconWatermark: { DestinyInventoryItemDefinition: InventoryItemHashes.ZeusLikePhysiqueEmotePlug },
 		primaryImage: { DestinyActivityDefinition: { hash: ActivityHashes.DailyHeroicStoryMissionPilgrimage, property: 'pgcrImage' } },
