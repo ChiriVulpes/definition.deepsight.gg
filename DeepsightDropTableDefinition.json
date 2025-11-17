@@ -328,47 +328,6 @@
 			"icon": "./image/png/activity/portal_pinnacle.png"
 		}
 	},
-	"762252622": {
-		"hash": 762252622,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Defend the Advanced Defensive Unit against an onslaught of 30 combatant waves.",
-			"name": "Midtown",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"iconHash": 0,
-			"hasIcon": false
-		},
-		"dropTable": {
-			"4146673635": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Pinnacle Ops",
-			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
-			"icon": "./image/png/activity/portal_pinnacle.png"
-		}
-	},
-	"814159553": {
-		"hash": 814159553,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Matches affect your Competitive Division placement. Wins will lead to promotions. Losses will lead to demotion. \nHigher divisions grant greater reward bonus.",
-			"name": "Competitive",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"iconHash": 0,
-			"hasIcon": false
-		},
-		"dropTable": {
-			"358190158": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Crucible Ops",
-			"description": "Hone your skills and win glory in battle against other Guardians.",
-			"icon": "./image/png/activity/portal_crucible.png"
-		},
-		"pgcrImage": "/img/destiny_content/pgcr/crucible_twilight_gap.jpg"
-	},
 	"910380154": {
 		"hash": 910380154,
 		"displayProperties": {
@@ -501,26 +460,6 @@
 			"icon": "/common/destiny2_content/icons/bd7a1fc995f87be96698263bc16698e7.png",
 			"iconHash": 0,
 			"hasIcon": true
-		}
-	},
-	"935938264": {
-		"hash": 935938264,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Jump coordinates matching an errant distress signal.",
-			"name": "Presage",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"iconHash": 0,
-			"hasIcon": false
-		},
-		"dropTable": {
-			"471764396": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Pinnacle Ops",
-			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
-			"icon": "./image/png/activity/portal_pinnacle.png"
 		}
 	},
 	"940375169": {
@@ -1101,26 +1040,6 @@
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_f20ebb76bee675ca429e470cec58cc7b.png"
 		}
 	},
-	"1325548022": {
-		"hash": 1325548022,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Venture beneath Luna's surface to locate the Chamber of Suffering.",
-			"name": "Beneath the Necropolis",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"iconHash": 0,
-			"hasIcon": false
-		},
-		"dropTable": {
-			"1197073834": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Pinnacle Ops",
-			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
-			"icon": "./image/png/activity/portal_pinnacle.png"
-		}
-	},
 	"1374392663": {
 		"hash": 1374392663,
 		"displayProperties": {
@@ -1298,6 +1217,26 @@
 			"hasIcon": true
 		}
 	},
+	"1408611635": {
+		"hash": 1408611635,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Defeat Eramis's military commander, Phylaks, the Warrior.",
+			"name": "The Warrior",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"iconHash": 0,
+			"hasIcon": false
+		},
+		"dropTable": {
+			"4090134063": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Fireteam Ops",
+			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
+			"icon": "./image/png/activity/portal_fireteam.png"
+		}
+	},
 	"1441982566": {
 		"hash": 1441982566,
 		"displayProperties": {
@@ -1463,24 +1402,24 @@
 			"hasIcon": true
 		}
 	},
-	"1622574111": {
-		"hash": 1622574111,
+	"1604785891": {
+		"hash": 1604785891,
 		"type": "bonus-focus",
 		"availability": "rotator",
 		"displayProperties": {
-			"description": "Empress Caiatl has deployed a tank fortress to Nessus and opened an invitation to survivors of the Red Legion to vie for a seat on her War Council. Vanquish the Cabal and prove yourself in glorious combat against her Chosen.",
-			"name": "Battleground: Behemoth",
+			"description": "Halt the efforts of old enemies beneath the Moon's surface.",
+			"name": "K1 Logistics",
 			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
 			"iconHash": 0,
 			"hasIcon": false
 		},
 		"dropTable": {
-			"1663482635": {}
+			"2155534128": {}
 		},
 		"typeDisplayProperties": {
-			"name": "Fireteam Ops",
-			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
-			"icon": "./image/png/activity/portal_fireteam.png"
+			"name": "Solo Ops",
+			"description": "Protect Earth from Sol's greatest foes as a one-Guardian fireteam and the Vanguard's last line of defense.",
+			"icon": "./image/png/activity/portal_solo.png"
 		}
 	},
 	"1661734046": {
@@ -2276,26 +2215,6 @@
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_f20ebb76bee675ca429e470cec58cc7b.png"
 		}
 	},
-	"2635766528": {
-		"hash": 2635766528,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Combat the Conductor's forces across the contested battlefields of Old Russia. Fight across multiple areas of operation, from a Golden Age military complex to an abandoned Fallen stronghold. Work to secure priceless Golden Age artifacts before your enemies!",
-			"name": "Conductor's Keep",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"iconHash": 0,
-			"hasIcon": false
-		},
-		"dropTable": {
-			"4090134063": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Fireteam Ops",
-			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
-			"icon": "./image/png/activity/portal_fireteam.png"
-		}
-	},
 	"2823159265": {
 		"hash": 2823159265,
 		"dropTable": {
@@ -2460,6 +2379,26 @@
 			"icon": "./image/png/activity/portal_solo.png"
 		}
 	},
+	"3219786703": {
+		"hash": 3219786703,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Dig up buried pirate riches in the Cosmodrome, fight off raiders, and deliver the treasure haul to your Ketch!",
+			"name": "Expedition: Cosmodrome",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"iconHash": 0,
+			"hasIcon": false
+		},
+		"dropTable": {
+			"3926153598": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Fireteam Ops",
+			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
+			"icon": "./image/png/activity/portal_fireteam.png"
+		}
+	},
 	"3437865231": {
 		"hash": 3437865231,
 		"type": "bonus-focus",
@@ -2472,7 +2411,7 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"1193318082": {}
+			"1003997240": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Fireteam Ops",
@@ -2786,6 +2725,46 @@
 			"icon": "/common/destiny2_content/icons/bd7a1fc995f87be96698263bc16698e7.png",
 			"iconHash": 0,
 			"hasIcon": true
+		}
+	},
+	"3996127757": {
+		"hash": 3996127757,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Climb to the icy summit and defeat Hefnd's Vengeance.",
+			"name": "Hefnd's Vengeance",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"iconHash": 0,
+			"hasIcon": false
+		},
+		"dropTable": {
+			"4146673635": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Pinnacle Ops",
+			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
+			"icon": "./image/png/activity/portal_pinnacle.png"
+		}
+	},
+	"4011344973": {
+		"hash": 4011344973,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Defend Earth from the Conductor's forces by claiming long-lost Golden Age salvage before they do! Jump between battlefields in the Plaguelands and Cosmodrome, fighting over the ruined husks of transport ships and abandoned spacecraft.",
+			"name": "Fallen Bunker",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"iconHash": 0,
+			"hasIcon": false
+		},
+		"dropTable": {
+			"2348082405": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Fireteam Ops",
+			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
+			"icon": "./image/png/activity/portal_fireteam.png"
 		}
 	},
 	"4025763100": {
@@ -3251,7 +3230,7 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"3755454909": {}
+			"358190158": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Solo Ops",

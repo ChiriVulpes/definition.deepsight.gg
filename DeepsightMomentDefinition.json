@@ -1,9 +1,43 @@
 {
-	"0": {
+	"1000": {
+		"id": "revelry",
+		"displayProperties": {
+			"name": "The Revelry",
+			"description": "Celebrate the joy of Spring. The Tower is overflowing with colorful arrangements, and Eva Levante has a new activity for you to enjoy with new rewards to claim."
+		},
+		"iconWatermark": "/common/destiny2_content/icons/c1e11e70eba15abcd4e0414fa29ef714.png",
+		"event": true,
+		"images": [
+			"/img/destiny_content/pgcr/verdant_forest.jpg"
+		],
+		"itemHashes": [
+			53761356,
+			3503026437,
+			1165027035,
+			3425898631,
+			4199694578,
+			1821343040,
+			3682383633,
+			4079552711,
+			3089075939,
+			500083158,
+			1356657785,
+			870019568,
+			2967148056,
+			1187078090,
+			1362642485,
+			2130065553
+		],
+		"hash": 1000,
+		"iconWatermarkShelved": "/common/destiny2_content/icons/00d64d97639991cfdb1afaefecf418b6.png",
+		"iconWatermarkFeatured": "/common/destiny2_content/icons/00d64d97639991cfdb1afaefecf418b6.png",
+		"primaryImage": "/img/destiny_content/pgcr/verdant_forest.jpg"
+	},
+	"1001": {
 		"id": "dawning",
 		"iconWatermark": "/common/destiny2_content/icons/83fbcacd223402c09af4b7ab067f8cce.png",
 		"event": 2302439334,
-		"hash": 0,
+		"hash": 1001,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/be60f0242a039e62f1c5d4fc97801c75.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/be60f0242a039e62f1c5d4fc97801c75.png",
 		"displayProperties": {
@@ -16,7 +50,7 @@
 			"/img/destiny_content/event_cards/dawning/theme-background.jpg"
 		]
 	},
-	"1": {
+	"1002": {
 		"id": "crimsondays",
 		"displayProperties": {
 			"name": "Crimson Days",
@@ -28,16 +62,16 @@
 		],
 		"iconWatermark": "/common/destiny2_content/icons/fe8bcc20fbfaf4cac69dfb640bb0b84e.png",
 		"event": true,
-		"hash": 1,
+		"hash": 1002,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/19e8ff2fc05c8bc381a672c2b44d4bdf.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/19e8ff2fc05c8bc381a672c2b44d4bdf.png",
 		"primaryImage": "/common/destiny2_content/icons/4e5bb29711dafd92aa837bdc60cde002.jpg"
 	},
-	"2": {
+	"1003": {
 		"id": "guardiangames",
 		"iconWatermark": "/common/destiny2_content/icons/9c091ec0e22c01dacc25efb63b46eb9b.png",
 		"event": 3461628897,
-		"hash": 2,
+		"hash": 1003,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/5cb49360f28fa037106307dda7cc7495.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/5cb49360f28fa037106307dda7cc7495.png",
 		"displayProperties": {
@@ -50,11 +84,11 @@
 			"/img/destiny_content/event_cards/guardian-games/theme-background.jpg"
 		]
 	},
-	"3": {
+	"1004": {
 		"id": "solstice",
 		"iconWatermark": "/common/destiny2_content/icons/50c3ebe414c6946429934d79504922fa.png",
 		"event": 3841872876,
-		"hash": 3,
+		"hash": 1004,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/518a725160c326a532b33c4af7a5e027.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/518a725160c326a532b33c4af7a5e027.png",
 		"displayProperties": {
@@ -67,14 +101,14 @@
 			"/img/destiny_content/event_cards/solstice/theme-background.png"
 		]
 	},
-	"4": {
+	"1005": {
 		"id": "festivalofthelost",
 		"aliases": [
 			"fotl"
 		],
 		"iconWatermark": "/common/destiny2_content/icons/53dc0b02306726ff1517af33ac908cef.png",
 		"event": 3265920761,
-		"hash": 4,
+		"hash": 1005,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/6529f7497921fd62d40c7fa7a1e00dd3.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/6529f7497921fd62d40c7fa7a1e00dd3.png",
 		"displayProperties": {
@@ -87,7 +121,7 @@
 			"/img/destiny_content/event_cards/fotl/theme-background.jpg"
 		]
 	},
-	"5": {
+	"2000": {
 		"id": "redwar",
 		"displayProperties": {
 			"name": "The Red War",
@@ -119,11 +153,11 @@
 		"season": 1,
 		"year": 1,
 		"seasonHash": 965757574,
-		"hash": 5,
+		"hash": 2000,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/b7c66ccc849867c9be6f24a183fa70e3.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/b7c66ccc849867c9be6f24a183fa70e3.png"
 	},
-	"6": {
+	"2001": {
 		"id": "osiris",
 		"displayProperties": {
 			"name": "Curse of Osiris",
@@ -146,16 +180,16 @@
 		"season": 2,
 		"year": 1,
 		"seasonHash": 2973407602,
-		"hash": 6,
+		"hash": 2001,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/95b4ece09fb7ba577ed5a0c440042d0e.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/95b4ece09fb7ba577ed5a0c440042d0e.png"
 	},
-	"7": {
+	"2002": {
 		"id": "warmind",
 		"displayProperties": {
 			"name": "Warmind",
 			"description": "Includes the Warmind story campaign.\n\nGolden Age satellites slam into the surface of the Hellas Basin on Mars. Icy glaciers thaw, revealing the core of the Warmind Rasputin—and an ancient Hive army, bent on its destruction.\n\nYou can pick up this quest from Amanda Holliday in the Tower Hangar.",
-			"icon": "/common/destiny2_content/icons/f2e03a9b6ca7c9c072a59d48c95c0973.jpg"
+			"icon": "/common/destiny2_content/icons/630df42130cb8667aca6fcf31bcba352.png"
 		},
 		"iconWatermark": "/common/destiny2_content/icons/da5f961ef97b78293cc498978c10e178.png",
 		"primaryImage": "/img/destiny_content/pgcr/campaign_bacon.jpg",
@@ -172,11 +206,11 @@
 		"season": 3,
 		"year": 1,
 		"seasonHash": 4033618594,
-		"hash": 7,
+		"hash": 2002,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/cbf309e32b600da3f2077b5ee9f884fa.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/cbf309e32b600da3f2077b5ee9f884fa.png"
 	},
-	"8": {
+	"2003": {
 		"id": "forsaken",
 		"aliases": [
 			"outlaw"
@@ -200,11 +234,11 @@
 		"season": 4,
 		"year": 2,
 		"seasonHash": 2026773320,
-		"hash": 8,
+		"hash": 2003,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/66b9c58a2fe597a173d9794b6f26ca82.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/66b9c58a2fe597a173d9794b6f26ca82.png"
 	},
-	"10": {
+	"2004": {
 		"id": "forge",
 		"iconWatermark": "/common/destiny2_content/icons/e0c16042274fd7d9cbffc4489e340c5d.png",
 		"primaryImage": "/img/destiny_content/pgcr/black_armory-bars.playlist_edz_oldtown_forge-35a17r14q.jpg",
@@ -218,7 +252,7 @@
 		"season": 5,
 		"year": 2,
 		"seasonHash": 2236269318,
-		"hash": 10,
+		"hash": 2004,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/3baa918ed7dd95f509ee3eaecdc1e5b3.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/3baa918ed7dd95f509ee3eaecdc1e5b3.png",
 		"displayProperties": {
@@ -226,7 +260,7 @@
 			"description": "A new season has begun! Rediscover the glories of the past and acquire beautiful new instruments of destruction."
 		}
 	},
-	"11": {
+	"2005": {
 		"id": "drifter",
 		"displayProperties": {
 			"icon": "/common/destiny2_content/icons/703d3720bb49a75cb95f03d1d3841435.png",
@@ -240,12 +274,12 @@
 		"season": 6,
 		"year": 2,
 		"seasonHash": 2891088360,
-		"hash": 11,
+		"hash": 2005,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/a501d8889d7d89d44e87727218260754.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/a501d8889d7d89d44e87727218260754.png",
 		"primaryImage": "/img/destiny_content/pgcr/reckoning.jpg"
 	},
-	"12": {
+	"2006": {
 		"id": "opulence",
 		"iconWatermark": "/common/destiny2_content/icons/58d3ec8338cc9746a2e0cf901fbcec0e.png",
 		"images": [
@@ -255,7 +289,7 @@
 		"season": 7,
 		"year": 2,
 		"seasonHash": 4275747712,
-		"hash": 12,
+		"hash": 2006,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/851d625c6dddb90b6be61a68b4645deb.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/851d625c6dddb90b6be61a68b4645deb.png",
 		"displayProperties": {
@@ -264,7 +298,7 @@
 		},
 		"primaryImage": "/img/destiny_content/pgcr/menagerie.jpg"
 	},
-	"13": {
+	"2007": {
 		"id": "shadowkeep",
 		"displayProperties": {
 			"name": "Shadowkeep",
@@ -283,11 +317,11 @@
 		],
 		"expansion": true,
 		"year": 3,
-		"hash": 13,
+		"hash": 2007,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/59172b06d7abeca120ecf35f79e33a67.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/59172b06d7abeca120ecf35f79e33a67.png"
 	},
-	"14": {
+	"2008": {
 		"id": "undying",
 		"displayProperties": {
 			"icon": "/common/destiny2_content/icons/d0b3d767fc6181130f33c0266747fbd8.png",
@@ -301,12 +335,12 @@
 		"season": 8,
 		"year": 3,
 		"seasonHash": 1743682818,
-		"hash": 14,
+		"hash": 2008,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/8ab1d58ebd3945a5686eec7575eb2f0a.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/8ab1d58ebd3945a5686eec7575eb2f0a.png",
 		"primaryImage": "/img/destiny_content/pgcr/vex_offensive.jpg"
 	},
-	"15": {
+	"2009": {
 		"id": "dawn",
 		"displayProperties": {
 			"icon": "/common/destiny2_content/icons/086e2885a57a43c3ac0c31bfd884a71e.png",
@@ -323,12 +357,12 @@
 		"season": 9,
 		"year": 3,
 		"seasonHash": 1743682819,
-		"hash": 15,
+		"hash": 2009,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/5fed5e618423591a8cf4bd66a4f69c97.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/5fed5e618423591a8cf4bd66a4f69c97.png",
 		"primaryImage": "/img/destiny_content/pgcr/arena_sundial.jpg"
 	},
-	"16": {
+	"2010": {
 		"id": "worthy",
 		"displayProperties": {
 			"icon": "/common/destiny2_content/icons/c63960d895610c276abad3614ea503df.png",
@@ -342,12 +376,12 @@
 		"season": 10,
 		"year": 3,
 		"seasonHash": 2809059425,
-		"hash": 16,
+		"hash": 2010,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/4487c1c73c54e95ea54142058c0e1cae.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/4487c1c73c54e95ea54142058c0e1cae.png",
 		"primaryImage": "/common/destiny2_content/icons/2646778c3ed0b1399453791f656e7823.jpg"
 	},
-	"17": {
+	"2011": {
 		"id": "arrivals",
 		"iconWatermark": "/common/destiny2_content/icons/d105aa342f2d0c53a90a28477552f61f.png",
 		"images": [
@@ -356,7 +390,7 @@
 		"season": 11,
 		"year": 3,
 		"seasonHash": 2809059424,
-		"hash": 17,
+		"hash": 2011,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/4520f392d955026aac4c4740345d2361.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/4520f392d955026aac4c4740345d2361.png",
 		"displayProperties": {
@@ -366,7 +400,7 @@
 		},
 		"primaryImage": "/img/destiny_content/pgcr/story_interference.jpg"
 	},
-	"18": {
+	"2012": {
 		"id": "beyondlight",
 		"displayProperties": {
 			"name": "Beyond Light",
@@ -386,11 +420,11 @@
 		],
 		"expansion": true,
 		"year": 4,
-		"hash": 18,
+		"hash": 2012,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/c4204008ac8496a9dafcf696145f37b9.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/c4204008ac8496a9dafcf696145f37b9.png"
 	},
-	"19": {
+	"2013": {
 		"id": "hunt",
 		"iconWatermark": "/common/destiny2_content/icons/a5e27dc822aa72787f388bd1fc115803.png",
 		"primaryImage": "/img/destiny_content/pgcr/edz_exotic_harbinger.jpg",
@@ -404,7 +438,7 @@
 		"season": 12,
 		"year": 4,
 		"seasonHash": 2809059427,
-		"hash": 19,
+		"hash": 2013,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/b4f8743a293c3ee5f0dcdca0212180aa.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/b4f8743a293c3ee5f0dcdca0212180aa.png",
 		"displayProperties": {
@@ -413,7 +447,7 @@
 			"icon": "/common/destiny2_content/icons/DestinySeasonDefinition_a12fd678d5e2b9d614af4e02e43fbd5b.png"
 		}
 	},
-	"20": {
+	"2014": {
 		"id": "chosen",
 		"iconWatermark": "/common/destiny2_content/icons/7b48b09fbb50634680168d5880b16bc9.png",
 		"primaryImage": "/img/destiny_content/pgcr/nessus_battleground_behemoth.jpg",
@@ -428,7 +462,7 @@
 		"season": 13,
 		"year": 4,
 		"seasonHash": 2809059426,
-		"hash": 20,
+		"hash": 2014,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/a4465539d5e5c65c12c9862cd653d082.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/a4465539d5e5c65c12c9862cd653d082.png",
 		"displayProperties": {
@@ -437,7 +471,7 @@
 			"icon": "/common/destiny2_content/icons/DestinySeasonDefinition_d1eb59faf9fb654af3735c710f6e374a.png"
 		}
 	},
-	"21": {
+	"2015": {
 		"id": "splicer",
 		"displayProperties": {
 			"icon": "/common/destiny2_content/icons/45273d00d5284ad7f1c0039850a008e4.png",
@@ -462,11 +496,11 @@
 		"season": 14,
 		"year": 4,
 		"seasonHash": 2809059429,
-		"hash": 21,
+		"hash": 2015,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/3d602b7985a350dd5e85130b148484f1.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/3d602b7985a350dd5e85130b148484f1.png"
 	},
-	"22": {
+	"2016": {
 		"id": "lost",
 		"iconWatermark": "/common/destiny2_content/icons/914322d11262322c839a5388db2a4943.png",
 		"primaryImage": "/img/destiny_content/pgcr/season_15_exorcism.jpg",
@@ -482,7 +516,7 @@
 		"season": 15,
 		"year": 4,
 		"seasonHash": 2809059428,
-		"hash": 22,
+		"hash": 2016,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/6f97ea5b246a70fec98acf31b5b47eef.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/6f97ea5b246a70fec98acf31b5b47eef.png",
 		"displayProperties": {
@@ -491,7 +525,7 @@
 			"icon": "/common/destiny2_content/icons/DestinySeasonDefinition_265abf1e776ea726de1f1459392727b6.png"
 		}
 	},
-	"23": {
+	"2017": {
 		"id": "30th",
 		"displayProperties": {
 			"name": "30th Anniversary",
@@ -506,11 +540,11 @@
 		],
 		"expansion": true,
 		"year": 4,
-		"hash": 23,
+		"hash": 2017,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/7f608702455231339fe7eb7ee6179527.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/7f608702455231339fe7eb7ee6179527.png"
 	},
-	"24": {
+	"2018": {
 		"id": "witchqueen",
 		"displayProperties": {
 			"name": "The Witch Queen",
@@ -535,11 +569,11 @@
 		],
 		"expansion": true,
 		"year": 5,
-		"hash": 24,
+		"hash": 2018,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/b1769a37f7cb2ae740d10d5e86d22015.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/b1769a37f7cb2ae740d10d5e86d22015.png"
 	},
-	"25": {
+	"2019": {
 		"id": "risen",
 		"iconWatermark": "/common/destiny2_content/icons/7b41678824a620d4f295984862702179.png",
 		"primaryImage": "/img/destiny_content/pgcr/battleground_nestegg_s16.jpg",
@@ -559,7 +593,7 @@
 			4017738218,
 			2516879931
 		],
-		"hash": 25,
+		"hash": 2019,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/3ac40b44ff238beec1f0c5715fab5f2d.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/3ac40b44ff238beec1f0c5715fab5f2d.png",
 		"displayProperties": {
@@ -568,7 +602,7 @@
 			"icon": "/common/destiny2_content/icons/DestinySeasonDefinition_0f47a186cf0cb88d2388d811a6ec89cb.png"
 		}
 	},
-	"26": {
+	"2020": {
 		"id": "haunted",
 		"iconWatermark": "/common/destiny2_content/icons/75adde12e4e9c9fb237e492d8258eb73.png",
 		"primaryImage": "/img/destiny_content/pgcr/season_17_intro.jpg",
@@ -583,7 +617,7 @@
 		"season": 17,
 		"year": 5,
 		"seasonHash": 2809059430,
-		"hash": 26,
+		"hash": 2020,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/b53275ee009af7fa70aa728dae78a0c0.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/b53275ee009af7fa70aa728dae78a0c0.png",
 		"displayProperties": {
@@ -592,7 +626,7 @@
 			"icon": "/common/destiny2_content/icons/DestinySeasonDefinition_3847a7f2241ce39588bfc2c85239b055.png"
 		}
 	},
-	"27": {
+	"2021": {
 		"id": "plunder",
 		"displayProperties": {
 			"icon": "/common/destiny2_content/icons/94bd3a9b086b8b536f348d379643a132.png",
@@ -609,12 +643,12 @@
 		"season": 18,
 		"year": 5,
 		"seasonHash": 2809059433,
-		"hash": 27,
+		"hash": 2021,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/eff64e4ea0eedf135899d98ce8f33f36.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/eff64e4ea0eedf135899d98ce8f33f36.png",
 		"primaryImage": "/img/destiny_content/pgcr/season_18_intro.jpg"
 	},
-	"28": {
+	"2022": {
 		"id": "seraph",
 		"iconWatermark": "/common/destiny2_content/icons/41d05b7cb5cc0a384af07ee9b7d36dd2.png",
 		"primaryImage": "/img/destiny_content/pgcr/season_19_infiltrate_download.jpg",
@@ -629,7 +663,7 @@
 		"season": 19,
 		"year": 5,
 		"seasonHash": 2809059432,
-		"hash": 28,
+		"hash": 2022,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/37a47df16553e25597c3717d427d4321.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/37a47df16553e25597c3717d427d4321.png",
 		"displayProperties": {
@@ -638,7 +672,7 @@
 			"icon": "/common/destiny2_content/icons/DestinySeasonDefinition_dd9fe0539a0c29c9e6f5f4d257d3c15a.png"
 		}
 	},
-	"29": {
+	"2023": {
 		"id": "lightfall",
 		"displayProperties": {
 			"name": "Lightfall",
@@ -660,11 +694,11 @@
 		],
 		"expansion": true,
 		"year": 6,
-		"hash": 29,
+		"hash": 2023,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/df9d5f7f1d41a9f5feae229442acaf3e.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/df9d5f7f1d41a9f5feae229442acaf3e.png"
 	},
-	"30": {
+	"2024": {
 		"id": "defiance",
 		"iconWatermark": "/common/destiny2_content/icons/a0556509f8825756b6b89f59f90528ec.png",
 		"primaryImage": "/img/destiny_content/pgcr/season_20_battleground_exeter.jpg",
@@ -677,7 +711,7 @@
 		"season": 20,
 		"year": 6,
 		"seasonHash": 2758726568,
-		"hash": 30,
+		"hash": 2024,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/b17f9db83470e98839ae21433122e976.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/b17f9db83470e98839ae21433122e976.png",
 		"displayProperties": {
@@ -686,7 +720,7 @@
 			"icon": "/common/destiny2_content/icons/DestinySeasonDefinition_50d80a655bccddfd26e954dbfc3b9746.png"
 		}
 	},
-	"31": {
+	"2025": {
 		"id": "deep",
 		"iconWatermark": "/common/destiny2_content/icons/ae5c7f708a36f754c2f68c65c88ab9aa.png",
 		"primaryImage": "/img/destiny_content/pgcr/season_21_mission_final_dive.jpg",
@@ -702,7 +736,7 @@
 		"season": 21,
 		"year": 6,
 		"seasonHash": 2758726569,
-		"hash": 31,
+		"hash": 2025,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/d31fd6397a41caa861a1861f150805aa.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/d31fd6397a41caa861a1861f150805aa.png",
 		"displayProperties": {
@@ -711,7 +745,7 @@
 			"icon": "/common/destiny2_content/icons/DestinySeasonDefinition_f82759315a8d05fc597778d2086acee4.png"
 		}
 	},
-	"32": {
+	"2026": {
 		"id": "witch",
 		"iconWatermark": "/common/destiny2_content/icons/2dc17f123b7449b14144e76cfbeb2309.png",
 		"primaryImage": "/img/destiny_content/pgcr/season_22_arena_pools.jpg",
@@ -723,7 +757,7 @@
 		"season": 22,
 		"year": 6,
 		"seasonHash": 2758726570,
-		"hash": 32,
+		"hash": 2026,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/669e649732ef72f873de7bbb696cfd50.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/669e649732ef72f873de7bbb696cfd50.png",
 		"displayProperties": {
@@ -732,7 +766,7 @@
 			"icon": "/common/destiny2_content/icons/DestinySeasonDefinition_fdbb36bb7f4f81c0170ca0b2cced22d6.png"
 		}
 	},
-	"33": {
+	"2027": {
 		"id": "wish",
 		"iconWatermark": "/common/destiny2_content/icons/6f17d323d81dd683086d88a9268f8106.png",
 		"images": [
@@ -745,7 +779,7 @@
 		"season": 23,
 		"year": 6,
 		"seasonHash": 2758726571,
-		"hash": 33,
+		"hash": 2027,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/27df0ae2b804bdb49b75456e2ad759ef.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/27df0ae2b804bdb49b75456e2ad759ef.png",
 		"displayProperties": {
@@ -755,7 +789,7 @@
 		},
 		"primaryImage": "/img/destiny_content/pgcr/s23_intro.jpg"
 	},
-	"34": {
+	"2028": {
 		"id": "intothelight",
 		"aliases": [
 			"itl"
@@ -777,12 +811,12 @@
 			3824673936,
 			1983149589
 		],
-		"hash": 34,
+		"hash": 2028,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/9087446b3fb6c1aff878d39cd9966b60.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/9087446b3fb6c1aff878d39cd9966b60.png",
 		"primaryImage": "/img/destiny_content/pgcr/onslaught-vostok.jpg"
 	},
-	"35": {
+	"2029": {
 		"id": "finalshape",
 		"displayProperties": {
 			"name": "The Final Shape",
@@ -804,11 +838,11 @@
 		],
 		"expansion": true,
 		"year": 7,
-		"hash": 35,
+		"hash": 2029,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/cc9167a8e8955b9f327d57d037327d02.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/cc9167a8e8955b9f327d57d037327d02.png"
 	},
-	"36": {
+	"2030": {
 		"id": "echoes",
 		"iconWatermark": "/common/destiny2_content/icons/9bfaa5536772e2f3ef1252813a21c4d1.png",
 		"primaryImage": "/img/destiny_content/pgcr/fireteamops_battleground_undaunted.jpg",
@@ -823,7 +857,7 @@
 		"season": 24,
 		"year": 7,
 		"seasonHash": 2758726572,
-		"hash": 36,
+		"hash": 2030,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/a4b625257c5339538a82a1b17eec99aa.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/a4b625257c5339538a82a1b17eec99aa.png",
 		"displayProperties": {
@@ -832,7 +866,7 @@
 			"icon": "/common/destiny2_content/icons/DestinySeasonDefinition_191cb7a0671a82cd7eb5a7c2d5e159ba.png"
 		}
 	},
-	"37": {
+	"2031": {
 		"id": "revenant",
 		"iconWatermark": "/common/destiny2_content/icons/5232219633cc4d90570bffda36caccf4.png",
 		"primaryImage": "/img/destiny_content/pgcr/pinnacle_ops_exotic_mirrorbox.jpg",
@@ -847,7 +881,7 @@
 		"season": 25,
 		"year": 7,
 		"seasonHash": 2758726573,
-		"hash": 37,
+		"hash": 2031,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/2401d52b8266057a1359e74c762a86ef.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/2401d52b8266057a1359e74c762a86ef.png",
 		"displayProperties": {
@@ -856,7 +890,7 @@
 			"icon": "/common/destiny2_content/icons/DestinySeasonDefinition_df1a769d27453619889872819b775924.png"
 		}
 	},
-	"38": {
+	"2032": {
 		"id": "heresy",
 		"iconWatermark": "/common/destiny2_content/icons/0ac354c1c326441716ddb15d2c158c59.png",
 		"primaryImage": "/img/destiny_content/pgcr/mission_overwhelm.jpg",
@@ -876,7 +910,7 @@
 		"season": 26,
 		"year": 7,
 		"seasonHash": 2758726574,
-		"hash": 38,
+		"hash": 2032,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/1e56af6ab4bbbe7cafba8b3bab690d7c.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/1e56af6ab4bbbe7cafba8b3bab690d7c.png",
 		"displayProperties": {
@@ -885,7 +919,7 @@
 			"icon": "/common/destiny2_content/icons/DestinySeasonDefinition_c704c59d44f0cfb7472cd09101eb8399.png"
 		}
 	},
-	"39": {
+	"2033": {
 		"id": "riteofthenine",
 		"aliases": [
 			"rotn"
@@ -901,12 +935,12 @@
 		],
 		"year": 7,
 		"expansion": true,
-		"hash": 39,
+		"hash": 2033,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/421a444fd0d7a54b3c8dcf6e8d386ffe.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/421a444fd0d7a54b3c8dcf6e8d386ffe.png",
 		"primaryImage": "/img/destiny_content/pgcr/supercluster_vendor.jpg"
 	},
-	"40": {
+	"2034": {
 		"id": "edgeoffate",
 		"aliases": [
 			"eof"
@@ -937,11 +971,11 @@
 		],
 		"expansion": true,
 		"year": 8,
-		"hash": 40,
+		"hash": 2034,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/d133cfc43687423246b5afb81a3ae489.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/d133cfc43687423246b5afb81a3ae489.png"
 	},
-	"41": {
+	"2035": {
 		"id": "reclamation",
 		"aliases": [
 			"ashandiron",
@@ -954,7 +988,7 @@
 		"season": 27,
 		"year": 8,
 		"seasonHash": 2758726575,
-		"hash": 41,
+		"hash": 2035,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/0e7739e80c1a520923e42610c7c52467.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/0e7739e80c1a520923e42610c7c52467.png",
 		"displayProperties": {
@@ -967,39 +1001,5 @@
 			"/img/destiny_content/seasons/season_passes/season27-pass-0-background.png",
 			"/img/destiny_content/seasons/season_passes/season27-pass-1-background.png"
 		]
-	},
-	"-1": {
-		"id": "revelry",
-		"displayProperties": {
-			"name": "The Revelry",
-			"description": "Celebrate the joy of Spring. The Tower is overflowing with colorful arrangements, and Eva Levante has a new activity for you to enjoy with new rewards to claim."
-		},
-		"iconWatermark": "/common/destiny2_content/icons/c1e11e70eba15abcd4e0414fa29ef714.png",
-		"event": true,
-		"images": [
-			"/img/destiny_content/pgcr/verdant_forest.jpg"
-		],
-		"itemHashes": [
-			53761356,
-			3503026437,
-			1165027035,
-			3425898631,
-			4199694578,
-			1821343040,
-			3682383633,
-			4079552711,
-			3089075939,
-			500083158,
-			1356657785,
-			870019568,
-			2967148056,
-			1187078090,
-			1362642485,
-			2130065553
-		],
-		"hash": -1,
-		"iconWatermarkShelved": "/common/destiny2_content/icons/00d64d97639991cfdb1afaefecf418b6.png",
-		"iconWatermarkFeatured": "/common/destiny2_content/icons/00d64d97639991cfdb1afaefecf418b6.png",
-		"primaryImage": "/img/destiny_content/pgcr/verdant_forest.jpg"
 	}
 }
