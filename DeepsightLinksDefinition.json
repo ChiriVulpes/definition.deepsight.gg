@@ -567,10 +567,6 @@
 					"path": "displayProperties.iconHash"
 				},
 				{
-					"enum": "DestinyGender",
-					"path": "genderedClassNames.{}"
-				},
-				{
 					"component": "DestinyGenderDefinition",
 					"path": "genderedClassNamesByGenderHash.{}"
 				},
@@ -1408,10 +1404,6 @@
 					"path": "recordValueStyle"
 				},
 				{
-					"enum": "DestinyGender",
-					"path": "titleInfo.titlesByGender.{}"
-				},
-				{
 					"component": "DestinyGenderDefinition",
 					"path": "titleInfo.titlesByGenderHash.{}"
 				},
@@ -1752,10 +1744,6 @@
 				{
 					"enum": "DestinyRace",
 					"path": "raceType"
-				},
-				{
-					"enum": "DestinyGender",
-					"path": "genderedRaceNames.{}"
 				},
 				{
 					"component": "DestinyGenderDefinition",

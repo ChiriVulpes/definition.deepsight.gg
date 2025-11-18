@@ -1,28 +1,4 @@
 {
-	"196691221": {
-		"hash": 196691221,
-		"displayProperties": {
-			"name": "Starcrossed",
-			"description": "Within the Black Garden, the Sol Divisive toil endlessly, systematically shutting down potential futures. With Riven's blessing, it's time to shut them down.",
-			"icon": "/common/destiny2_content/icons/2ffa90c58bdadcca8226f553315212e7.png",
-			"subtitle": "Starcrossed"
-		},
-		"dropTable": {
-			"2910326942": {}
-		},
-		"master": {
-			"activityHash": 3214480871,
-			"availability": "rotator"
-		},
-		"availability": "rotator",
-		"endTime": "2025-11-18T17:00:00Z",
-		"type": "exotic-mission",
-		"typeDisplayProperties": {
-			"name": "Exotic Mission",
-			"description": "Form a fireteam of up to three, and brave the strange and powerful realms of our enemies.",
-			"icon": "/common/destiny2_content/icons/2ffa90c58bdadcca8226f553315212e7.png"
-		}
-	},
 	"300092127": {
 		"hash": 300092127,
 		"displayProperties": {
@@ -328,6 +304,26 @@
 			"icon": "./image/png/activity/portal_pinnacle.png"
 		}
 	},
+	"754672151": {
+		"hash": 754672151,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Enter Rasputin's bunker in the Cosmodrome and discover the source of the security breach.",
+			"name": "Fallen S.A.B.E.R.",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"iconHash": 0,
+			"hasIcon": false
+		},
+		"dropTable": {
+			"2941172034": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Fireteam Ops",
+			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
+			"icon": "./image/png/activity/portal_fireteam.png"
+		}
+	},
 	"910380154": {
 		"hash": 910380154,
 		"displayProperties": {
@@ -462,175 +458,24 @@
 			"hasIcon": true
 		}
 	},
-	"940375169": {
-		"hash": 940375169,
+	"935938264": {
+		"hash": 935938264,
+		"type": "bonus-focus",
+		"availability": "rotator",
 		"displayProperties": {
-			"icon": "/common/destiny2_content/icons/4da15a79ac0497134721eb8ce11004e3.png",
-			"name": "Salvation's Edge",
-			"subtitle": "Salvation's Edge: Standard",
-			"description": "Free the Light."
-		},
-		"encounters": [
-			{
-				"traversal": true,
-				"displayProperties": {
-					"name": "Approach Finality",
-					"description": "Discover a way into the monolith to stop the Witness."
-				}
-			},
-			{
-				"phaseHash": 2761002327,
-				"displayProperties": {
-					"name": "Substratum",
-					"directive": "Gain Access to the Monolith",
-					"description": "Operate the inscrutable machinery to enter the monolith's core."
-				},
-				"dropTable": {
-					"859869931": {},
-					"1258168956": {},
-					"1770490683": {},
-					"1806218131": {},
-					"2256359240": {},
-					"2730105984": {},
-					"3629884836": {},
-					"3725435036": {},
-					"4055964141": {}
-				}
-			},
-			{
-				"traversal": true,
-				"displayProperties": {
-					"name": "Enter the Monolith's Core",
-					"description": "Find a way to ascend the monolith."
-				}
-			},
-			{
-				"phaseHash": 193978048,
-				"displayProperties": {
-					"name": "Dissipation",
-					"directive": "Defeat the Herald",
-					"description": "Remove the Herald of Finality from your path."
-				},
-				"dropTable": {
-					"87946917": {},
-					"141134282": {},
-					"535198113": {},
-					"659074261": {},
-					"930168404": {},
-					"1026610441": {},
-					"1140861969": {},
-					"1258168956": {},
-					"1770490683": {},
-					"3569407878": {}
-				}
-			},
-			{
-				"traversal": true,
-				"displayProperties": {
-					"name": "Ascend the Monolith",
-					"description": "Progress up the monolith and stop the Witness."
-				}
-			},
-			{
-				"phaseHash": 1727550020,
-				"displayProperties": {
-					"name": "Repository",
-					"directive": "Carve A Path",
-					"description": "Gain access to the Witness."
-				},
-				"dropTable": {
-					"445197843": {},
-					"535198113": {},
-					"859869931": {},
-					"2730105984": {},
-					"3629884836": {},
-					"4055964141": {}
-				}
-			},
-			{
-				"traversal": true,
-				"displayProperties": {
-					"name": "Ascend the Monolith",
-					"description": "Continue to ascend the monolith."
-				}
-			},
-			{
-				"phaseHash": 637313410,
-				"displayProperties": {
-					"name": "Verity",
-					"directive": "See Beyond",
-					"description": "Find a path to ascension."
-				},
-				"dropTable": {
-					"7338415": {},
-					"1258168956": {},
-					"1265563470": {},
-					"1770490683": {},
-					"1807926458": {},
-					"3569407878": {}
-				}
-			},
-			{
-				"traversal": true,
-				"displayProperties": {
-					"name": "Make Your Final Ascent",
-					"description": "Climb to the summit and confront the Witness."
-				}
-			},
-			{
-				"phaseHash": 4077323831,
-				"displayProperties": {
-					"name": "Zenith",
-					"directive": "Stop the Final Shape",
-					"description": "Free the Traveler's Light and thwart the Witness's plans."
-				},
-				"dropTable": {
-					"7338415": {},
-					"445197843": {},
-					"659074261": {},
-					"859869931": {},
-					"930168404": {},
-					"1026610441": {},
-					"1265563470": {},
-					"1807926458": {},
-					"3284383335": {},
-					"3569407878": {}
-				}
-			}
-		],
-		"rotations": {
-			"anchor": "2024-06-25T17:00:00Z",
-			"challenges": [
-				3621023005,
-				1204802854,
-				1553052482,
-				2821522136,
-				1315424373
-			],
-			"interval": "weekly",
-			"current": 72,
-			"next": "2025-11-18T17:00:00Z"
-		},
-		"master": {
-			"activityHash": 4129614942,
-			"dropTable": {
-				"172461430": {},
-				"892183998": {},
-				"1039915310": {},
-				"2001697739": {},
-				"3123651616": {},
-				"3951511045": {}
-			},
-			"availability": "repeatable"
-		},
-		"availability": "repeatable",
-		"type": "raid",
-		"typeDisplayProperties": {
-			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
-			"name": "Raid",
-			"icon": "/common/destiny2_content/icons/bd7a1fc995f87be96698263bc16698e7.png",
+			"description": "Jump coordinates matching an errant distress signal.",
+			"name": "Presage",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
 			"iconHash": 0,
-			"hasIcon": true
+			"hasIcon": false
+		},
+		"dropTable": {
+			"4146673635": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Pinnacle Ops",
+			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
+			"icon": "./image/png/activity/portal_pinnacle.png"
 		}
 	},
 	"1042180643": {
@@ -1204,8 +1049,8 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 109,
-			"next": "2025-11-18T17:00:00Z"
+			"current": 110,
+			"next": "2025-11-25T17:00:00Z"
 		},
 		"availability": "repeatable",
 		"type": "raid",
@@ -1215,26 +1060,6 @@
 			"icon": "/common/destiny2_content/icons/bd7a1fc995f87be96698263bc16698e7.png",
 			"iconHash": 0,
 			"hasIcon": true
-		}
-	},
-	"1408611635": {
-		"hash": 1408611635,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Defeat Eramis's military commander, Phylaks, the Warrior.",
-			"name": "The Warrior",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"iconHash": 0,
-			"hasIcon": false
-		},
-		"dropTable": {
-			"4090134063": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Fireteam Ops",
-			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
-			"icon": "./image/png/activity/portal_fireteam.png"
 		}
 	},
 	"1441982566": {
@@ -1389,8 +1214,8 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 110,
-			"next": "2025-11-18T17:00:00Z"
+			"current": 111,
+			"next": "2025-11-25T17:00:00Z"
 		},
 		"availability": "repeatable",
 		"type": "raid",
@@ -1402,24 +1227,175 @@
 			"hasIcon": true
 		}
 	},
-	"1604785891": {
-		"hash": 1604785891,
-		"type": "bonus-focus",
-		"availability": "rotator",
+	"1541433876": {
+		"hash": 1541433876,
 		"displayProperties": {
-			"description": "Halt the efforts of old enemies beneath the Moon's surface.",
-			"name": "K1 Logistics",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"iconHash": 0,
-			"hasIcon": false
+			"icon": "/common/destiny2_content/icons/4da15a79ac0497134721eb8ce11004e3.png",
+			"name": "Salvation's Edge",
+			"subtitle": "Salvation's Edge: Standard",
+			"description": "Free the Light."
 		},
-		"dropTable": {
-			"2155534128": {}
+		"encounters": [
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Approach Finality",
+					"description": "Discover a way into the monolith to stop the Witness."
+				}
+			},
+			{
+				"phaseHash": 2761002327,
+				"displayProperties": {
+					"name": "Substratum",
+					"directive": "Gain Access to the Monolith",
+					"description": "Operate the inscrutable machinery to enter the monolith's core."
+				},
+				"dropTable": {
+					"859869931": {},
+					"1258168956": {},
+					"1770490683": {},
+					"1806218131": {},
+					"2256359240": {},
+					"2730105984": {},
+					"3629884836": {},
+					"3725435036": {},
+					"4055964141": {}
+				}
+			},
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Enter the Monolith's Core",
+					"description": "Find a way to ascend the monolith."
+				}
+			},
+			{
+				"phaseHash": 193978048,
+				"displayProperties": {
+					"name": "Dissipation",
+					"directive": "Defeat the Herald",
+					"description": "Remove the Herald of Finality from your path."
+				},
+				"dropTable": {
+					"87946917": {},
+					"141134282": {},
+					"535198113": {},
+					"659074261": {},
+					"930168404": {},
+					"1026610441": {},
+					"1140861969": {},
+					"1258168956": {},
+					"1770490683": {},
+					"3569407878": {}
+				}
+			},
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Ascend the Monolith",
+					"description": "Progress up the monolith and stop the Witness."
+				}
+			},
+			{
+				"phaseHash": 1727550020,
+				"displayProperties": {
+					"name": "Repository",
+					"directive": "Carve A Path",
+					"description": "Gain access to the Witness."
+				},
+				"dropTable": {
+					"445197843": {},
+					"535198113": {},
+					"859869931": {},
+					"2730105984": {},
+					"3629884836": {},
+					"4055964141": {}
+				}
+			},
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Ascend the Monolith",
+					"description": "Continue to ascend the monolith."
+				}
+			},
+			{
+				"phaseHash": 637313410,
+				"displayProperties": {
+					"name": "Verity",
+					"directive": "See Beyond",
+					"description": "Find a path to ascension."
+				},
+				"dropTable": {
+					"7338415": {},
+					"1258168956": {},
+					"1265563470": {},
+					"1770490683": {},
+					"1807926458": {},
+					"3569407878": {}
+				}
+			},
+			{
+				"traversal": true,
+				"displayProperties": {
+					"name": "Make Your Final Ascent",
+					"description": "Climb to the summit and confront the Witness."
+				}
+			},
+			{
+				"phaseHash": 4077323831,
+				"displayProperties": {
+					"name": "Zenith",
+					"directive": "Stop the Final Shape",
+					"description": "Free the Traveler's Light and thwart the Witness's plans."
+				},
+				"dropTable": {
+					"7338415": {},
+					"445197843": {},
+					"659074261": {},
+					"859869931": {},
+					"930168404": {},
+					"1026610441": {},
+					"1265563470": {},
+					"1807926458": {},
+					"3284383335": {},
+					"3569407878": {}
+				}
+			}
+		],
+		"rotations": {
+			"anchor": "2024-06-25T17:00:00Z",
+			"challenges": [
+				3621023005,
+				1204802854,
+				1553052482,
+				2821522136,
+				1315424373
+			],
+			"interval": "weekly",
+			"current": 73,
+			"next": "2025-11-25T17:00:00Z"
 		},
+		"master": {
+			"activityHash": 4129614942,
+			"dropTable": {
+				"172461430": {},
+				"892183998": {},
+				"1039915310": {},
+				"2001697739": {},
+				"3123651616": {},
+				"3951511045": {}
+			},
+			"availability": "repeatable"
+		},
+		"availability": "repeatable",
+		"type": "raid",
 		"typeDisplayProperties": {
-			"name": "Solo Ops",
-			"description": "Protect Earth from Sol's greatest foes as a one-Guardian fireteam and the Vanguard's last line of defense.",
-			"icon": "./image/png/activity/portal_solo.png"
+			"description": "Form a fireteam of six and brave the strange and powerful realms of our enemies.",
+			"name": "Raid",
+			"icon": "/common/destiny2_content/icons/bd7a1fc995f87be96698263bc16698e7.png",
+			"iconHash": 0,
+			"hasIcon": true
 		}
 	},
 	"1661734046": {
@@ -1578,6 +1554,26 @@
 			"icon": "/common/destiny2_content/icons/bd7a1fc995f87be96698263bc16698e7.png",
 			"iconHash": 0,
 			"hasIcon": true
+		}
+	},
+	"1919941943": {
+		"hash": 1919941943,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Carve your way through a treacherous mountain pass teeming with Lucent Hive and Taken.",
+			"name": "Liminality",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"iconHash": 0,
+			"hasIcon": false
+		},
+		"dropTable": {
+			"4090134063": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Fireteam Ops",
+			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
+			"icon": "./image/png/activity/portal_fireteam.png"
 		}
 	},
 	"2004855007": {
@@ -2007,8 +2003,8 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 137,
-			"next": "2025-11-18T17:00:00Z"
+			"current": 138,
+			"next": "2025-11-25T17:00:00Z"
 		},
 		"availability": "repeatable",
 		"type": "raid",
@@ -2359,6 +2355,30 @@
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_f20ebb76bee675ca429e470cec58cc7b.png"
 		}
 	},
+	"2880643894": {
+		"hash": 2880643894,
+		"displayProperties": {
+			"name": "Encore",
+			"description": "Explore the strange structures at the core of Nessus, converted by the Vex at the Conductor's command.",
+			"icon": "/common/destiny2_content/icons/2ffa90c58bdadcca8226f553315212e7.png",
+			"subtitle": "Encore: Standard"
+		},
+		"dropTable": {
+			"3698448090": {}
+		},
+		"master": {
+			"activityHash": 2166410122,
+			"availability": "rotator"
+		},
+		"availability": "rotator",
+		"endTime": "2025-11-25T17:00:00Z",
+		"type": "exotic-mission",
+		"typeDisplayProperties": {
+			"name": "Exotic Mission",
+			"description": "Form a fireteam of up to three, and brave the strange and powerful realms of our enemies.",
+			"icon": "/common/destiny2_content/icons/2ffa90c58bdadcca8226f553315212e7.png"
+		}
+	},
 	"2882175931": {
 		"hash": 2882175931,
 		"type": "bonus-focus",
@@ -2379,24 +2399,24 @@
 			"icon": "./image/png/activity/portal_solo.png"
 		}
 	},
-	"3219786703": {
-		"hash": 3219786703,
+	"3214228047": {
+		"hash": 3214228047,
 		"type": "bonus-focus",
 		"availability": "rotator",
 		"displayProperties": {
-			"description": "Dig up buried pirate riches in the Cosmodrome, fight off raiders, and deliver the treasure haul to your Ketch!",
-			"name": "Expedition: Cosmodrome",
+			"description": "Protect the BrayTech facility from incursions by opposition forces.",
+			"name": "Creation",
 			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
 			"iconHash": 0,
 			"hasIcon": false
 		},
 		"dropTable": {
-			"3926153598": {}
+			"3946054154": {}
 		},
 		"typeDisplayProperties": {
-			"name": "Fireteam Ops",
-			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
-			"icon": "./image/png/activity/portal_fireteam.png"
+			"name": "Solo Ops",
+			"description": "Protect Earth from Sol's greatest foes as a one-Guardian fireteam and the Vanguard's last line of defense.",
+			"icon": "./image/png/activity/portal_solo.png"
 		}
 	},
 	"3437865231": {
@@ -2411,7 +2431,7 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"1003997240": {}
+			"358190158": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Fireteam Ops",
@@ -2714,8 +2734,8 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 108,
-			"next": "2025-11-18T17:00:00Z"
+			"current": 109,
+			"next": "2025-11-25T17:00:00Z"
 		},
 		"availability": "repeatable",
 		"type": "raid",
@@ -2739,7 +2759,7 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"4146673635": {}
+			"1465235089": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Pinnacle Ops",
@@ -2759,7 +2779,7 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"2348082405": {}
+			"738446555": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Fireteam Ops",
@@ -3230,7 +3250,7 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"358190158": {}
+			"1003997240": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Solo Ops",

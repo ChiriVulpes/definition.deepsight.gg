@@ -221,10 +221,10 @@
 			"icon": "/common/destiny2_content/icons/5669d568b07c9c447678e8f8279d638a.png"
 		},
 		"iconWatermark": "/common/destiny2_content/icons/aeb95eb1abe8e45e1fe2573d6b3ab3c5.png",
-		"primaryImage": "/img/destiny_content/pgcr/mission_reveal.jpg",
+		"primaryImage": "/img/destiny_content/pgcr/mission_uldren.jpg",
 		"images": [
 			"/img/destiny_content/pgcr/mission_prisonbreak.jpg",
-			"/img/destiny_content/pgcr/mission_reveal.jpg",
+			"/img/destiny_content/pgcr/mission_uldren.jpg",
 			"/img/destiny_content/pgcr/mission_ritual.jpg",
 			"/img/destiny_content/pgcr/mission_toxic.jpg",
 			"/img/destiny_content/pgcr/mission_uldren.jpg",
@@ -653,12 +653,12 @@
 		"iconWatermark": "/common/destiny2_content/icons/41d05b7cb5cc0a384af07ee9b7d36dd2.png",
 		"primaryImage": "/img/destiny_content/pgcr/season_19_infiltrate_download.jpg",
 		"images": [
-			"/img/destiny_content/pgcr/season_19_mission_upload.jpg",
+			"/img/theme/destiny/bgs/pgcrs/placeholder.jpg",
 			"/img/destiny_content/pgcr/season_19_infiltrate_download.jpg",
 			"/img/destiny_content/pgcr/season_19_mission_redo.jpg",
 			"/img/destiny_content/pgcr/crucible_observatory.jpg",
 			"/img/destiny_content/pgcr/season_19_infiltrate_restore.jpg",
-			"/img/destiny_content/pgcr/season_19_mission_intro.jpg"
+			"/img/theme/destiny/bgs/pgcrs/placeholder.jpg"
 		],
 		"season": 19,
 		"year": 5,
@@ -772,7 +772,7 @@
 		"images": [
 			"/img/destiny_content/pgcr/s23_intro.jpg",
 			"/img/theme/destiny/bgs/pgcrs/placeholder.jpg",
-			"/img/destiny_content/pgcr/s23_lair_4.jpg",
+			"/img/destiny_content/pgcr/s23_lair_1.jpg",
 			"/img/destiny_content/pgcr/pinnacle_ops_exotic_starcrossed.jpg",
 			"/img/destiny_content/pgcr/mission_starcrossed.jpg"
 		],
