@@ -824,7 +824,7 @@ namespace DeepsightPlugCategorisation {
 	function getArmourModRaidActivityHash (context: DeepsightPlugContextDefinition) {
 		switch (context.definition.itemTypeDisplayName) {
 			case 'Deep Stone Crypt Raid Mod':
-				return ActivityHashes.DeepStoneCrypt_RewardsLength0
+				return ActivityHashes.DeepStoneCrypt_ChallengesLength0
 			case 'Root of Nightmares Armor Mod':
 				return ActivityHashes.RootOfNightmaresStandard
 			case 'Crota\'s End Mod':

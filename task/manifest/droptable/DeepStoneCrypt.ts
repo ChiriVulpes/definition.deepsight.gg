@@ -1,8 +1,8 @@
-import { ActivityHashes, InventoryItemHashes, RecordHashes } from "@deepsight.gg/Enums";
-import type { DeepsightDropTableDefinition } from "./DeepsightDropTableDefinition";
+import { ActivityHashes, InventoryItemHashes, RecordHashes } from '@deepsight.gg/Enums'
+import type { DeepsightDropTableDefinition } from './DeepsightDropTableDefinition'
 
 export default {
-    hash: ActivityHashes.DeepStoneCrypt_RewardsLength0,
+    hash: ActivityHashes.DeepStoneCrypt_ChallengesLength0,
     displayProperties: {
         icon: { DestinyRecordDefinition: RecordHashes.RaidDeepStoneCrypt_RecordTypeNameTriumphs },
     },
@@ -10,16 +10,16 @@ export default {
         {
             traversal: true,
             displayProperties: {
-                name: "Locate the Deep Stone Crypt",
-                description: "Survive the cold while locating the Deep Stone Crypt.",
+                name: 'Locate the Deep Stone Crypt',
+                description: 'Survive the cold while locating the Deep Stone Crypt.',
             },
         },
         {
             phaseHash: 2776463390,
             displayProperties: {
-                name: "Crypt Security",
-                directive: "Disable Crypt Security",
-                description: "Destroy the Crypt's power system to disable security.",
+                name: 'Crypt Security',
+                directive: 'Disable Crypt Security',
+                description: 'Destroy the Crypt\'s power system to disable security.',
             },
             dropTable: {
                 [InventoryItemHashes.TrusteeScoutRifle]: {},
@@ -44,16 +44,16 @@ export default {
             phaseHash: 3847348336,
             traversal: true,
             displayProperties: {
-                name: "Locate Eramis's Followers",
-                description: "Push deeper into the Crypt and locate Eramis's followers.",
+                name: 'Locate Eramis\'s Followers',
+                description: 'Push deeper into the Crypt and locate Eramis\'s followers.',
             },
         },
         {
             phaseHash: 416127450,
             displayProperties: {
-                name: "Atraks-1",
-                directive: "Defeat Atraks-1",
-                description: "Take down the Fallen Exo Atraks-1.",
+                name: 'Atraks-1',
+                directive: 'Defeat Atraks-1',
+                description: 'Take down the Fallen Exo Atraks-1.',
             },
             dropTable: {
                 [InventoryItemHashes.SuccessionSniperRifle2990047042]: {},
@@ -79,16 +79,16 @@ export default {
             phaseHash: 1370965191,
             traversal: true,
             displayProperties: {
-                name: "Locate the Nuclear Contingency Chamber",
-                description: "Reach the nuclear contingency chamber.",
+                name: 'Locate the Nuclear Contingency Chamber',
+                description: 'Reach the nuclear contingency chamber.',
             },
         },
         {
             phaseHash: 1858926029,
             displayProperties: {
-                name: "Descent",
-                directive: "Prevent Europa's Destruction",
-                description: "Disarm the Nuclear Descent Protocol.",
+                name: 'Descent',
+                directive: 'Prevent Europa\'s Destruction',
+                description: 'Disarm the Nuclear Descent Protocol.',
             },
             dropTable: {
                 [InventoryItemHashes.PosterityHandCannon]: {},
@@ -113,16 +113,16 @@ export default {
             traversal: true,
             phaseHash: 1594577984,
             displayProperties: {
-                name: "Emerge from the Wreckage",
-                description: "Make your way out of the wreckage of the Morning Star.",
+                name: 'Emerge from the Wreckage',
+                description: 'Make your way out of the wreckage of the Morning Star.',
             },
         },
         {
             phaseHash: 4035296150,
             displayProperties: {
-                name: "Taniks, the Abomination",
-                directive: "Defeat Taniks, the Abomination",
-                description: "Defeat Taniks for good.",
+                name: 'Taniks, the Abomination',
+                directive: 'Defeat Taniks, the Abomination',
+                description: 'Defeat Taniks for good.',
             },
             dropTable: {
                 [InventoryItemHashes.BequestSword]: {},
@@ -146,4 +146,4 @@ export default {
             },
         },
     ],
-} satisfies DeepsightDropTableDefinition;
+} satisfies DeepsightDropTableDefinition

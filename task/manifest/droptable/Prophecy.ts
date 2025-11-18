@@ -1,8 +1,8 @@
-import { ActivityHashes, InventoryItemHashes, RecordHashes } from "@deepsight.gg/Enums";
-import type { DeepsightDropTableDefinition } from "./DeepsightDropTableDefinition";
+import { ActivityHashes, InventoryItemHashes, RecordHashes } from '@deepsight.gg/Enums'
+import type { DeepsightDropTableDefinition } from './DeepsightDropTableDefinition'
 
 export default {
-	hash: ActivityHashes.Prophecy_ModifiersLength1,
+	hash: ActivityHashes.Prophecy_TraitHashesLength3,
 	displayProperties: {
 		icon: { DestinyRecordDefinition: RecordHashes.ProphecyComplete872886548 },
 	},
@@ -10,15 +10,15 @@ export default {
 		{
 			traversal: true,
 			displayProperties: {
-				name: "Seek the Nine",
-				description: "Seek an audience with the Nine.",
+				name: 'Seek the Nine',
+				description: 'Seek an audience with the Nine.',
 			},
 		},
 		{
 			phaseHash: 2400102494,
 			displayProperties: {
-				name: "Defeat the Phalanx Echo",
-				description: "Confront the Phalanx Echo, a part of the Nine's answer to your question.",
+				name: 'Defeat the Phalanx Echo',
+				description: 'Confront the Phalanx Echo, a part of the Nine\'s answer to your question.',
 			},
 			dropTable: {
 				[InventoryItemHashes.ProsecutorAutoRifle3483591058]: {},
@@ -35,31 +35,31 @@ export default {
 			phaseHash: 1692344396,
 			traversal: true,
 			displayProperties: {
-				name: "Sink",
-				description: "Descend.",
+				name: 'Sink',
+				description: 'Descend.',
 			},
 		},
 		{
 			phaseHash: 382168380,
 			traversal: true,
 			displayProperties: {
-				name: "Wasteland",
-				description: "Navigate the expanse of the wasteland.",
+				name: 'Wasteland',
+				description: 'Navigate the expanse of the wasteland.',
 			},
 		},
 		{
 			phaseHash: 2132736886,
 			traversal: true,
 			displayProperties: {
-				name: "Escape the Wasteland",
-				description: "Traverse deeper into this realm of the Nine.",
+				name: 'Escape the Wasteland',
+				description: 'Traverse deeper into this realm of the Nine.',
 			},
 		},
 		{
 			phaseHash: 3585780724,
 			displayProperties: {
-				name: "Escape",
-				description: "Find a way forward.",
+				name: 'Escape',
+				description: 'Find a way forward.',
 			},
 			dropTable: {
 				[InventoryItemHashes.AdjudicatorSubmachineGun_TooltipNotificationsLength3]: {},
@@ -73,31 +73,31 @@ export default {
 			phaseHash: 3999204422,
 			traversal: true,
 			displayProperties: {
-				name: "Return to the Wasteland",
-				description: "Cross the wasteland once more.",
+				name: 'Return to the Wasteland',
+				description: 'Cross the wasteland once more.',
 			},
 		},
 		{
 			phaseHash: 2229343072,
 			traversal: true,
 			displayProperties: {
-				name: "Deadsea",
-				description: "Traverse the sea.",
+				name: 'Deadsea',
+				description: 'Traverse the sea.',
 			},
 		},
 		{
 			phaseHash: 2543744318,
 			traversal: true,
 			displayProperties: {
-				name: "Traverse Deeper",
-				description: "Face the final answer to your question.",
+				name: 'Traverse Deeper',
+				description: 'Face the final answer to your question.',
 			},
 		},
 		{
 			phaseHash: 3492117941,
 			displayProperties: {
-				name: "Defeat the Kell Echo",
-				description: "Confront the Kell Echo, a part of the Nine's answer to your question.",
+				name: 'Defeat the Kell Echo',
+				description: 'Confront the Kell Echo, a part of the Nine\'s answer to your question.',
 			},
 			dropTable: {
 				[InventoryItemHashes.JudgmentHandCannon2969415423]: {},
@@ -131,9 +131,9 @@ export default {
 			phaseHash: 3998734759,
 			traversal: true,
 			displayProperties: {
-				name: "Receive the Answer",
-				description: "Collect your reward from the Nine.",
+				name: 'Receive the Answer',
+				description: 'Collect your reward from the Nine.',
 			},
 		},
 	],
-} satisfies DeepsightDropTableDefinition;
+} satisfies DeepsightDropTableDefinition

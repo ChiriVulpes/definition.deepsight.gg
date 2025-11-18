@@ -278,7 +278,7 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 			displayProperties: await DestinyManifestReference.resolveAll({
 				name: { DestinyFireteamFinderActivityGraphDefinition: FireteamFinderActivityGraphHashes.CrucibleOps },
 				description: { DestinyFireteamFinderActivityGraphDefinition: FireteamFinderActivityGraphHashes.CrucibleOps },
-				icon: { DestinyActivityDefinition: ActivityHashes.CuttingEdgeRumbleMatchmade_RewardsLength25 },
+				icon: { DestinyActivityDefinition: ActivityHashes.CuttingEdgeRumbleMatchmade_DurationEstimateObjectLength3 },
 			}),
 		},
 		[DeepsightItemSourceType.TrialsOfOsiris]: {

@@ -132,6 +132,6 @@ export default {
 		},
 	],
 	master: {
-		activityHash: ActivityHashes.DualityMaster_ModifiersLength18,
+		activityHash: ActivityHashes.DualityMaster_ChallengesLength0,
 	},
 } satisfies DeepsightDropTableDefinition
