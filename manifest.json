@@ -1,9 +1,9 @@
 {
-	"DeepsightDropTableDefinition": 716,
-	"DeepsightMomentDefinition": 20,
+	"DeepsightDropTableDefinition": 715,
+	"DeepsightMomentDefinition": 19,
 	"DeepsightPlugCategorisation": 46,
 	"DeepsightWallpaperDefinition": 13,
-	"Enums": 73,
+	"Enums": 72,
 	"Interfaces": 49,
 	"deepsight": 1573,
 	"DeepsightTierTypeDefinition": 1,
@@ -14,7 +14,7 @@
 		"instanceId": "16599605099",
 		"period": "2025-10-22T21:20:33Z"
 	},
-	"updated": "2025-11-18T23:56:33Z",
+	"updated": "2025-11-19T00:01:04Z",
 	"DeepsightVendorDefinition": 630,
 	"DeepsightStats": 6,
 	"DeepsightCollectionsDefinition": 20,
@@ -32,5 +32,5 @@
 	"DeepsightIconDefinition": 7,
 	"DeepsightVariantDefinition": 4,
 	"Destiny2/Manifest": "238646.25.11.05.2000-1-bnet.62752",
-	"DeepsightLinksDefinition": 5
+	"DeepsightLinksDefinition": 4
 }
