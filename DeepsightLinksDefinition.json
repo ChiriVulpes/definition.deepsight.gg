@@ -1637,6 +1637,10 @@
 					"path": "rewardProgressionHash"
 				},
 				{
+					"component": "DestinyProgressionDefinition",
+					"path": "rewardProgressionHashList.[]"
+				},
+				{
 					"component": "DestinyPresentationNodeDefinition",
 					"path": "weeklyChallengesPresentationNodeHash"
 				}
@@ -3965,6 +3969,10 @@
 				{
 					"name": "Relic",
 					"value": 92
+				},
+				{
+					"name": "LawlessFrontier",
+					"value": 93
 				}
 			],
 			"bitmask": false

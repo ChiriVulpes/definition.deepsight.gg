@@ -483,6 +483,14 @@
 		],
 		"progressDescription": "Targets defeated"
 	},
+	"3049715579": {
+		"hash": 3049715579,
+		"record": 39338609,
+		"primaryObjectiveHashes": [
+			3552753933
+		],
+		"progressDescription": "Targets defeated"
+	},
 	"3089417789": {
 		"hash": 3089417789,
 		"record": 373671280,
@@ -792,6 +800,14 @@
 			4285451500
 		],
 		"progressDescription": "Enemies Defeated"
+	},
+	"4284533075": {
+		"hash": 4284533075,
+		"record": 1094735064,
+		"primaryObjectiveHashes": [
+			2911423267
+		],
+		"progressDescription": "Targets defeated"
 	},
 	"4289226715": {
 		"hash": 4289226715,

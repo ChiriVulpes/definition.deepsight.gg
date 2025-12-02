@@ -85,6 +85,8 @@ export declare const enum DeepsightPlugTypePerk {
 	TubeEnhanced,
 	BowstringEnhanced,
 	BatteryEnhanced,
+	PraxicTang,
+	PraxicGuard,
 }
 
 export declare const enum DeepsightPlugTypeMod {
@@ -111,6 +113,9 @@ export declare const enum DeepsightPlugTypeMod {
 	ArmorArtificeAction,
 	ArmorItemSet,
 	ArmorItemSetEmpty,
+	PraxicCore,
+	PraxicStatUpgrade,
+	PraxicForm,
 }
 
 export declare const enum DeepsightPlugTypeSubclass {
@@ -162,6 +167,7 @@ export declare const enum DeepsightPlugTypeCosmetic {
 	WeaponEffects,
 	WeaponEffectsDefault,
 	Ornament,
+	PraxicDarkMatterCrystal,
 }
 
 export declare const enum DeepsightPlugTypeMasterwork {

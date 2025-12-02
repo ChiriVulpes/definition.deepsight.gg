@@ -821,18 +821,18 @@
 		"displayProperties": {
 			"name": "The Final Shape",
 			"description": "The Final Shape looms—a nightmarish calcification of reality into the Witness's twisted design.\n\nEmbark on a perilous journey into the heart of the Traveler, rally the Vanguard, and end the War of Light and Darkness.",
-			"icon": "/common/destiny2_content/icons/69e43fe2989bb511af6446b50ca0ab7b.png"
+			"icon": "/common/destiny2_content/icons/fdd332402722c2b18b4972adff0c4cd0.png"
 		},
 		"iconWatermark": "/common/destiny2_content/icons/661c84a377389a3b8a1fc38b44189b41.png",
-		"primaryImage": "/img/destiny_content/pgcr/tfs_m2.jpg",
+		"primaryImage": "/img/destiny_content/pgcr/tfs_m6.jpg",
 		"images": [
-			"/img/destiny_content/pgcr/tfs_m1.jpg",
 			"/img/destiny_content/pgcr/tfs_m2.jpg",
-			"/img/destiny_content/pgcr/tfs_m3.jpg",
-			"/img/destiny_content/pgcr/tfs_m4.jpg",
-			"/img/destiny_content/pgcr/tfs_m5.jpg",
 			"/img/destiny_content/pgcr/tfs_m6.jpg",
+			"/img/destiny_content/pgcr/tfs_m3.jpg",
+			"/img/destiny_content/pgcr/tfs_m5.jpg",
+			"/img/destiny_content/pgcr/tfs_m4.jpg",
 			"/img/destiny_content/pgcr/tfs_m7.jpg",
+			"/img/destiny_content/pgcr/tfs_m1.jpg",
 			"/img/destiny_content/pgcr/raid_splinter.jpg",
 			"/img/destiny_content/pgcr/double_agents.jpg"
 		],
@@ -988,6 +988,11 @@
 		"season": 27,
 		"year": 8,
 		"seasonHash": 2758726575,
+		"images": [
+			"/img/destiny_content/pgcr/cabals_watch.jpg",
+			"/img/destiny_content/seasons/season_passes/season27-pass-0-background.png",
+			"/img/destiny_content/seasons/season_passes/season27-pass-1-background.png"
+		],
 		"hash": 2035,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/0e7739e80c1a520923e42610c7c52467.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/0e7739e80c1a520923e42610c7c52467.png",
@@ -996,21 +1001,45 @@
 			"description": "As the Vanguard unravels a cosmic mystery on the edge of the system, the Forces of the City battle to reclaim territory closer to home.",
 			"icon": "/common/destiny2_content/icons/DestinySeasonDefinition_a16e9585a24eaccc9ef3021a1769e50d.png"
 		},
-		"primaryImage": "/img/destiny_content/seasons/season_passes/season27-pass-0-background.png",
-		"images": [
-			"/img/destiny_content/seasons/season_passes/season27-pass-0-background.png",
-			"/img/destiny_content/seasons/season_passes/season27-pass-1-background.png"
-		]
+		"primaryImage": "/img/destiny_content/pgcr/cabals_watch.jpg"
 	},
 	"2036": {
 		"id": "renegades",
-		"iconWatermark": {},
+		"displayProperties": {
+			"name": "Renegades",
+			"description": "Dive into the criminal underworld and take down an evil empire. Venture into a lawless frontier and reveal deeper mysteries about a new Dredgen in Sol. Build your power, credits, and reputation.",
+			"icon": "/common/destiny2_content/icons/94bfda8d042af7d5b3894075bfd3e088.png"
+		},
+		"iconWatermark": "/common/destiny2_content/icons/95f7754d52d6016fdc445fb62aa7a31e.png",
 		"year": 8,
 		"expansion": true,
+		"images": [
+			"/img/destiny_content/pgcr/lawless_frontier_europa.jpg",
+			"/img/destiny_content/pgcr/lawless_frontier_venus.jpg",
+			"/img/destiny_content/pgcr/lawless_frontier_mars.jpg"
+		],
 		"hash": 2036,
+		"iconWatermarkShelved": "/common/destiny2_content/icons/6e627f8283368c3c3441b95c38119a45.png",
+		"iconWatermarkFeatured": "/common/destiny2_content/icons/6e627f8283368c3c3441b95c38119a45.png",
+		"primaryImage": "/img/destiny_content/pgcr/lawless_frontier_europa.jpg"
+	},
+	"2037": {
+		"id": "lawless",
+		"iconWatermark": "/common/destiny2_content/icons/4376a7d734583ae347acf9732aa3bb43.png",
+		"year": 8,
+		"season": 28,
+		"seasonHash": 2758726560,
+		"hash": 2037,
+		"iconWatermarkShelved": "/common/destiny2_content/icons/c94c3d69d636310a10bf1d39fc4a3e29.png",
+		"iconWatermarkFeatured": "/common/destiny2_content/icons/c94c3d69d636310a10bf1d39fc4a3e29.png",
 		"displayProperties": {
-			"name": "",
-			"description": ""
-		}
+			"name": "Season 28: Lawless",
+			"description": "A Prophecy foretells extinction. A new threat rises in the Barant Imperium. And the Drifter's past is catching up to him…",
+			"icon": "/common/destiny2_content/icons/DestinySeasonDefinition_e26d26718aa8cdda042e116085bd3473.png"
+		},
+		"primaryImage": "/img/destiny_content/seasons/season_passes/season28-pass-0-background.png",
+		"images": [
+			"/img/destiny_content/seasons/season_passes/season28-pass-0-background.png"
+		]
 	}
 }
