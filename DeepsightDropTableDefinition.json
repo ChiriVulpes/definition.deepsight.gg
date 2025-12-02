@@ -284,19 +284,19 @@
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_f20ebb76bee675ca429e470cec58cc7b.png"
 		}
 	},
-	"458069470": {
-		"hash": 458069470,
+	"762252622": {
+		"hash": 762252622,
 		"type": "bonus-focus",
 		"availability": "rotator",
 		"displayProperties": {
-			"description": "Delve ever deeper into the myriad pathways of Riven's Lair in The Coil. Face greater challenges and retrieve greater rewards.",
-			"name": "The Coil",
+			"description": "Defend the Advanced Defensive Unit against an onslaught of 30 combatant waves.",
+			"name": "Midtown",
 			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
 			"iconHash": 0,
 			"hasIcon": false
 		},
 		"dropTable": {
-			"3418714006": {}
+			"1197073834": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Pinnacle Ops",
@@ -304,19 +304,39 @@
 			"icon": "./image/png/activity/portal_pinnacle.png"
 		}
 	},
-	"754672151": {
-		"hash": 754672151,
+	"775989808": {
+		"hash": 775989808,
 		"type": "bonus-focus",
 		"availability": "rotator",
 		"displayProperties": {
-			"description": "Enter Rasputin's bunker in the Cosmodrome and discover the source of the security breach.",
-			"name": "Fallen S.A.B.E.R.",
+			"description": "Investigate a Vex network node in the EDZ that has been overwritten with a single word: AVALON.",
+			"name": "//node.ovrd.AVALON//",
 			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
 			"iconHash": 0,
 			"hasIcon": false
 		},
 		"dropTable": {
-			"2941172034": {}
+			"4146673635": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Pinnacle Ops",
+			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
+			"icon": "./image/png/activity/portal_pinnacle.png"
+		}
+	},
+	"843932907": {
+		"hash": 843932907,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Take Earth back from the Conductor's forces! Fight across combat zones in the now SIVA-free Plaguelands, from a ruined tanker to an ancient missile silo. Battle to secure powerful Golden Age salvage before your foes do!",
+			"name": "Cabal's Watch",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"iconHash": 0,
+			"hasIcon": false
+		},
+		"dropTable": {
+			"2348082405": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Fireteam Ops",
@@ -456,26 +476,6 @@
 			"icon": "/common/destiny2_content/icons/bd7a1fc995f87be96698263bc16698e7.png",
 			"iconHash": 0,
 			"hasIcon": true
-		}
-	},
-	"935938264": {
-		"hash": 935938264,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Jump coordinates matching an errant distress signal.",
-			"name": "Presage",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"iconHash": 0,
-			"hasIcon": false
-		},
-		"dropTable": {
-			"4146673635": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Pinnacle Ops",
-			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
-			"icon": "./image/png/activity/portal_pinnacle.png"
 		}
 	},
 	"1042180643": {
@@ -1049,8 +1049,8 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 110,
-			"next": "2025-11-25T17:00:00Z"
+			"current": 111,
+			"next": "2025-12-02T17:00:00Z"
 		},
 		"availability": "repeatable",
 		"type": "raid",
@@ -1214,8 +1214,8 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 111,
-			"next": "2025-11-25T17:00:00Z"
+			"current": 112,
+			"next": "2025-12-02T17:00:00Z"
 		},
 		"availability": "repeatable",
 		"type": "raid",
@@ -1373,8 +1373,8 @@
 				1315424373
 			],
 			"interval": "weekly",
-			"current": 73,
-			"next": "2025-11-25T17:00:00Z"
+			"current": 74,
+			"next": "2025-12-02T17:00:00Z"
 		},
 		"master": {
 			"activityHash": 4129614942,
@@ -1554,26 +1554,6 @@
 			"icon": "/common/destiny2_content/icons/bd7a1fc995f87be96698263bc16698e7.png",
 			"iconHash": 0,
 			"hasIcon": true
-		}
-	},
-	"1919941943": {
-		"hash": 1919941943,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Carve your way through a treacherous mountain pass teeming with Lucent Hive and Taken.",
-			"name": "Liminality",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"iconHash": 0,
-			"hasIcon": false
-		},
-		"dropTable": {
-			"4090134063": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Fireteam Ops",
-			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
-			"icon": "./image/png/activity/portal_fireteam.png"
 		}
 	},
 	"2004855007": {
@@ -2003,8 +1983,8 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 138,
-			"next": "2025-11-25T17:00:00Z"
+			"current": 139,
+			"next": "2025-12-02T17:00:00Z"
 		},
 		"availability": "repeatable",
 		"type": "raid",
@@ -2016,46 +1996,25 @@
 			"hasIcon": true
 		}
 	},
-	"2405922645": {
-		"hash": 2405922645,
+	"2425464470": {
+		"hash": 2425464470,
 		"type": "bonus-focus",
 		"availability": "rotator",
 		"displayProperties": {
-			"description": "Defeat Caiatl's Chosen aboard the Land Tank, Halphas Electus, on Nessus.",
-			"name": "Proving Grounds",
+			"description": "Dig up buried pirate riches on Europa, fight off raiders, and deliver the treasure haul to your Ketch!",
+			"name": "Expedition: Europa",
 			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
 			"iconHash": 0,
 			"hasIcon": false
 		},
 		"dropTable": {
-			"3418714006": {}
+			"3755454909": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Fireteam Ops",
 			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
 			"icon": "./image/png/activity/portal_fireteam.png"
 		}
-	},
-	"2438427157": {
-		"hash": 2438427157,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Cutting Edge: Only New Gear permitted. New Gear also grants reward bonuses.\n\nAchieve victory by controlling zones, earning points for your team over time.",
-			"name": "Cutting Edge: Zone Control",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"iconHash": 0,
-			"hasIcon": false
-		},
-		"dropTable": {
-			"3418714006": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Crucible Ops",
-			"description": "Hone your skills and win glory in battle against other Guardians.",
-			"icon": "./image/png/activity/portal_crucible.png"
-		},
-		"pgcrImage": "/img/destiny_content/pgcr/crucible_twilight_gap.jpg"
 	},
 	"2582501063": {
 		"hash": 2582501063,
@@ -2355,57 +2314,13 @@
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_f20ebb76bee675ca429e470cec58cc7b.png"
 		}
 	},
-	"2880643894": {
-		"hash": 2880643894,
-		"displayProperties": {
-			"name": "Encore",
-			"description": "Explore the strange structures at the core of Nessus, converted by the Vex at the Conductor's command.",
-			"icon": "/common/destiny2_content/icons/2ffa90c58bdadcca8226f553315212e7.png",
-			"subtitle": "Encore: Standard"
-		},
-		"dropTable": {
-			"3698448090": {}
-		},
-		"master": {
-			"activityHash": 2166410122,
-			"availability": "rotator"
-		},
-		"availability": "rotator",
-		"endTime": "2025-11-25T17:00:00Z",
-		"type": "exotic-mission",
-		"typeDisplayProperties": {
-			"name": "Exotic Mission",
-			"description": "Form a fireteam of up to three, and brave the strange and powerful realms of our enemies.",
-			"icon": "/common/destiny2_content/icons/2ffa90c58bdadcca8226f553315212e7.png"
-		}
-	},
-	"2882175931": {
-		"hash": 2882175931,
+	"2855477577": {
+		"hash": 2855477577,
 		"type": "bonus-focus",
 		"availability": "rotator",
 		"displayProperties": {
-			"description": "Stop new enemies from gaining a foothold in the depths of the EDZ.",
-			"name": "The Salt Mines",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"iconHash": 0,
-			"hasIcon": false
-		},
-		"dropTable": {
-			"3418714006": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Solo Ops",
-			"description": "Protect Earth from Sol's greatest foes as a one-Guardian fireteam and the Vanguard's last line of defense.",
-			"icon": "./image/png/activity/portal_solo.png"
-		}
-	},
-	"3214228047": {
-		"hash": 3214228047,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Protect the BrayTech facility from incursions by opposition forces.",
-			"name": "Creation",
+			"description": "Cutting Edge: Only New Gear permitted. New Gear also grants reward bonuses.\n\nFight for victory by defeating opponents.",
+			"name": "Cutting Edge: Clash",
 			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
 			"iconHash": 0,
 			"hasIcon": false
@@ -2414,9 +2329,50 @@
 			"3946054154": {}
 		},
 		"typeDisplayProperties": {
+			"name": "Crucible Ops",
+			"description": "Hone your skills and win glory in battle against other Guardians.",
+			"icon": "./image/png/activity/portal_crucible.png"
+		},
+		"pgcrImage": "/img/destiny_content/pgcr/crucible_twilight_gap.jpg"
+	},
+	"3056702872": {
+		"hash": 3056702872,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Drive out enemies trying to anchor themselves on Nessus.",
+			"name": "The Conflux",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"iconHash": 0,
+			"hasIcon": false
+		},
+		"dropTable": {
+			"1193318082": {}
+		},
+		"typeDisplayProperties": {
 			"name": "Solo Ops",
 			"description": "Protect Earth from Sol's greatest foes as a one-Guardian fireteam and the Vanguard's last line of defense.",
 			"icon": "./image/png/activity/portal_solo.png"
+		}
+	},
+	"3271010806": {
+		"hash": 3271010806,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Eramis activated the Vex portal once built by Clovis Bray. The Exo Stranger asks for your help in stopping the Vex incursion to Europa.",
+			"name": "The Glassway",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"iconHash": 0,
+			"hasIcon": false
+		},
+		"dropTable": {
+			"1003997240": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Fireteam Ops",
+			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
+			"icon": "./image/png/activity/portal_fireteam.png"
 		}
 	},
 	"3437865231": {
@@ -2558,6 +2514,30 @@
 			"name": "Dungeon",
 			"description": "Form a fireteam of up to three, and brave the strange and powerful realms of our enemies.",
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_f20ebb76bee675ca429e470cec58cc7b.png"
+		}
+	},
+	"3878270936": {
+		"hash": 3878270936,
+		"displayProperties": {
+			"name": "Kell's Fall",
+			"description": "Enter Fikrul's Revenant Fortress in the Tangled Shore, where dark reflections make it difficult to discern illusion from reality.",
+			"icon": "/common/destiny2_content/icons/2ffa90c58bdadcca8226f553315212e7.png",
+			"subtitle": "Kell's Fall"
+		},
+		"dropTable": {
+			"1047932517": {}
+		},
+		"master": {
+			"activityHash": 367562924,
+			"availability": "rotator"
+		},
+		"availability": "rotator",
+		"endTime": "2025-12-02T17:00:00Z",
+		"type": "exotic-mission",
+		"typeDisplayProperties": {
+			"name": "Exotic Mission",
+			"description": "Form a fireteam of up to three, and brave the strange and powerful realms of our enemies.",
+			"icon": "/common/destiny2_content/icons/2ffa90c58bdadcca8226f553315212e7.png"
 		}
 	},
 	"3881495763": {
@@ -2734,8 +2714,8 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 109,
-			"next": "2025-11-25T17:00:00Z"
+			"current": 110,
+			"next": "2025-12-02T17:00:00Z"
 		},
 		"availability": "repeatable",
 		"type": "raid",
@@ -2759,47 +2739,7 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"1465235089": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Pinnacle Ops",
-			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
-			"icon": "./image/png/activity/portal_pinnacle.png"
-		}
-	},
-	"4011344973": {
-		"hash": 4011344973,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Defend Earth from the Conductor's forces by claiming long-lost Golden Age salvage before they do! Jump between battlefields in the Plaguelands and Cosmodrome, fighting over the ruined husks of transport ships and abandoned spacecraft.",
-			"name": "Fallen Bunker",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"iconHash": 0,
-			"hasIcon": false
-		},
-		"dropTable": {
-			"738446555": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Fireteam Ops",
-			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
-			"icon": "./image/png/activity/portal_fireteam.png"
-		}
-	},
-	"4025763100": {
-		"hash": 4025763100,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Infiltrate a forgotten Golden Age facility to prevent the Conductor from launching a dangerously modified Warsat.",
-			"name": "Heliostat",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"iconHash": 0,
-			"hasIcon": false
-		},
-		"dropTable": {
-			"3418714006": {}
+			"42435996": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Pinnacle Ops",
@@ -3250,7 +3190,7 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"1003997240": {}
+			"190747610": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Solo Ops",

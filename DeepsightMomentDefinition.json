@@ -1001,5 +1001,16 @@
 			"/img/destiny_content/seasons/season_passes/season27-pass-0-background.png",
 			"/img/destiny_content/seasons/season_passes/season27-pass-1-background.png"
 		]
+	},
+	"2036": {
+		"id": "renegades",
+		"iconWatermark": {},
+		"year": 8,
+		"expansion": true,
+		"hash": 2036,
+		"displayProperties": {
+			"name": "",
+			"description": ""
+		}
 	}
 }

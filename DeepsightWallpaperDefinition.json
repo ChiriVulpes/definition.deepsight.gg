@@ -1,6 +1,18 @@
 {
-	"0": {
-		"hash": 0,
+	"1000": {
+		"hash": 1000,
+		"wallpapers": [
+			"https://www.bungie.net/pubassets/pkgs/123/123201/Tower.jpg",
+			"https://www.bungie.net/pubassets/pkgs/123/123201/Verdant_Forest.jpg"
+		],
+		"secondaryWallpapers": [
+			"https://www.bungie.net/pubassets/pkgs/123/123201/EVA.jpg",
+			"https://www.bungie.net/pubassets/pkgs/123/123201/Gear.jpg",
+			"https://www.bungie.net/pubassets/pkgs/123/123201/Eververse_Gear.jpg"
+		]
+	},
+	"1001": {
+		"hash": 1001,
 		"wallpapers": [
 			"https://www.bungie.net/pubassets/pkgs/115/115844/HolidayCard_2016_2000px_1.jpg",
 			"https://www.bungie.net/pubassets/pkgs/115/115844/HolidayCard_2015_2000px.jpg"
@@ -12,16 +24,16 @@
 			"https://www.bungie.net/pubassets/pkgs/115/115844/HolidayCard_2017_front_2000px.jpg"
 		]
 	},
-	"1": {
-		"hash": 1,
+	"1002": {
+		"hash": 1002,
 		"wallpapers": [],
 		"secondaryWallpapers": [
 			"https://www.bungie.net/pubassets/pkgs/120/120418/Crimson_Days_2019_Doubles.jpg",
 			"https://www.bungie.net/pubassets/pkgs/120/120499/Crimson_Days.jpg"
 		]
 	},
-	"2": {
-		"hash": 2,
+	"1003": {
+		"hash": 1003,
 		"wallpapers": [
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/bltf511077fe21f5b27/67c8dd3e5e83f41c30cb9b62/Guardian_Games_2025_Key_Art_Logo_3840x2160.jpg"
 		],
@@ -39,18 +51,21 @@
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/blt87c19fee3a34d47c/67c8dd295108fb5f73361e1b/2025_Guardian_Games_Press_Kit_Gear_Composite_COMPRESSED_004.jpg"
 		]
 	},
-	"3": {
-		"hash": 3,
+	"1004": {
+		"hash": 1004,
 		"wallpapers": [
 			"https://www.bungie.net/pubassets/pkgs/125/125406/Solstice_2019_Statue.jpg",
 			"https://www.bungie.net/pubassets/pkgs/125/125732/SkyIsland.jpg"
 		],
-		"secondaryWallpapers": []
+		"secondaryWallpapers": [
+			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/blt3408a0a759f883c3/688b1814161cd2503a1b51e9/Solstice_2025_16x9_With_Logo_EN.jpg"
+		]
 	},
-	"4": {
-		"hash": 4,
+	"1005": {
+		"hash": 1005,
 		"wallpapers": [
-			"https://www.bungie.net/pubassets/pkgs/128/128951/FOTL_Tower.jpg"
+			"https://www.bungie.net/pubassets/pkgs/128/128951/FOTL_Tower.jpg",
+			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/blt02af39eea9dbb8b9/68f124f698fba77348ee0094/S27_FotL_HeroArt_Logo_1920x1080.jpg"
 		],
 		"secondaryWallpapers": [
 			"https://www.bungie.net/pubassets/pkgs/128/128951/Haunted_Forest.jpg",
@@ -58,8 +73,8 @@
 			"https://www.bungie.net/pubassets/pkgs/129/129317/Player_Shot.jpg"
 		]
 	},
-	"5": {
-		"hash": 5,
+	"2000": {
+		"hash": 2000,
 		"wallpapers": [
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/blt27cf9ade2756426a/61fac8a6bd7acb345ace69f7/game-screenshot-full1.jpg",
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/blt7755794a14f6d330/61fac99213bbb628521ff7eb/super-screenshot-full1.jpg",
@@ -73,8 +88,8 @@
 			"https://www.bungie.net/pubassets/101472/09212017_NM_Fireteam.jpg"
 		]
 	},
-	"6": {
-		"hash": 6,
+	"2001": {
+		"hash": 2001,
 		"wallpapers": [],
 		"secondaryWallpapers": [
 			"https://www.bungie.net/pubassets/107919/12072017_faction_rally_DO_Fireteam.jpg",
@@ -82,15 +97,15 @@
 			"https://www.bungie.net/pubassets/107919/12072017_faction_rally_NM_Fireteam.jpg"
 		]
 	},
-	"7": {
-		"hash": 7,
+	"2002": {
+		"hash": 2002,
 		"wallpapers": [],
 		"secondaryWallpapers": [
 			"https://deepsight.gg/image/jpg/wallpaper/warmind1.jfif"
 		]
 	},
-	"8": {
-		"hash": 8,
+	"2003": {
+		"hash": 2003,
 		"wallpapers": [
 			"https://www.bungie.net/7/ca/destiny/products/forsaken/dungeon-bg.jpg",
 			"https://www.bungie.net/7/ca/destiny/products/forsaken/v2/desktop/raids_lastwish_bg.jpg",
@@ -137,8 +152,8 @@
 			"https://www.bungie.net/7/ca/destiny/products/forsaken/fspk-screenshot-dungeon_full2.jpg"
 		]
 	},
-	"10": {
-		"hash": 10,
+	"2004": {
+		"hash": 2004,
 		"wallpapers": [
 			"https://www.bungie.net/pubassets/pkgs/117/117999/11292018_Raid_Teaser.jpg"
 		],
@@ -147,8 +162,8 @@
 			"https://www.bungie.net/pubassets/pkgs/119/119949/S5_Iron_Banner_1.jpg"
 		]
 	},
-	"11": {
-		"hash": 11,
+	"2005": {
+		"hash": 2005,
 		"wallpapers": [
 			"https://www.bungie.net/pubassets/pkgs/127/127093/Fragment.jpg"
 		],
@@ -157,8 +172,15 @@
 			"https://www.bungie.net/pubassets/pkgs/120/120221/SB.jpg"
 		]
 	},
-	"13": {
-		"hash": 13,
+	"2006": {
+		"hash": 2006,
+		"wallpapers": [
+			"http://downloads.bungie.net/images/Wallpapers/SoO_Chalice_Wallpaper_4k.jpg"
+		],
+		"secondaryWallpapers": []
+	},
+	"2007": {
+		"hash": 2007,
 		"wallpapers": [
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/blt6d270b11c32e10b9/61f8ed53ce30533458032abe/media-screenshot-full1.jpg",
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/blt5b0dd77e9341977b/61f8ed536291fb2853f2f3b5/media-screenshot-full2.jpg",
@@ -178,16 +200,16 @@
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/blt23bac801192722e2/61f8ed07e0b919284700bbbb/raid-screenshot-full1.jpg"
 		]
 	},
-	"14": {
-		"hash": 14,
+	"2008": {
+		"hash": 2008,
 		"wallpapers": [
 			"https://www.bungie.net/7/ca/destiny/bgs/seasons/vex_offensive_bg.jpg",
 			"https://www.bungie.net/7/ca/destiny/bgs/seasons/vex_invasions_bg.jpg"
 		],
 		"secondaryWallpapers": []
 	},
-	"15": {
-		"hash": 15,
+	"2009": {
+		"hash": 2009,
 		"wallpapers": [
 			"https://www.bungie.net/7/ca/destiny/bgs/season_of_dawn/s9_wallpapers_4.png",
 			"https://www.bungie.net/7/ca/destiny/bgs/season_of_dawn/s9_screenshots_1.jpg",
@@ -205,8 +227,8 @@
 			"https://www.bungie.net/7/ca/destiny/bgs/season_of_dawn/s9_screenshot_8.jpg"
 		]
 	},
-	"16": {
-		"hash": 16,
+	"2010": {
+		"hash": 2010,
 		"wallpapers": [
 			"https://www.bungie.net/pubassets/pkgs/134/134339/s10_wallpaper_2.png",
 			"https://www.bungie.net/pubassets/pkgs/134/134328/s10_screenshot_1_1.jpg",
@@ -224,8 +246,8 @@
 			"https://www.bungie.net/pubassets/pkgs/134/134334/s10_screenshot_6.jpg"
 		]
 	},
-	"17": {
-		"hash": 17,
+	"2011": {
+		"hash": 2011,
 		"wallpapers": [
 			"https://www.bungie.net/pubassets/pkgs/136/136207/JB_S11_Story_011.jpg",
 			"https://www.bungie.net/pubassets/pkgs/136/136205/JB_S11_Dungeon_034.jpg",
@@ -243,8 +265,8 @@
 			"https://www.bungie.net/pubassets/pkgs/136/136204/JB_Zavala_Eris_05.jpg"
 		]
 	},
-	"18": {
-		"hash": 18,
+	"2012": {
+		"hash": 2012,
 		"wallpapers": [
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/blt273c0ec261f8c168/61f311d1b647832808dee291/media-wallpaper-full1.jpg",
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/blt0ca4a52619b8ac84/61f311d15874d7278297a83f/media-wallpaper-full2.jpg",
@@ -267,8 +289,8 @@
 			"https://www.bungie.net/pubassets/pkgs/177/177988/buy_overview_3_1080_beyondlight_1.jpg"
 		]
 	},
-	"19": {
-		"hash": 19,
+	"2013": {
+		"hash": 2013,
 		"wallpapers": [
 			"https://www.bungie.net/7/ca/destiny/bgs/season12/media_wallaper_1.jpg",
 			"https://www.bungie.net/7/ca/destiny/bgs/season12/media_wallaper_3.jpg",
@@ -286,8 +308,8 @@
 			"https://www.bungie.net/7/ca/destiny/bgs/season12/hunt_screenshot_3.jpg"
 		]
 	},
-	"20": {
-		"hash": 20,
+	"2014": {
+		"hash": 2014,
 		"wallpapers": [
 			"https://www.bungie.net/pubassets/pkgs/148/148594/media_wallaper_3.jpg",
 			"https://www.bungie.net/pubassets/pkgs/148/148595/media_wallaper_4.jpg",
@@ -305,8 +327,8 @@
 			"https://www.bungie.net/pubassets/pkgs/148/148590/media_screenshot_7.jpg"
 		]
 	},
-	"21": {
-		"hash": 21,
+	"2015": {
+		"hash": 2015,
 		"wallpapers": [
 			"https://www.bungie.net/pubassets/pkgs/150/150600/s14_media_wallpaper_1.jpg",
 			"https://www.bungie.net/pubassets/pkgs/150/150602/s14_media_wallpaper_2.jpg",
@@ -323,8 +345,8 @@
 			"https://www.bungie.net/pubassets/pkgs/150/150587/s14_media_screenshot_7.jpg"
 		]
 	},
-	"22": {
-		"hash": 22,
+	"2016": {
+		"hash": 2016,
 		"wallpapers": [
 			"https://www.bungie.net/pubassets/pkgs/152/152494/s14_media_wallpaper_3.jpg",
 			"https://www.bungie.net/pubassets/pkgs/152/152494/s15_media_screenshot_2.jpg",
@@ -342,8 +364,8 @@
 			"https://www.bungie.net/pubassets/pkgs/152/152494/s15_media_screenshot_8.jpg"
 		]
 	},
-	"23": {
-		"hash": 23,
+	"2017": {
+		"hash": 2017,
 		"wallpapers": [
 			"https://www.bungie.net/pubassets/pkgs/155/155002/media-wallpaper-2_1.jpg",
 			"https://www.bungie.net/pubassets/pkgs/155/155012/media-wallpaper-3.jpg",
@@ -365,8 +387,8 @@
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/bltd879efa2ce017b43/61a8130fc99e0f1175b6a36d/dungeon-screenshot-2.jpg"
 		]
 	},
-	"24": {
-		"hash": 24,
+	"2018": {
+		"hash": 2018,
 		"wallpapers": [
 			"https://www.bungie.net/pubassets/pkgs/152/152451/wq_media_wallpaper_1.jpg",
 			"https://www.bungie.net/pubassets/pkgs/152/152452/wq_media_wallpaper_2.jpg",
@@ -395,8 +417,8 @@
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/bltd2f44a489ffbbe1a/620bf7999d54947c7f1310e9/wq_3_fig_1_1080.jpg"
 		]
 	},
-	"25": {
-		"hash": 25,
+	"2019": {
+		"hash": 2019,
 		"wallpapers": [
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/blt9b64cd875ec49ff6/62141691ff1e566197bb73d2/s16-media-wallpaper-full1.jpg",
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/blt30eab49b11e9248a/621416929e51633aacbae600/s16-media-wallpaper-full2.jpg",
@@ -414,8 +436,8 @@
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/blt015f54530404d6b5/6214158f9e51633aacbae5fc/s16-media-screenshots-full8.jpg"
 		]
 	},
-	"26": {
-		"hash": 26,
+	"2020": {
+		"hash": 2020,
 		"wallpapers": [
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/blta9e9ec504ce05fa0/628baf0330bc9653db3ad316/s17-media-4k-full1.jpg",
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/bltd1cd368cbd19bb2e/628c09140457495358475f1e/s17-media-4k-full6.jpg",
@@ -437,8 +459,8 @@
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/blt9ebb80a9b9dc2544/628c086bce671353d50824c3/s17-media-screenshot8.jpg"
 		]
 	},
-	"27": {
-		"hash": 27,
+	"2021": {
+		"hash": 2021,
 		"wallpapers": [
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/bltc5273d5dc75dfe46/62f135cae71af410b83c0d42/s18-media-wallpaper-full-1.jpg",
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/blt87b5a05be1172a64/62f135ca022e5e700e65e829/s18-media-wallpaper-full-5.jpg",
@@ -460,8 +482,8 @@
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/blt69b567cc14318f5f/62f135ca17133b76c5bd952a/s18-media-screenshot-8.jpg"
 		]
 	},
-	"28": {
-		"hash": 28,
+	"2022": {
+		"hash": 2022,
 		"wallpapers": [
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/bltf20acf1f1af65203/638640527a64f810a2989c4a/s19-media-wallpaper-1.jpg",
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/bltb14550050987a740/63864052e72c60105ee2e108/s19-media-wallpaper-2.jpg",
@@ -483,8 +505,8 @@
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/blta3f76209ee95aac3/638640524005df1070b036dc/s19-media-screenshot-8.jpg"
 		]
 	},
-	"29": {
-		"hash": 29,
+	"2023": {
+		"hash": 2023,
 		"wallpapers": [
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/bltfd59ef77fa3c5cc1/63d01595a5695963fc8be4ef/lfl-media-wallpaper-1-full.jpg",
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/blt918a40751e8310c4/63d451e1e408254c88fbfc66/lfl-media-wallpaper-5-full.jpg",
@@ -529,8 +551,8 @@
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/bltdb21523cd4b47a73/63d9940d6977b36187ca51bc/lfl-gear-img6-1920x1080.jpg"
 		]
 	},
-	"30": {
-		"hash": 30,
+	"2024": {
+		"hash": 2024,
 		"wallpapers": [
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/blte296b34fce1a2a59/63f4e6bb2abe1410912a169f/s20-media-wallpaper-4k-2.jpg",
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/blta72f7e17397d0cd8/63f4e6bb0f1ca0108f12709f/s20-media-wallpaper-4k-3.jpg",
@@ -549,8 +571,8 @@
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/bltcba28fc9f885028b/63f4e6b7acda661aad7de730/s20-media-screenshot-8.jpg"
 		]
 	},
-	"31": {
-		"hash": 31,
+	"2025": {
+		"hash": 2025,
 		"wallpapers": [
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/blt64f91fb48c4f2c44/64665a9b9dc654dfb25649d9/s21-media-wallpaper-full2.jpg",
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/bltf8960dfec16ed0bd/64665a9ce0f34121c057c27f/s21-media-wallpaper-full3.jpg",
@@ -572,8 +594,8 @@
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/bltdb2a8356928f2c8c/64665a9bcae4f14bf265d8f1/s21-media-screenshots-8.jpg"
 		]
 	},
-	"32": {
-		"hash": 32,
+	"2026": {
+		"hash": 2026,
 		"wallpapers": [
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/blt50b29e010eec8a31/64df8c8818fc54763a47f204/s22-media-4k-wallpaper-1.jpg",
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/blte01ffbca53228bca/64df8c8867a9f83187c7884f/s22-media-4k-wallpaper-2.jpg",
@@ -593,8 +615,8 @@
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/blt1f675f9a718a39ed/64df8c8f0349065a43866f30/s22-media-1920x1080-7.jpg"
 		]
 	},
-	"33": {
-		"hash": 33,
+	"2027": {
+		"hash": 2027,
 		"wallpapers": [
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/blt6fe74850f0172cd6/6564c9094c0b9a6e03d53fe2/s23-media-wallpaper-01.jpg",
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/blt09fbcbe80462ad44/6564c90904116dc0f92a0601/s23-media-wallpaper-02.jpg",
@@ -616,8 +638,8 @@
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/blt6b18acc9ebe0ffec/6564c8bcac4c41d04994c8f4/s23-media-screenshot-08.jpg"
 		]
 	},
-	"34": {
-		"hash": 34,
+	"2028": {
+		"hash": 2028,
 		"wallpapers": [
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/blt0c61b124954ae4a8/660da10dc095f8288dc6797b/TP_2024_Into_The_Light_Press_Kit_Onslaught_Midtown_13_c.jpg",
 			"https://deepsight.gg/image/jpg/wallpaper/itl1.jfif",
@@ -642,8 +664,8 @@
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/bltbd90cd4a41e78c8b/660e2374df43aa642cf12caa/low_d2_NewLightSkip_Community_Wallpapers_3840x2160_ALL.jpg"
 		]
 	},
-	"35": {
-		"hash": 35,
+	"2029": {
+		"hash": 2029,
 		"wallpapers": [
 			"https://www.destinythegame.com/content/dam/destiny/tfs/media/screenshots/tfs-media-shot-1.jpg",
 			"https://www.destinythegame.com/content/dam/destiny/tfs/media/screenshots/tfs-media-shot-2.jpg",
@@ -669,8 +691,8 @@
 			"https://www.destinythegame.com/content/dam/destiny/tfs/weapons-gear/tfs-wng-05-da.jpg"
 		]
 	},
-	"36": {
-		"hash": 36,
+	"2030": {
+		"hash": 2030,
 		"wallpapers": [
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/bltb590050df9ccc6e2/668673f1a4dbae15bb4d920b/D2_TFS_Social_Wallpapers_Echoes_4K.jpg",
 			"https://www.destinythegame.com/content/dam/destiny/echoes/2-acts/echoes-new-stories.jpg",
@@ -698,8 +720,8 @@
 			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/blt44bf70bb8fafadbc/66fd188911f4cc2b40a25514/d2_strike_heroic_03.jpg"
 		]
 	},
-	"37": {
-		"hash": 37,
+	"2031": {
+		"hash": 2031,
 		"wallpapers": [
 			"https://deepsight.gg/image/jpg/wallpaper/revenant.jpg",
 			"https://deepsight.gg/image/jpg/wallpaper/vh.jpg",
@@ -716,8 +738,8 @@
 			"https://www.destinythegame.com/content/dam/destiny/revenant/EP2_Revenant_Slayer_Baron_Lineup_WJ_01_A_Websafe.jpg"
 		]
 	},
-	"38": {
-		"hash": 38,
+	"2032": {
+		"hash": 2032,
 		"wallpapers": [
 			"https://www.destinythegame.com/content/dam/destiny/heresy/Heresy_Act_1_Feature_1_1920x1080.jpg",
 			"https://www.destinythegame.com/content/dam/destiny/heresy/Ep3_Key_Art_FLAT_Gradient_16-9.jpg",
@@ -733,31 +755,60 @@
 			"https://www.destinythegame.com/content/dam/destiny/heresy/Act2_Feature_03_1920x1080.jpg"
 		]
 	},
-	"40": {
-		"hash": 40,
+	"2033": {
+		"hash": 2033,
+		"wallpapers": [],
+		"secondaryWallpapers": [
+			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/blt0feaf21fd6b6461f/68498806504226d07f2caa5c/Prophecy_Darkblade_Fighting_01.jpg"
+		]
+	},
+	"2034": {
+		"hash": 2034,
 		"wallpapers": [
 			"https://www.destinythegame.com/content/dam/destiny/year-of-prophecy/wallpapers/2025_Apollo_Reveal_Gear_LARGE_02.jpg",
 			"https://www.destinythegame.com/content/dam/destiny/year-of-prophecy/wallpapers/Edge-of-Fate_Standard_Key_Art_3840x2160_Wallpaper.jpg",
 			"https://www.destinythegame.com/content/dam/destiny/year-of-prophecy/screenshots/2025_Apollo_Reveal_Location_COMPRESSED_02.jpg",
 			"https://www.destinythegame.com/content/dam/destiny/year-of-prophecy/screenshots/2025_Apollo_Reveal_Location_COMPRESSED_04.jpg",
 			"https://www.destinythegame.com/content/dam/destiny/year-of-prophecy/screenshots/2025_Apollo_Reveal_Location_COMPRESSED_10.jpg",
-			"https://www.destinythegame.com/content/dam/destiny/year-of-prophecy/screenshots/2025_Apollo_Reveal_Location_COMPRESSED_11.jpg"
+			"https://www.destinythegame.com/content/dam/destiny/year-of-prophecy/screenshots/2025_Apollo_Reveal_Location_COMPRESSED_11.jpg",
+			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/blt5063ad7bd9a62e76/686f6f58738f485856934af8/2025_Apollo_Reveal_Location_COMPRESSED_03.jpg",
+			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/blta98a4e4f5266123e/6878f0ddbbc2d8c4afb288d2/Apollo_Desert_Perpetual_Raid_3840x2160_EMBARGO_JULY_19.jpg"
 		],
 		"secondaryWallpapers": [
 			"https://www.destinythegame.com/content/dam/destiny/year-of-prophecy/screenshots/2025_Apollo_Reveal_Gear_COMPRESSED_05.jpg",
 			"https://www.destinythegame.com/content/dam/destiny/year-of-prophecy/screenshots/2025_Apollo_Reveal_Press_Kit_Enemy_COMPRESSED_01.jpg"
 		]
 	},
-	"-1": {
-		"hash": -1,
+	"2035": {
+		"hash": 2035,
 		"wallpapers": [
-			"https://www.bungie.net/pubassets/pkgs/123/123201/Tower.jpg",
-			"https://www.bungie.net/pubassets/pkgs/123/123201/Verdant_Forest.jpg"
+			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/bltb7eccce1db920b6c/68bf1011ea30983beeec2baa/2025_Ash_&_Iron_Press_Kit_Activity_COMPRESSED_06.jpg"
+		],
+		"secondaryWallpapers": []
+	},
+	"2036": {
+		"hash": 2036,
+		"wallpapers": [
+			"https://www.destinythegame.com/content/dam/destiny/year-of-prophecy/wallpapers/renegades-wallpapers/D2_Behemoth_Key_Art_16-9_Center.jpg",
+			"https://www.destinythegame.com/content/dam/destiny/year-of-prophecy/wallpapers/renegades-wallpapers/2025_Behemoth_Reveal_Press_Kit_Gear_COMPRESSED_01.jpg",
+			"https://www.destinythegame.com/content/dam/destiny/year-of-prophecy/behemoth/feature-section/2025_Behemoth_Reveal_Press_Kit_Mission_COMPRESSED_05.jpg",
+			"https://www.destinythegame.com/content/dam/destiny/year-of-prophecy/behemoth/feature-section/2025_Behemoth_Reveal_Press_Kit_Mission_COMPRESSED_06.jpg",
+			"https://www.destinythegame.com/content/dam/destiny/year-of-prophecy/behemoth/feature-section/2025_Behemoth_Reveal_Press_Kit_Mission_COMPRESSED_01.jpg",
+			"https://www.destinythegame.com/content/dam/destiny/year-of-prophecy/screenshots/renegades/2025_Behemoth_Reveal_Press_Kit_Mission_COMPRESSED_09.jpg",
+			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/blt5f5e15da6296abda/6926c39f36d194e2f37fe93e/2025_Behemoth_Reveal_Press_Kit_Gear_COMPRESSED_03.jpg"
 		],
 		"secondaryWallpapers": [
-			"https://www.bungie.net/pubassets/pkgs/123/123201/EVA.jpg",
-			"https://www.bungie.net/pubassets/pkgs/123/123201/Gear.jpg",
-			"https://www.bungie.net/pubassets/pkgs/123/123201/Eververse_Gear.jpg"
+			"https://www.destinythegame.com/content/dam/destiny/year-of-prophecy/screenshots/renegades/2025_Behemoth_Reveal_Press_Kit_Mission_COMPRESSED_13.jpg",
+			"https://www.destinythegame.com/content/dam/destiny/year-of-prophecy/screenshots/renegades/2025_Behemoth_Reveal_Press_Kit_Mission_COMPRESSED_11.jpg",
+			"https://www.destinythegame.com/content/dam/destiny/year-of-prophecy/screenshots/renegades/2025_Behemoth_Reveal_Press_Kit_Mission_COMPRESSED_08.jpg",
+			"https://www.destinythegame.com/content/dam/destiny/year-of-prophecy/screenshots/renegades/2025_Behemoth_Reveal_Press_Kit_Mission_COMPRESSED_07.jpg",
+			"https://www.destinythegame.com/content/dam/destiny/year-of-prophecy/screenshots/renegades/2025_Behemoth_Reveal_Press_Kit_Mission_COMPRESSED_03.jpg",
+			"https://www.destinythegame.com/content/dam/destiny/year-of-prophecy/screenshots/renegades/2025_Behemoth_Reveal_Press_Kit_Mission_COMPRESSED_02.jpg",
+			"https://www.destinythegame.com/content/dam/destiny/year-of-prophecy/screenshots/renegades/2025_Behemoth_Reveal_Press_Kit_Mission_COMPRESSED_04.jpg",
+			"https://www.destinythegame.com/content/dam/destiny/year-of-prophecy/screenshots/renegades/2025_Behemoth_Reveal_Press_Kit_Mission_COMPRESSED_10.jpg",
+			"https://www.destinythegame.com/content/dam/destiny/year-of-prophecy/screenshots/renegades/2025_Behemoth_Reveal_Press_Kit_Mission_COMPRESSED_14.jpg",
+			"https://www.destinythegame.com/content/dam/destiny/year-of-prophecy/screenshots/renegades/2025_Behemoth_Reveal_Press_Kit_Mission_COMPRESSED_12.jpg",
+			"https://images.contentstack.io/v3/assets/blte410e3b15535c144/bltffebb18b28e9e425/6926c16d645809539f2a08b7/v950_LegendaryDestinationWeapons_1920x1080.jpg"
 		]
 	}
 }

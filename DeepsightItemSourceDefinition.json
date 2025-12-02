@@ -199,5 +199,15 @@
 			"icon": "/common/destiny2_content/icons/DestinyEventCardDefinition_1a1e3f8074c98241af80f4bee77084c3.png",
 			"description": ""
 		}
+	},
+	"20": {
+		"hash": 20,
+		"category": 2,
+		"event": 4023942872,
+		"displayProperties": {
+			"name": "Call to Arms",
+			"icon": "/common/destiny2_content/icons/DestinyEventCardDefinition_aa23778b4fa231f096456ebaaf8738ea.png",
+			"description": ""
+		}
 	}
 }

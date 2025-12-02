@@ -67581,6 +67581,7 @@ export declare const enum MomentHashes {
 	RiteOfTheNine = 2033,
 	EdgeOfFate = 2034,
 	SeasonReclamation = 2035,
+	Renegades = 2036,
 }
 /*
  * Unnameable components:

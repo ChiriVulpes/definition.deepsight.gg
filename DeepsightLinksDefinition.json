@@ -5092,6 +5092,10 @@
 				{
 					"name": "FestivalOfTheLost",
 					"value": 19
+				},
+				{
+					"name": "CallToArmsEvent",
+					"value": 20
 				}
 			]
 		},
