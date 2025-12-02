@@ -73,11 +73,13 @@ namespace DeepsightPlugCategorisation {
 			case PlugCategoryHashes.V900weaponModConfetti:
 			case PlugCategoryHashes.WeaponTieringKillVfx:
 			case PlugCategoryHashes.WeaponTieringTier5Skins:
+			case PlugCategoryHashes.V950NewSword0Skins:
+			case PlugCategoryHashes.V950NewSword0Cosmetics:
 				return DeepsightPlugCategory.Cosmetic
 
 			case PlugCategoryHashes.PlugsGhostsMasterworks:
 			case PlugCategoryHashes.CraftingPlugsWeaponsModsTransfusersLevel:
-			case PlugCategoryHashes.EventsDawningTurnkeyOvenNotMasterworked:
+			case PlugCategoryHashes.EventsDawningItV950OvenNotMasterworked:
 			case PlugCategoryHashes.EventsDawningOvenMasterworked:
 			case PlugCategoryHashes.V400PlugsWeaponsMasterworks:
 			case PlugCategoryHashes.V700WeaponsModsMissionAvalon:
@@ -85,15 +87,16 @@ namespace DeepsightPlugCategorisation {
 			case PlugCategoryHashes.V400EmptyExoticMasterwork:
 			case PlugCategoryHashes.CraftingPlugsWeaponsModsEnhancers:
 			case PlugCategoryHashes.V460PlugsArmorMasterworks:
+			case PlugCategoryHashes.V950NewSword0Masterwork:
 				return DeepsightPlugCategory.Masterwork
 
-			case PlugCategoryHashes.EventsDawningTurnkeyRecipe:
-			case PlugCategoryHashes.EventsDawningTurnkeyNoRecipe:
-			case PlugCategoryHashes.EventsDawningTurnkeyIngredientA:
-			case PlugCategoryHashes.EventsDawningTurnkeyIngredientB:
-			case PlugCategoryHashes.EventsDawningTurnkeyOvenCombine:
-			case PlugCategoryHashes.EventsDawningTurnkeyOvenEmpty:
-			case PlugCategoryHashes.EventsDawningTurnkeyOvenEmptyCombination:
+			case PlugCategoryHashes.EventsDawningItV950Recipe:
+			case PlugCategoryHashes.EventsDawningItV950NoRecipe:
+			case PlugCategoryHashes.EventsDawningItV950IngredientA:
+			case PlugCategoryHashes.EventsDawningItV950IngredientB:
+			case PlugCategoryHashes.EventsDawningItV950OvenEmpty:
+			case PlugCategoryHashes.EventsDawningItV950OvenCombine:
+			case PlugCategoryHashes.EventsDawningItV950OvenEmptyCombination:
 				return DeepsightPlugCategory.Vendor
 
 			case PlugCategoryHashes.EnhancementsGhostsActivity:
@@ -109,6 +112,9 @@ namespace DeepsightPlugCategorisation {
 			case PlugCategoryHashes.V400WeaponModMagazine:
 			case PlugCategoryHashes.V900WeaponModMagAdjusting:
 			case PlugCategoryHashes.CoreGearSystemsEventGearItemSetsSelectors:
+			case PlugCategoryHashes.V950NewSword0StatUpgrades:
+			case PlugCategoryHashes.V950NewSword0Forms:
+			case PlugCategoryHashes.V950NewSword0PerkUpgrades:
 				return DeepsightPlugCategory.Mod
 
 			case PlugCategoryHashes.SocialClansPerks:
@@ -131,6 +137,8 @@ namespace DeepsightPlugCategorisation {
 			case PlugCategoryHashes.CraftingRecipesEmptySocket:
 			case PlugCategoryHashes.EmblemPerk:
 			case PlugCategoryHashes.RandomPerk:
+			case PlugCategoryHashes.V950NewSword0Guards:
+			case PlugCategoryHashes.V950NewSword0Blades:
 				return DeepsightPlugCategory.Perk
 
 			case PlugCategoryHashes.StatusEffectTooltip:
@@ -256,6 +264,9 @@ namespace DeepsightPlugCategorisation {
 		if (!context.definition.displayProperties?.name && (context.definition.plug?.plugCategoryHash === PlugCategoryHashes.Frames || context.definition.plug?.plugCategoryHash === PlugCategoryHashes.EnhancementsUniversal))
 			return DeepsightPlugCategory.Unknown
 
+		if (context.definition.itemTypeDisplayName.includes('Weapon Mod') && context.definition.tooltipNotifications.some(notif => notif.displayStyle === 'ui_display_style_yearly_expiration') && context.definition.plug?.plugCategoryHash === PlugCategoryHashes.Deprecated)
+			return DeepsightPlugCategory.Mod
+
 		return -1
 	}
 
@@ -280,7 +291,7 @@ namespace DeepsightPlugCategorisation {
 			switch (context.definition.plug?.plugCategoryHash) {
 				case PlugCategoryHashes.CraftingPlugsWeaponsModsTransfusersLevel:
 					return DeepsightPlugTypeMasterwork.ShapedWeapon
-				case PlugCategoryHashes.EventsDawningTurnkeyOvenNotMasterworked:
+				case PlugCategoryHashes.EventsDawningItV950OvenNotMasterworked:
 				case PlugCategoryHashes.EventsDawningOvenMasterworked:
 					return DeepsightPlugTypeMasterwork.HolidayOven
 				case PlugCategoryHashes.V700WeaponsModsMissionAvalon:
@@ -328,13 +339,13 @@ namespace DeepsightPlugCategorisation {
 		},
 		[DeepsightPlugCategory.Vendor]: context => {
 			switch (context.definition.plug?.plugCategoryHash) {
-				case PlugCategoryHashes.EventsDawningTurnkeyRecipe:
-				case PlugCategoryHashes.EventsDawningTurnkeyNoRecipe:
-				case PlugCategoryHashes.EventsDawningTurnkeyIngredientA:
-				case PlugCategoryHashes.EventsDawningTurnkeyIngredientB:
-				case PlugCategoryHashes.EventsDawningTurnkeyOvenCombine:
-				case PlugCategoryHashes.EventsDawningTurnkeyOvenEmpty:
-				case PlugCategoryHashes.EventsDawningTurnkeyOvenEmptyCombination:
+				case PlugCategoryHashes.EventsDawningItV950Recipe:
+				case PlugCategoryHashes.EventsDawningItV950NoRecipe:
+				case PlugCategoryHashes.EventsDawningItV950IngredientA:
+				case PlugCategoryHashes.EventsDawningItV950IngredientB:
+				case PlugCategoryHashes.EventsDawningItV950OvenCombine:
+				case PlugCategoryHashes.EventsDawningItV950OvenEmpty:
+				case PlugCategoryHashes.EventsDawningItV950OvenEmptyCombination:
 					return DeepsightPlugTypeVendor.HolidayOven
 			}
 		},
@@ -531,6 +542,13 @@ namespace DeepsightPlugCategorisation {
 							? DeepsightPlugTypeMod.ArmorItemSetEmpty
 							: DeepsightPlugTypeMod.ArmorItemSet
 
+					case PlugCategoryHashes.V950NewSword0StatUpgrades:
+						return DeepsightPlugTypeMod.PraxicStatUpgrade
+					case PlugCategoryHashes.V950NewSword0Forms:
+						return DeepsightPlugTypeMod.PraxicForm
+					case PlugCategoryHashes.V950NewSword0PerkUpgrades:
+						return DeepsightPlugTypeMod.PraxicCore
+
 					// case PlugCategoryHashes.V400WeaponModDamage:
 					// case PlugCategoryHashes.V400WeaponModGuns:
 					// case PlugCategoryHashes.V460WeaponModSword:
@@ -610,6 +628,9 @@ namespace DeepsightPlugCategorisation {
 				}
 			}
 
+			if (context.definition.tooltipNotifications.some(notif => notif.displayStyle === 'ui_display_style_yearly_expiration') && context.definition.plug?.plugCategoryHash === PlugCategoryHashes.Deprecated)
+				return DeepsightPlugTypeMod.Deprecated
+
 			return plugType
 		},
 		[DeepsightPlugCategory.Perk]: context => {
@@ -672,6 +693,10 @@ namespace DeepsightPlugCategorisation {
 					return DeepsightPlugTypePerk.EmblemAura
 				case PlugCategoryHashes.RandomPerk:
 					return DeepsightPlugTypePerk.Random
+				case PlugCategoryHashes.V950NewSword0Guards:
+					return DeepsightPlugTypePerk.PraxicGuard
+				case PlugCategoryHashes.V950NewSword0Blades:
+					return DeepsightPlugTypePerk.PraxicTang
 			}
 
 			switch (context.definition.itemTypeDisplayName) {
@@ -752,6 +777,8 @@ namespace DeepsightPlugCategorisation {
 					case PlugCategoryHashes.V900weaponModConfetti:
 					case PlugCategoryHashes.WeaponTieringKillVfx:
 						return DeepsightPlugTypeCosmetic.WeaponEffects
+					case PlugCategoryHashes.V950NewSword0Cosmetics:
+						return DeepsightPlugTypeCosmetic.PraxicDarkMatterCrystal
 				}
 
 				for (const traitHash of context.definition.traitHashes ?? []) {
@@ -994,13 +1021,16 @@ namespace DeepsightPlugCategorisation {
 
 		if (uncategorised.length) {
 			const message = `Some plugs were not categorised:\n- ${uncategorised
-				.map(context =>
-					[
-						context.definition.hash,
-						context.definition.displayProperties?.name ?? '???',
-						context.definition.plug?.plugCategoryIdentifier ?? 'no plug cat id',
-					]
-						.join(' / '))
+				.map(context => `${([
+					context.definition.hash,
+					context.definition.displayProperties?.name ?? '???',
+					context.definition.plug?.plugCategoryIdentifier ?? 'no plug cat id',
+				]
+					.join(' / ')
+				)} -- ${(determinePlugCategory(context) === -1
+					? 'no category'
+					: `category: ${DeepsightPlugCategory[determinePlugCategory(context)]}, no type`
+				)}`)
 				.join('\n- ')}`
 
 			if (Env.DEEPSIGHT_ENVIRONMENT === 'dev')

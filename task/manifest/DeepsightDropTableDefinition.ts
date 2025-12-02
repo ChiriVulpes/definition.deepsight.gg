@@ -353,7 +353,7 @@ export default Task('DeepsightDropTableDefinition', async () => {
 					availability: 'rotator',
 					displayProperties: {
 						...displayProperties,
-						icon: await DestinyManifestReference.resolve({ DestinyRecordDefinition: RecordHashes.BonusFocus_RewardItems0Quantity1 }, 'icon'),
+						icon: await DestinyManifestReference.resolve({ DestinyRecordDefinition: RecordHashes.ThisOrderlyConduct_RewardItems0Quantity1 }, 'icon'),
 					},
 					dropTable: {
 						[bonusFocus.itemQuantity.itemHash]: {},

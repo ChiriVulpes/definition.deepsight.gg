@@ -551,7 +551,7 @@ const DeepsightMomentDefinitionData: Record<keyof typeof MomentHashes, Deepsight
 		displayProperties: {
 			name: { DestinyActivityDefinition: ActivityHashes.Lightfall },
 			description: { DestinyInventoryItemDefinition: InventoryItemHashes.Destiny2LightfallDummy },
-			icon: { DestinyInventoryItemDefinition: { hash: InventoryItemHashes.LightfallQuestStep_Step1_StatsObjectLength4, iconSequence: 0, frame: 2 } },
+			icon: { DestinyInventoryItemDefinition: { hash: InventoryItemHashes.LegacyLightfallQuestStep_Step0_StatsUndefined, iconSequence: 0, frame: 2 } },
 		},
 		iconWatermark: { DestinyInventoryItemDefinition: InventoryItemHashes.ScintillantTrajectoryShaderPlug },
 		primaryImage: { DestinyActivityDefinition: { hash: ActivityHashes.OnTheVergeNormal, property: 'pgcrImage' } },
@@ -653,7 +653,7 @@ const DeepsightMomentDefinitionData: Record<keyof typeof MomentHashes, Deepsight
 		displayProperties: {
 			name: { DestinyActivityDefinition: ActivityHashes.TheFinalShape },
 			description: { DestinyActivityDefinition: ActivityHashes.TheFinalShape },
-			icon: { DestinyInventoryItemDefinition: { hash: InventoryItemHashes.TheFinalShapeQuestStep_Step0_SetDataSetIsFeaturedfalse, iconSequence: 0, frame: 1 } },
+			icon: { DestinyInventoryItemDefinition: { hash: InventoryItemHashes.LegacyTheFinalShapeQuestStep_Step0_SetDataSetIsFeaturedfalse, iconSequence: 0, frame: 2 } },
 		},
 		iconWatermark: { DestinyInventoryItemDefinition: InventoryItemHashes.ErgoSumSword },
 		primaryImage: { DestinyActivityDefinition: { hash: ActivityHashes.DissentNormal, property: 'pgcrImage' } },
@@ -784,13 +784,32 @@ const DeepsightMomentDefinitionData: Record<keyof typeof MomentHashes, Deepsight
 		season: 27,
 		year: 8,
 		seasonHash: SeasonHashes.SeasonReclamation,
-		// event: 1809960056 as EventCardHashes, // i bet this will change at the next season, so it's not useful to link it
+		images: [
+			{ DestinyActivityDefinition: { hash: ActivityHashes.Reclaim, property: 'pgcrImage' } },
+		],
 	},
 	Renegades: {
 		id: 'renegades',
-		iconWatermark: {},
+		displayProperties: {
+			name: { DestinyActivityDefinition: ActivityHashes.Renegades_PlaceHash3747705955 },
+			description: { DestinyActivityDefinition: ActivityHashes.Renegades_PlaceHash3747705955 },
+			icon: { DestinyInventoryItemDefinition: { hash: InventoryItemHashes.RenegadesQuestStep_Step0_ActionUndefined, iconSequence: 0, frame: 2 } },
+		},
+		iconWatermark: { DestinyInventoryItemDefinition: InventoryItemHashes.PraxicBladeSword },
 		year: 8,
 		expansion: true,
+		images: [
+			{ DestinyActivityDefinition: { hash: ActivityHashes.ForgingMatrixEuropaBountyHuntMatchmade1117678871, property: 'pgcrImage' } },
+			{ DestinyActivityDefinition: { hash: ActivityHashes.ArtesiaMonsVenusBountyHuntMatchmade2207759939, property: 'pgcrImage' } },
+			{ DestinyActivityDefinition: { hash: ActivityHashes.FreeholdOutskirtsMarsBountyHuntMatchmade1196609279, property: 'pgcrImage' } },
+		],
+	},
+	SeasonLawless: {
+		id: 'lawless',
+		iconWatermark: { DestinyInventoryItemDefinition: InventoryItemHashes.FerropotentCoverHelmetPlug },
+		year: 8,
+		season: 28,
+		seasonHash: SeasonHashes.Season28Lawless_SeasonNumber28,
 	},
 }
 

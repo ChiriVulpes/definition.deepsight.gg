@@ -135,7 +135,7 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 		[DeepsightItemSourceType.ArmsWeekEvent]: await getVendorCategories(VendorHashes.TowerShootingRangeAda, VendorHashes.DistortedArmsWeekEngram1034573018).then(getVendorCategoryItems),
 		[DeepsightItemSourceType.SolsticeEvent]: await getVendorCategories(VendorHashes.DistortedSolsticeEngram2110607183).then(getVendorCategoryItems),
 		[DeepsightItemSourceType.Kepler]: await getVendorCategories(VendorHashes.FocusedDecoding3550596112).then(getVendorCategoryItems),
-		[DeepsightItemSourceType.HeavyMetalEvent]: await getVendorCategories(VendorHashes.HeavyMetalEngram2880054250).then(getVendorCategoryItems),
+		[DeepsightItemSourceType.HeavyMetalEvent]: await getVendorCategories(VendorHashes.HeavyMetalEngram1814426467).then(getVendorCategoryItems),
 		[DeepsightItemSourceType.NewTerritoriesReclaimEvent]: await getVendorCategories(VendorHashes.NewTerritoriesReclaimWeaponEngram536789678).then(getVendorCategoryItems),
 		[DeepsightItemSourceType.IronBannerEvent]: await getVendorCategories(VendorHashes.IronBannerEngram610661400).then(getVendorCategoryItems),
 		[DeepsightItemSourceType.ValusSaladinLegacyGear]: await getVendorCategories(VendorHashes.IronBannerEngramFocusingLegacy).then(getVendorCategoryItems),

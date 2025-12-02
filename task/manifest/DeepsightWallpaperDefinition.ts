@@ -825,6 +825,11 @@ export default Task('DeepsightWallpaperDefinition', async () => {
 				'https://images.contentstack.io/v3/assets/blte410e3b15535c144/bltffebb18b28e9e425/6926c16d645809539f2a08b7/v950_LegendaryDestinationWeapons_1920x1080.jpg',
 			],
 		},
+		[MomentHashes.SeasonLawless]: {
+			hash: MomentHashes.SeasonLawless,
+			wallpapers: [],
+			secondaryWallpapers: [],
+		},
 	}
 
 	// clear empties
