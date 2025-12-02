@@ -786,6 +786,12 @@ const DeepsightMomentDefinitionData: Record<keyof typeof MomentHashes, Deepsight
 		seasonHash: SeasonHashes.SeasonReclamation,
 		// event: 1809960056 as EventCardHashes, // i bet this will change at the next season, so it's not useful to link it
 	},
+	Renegades: {
+		id: 'renegades',
+		iconWatermark: {},
+		year: 8,
+		expansion: true,
+	},
 }
 
 //#endregion
