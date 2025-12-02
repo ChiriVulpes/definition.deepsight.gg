@@ -84,7 +84,8 @@ export default Task('bump_versions', async () => {
 
 		bumpMap[basename] = true
 		versions[basename] = (versions[basename] ?? DEFAULT_VERSION) + 1
-		Log.info(`Bumped ${ansi.lightGreen(basename)} version to ${ansi.lightYellow(versions[basename].toString(36).toUpperCase())}`)
+		const newVersionString = Env.DEEPSIGHT_ENVIRONMENT === 'dev' ? versions[basename].toString(36).toUpperCase() : `${versions[basename]}`
+		Log.info(`Bumped ${ansi.lightGreen(basename)} version to ${ansi.lightYellow(newVersionString)}`)
 		bumped = true
 	}
 
