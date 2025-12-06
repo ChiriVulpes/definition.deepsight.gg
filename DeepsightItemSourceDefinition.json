@@ -151,16 +151,6 @@
 	"15": {
 		"hash": 15,
 		"category": 2,
-		"event": 1386309626,
-		"displayProperties": {
-			"name": "New Territories: Reclaim",
-			"icon": "/common/destiny2_content/icons/DestinyEventCardDefinition_2d6d2d0032c2f4ef2f3fce99c76a0ddc.png",
-			"description": ""
-		}
-	},
-	"16": {
-		"hash": 16,
-		"category": 2,
 		"event": 3319172235,
 		"displayProperties": {
 			"name": "Iron Banner",
@@ -168,8 +158,8 @@
 			"description": ""
 		}
 	},
-	"17": {
-		"hash": 17,
+	"16": {
+		"hash": 16,
 		"category": 0,
 		"rotates": true,
 		"displayProperties": {
@@ -179,8 +169,8 @@
 			"icon": "/common/destiny2_content/icons/0c4e426abcae67819183ec3ce6d2a68c.png"
 		}
 	},
-	"18": {
-		"hash": 18,
+	"17": {
+		"hash": 17,
 		"category": 0,
 		"event": 3319172235,
 		"displayProperties": {
@@ -190,8 +180,8 @@
 			"icon": "/common/destiny2_content/icons/e21e97ef6c0343c611a46b77f8b9937c.png"
 		}
 	},
-	"19": {
-		"hash": 19,
+	"18": {
+		"hash": 18,
 		"category": 2,
 		"event": 3265920761,
 		"displayProperties": {
@@ -200,13 +190,43 @@
 			"description": ""
 		}
 	},
-	"20": {
-		"hash": 20,
+	"19": {
+		"hash": 19,
 		"category": 2,
 		"event": 4023942872,
 		"displayProperties": {
 			"name": "Call to Arms",
 			"icon": "/common/destiny2_content/icons/DestinyEventCardDefinition_aa23778b4fa231f096456ebaaf8738ea.png",
+			"description": ""
+		}
+	},
+	"20": {
+		"hash": 20,
+		"category": 3,
+		"displayProperties": {
+			"name": "Lawless Frontier",
+			"subtitle": "Renegades",
+			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7ea033d5203044ba378c14100c646e11.png",
+			"description": ""
+		}
+	},
+	"21": {
+		"hash": 21,
+		"category": 5,
+		"displayProperties": {
+			"name": "Renegades",
+			"subtitle": "Campaign",
+			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7ea033d5203044ba378c14100c646e11.png",
+			"description": ""
+		}
+	},
+	"22": {
+		"hash": 22,
+		"category": 5,
+		"displayProperties": {
+			"name": "The Edge of Fate",
+			"subtitle": "Campaign",
+			"icon": "/common/destiny2_content/icons/c197d7085c39c4bc2385f2cdb0dbb65d.png",
 			"description": ""
 		}
 	}

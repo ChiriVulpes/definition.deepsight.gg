@@ -5082,28 +5082,36 @@
 					"value": 14
 				},
 				{
-					"name": "NewTerritoriesReclaimEvent",
+					"name": "IronBannerEvent",
 					"value": 15
 				},
 				{
-					"name": "IronBannerEvent",
+					"name": "XurStrangeGear",
 					"value": 16
 				},
 				{
-					"name": "XurStrangeGear",
+					"name": "ValusSaladinLegacyGear",
 					"value": 17
 				},
 				{
-					"name": "ValusSaladinLegacyGear",
+					"name": "FestivalOfTheLost",
 					"value": 18
 				},
 				{
-					"name": "FestivalOfTheLost",
+					"name": "CallToArmsEvent",
 					"value": 19
 				},
 				{
-					"name": "CallToArmsEvent",
+					"name": "LawlessFrontier",
 					"value": 20
+				},
+				{
+					"name": "Renegades",
+					"value": 21
+				},
+				{
+					"name": "TheEdgeOfFate",
+					"value": 22
 				}
 			]
 		},
@@ -5129,6 +5137,10 @@
 				{
 					"name": "EventVendor",
 					"value": 4
+				},
+				{
+					"name": "Campaign",
+					"value": 5
 				}
 			]
 		},
