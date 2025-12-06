@@ -561,12 +561,14 @@ export declare const enum DeepsightItemSourceType {
 	SolsticeEvent,
 	Kepler,
 	HeavyMetalEvent,
-	NewTerritoriesReclaimEvent,
 	IronBannerEvent,
 	XurStrangeGear,
 	ValusSaladinLegacyGear,
 	FestivalOfTheLost,
 	CallToArmsEvent,
+	LawlessFrontier,
+	Renegades,
+	TheEdgeOfFate,
 }
 
 export declare const enum DeepsightItemSourceCategory {
@@ -575,6 +577,7 @@ export declare const enum DeepsightItemSourceCategory {
 	EventReward,
 	Destination,
 	EventVendor,
+	Campaign,
 }
 
 export declare interface DeepsightItemSourceListDefinition {

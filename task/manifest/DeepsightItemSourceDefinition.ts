@@ -1,21 +1,22 @@
 import type { ActivityGraphHashes } from '@deepsight.gg/Enums'
-import { ActivityHashes, ActivityModeHashes, EventCardHashes, FireteamFinderActivityGraphHashes, PresentationNodeHashes, VendorHashes } from '@deepsight.gg/Enums'
+import { ActivityHashes, ActivityModeHashes, EventCardHashes, FireteamFinderActivityGraphHashes, InventoryItemHashes, ItemCategoryHashes, ItemTierTypeHashes, MomentHashes, PresentationNodeHashes, VendorHashes } from '@deepsight.gg/Enums'
 import type { DeepsightItemSourceDefinition } from '@deepsight.gg/Interfaces'
 import { DeepsightItemSourceCategory, DeepsightItemSourceType, type DeepsightItemSourceListDefinition } from '@deepsight.gg/Interfaces'
-import type { DestinyActivityDefinition, DestinyDisplayCategoryDefinition } from 'bungie-api-ts/destiny2/interfaces'
+import type { DestinyActivityDefinition, DestinyDisplayCategoryDefinition, DestinyVendorDefinition } from 'bungie-api-ts/destiny2/interfaces'
 import fs from 'fs-extra'
 import { Task } from 'task'
 import { getDeepsightCollectionsDefinition } from './DeepsightCollectionsDefinition'
+import { getDeepsightMomentDefinition } from './DeepsightMomentDefinition'
 import DestinyManifestReference from './DestinyManifestReference'
 import manifest from './utility/endpoint/DestinyManifest'
 
 type VendorCategoryTuple = readonly [DestinyDisplayCategoryDefinition, number[]]
 
-async function getVendorCategories (...vendorHashes: VendorHashes[]) {
+async function getVendorCategories (...vendorHashes: (VendorHashes | DestinyVendorDefinition | undefined | (VendorHashes | DestinyVendorDefinition | undefined)[])[]) {
 	const result: VendorCategoryTuple[] = []
 	const { DestinyVendorDefinition } = manifest
-	for (const vendorHash of vendorHashes) {
-		const vendor = await DestinyVendorDefinition.get(vendorHash)
+	for (let vendor of vendorHashes.flat()) {
+		vendor = typeof vendor === 'number' ? (await DestinyVendorDefinition.get(vendor)) : vendor
 		if (!vendor)
 			continue
 
@@ -109,12 +110,90 @@ async function getCollectionsItemMap () {
 	})()
 }
 
-const ACTIVITY_GRAPH_HASH_SOLO_OPS = 1733518967 as ActivityGraphHashes
-const ACTIVITY_GRAPH_HASH_FIRETEAM_OPS = 2021988413 as ActivityGraphHashes
-const ACTIVITY_GRAPH_HASH_PINNACLE_OPS = 2427019152 as ActivityGraphHashes
-const ACTIVITY_GRAPH_HASH_CRUCIBLE_OPS = 2681843097 as ActivityGraphHashes
+const ORIGIN_TRAITS: [DeepsightItemSourceType, InventoryItemHashes[]][] = [
+	[DeepsightItemSourceType.PinnacleOps, [
+		InventoryItemHashes.ProblemSolverOriginTraitPlug,
+		InventoryItemHashes.ProblemSolverEnhancedOriginTraitPlug,
+	]],
+	[DeepsightItemSourceType.TrialsOfOsiris, [
+		InventoryItemHashes.FleetFootedOriginTraitPlug,
+		InventoryItemHashes.FleetFootedEnhancedOriginTraitPlug,
+		InventoryItemHashes.AlacrityOriginTraitPlug,
+		InventoryItemHashes.AlacrityEnhancedOriginTraitPlug,
+	]],
+	[DeepsightItemSourceType.CrucibleOpsActivityReward, [
+		InventoryItemHashes.OneQuietMomentOriginTraitPlug,
+		InventoryItemHashes.OneQuietMomentEnhancedOriginTraitPlug,
+		InventoryItemHashes.RoarOfBattleOriginTraitPlug,
+		InventoryItemHashes.RoarOfBattleEnhancedOriginTraitPlug,
+	]],
+	[DeepsightItemSourceType.VanguardOpsActivityReward, [
+		InventoryItemHashes.VanguardDeterminationOriginTraitPlug,
+		InventoryItemHashes.VanguardDeterminationEnhancedOriginTraitPlug,
+		InventoryItemHashes.VanguardsVindicationOriginTraitPlug,
+		InventoryItemHashes.VanguardsVindicationEnhancedOriginTraitPlug,
+		InventoryItemHashes.StunningRecoveryOriginTraitPlug,
+		InventoryItemHashes.StunningRecoveryEnhancedOriginTraitPlug,
+	]],
+	[DeepsightItemSourceType.IronBannerEvent, [
+		InventoryItemHashes.SkulkingWolfOriginTraitPlug,
+		InventoryItemHashes.SkulkingWolfEnhancedOriginTraitPlug,
+	]],
+]
 
 export default Task('DeepsightItemSourceDefinition', async task => {
+	const DeepsightMomentDefinition = await getDeepsightMomentDefinition()
+	// const DestinySeasonDefinition = await manifest.DestinySeasonDefinition.all()
+	const currentSeason = Object.values(DeepsightMomentDefinition)
+		.filter(moment => moment.seasonHash)
+		.sort((a, b) => (b.season ?? 0) - (a.season ?? 0))
+		.at(0)!
+
+	// Log.info('Season:', currentSeason.displayProperties.name)
+	const watermark = currentSeason.iconWatermark
+	const DestinyInventoryItemDefinition = await manifest.DestinyInventoryItemDefinition.all()
+	const seasonItems = await manifest.DestinyInventoryItemDefinition
+		.filter(item => item.iconWatermark === watermark)
+
+	async function getSeasonVendorEngrams (name: string) {
+		name = name.toLowerCase()
+		const vendors = await manifest.DestinyVendorDefinition.filter(vendor => vendor.displayProperties.name.toLowerCase().includes(name))
+		const vendorsFromSeason = vendors.filter(vendor => vendor.itemList?.some(item => seasonItems.some(seasonItem => seasonItem.hash === item.itemHash)))
+		return vendorsFromSeason.length ? vendorsFromSeason : vendors
+	}
+
+	async function getVendorEngrams (source: DeepsightItemSourceType) {
+		const engrams = await getSeasonVendorEngrams('')
+		const result: DestinyVendorDefinition[] = []
+		for (const engram of engrams)
+			if (matchesSingleSource(engram))
+				result.push(engram)
+		return result
+
+		function matchesSingleSource (engram: DestinyVendorDefinition) {
+			const matchingSources: DeepsightItemSourceType[] = []
+			for (const [source, plugHashes] of ORIGIN_TRAITS) {
+				const includesPlug = engram.itemList
+					.flatMap(item => Object.values(DestinyInventoryItemDefinition[item.itemHash]?.sockets?.socketEntries ?? {}).map(socket => socket.singleInitialItemHash))
+					.some(plugHash => plugHashes.includes(plugHash))
+
+				if (includesPlug)
+					matchingSources.push(source)
+			}
+			return matchingSources.length === 1 && matchingSources[0] === source
+		}
+	}
+
+	async function getExoticArmourForMoment (moment: MomentHashes) {
+		return await Promise.resolve(manifest.DestinyInventoryItemDefinition.filter(item => true
+			&& item.inventory?.tierTypeHash === ItemTierTypeHashes.Exotic
+			&& item.iconWatermark === DeepsightMomentDefinition[moment].iconWatermark
+			&& !!item.itemCategoryHashes?.includes(ItemCategoryHashes.Armor)
+			&& !item.itemCategoryHashes.includes(ItemCategoryHashes.Dummies)
+		))
+			.then(items => items.map(item => item.hash))
+	}
+
 	const itemSources: Record<DeepsightItemSourceType, number[]> = {
 		[DeepsightItemSourceType.CommanderZavalaLegacyGear]: await getVendorCategories(VendorHashes.VanguardEngramFocusingLegacy)
 			.then(categories => categories.filter(([category]) => category.identifier !== 'category_legacy_nightfall'))
@@ -128,19 +207,21 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 			.then(categories => categories.filter(([category]) => category.identifier === 'category_weapon_meta'))
 			.then(getVendorCategoryItems),
 		[DeepsightItemSourceType.XurStrangeGear]: await getVendorCategories(VendorHashes.TowerNineGear).then(getVendorCategoryItems),
-		[DeepsightItemSourceType.VanguardOpsActivityReward]: await getVendorCategories(VendorHashes.PortalActivitiesGear941620657).then(getVendorCategoryItems),
-		[DeepsightItemSourceType.PinnacleOps]: await getDropsFromActivityGraphs(ACTIVITY_GRAPH_HASH_PINNACLE_OPS),
-		[DeepsightItemSourceType.CrucibleOpsActivityReward]: await getVendorCategories(VendorHashes.CrucibleOpsGear627167795).then(getVendorCategoryItems),
-		[DeepsightItemSourceType.TrialsOfOsiris]: await getVendorCategories(VendorHashes.TrialsOfOsirisGear1404716958).then(getVendorCategoryItems),
-		[DeepsightItemSourceType.ArmsWeekEvent]: await getVendorCategories(VendorHashes.TowerShootingRangeAda, VendorHashes.DistortedArmsWeekEngram1034573018).then(getVendorCategoryItems),
-		[DeepsightItemSourceType.SolsticeEvent]: await getVendorCategories(VendorHashes.DistortedSolsticeEngram2110607183).then(getVendorCategoryItems),
+		[DeepsightItemSourceType.VanguardOpsActivityReward]: await getVendorEngrams(DeepsightItemSourceType.VanguardOpsActivityReward).then(getVendorCategories).then(getVendorCategoryItems),
+		[DeepsightItemSourceType.PinnacleOps]: await getVendorEngrams(DeepsightItemSourceType.PinnacleOps).then(getVendorCategories).then(getVendorCategoryItems),
+		[DeepsightItemSourceType.CrucibleOpsActivityReward]: await getVendorEngrams(DeepsightItemSourceType.CrucibleOpsActivityReward).then(getVendorCategories).then(getVendorCategoryItems),
+		[DeepsightItemSourceType.TrialsOfOsiris]: await getSeasonVendorEngrams('Trials of Osiris Gear').then(getVendorCategories).then(getVendorCategoryItems),
+		[DeepsightItemSourceType.ArmsWeekEvent]: await getVendorCategories(VendorHashes.TowerShootingRangeAda, await getSeasonVendorEngrams('Arms Week')).then(getVendorCategoryItems),
+		[DeepsightItemSourceType.SolsticeEvent]: await getSeasonVendorEngrams('Solstice').then(getVendorCategories).then(getVendorCategoryItems),
 		[DeepsightItemSourceType.Kepler]: await getVendorCategories(VendorHashes.FocusedDecoding3550596112).then(getVendorCategoryItems),
-		[DeepsightItemSourceType.HeavyMetalEvent]: await getVendorCategories(VendorHashes.HeavyMetalEngram1814426467).then(getVendorCategoryItems),
-		[DeepsightItemSourceType.NewTerritoriesReclaimEvent]: await getVendorCategories(VendorHashes.NewTerritoriesReclaimWeaponEngram536789678).then(getVendorCategoryItems),
-		[DeepsightItemSourceType.IronBannerEvent]: await getVendorCategories(VendorHashes.IronBannerEngram610661400).then(getVendorCategoryItems),
+		[DeepsightItemSourceType.HeavyMetalEvent]: await getSeasonVendorEngrams('Heavy Metal').then(getVendorCategories).then(getVendorCategoryItems),
+		[DeepsightItemSourceType.IronBannerEvent]: await Promise.all([getSeasonVendorEngrams('Iron Banner'), getVendorEngrams(DeepsightItemSourceType.IronBannerEvent)]).then(engrams => engrams.flat()).then(getVendorCategories).then(getVendorCategoryItems),
 		[DeepsightItemSourceType.ValusSaladinLegacyGear]: await getVendorCategories(VendorHashes.IronBannerEngramFocusingLegacy).then(getVendorCategoryItems),
-		[DeepsightItemSourceType.FestivalOfTheLost]: await getVendorCategories(VendorHashes.EerieWeaponsEngram1123009796).then(getVendorCategoryItems),
-		[DeepsightItemSourceType.CallToArmsEvent]: await getVendorCategories(VendorHashes.CallToArmsWeaponEngram1088286489).then(getVendorCategoryItems),
+		[DeepsightItemSourceType.FestivalOfTheLost]: await getSeasonVendorEngrams('Eerie Weapons').then(getVendorCategories).then(getVendorCategoryItems),
+		[DeepsightItemSourceType.CallToArmsEvent]: await getSeasonVendorEngrams('Call to Arms').then(getVendorCategories).then(getVendorCategoryItems),
+		[DeepsightItemSourceType.LawlessFrontier]: await getSeasonVendorEngrams('Lawless Frontier').then(getVendorCategories).then(getVendorCategoryItems),
+		[DeepsightItemSourceType.TheEdgeOfFate]: await getExoticArmourForMoment(MomentHashes.EdgeOfFate),
+		[DeepsightItemSourceType.Renegades]: await getExoticArmourForMoment(MomentHashes.Renegades),
 	}
 
 	itemSources[DeepsightItemSourceType.CrucibleOpsActivityReward] = itemSources[DeepsightItemSourceType.CrucibleOpsActivityReward]
@@ -319,6 +400,15 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 				icon: { DestinyPresentationNodeDefinition: { hash: PresentationNodeHashes.Kepler, iconSequence: 1, frame: 0 } },
 			}),
 		},
+		[DeepsightItemSourceType.TheEdgeOfFate]: {
+			hash: DeepsightItemSourceType.TheEdgeOfFate,
+			category: DeepsightItemSourceCategory.Campaign,
+			displayProperties: await DestinyManifestReference.resolveAll({
+				name: { DestinyActivityDefinition: ActivityHashes.TheEdgeOfFate_PlaceHash4076196532 },
+				subtitle: { DestinyActivityDefinition: ActivityHashes.Campaign_PlaceHash2961497387 },
+				icon: { DestinyPresentationNodeDefinition: { hash: PresentationNodeHashes.Kepler, iconSequence: 1, frame: 0 } },
+			}),
+		},
 		[DeepsightItemSourceType.HeavyMetalEvent]: {
 			hash: DeepsightItemSourceType.HeavyMetalEvent,
 			category: DeepsightItemSourceCategory.EventReward,
@@ -326,15 +416,6 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 			displayProperties: await DestinyManifestReference.resolveAll({
 				name: { DestinyEventCardDefinition: EventCardHashes.HeavyMetal },
 				icon: { DestinyEventCardDefinition: EventCardHashes.HeavyMetal },
-			}),
-		},
-		[DeepsightItemSourceType.NewTerritoriesReclaimEvent]: {
-			hash: DeepsightItemSourceType.NewTerritoriesReclaimEvent,
-			category: DeepsightItemSourceCategory.EventReward,
-			event: EventCardHashes.NewTerritoriesReclaim,
-			displayProperties: await DestinyManifestReference.resolveAll({
-				name: { DestinyEventCardDefinition: EventCardHashes.NewTerritoriesReclaim },
-				icon: { DestinyEventCardDefinition: EventCardHashes.NewTerritoriesReclaim },
 			}),
 		},
 		[DeepsightItemSourceType.IronBannerEvent]: {
@@ -362,6 +443,24 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 			displayProperties: await DestinyManifestReference.resolveAll({
 				name: { DestinyEventCardDefinition: EventCardHashes.CallToArms },
 				icon: { DestinyEventCardDefinition: EventCardHashes.CallToArms },
+			}),
+		},
+		[DeepsightItemSourceType.LawlessFrontier]: {
+			hash: DeepsightItemSourceType.LawlessFrontier,
+			category: DeepsightItemSourceCategory.Destination,
+			displayProperties: await DestinyManifestReference.resolveAll({
+				name: { DestinyActivityModeDefinition: ActivityModeHashes.LawlessFrontier },
+				subtitle: { DestinyActivityDefinition: ActivityHashes.Renegades_PlaceHash3747705955 },
+				icon: { DestinyActivityModeDefinition: ActivityModeHashes.LawlessFrontier },
+			}),
+		},
+		[DeepsightItemSourceType.Renegades]: {
+			hash: DeepsightItemSourceType.Renegades,
+			category: DeepsightItemSourceCategory.Campaign,
+			displayProperties: await DestinyManifestReference.resolveAll({
+				name: { DestinyActivityDefinition: ActivityHashes.Renegades_PlaceHash3747705955 },
+				subtitle: { DestinyActivityDefinition: ActivityHashes.Campaign_PlaceHash2961497387 },
+				icon: { DestinyActivityModeDefinition: ActivityModeHashes.LawlessFrontier },
 			}),
 		},
 	}
