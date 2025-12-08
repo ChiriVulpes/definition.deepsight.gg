@@ -1540,6 +1540,9 @@
 					"component": "DestinyItemCategoryDefinition",
 					"path": "groupedCategoryHashes.[]"
 				}
+			],
+			"augmentations": [
+				"DeepsightWeaponTypeDefinition"
 			]
 		},
 		"DestinyBreakerTypeDefinition": {

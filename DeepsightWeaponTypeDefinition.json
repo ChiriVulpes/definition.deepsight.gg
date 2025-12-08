@@ -1,0 +1,172 @@
+{
+	"5": {
+		"hash": 5,
+		"displayProperties": {
+			"description": "",
+			"name": "Auto Rifles",
+			"iconHash": 0,
+			"hasIcon": false,
+			"icon": "/common/destiny2_content/icons/order_icon_weapon_autorifle.v2.png"
+		}
+	},
+	"6": {
+		"hash": 6,
+		"displayProperties": {
+			"description": "",
+			"name": "Hand Cannons",
+			"iconHash": 0,
+			"hasIcon": false,
+			"icon": "/common/destiny2_content/icons/order_icon_weapon_handcannon.v2.png"
+		}
+	},
+	"7": {
+		"hash": 7,
+		"displayProperties": {
+			"description": "",
+			"name": "Pulse Rifles",
+			"iconHash": 0,
+			"hasIcon": false,
+			"icon": "/common/destiny2_content/icons/order_icon_weapon_pulserifle.v2.png"
+		}
+	},
+	"8": {
+		"hash": 8,
+		"displayProperties": {
+			"description": "",
+			"name": "Scout Rifles",
+			"iconHash": 0,
+			"hasIcon": false,
+			"icon": "/common/destiny2_content/icons/order_icon_weapon_scoutrifle.v2.png"
+		}
+	},
+	"9": {
+		"hash": 9,
+		"displayProperties": {
+			"description": "",
+			"name": "Fusion Rifles",
+			"iconHash": 0,
+			"hasIcon": false,
+			"icon": "/common/destiny2_content/icons/order_icon_weapon_fusionrifle.v2.png"
+		}
+	},
+	"10": {
+		"hash": 10,
+		"displayProperties": {
+			"description": "",
+			"name": "Sniper Rifles",
+			"iconHash": 0,
+			"hasIcon": false,
+			"icon": "/common/destiny2_content/icons/order_icon_weapon_sniper.v2.png"
+		}
+	},
+	"11": {
+		"hash": 11,
+		"displayProperties": {
+			"description": "",
+			"name": "Shotguns",
+			"iconHash": 0,
+			"hasIcon": false,
+			"icon": "/common/destiny2_content/icons/order_icon_weapon_shotgun.v2.png"
+		}
+	},
+	"12": {
+		"hash": 12,
+		"displayProperties": {
+			"description": "",
+			"name": "Machine Guns",
+			"iconHash": 0,
+			"hasIcon": false,
+			"icon": "/common/destiny2_content/icons/order_icon_weapon_machinegun.v2.png"
+		}
+	},
+	"13": {
+		"hash": 13,
+		"displayProperties": {
+			"description": "",
+			"name": "Rocket Launchers",
+			"iconHash": 0,
+			"hasIcon": false,
+			"icon": "/common/destiny2_content/icons/order_icon_weapon_rocketlauncher.v2.png"
+		}
+	},
+	"14": {
+		"hash": 14,
+		"displayProperties": {
+			"description": "",
+			"name": "Sidearms",
+			"iconHash": 0,
+			"hasIcon": false,
+			"icon": "/common/destiny2_content/icons/order_icon_weapon_sidearm.v2.png"
+		}
+	},
+	"54": {
+		"hash": 54,
+		"displayProperties": {
+			"description": "Make sure the pointy end faces toward your enemy.",
+			"name": "Swords",
+			"iconHash": 0,
+			"hasIcon": false,
+			"icon": "/common/destiny2_content/icons/order_icon_weapon_sword.v2.png"
+		}
+	},
+	"153950757": {
+		"hash": 153950757,
+		"displayProperties": {
+			"description": "When you'd rather that your explosions come in a bouncing variety.",
+			"name": "Grenade Launchers",
+			"iconHash": 0,
+			"hasIcon": false,
+			"icon": "/common/destiny2_content/icons/order_icon_weapon_grenadelauncher.v2.png"
+		}
+	},
+	"1504945536": {
+		"hash": 1504945536,
+		"displayProperties": {
+			"description": "Yet another type of laser rifle.",
+			"name": "Linear Fusion Rifles",
+			"iconHash": 0,
+			"hasIcon": false,
+			"icon": "/common/destiny2_content/icons/order_icon_weapon_linearfusion.v2.png"
+		}
+	},
+	"2489664120": {
+		"hash": 2489664120,
+		"displayProperties": {
+			"description": "A more different kind of rifle.",
+			"name": "Trace Rifles",
+			"iconHash": 0,
+			"hasIcon": false,
+			"icon": "/common/destiny2_content/icons/order_icon_weapon_tracerifle.v2.png"
+		}
+	},
+	"3317538576": {
+		"hash": 3317538576,
+		"displayProperties": {
+			"description": "For those who prefer a silent takedown.",
+			"name": "Bows",
+			"iconHash": 0,
+			"hasIcon": false,
+			"icon": "/common/destiny2_content/icons/order_icon_weapon_bow.v2.png"
+		}
+	},
+	"3871742104": {
+		"hash": 3871742104,
+		"displayProperties": {
+			"description": "Perform melee combos, fire projectiles, and deploy an energy shield.",
+			"name": "Glaives",
+			"iconHash": 0,
+			"hasIcon": false,
+			"icon": "/common/destiny2_content/icons/order_icon_weapon_glaive.v2.png"
+		}
+	},
+	"3954685534": {
+		"hash": 3954685534,
+		"displayProperties": {
+			"description": "For the pew pew pews.",
+			"name": "Submachine Guns",
+			"iconHash": 0,
+			"hasIcon": false,
+			"icon": "/common/destiny2_content/icons/order_icon_weapon_smg.v2.png"
+		}
+	}
+}
