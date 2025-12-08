@@ -317,6 +317,8 @@ export default Task('DeepsightLinksDefinition', async () => {
 	////////////////////////////////////
 	//#region Deepsight
 
+	addAugmentation('DestinyItemCategoryDefinition', 'DeepsightWeaponTypeDefinition')
+
 	enums.TierType = {
 		name: 'TierType',
 		members: [
