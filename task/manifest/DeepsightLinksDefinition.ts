@@ -317,8 +317,6 @@ export default Task('DeepsightLinksDefinition', async () => {
 	////////////////////////////////////
 	//#region Deepsight
 
-	addAugmentation('DestinyItemCategoryDefinition', 'DeepsightWeaponTypeDefinition')
-
 	enums.TierType = {
 		name: 'TierType',
 		members: [
@@ -512,6 +510,22 @@ export default Task('DeepsightLinksDefinition', async () => {
 		],
 	}
 	addAugmentation('DestinyInventoryItemDefinition', 'DeepsightPlugCategorisation')
+
+	components.DeepsightWeaponTypeDefinition = {
+		component: 'DeepsightWeaponTypeDefinition',
+		links: [
+			{ path: 'frames.[]', component: 'DestinyInventoryItemDefinition' },
+		],
+	}
+	addAugmentation('DestinyItemCategoryDefinition', 'DeepsightWeaponTypeDefinition')
+
+	components.DeepsightWeaponFrameDefinition = {
+		component: 'DeepsightWeaponFrameDefinition',
+		links: [
+			{ path: 'weaponTypes.[]', component: 'DestinyItemCategoryDefinition' },
+		],
+	}
+	addAugmentation('DestinyInventoryItemDefinition', 'DeepsightWeaponFrameDefinition')
 
 	//#endregion
 	////////////////////////////////////

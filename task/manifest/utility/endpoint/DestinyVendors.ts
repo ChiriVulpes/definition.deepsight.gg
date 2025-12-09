@@ -4,7 +4,7 @@ import type { DestinyDisplayPropertiesDefinition, DestinyItemComponentSetOfuint3
 import { ComponentPrivacySetting } from 'bungie-api-ts/destiny2'
 import { diff } from 'json-diff'
 import type { DeepsightDisplayPropertiesDefinition, DeepsightVendorDefinition, DeepsightVendorItemDefinition } from '../../../../static/definitions/Interfaces'
-import Arrays from '../../../utility/Arrays'
+import Arrays, { NonNullish } from '../../../utility/Arrays'
 import Env from '../../../utility/Env'
 import Model from '../../../utility/Model'
 import Rotation from '../Rotations'
@@ -13,6 +13,8 @@ import DestinyComponents from './DestinyComponents'
 import DestinyManifest from './DestinyManifest'
 import DestinyProfile from './DestinyProfile'
 import DestinyRequest from './DestinyRequest'
+
+const _ = undefined
 
 const VENDOR_BACKGROUNDS: Partial<Record<VendorHashes, string | Partial<Record<DestinationHashes | EventCardHashes, string>>>> = {
 	[VendorHashes.ValusSaladin]: 'lordsaladin',
@@ -111,7 +113,7 @@ export default Model(async () =>
 					throw new Error(`Unable to find definition for vendor ${vendorHash}`)
 
 				const sales = responses.map(response => response.sales.data?.[vendorHash])
-					.filter(Arrays.filterNullish)
+					.filter(NonNullish)
 
 				const itemComponents = responses.map(response => response.itemComponents)
 
@@ -142,14 +144,14 @@ export default Model(async () =>
 					background: background === undefined ? undefined : `./image/png/vendor/background/${background}.png`,
 					location,
 					moment: VENDOR_MOMENTS[vendorHash],
-					groups: (undefined
+					groups: (_
 						?? VENDOR_GROUP_OVERRIDES[vendorHash]
 						?? responses.flatMap(response => response.vendorGroups.data?.groups ?? [])
 							.filter(group => group.vendorHashes.includes(vendorHash))
 							.map(group => group.vendorGroupHash))
 						.distinct(),
 					categories: responses.map(response => response.categories.data?.[vendorHash])
-						.filter(Arrays.filterNullish)
+						.filter(NonNullish)
 						.flatMap(categories => categories.categories)
 						.groupBy(category => category.displayCategoryIndex)
 						.map(([categoryIndex, categories]) => {
@@ -161,7 +163,7 @@ export default Model(async () =>
 									displayProperties: itemDef.displayProperties,
 									...def.itemList[itemIndex],
 									...sales.map(sale => sale.saleItems[itemIndex])
-										.filter(Arrays.filterNullish)
+										.filter(NonNullish)
 										.collect(sales => !sales.length ? undefined : {
 											quantity: sales.map(sale => sale.quantity).collect(one, 'quantity', itemDef),
 											overrideNextRefreshDate: sales.map(sale => sale.overrideNextRefreshDate).collect(one, 'overridden value of next refresh date', itemDef),
@@ -173,7 +175,7 @@ export default Model(async () =>
 													.join(''))),
 										}),
 									itemComponent: itemComponents.map(itemComponents => itemComponents[vendorHash])
-										.filter(Arrays.filterNullish)
+										.filter(NonNullish)
 										.collect(itemComponents =>
 											([
 												'instances',
@@ -190,7 +192,7 @@ export default Model(async () =>
 												.map(component => [component, {
 													data: {
 														[itemIndex]: itemComponents.map(itemComponents => itemComponents[component]?.data?.[itemIndex])
-															.filter(Arrays.filterNullish)
+															.filter(NonNullish)
 															?.[0],
 													},
 													privacy: ComponentPrivacySetting.None,

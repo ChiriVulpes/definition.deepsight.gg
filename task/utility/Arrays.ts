@@ -1,5 +1,13 @@
 import Define from './Define'
 
+export function NonNullish<VALUE> (value: VALUE): value is Exclude<VALUE, null | undefined> {
+	return value !== null && value !== undefined
+}
+
+export function Truthy<VALUE> (value: VALUE): value is Exclude<VALUE, null | undefined | 0 | ''> {
+	return !!value
+}
+
 type ArrayToEntryMapper<T, KEY, VALUE> = (value: T) => readonly [KEY, VALUE, ...any[]]
 
 declare global {
@@ -283,14 +291,6 @@ namespace Arrays {
 			result.push(i)
 
 		return result
-	}
-
-	export function filterNullish<VALUE> (value: VALUE): value is Exclude<VALUE, null | undefined> {
-		return value !== null && value !== undefined
-	}
-
-	export function filterFalsy<VALUE> (value: VALUE): value is Exclude<VALUE, null | undefined | 0 | ''> {
-		return !!value
 	}
 
 	export function mergeSorted<T> (...arrays: T[][]): T[] {

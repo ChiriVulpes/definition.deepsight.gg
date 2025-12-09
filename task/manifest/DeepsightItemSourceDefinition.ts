@@ -154,10 +154,14 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 	const DestinyInventoryItemDefinition = await manifest.DestinyInventoryItemDefinition.all()
 	const seasonItems = await manifest.DestinyInventoryItemDefinition
 		.filter(item => item.iconWatermark === watermark)
+		.toArray()
 
 	async function getSeasonVendorEngrams (name: string) {
 		name = name.toLowerCase()
-		const vendors = await manifest.DestinyVendorDefinition.filter(vendor => vendor.displayProperties.name.toLowerCase().includes(name))
+		const vendors = await manifest.DestinyVendorDefinition
+			.filter(vendor => vendor.displayProperties.name.toLowerCase().includes(name))
+			.toArray()
+
 		const vendorsFromSeason = vendors.filter(vendor => vendor.itemList?.some(item => seasonItems.some(seasonItem => seasonItem.hash === item.itemHash)))
 		return vendorsFromSeason.length ? vendorsFromSeason : vendors
 	}
@@ -190,7 +194,7 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 			&& item.iconWatermark === DeepsightMomentDefinition[moment].iconWatermark
 			&& !!item.itemCategoryHashes?.includes(ItemCategoryHashes.Armor)
 			&& !item.itemCategoryHashes.includes(ItemCategoryHashes.Dummies)
-		))
+		).toArray())
 			.then(items => items.map(item => item.hash))
 	}
 

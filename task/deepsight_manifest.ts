@@ -26,8 +26,10 @@ import DeepsightWallpaperDefinition from './manifest/DeepsightWallpaperDefinitio
 import DeepsightWeaponTypeDefinition from './manifest/DeepsightWeaponTypeDefinition'
 import refresh_token from './refresh_token'
 import Arrays from './utility/Arrays'
+import Generators from './utility/Generators'
 
 Arrays.applyPrototypes()
+Generators.applyPrototypes()
 
 export default Task('deepsight_manifest', task => task.series(
 	copy_manifest,

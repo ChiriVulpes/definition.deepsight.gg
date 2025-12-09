@@ -6,12 +6,14 @@ import { Task } from 'task'
 import manifest from './manifest/utility/endpoint/DestinyManifest'
 import Arrays from './utility/Arrays'
 import Env from './utility/Env'
+import Generators from './utility/Generators'
 import Log from './utility/Log'
 import Objects from './utility/Objects'
 
 const _ = undefined
 
 Arrays.applyPrototypes()
+Generators.applyPrototypes()
 
 const MISSING_ENUM_NAMES: Partial<Record<keyof AllDestinyManifestComponents, Record<number, string>>> = {
 	DestinyInventoryBucketDefinition: {

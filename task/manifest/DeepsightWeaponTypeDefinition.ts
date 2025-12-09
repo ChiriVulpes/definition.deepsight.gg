@@ -1,12 +1,28 @@
-import { ItemCategoryHashes } from '@deepsight.gg/Enums'
-import type { DeepsightWeaponTypeDefinition } from '@deepsight.gg/Interfaces'
+import { ItemCategoryHashes, ItemTierTypeHashes, SocketCategoryHashes } from '@deepsight.gg/Enums'
+import type { DeepsightWeaponFrameDefinition, DeepsightWeaponTypeDefinition } from '@deepsight.gg/Interfaces'
 import fs from 'fs-extra'
 import { Task } from 'task'
+import { Truthy } from '../utility/Arrays'
 import manifest from './utility/endpoint/DestinyManifest'
 
 const _ = undefined
 
 export default Task('DeepsightWeaponTypeDefinition', async () => {
+	const defs = await getDeepsightWeaponTypeDefinition()
+	await fs.mkdirp('docs/definitions')
+	await fs.writeJson('docs/definitions/DeepsightWeaponTypeDefinition.json', defs.DeepsightWeaponTypeDefinition, { spaces: '\t' })
+	await fs.writeJson('docs/definitions/DeepsightWeaponFrameDefinition.json', defs.DeepsightWeaponFrameDefinition, { spaces: '\t' })
+})
+
+interface Defs {
+	DeepsightWeaponTypeDefinition: Record<number, DeepsightWeaponTypeDefinition>
+	DeepsightWeaponFrameDefinition: Record<number, DeepsightWeaponFrameDefinition>
+}
+let defs: Defs | undefined
+export async function getDeepsightWeaponTypeDefinition () {
+	if (defs)
+		return defs
+
 	const excluded = new Set<ItemCategoryHashes>([
 		ItemCategoryHashes.Weapon,
 		ItemCategoryHashes.Dummies,
@@ -22,20 +38,44 @@ export default Task('DeepsightWeaponTypeDefinition', async () => {
 		ItemCategoryHashes.BreakerPiercing,
 		ItemCategoryHashes.BreakerStagger,
 	])
-	const weaponDefs = await manifest.DestinyInventoryItemDefinition
+	const categoryHashes = await manifest.DestinyInventoryItemDefinition
 		.filter(item => !!item.itemCategoryHashes?.includes(ItemCategoryHashes.Weapon))
-	const categoryHashes = weaponDefs
 		.flatMap(item => item.itemCategoryHashes ?? [])
 		.filter(hash => !excluded.has(hash))
 		.toSet()
 
+	const framePlugItemHashes = await manifest.DestinyInventoryItemDefinition
+		.filter(item => true
+			&& item.itemCategoryHashes?.some(cat => categoryHashes.has(cat))
+			&& item.inventory?.tierTypeHash !== ItemTierTypeHashes.Exotic
+		)
+		.flatMap(item => item.sockets?.socketCategories
+			.find(cat => cat.socketCategoryHash === SocketCategoryHashes.IntrinsicTraits)
+			?.socketIndexes
+			.map(socketIndex => item.sockets?.socketEntries[socketIndex]?.singleInitialItemHash)
+			.filter(Truthy)
+			.map(plugHash => [plugHash, item.itemCategoryHashes!.filter(cat => categoryHashes.has(cat)) as ItemCategoryHashes[]] as const)
+			?? []
+		)
+		.groupBy(([plugHash]) => plugHash, entries => entries.flatMap(([, cats]) => cats).distinct())
+
+	const framePlugItemDefs = await manifest.DestinyInventoryItemDefinition
+		.filter(item => framePlugItemHashes.has(item.hash))
+		.toArray()
+
 	const orderDefs = await manifest.DestinyInventoryItemDefinition
 		.filter(item => item.itemTypeDisplayName === 'Gunsmith Order')
+		.toArray()
 
-	const iconDefs = await manifest.DestinyIconDefinition.filter(icon => orderDefs.some(def => def.displayProperties.iconHash === icon.hash))
+	const iconDefs = await manifest.DestinyIconDefinition
+		.filter(icon => orderDefs.some(def => def.displayProperties.iconHash === icon.hash))
+		.toArray()
 
-	const DestinyItemCategoryDefinition = await manifest.DestinyItemCategoryDefinition.filter(category => categoryHashes.has(category.hash))
-	const DeepsightWeaponTypeDefinition: Record<number, DeepsightWeaponTypeDefinition> = Object.values(DestinyItemCategoryDefinition)
+	const DestinyItemCategoryDefinition = await manifest.DestinyItemCategoryDefinition
+		.filter(category => categoryHashes.has(category.hash))
+		.toArray()
+
+	const DeepsightWeaponTypeDefinition: Defs['DeepsightWeaponTypeDefinition'] = Object.values(DestinyItemCategoryDefinition)
 		.toObject(category => {
 			const catNameLength = category.displayProperties.name.length
 
@@ -59,15 +99,28 @@ export default Task('DeepsightWeaponTypeDefinition', async () => {
 						?? category.displayProperties.icon
 					),
 				},
+				frames: ([...framePlugItemHashes.entries()]
+					.filter(([, cats]) => cats.includes(category.hash))
+					.map(([plugHash]) => plugHash)
+				),
 			}]
 		})
 
 	if (DeepsightWeaponTypeDefinition[ItemCategoryHashes.HandCannon]?.displayProperties.name !== 'Hand Cannons')
 		throw new Error('DeepsightWeaponTypeDefinition validation failed')
 
-	await fs.mkdirp('docs/definitions')
-	await fs.writeJson('docs/definitions/DeepsightWeaponTypeDefinition.json', DeepsightWeaponTypeDefinition, { spaces: '\t' })
-})
+	const DeepsightWeaponFrameDefinition: Defs['DeepsightWeaponFrameDefinition'] = framePlugItemDefs
+		.toObject(plugItem => [plugItem.hash, {
+			hash: plugItem.hash,
+			displayProperties: plugItem.displayProperties,
+			weaponTypes: framePlugItemHashes.get(plugItem.hash)!,
+		}])
+
+	return {
+		DeepsightWeaponTypeDefinition,
+		DeepsightWeaponFrameDefinition,
+	}
+}
 
 function simplify (name: string) {
 	return name

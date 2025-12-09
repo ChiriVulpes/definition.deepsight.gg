@@ -8,7 +8,7 @@ type PromiseOr<T> = T | Promise<T>
 interface DestinyManifestItem<COMPONENT_NAME extends keyof AllDestinyManifestComponents> {
 	get (hash?: number | string): PromiseOr<AllDestinyManifestComponents[COMPONENT_NAME][number] | undefined>
 	all (): PromiseOr<AllDestinyManifestComponents[COMPONENT_NAME]>
-	filter (predicate: (item: AllDestinyManifestComponents[COMPONENT_NAME][number]) => boolean): PromiseOr<AllDestinyManifestComponents[COMPONENT_NAME][number][]>
+	filter (predicate: (item: AllDestinyManifestComponents[COMPONENT_NAME][number]) => unknown): AsyncGenerator<AllDestinyManifestComponents[COMPONENT_NAME][number]>
 }
 type DestinyManifest = { [COMPONENT_NAME in keyof AllDestinyManifestComponents]: DestinyManifestItem<COMPONENT_NAME> }
 	& { ALL: PromiseOr<(keyof AllDestinyManifestComponents)[]> }
@@ -41,20 +41,12 @@ const DestinyManifest = new Proxy({} as Partial<DestinyManifest>, {
 			target[componentName] = {
 				get: (hash?: number): PromiseOr<DestinyManifestComponentValue | undefined> => hash === undefined ? undefined : manifestItem instanceof Promise ? manifestItem.then(result => result[hash]) : manifestItem[hash],
 				all: () => manifestItem,
-				filter: predicate => {
-					if (manifestItem instanceof Promise)
-						return manifestItem.then(applyFilter)
-					else
-						return applyFilter(manifestItem)
-
-					function applyFilter (data: Awaited<typeof manifestItem>) {
-						const result: DestinyManifestComponentValue[] = []
-						for (const key in data) {
-							const item = data[key]
-							if (predicate(item))
-								result.push(item)
-						}
-						return result
+				filter: async function* (predicate) {
+					const data = await manifestItem
+					for (const key in data) {
+						const item = data[key]
+						if (predicate(item))
+							yield item
 					}
 				},
 			} as DestinyManifestItem<keyof AllDestinyManifestComponents> as any
