@@ -523,7 +523,7 @@ const DeepsightMomentDefinitionData: Record<keyof typeof MomentHashes, Deepsight
 		images: [
 			{ DestinyActivityDefinition: { hash: ActivityHashes.SalvageAndSalvation_Tiern1, property: 'pgcrImage' } },
 			{ DestinyActivityDefinition: { hash: ActivityHashes.ExpeditionCosmodrome_ActivityLightLevel0, property: 'pgcrImage' } },
-			{ DestinyActivityDefinition: { hash: ActivityHashes.Ketchcrash, property: 'pgcrImage' } },
+			{ DestinyActivityDefinition: { hash: ActivityHashes.KetchcrashCustomize, property: 'pgcrImage' } },
 			{ DestinyActivityDefinition: { hash: ActivityHashes.PirateHideoutTheBeastTamer, property: 'pgcrImage' } },
 		],
 		season: 18,
