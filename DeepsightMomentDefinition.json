@@ -450,9 +450,9 @@
 	"2014": {
 		"id": "chosen",
 		"iconWatermark": "/common/destiny2_content/icons/7b48b09fbb50634680168d5880b16bc9.png",
-		"primaryImage": "/img/destiny_content/pgcr/nessus_battleground_behemoth.jpg",
+		"primaryImage": "/img/theme/destiny/bgs/pgcrs/placeholder.jpg",
 		"images": [
-			"/img/destiny_content/pgcr/nessus_battleground_behemoth.jpg",
+			"/img/theme/destiny/bgs/pgcrs/placeholder.jpg",
 			"/img/destiny_content/pgcr/europa_battleground_hailstone.jpg",
 			"/img/destiny_content/pgcr/cosmodrome_battleground_foothold.jpg",
 			"/img/destiny_content/pgcr/nessus_battleground_oracle.jpg",
@@ -637,7 +637,7 @@
 		"images": [
 			"/img/destiny_content/pgcr/season_18_intro.jpg",
 			"/img/destiny_content/pgcr/season_18_expedition.jpg",
-			"/img/destiny_content/pgcr/season_18_ketchcrash.jpg",
+			"/img/destiny_content/pgcr/offensive_voyage.jpg",
 			"/img/destiny_content/pgcr/season_18_pirate_hideout.jpg"
 		],
 		"season": 18,
