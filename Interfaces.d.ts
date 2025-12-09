@@ -83,6 +83,7 @@ export declare interface DeepsightManifestComponentsMap {
 	DeepsightVariantDefinition: DeepsightVariantDefinition
 	DeepsightLinksDefinition: DeepsightLinksDefinition
 	DeepsightWeaponTypeDefinition: Record<number, DeepsightWeaponTypeDefinition>
+	DeepsightWeaponFrameDefinition: Record<number, DeepsightWeaponFrameDefinition>
 }
 
 export declare interface DeepsightDisplayPropertiesDefinition {
@@ -549,6 +550,19 @@ export declare interface DeepsightItemDamageTypesDefinition {
 export declare interface DeepsightWeaponTypeDefinition {
 	hash: ItemCategoryHashes
 	displayProperties: DestinyDisplayPropertiesDefinition
+	frames: InventoryItemHashes[]
+}
+
+//#endregion
+////////////////////////////////////
+
+////////////////////////////////////
+//#region Weapon Frames
+
+export declare interface DeepsightWeaponFrameDefinition {
+	hash: InventoryItemHashes
+	displayProperties: DestinyDisplayPropertiesDefinition
+	weaponTypes: ItemCategoryHashes[]
 }
 
 //#endregion

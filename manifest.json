@@ -1,11 +1,11 @@
 {
-	"DeepsightDropTableDefinition": 719,
+	"DeepsightDropTableDefinition": 720,
 	"DeepsightMomentDefinition": 21,
 	"DeepsightPlugCategorisation": 47,
 	"DeepsightWallpaperDefinition": 14,
 	"Enums": 74,
-	"Interfaces": 52,
-	"deepsight": 1577,
+	"Interfaces": 53,
+	"deepsight": 1578,
 	"DeepsightTierTypeDefinition": 1,
 	"lastDailyReset": "2025-10-22T17:00:00Z",
 	"lastWeeklyReset": "2025-10-21T17:00:00Z",
@@ -14,13 +14,13 @@
 		"instanceId": "16599605099",
 		"period": "2025-10-22T21:20:33Z"
 	},
-	"updated": "2025-12-08T09:39:00Z",
+	"updated": "2025-12-09T00:44:43Z",
 	"DeepsightVendorDefinition": 630,
 	"DeepsightStats": 7,
 	"DeepsightCollectionsDefinition": 21,
 	"DeepsightSocketCategorisation": 37,
 	"DeepsightAdeptDefinition": 8,
-	"DeepsightEmblemDefinition": 661,
+	"DeepsightEmblemDefinition": 662,
 	"DeepsightSocketExtendedDefinition": 1,
 	"DeepsightCatalystDefinition": 7,
 	"DeepsightBreakerSourceDefinition": 3,
@@ -32,6 +32,7 @@
 	"DeepsightIconDefinition": 8,
 	"DeepsightVariantDefinition": 5,
 	"Destiny2/Manifest": "239055.25.11.18.1646-4-bnet.62950",
-	"DeepsightLinksDefinition": 8,
-	"DeepsightWeaponTypeDefinition": 0
+	"DeepsightLinksDefinition": 9,
+	"DeepsightWeaponTypeDefinition": 1,
+	"DeepsightWeaponFrameDefinition": 0
 }

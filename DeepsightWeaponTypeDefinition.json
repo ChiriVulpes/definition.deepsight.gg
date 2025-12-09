@@ -7,7 +7,17 @@
 			"iconHash": 0,
 			"hasIcon": false,
 			"icon": "/common/destiny2_content/icons/order_icon_weapon_autorifle.v2.png"
-		}
+		},
+		"frames": [
+			1458010786,
+			1019291327,
+			1636108362,
+			878286503,
+			1294026524,
+			3488129416,
+			2235383762,
+			2622129339
+		]
 	},
 	"6": {
 		"hash": 6,
@@ -17,7 +27,19 @@
 			"iconHash": 0,
 			"hasIcon": false,
 			"icon": "/common/destiny2_content/icons/order_icon_weapon_handcannon.v2.png"
-		}
+		},
+		"frames": [
+			1458010786,
+			1294026524,
+			3468089894,
+			1322370662,
+			2757685314,
+			3923638944,
+			1611330137,
+			2427219599,
+			1406835319,
+			2189829540
+		]
 	},
 	"7": {
 		"hash": 7,
@@ -27,7 +49,18 @@
 			"iconHash": 0,
 			"hasIcon": false,
 			"icon": "/common/destiny2_content/icons/order_icon_weapon_pulserifle.v2.png"
-		}
+		},
+		"frames": [
+			1458010786,
+			1019291327,
+			878286503,
+			1294026524,
+			2928496916,
+			1634975868,
+			2874284214,
+			2331097520,
+			4172222323
+		]
 	},
 	"8": {
 		"hash": 8,
@@ -37,7 +70,15 @@
 			"iconHash": 0,
 			"hasIcon": false,
 			"icon": "/common/destiny2_content/icons/order_icon_weapon_scoutrifle.v2.png"
-		}
+		},
+		"frames": [
+			1458010786,
+			1019291327,
+			1636108362,
+			3468089894,
+			3920852688,
+			3364911712
+		]
 	},
 	"9": {
 		"hash": 9,
@@ -47,7 +88,16 @@
 			"iconHash": 0,
 			"hasIcon": false,
 			"icon": "/common/destiny2_content/icons/order_icon_weapon_fusionrifle.v2.png"
-		}
+		},
+		"frames": [
+			1019291327,
+			1636108362,
+			878286503,
+			1294026524,
+			2518716062,
+			2057203855,
+			3530948111
+		]
 	},
 	"10": {
 		"hash": 10,
@@ -57,7 +107,13 @@
 			"iconHash": 0,
 			"hasIcon": false,
 			"icon": "/common/destiny2_content/icons/order_icon_weapon_sniper.v2.png"
-		}
+		},
+		"frames": [
+			878286503,
+			1294026524,
+			3468089894,
+			1546108491
+		]
 	},
 	"11": {
 		"hash": 11,
@@ -67,7 +123,20 @@
 			"iconHash": 0,
 			"hasIcon": false,
 			"icon": "/common/destiny2_content/icons/order_icon_weapon_shotgun.v2.png"
-		}
+		},
+		"frames": [
+			1458010786,
+			918679156,
+			1636108362,
+			3468089894,
+			3983457027,
+			1888623310,
+			407573255,
+			996573084,
+			3923638944,
+			895140517,
+			3054949324
+		]
 	},
 	"12": {
 		"hash": 12,
@@ -77,7 +146,13 @@
 			"iconHash": 0,
 			"hasIcon": false,
 			"icon": "/common/destiny2_content/icons/order_icon_weapon_machinegun.v2.png"
-		}
+		},
+		"frames": [
+			1019291327,
+			878286503,
+			1294026524,
+			3468089894
+		]
 	},
 	"13": {
 		"hash": 13,
@@ -87,7 +162,14 @@
 			"iconHash": 0,
 			"hasIcon": false,
 			"icon": "/common/destiny2_content/icons/order_icon_weapon_rocketlauncher.v2.png"
-		}
+		},
+		"frames": [
+			1019291327,
+			1294026524,
+			3468089894,
+			3419274965,
+			216781713
+		]
 	},
 	"14": {
 		"hash": 14,
@@ -97,7 +179,20 @@
 			"iconHash": 0,
 			"hasIcon": false,
 			"icon": "/common/destiny2_content/icons/order_icon_weapon_sidearm.v2.png"
-		}
+		},
+		"frames": [
+			1458010786,
+			3449390870,
+			1636108362,
+			31057037,
+			1294026524,
+			2928496916,
+			806997698,
+			1282254042,
+			1615948893,
+			3330548924,
+			4108848057
+		]
 	},
 	"54": {
 		"hash": 54,
@@ -107,7 +202,15 @@
 			"iconHash": 0,
 			"hasIcon": false,
 			"icon": "/common/destiny2_content/icons/order_icon_weapon_sword.v2.png"
-		}
+		},
+		"frames": [
+			183772609,
+			4172267910,
+			430173891,
+			263649945,
+			836583820,
+			1713206376
+		]
 	},
 	"153950757": {
 		"hash": 153950757,
@@ -117,7 +220,18 @@
 			"iconHash": 0,
 			"hasIcon": false,
 			"icon": "/common/destiny2_content/icons/order_icon_weapon_grenadelauncher.v2.png"
-		}
+		},
+		"frames": [
+			1294026524,
+			474269988,
+			1395789926,
+			2353477480,
+			4130495068,
+			385138649,
+			1759472859,
+			3758615625,
+			2571259936
+		]
 	},
 	"1504945536": {
 		"hash": 1504945536,
@@ -127,7 +241,11 @@
 			"iconHash": 0,
 			"hasIcon": false,
 			"icon": "/common/destiny2_content/icons/order_icon_weapon_linearfusion.v2.png"
-		}
+		},
+		"frames": [
+			2057203855,
+			3530948111
+		]
 	},
 	"2489664120": {
 		"hash": 2489664120,
@@ -137,7 +255,10 @@
 			"iconHash": 0,
 			"hasIcon": false,
 			"icon": "/common/destiny2_content/icons/order_icon_weapon_tracerifle.v2.png"
-		}
+		},
+		"frames": [
+			1294026524
+		]
 	},
 	"3317538576": {
 		"hash": 3317538576,
@@ -147,7 +268,14 @@
 			"iconHash": 0,
 			"hasIcon": false,
 			"icon": "/common/destiny2_content/icons/order_icon_weapon_bow.v2.png"
-		}
+		},
+		"frames": [
+			1019291327,
+			1294026524,
+			715195141,
+			2108556049,
+			3572001649
+		]
 	},
 	"3871742104": {
 		"hash": 3871742104,
@@ -157,7 +285,12 @@
 			"iconHash": 0,
 			"hasIcon": false,
 			"icon": "/common/destiny2_content/icons/order_icon_weapon_glaive.v2.png"
-		}
+		},
+		"frames": [
+			1316753551,
+			1986105578,
+			1956005708
+		]
 	},
 	"3954685534": {
 		"hash": 3954685534,
@@ -167,6 +300,16 @@
 			"iconHash": 0,
 			"hasIcon": false,
 			"icon": "/common/destiny2_content/icons/order_icon_weapon_smg.v2.png"
-		}
+		},
+		"frames": [
+			1458010786,
+			1636108362,
+			1294026524,
+			3468089894,
+			1525239159,
+			2213377102,
+			695966445,
+			2167115920
+		]
 	}
 }

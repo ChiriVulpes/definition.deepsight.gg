@@ -385,6 +385,7 @@
 				"DeepsightAdeptDefinition",
 				"DeepsightSocketCategorisation",
 				"DeepsightPlugCategorisation",
+				"DeepsightWeaponFrameDefinition",
 				"ClarityDescriptions",
 				"DeepsightFormattedClarityDescriptions"
 			]
@@ -2527,6 +2528,24 @@
 				{
 					"path": "subclasses.[]",
 					"component": "DestinyInventoryItemDefinition"
+				}
+			]
+		},
+		"DeepsightWeaponTypeDefinition": {
+			"component": "DeepsightWeaponTypeDefinition",
+			"links": [
+				{
+					"path": "frames.[]",
+					"component": "DestinyInventoryItemDefinition"
+				}
+			]
+		},
+		"DeepsightWeaponFrameDefinition": {
+			"component": "DeepsightWeaponFrameDefinition",
+			"links": [
+				{
+					"path": "weaponTypes.[]",
+					"component": "DestinyItemCategoryDefinition"
 				}
 			]
 		}
