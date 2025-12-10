@@ -70060,6 +70060,22 @@ export declare const enum MomentHashes {
 	Renegades = 2036,
 	SeasonLawless = 2037,
 }
+
+export declare const enum FoundryHashes {
+	Invalid = 2166136261,
+	SUROS = 1000,
+	Hakke = 1001,
+	VEIST = 1002,
+	Omolon = 1003,
+	FieldForged = 1004,
+	Cassoid = 1005,
+	Nadir = 1006,
+	TexMechanica = 1007,
+	BlackArmory = 1008,
+	BRAVE = 1009,
+	Daito = 1010,
+}
+
 /*
  * Unnameable components:
  * DestinyActivityDifficultyTierCollectionDefinition

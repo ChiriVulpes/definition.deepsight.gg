@@ -1372,9 +1372,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/957570181103c0c4957e689cc66d54ae.png",
 		"secondarySpecial": "/common/destiny2_content/icons/aced86e700c88bca3daa18258fef96c1.jpg",
 		"backgroundColor": {
-			"red": 18,
-			"green": 33,
-			"blue": 30,
+			"red": 20,
+			"green": 31,
+			"blue": 27,
 			"alpha": 255
 		}
 	},
@@ -4652,9 +4652,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/4f30597229675aaa7989042eb6884a6b.png",
 		"secondarySpecial": "/common/destiny2_content/icons/bb4b8b67fd39ae99a9d25b34ccad6e05.jpg",
 		"backgroundColor": {
-			"red": 109,
-			"green": 146,
-			"blue": 151,
+			"red": 108,
+			"green": 147,
+			"blue": 153,
 			"alpha": 255
 		}
 	},
@@ -4912,9 +4912,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/718f66845a1d77c9b71a86efe00f9a86.png",
 		"secondarySpecial": "/common/destiny2_content/icons/932dbda93913cd0fa18a9372569516c9.jpg",
 		"backgroundColor": {
-			"red": 41,
-			"green": 85,
-			"blue": 96,
+			"red": 34,
+			"green": 90,
+			"blue": 104,
 			"alpha": 255
 		}
 	},
@@ -7365,9 +7365,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/f3e67e6e1dea55d2e2e390a38c14a210.png",
 		"secondarySpecial": "/common/destiny2_content/icons/cdc4f6a872382fe5ae82afc809faebeb.jpg",
 		"backgroundColor": {
-			"red": 20,
-			"green": 29,
-			"blue": 31,
+			"red": 19,
+			"green": 30,
+			"blue": 32,
 			"alpha": 255
 		}
 	},
@@ -11221,8 +11221,8 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/a9dd631877211db31e8c7762904610d7.png",
 		"secondarySpecial": "/common/destiny2_content/icons/48099fc0fda6087ad6a4c156756f37ad.jpg",
 		"backgroundColor": {
-			"red": 33,
-			"green": 28,
+			"red": 32,
+			"green": 27,
 			"blue": 34,
 			"alpha": 255
 		}
@@ -11740,7 +11740,7 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/f8807c87749894d25c6454a96d52c84f.png",
 		"secondarySpecial": "/common/destiny2_content/icons/f71976840a876d04e51d93aab95b6482.jpg",
 		"backgroundColor": {
-			"red": 36,
+			"red": 35,
 			"green": 46,
 			"blue": 37,
 			"alpha": 255
@@ -16014,7 +16014,7 @@
 		"backgroundColor": {
 			"red": 37,
 			"green": 30,
-			"blue": 47,
+			"blue": 46,
 			"alpha": 255
 		}
 	},

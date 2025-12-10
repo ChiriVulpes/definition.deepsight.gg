@@ -1,6 +1,6 @@
 {
-	"1001": {
-		"hash": 1001,
+	"1000": {
+		"hash": 1000,
 		"displayProperties": {
 			"name": "SUROS",
 			"icon": "/common/destiny2_content/icons/49a2da0bae3d3c2c737e85a374ccdaa6.png",
@@ -8,8 +8,8 @@
 		},
 		"overlay": "/common/destiny2_content/icons/56920a380f4f328b65cd4940d57ad86d.png"
 	},
-	"1002": {
-		"hash": 1002,
+	"1001": {
+		"hash": 1001,
 		"displayProperties": {
 			"name": "Häkke",
 			"icon": "/common/destiny2_content/icons/c154f7452e72362a34a2eac4baef5604.png",
@@ -17,8 +17,8 @@
 		},
 		"overlay": "/common/destiny2_content/icons/b5db41f5d5cc0b8a9825da3592312593.png"
 	},
-	"1003": {
-		"hash": 1003,
+	"1002": {
+		"hash": 1002,
 		"displayProperties": {
 			"name": "VEIST",
 			"icon": "/common/destiny2_content/icons/74c8d92641cdd221a65ccc0b0d131d45.png",
@@ -26,8 +26,8 @@
 		},
 		"overlay": "/common/destiny2_content/icons/9cb266173ab772fa689b72bd365c28df.png"
 	},
-	"1004": {
-		"hash": 1004,
+	"1003": {
+		"hash": 1003,
 		"displayProperties": {
 			"name": "Omolon",
 			"icon": "/common/destiny2_content/icons/e1d261e6c370349c7521ddda8fa70e78.png",
@@ -35,8 +35,8 @@
 		},
 		"overlay": "/common/destiny2_content/icons/d7596444c338aa5339234cd017810946.png"
 	},
-	"1005": {
-		"hash": 1005,
+	"1004": {
+		"hash": 1004,
 		"displayProperties": {
 			"name": "Field-Forged",
 			"icon": "/common/destiny2_content/icons/7e36e16a1487ac287966a4cdb965e6df.png",
@@ -44,8 +44,8 @@
 		},
 		"overlay": "/common/destiny2_content/icons/cdc43a4cee2c550fa340516e1fd00d15.png"
 	},
-	"1006": {
-		"hash": 1006,
+	"1005": {
+		"hash": 1005,
 		"displayProperties": {
 			"name": "Cassoid",
 			"icon": "/common/destiny2_content/icons/dd40ae6216feb003f2998c50d67a53c0.png",
@@ -53,8 +53,8 @@
 		},
 		"overlay": "/common/destiny2_content/icons/85600f3ad441a2511b00c2af1c2003ce.png"
 	},
-	"1007": {
-		"hash": 1007,
+	"1006": {
+		"hash": 1006,
 		"displayProperties": {
 			"name": "Nadir",
 			"icon": "/common/destiny2_content/icons/992ceb9c53b3e4c1b8b0aaa629630c80.png",
@@ -62,8 +62,8 @@
 		},
 		"overlay": "/common/destiny2_content/icons/082ee5b9e9b97590449453cf001d90fc.png"
 	},
-	"1008": {
-		"hash": 1008,
+	"1007": {
+		"hash": 1007,
 		"displayProperties": {
 			"name": "Tex Mechanica",
 			"icon": "/common/destiny2_content/icons/fda0d944e47165312dd193665560fadb.png",
@@ -71,8 +71,8 @@
 		},
 		"overlay": "/common/destiny2_content/icons/ed8c4feb3dd97c8685e102cf565f135c.png"
 	},
-	"1009": {
-		"hash": 1009,
+	"1008": {
+		"hash": 1008,
 		"displayProperties": {
 			"name": "Black Armory",
 			"icon": "/common/destiny2_content/icons/68205f74282ef30f0da534b71709626a.png",
@@ -80,8 +80,8 @@
 		},
 		"overlay": "/common/destiny2_content/icons/0f06c268d1f1080cea32a0de86f18c00.png"
 	},
-	"1010": {
-		"hash": 1010,
+	"1009": {
+		"hash": 1009,
 		"displayProperties": {
 			"name": "BRAVE",
 			"icon": "/common/destiny2_content/icons/c0f7303fe5e0d0a54d7aadf1277f0488.png",
@@ -89,8 +89,8 @@
 		},
 		"overlay": "/common/destiny2_content/icons/6774c7855193dff237408fc5295f39c2.png"
 	},
-	"1011": {
-		"hash": 1011,
+	"1010": {
+		"hash": 1010,
 		"displayProperties": {
 			"name": "Daito",
 			"icon": "undefinedimage/generated/1960263453.png",
