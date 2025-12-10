@@ -1,7 +1,7 @@
 import type { AllDestinyManifestComponents, DestinyColor, DestinyDisplayCategoryDefinition, DestinyDisplayPropertiesDefinition, DestinyIconDefinition, DestinyItemComponentSetOfuint32, DestinyItemQuantity, DestinyVendorItemDefinition, DestinyVendorLocationDefinition, TierType } from 'bungie-api-ts/destiny2'
 import type { BreakerSource } from './DeepsightBreakerTypeDefinition'
 import type { DeepsightPlugCategorisation, DeepsightSocketCategorisationDefinition } from './DeepsightPlugCategorisation'
-import type { ActivityHashes, ActivityModifierHashes, BreakerTypeHashes, CollectibleHashes, DamageTypeHashes, EventCardHashes, InventoryBucketHashes, InventoryItemHashes, ItemCategoryHashes, ItemTierTypeHashes, MomentHashes, ObjectiveHashes, RecordHashes, SeasonHashes, TraitHashes, VendorGroupHashes, VendorHashes } from './Enums'
+import type { ActivityHashes, ActivityModifierHashes, BreakerTypeHashes, CollectibleHashes, DamageTypeHashes, EventCardHashes, FoundryHashes, InventoryBucketHashes, InventoryItemHashes, ItemCategoryHashes, ItemTierTypeHashes, MomentHashes, ObjectiveHashes, RecordHashes, SeasonHashes, TraitHashes, VendorGroupHashes, VendorHashes } from './Enums'
 
 export declare type ISOString = `${bigint}-${'0' | ''}${bigint}-${'0' | ''}${bigint}T${'0' | ''}${bigint}:${'0' | ''}${bigint}:${'0' | ''}${bigint}Z`
 
