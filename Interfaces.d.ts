@@ -569,6 +569,18 @@ export declare interface DeepsightWeaponFrameDefinition {
 ////////////////////////////////////
 
 ////////////////////////////////////
+//#region Weapon Foundries
+
+export declare interface DeepsightFoundryDefinition {
+	hash: FoundryHashes
+	displayProperties: DeepsightDisplayPropertiesDefinition
+	overlay: string
+}
+
+//#endregion
+////////////////////////////////////
+
+////////////////////////////////////
 //#region Source
 
 export declare const enum DeepsightItemSourceType {
