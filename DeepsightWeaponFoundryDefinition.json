@@ -3,7 +3,7 @@
 		"hash": 1000,
 		"displayProperties": {
 			"name": "SUROS",
-			"icon": "/common/destiny2_content/icons/49a2da0bae3d3c2c737e85a374ccdaa6.png",
+			"icon": "undefined/image/generated/icon/2382824305.png",
 			"description": ""
 		},
 		"overlay": "/common/destiny2_content/icons/56920a380f4f328b65cd4940d57ad86d.png"
@@ -12,7 +12,7 @@
 		"hash": 1001,
 		"displayProperties": {
 			"name": "Häkke",
-			"icon": "/common/destiny2_content/icons/c154f7452e72362a34a2eac4baef5604.png",
+			"icon": "/common/destiny2_content/icons/8a4d1a603b4eb685622b0eab956aabcf.png",
 			"description": ""
 		},
 		"overlay": "/common/destiny2_content/icons/b5db41f5d5cc0b8a9825da3592312593.png"
@@ -21,7 +21,7 @@
 		"hash": 1002,
 		"displayProperties": {
 			"name": "VEIST",
-			"icon": "/common/destiny2_content/icons/74c8d92641cdd221a65ccc0b0d131d45.png",
+			"icon": "/common/destiny2_content/icons/2fe85c0012dee7613bcae56e211e5c7b.png",
 			"description": ""
 		},
 		"overlay": "/common/destiny2_content/icons/9cb266173ab772fa689b72bd365c28df.png"
@@ -30,7 +30,7 @@
 		"hash": 1003,
 		"displayProperties": {
 			"name": "Omolon",
-			"icon": "/common/destiny2_content/icons/e1d261e6c370349c7521ddda8fa70e78.png",
+			"icon": "/common/destiny2_content/icons/d3909963092c3ac741f177c60b5dae02.png",
 			"description": ""
 		},
 		"overlay": "/common/destiny2_content/icons/d7596444c338aa5339234cd017810946.png"
@@ -93,7 +93,7 @@
 		"hash": 1010,
 		"displayProperties": {
 			"name": "Daito",
-			"icon": "undefined/image/generated/1960263453.png",
+			"icon": "undefined/image/generated/icon/1960263453.png",
 			"description": ""
 		},
 		"overlay": "/common/destiny2_content/icons/de7406450cbc1f0cd4a5c31a2b321a51.png"
