@@ -1,6 +1,5 @@
 export enum FoundryHashes {
-	Invalid = 1000,
-	SUROS,
+	SUROS = 1000,
 	Hakke,
 	VEIST,
 	Omolon,

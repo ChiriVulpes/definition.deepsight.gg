@@ -84,6 +84,7 @@ export declare interface DeepsightManifestComponentsMap {
 	DeepsightLinksDefinition: DeepsightLinksDefinition
 	DeepsightWeaponTypeDefinition: Record<number, DeepsightWeaponTypeDefinition>
 	DeepsightWeaponFrameDefinition: Record<number, DeepsightWeaponFrameDefinition>
+	DeepsightWeaponFoundryDefinition: Record<number, DeepsightWeaponFoundryDefinition>
 }
 
 export declare interface DeepsightDisplayPropertiesDefinition {

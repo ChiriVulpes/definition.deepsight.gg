@@ -21,17 +21,27 @@ async function readData (file: string) {
 			const basename = path.basename(file)
 			if (basename === 'Enums.d.ts')
 				return fs.readFile(file, 'utf8')
-					.then(contents => contents
-						.replace(/\/\*.*?\*\//gs, '')
-						.replace(/export declare const enum (\w+)|([$\w]+) =/g, '"$1$2":').replace(/ =/g, ':')
-						.replace(/(?<=})\n+(?=")/g, ',\n')
-						.replace(/,(?=\s+})/g, '')
-					)
+					.then(async contents => {
+						const regexes: [RegExp, string][] = [
+							[/\/\*.*?\*\//gs, ''],
+							[/export declare const enum (\w+)|([$\w]+) =/g, '"$1$2":'],
+							[/ =/g, ':'],
+							[/}(\r?\n)+"/g, '},\n"'],
+							[/(,)(?=\s+})/g, ''],
+						]
+						for (let i = 0; i < regexes.length; i++) {
+							const [regex, replacement] = regexes[i]
+							contents = contents.replace(regex, replacement)
+							if (Env.DEEPSIGHT_ENVIRONMENT === 'dev')
+								await fs.writeFile(path.join(path.dirname(file), `Enums.${i}.temp`), contents)
+						}
+						return contents
+					})
 					.then(async jsonText => {
 						jsonText = `{${jsonText}}`
 						if (Env.DEEPSIGHT_ENVIRONMENT === 'dev')
 							await fs.writeFile(path.join(path.dirname(file), 'Enums.json'), jsonText)
-						return JSON.parse(jsonText)
+						return JSON.parse(jsonText) as unknown
 					})
 					.catch(err => {
 						throw new Error(`Failed to parse ${file}: ${err.message}`)

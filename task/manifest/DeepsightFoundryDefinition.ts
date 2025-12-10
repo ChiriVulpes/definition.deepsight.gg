@@ -13,7 +13,7 @@ export default Task('DeepsightFoundryDefinition', async () => {
 		overlay: DestinyManifestReference
 	}
 
-	const foundryDefinitions: Record<Exclude<FoundryHashes, FoundryHashes.Invalid>, FoundryDefinition> = {
+	const foundryDefinitions: Record<FoundryHashes, FoundryDefinition> = {
 		[FoundryHashes.FieldForged]: {
 			displayProperties: {
 				name: 'Field-Forged',

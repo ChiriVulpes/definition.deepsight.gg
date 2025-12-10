@@ -459,10 +459,11 @@ export default Task('generate_enums', async () => {
 			)
 			replaced = content !== previousContent
 		}
-		stream.write(content)
+		stream.write(content + '\n')
 	}
 
 	await translateDeepsightEnum('MomentHashes')
+	await translateDeepsightEnum('FoundryHashes')
 
 	stream.write(`/*\n * Unnameable components:\n * ${componentNamesWithoutDefinitionNames.join('\n * ')}\n */\n`)
 	stream.close()
