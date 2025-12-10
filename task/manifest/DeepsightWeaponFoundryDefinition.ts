@@ -1,10 +1,10 @@
-import { InventoryItemHashes, ItemCategoryHashes, RecordHashes } from '@deepsight.gg/Enums'
+import { FoundryHashes, InventoryItemHashes, ItemCategoryHashes, RecordHashes } from '@deepsight.gg/Enums'
 import type { DeepsightWeaponFoundryDefinition } from '@deepsight.gg/Interfaces'
 import fs from 'fs-extra'
 import { Log, Task } from 'task'
 import Env from '../utility/Env'
 import DestinyManifestReference from './DestinyManifestReference'
-import { FoundryHashes } from './enum/FoundryHashes'
+import { FoundryHashes as FoundryHashesRaw } from './enum/FoundryHashes'
 import manifest from './utility/endpoint/DestinyManifest'
 
 export default Task('DeepsightWeaponFoundryDefinition', async () => {
@@ -13,7 +13,7 @@ export default Task('DeepsightWeaponFoundryDefinition', async () => {
 		overlay: DestinyManifestReference
 	}
 
-	const foundryDefinitions: Record<FoundryHashes, FoundryDefinition> = {
+	const foundryDefinitions: Record<Exclude<FoundryHashes, FoundryHashes.Invalid>, FoundryDefinition> = {
 		[FoundryHashes.FieldForged]: {
 			displayProperties: {
 				name: 'Field-Forged',
@@ -101,7 +101,7 @@ export default Task('DeepsightWeaponFoundryDefinition', async () => {
 				displayProperties: await DestinyManifestReference.resolveAll(def.displayProperties),
 				overlay: await DestinyManifestReference.resolve(def.overlay, 'secondaryIcon').then(icon => {
 					if (!icon)
-						throw new Error(`Unable to resolve foundry overlay icon for ${FoundryHashes[hash]}`)
+						throw new Error(`Unable to resolve foundry overlay icon for ${FoundryHashesRaw[hash]}`)
 					return icon
 				}),
 			}])
