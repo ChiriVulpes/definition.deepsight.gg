@@ -2,12 +2,19 @@ import type { DestinyIconDefinition, DestinyInventoryItemDefinition } from 'bung
 import fs from 'fs-extra'
 import type { Metadata } from 'sharp'
 import { Log, Task } from 'task'
+import Env from '../utility/Env'
 import { DeepsightPlugCategory, DeepsightPlugTypeIntrinsic } from './IDeepsightPlugCategorisation'
 import DeepsightPlugCategorisationSource from './plugtype/DeepsightPlugCategorisation'
 import ImageManager from './utility/ImageManager'
 import DestinyManifest from './utility/endpoint/DestinyManifest'
 
-const iconDir = 'docs/image/generated/icon'
+const iconPath = 'image/generated/icon'
+const iconDir = `docs/${iconPath}`
+
+export function getIconPath (iconHash: number) {
+	return `${Env.DEEPSIGHT_PATH}/${iconPath}/${iconHash}.png`
+}
+
 export default Task('DeepsightIconDefinition', async task => {
 	await fs.mkdirp(iconDir)
 

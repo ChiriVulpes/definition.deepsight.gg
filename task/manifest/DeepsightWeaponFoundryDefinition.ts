@@ -3,6 +3,7 @@ import type { DeepsightWeaponFoundryDefinition } from '@deepsight.gg/Interfaces'
 import fs from 'fs-extra'
 import { Log, Task } from 'task'
 import Env from '../utility/Env'
+import { getIconPath } from './DeepsightIconDefinition'
 import DestinyManifestReference from './DestinyManifestReference'
 import { FoundryHashes as FoundryHashesRaw } from './enum/FoundryHashes'
 import manifest from './utility/endpoint/DestinyManifest'
@@ -45,28 +46,28 @@ export default Task('DeepsightWeaponFoundryDefinition', async () => {
 		[FoundryHashes.SUROS]: {
 			displayProperties: {
 				name: 'SUROS',
-				icon: { DestinyInventoryItemDefinition: InventoryItemHashes.SurosSynergyOriginTraitPlug },
+				icon: { DestinyInventoryItemDefinition: { hash: InventoryItemHashes.SurosLegacyIntrinsicPlug, resolve: plug => getIconPath(plug.displayProperties.iconHash) } },
 			},
 			overlay: { DestinyInventoryItemDefinition: InventoryItemHashes.Cantata57HandCannon },
 		},
 		[FoundryHashes.Hakke]: {
 			displayProperties: {
 				name: 'Häkke',
-				icon: { DestinyInventoryItemDefinition: InventoryItemHashes.HakkeBreachArmamentsOriginTraitPlug },
+				icon: { DestinyInventoryItemDefinition: { hash: InventoryItemHashes.HakkeUpgradeEmblem, property: 'secondaryOverlay' } },
 			},
 			overlay: { DestinyInventoryItemDefinition: InventoryItemHashes.PersesDScoutRifle },
 		},
 		[FoundryHashes.VEIST]: {
 			displayProperties: {
 				name: 'VEIST',
-				icon: { DestinyInventoryItemDefinition: InventoryItemHashes.VeistStingerOriginTraitPlug },
+				icon: { DestinyInventoryItemDefinition: { hash: InventoryItemHashes.VeistUpgradeEmblem, property: 'secondaryOverlay' } },
 			},
 			overlay: { DestinyInventoryItemDefinition: InventoryItemHashes.Suspectum4frLinearFusionRifle },
 		},
 		[FoundryHashes.Omolon]: {
 			displayProperties: {
 				name: 'Omolon',
-				icon: { DestinyInventoryItemDefinition: InventoryItemHashes.OmolonFluidDynamicsOriginTraitPlug },
+				icon: { DestinyInventoryItemDefinition: { hash: InventoryItemHashes.OmolonUpgradeEmblem, property: 'secondaryOverlay' } },
 			},
 			overlay: { DestinyInventoryItemDefinition: InventoryItemHashes.AurvandilFr6FusionRifle },
 		},
@@ -87,7 +88,7 @@ export default Task('DeepsightWeaponFoundryDefinition', async () => {
 		[FoundryHashes.Daito]: {
 			displayProperties: {
 				name: 'Daito',
-				icon: { DestinyInventoryItemDefinition: { hash: InventoryItemHashes.TheFateOfAllFoolsIntrinsicPlug, resolve: plug => `${Env.DEEPSIGHT_PATH}/image/generated/${plug.displayProperties.iconHash}.png` } },
+				icon: { DestinyInventoryItemDefinition: { hash: InventoryItemHashes.TheFateOfAllFoolsIntrinsicPlug, resolve: plug => getIconPath(plug.displayProperties.iconHash) } },
 			},
 			overlay: { DestinyInventoryItemDefinition: InventoryItemHashes.TheJadeRabbitScoutRifle },
 		},
