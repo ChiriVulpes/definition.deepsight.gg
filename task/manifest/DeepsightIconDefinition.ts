@@ -2,7 +2,7 @@ import type { DestinyIconDefinition, DestinyInventoryItemDefinition } from 'bung
 import fs from 'fs-extra'
 import type { Metadata } from 'sharp'
 import { Log, Task } from 'task'
-import { DeepsightPlugCategory } from './IDeepsightPlugCategorisation'
+import { DeepsightPlugCategory, DeepsightPlugTypeIntrinsic } from './IDeepsightPlugCategorisation'
 import DeepsightPlugCategorisationSource from './plugtype/DeepsightPlugCategorisation'
 import ImageManager from './utility/ImageManager'
 import DestinyManifest from './utility/endpoint/DestinyManifest'
@@ -124,6 +124,70 @@ export default Task('DeepsightIconDefinition', async task => {
 					background: `/image/png/mod/${isSeasonal ? 'mod_empty_seasonal' : 'mod_empty'}.png`,
 					secondaryBackground: isEnhanced ? '/image/png/mod/mod_enhanced_overlay.png' : '',
 					specialBackground: !isFragile ? '' : `/image/png/mod/mod_fragile_overlay${isSeasonal ? '_seasonal' : ''}${isEnhanced ? '' : '_glow'}.png`,
+					highResForeground: '',
+					index: iconDef?.index ?? 0,
+					redacted: false,
+					...{ blacklisted: false },
+				}
+			}
+
+			await result.png().toFile(outputPath)
+		})())
+	}
+
+	for (const [itemHash, def] of invItems) {
+		const cat = DeepsightPlugCategorisation[+itemHash]
+		if (cat?.category !== DeepsightPlugCategory.Intrinsic)
+			continue
+
+		if (cat.type !== DeepsightPlugTypeIntrinsic.Exotic)
+			continue
+
+		const iconHash = def.displayProperties.iconHash || +itemHash
+		const iconDef = DestinyIconDefinition[iconHash]
+		const intrinsicIcon = iconDef?.foreground ?? def.displayProperties.icon
+		if (!intrinsicIcon || iconURLsExtracted.has(iconHash))
+			continue
+
+		if (!intrinsicIcon.endsWith('.png')) {
+			console.warn('Can\'t extract foreground layer for non-png exotic intrinsic icon', itemHash, `https://www.bungie.net${intrinsicIcon}`)
+			continue
+		}
+
+		if (DeepsightIconDefinition[iconHash]) // already extracted
+			continue
+
+		iconURLsExtracted.add(iconHash)
+		promises.push((async () => {
+			const sharp = await ImageManager.get(`https://www.bungie.net${intrinsicIcon}`)
+
+			logCurrent('Extracting', def)
+
+			let result = await ImageManager.extractForeground(
+				sharp,
+				'task/manifest/icon/exotic_intrinsic_empty.png',
+			)
+
+			if (!result) {
+				console.warn('Failed to extract mod foreground', iconHash, `https://www.bungie.net${intrinsicIcon}`)
+				return
+			}
+
+			const artifactsToStrip = [
+				'task/manifest/icon/exotic_intrinsic_artifacts_1.png',
+				'task/manifest/icon/exotic_intrinsic_artifacts_2.png',
+			]
+
+			const outputPath = `${iconDir}/${iconHash}.png`
+			if (result) {
+				const subtractionResult = await ImageManager.subtractOverlays([...artifactsToStrip], result)
+				result = subtractionResult.result
+				DeepsightIconDefinition[iconHash] = {
+					hash: iconHash,
+					foreground: `/image/generated/icon/${iconHash}.png`,
+					background: '/image/png/mod/exotic_intrinsic_empty.png',
+					secondaryBackground: '',
+					specialBackground: '',
 					highResForeground: '',
 					index: iconDef?.index ?? 0,
 					redacted: false,

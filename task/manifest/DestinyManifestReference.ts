@@ -1,6 +1,7 @@
 import type { AllDestinyManifestComponents, DestinyDisplayPropertiesDefinition } from 'bungie-api-ts/destiny2'
 import type { BungieIconPath, DeepsightDisplayPropertiesDefinition, DeepsightIconPath } from '../../static/definitions/Interfaces'
 import Log from '../utility/Log'
+import type { PromiseOr } from '../utility/Type'
 import type { DestinyManifestComponentValue } from './utility/endpoint/DestinyManifest'
 import manifest, { DESTINY_MANIFEST_MISSING_ICON_PATH } from './utility/endpoint/DestinyManifest'
 
@@ -20,10 +21,15 @@ interface ManifestReferenceWhichFrame {
 
 interface ManifestReferenceWhichProperty {
 	hash: number
-	property: string
+	property: string | string[]
 }
 
-type DestinyManifestReference = { [KEY in keyof AllDestinyManifestComponents]?: number | ManifestReferenceWhichProperty | ManifestReferenceWhichFrame }
+interface ManifestReferenceResolver<T> {
+	hash: number
+	resolve (value: T): PromiseOr<string | undefined>
+}
+
+type DestinyManifestReference = { [KEY in keyof AllDestinyManifestComponents]?: number | ManifestReferenceWhichProperty | ManifestReferenceWhichFrame | ManifestReferenceResolver<AllDestinyManifestComponents[KEY][number]> }
 namespace DestinyManifestReference {
 	export interface DisplayPropertiesDefinition {
 		name?: string | DestinyManifestReference
@@ -32,7 +38,7 @@ namespace DestinyManifestReference {
 		icon?: string | DestinyManifestReference
 	}
 
-	export async function resolve (ref: string | DestinyManifestReference | undefined, type: 'name' | 'subtitle' | 'description' | 'icon' | 'iconWatermark' | 'iconWatermarkShelved' | 'iconWatermarkFeatured' | 'pgcrImage', alternativeSources?: Record<string, HasDisplayPropertiesOrIconWatermark | undefined>) {
+	export async function resolve (ref: string | DestinyManifestReference | undefined, type: 'name' | 'subtitle' | 'description' | 'icon' | 'iconWatermark' | 'iconWatermarkShelved' | 'iconWatermarkFeatured' | 'pgcrImage' | 'secondaryIcon', alternativeSources?: Record<string, HasDisplayPropertiesOrIconWatermark | undefined>) {
 		if (typeof ref === 'string')
 			return ref
 
@@ -57,7 +63,24 @@ namespace DestinyManifestReference {
 				const name = 'displayProperties' in definition ? definition.displayProperties.name : 'No name'
 				Log.error(`Unable to resolve property from manifest reference: ${name} (${componentName} ${hash}), property ${property}`)
 			}
-			if (typeof which === 'object' && 'property' in which && which.property in definition) {
+			if (typeof which === 'object' && 'property' in which && Array.isArray(which.property)) {
+				let cursor: any = definition
+				for (const property of which.property) {
+					if (!cursor || !(property in cursor)) {
+						propertyError(definition, which.property.join('.'))
+						return undefined
+					}
+					// eslint-disable-next-line @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-member-access
+					cursor = cursor[property]
+				}
+
+				return `${cursor}`
+			}
+
+			if (typeof which === 'object' && 'resolve' in which && typeof which.resolve === 'function')
+				return await which.resolve(definition as never)
+
+			if (typeof which === 'object' && 'property' in which && typeof which.property === 'string' && which.property in definition) {
 				const propertyValue = definition[which.property as keyof typeof definition]
 				if (!propertyValue) {
 					propertyError(definition, which.property)
@@ -67,7 +90,7 @@ namespace DestinyManifestReference {
 				return `${propertyValue}`
 			}
 
-			if (typeof which === 'object' && 'property' in which && 'displayProperties' in definition) {
+			if (typeof which === 'object' && 'property' in which && typeof which.property === 'string' && 'displayProperties' in definition) {
 				const propertyValue = definition.displayProperties[which.property as 'name']
 				if (!propertyValue) {
 					propertyError(definition, which.property)
@@ -94,7 +117,7 @@ namespace DestinyManifestReference {
 		return undefined
 	}
 
-	function resolveSource (definition: DestinyManifestComponentValue, type: 'name' | 'subtitle' | 'description' | 'icon' | 'iconWatermark' | 'iconWatermarkShelved' | 'iconWatermarkFeatured' | 'pgcrImage') {
+	function resolveSource (definition: DestinyManifestComponentValue, type: 'name' | 'subtitle' | 'description' | 'icon' | 'iconWatermark' | 'iconWatermarkShelved' | 'iconWatermarkFeatured' | 'pgcrImage' | 'secondaryIcon') {
 		if (!definition)
 			return undefined
 
@@ -119,6 +142,12 @@ namespace DestinyManifestReference {
 		if (type === 'pgcrImage') {
 			if ('pgcrImage' in definition)
 				return definition.pgcrImage || undefined
+			return undefined
+		}
+
+		if (type === 'secondaryIcon') {
+			if ('secondaryIcon' in definition)
+				return definition.secondaryIcon || undefined
 			return undefined
 		}
 
