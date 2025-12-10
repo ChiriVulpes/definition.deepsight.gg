@@ -572,7 +572,7 @@ export declare interface DeepsightWeaponFrameDefinition {
 ////////////////////////////////////
 //#region Weapon Foundries
 
-export declare interface DeepsightFoundryDefinition {
+export declare interface DeepsightWeaponFoundryDefinition {
 	hash: FoundryHashes
 	displayProperties: DeepsightDisplayPropertiesDefinition
 	overlay: string

@@ -10,7 +10,6 @@ import DeepsightCollectionsDefinition from './manifest/DeepsightCollectionsDefin
 import DeepsightDropTableDefinition from './manifest/DeepsightDropTableDefinition'
 import DeepsightEmblemDefinition from './manifest/DeepsightEmblemDefinition'
 import DeepsightFormattedClarityDescriptions from './manifest/DeepsightFormattedClarityDescriptions'
-import DeepsightFoundryDefinition from './manifest/DeepsightFoundryDefinition'
 import DeepsightIconDefinition from './manifest/DeepsightIconDefinition'
 import DeepsightItemDamageTypesDefinition from './manifest/DeepsightItemDamageTypesDefinition'
 import DeepsightItemSourceDefinition from './manifest/DeepsightItemSourceDefinition'
@@ -24,6 +23,7 @@ import DeepsightTierTypeDefinition from './manifest/DeepsightTierTypeDefinition'
 import DeepsightTypes from './manifest/DeepsightTypes'
 import DeepsightVariantDefinition from './manifest/DeepsightVariantDefinition'
 import DeepsightWallpaperDefinition from './manifest/DeepsightWallpaperDefinition'
+import DeepsightWeaponFoundryDefinition from './manifest/DeepsightWeaponFoundryDefinition'
 import DeepsightWeaponTypeDefinition from './manifest/DeepsightWeaponTypeDefinition'
 import refresh_token from './refresh_token'
 import Arrays from './utility/Arrays'
@@ -53,7 +53,7 @@ export default Task('deepsight_manifest', task => task.series(
 		DeepsightIconDefinition,
 		DeepsightLinksDefinition,
 		DeepsightWeaponTypeDefinition,
-		DeepsightFoundryDefinition,
+		DeepsightWeaponFoundryDefinition,
 
 		task.series(
 			task.parallel(

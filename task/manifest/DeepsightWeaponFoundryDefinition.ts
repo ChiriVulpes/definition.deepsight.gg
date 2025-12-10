@@ -1,5 +1,5 @@
 import { InventoryItemHashes, ItemCategoryHashes, RecordHashes } from '@deepsight.gg/Enums'
-import type { DeepsightFoundryDefinition } from '@deepsight.gg/Interfaces'
+import type { DeepsightWeaponFoundryDefinition } from '@deepsight.gg/Interfaces'
 import fs from 'fs-extra'
 import { Log, Task } from 'task'
 import Env from '../utility/Env'
@@ -7,8 +7,8 @@ import DestinyManifestReference from './DestinyManifestReference'
 import { FoundryHashes } from './enum/FoundryHashes'
 import manifest from './utility/endpoint/DestinyManifest'
 
-export default Task('DeepsightFoundryDefinition', async () => {
-	interface FoundryDefinition extends Omit<DeepsightFoundryDefinition, 'hash' | 'displayProperties' | 'overlay'> {
+export default Task('DeepsightWeaponFoundryDefinition', async () => {
+	interface FoundryDefinition extends Omit<DeepsightWeaponFoundryDefinition, 'hash' | 'displayProperties' | 'overlay'> {
 		displayProperties: DestinyManifestReference.DisplayPropertiesDefinition
 		overlay: DestinyManifestReference
 	}
@@ -93,10 +93,10 @@ export default Task('DeepsightFoundryDefinition', async () => {
 		},
 	}
 
-	const DeepsightFoundryDefinition: Record<number, DeepsightFoundryDefinition> = await Promise.resolve(Object.entries(foundryDefinitions))
+	const DeepsightWeaponFoundryDefinition: Record<number, DeepsightWeaponFoundryDefinition> = await Promise.resolve(Object.entries(foundryDefinitions))
 		.then(entries => Promise.all(entries
 			.map(([hash, def]) => [+hash as FoundryHashes, def] as const)
-			.map(async ([hash, def]): Promise<[FoundryHashes, DeepsightFoundryDefinition]> => [hash, {
+			.map(async ([hash, def]): Promise<[FoundryHashes, DeepsightWeaponFoundryDefinition]> => [hash, {
 				hash,
 				displayProperties: await DestinyManifestReference.resolveAll(def.displayProperties),
 				overlay: await DestinyManifestReference.resolve(def.overlay, 'secondaryIcon').then(icon => {
@@ -117,12 +117,12 @@ export default Task('DeepsightFoundryDefinition', async () => {
 		.toSet()
 
 	for (const foundryImage of foundryImages)
-		if (!Object.values(DeepsightFoundryDefinition).some(def => def.overlay === foundryImage))
+		if (!Object.values(DeepsightWeaponFoundryDefinition).some(def => def.overlay === foundryImage))
 			if (Env.DEEPSIGHT_ENVIRONMENT === 'dev')
 				Log.warn(`Foundry overlay image without definition: https://www.bungie.net${foundryImage}`)
 			else
 				throw new Error(`No foundry definition for overlay image https://www.bungie.net${foundryImage}`)
 
 	await fs.mkdirp('docs/definitions')
-	await fs.writeJson('docs/definitions/DeepsightFoundryDefinition.json', DeepsightFoundryDefinition, { spaces: '\t' })
+	await fs.writeJson('docs/definitions/DeepsightWeaponFoundryDefinition.json', DeepsightWeaponFoundryDefinition, { spaces: '\t' })
 })
