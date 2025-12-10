@@ -9,6 +9,7 @@ export default process.env as {
 	DEEPSIGHT_MANIFEST_USER_MEMBERSHIP_TYPE?: string
 	DEEPSIGHT_MANIFEST_USER_REFRESH_TOKEN?: string
 	DEEPSIGHT_USE_EXISTING_MANIFEST?: 'true'
+	DEEPSIGHT_PATH?: string
 	PORT?: `${bigint}`
 	HOSTNAME?: string
 	NO_COLOURIZE_ERRORS?: string

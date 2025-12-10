@@ -87,7 +87,7 @@ export default Task('DeepsightWeaponFoundryDefinition', async () => {
 		[FoundryHashes.Daito]: {
 			displayProperties: {
 				name: 'Daito',
-				icon: { DestinyInventoryItemDefinition: { hash: InventoryItemHashes.TheFateOfAllFoolsIntrinsicPlug, resolve: plug => `${Env.HOSTNAME}image/generated/${plug.displayProperties.iconHash}.png` } },
+				icon: { DestinyInventoryItemDefinition: { hash: InventoryItemHashes.TheFateOfAllFoolsIntrinsicPlug, resolve: plug => `${Env.DEEPSIGHT_PATH}/image/generated/${plug.displayProperties.iconHash}.png` } },
 			},
 			overlay: { DestinyInventoryItemDefinition: InventoryItemHashes.TheJadeRabbitScoutRifle },
 		},
