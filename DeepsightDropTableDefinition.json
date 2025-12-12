@@ -284,6 +284,26 @@
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_f20ebb76bee675ca429e470cec58cc7b.png"
 		}
 	},
+	"646604655": {
+		"hash": 646604655,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Purge the Vex and Fallen, who have overrun the Exodus Black crash site.",
+			"name": "Exodus Crash",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"iconHash": 0,
+			"hasIcon": false
+		},
+		"dropTable": {
+			"1763361847": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Fireteam Ops",
+			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
+			"icon": "./image/png/activity/portal_fireteam.png"
+		}
+	},
 	"910380154": {
 		"hash": 910380154,
 		"displayProperties": {
@@ -416,6 +436,26 @@
 			"icon": "/common/destiny2_content/icons/bd7a1fc995f87be96698263bc16698e7.png",
 			"iconHash": 0,
 			"hasIcon": true
+		}
+	},
+	"935938264": {
+		"hash": 935938264,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Jump coordinates matching an errant distress signal.",
+			"name": "Presage",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"iconHash": 0,
+			"hasIcon": false
+		},
+		"dropTable": {
+			"260532765": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Pinnacle Ops",
+			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
+			"icon": "./image/png/activity/portal_pinnacle.png"
 		}
 	},
 	"1042180643": {
@@ -1496,26 +1536,6 @@
 			"hasIcon": true
 		}
 	},
-	"1768099736": {
-		"hash": 1768099736,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Within the Black Garden, the Sol Divisive toil endlessly, systematically shutting down potential futures. With Riven's blessing, it's time to shut them down.",
-			"name": "Starcrossed",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"iconHash": 0,
-			"hasIcon": false
-		},
-		"dropTable": {
-			"1604556427": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Pinnacle Ops",
-			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
-			"icon": "./image/png/activity/portal_pinnacle.png"
-		}
-	},
 	"2004855007": {
 		"hash": 2004855007,
 		"displayProperties": {
@@ -1791,26 +1811,6 @@
 			"icon": "./image/png/activity/portal_fireteam.png"
 		}
 	},
-	"2225132701": {
-		"hash": 2225132701,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Aided by the Witness, the Scorn have gained the power to break into the Throne World through areas the Light cannot touch.\n\nBeat them back.",
-			"name": "Birthplace of the Vile",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"iconHash": 0,
-			"hasIcon": false
-		},
-		"dropTable": {
-			"1685533876": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Fireteam Ops",
-			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
-			"icon": "./image/png/activity/portal_fireteam.png"
-		}
-	},
 	"2381413764": {
 		"hash": 2381413764,
 		"displayProperties": {
@@ -1996,19 +1996,19 @@
 			"hasIcon": true
 		}
 	},
-	"2414366406": {
-		"hash": 2414366406,
+	"2546271325": {
+		"hash": 2546271325,
 		"type": "bonus-focus",
 		"availability": "rotator",
 		"displayProperties": {
-			"description": "Achieve victory by defeating opponents. Abilities and Supers regenerate faster. Heavy ammo spawns more frequently.",
-			"name": "Mayhem",
+			"description": "Achieve victory by capturing zones and defeating opponents.",
+			"name": "Control",
 			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
 			"iconHash": 0,
 			"hasIcon": false
 		},
 		"dropTable": {
-			"337893613": {}
+			"361848666": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Crucible Ops",
@@ -2339,19 +2339,19 @@
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_f20ebb76bee675ca429e470cec58cc7b.png"
 		}
 	},
-	"3056702872": {
-		"hash": 3056702872,
+	"3214228047": {
+		"hash": 3214228047,
 		"type": "bonus-focus",
 		"availability": "rotator",
 		"displayProperties": {
-			"description": "Drive out enemies trying to anchor themselves on Nessus.",
-			"name": "The Conflux",
+			"description": "Protect the BrayTech facility from incursions by opposition forces.",
+			"name": "Creation",
 			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
 			"iconHash": 0,
 			"hasIcon": false
 		},
 		"dropTable": {
-			"1763361847": {}
+			"1402874079": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Solo Ops",
@@ -2371,7 +2371,7 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"2849508185": {}
+			"4199055647": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Fireteam Ops",
@@ -2391,7 +2391,7 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"293267476": {}
+			"2849508185": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Fireteam Ops",
@@ -2874,6 +2874,26 @@
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_f20ebb76bee675ca429e470cec58cc7b.png"
 		}
 	},
+	"4129522203": {
+		"hash": 4129522203,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Infiltrate a forgotten Golden Age facility to prevent the Conductor from launching a dangerously modified Warsat.",
+			"name": "Heliostat",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"iconHash": 0,
+			"hasIcon": false
+		},
+		"dropTable": {
+			"1242785638": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Pinnacle Ops",
+			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
+			"icon": "./image/png/activity/portal_pinnacle.png"
+		}
+	},
 	"4148187374": {
 		"hash": 4148187374,
 		"displayProperties": {
@@ -3170,7 +3190,7 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"3120202721": {}
+			"1685533876": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Solo Ops",
