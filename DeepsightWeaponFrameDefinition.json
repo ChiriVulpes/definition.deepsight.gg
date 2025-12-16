@@ -403,6 +403,31 @@
 			11
 		]
 	},
+	"1002219198": {
+		"hash": 1002219198,
+		"displayProperties": {
+			"description": "Increased damage versus powerful combatants. Very low heat generated. [Reload]  to vent heat from the weapon. Overheating forces a sustained vent. Manually venting at very high heat greatly increases venting speed.",
+			"name": "Balanced Heat Weapon",
+			"icon": "/common/destiny2_content/icons/b46e3f554098e175b34f6abe2b311c7c.png",
+			"iconHash": 3771737927,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/b46e3f554098e175b34f6abe2b311c7c.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/dc5ef700194e7d822be54297fc14bbcb.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			8
+		]
+	},
 	"1019291327": {
 		"hash": 1019291327,
 		"displayProperties": {
@@ -593,6 +618,31 @@
 		},
 		"weaponTypes": [
 			6
+		]
+	},
+	"1442784346": {
+		"hash": 1442784346,
+		"displayProperties": {
+			"description": "Higher base damage. High heat generated, [Reload]  to vent heat from the weapon. Overheating forces a sustained vent. Weapon cools down more rapidly between shots.",
+			"name": "Dynamic Heat Weapon",
+			"icon": "/common/destiny2_content/icons/4e065ecc7e8166279873c55b563b5311.png",
+			"iconHash": 2331097520,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/4e065ecc7e8166279873c55b563b5311.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/641d10d58a6c56036843247ff1a8090a.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			10
 		]
 	},
 	"1458010786": {
@@ -1207,6 +1257,31 @@
 			5
 		]
 	},
+	"2732952950": {
+		"hash": 2732952950,
+		"displayProperties": {
+			"description": "Very low heat generated. [Reload]  to vent heat from the weapon. Overheating forces a sustained vent. Manually venting at very high heat greatly increases venting speed.",
+			"name": "Balanced Heat Weapon",
+			"icon": "/common/destiny2_content/icons/b46e3f554098e175b34f6abe2b311c7c.png",
+			"iconHash": 3771737927,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/b46e3f554098e175b34f6abe2b311c7c.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/dc5ef700194e7d822be54297fc14bbcb.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			12
+		]
+	},
 	"2757685314": {
 		"hash": 2757685314,
 		"displayProperties": {
@@ -1538,6 +1613,32 @@
 		},
 		"weaponTypes": [
 			153950757
+		]
+	},
+	"3771737927": {
+		"hash": 3771737927,
+		"displayProperties": {
+			"description": "Increased damage versus powerful combatants. Very low heat generated. [Reload]  to vent heat from the weapon. Overheating forces a sustained vent. Manually venting at very high heat greatly increases venting speed.",
+			"name": "Balanced Heat Weapon",
+			"icon": "/common/destiny2_content/icons/b46e3f554098e175b34f6abe2b311c7c.png",
+			"iconHash": 3771737927,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/b46e3f554098e175b34f6abe2b311c7c.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/dc5ef700194e7d822be54297fc14bbcb.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			7,
+			5
 		]
 	},
 	"3920852688": {

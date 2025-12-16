@@ -2805,9 +2805,11 @@
 	},
 	"112779239": {
 		"hash": 112779239,
-		"category": 9,
-		"categoryName": "Classified",
-		"fullName": "Classified"
+		"category": 6,
+		"type": 17,
+		"categoryName": "Cosmetic",
+		"typeName": "OrnamentArmor",
+		"fullName": "Cosmetic/OrnamentArmor"
 	},
 	"113167959": {
 		"hash": 113167959,
@@ -3640,9 +3642,11 @@
 	},
 	"142559592": {
 		"hash": 142559592,
-		"category": 9,
-		"categoryName": "Classified",
-		"fullName": "Classified"
+		"category": 6,
+		"type": 17,
+		"categoryName": "Cosmetic",
+		"typeName": "OrnamentArmor",
+		"fullName": "Cosmetic/OrnamentArmor"
 	},
 	"142864314": {
 		"hash": 142864314,
@@ -7280,9 +7284,11 @@
 	},
 	"279565494": {
 		"hash": 279565494,
-		"category": 9,
-		"categoryName": "Classified",
-		"fullName": "Classified"
+		"category": 6,
+		"type": 17,
+		"categoryName": "Cosmetic",
+		"typeName": "OrnamentArmor",
+		"fullName": "Cosmetic/OrnamentArmor"
 	},
 	"279743042": {
 		"hash": 279743042,
@@ -7573,6 +7579,14 @@
 		"categoryName": "Cosmetic",
 		"typeName": "OrnamentArmor",
 		"fullName": "Cosmetic/OrnamentArmor"
+	},
+	"286484944": {
+		"hash": 286484944,
+		"category": 6,
+		"type": 2,
+		"categoryName": "Cosmetic",
+		"typeName": "OrnamentWeapon",
+		"fullName": "Cosmetic/OrnamentWeapon"
 	},
 	"287295296": {
 		"hash": 287295296,
@@ -16347,9 +16361,11 @@
 	},
 	"640369263": {
 		"hash": 640369263,
-		"category": 9,
-		"categoryName": "Classified",
-		"fullName": "Classified"
+		"category": 6,
+		"type": 17,
+		"categoryName": "Cosmetic",
+		"typeName": "OrnamentArmor",
+		"fullName": "Cosmetic/OrnamentArmor"
 	},
 	"640411453": {
 		"hash": 640411453,
@@ -18577,6 +18593,14 @@
 		"raid": false,
 		"artifice": false
 	},
+	"745090965": {
+		"hash": 745090965,
+		"category": 6,
+		"type": 2,
+		"categoryName": "Cosmetic",
+		"typeName": "OrnamentWeapon",
+		"fullName": "Cosmetic/OrnamentWeapon"
+	},
 	"745577913": {
 		"hash": 745577913,
 		"category": 2,
@@ -20252,15 +20276,19 @@
 	},
 	"809980656": {
 		"hash": 809980656,
-		"category": 9,
-		"categoryName": "Classified",
-		"fullName": "Classified"
+		"category": 6,
+		"type": 1,
+		"categoryName": "Cosmetic",
+		"typeName": "Shader",
+		"fullName": "Cosmetic/Shader"
 	},
 	"809980657": {
 		"hash": 809980657,
-		"category": 9,
-		"categoryName": "Classified",
-		"fullName": "Classified"
+		"category": 6,
+		"type": 1,
+		"categoryName": "Cosmetic",
+		"typeName": "Shader",
+		"fullName": "Cosmetic/Shader"
 	},
 	"810317923": {
 		"hash": 810317923,
@@ -23014,9 +23042,11 @@
 	},
 	"919358834": {
 		"hash": 919358834,
-		"category": 9,
-		"categoryName": "Classified",
-		"fullName": "Classified"
+		"category": 6,
+		"type": 17,
+		"categoryName": "Cosmetic",
+		"typeName": "OrnamentArmor",
+		"fullName": "Cosmetic/OrnamentArmor"
 	},
 	"919688646": {
 		"hash": 919688646,
@@ -23763,6 +23793,14 @@
 		"categoryName": "Cosmetic",
 		"typeName": "OrnamentArmor",
 		"fullName": "Cosmetic/OrnamentArmor"
+	},
+	"950594839": {
+		"hash": 950594839,
+		"category": 6,
+		"type": 2,
+		"categoryName": "Cosmetic",
+		"typeName": "OrnamentWeapon",
+		"fullName": "Cosmetic/OrnamentWeapon"
 	},
 	"950963812": {
 		"hash": 950963812,
@@ -25979,6 +26017,14 @@
 		"typeName": "OrnamentArmor",
 		"fullName": "Cosmetic/OrnamentArmor"
 	},
+	"1040380121": {
+		"hash": 1040380121,
+		"category": 7,
+		"type": 7,
+		"categoryName": "Masterwork",
+		"typeName": "ExoticCatalyst",
+		"fullName": "Masterwork/ExoticCatalyst"
+	},
 	"1042900772": {
 		"hash": 1042900772,
 		"category": 6,
@@ -27328,9 +27374,11 @@
 	},
 	"1091577811": {
 		"hash": 1091577811,
-		"category": 9,
-		"categoryName": "Classified",
-		"fullName": "Classified"
+		"category": 6,
+		"type": 17,
+		"categoryName": "Cosmetic",
+		"typeName": "OrnamentArmor",
+		"fullName": "Cosmetic/OrnamentArmor"
 	},
 	"1091850348": {
 		"hash": 1091850348,
@@ -28788,6 +28836,14 @@
 		"categoryName": "Cosmetic",
 		"typeName": "OrnamentArmor",
 		"fullName": "Cosmetic/OrnamentArmor"
+	},
+	"1164078247": {
+		"hash": 1164078247,
+		"category": 1,
+		"type": 3,
+		"categoryName": "Intrinsic",
+		"typeName": "Origin",
+		"fullName": "Intrinsic/Origin"
 	},
 	"1164347863": {
 		"hash": 1164347863,
@@ -30810,10 +30866,10 @@
 	"1258693557": {
 		"hash": 1258693557,
 		"category": 1,
-		"type": 1,
+		"type": 4,
 		"categoryName": "Intrinsic",
-		"typeName": "Frame",
-		"fullName": "Intrinsic/Frame"
+		"typeName": "Exotic",
+		"fullName": "Intrinsic/Exotic"
 	},
 	"1259278657": {
 		"hash": 1259278657,
@@ -32764,9 +32820,11 @@
 	},
 	"1320597132": {
 		"hash": 1320597132,
-		"category": 9,
-		"categoryName": "Classified",
-		"fullName": "Classified"
+		"category": 6,
+		"type": 17,
+		"categoryName": "Cosmetic",
+		"typeName": "OrnamentArmor",
+		"fullName": "Cosmetic/OrnamentArmor"
 	},
 	"1321987864": {
 		"hash": 1321987864,
@@ -44271,15 +44329,19 @@
 	},
 	"1773007623": {
 		"hash": 1773007623,
-		"category": 9,
-		"categoryName": "Classified",
-		"fullName": "Classified"
+		"category": 6,
+		"type": 28,
+		"categoryName": "Cosmetic",
+		"typeName": "PraxicDarkMatterCrystal",
+		"fullName": "Cosmetic/PraxicDarkMatterCrystal"
 	},
 	"1773007630": {
 		"hash": 1773007630,
-		"category": 9,
-		"categoryName": "Classified",
-		"fullName": "Classified"
+		"category": 6,
+		"type": 28,
+		"categoryName": "Cosmetic",
+		"typeName": "PraxicDarkMatterCrystal",
+		"fullName": "Cosmetic/PraxicDarkMatterCrystal"
 	},
 	"1773371146": {
 		"hash": 1773371146,
@@ -44563,9 +44625,11 @@
 	},
 	"1786011928": {
 		"hash": 1786011928,
-		"category": 9,
-		"categoryName": "Classified",
-		"fullName": "Classified"
+		"category": 6,
+		"type": 17,
+		"categoryName": "Cosmetic",
+		"typeName": "OrnamentArmor",
+		"fullName": "Cosmetic/OrnamentArmor"
 	},
 	"1787083609": {
 		"hash": 1787083609,
@@ -46632,9 +46696,11 @@
 	},
 	"1867581826": {
 		"hash": 1867581826,
-		"category": 9,
-		"categoryName": "Classified",
-		"fullName": "Classified"
+		"category": 6,
+		"type": 17,
+		"categoryName": "Cosmetic",
+		"typeName": "OrnamentArmor",
+		"fullName": "Cosmetic/OrnamentArmor"
 	},
 	"1868384995": {
 		"hash": 1868384995,
@@ -47145,9 +47211,11 @@
 	},
 	"1887527934": {
 		"hash": 1887527934,
-		"category": 9,
-		"categoryName": "Classified",
-		"fullName": "Classified"
+		"category": 6,
+		"type": 17,
+		"categoryName": "Cosmetic",
+		"typeName": "OrnamentArmor",
+		"fullName": "Cosmetic/OrnamentArmor"
 	},
 	"1887800372": {
 		"hash": 1887800372,
@@ -56084,9 +56152,11 @@
 	},
 	"2249815529": {
 		"hash": 2249815529,
-		"category": 9,
-		"categoryName": "Classified",
-		"fullName": "Classified"
+		"category": 6,
+		"type": 17,
+		"categoryName": "Cosmetic",
+		"typeName": "OrnamentArmor",
+		"fullName": "Cosmetic/OrnamentArmor"
 	},
 	"2250029820": {
 		"hash": 2250029820,
@@ -58613,9 +58683,11 @@
 	},
 	"2354448750": {
 		"hash": 2354448750,
-		"category": 9,
-		"categoryName": "Classified",
-		"fullName": "Classified"
+		"category": 6,
+		"type": 17,
+		"categoryName": "Cosmetic",
+		"typeName": "OrnamentArmor",
+		"fullName": "Cosmetic/OrnamentArmor"
 	},
 	"2355041704": {
 		"hash": 2355041704,
@@ -62787,9 +62859,11 @@
 	},
 	"2541757371": {
 		"hash": 2541757371,
-		"category": 9,
-		"categoryName": "Classified",
-		"fullName": "Classified"
+		"category": 6,
+		"type": 17,
+		"categoryName": "Cosmetic",
+		"typeName": "OrnamentArmor",
+		"fullName": "Cosmetic/OrnamentArmor"
 	},
 	"2541826827": {
 		"hash": 2541826827,
@@ -64005,6 +64079,14 @@
 		"categoryName": "Perk",
 		"typeName": "Ghost",
 		"fullName": "Perk/Ghost"
+	},
+	"2595549308": {
+		"hash": 2595549308,
+		"category": 6,
+		"type": 2,
+		"categoryName": "Cosmetic",
+		"typeName": "OrnamentWeapon",
+		"fullName": "Cosmetic/OrnamentWeapon"
 	},
 	"2595839237": {
 		"hash": 2595839237,
@@ -73131,6 +73213,14 @@
 		"categoryName": "Cosmetic",
 		"typeName": "TransmatEffect",
 		"fullName": "Cosmetic/TransmatEffect"
+	},
+	"2957461671": {
+		"hash": 2957461671,
+		"category": 1,
+		"type": 14,
+		"categoryName": "Intrinsic",
+		"typeName": "OriginEnhanced",
+		"fullName": "Intrinsic/OriginEnhanced"
 	},
 	"2957532337": {
 		"hash": 2957532337,
@@ -83781,6 +83871,14 @@
 		"typeName": "OrnamentArmor",
 		"fullName": "Cosmetic/OrnamentArmor"
 	},
+	"3374147238": {
+		"hash": 3374147238,
+		"category": 6,
+		"type": 2,
+		"categoryName": "Cosmetic",
+		"typeName": "OrnamentWeapon",
+		"fullName": "Cosmetic/OrnamentWeapon"
+	},
 	"3374941291": {
 		"hash": 3374941291,
 		"category": 6,
@@ -89002,6 +89100,14 @@
 		"categoryName": "Cosmetic",
 		"typeName": "OrnamentArmor",
 		"fullName": "Cosmetic/OrnamentArmor"
+	},
+	"3592166239": {
+		"hash": 3592166239,
+		"category": 6,
+		"type": 2,
+		"categoryName": "Cosmetic",
+		"typeName": "OrnamentWeapon",
+		"fullName": "Cosmetic/OrnamentWeapon"
 	},
 	"3592193383": {
 		"hash": 3592193383,
@@ -97118,9 +97224,11 @@
 	},
 	"3945736543": {
 		"hash": 3945736543,
-		"category": 9,
-		"categoryName": "Classified",
-		"fullName": "Classified"
+		"category": 6,
+		"type": 17,
+		"categoryName": "Cosmetic",
+		"typeName": "OrnamentArmor",
+		"fullName": "Cosmetic/OrnamentArmor"
 	},
 	"3946152673": {
 		"hash": 3946152673,
@@ -101557,9 +101665,11 @@
 	},
 	"4118260899": {
 		"hash": 4118260899,
-		"category": 9,
-		"categoryName": "Classified",
-		"fullName": "Classified"
+		"category": 6,
+		"type": 17,
+		"categoryName": "Cosmetic",
+		"typeName": "OrnamentArmor",
+		"fullName": "Cosmetic/OrnamentArmor"
 	},
 	"4118865571": {
 		"hash": 4118865571,
