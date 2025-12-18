@@ -346,7 +346,7 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 		//#region Events
 
 		[DeepsightItemSourceType.ArmsWeekEvent]: {
-			items: getVendorCategories(VendorHashes.TowerShootingRangeAda, await getSeasonVendorEngrams('Arms Week')),
+			items: getSeasonVendorEngrams('Arms Week').then(engrams => getVendorCategories(engrams, VendorHashes.TowerShootingRangeAda)),
 			category: DeepsightItemSourceCategory.EventVendor,
 			event: EventCardHashes.ArmsWeek,
 			displayProperties: DestinyManifestReference.resolveAll({
@@ -427,8 +427,9 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 		//#region Campaigns
 
 		[DeepsightItemSourceType.Kepler]: {
-			items: getVendorCategories(VendorHashes.FocusedDecoding3550596112).then(getVendorCategoryItems).then(items => items
-				.concat(InventoryItemHashes.GravitonSpikeHandCannon)
+			items: resolveSources(
+				getVendorCategories(VendorHashes.FocusedDecoding3550596112),
+				[InventoryItemHashes.GravitonSpikeHandCannon],
 			),
 			category: DeepsightItemSourceCategory.Destination,
 			displayProperties: DestinyManifestReference.resolveAll({
@@ -520,8 +521,9 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 		//#region Raids & Dungeons
 
 		[DeepsightItemSourceType.TheDesertPerpetual]: {
-			items: getVendorCategories(VendorHashes.TheDesertPerpetualGear1522421872).then(getVendorCategoryItems).then(items => items
-				.concat(InventoryItemHashes.WhirlingOvationRocketLauncher)
+			items: resolveSources(
+				getVendorCategories(VendorHashes.TheDesertPerpetualGear1522421872),
+				[InventoryItemHashes.WhirlingOvationRocketLauncher],
 			),
 			category: DeepsightItemSourceCategory.Raid,
 			displayProperties: DestinyManifestReference.resolveAll({
@@ -531,8 +533,9 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 			}),
 		},
 		[DeepsightItemSourceType.TheDesertPerpetualEpic]: {
-			items: getVendorCategories(VendorHashes.TheDesertPerpetualGear1310497352).then(getVendorCategoryItems).then(items => items
-				.concat(InventoryItemHashes.WhirlingOvationRocketLauncher)
+			items: resolveSources(
+				getVendorCategories(VendorHashes.TheDesertPerpetualGear1310497352),
+				[InventoryItemHashes.WhirlingOvationRocketLauncher],
 			),
 			category: DeepsightItemSourceCategory.Raid,
 			displayProperties: DestinyManifestReference.resolveAll({
@@ -542,7 +545,10 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 			}),
 		},
 		[DeepsightItemSourceType.Equilibrium]: {
-			items: getSeasonVendorEngrams('Equilibrium'),
+			items: resolveSources(
+				getSeasonVendorEngrams('Equilibrium'),
+				[InventoryItemHashes.HeirloomCombatBow],
+			),
 			category: DeepsightItemSourceCategory.Dungeon,
 			displayProperties: DestinyManifestReference.resolveAll({
 				name: { DestinyActivityDefinition: { hash: ActivityHashes.EquilibriumStandard, property: ['originalDisplayProperties', 'name'] } },
@@ -556,21 +562,29 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 
 	}
 
+	async function resolveSources (...sources: PromiseOr<InventoryItemHashes[] | VendorCategoryTuple[] | DestinyVendorDefinition[]>[]) {
+		return await Promise.all(sources.map(resolveSource)).then(items => items.flat())
+	}
+
+	async function resolveSource (sources: PromiseOr<InventoryItemHashes[] | VendorCategoryTuple[] | DestinyVendorDefinition[]>) {
+		const items = await sources
+		if (!items.length)
+			return []
+
+		if (typeof items[0] === 'number')
+			return items as InventoryItemHashes[]
+
+		if (Array.isArray(items[0]))
+			return getVendorCategoryItems(items as VendorCategoryTuple[])
+
+		return getVendorCategories(items as DestinyVendorDefinition[])
+			.then(getVendorCategoryItems)
+	}
+
 	const itemSources = await Object.entries(itemSourceDefs)
-		.map(async ([type, def]) => [+type as DeepsightItemSourceType,
-		await Promise.resolve(def.items).then(items => {
-			if (!items.length)
-				return []
-
-			if (typeof items[0] === 'number')
-				return items as InventoryItemHashes[]
-
-			if (Array.isArray(items[0]))
-				return getVendorCategoryItems(items as VendorCategoryTuple[])
-
-			return getVendorCategories(items as DestinyVendorDefinition[])
-				.then(getVendorCategoryItems)
-		}),
+		.map(async ([type, def]) => [
+			+type as DeepsightItemSourceType,
+			await resolveSource(def.items),
 		] as const)
 		.collect(promises => Promise.all(promises).then(entries => Object.fromEntries(entries) as Record<DeepsightItemSourceType, InventoryItemHashes[]>))
 
