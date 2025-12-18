@@ -982,8 +982,8 @@
 			"ash&iron"
 		],
 		"iconWatermark": "/common/destiny2_content/icons/249813e647271a8227bae0d8a39ed505.png",
-		"subsumeIconWatermarks": [
-			"/common/destiny2_content/icons/6eeb62a30439cecc7699c22f3e1fb3cf.png"
+		"itemHashes": [
+			3524386983
 		],
 		"season": 27,
 		"year": 8,
@@ -1026,6 +1026,9 @@
 	"2037": {
 		"id": "lawless",
 		"iconWatermark": "/common/destiny2_content/icons/4376a7d734583ae347acf9732aa3bb43.png",
+		"itemHashes": [
+			4069880346
+		],
 		"year": 8,
 		"season": 28,
 		"seasonHash": 2758726560,

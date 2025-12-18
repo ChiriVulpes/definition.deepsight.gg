@@ -5134,6 +5134,38 @@
 				{
 					"name": "TheEdgeOfFate",
 					"value": 22
+				},
+				{
+					"name": "FireAndIce",
+					"value": 23
+				},
+				{
+					"name": "TheDawning",
+					"value": 24
+				},
+				{
+					"name": "TheDesertPerpetual",
+					"value": 25
+				},
+				{
+					"name": "TheDesertPerpetualEpic",
+					"value": 26
+				},
+				{
+					"name": "Equilibrium",
+					"value": 27
+				},
+				{
+					"name": "SeasonLawless",
+					"value": 28
+				},
+				{
+					"name": "SeasonReclamation",
+					"value": 29
+				},
+				{
+					"name": "Heliostat",
+					"value": 30
 				}
 			]
 		},
@@ -5163,6 +5195,22 @@
 				{
 					"name": "Campaign",
 					"value": 5
+				},
+				{
+					"name": "ExoticMission",
+					"value": 6
+				},
+				{
+					"name": "Raid",
+					"value": 7
+				},
+				{
+					"name": "Dungeon",
+					"value": 8
+				},
+				{
+					"name": "SeasonPass",
+					"value": 9
 				}
 			]
 		},

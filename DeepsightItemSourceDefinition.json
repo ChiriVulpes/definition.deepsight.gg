@@ -64,11 +64,12 @@
 	"6": {
 		"hash": 6,
 		"category": 0,
+		"event": 3319172235,
 		"displayProperties": {
-			"name": "Monument to Lost Lights",
-			"subtitle": "Exotic Archive",
-			"description": "Built in honor of those who sacrificed their Light to defend humanity. Created in collaboration with Cryptarchs to help Guardians manage armaments.",
-			"icon": "/common/destiny2_content/icons/e1538aa0647a83af5b8e010f1ba29dc5.png"
+			"name": "Valus Saladin",
+			"subtitle": "Legacy Gear",
+			"description": "Saladin Forge, the last surviving Iron Lord and Valus of Caiatl's empire, oversees the Iron Banner event: trial by combat where only the strongest survive.",
+			"icon": "/common/destiny2_content/icons/e21e97ef6c0343c611a46b77f8b9937c.png"
 		}
 	},
 	"7": {
@@ -227,6 +228,83 @@
 			"name": "The Edge of Fate",
 			"subtitle": "Campaign",
 			"icon": "/common/destiny2_content/icons/c197d7085c39c4bc2385f2cdb0dbb65d.png",
+			"description": ""
+		}
+	},
+	"23": {
+		"hash": 23,
+		"category": 6,
+		"displayProperties": {
+			"name": "Fire and Ice",
+			"subtitle": "With Aunor's guidance, enter a Praxic Vault on Europa and claim your Blade.",
+			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7ea033d5203044ba378c14100c646e11.png",
+			"description": ""
+		}
+	},
+	"24": {
+		"hash": 24,
+		"category": 2,
+		"displayProperties": {
+			"name": "The Dawning",
+			"icon": "/common/destiny2_content/icons/DestinyEventCardDefinition_de8fe70bc9e0537c04681f5581c6c452.png",
+			"description": ""
+		}
+	},
+	"25": {
+		"hash": 25,
+		"category": 7,
+		"displayProperties": {
+			"name": "The Desert Perpetual",
+			"subtitle": "Step across the threshold of the infinite.",
+			"icon": "/common/destiny2_content/icons/867b6cee0a67b366eb5329a011cd45aa.png",
+			"description": ""
+		}
+	},
+	"26": {
+		"hash": 26,
+		"category": 7,
+		"displayProperties": {
+			"name": "The Desert Perpetual (Epic)",
+			"subtitle": "Sing for the end of the unknown.",
+			"icon": "/common/destiny2_content/icons/867b6cee0a67b366eb5329a011cd45aa.png",
+			"description": ""
+		}
+	},
+	"27": {
+		"hash": 27,
+		"category": 8,
+		"displayProperties": {
+			"name": "Equilibrium",
+			"subtitle": "Between fire and shadow, the path to balance.",
+			"icon": "/common/destiny2_content/icons/c0b62717cdf4e9d6268106164cb878cd.png",
+			"description": ""
+		}
+	},
+	"28": {
+		"hash": 28,
+		"category": 9,
+		"displayProperties": {
+			"name": "Lawless",
+			"icon": "/common/destiny2_content/icons/DestinySeasonPassDefinition_e26d26718aa8cdda042e116085bd3473.png",
+			"description": ""
+		}
+	},
+	"29": {
+		"hash": 29,
+		"category": 9,
+		"displayProperties": {
+			"name": "Reclamation",
+			"icon": "/common/destiny2_content/icons/DestinySeasonPassDefinition_a16e9585a24eaccc9ef3021a1769e50d.png",
+			"description": ""
+		}
+	},
+	"30": {
+		"hash": 30,
+		"category": 6,
+		"displayProperties": {
+			"name": "Heliostat",
+			"subtitle": "Infiltrate a forgotten Golden Age facility to prevent the Conductor from launching a dangerously modified Warsat.",
+			"icon": "/common/destiny2_content/icons/DestinySeasonPassDefinition_a16e9585a24eaccc9ef3021a1769e50d.png",
 			"description": ""
 		}
 	}
