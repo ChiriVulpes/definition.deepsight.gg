@@ -778,9 +778,7 @@ const DeepsightMomentDefinitionData: Record<keyof typeof MomentHashes, Deepsight
 		id: 'reclamation',
 		aliases: ['ashandiron', 'ash&iron'],
 		iconWatermark: { DestinyInventoryItemDefinition: InventoryItemHashes.ThirdIterationScoutRifle },
-		subsumeIconWatermarks: [
-			{ DestinyInventoryItemDefinition: InventoryItemHashes.SubmersionCombatBow_IsHolofoilfalse },
-		],
+		itemHashes: [InventoryItemHashes.SubmersionCombatBow_IsHolofoilfalse],
 		season: 27,
 		year: 8,
 		seasonHash: SeasonHashes.SeasonReclamation,
@@ -807,6 +805,7 @@ const DeepsightMomentDefinitionData: Record<keyof typeof MomentHashes, Deepsight
 	SeasonLawless: {
 		id: 'lawless',
 		iconWatermark: { DestinyInventoryItemDefinition: InventoryItemHashes.FerropotentCoverHelmetPlug },
+		itemHashes: [InventoryItemHashes.GizmoWeftGrenadeLauncher_IsHolofoilfalse],
 		year: 8,
 		season: 28,
 		seasonHash: SeasonHashes.Season28Lawless_SeasonNumber28,

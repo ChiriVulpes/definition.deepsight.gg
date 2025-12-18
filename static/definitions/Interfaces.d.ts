@@ -608,6 +608,14 @@ export declare const enum DeepsightItemSourceType {
 	LawlessFrontier,
 	Renegades,
 	TheEdgeOfFate,
+	FireAndIce,
+	TheDawning,
+	TheDesertPerpetual,
+	TheDesertPerpetualEpic,
+	Equilibrium,
+	SeasonLawless,
+	SeasonReclamation,
+	Heliostat,
 }
 
 export declare const enum DeepsightItemSourceCategory {
@@ -617,6 +625,10 @@ export declare const enum DeepsightItemSourceCategory {
 	Destination,
 	EventVendor,
 	Campaign,
+	ExoticMission,
+	Raid,
+	Dungeon,
+	SeasonPass,
 }
 
 export declare interface DeepsightItemSourceListDefinition {

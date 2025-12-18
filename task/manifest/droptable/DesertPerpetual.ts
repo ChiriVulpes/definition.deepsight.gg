@@ -1,4 +1,4 @@
-import { ActivityHashes, InventoryItemHashes, RecordHashes } from '@deepsight.gg/Enums'
+import { ActivityHashes, RecordHashes } from '@deepsight.gg/Enums'
 import type { DeepsightDropTableDefinition } from './DeepsightDropTableDefinition'
 
 // https://docs.google.com/spreadsheets/d/1m-Jxdv5uR_k8AchqQ6wekRedEKB--A_rf7eQZMyDO6k/edit
@@ -40,25 +40,25 @@ export default {
 				description: 'Defeat Iatros, Inward-Turned.',
 			},
 			dropTable: {
-				[InventoryItemHashes.IntercalaryAutoRifle]: {},
-				[InventoryItemHashes.TheWhenAndWhereRocketLauncher]: {},
-				[InventoryItemHashes.FiniteMaybeFusionRifle]: {},
+				// [InventoryItemHashes.IntercalaryAutoRifle]: {},
+				// [InventoryItemHashes.TheWhenAndWhereRocketLauncher]: {},
+				// [InventoryItemHashes.FiniteMaybeFusionRifle]: {},
 
-				// hunter
-				[InventoryItemHashes.CollectivePsycheCasqueHelmetPlug]: {},
-				[InventoryItemHashes.CollectivePsycheCuirassChestArmorPlug]: {},
-				[InventoryItemHashes.CollectivePsycheSleevesGauntletsPlug]: {},
-				[InventoryItemHashes.CollectivePsycheCloakHunterCloakPlug]: {},
-				// warlock
-				[InventoryItemHashes.CollectivePsycheCoverHelmetPlug]: {},
-				[InventoryItemHashes.CollectivePsycheRobesChestArmorPlug]: {},
-				[InventoryItemHashes.CollectivePsycheGlovesGauntletsPlug]: {},
-				[InventoryItemHashes.CollectivePsycheBondWarlockBondPlug]: {},
-				// titan
-				[InventoryItemHashes.CollectivePsycheHelmHelmetPlug]: {},
-				[InventoryItemHashes.CollectivePsychePlateChestArmorPlug]: {},
-				[InventoryItemHashes.CollectivePsycheGauntletsGauntletsPlug]: {},
-				[InventoryItemHashes.CollectivePsycheMarkTitanMarkPlug]: {},
+				// // hunter
+				// [InventoryItemHashes.CollectivePsycheCasqueHelmetPlug]: {},
+				// [InventoryItemHashes.CollectivePsycheCuirassChestArmorPlug]: {},
+				// [InventoryItemHashes.CollectivePsycheSleevesGauntletsPlug]: {},
+				// [InventoryItemHashes.CollectivePsycheCloakHunterCloakPlug]: {},
+				// // warlock
+				// [InventoryItemHashes.CollectivePsycheCoverHelmetPlug]: {},
+				// [InventoryItemHashes.CollectivePsycheRobesChestArmorPlug]: {},
+				// [InventoryItemHashes.CollectivePsycheGlovesGauntletsPlug]: {},
+				// [InventoryItemHashes.CollectivePsycheBondWarlockBondPlug]: {},
+				// // titan
+				// [InventoryItemHashes.CollectivePsycheHelmHelmetPlug]: {},
+				// [InventoryItemHashes.CollectivePsychePlateChestArmorPlug]: {},
+				// [InventoryItemHashes.CollectivePsycheGauntletsGauntletsPlug]: {},
+				// [InventoryItemHashes.CollectivePsycheMarkTitanMarkPlug]: {},
 			},
 		},
 
@@ -78,22 +78,22 @@ export default {
 				description: 'Defeat Epoptes, Lord of Quanta.',
 			},
 			dropTable: {
-				[InventoryItemHashes.OpaqueHourglassCombatBow]: {},
-				[InventoryItemHashes.TheWhenAndWhereRocketLauncher]: {},
-				[InventoryItemHashes.LanceEphemeralSniperRifle]: {},
+				// [InventoryItemHashes.OpaqueHourglassCombatBow]: {},
+				// [InventoryItemHashes.TheWhenAndWhereRocketLauncher]: {},
+				// [InventoryItemHashes.LanceEphemeralSniperRifle]: {},
 
-				// hunter
-				[InventoryItemHashes.CollectivePsycheSleevesGauntletsPlug]: {},
-				[InventoryItemHashes.CollectivePsycheStridesLegArmorPlug]: {},
-				[InventoryItemHashes.CollectivePsycheCloakHunterCloakPlug]: {},
-				// warlock
-				[InventoryItemHashes.CollectivePsycheGlovesGauntletsPlug]: {},
-				[InventoryItemHashes.CollectivePsycheBootsLegArmorPlug]: {},
-				[InventoryItemHashes.CollectivePsycheBondWarlockBondPlug]: {},
-				// titan
-				[InventoryItemHashes.CollectivePsycheGauntletsGauntletsPlug]: {},
-				[InventoryItemHashes.CollectivePsycheGreavesLegArmorPlug]: {},
-				[InventoryItemHashes.CollectivePsycheMarkTitanMarkPlug]: {},
+				// // hunter
+				// [InventoryItemHashes.CollectivePsycheSleevesGauntletsPlug]: {},
+				// [InventoryItemHashes.CollectivePsycheStridesLegArmorPlug]: {},
+				// [InventoryItemHashes.CollectivePsycheCloakHunterCloakPlug]: {},
+				// // warlock
+				// [InventoryItemHashes.CollectivePsycheGlovesGauntletsPlug]: {},
+				// [InventoryItemHashes.CollectivePsycheBootsLegArmorPlug]: {},
+				// [InventoryItemHashes.CollectivePsycheBondWarlockBondPlug]: {},
+				// // titan
+				// [InventoryItemHashes.CollectivePsycheGauntletsGauntletsPlug]: {},
+				// [InventoryItemHashes.CollectivePsycheGreavesLegArmorPlug]: {},
+				// [InventoryItemHashes.CollectivePsycheMarkTitanMarkPlug]: {},
 			},
 		},
 
@@ -113,22 +113,22 @@ export default {
 				description: 'Defeat Agraios, Inherent.',
 			},
 			dropTable: {
-				[InventoryItemHashes.LanceEphemeralSniperRifle]: {},
-				[InventoryItemHashes.AntedateSubmachineGun]: {},
-				[InventoryItemHashes.IntercalaryAutoRifle]: {},
+				// [InventoryItemHashes.LanceEphemeralSniperRifle]: {},
+				// [InventoryItemHashes.AntedateSubmachineGun]: {},
+				// [InventoryItemHashes.IntercalaryAutoRifle]: {},
 
-				// hunter
-				[InventoryItemHashes.CollectivePsycheCasqueHelmetPlug]: {},
-				[InventoryItemHashes.CollectivePsycheSleevesGauntletsPlug]: {},
-				[InventoryItemHashes.CollectivePsycheStridesLegArmorPlug]: {},
-				// warlock
-				[InventoryItemHashes.CollectivePsycheCoverHelmetPlug]: {},
-				[InventoryItemHashes.CollectivePsycheGlovesGauntletsPlug]: {},
-				[InventoryItemHashes.CollectivePsycheBootsLegArmorPlug]: {},
-				// titan
-				[InventoryItemHashes.CollectivePsycheHelmHelmetPlug]: {},
-				[InventoryItemHashes.CollectivePsycheGauntletsGauntletsPlug]: {},
-				[InventoryItemHashes.CollectivePsycheGreavesLegArmorPlug]: {},
+				// // hunter
+				// [InventoryItemHashes.CollectivePsycheCasqueHelmetPlug]: {},
+				// [InventoryItemHashes.CollectivePsycheSleevesGauntletsPlug]: {},
+				// [InventoryItemHashes.CollectivePsycheStridesLegArmorPlug]: {},
+				// // warlock
+				// [InventoryItemHashes.CollectivePsycheCoverHelmetPlug]: {},
+				// [InventoryItemHashes.CollectivePsycheGlovesGauntletsPlug]: {},
+				// [InventoryItemHashes.CollectivePsycheBootsLegArmorPlug]: {},
+				// // titan
+				// [InventoryItemHashes.CollectivePsycheHelmHelmetPlug]: {},
+				// [InventoryItemHashes.CollectivePsycheGauntletsGauntletsPlug]: {},
+				// [InventoryItemHashes.CollectivePsycheGreavesLegArmorPlug]: {},
 			},
 		},
 
@@ -153,23 +153,23 @@ export default {
 				description: 'Defeat Koregos, the Worldline',
 			},
 			dropTable: {
-				[InventoryItemHashes.WhirlingOvationRocketLauncher]: {},
-				[InventoryItemHashes.FiniteMaybeFusionRifle]: {},
-				[InventoryItemHashes.OpaqueHourglassCombatBow]: {},
-				[InventoryItemHashes.AntedateSubmachineGun]: {},
+				// [InventoryItemHashes.WhirlingOvationRocketLauncher]: {},
+				// [InventoryItemHashes.FiniteMaybeFusionRifle]: {},
+				// [InventoryItemHashes.OpaqueHourglassCombatBow]: {},
+				// [InventoryItemHashes.AntedateSubmachineGun]: {},
 
-				// hunter
-				[InventoryItemHashes.CollectivePsycheCasqueHelmetPlug]: {},
-				[InventoryItemHashes.CollectivePsycheSleevesGauntletsPlug]: {},
-				[InventoryItemHashes.CollectivePsycheStridesLegArmorPlug]: {},
-				// warlock
-				[InventoryItemHashes.CollectivePsycheCoverHelmetPlug]: {},
-				[InventoryItemHashes.CollectivePsycheGlovesGauntletsPlug]: {},
-				[InventoryItemHashes.CollectivePsycheBootsLegArmorPlug]: {},
-				// titan
-				[InventoryItemHashes.CollectivePsycheHelmHelmetPlug]: {},
-				[InventoryItemHashes.CollectivePsycheGauntletsGauntletsPlug]: {},
-				[InventoryItemHashes.CollectivePsycheGreavesLegArmorPlug]: {},
+				// // hunter
+				// [InventoryItemHashes.CollectivePsycheCasqueHelmetPlug]: {},
+				// [InventoryItemHashes.CollectivePsycheSleevesGauntletsPlug]: {},
+				// [InventoryItemHashes.CollectivePsycheStridesLegArmorPlug]: {},
+				// // warlock
+				// [InventoryItemHashes.CollectivePsycheCoverHelmetPlug]: {},
+				// [InventoryItemHashes.CollectivePsycheGlovesGauntletsPlug]: {},
+				// [InventoryItemHashes.CollectivePsycheBootsLegArmorPlug]: {},
+				// // titan
+				// [InventoryItemHashes.CollectivePsycheHelmHelmetPlug]: {},
+				// [InventoryItemHashes.CollectivePsycheGauntletsGauntletsPlug]: {},
+				// [InventoryItemHashes.CollectivePsycheGreavesLegArmorPlug]: {},
 			},
 		},
 	],
