@@ -1,15 +1,14 @@
 import type { InventoryItemHashes } from '@deepsight.gg/Enums'
 import type { DeepsightVariantDefinition, DeepsightVariantDefinitionEntry, DeepsightVariantTag } from '@deepsight.gg/Interfaces'
 import type { DestinyInventoryItemDefinition } from 'bungie-api-ts/destiny2'
-import fs from 'fs-extra'
-import { Task } from 'task'
 import { getDeepsightAdeptDefinition, REGEX_ADEPT } from './DeepsightAdeptDefinition'
 import { getDeepsightCollectionsDefinition, getWatermarkToMomentHashLookupTable } from './DeepsightCollectionsDefinition'
 import { getDeepsightSocketCategorisation } from './DeepsightSocketCategorisation'
+import DefinitionTable from './utility/DefinitionTable'
 import DestinyManifest from './utility/endpoint/DestinyManifest'
 import ItemPreferred from './utility/ItemPreferred'
 
-export default Task('DeepsightVariantDefinition', async () => {
+export default DefinitionTable<DeepsightVariantDefinition>('DeepsightVariantDefinition', async () => {
 	const DestinyInventoryItemDefinition = await DestinyManifest.DestinyInventoryItemDefinition.all()
 
 	const DeepsightCollectionsDefinition = await getDeepsightCollectionsDefinition()
@@ -86,14 +85,11 @@ export default Task('DeepsightVariantDefinition', async () => {
 	}
 
 	const groups = Array.from(variantGroups.values()).filter(g => g.length > 1)
-	const DeepsightVariantDefinition: DeepsightVariantDefinition = {
+	return {
 		variantGroupLookupTable: (groups
 			.flatMap((group, i) => group.map(item => [item.hash, i] as const))
 			.toObject()
 		),
 		groups,
 	}
-
-	await fs.mkdirp('docs/definitions')
-	await fs.writeJson('docs/definitions/DeepsightVariantDefinition.json', DeepsightVariantDefinition, { spaces: '\t' })
 })

@@ -25,8 +25,10 @@ import DeepsightVariantDefinition from './manifest/DeepsightVariantDefinition'
 import DeepsightWallpaperDefinition from './manifest/DeepsightWallpaperDefinition'
 import DeepsightWeaponFoundryDefinition from './manifest/DeepsightWeaponFoundryDefinition'
 import DeepsightWeaponTypeDefinition from './manifest/DeepsightWeaponTypeDefinition'
+import prune_enums from './prune_enums'
 import refresh_token from './refresh_token'
 import Arrays from './utility/Arrays'
+import Env from './utility/Env'
 import Generators from './utility/Generators'
 
 Arrays.applyPrototypes()
@@ -73,5 +75,6 @@ export default Task('deepsight_manifest', task => task.series(
 			)
 		),
 	),
+	...Env.DEEPSIGHT_ENVIRONMENT !== 'dev' || Env.DEEPSIGHT_PRUNE ? [prune_enums] : [],
 	bump_versions,
 ))
