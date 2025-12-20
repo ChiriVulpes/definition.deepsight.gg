@@ -230,7 +230,10 @@ class PGCR {
 			const { done, value } = await reader.read();
 			if (done)
 				break;
-			buffer += new TextDecoder().decode(value);
+
+			const decoded = new TextDecoder().decode(value)
+			process.stdout.write(decoded);
+			buffer += decoded;
 
 			if (!buffer.includes("\n\n"))
 				// not enough data yet
