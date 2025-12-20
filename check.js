@@ -232,7 +232,7 @@ class PGCR {
 				break;
 
 			const decoded = new TextDecoder().decode(value)
-			process.stdout.write(decoded);
+			process.stdout.write(JSON.stringify(decoded));
 			buffer += decoded;
 
 			if (!buffer.includes("\n\n"))
