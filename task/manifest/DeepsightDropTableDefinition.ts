@@ -1,8 +1,8 @@
-import { ActivityGraphHashes, ActivityHashes, ActivityModeHashes, ActivityTypeHashes, FireteamFinderActivityGraphHashes, InventoryItemHashes, PresentationNodeHashes, RecordHashes, TraitHashes } from '@deepsight.gg/Enums'
-import type { DestinyActivityGraphDefinition } from 'bungie-api-ts/destiny2/interfaces'
+import { ActivityGraphHashes, ActivityHashes, ActivityModeHashes, ActivityTypeHashes, InventoryItemHashes, PresentationNodeHashes, RecordHashes, TraitHashes } from '@deepsight.gg/Enums'
 import fs from 'fs-extra'
 import { Log, Task } from 'task'
 import type { DeepsightDisplayPropertiesDefinition, DeepsightDropTableRotationsDefinition } from '../../static/definitions/Interfaces'
+import { NonNullish } from '../utility/Arrays'
 import Time from '../utility/Time'
 import { getCollectionsCopies } from './DeepsightCollectionsDefinition'
 import DestinyManifestReference from './DestinyManifestReference'
@@ -12,12 +12,12 @@ import type { Activity } from './utility/endpoint/DestinyActivities'
 import DestinyActivities from './utility/endpoint/DestinyActivities'
 import manifest, { DESTINY_MANIFEST_MISSING_ICON_PATH } from './utility/endpoint/DestinyManifest'
 
-const ACTIVITY_GRAPH_HASH_SOLO_OPS = 1733518967
-const ACTIVITY_GRAPH_HASH_FIRETEAM_OPS = 2021988413
-const ACTIVITY_GRAPH_HASH_PINNACLE_OPS = 2427019152
-const ACTIVITY_GRAPH_HASH_CRUCIBLE_OPS = 2681843097
+const _ = undefined
+
 export default Task('DeepsightDropTableDefinition', async () => {
-	const { DestinyActivityDefinition, DestinyActivityGraphDefinition } = manifest
+	const DestinyActivityGraphDefinition = await manifest.DestinyActivityGraphDefinition.all()
+
+	const { DestinyActivityDefinition } = manifest
 	const activities = await DestinyActivities.get()
 
 	////////////////////////////////////
@@ -27,7 +27,7 @@ export default Task('DeepsightDropTableDefinition', async () => {
 	let legendExoticMission: Activity | undefined
 
 	if (!normalExoticMission || !legendExoticMission) {
-		const legendsGraph = await DestinyActivityGraphDefinition.get(ActivityGraphHashes.Legends)
+		const legendsGraph = DestinyActivityGraphDefinition[ActivityGraphHashes.Legends]
 		const exoticMissionsNodeHash = 329299745
 		const exoticMissionsNode = legendsGraph?.nodes.find(node => node.nodeId === exoticMissionsNodeHash)
 		const exoticMissions = activities.filter(activity => exoticMissionsNode?.activities.some(exoticMission => exoticMission.activityHash === activity.activity.activityHash))
@@ -318,54 +318,75 @@ export default Task('DeepsightDropTableDefinition', async () => {
 	//#endregion
 	////////////////////////////////////
 
-	const portal = {
-		soloOps: await DestinyActivityGraphDefinition.get(ACTIVITY_GRAPH_HASH_SOLO_OPS),
-		fireteamOps: await DestinyActivityGraphDefinition.get(ACTIVITY_GRAPH_HASH_FIRETEAM_OPS),
-		pinnacleOps: await DestinyActivityGraphDefinition.get(ACTIVITY_GRAPH_HASH_PINNACLE_OPS),
-		crucibleOps: await DestinyActivityGraphDefinition.get(ACTIVITY_GRAPH_HASH_CRUCIBLE_OPS),
-	}
-	for (const [type, graph] of Object.entries(portal) as [keyof typeof portal, DestinyActivityGraphDefinition][]) {
-		NextNode: for (const node of graph.nodes) {
-			for (const activity of activities) {
-				if (!node.activities.some(a => a.activityHash === activity.activity.activityHash))
+	const DestinyGlobalConstantsDefinition = await manifest.DestinyGlobalConstantsDefinition.get(1)
+	const DestinyFireteamFinderActivityGraphDefinition = await manifest.DestinyFireteamFinderActivityGraphDefinition.all()
+	const portal = Object.entries(DestinyGlobalConstantsDefinition?.portalActivityGraphRootNodesWithIcons ?? {})
+		.map(([hashString, icon]) => {
+			const def = DestinyFireteamFinderActivityGraphDefinition[+hashString]
+			for (const hash of def?.selfAndAllDescendantHashes ?? []) {
+				const ffDefWithMainGraphLinked = DestinyFireteamFinderActivityGraphDefinition[hash]
+				if (ffDefWithMainGraphLinked.relatedDirectorNodes.length !== 1)
 					continue
 
-				const mainActivity = await DestinyActivityDefinition.get(node.activities.at(0)?.activityHash) ?? activity.definition
-				const displayProperties = mainActivity?.originalDisplayProperties ?? activity.definition?.displayProperties
-				if (!displayProperties)
+				const graph = DestinyActivityGraphDefinition[ffDefWithMainGraphLinked.relatedDirectorNodes[0].activityGraphHash as ActivityGraphHashes]
+				if (!graph || graph.nodes.flatMap(node => node.activities).length <= 2)
 					continue
 
-				// found the activity in the portal!
-
-				const bonusFocus = activity.activity.visibleRewards.flatMap(reward => reward.rewardItems).find(item => item.uiStyle.startsWith('daily_grind'))
-				if (!bonusFocus)
-					continue NextNode
-
-				const fireteamFinderGraphHash = ({
-					soloOps: FireteamFinderActivityGraphHashes.SoloOps_ChildrenLength2,
-					fireteamOps: FireteamFinderActivityGraphHashes.FireteamOps_ColorUndefined,
-					pinnacleOps: FireteamFinderActivityGraphHashes.PinnacleOps,
-					crucibleOps: FireteamFinderActivityGraphHashes.CrucibleOps,
-				} satisfies Record<keyof typeof portal, FireteamFinderActivityGraphHashes>)[type]
-				DeepsightDropTableDefinition[activity.activity.activityHash as ActivityHashes] = {
-					hash: activity.activity.activityHash,
-					type: 'bonus-focus',
-					availability: 'rotator',
-					displayProperties: {
-						...displayProperties,
-						icon: await DestinyManifestReference.resolve({ DestinyRecordDefinition: RecordHashes.ThisOrderlyConduct_RewardItems0Quantity1 }, 'icon'),
-					},
-					dropTable: {
-						[bonusFocus.itemQuantity.itemHash]: {},
-					},
-					typeDisplayProperties: await DestinyManifestReference.resolveAll({
-						name: { DestinyFireteamFinderActivityGraphDefinition: fireteamFinderGraphHash },
-						description: { DestinyFireteamFinderActivityGraphDefinition: fireteamFinderGraphHash },
-						icon: `./image/png/activity/portal_${type.slice(0, -3)}.png`,
-					}),
-					pgcrImage: type === 'crucibleOps' ? (await DestinyActivityDefinition.get(ActivityHashes.TwilightGap111657329))?.pgcrImage : undefined,
+				return {
+					fireteamFinderGraph: def,
+					activityGraph: graph,
+					icon,
 				}
-				continue NextNode
+			}
+		})
+		.filter(NonNullish)
+	for (const portalNode of portal) {
+		for (const node of portalNode.activityGraph.nodes) {
+			const availableActivities = activities.filter(activity => node.activities.some(a => activity.activity.activityHash === a.activityHash))
+			const availableActivityHashes = availableActivities.map(a => a.activity.activityHash).toSet()
+			if (!availableActivityHashes.size || availableActivityHashes.size > 2)
+				continue
+
+			const originalNames = availableActivities.map(a => a.definition?.originalDisplayProperties.name).toSet()
+			if (originalNames.size !== 1)
+				continue
+
+			const [activityHash] = availableActivityHashes as Set<ActivityHashes>
+			const activity = availableActivities[0]
+
+			const hasMainActivity = node.activities.length === 1
+			const mainActivity = _
+				?? (!hasMainActivity ? undefined : await DestinyActivityDefinition.get(node.activities.at(0)?.activityHash))
+				?? activity.definition
+
+			const displayProperties = mainActivity?.originalDisplayProperties ?? activity.definition?.displayProperties
+			if (!displayProperties)
+				continue
+
+			// found the activity in the portal!
+
+			const bonusFocus = availableActivities
+				.flatMap(activity => activity.activity.visibleRewards)
+				.flatMap(reward => reward.rewardItems)
+				.filter(item => item.uiStyle.startsWith('daily_grind'))
+			if (!bonusFocus)
+				continue
+
+			DeepsightDropTableDefinition[activityHash] = {
+				hash: activityHash,
+				type: 'bonus-focus',
+				availability: 'rotator',
+				displayProperties: {
+					...displayProperties,
+					icon: await DestinyManifestReference.resolve({ DestinyRecordDefinition: RecordHashes.ThisOrderlyConduct_RewardItems0Quantity1 }, 'icon'),
+				},
+				dropTable: bonusFocus.toObject(bonusFocus => [bonusFocus.itemQuantity.itemHash, {}]),
+				typeDisplayProperties: await DestinyManifestReference.resolveAll({
+					name: { DestinyFireteamFinderActivityGraphDefinition: portalNode.fireteamFinderGraph.hash },
+					description: { DestinyFireteamFinderActivityGraphDefinition: portalNode.fireteamFinderGraph.hash },
+					icon: portalNode.icon,
+				}),
+				pgcrImage: activity.definition?.activityModeHashes.includes(ActivityModeHashes.Crucible) ? (await DestinyActivityDefinition.get(ActivityHashes.TwilightGap111657329))?.pgcrImage : undefined,
 			}
 		}
 	}
