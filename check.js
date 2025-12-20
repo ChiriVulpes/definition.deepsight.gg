@@ -1,3 +1,5 @@
+// @ts-check
+
 /* eslint-disable @typescript-eslint/no-var-requires, no-undef, @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-assignment */
 const fs = require("fs/promises");
 
@@ -71,6 +73,7 @@ class Time {
 	}
 }
 
+const ENDPOINT_PGCR_SSE = "https://sse.cbro.dev/latest"
 const ENDPOINT_PGCR = "https://stats.bungie.net/Platform/Destiny2/Stats/PostGameCarnageReport";
 const ESTIMATED_PGCRS_PER_SECOND = 69; // technically it's closer to 70 but this is nicer
 const REFERENCE_PGCR_RETRIEVAL_DELAY = Time.minutes(45);
@@ -135,6 +138,9 @@ class PGCR {
 	 * @property {Iso} period
 	 * @property {PGCRActivityDetails} activityDetails
 	 */
+
+	////////////////////////////////////
+	//#region Binary Search
 
 	/**
 	 * Binary searches over the PGCRs looking for any PGCR more recent than the target time.
@@ -203,6 +209,52 @@ class PGCR {
 		}
 	}
 
+	//#endregion
+	////////////////////////////////////
+
+	static async getRecent () {
+		const abortController = new AbortController();
+		setTimeout(() => abortController.abort(), 5000); // 15 seconds max for a request
+		const response = await fetch(ENDPOINT_PGCR_SSE, {
+			signal: abortController.signal,
+			headers: {
+				"User-Agent": "deepsight.gg:manifest/0.0.0",
+			},
+		});
+		const reader = response.body?.getReader();
+		if (!reader)
+			throw new Error("Unable to read PGCR SSE stream");
+
+		let buffer = "";
+		while (true) {
+			const { done, value } = await reader.read();
+			if (done)
+				break;
+			buffer += new TextDecoder().decode(value);
+
+			if (!buffer.includes("\n\n"))
+				// not enough data yet
+				continue;
+
+			const parts = buffer.split("\n\n");
+			for (let i = 0; i < parts.length - 1; i++) {
+				const part = parts[i].trim();
+				if (!part.startsWith("data: "))
+					continue
+
+				const jsonString = part.slice(6);
+				const json = JSON.parse(jsonString);
+				const pgcr = json.maxPgcr && await this.getPGCR(json.maxPgcr).catch(() => undefined);
+				if (pgcr)
+					return pgcr
+			}
+
+			buffer = buffer.slice(buffer.lastIndexOf("\n\n") + 2);
+		}
+
+		return undefined;
+	}
+
 	/**
 	 * @param {number} id
 	 */
@@ -246,18 +298,18 @@ void (async () => {
 
 	if (lastDailyReset !== savedLastDailyReset && Date.now() - lastDailyReset > REFERENCE_PGCR_RETRIEVAL_DELAY) {
 		console.log("New reference PGCR required");
-		let searchStart;
-		let searchEnd;
+		// let searchStart;
+		// let searchEnd;
 
-		const lastRefPGCR = versions.referencePostGameCarnageReportSinceDailyReset;
-		if (lastRefPGCR) {
-			const refId = +lastRefPGCR.instanceId;
-			const refTime = new Date(lastRefPGCR.period).getTime();
-			searchStart = refId;
-			searchEnd = refId + ESTIMATED_PGCRS_PER_SECOND * Time.elapsed("seconds", refTime, Date.now()) * 20;
-		}
+		// const lastRefPGCR = versions.referencePostGameCarnageReportSinceDailyReset;
+		// if (lastRefPGCR) {
+		// 	const refId = +lastRefPGCR.instanceId;
+		// 	const refTime = new Date(lastRefPGCR.period).getTime();
+		// 	searchStart = refId;
+		// 	searchEnd = refId + ESTIMATED_PGCRS_PER_SECOND * Time.elapsed("seconds", refTime, Date.now()) * 20;
+		// }
 
-		const recentPGCR = await PGCR.getNewerThan(lastDailyReset + Time.minutes(35), searchStart, searchEnd);
+		const recentPGCR = await PGCR.getRecent() // .getNewerThan(lastDailyReset + Time.minutes(35), searchStart, searchEnd);
 		if (recentPGCR) {
 			needsUpdate = true;
 			versions.deepsight++;
