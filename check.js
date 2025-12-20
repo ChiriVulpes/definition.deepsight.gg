@@ -214,7 +214,7 @@ class PGCR {
 
 	static async getRecent () {
 		const abortController = new AbortController();
-		setTimeout(() => abortController.abort(), 5000); // 15 seconds max for a request
+		setTimeout(() => abortController.abort(), 15000); // 15 seconds max for a request
 		const response = await fetch(ENDPOINT_PGCR_SSE, {
 			signal: abortController.signal,
 			headers: {
