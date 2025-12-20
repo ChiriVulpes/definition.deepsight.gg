@@ -214,7 +214,7 @@ class PGCR {
 
 	static async getRecent () {
 		const abortController = new AbortController();
-		setTimeout(() => abortController.abort(), 15000); // 15 seconds max for a request
+		setTimeout(() => abortController.abort(), 5000);
 		const response = await fetch(ENDPOINT_PGCR_SSE, {
 			signal: abortController.signal,
 			headers: {
@@ -232,7 +232,6 @@ class PGCR {
 				break;
 
 			const decoded = new TextDecoder().decode(value)
-			process.stdout.write(JSON.stringify(decoded));
 			buffer += decoded;
 
 			if (!buffer.includes("\n\n"))
@@ -248,8 +247,8 @@ class PGCR {
 				const jsonString = part.slice(6);
 				const json = JSON.parse(jsonString);
 				const pgcr = json.maxPgcr && await this.getPGCR(json.maxPgcr).catch(() => undefined);
-				if (pgcr?.Response?.period) {
-					const date = new Date(pgcr.Response.period);
+				if (pgcr?.period) {
+					const date = new Date(pgcr.period);
 					console.log(`Using PGCR ${json.maxPgcr} from ${date.toLocaleString("en-NZ", { timeZone: "Pacific/Auckland" })}`);
 					return pgcr
 				}
