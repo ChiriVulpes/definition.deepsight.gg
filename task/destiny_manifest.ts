@@ -86,7 +86,7 @@ export default Task("destiny_manifest", async () => {
 				if (writeStream) {
 					writeStream.close();
 					if (!writeStream.writableFinished)
-						await new Promise(resolve => writeStream?.on("finish", resolve));
+						await new Promise<void>(resolve => writeStream?.on("finish", resolve));
 				}
 				continue;
 			}
@@ -96,7 +96,7 @@ export default Task("destiny_manifest", async () => {
 				if (writeStream) {
 					writeStream.close();
 					if (!writeStream.writableFinished)
-						await new Promise(resolve => writeStream?.on("finish", resolve));
+						await new Promise<void>(resolve => writeStream?.on("finish", resolve));
 				}
 				continue;
 			}
@@ -111,7 +111,7 @@ export default Task("destiny_manifest", async () => {
 		if (writeStream) {
 			writeStream.close();
 			if (!writeStream.writableFinished)
-				await new Promise(resolve => writeStream?.on("finish", resolve));
+				await new Promise<void>(resolve => writeStream?.on("finish", resolve));
 		}
 	}
 

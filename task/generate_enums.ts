@@ -469,7 +469,7 @@ export default Task('generate_enums', async () => {
 	stream.close()
 
 	if (!stream.writableFinished && stream)
-		await new Promise(resolve => stream.on('finish', resolve))
+		await new Promise<void>(resolve => stream.on('finish', resolve))
 
 	delete Env.ENUMS_NEED_UPDATE
 

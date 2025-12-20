@@ -6,6 +6,7 @@ export default Task('install', async task => {
 		dependencies: {
 			lint: { repo: 'fluff4me/lint' },
 			task: { repo: 'chirivulpes/task', branch: 'package' },
+			'bungie-api-ts': { name: 'bungie-api-ts' },
 		},
 	})
 })
