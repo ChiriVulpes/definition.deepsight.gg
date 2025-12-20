@@ -245,8 +245,11 @@ class PGCR {
 				const jsonString = part.slice(6);
 				const json = JSON.parse(jsonString);
 				const pgcr = json.maxPgcr && await this.getPGCR(json.maxPgcr).catch(() => undefined);
-				if (pgcr)
+				if (pgcr?.Response?.period) {
+					const date = new Date(pgcr.Response.period);
+					console.log(`Using PGCR ${json.maxPgcr} from ${date.toLocaleString("en-NZ", { timeZone: "Pacific/Auckland" })}`);
 					return pgcr
+				}
 			}
 
 			buffer = buffer.slice(buffer.lastIndexOf("\n\n") + 2);
