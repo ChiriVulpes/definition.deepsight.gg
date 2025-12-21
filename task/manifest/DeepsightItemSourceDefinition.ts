@@ -412,7 +412,7 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 			}),
 		},
 		[DeepsightItemSourceType.TheDawning]: {
-			items: getSeasonVendorEngrams('Dawning'),
+			items: getSeasonVendorEngrams('Dawning').then(vendors => vendors.filter(vendor => vendor.hash !== VendorHashes.DawningEngram)),
 			category: DeepsightItemSourceCategory.EventReward,
 			displayProperties: DestinyManifestReference.resolveAll({
 				name: { DestinyEventCardDefinition: EventCardHashes.TheDawning },
