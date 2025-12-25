@@ -36,6 +36,9 @@
 	"1001": {
 		"id": "dawning",
 		"iconWatermark": "/common/destiny2_content/icons/83fbcacd223402c09af4b7ab067f8cce.png",
+		"subsumeIconWatermarks": [
+			"/common/destiny2_content/icons/c933d4e7b7a7dd15a46cac1553a98439.png"
+		],
 		"event": 2302439334,
 		"hash": 1001,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/be60f0242a039e62f1c5d4fc97801c75.png",
@@ -87,6 +90,9 @@
 	"1004": {
 		"id": "solstice",
 		"iconWatermark": "/common/destiny2_content/icons/50c3ebe414c6946429934d79504922fa.png",
+		"subsumeIconWatermarks": [
+			"/common/destiny2_content/icons/6379c64752a37732c4de73c85cb8af7c.png"
+		],
 		"event": 3841872876,
 		"hash": 1004,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/518a725160c326a532b33c4af7a5e027.png",
@@ -107,6 +113,9 @@
 			"fotl"
 		],
 		"iconWatermark": "/common/destiny2_content/icons/53dc0b02306726ff1517af33ac908cef.png",
+		"subsumeIconWatermarks": [
+			"/common/destiny2_content/icons/b9620c9768c298515caeb183a3388163.png"
+		],
 		"event": 3265920761,
 		"hash": 1005,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/6529f7497921fd62d40c7fa7a1e00dd3.png",
@@ -800,6 +809,9 @@
 			"icon": "/common/destiny2_content/icons/c0f7303fe5e0d0a54d7aadf1277f0488.png"
 		},
 		"iconWatermark": "/common/destiny2_content/icons/60d34bc853c51063b79592233c3661d4.png",
+		"subsumeIconWatermarks": [
+			"/common/destiny2_content/icons/b2410a70904ab0b09a716054c83fbcfd.png"
+		],
 		"images": [
 			"/img/destiny_content/pgcr/onslaught-vostok.jpg",
 			"/img/destiny_content/pgcr/onslaught-midtown.jpg",
@@ -824,6 +836,9 @@
 			"icon": "/common/destiny2_content/icons/fdd332402722c2b18b4972adff0c4cd0.png"
 		},
 		"iconWatermark": "/common/destiny2_content/icons/661c84a377389a3b8a1fc38b44189b41.png",
+		"subsumeIconWatermarks": [
+			"/common/destiny2_content/icons/24174c8ceefc3aea6bfe6b9d45de9d07.png"
+		],
 		"primaryImage": "/img/destiny_content/pgcr/tfs_m6.jpg",
 		"images": [
 			"/img/destiny_content/pgcr/tfs_m2.jpg",
@@ -929,15 +944,18 @@
 			"description": "The Emmisary brings you a message from The Nine. They put forth a challenge to the Lightbearers — We ask: make known your value, so divided gods may wield you in time.",
 			"icon": "/common/destiny2_content/icons/1f952c42cf32bcfd61d2ad1dd2dee43c.png"
 		},
-		"iconWatermark": "/common/destiny2_content/icons/03d000a7f097b6e12012b8c2eab0b1ad.png",
+		"iconWatermark": "/common/destiny2_content/icons/0d6c3365022ed3b059eac467b076978f.png",
+		"subsumeIconWatermarks": [
+			"/common/destiny2_content/icons/03d000a7f097b6e12012b8c2eab0b1ad.png"
+		],
 		"images": [
 			"/img/destiny_content/pgcr/supercluster_vendor.jpg"
 		],
 		"year": 7,
 		"expansion": true,
 		"hash": 2033,
-		"iconWatermarkShelved": "/common/destiny2_content/icons/421a444fd0d7a54b3c8dcf6e8d386ffe.png",
-		"iconWatermarkFeatured": "/common/destiny2_content/icons/421a444fd0d7a54b3c8dcf6e8d386ffe.png",
+		"iconWatermarkShelved": "/common/destiny2_content/icons/17efe5b87a689739a5008426773f9cd5.png",
+		"iconWatermarkFeatured": "/common/destiny2_content/icons/17efe5b87a689739a5008426773f9cd5.png",
 		"primaryImage": "/img/destiny_content/pgcr/supercluster_vendor.jpg"
 	},
 	"2034": {
@@ -983,7 +1001,9 @@
 		],
 		"iconWatermark": "/common/destiny2_content/icons/249813e647271a8227bae0d8a39ed505.png",
 		"itemHashes": [
-			3524386983
+			3524386983,
+			1724104236,
+			1937857105
 		],
 		"season": 27,
 		"year": 8,
@@ -1027,7 +1047,8 @@
 		"id": "lawless",
 		"iconWatermark": "/common/destiny2_content/icons/4376a7d734583ae347acf9732aa3bb43.png",
 		"itemHashes": [
-			4069880346
+			4069880346,
+			1572604081
 		],
 		"year": 8,
 		"season": 28,
