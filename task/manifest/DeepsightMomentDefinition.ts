@@ -75,6 +75,9 @@ const DeepsightMomentDefinitionData: Record<keyof typeof MomentHashes, Deepsight
 	TheDawning: {
 		id: 'dawning',
 		iconWatermark: { DestinyInventoryItemDefinition: InventoryItemHashes.ZephyrSword3400256755 },
+		subsumeIconWatermarks: [
+			{ DestinyInventoryItemDefinition: InventoryItemHashes.PermafrostGrenadeLauncher_IsHolofoiltrue },
+		],
 		event: EventCardHashes.TheDawning,
 	},
 	CrimsonDays: {
@@ -98,12 +101,18 @@ const DeepsightMomentDefinitionData: Record<keyof typeof MomentHashes, Deepsight
 	Solstice: {
 		id: 'solstice',
 		iconWatermark: { DestinyInventoryItemDefinition: InventoryItemHashes.CandescentGlovesGauntletsPlug },
+		subsumeIconWatermarks: [
+			{ DestinyInventoryItemDefinition: InventoryItemHashes.FestivalFlightGrenadeLauncher_IsHolofoiltrue },
+		],
 		event: EventCardHashes.Solstice,
 	},
 	FestivalOfTheLost: {
 		id: 'festivalofthelost',
 		aliases: ['fotl'],
 		iconWatermark: { DestinyInventoryItemDefinition: InventoryItemHashes.BraytechWerewolfAutoRifle528834068 },
+		subsumeIconWatermarks: [
+			{ DestinyInventoryItemDefinition: InventoryItemHashes.HushedWhisperCombatBow_IsHolofoiltrue },
+		],
 		event: EventCardHashes.FestivalOfTheLost,
 	},
 	TheRedWar: {
@@ -636,6 +645,9 @@ const DeepsightMomentDefinitionData: Record<keyof typeof MomentHashes, Deepsight
 			icon: { DestinyRecordDefinition: RecordHashes.BraveCollector },
 		},
 		iconWatermark: { DestinyInventoryItemDefinition: InventoryItemHashes.ParadeHelmHelmetPlug },
+		subsumeIconWatermarks: [
+			{ DestinyInventoryItemDefinition: InventoryItemHashes.HungJurySr4ScoutRifle205225492 },
+		],
 		images: [
 			{ DestinyActivityDefinition: { hash: ActivityHashes.VostokOnslaught_ChallengesLength0, property: 'pgcrImage' } },
 			{ DestinyActivityDefinition: { hash: ActivityHashes.MidtownOnslaught_ChallengesLength0, property: 'pgcrImage' } },
@@ -656,6 +668,9 @@ const DeepsightMomentDefinitionData: Record<keyof typeof MomentHashes, Deepsight
 			icon: { DestinyInventoryItemDefinition: { hash: InventoryItemHashes.LegacyTheFinalShapeQuestStep_Step0_SetDataSetIsFeaturedfalse, iconSequence: 0, frame: 2 } },
 		},
 		iconWatermark: { DestinyInventoryItemDefinition: InventoryItemHashes.ErgoSumSword },
+		subsumeIconWatermarks: [
+			{ DestinyInventoryItemDefinition: InventoryItemHashes.VeteranLegendCasqueHelmet },
+		],
 		primaryImage: { DestinyActivityDefinition: { hash: ActivityHashes.DissentNormal, property: 'pgcrImage' } },
 		images: [
 			// https://github.com/Bungie-net/api/issues/2037
@@ -737,7 +752,10 @@ const DeepsightMomentDefinitionData: Record<keyof typeof MomentHashes, Deepsight
 			// description: { DestinyActivityDefinition: ActivityHashes.TheRiteOfTheNine },
 			icon: { DestinyRecordDefinition: RecordHashes.SeekerOfTheNine },
 		},
-		iconWatermark: { DestinyInventoryItemDefinition: InventoryItemHashes.TerminusHorizonMachineGun2730671571 },
+		iconWatermark: { DestinyInventoryItemDefinition: InventoryItemHashes.NewPacificEpitaphAdeptGrenadeLauncher_IsHolofoilfalse },
+		subsumeIconWatermarks: [
+			{ DestinyInventoryItemDefinition: InventoryItemHashes.NewPacificEpitaphAdeptGrenadeLauncher_IsHolofoiltrue }
+		],
 		images: [
 			{ DestinyActivityDefinition: { hash: ActivityHashes.TheRiteOfTheNine, property: 'pgcrImage' } },
 		],
@@ -778,7 +796,11 @@ const DeepsightMomentDefinitionData: Record<keyof typeof MomentHashes, Deepsight
 		id: 'reclamation',
 		aliases: ['ashandiron', 'ash&iron'],
 		iconWatermark: { DestinyInventoryItemDefinition: InventoryItemHashes.ThirdIterationScoutRifle },
-		itemHashes: [InventoryItemHashes.SubmersionCombatBow_IsHolofoilfalse],
+		itemHashes: [
+			InventoryItemHashes.SubmersionCombatBow_IsHolofoilfalse,
+			InventoryItemHashes.SubmersionCombatBow_IsHolofoiltrue,
+			InventoryItemHashes.PhosphorAscentConsumable,
+		],
 		season: 27,
 		year: 8,
 		seasonHash: SeasonHashes.SeasonReclamation,
@@ -805,7 +827,10 @@ const DeepsightMomentDefinitionData: Record<keyof typeof MomentHashes, Deepsight
 	SeasonLawless: {
 		id: 'lawless',
 		iconWatermark: { DestinyInventoryItemDefinition: InventoryItemHashes.FerropotentCoverHelmetPlug },
-		itemHashes: [InventoryItemHashes.GizmoWeftGrenadeLauncher_IsHolofoilfalse],
+		itemHashes: [
+			InventoryItemHashes.GizmoWeftGrenadeLauncher_IsHolofoilfalse,
+			InventoryItemHashes.GizmoWeftGrenadeLauncher_IsHolofoiltrue,
+		],
 		year: 8,
 		season: 28,
 		seasonHash: SeasonHashes.Season28Lawless_SeasonNumber28,
