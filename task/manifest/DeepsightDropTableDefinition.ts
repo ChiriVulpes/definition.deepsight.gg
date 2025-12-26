@@ -105,7 +105,7 @@ export default Task('DeepsightDropTableDefinition', async () => {
 			endTime: Time.iso(Time.nextWeeklyReset),
 			type: 'exotic-mission',
 			typeDisplayProperties: await DestinyManifestReference.resolveAll({
-				name: { DestinyPresentationNodeDefinition: PresentationNodeHashes.ExoticMission_ObjectiveHash3349214720 },
+				name: { DestinyPresentationNodeDefinition: PresentationNodeHashes.ExoticMissions_ParentNodeHashesLength1 },
 				description: { DestinyActivityTypeDefinition: ActivityTypeHashes.Dungeon },
 				icon: { DestinyTraitDefinition: TraitHashes.ItemQuestExotic },
 			}),
