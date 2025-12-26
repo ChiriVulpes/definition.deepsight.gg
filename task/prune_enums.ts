@@ -57,7 +57,7 @@ export default Task('prune_enums', async task => {
 
 	const items = await manifest.DestinyInventoryItemDefinition.all()
 	for (const itemHash in items) {
-		if (items[itemHash].itemTypeDisplayName.includes('Order')) {
+		if (items[itemHash].itemTypeDisplayName?.includes('Order')) {
 			usedItemHashes.add(+itemHash as InventoryItemHashes)
 		}
 	}
