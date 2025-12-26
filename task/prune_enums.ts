@@ -5,6 +5,7 @@ import { getDeepsightCollectionsDefinition } from './manifest/DeepsightCollectio
 import DeepsightVariantDefinition from './manifest/DeepsightVariantDefinition'
 import DeepsightPlugCategorisation from './manifest/plugtype/DeepsightPlugCategorisation'
 import Categorisation from './manifest/utility/Categorisation'
+import manifest from './manifest/utility/endpoint/DestinyManifest'
 
 export default Task('prune_enums', async task => {
 	let enums = await fs.readFile('docs/definitions/Enums.d.ts', 'utf-8')
@@ -52,6 +53,13 @@ export default Task('prune_enums', async task => {
 			continue
 
 		usedItemHashes.add(plugCat.hash)
+	}
+
+	const items = await manifest.DestinyInventoryItemDefinition.all()
+	for (const itemHash in items) {
+		if (items[itemHash].itemTypeDisplayName.includes('Order')) {
+			usedItemHashes.add(+itemHash as InventoryItemHashes)
+		}
 	}
 
 	const pruned = [...InventoryItemHashes]
