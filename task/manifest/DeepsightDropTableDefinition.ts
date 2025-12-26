@@ -1,4 +1,4 @@
-import { ActivityGraphHashes, ActivityHashes, ActivityModeHashes, ActivityTypeHashes, InventoryItemHashes, PresentationNodeHashes, RecordHashes, TraitHashes } from '@deepsight.gg/Enums'
+import { ActivityGraphHashes, ActivityHashes, ActivityModeHashes, ActivityTypeHashes, InventoryItemHashes, RecordHashes, TraitHashes } from '@deepsight.gg/Enums'
 import fs from 'fs-extra'
 import { Log, Task } from 'task'
 import type { DeepsightDisplayPropertiesDefinition, DeepsightDropTableRotationsDefinition } from '../../static/definitions/Interfaces'
@@ -105,7 +105,7 @@ export default Task('DeepsightDropTableDefinition', async () => {
 			endTime: Time.iso(Time.nextWeeklyReset),
 			type: 'exotic-mission',
 			typeDisplayProperties: await DestinyManifestReference.resolveAll({
-				name: { DestinyPresentationNodeDefinition: PresentationNodeHashes.ExoticMissions_ParentNodeHashesLength1 },
+				name: { DestinyActivityTypeDefinition: ActivityTypeHashes.ExoticMission },
 				description: { DestinyActivityTypeDefinition: ActivityTypeHashes.Dungeon },
 				icon: { DestinyTraitDefinition: TraitHashes.ItemQuestExotic },
 			}),
