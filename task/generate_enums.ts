@@ -46,7 +46,7 @@ const EXCLUDED_PATHS: Partial<Record<keyof AllDestinyManifestComponents, string[
 	DestinyActivityDefinition: ['loadouts*', 'destinationHash', 'modifiers.*', 'rewards.*'],
 	DestinyRecordDefinition: ['loreHash', 'completionInfo.ScoreValue', 'objectiveHashes*', 'parentNodeHashes*'],
 	DestinyVendorDefinition: ['itemList.*', 'categories.*'],
-	DestinyPresentationNodeDefinition: ['children.*'],
+	DestinyPresentationNodeDefinition: ['children.*', 'objectiveHash'],
 	DestinyDestinationDefinition: ['bubble*', 'activityGraphEntries*'],
 }
 
