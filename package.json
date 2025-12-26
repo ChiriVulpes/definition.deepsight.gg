@@ -4,6 +4,7 @@
 	"scripts": {
 		"watch": "pnpm exec task clean ensure_enums build -- serve watch",
 		"manifest": "pnpm exec task clean ensure_enums build",
+		"manifest:prune": "pnpm exec task clean ensure_enums build prune_enums",
 		"bump_versions": "pnpm exec task bump_versions",
 		"refresh_token": "pnpm exec task refresh_token"
 	},
