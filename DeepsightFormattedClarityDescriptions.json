@@ -79,9 +79,9 @@
 		"name": "Chaotic Exchanger",
 		"itemHash": 1906093346,
 		"itemName": "Contraverse Hold",
-		"lastUpload": 1766530840776,
+		"lastUpload": 1767547360680,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -153,37 +153,7 @@
 					},
 					{
 						"type": "text",
-						"text": " second and grant "
-					},
-					{
-						"type": "pve",
-						"content": [
-							{
-								"type": "numeric",
-								"text": "2000%",
-								"isUnknown": true,
-								"isEstimate": false
-							}
-						]
-					},
-					{
-						"type": "text",
-						"text": " "
-					},
-					{
-						"type": "pvp",
-						"content": [
-							{
-								"type": "numeric",
-								"text": "1000%",
-								"isUnknown": true,
-								"isEstimate": false
-							}
-						]
-					},
-					{
-						"type": "text",
-						"text": " Additional Base Grenade Regeneration Rate for "
+						"text": " second and grant additional base grenade Regeneration Rate depending on the equipped grenade for "
 					},
 					{
 						"type": "numeric",
@@ -204,6 +174,180 @@
 				]
 			},
 			{
+				"type": "labelledLine",
+				"label": [
+					{
+						"type": "text",
+						"text": "Axion"
+					},
+					{
+						"type": "text",
+						"text": ": "
+					}
+				],
+				"value": [
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "5000%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "4000%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					}
+				],
+				"isListItem": true
+			},
+			{
+				"type": "labelledLine",
+				"label": [
+					{
+						"type": "text",
+						"text": "Scatter"
+					},
+					{
+						"type": "text",
+						"text": ": "
+					}
+				],
+				"value": [
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "3700%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "2700%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					}
+				],
+				"isListItem": true
+			},
+			{
+				"type": "labelledLine",
+				"label": [
+					{
+						"type": "text",
+						"text": "Vortex"
+					},
+					{
+						"type": "text",
+						"text": ": "
+					}
+				],
+				"value": [
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "3400%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "2400%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					}
+				],
+				"isListItem": true
+			},
+			{
+				"type": "labelledLine",
+				"label": [
+					{
+						"type": "text",
+						"text": "Handheld Supernova"
+					},
+					{
+						"type": "text",
+						"text": ": "
+					}
+				],
+				"value": [
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "3000%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "2000%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					}
+				],
+				"isListItem": true
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
 				"type": "line",
 				"content": [
 					{
@@ -214,7 +358,7 @@
 					},
 					{
 						"type": "text",
-						"text": " second cooldown between activations. Grants between "
+						"text": " second cooldown between activations, which is removed on grenade usage. Grants between "
 					},
 					{
 						"type": "numeric",
@@ -251,7 +395,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Vortex Grenades can proc it twice if enemies get hit by the initial explosion and the last few ticks."
+						"text": "Vortex Grenades can proc twice if enemies get hit by the initial explosion and the last few ticks."
 					}
 				]
 			}
@@ -9347,9 +9491,9 @@
 		"name": "Vanishing Execution",
 		"itemHash": 2203146422,
 		"itemName": "Assassin's Cowl",
-		"lastUpload": 1766867819246,
+		"lastUpload": 1767547360680,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -9366,7 +9510,17 @@
 					},
 					{
 						"type": "text",
-						"text": "Invisibility and restore Health."
+						"text": "Invisibility and restore "
+					},
+					{
+						"type": "numeric",
+						"text": "67",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " HP."
 					}
 				]
 			},
@@ -9382,7 +9536,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Invisibility Duration and restored Health are based on "
+						"text": "Invisibility Duration is based on "
 					},
 					{
 						"type": "text",
@@ -9409,26 +9563,13 @@
 				"value": [
 					{
 						"type": "numeric",
-						"text": "6.8",
+						"text": "7",
 						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
 						"text": " seconds"
-					},
-					{
-						"type": "stackSeparator"
-					},
-					{
-						"type": "numeric",
-						"text": "100",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " HP restored"
 					}
 				],
 				"isListItem": true
@@ -9448,26 +9589,13 @@
 				"value": [
 					{
 						"type": "numeric",
-						"text": "9.8",
+						"text": "10",
 						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
 						"text": " seconds"
-					},
-					{
-						"type": "stackSeparator"
-					},
-					{
-						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " HP restored"
 					}
 				],
 				"isListItem": true
@@ -9477,7 +9605,7 @@
 				"label": [
 					{
 						"type": "text",
-						"text": "Minibosses"
+						"text": "Minibosses and Bosses"
 					},
 					{
 						"type": "text",
@@ -9487,65 +9615,13 @@
 				"value": [
 					{
 						"type": "numeric",
-						"text": "12.8",
+						"text": "13",
 						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
 						"text": " seconds"
-					},
-					{
-						"type": "stackSeparator"
-					},
-					{
-						"type": "numeric",
-						"text": "200",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " HP restored"
-					}
-				],
-				"isListItem": true
-			},
-			{
-				"type": "labelledLine",
-				"label": [
-					{
-						"type": "text",
-						"text": "Bosses"
-					},
-					{
-						"type": "text",
-						"text": ": "
-					}
-				],
-				"value": [
-					{
-						"type": "numeric",
-						"text": "13.3",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " seconds"
-					},
-					{
-						"type": "stackSeparator"
-					},
-					{
-						"type": "numeric",
-						"text": "200",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " HP restored"
 					}
 				],
 				"isListItem": true
@@ -22823,16 +22899,16 @@
 		"name": "Praxic Lift",
 		"itemHash": 4184605701,
 		"itemName": "Praxic Vestment",
-		"lastUpload": 1766530840776,
+		"lastUpload": 1767547360680,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
 				"content": [
 					{
 						"type": "text",
-						"text": "Weapon and "
+						"text": "Scoring Weapon and "
 					},
 					{
 						"type": "icon",
@@ -22846,7 +22922,47 @@
 					},
 					{
 						"type": "text",
-						"text": "."
+						"text": ". Weapon kills grant "
+					},
+					{
+						"type": "numeric",
+						"text": "15%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " energy, and "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"arc"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Arc-Melee kills grant "
+					},
+					{
+						"type": "numeric",
+						"text": "35%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " energy. Jetpack Fuel additionally builds at a passive rate of "
+					},
+					{
+						"type": "numeric",
+						"text": "3.5%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " per second."
 					}
 				]
 			},
@@ -22865,8 +22981,18 @@
 					},
 					{
 						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
+						"text": "30",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meters for "
+					},
+					{
+						"type": "numeric",
+						"text": "1.5",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
@@ -22875,13 +23001,33 @@
 					},
 					{
 						"type": "numeric",
-						"text": "?%",
+						"text": "100%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " longer flight duration."
+						"text": " longer flight duration, traveling "
+					},
+					{
+						"type": "numeric",
+						"text": "50",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meters over "
+					},
+					{
+						"type": "numeric",
+						"text": "3",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds."
 					}
 				]
 			},
@@ -22896,25 +23042,15 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Jetpack Activation Exhausts enemies in a "
-					},
-					{
-						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " meter radius and deals up to "
+						"text": "Jetpack Activation deals "
 					},
 					{
 						"type": "pve",
 						"content": [
 							{
 								"type": "numeric",
-								"text": "?",
-								"isUnknown": true,
+								"text": "168",
+								"isUnknown": false,
 								"isEstimate": false
 							}
 						]
@@ -22946,7 +23082,17 @@
 					},
 					{
 						"type": "text",
-						"text": "Arc Damage to them."
+						"text": "Arc Damage in a "
+					},
+					{
+						"type": "numeric",
+						"text": "6",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meter radius and applies Exhaust."
 					}
 				]
 			},
@@ -22971,15 +23117,15 @@
 					},
 					{
 						"type": "text",
-						"text": "Melee Strike dealing "
+						"text": "Melee Strike for "
 					},
 					{
 						"type": "pve",
 						"content": [
 							{
 								"type": "numeric",
-								"text": "?",
-								"isUnknown": true,
+								"text": "336",
+								"isUnknown": false,
 								"isEstimate": false
 							}
 						]
@@ -23045,8 +23191,8 @@
 					},
 					{
 						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
+						"text": "7",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
@@ -23467,9 +23613,9 @@
 		"name": "Synapse Junctions",
 		"itemHash": 368733543,
 		"itemName": "Raiden Flux",
-		"lastUpload": 1766530840776,
+		"lastUpload": 1767547360680,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -23554,7 +23700,7 @@
 				"value": [
 					{
 						"type": "numeric",
-						"text": "27?%",
+						"text": "27%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
@@ -23563,7 +23709,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "?%",
+						"text": "20%",
 						"isUnknown": true,
 						"isEstimate": false
 					}
@@ -23591,7 +23737,7 @@
 				"value": [
 					{
 						"type": "numeric",
-						"text": "61?%",
+						"text": "61%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
@@ -23600,7 +23746,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "?%",
+						"text": "40%",
 						"isUnknown": true,
 						"isEstimate": false
 					}
@@ -23628,7 +23774,7 @@
 				"value": [
 					{
 						"type": "numeric",
-						"text": "105?%",
+						"text": "105%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
@@ -23637,7 +23783,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "?%",
+						"text": "60%",
 						"isUnknown": true,
 						"isEstimate": false
 					}
@@ -23652,9 +23798,9 @@
 		"name": "Probability Matrix",
 		"itemHash": 903984858,
 		"itemName": "Lucky Raspberry",
-		"lastUpload": 1767472203079,
+		"lastUpload": 1767547360680,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -23787,7 +23933,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "5%",
+						"text": "7.5%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
@@ -23917,9 +24063,9 @@
 		"name": "Cross Counter",
 		"itemHash": 2749457084,
 		"itemName": "Liar's Handshake",
-		"lastUpload": 1766530840776,
+		"lastUpload": 1767547360680,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -23995,8 +24141,8 @@
 					},
 					{
 						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
+						"text": "40",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
@@ -34933,9 +35079,9 @@
 		"name": "Blessing of Order",
 		"itemHash": 597039524,
 		"itemName": "Boots of the Assembler",
-		"lastUpload": 1766530840776,
+		"lastUpload": 1767547360680,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -35019,13 +35165,23 @@
 					},
 					{
 						"type": "numeric",
-						"text": "75",
+						"text": "70",
 						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " HP and starts Health Regeneration"
+						"text": " Health, "
+					},
+					{
+						"type": "numeric",
+						"text": "60",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Shields, and starts Health Regeneration"
 					}
 				],
 				"isListItem": true
@@ -53643,9 +53799,9 @@
 		"name": "Ionic Conductor",
 		"itemHash": 1849149215,
 		"itemName": "Fallen Sunstar",
-		"lastUpload": 1735009175023,
+		"lastUpload": 1767547360680,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -53658,7 +53814,17 @@
 					},
 					{
 						"type": "text",
-						"text": "Ionic Traces move faster and grant doubled Ability Energy."
+						"text": "Ionic Traces move "
+					},
+					{
+						"type": "numeric",
+						"text": "66%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " faster and grant doubled Ability Energy."
 					}
 				]
 			},
@@ -63128,9 +63294,9 @@
 		"name": "Survival Well",
 		"itemHash": 1591207519,
 		"itemName": "Crest of Alpha Lupi",
-		"lastUpload": 1766530840776,
+		"lastUpload": 1767547360680,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -63166,7 +63332,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "80",
+						"text": "70",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -63176,7 +63342,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "75",
+						"text": "110",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -69926,9 +70092,9 @@
 		"name": "Parting Gift",
 		"itemHash": 1219761634,
 		"itemName": "The Bombardiers",
-		"lastUpload": 1723480728683,
+		"lastUpload": 1767547360680,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -70001,7 +70167,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Parting Gift has an additional effect based on the element of your equipped Super Ability:"
+						"text": "Parting Gift applies an additional effect based on the element of your equipped Super Ability:"
 					}
 				]
 			},
@@ -70026,7 +70192,7 @@
 				"value": [
 					{
 						"type": "text",
-						"text": " disorients for "
+						"text": " Disorient (not Blind) for "
 					},
 					{
 						"type": "pve",
@@ -70080,10 +70246,6 @@
 					}
 				],
 				"value": [
-					{
-						"type": "text",
-						"text": "applies "
-					},
 					{
 						"type": "numeric",
 						"text": "40",
@@ -70148,7 +70310,7 @@
 				"value": [
 					{
 						"type": "text",
-						"text": "applies "
+						"text": " "
 					},
 					{
 						"type": "pve",
@@ -70188,7 +70350,67 @@
 					},
 					{
 						"type": "text",
-						"text": "Slow Stacks"
+						"text": "Slow Stacks for "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "4",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "1.5",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " seconds ("
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "8",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "2",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " seconds with Whisper of Durance)"
 					}
 				],
 				"isListItem": true
@@ -70212,10 +70434,6 @@
 					}
 				],
 				"value": [
-					{
-						"type": "text",
-						"text": "applies "
-					},
 					{
 						"type": "text",
 						"text": "'Lite'"
@@ -70287,10 +70505,6 @@
 				],
 				"value": [
 					{
-						"type": "text",
-						"text": "applies "
-					},
-					{
 						"type": "icon",
 						"classNames": [
 							"strand"
@@ -70302,13 +70516,33 @@
 					},
 					{
 						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
+						"text": "10",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " seconds"
+						"text": " seconds ("
+					},
+					{
+						"type": "numeric",
+						"text": "15",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " with "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"strand"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Thread of Continuity)"
 					}
 				],
 				"isListItem": true
@@ -74356,6 +74590,52 @@
 					{
 						"type": "text",
 						"text": " seconds."
+					}
+				]
+			}
+		],
+		"definitions": []
+	},
+	"1927916065": {
+		"hash": 1927916065,
+		"name": "Unplanned Reprieve",
+		"itemHash": 2208405142,
+		"itemName": "Telesto",
+		"lastUpload": 1767547360680,
+		"type": "Weapon Frame Exotic",
+		"uploadedBy": "Hawkmoona",
+		"descriptions": [
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Fires proximity seven bolts that deal impact damage and explode after "
+					},
+					{
+						"type": "numeric",
+						"text": "5",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds or on enemy proximity."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Due to repeated bugs and exploits, these bolts are now immune to all forms of premature destruction."
 					}
 				]
 			}
@@ -79577,9 +79857,9 @@
 		"name": "Vanishing Shadow",
 		"itemHash": 407148246,
 		"itemName": "Graviton Forfeit",
-		"lastUpload": 1766530840776,
+		"lastUpload": 1767547360680,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -79682,9 +79962,157 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Each stack of Vanishing Shadow grants improved base Grenade, Melee, and Class ability regeneration rate."
+						"text": "Each stack of Vanishing Shadow grants improved base ability regeneration rate at "
+					},
+					{
+						"type": "numeric",
+						"text": "1",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "2",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "3",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " stacks."
 					}
 				]
+			},
+			{
+				"type": "labelledLine",
+				"label": [
+					{
+						"type": "text",
+						"text": "Class Ability"
+					},
+					{
+						"type": "text",
+						"text": ": "
+					}
+				],
+				"value": [
+					{
+						"type": "numeric",
+						"text": "67%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "133%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "200%",
+						"isUnknown": true,
+						"isEstimate": false
+					}
+				],
+				"isListItem": true
+			},
+			{
+				"type": "labelledLine",
+				"label": [
+					{
+						"type": "text",
+						"text": "Grenade"
+					},
+					{
+						"type": "text",
+						"text": ": "
+					}
+				],
+				"value": [
+					{
+						"type": "numeric",
+						"text": "?%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "?%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "?%",
+						"isUnknown": true,
+						"isEstimate": false
+					}
+				],
+				"isListItem": true
+			},
+			{
+				"type": "labelledLine",
+				"label": [
+					{
+						"type": "text",
+						"text": "Melee"
+					},
+					{
+						"type": "text",
+						"text": ": "
+					}
+				],
+				"value": [
+					{
+						"type": "numeric",
+						"text": "?%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "?%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "?%",
+						"isUnknown": true,
+						"isEstimate": false
+					}
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -88886,9 +89314,9 @@
 		"name": "Kismet",
 		"itemHash": 4010324161,
 		"itemName": "Fortune's Favor",
-		"lastUpload": 1766530840776,
+		"lastUpload": 1767547360680,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -88902,7 +89330,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "5",
+								"text": "4.5",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -88925,14 +89353,14 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds, starts generating "
+						"text": " seconds, continuously generates a "
 					},
 					{
 						"type": "pve",
 						"content": [
 							{
 								"type": "numeric",
-								"text": "6",
+								"text": "6.6",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -88947,7 +89375,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "1.2",
+								"text": "1.1",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -88981,7 +89409,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Grants the following benefits while any Overshield is active:"
+						"text": "Grants the following while any Overshield is active:"
 					}
 				]
 			},
@@ -88991,13 +89419,13 @@
 				"content": [
 					{
 						"type": "numeric",
-						"text": "?%",
+						"text": "5%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " Accuracy Cone Size"
+						"text": " Decreased Accuracy Cone Size"
 					}
 				]
 			},
@@ -89007,8 +89435,8 @@
 				"content": [
 					{
 						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
+						"text": "35",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
@@ -89023,8 +89451,8 @@
 				"content": [
 					{
 						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
+						"text": "35",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
@@ -89078,8 +89506,8 @@
 					},
 					{
 						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
+						"text": "30",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
@@ -117967,9 +118395,9 @@
 		"name": "Webcatcher",
 		"itemHash": 2647299044,
 		"itemName": "Moirai",
-		"lastUpload": 1766530840776,
+		"lastUpload": 1767547360680,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -118068,11 +118496,11 @@
 					},
 					{
 						"type": "text",
-						"text": "Tangle refunds an additional "
+						"text": "Tangle refunds an additional fixed "
 					},
 					{
 						"type": "numeric",
-						"text": "30%",
+						"text": "25%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
@@ -122328,46 +122756,12 @@
 				]
 			},
 			{
-				"type": "labelledLine",
-				"label": [
+				"type": "line",
+				"content": [
 					{
 						"type": "text",
-						"text": "Damage increase at "
+						"text": "Damage increased is "
 					},
-					{
-						"type": "numeric",
-						"text": "1",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "stackSeparator"
-					},
-					{
-						"type": "numeric",
-						"text": "2",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "stackSeparator"
-					},
-					{
-						"type": "numeric",
-						"text": "3",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " Debuffs"
-					},
-					{
-						"type": "text",
-						"text": ": "
-					}
-				],
-				"value": [
 					{
 						"type": "enhancedArrow",
 						"classNames": [
@@ -122397,6 +122791,38 @@
 						"text": "33%",
 						"isUnknown": true,
 						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " at "
+					},
+					{
+						"type": "numeric",
+						"text": "1",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "2",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "3",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Debuffs."
 					}
 				]
 			},
@@ -135252,11 +135678,11 @@
 	"3556461530": {
 		"hash": 3556461530,
 		"name": "Voltaic Mirror",
-		"itemHash": 1703551922,
+		"itemHash": 863908533,
 		"itemName": "Blight Ranger",
-		"lastUpload": 1731793916910,
+		"lastUpload": 1767547360680,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -135431,8 +135857,8 @@
 					},
 					{
 						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
+						"text": "10",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
@@ -135444,7 +135870,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "300",
+								"text": "675",
 								"isUnknown": false,
 								"isEstimate": false
 							},
@@ -135454,7 +135880,7 @@
 							},
 							{
 								"type": "numeric",
-								"text": "575",
+								"text": "2700",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -135487,7 +135913,7 @@
 					},
 					{
 						"type": "text",
-						"text": " damage based the the number of projectiles reflected"
+						"text": " damage with no falloff based the the number of projectiles reflected"
 					}
 				]
 			},
@@ -138589,25 +139015,10 @@
 		"name": "Dreaded Visage",
 		"itemHash": 3883866764,
 		"itemName": "Mask of the Quiet One",
-		"lastUpload": 1735009175023,
+		"lastUpload": 1767547360680,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
-			{
-				"type": "line",
-				"content": [
-					{
-						"type": "text",
-						"text": "Kills at Critical Health fully restore Health. (Shields are not restored)"
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
 			{
 				"type": "line",
 				"content": [
@@ -143174,9 +143585,9 @@
 	"3764420437": {
 		"hash": 3764420437,
 		"name": "Aggregate Charge",
-		"lastUpload": 1766867819246,
+		"lastUpload": 1767547360680,
 		"type": "Weapon Trait",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -143194,11 +143605,39 @@
 				]
 			},
 			{
-				"type": "labelledLine",
-				"label": [
+				"type": "line",
+				"content": [
 					{
 						"type": "text",
-						"text": "Damage increase at "
+						"text": "Damage increased is "
+					},
+					{
+						"type": "numeric",
+						"text": "10%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "20%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "30%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " at "
 					},
 					{
 						"type": "numeric",
@@ -143226,37 +143665,7 @@
 					},
 					{
 						"type": "text",
-						"text": " Debuffs"
-					},
-					{
-						"type": "text",
-						"text": ": "
-					}
-				],
-				"value": [
-					{
-						"type": "numeric",
-						"text": "10%",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "stackSeparator"
-					},
-					{
-						"type": "numeric",
-						"text": "20%",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "stackSeparator"
-					},
-					{
-						"type": "numeric",
-						"text": "30%",
-						"isUnknown": true,
-						"isEstimate": false
+						"text": " Debuffs."
 					}
 				]
 			}
@@ -155368,9 +155777,9 @@
 		"name": "Touch of Venom",
 		"itemHash": 2757274117,
 		"itemName": "Khepri's Sting",
-		"lastUpload": 1767472203079,
+		"lastUpload": 1767547360680,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
