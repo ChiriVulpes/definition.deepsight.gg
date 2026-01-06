@@ -79,7 +79,7 @@
 		"name": "Chaotic Exchanger",
 		"itemHash": 1906093346,
 		"itemName": "Contraverse Hold",
-		"lastUpload": 1767547360680,
+		"lastUpload": 1767665829609,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -2510,7 +2510,7 @@
 	"59871045": {
 		"hash": 59871045,
 		"name": "Gravity Well",
-		"lastUpload": 1753831097929,
+		"lastUpload": 1767715813450,
 		"type": "Weapon Trait Origin",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -2519,7 +2519,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Finishing a reload pick ups all Ammo Bricks within "
+						"text": "Finishing a reload picks ups all Ammo Bricks within "
 					},
 					{
 						"type": "numeric",
@@ -2995,7 +2995,7 @@
 					},
 					{
 						"type": "text",
-						"text": " Grants "
+						"text": " Passively grants "
 					},
 					{
 						"type": "numeric",
@@ -3005,7 +3005,7 @@
 					},
 					{
 						"type": "text",
-						"text": " to the Magazine stat. (Equivalent of "
+						"text": " Magazine stat. (Equivalent of "
 					},
 					{
 						"type": "numeric",
@@ -4518,7 +4518,7 @@
 	"113508675": {
 		"hash": 113508675,
 		"name": "Reaper's Tithe",
-		"lastUpload": 1755815364903,
+		"lastUpload": 1767715813450,
 		"type": "Weapon Trait",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -4600,7 +4600,49 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds. Timer only starts after firing."
+						"text": " seconds at "
+					},
+					{
+						"type": "numeric",
+						"text": "2",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "3",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "4",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " stacks ("
+					},
+					{
+						"type": "numeric",
+						"text": "1",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": "st stack does not exist)"
+					},
+					{
+						"type": "text",
+						"text": ". Timer only starts after firing."
 					}
 				]
 			},
@@ -7674,7 +7716,49 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds. Timer only starts after firing."
+						"text": " seconds at "
+					},
+					{
+						"type": "numeric",
+						"text": "2",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "3",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "4",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " stacks ("
+					},
+					{
+						"type": "numeric",
+						"text": "1",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": "st stack does not exist)"
+					},
+					{
+						"type": "text",
+						"text": ". Timer only starts after firing."
 					}
 				]
 			},
@@ -7845,8 +7929,14 @@
 				"isListItem": true,
 				"content": [
 					{
+						"type": "enhancedArrow",
+						"classNames": [
+							"enhancedArrow"
+						]
+					},
+					{
 						"type": "numeric",
-						"text": "20%",
+						"text": "22%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
@@ -7981,9 +8071,9 @@
 					},
 					{
 						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
-						"isEstimate": false
+						"text": "22",
+						"isUnknown": false,
+						"isEstimate": true
 					},
 					{
 						"type": "text",
@@ -8761,9 +8851,9 @@
 	"198336270": {
 		"hash": 198336270,
 		"name": "Butterfly",
-		"lastUpload": 1766867819246,
+		"lastUpload": 1767665829609,
 		"type": "Weapon Trait",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -8805,7 +8895,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Timer starts as soon as ADS inpout is pressed.  Unscoping immediately removes the buff."
+						"text": "Timer starts as soon as ADS input is pressed.  Unscoping immediately removes the buff."
 					}
 				]
 			}
@@ -9491,7 +9581,7 @@
 		"name": "Vanishing Execution",
 		"itemHash": 2203146422,
 		"itemName": "Assassin's Cowl",
-		"lastUpload": 1767547360680,
+		"lastUpload": 1767637365197,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -11972,7 +12062,7 @@
 					},
 					{
 						"type": "text",
-						"text": " stacks. Reloading the weapon (except on Bows) or missing removes all stacks."
+						"text": " stacks. Reloading the weapon (except on Bows) or missing removes all stacks... usually."
 					}
 				]
 			},
@@ -12016,9 +12106,9 @@
 					},
 					{
 						"type": "numeric",
-						"text": "2",
+						"text": "1.5",
 						"isUnknown": false,
-						"isEstimate": false
+						"isEstimate": true
 					},
 					{
 						"type": "text",
@@ -16006,7 +16096,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Elemental Melee Hits and (Glaive) Melee Kills "
+						"text": "Powered Melee Hits and (Glaive) Melee Kills "
 					},
 					{
 						"type": "definitionReference",
@@ -16040,31 +16130,6 @@
 					{
 						"type": "text",
 						"text": " second cooldown between activations."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "labelledLine",
-				"label": [
-					{
-						"type": "text",
-						"text": "Clarity tooltip editor's note"
-					},
-					{
-						"type": "text",
-						"text": ": "
-					}
-				],
-				"value": [
-					{
-						"type": "text",
-						"text": "We're replacing the previous Powered Melee term with Elemental Melee. The former is now exclusively used for perks that require the consumption of a Melee Ability Charge. This note is temporary and will be removed in the future."
 					}
 				]
 			},
@@ -19273,7 +19338,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Dealing Elemental Damage grants a Stack of Elemental Honing for "
+						"text": "Dealing Elemental Damage grants a stack of Elemental Honing for "
 					},
 					{
 						"type": "enhancedArrow",
@@ -19314,7 +19379,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Gaining a Stack refreshes the buff duration. Duration cannot be refreshed at "
+						"text": "Gaining a stack refreshes the buff duration. Duration cannot be refreshed once at "
 					},
 					{
 						"type": "numeric",
@@ -19324,7 +19389,7 @@
 					},
 					{
 						"type": "text",
-						"text": " Stacks."
+						"text": " stacks."
 					}
 				]
 			},
@@ -19401,7 +19466,7 @@
 					},
 					{
 						"type": "text",
-						"text": " Stacks by weapon damage type:"
+						"text": " stacks by weapon damage type:"
 					}
 				]
 			},
@@ -21674,7 +21739,7 @@
 	"555281244": {
 		"hash": 555281244,
 		"name": "Precision Instrument",
-		"lastUpload": 1755815364903,
+		"lastUpload": 1767715813450,
 		"type": "Weapon Trait",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -21732,7 +21797,7 @@
 					},
 					{
 						"type": "text",
-						"text": " stacks. Reloading the weapon (except on Bows) or missing removes all stacks."
+						"text": " stacks. Reloading the weapon (except on Bows) or missing removes all stacks... usually."
 					}
 				]
 			},
@@ -21776,9 +21841,9 @@
 					},
 					{
 						"type": "numeric",
-						"text": "2",
+						"text": "1.5",
 						"isUnknown": false,
-						"isEstimate": false
+						"isEstimate": true
 					},
 					{
 						"type": "text",
@@ -22899,7 +22964,7 @@
 		"name": "Praxic Lift",
 		"itemHash": 4184605701,
 		"itemName": "Praxic Vestment",
-		"lastUpload": 1767547360680,
+		"lastUpload": 1767665829609,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -23421,9 +23486,9 @@
 		"name": "Wraithmetal Mail",
 		"itemHash": 368733541,
 		"itemName": "The Dragon's Shadow",
-		"lastUpload": 1766530840776,
+		"lastUpload": 1767637365197,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -23436,7 +23501,7 @@
 						"type": "numeric",
 						"text": "10",
 						"isUnknown": false,
-						"isEstimate": true
+						"isEstimate": false
 					},
 					{
 						"type": "text",
@@ -23469,7 +23534,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "11",
+						"text": "15",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -23613,7 +23678,7 @@
 		"name": "Synapse Junctions",
 		"itemHash": 368733543,
 		"itemName": "Raiden Flux",
-		"lastUpload": 1767547360680,
+		"lastUpload": 1767665829609,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -23798,7 +23863,7 @@
 		"name": "Probability Matrix",
 		"itemHash": 903984858,
 		"itemName": "Lucky Raspberry",
-		"lastUpload": 1767547360680,
+		"lastUpload": 1767665829609,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -24063,7 +24128,7 @@
 		"name": "Cross Counter",
 		"itemHash": 2749457084,
 		"itemName": "Liar's Handshake",
-		"lastUpload": 1767547360680,
+		"lastUpload": 1767665829609,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -24799,6 +24864,45 @@
 					{
 						"type": "text",
 						"text": "Weaken to the target extends the debuff's duration."
+					}
+				]
+			}
+		],
+		"definitions": []
+	},
+	"624097433": {
+		"hash": 624097433,
+		"name": "Flight",
+		"lastUpload": 1767718346138,
+		"type": "Weapon Mod",
+		"uploadedBy": "Hawkmoona",
+		"descriptions": [
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Passively grants "
+					},
+					{
+						"type": "numeric",
+						"text": "6",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Velocity and "
+					},
+					{
+						"type": "numeric",
+						"text": "6",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Persistance."
 					}
 				]
 			}
@@ -31364,7 +31468,7 @@
 					},
 					{
 						"type": "text",
-						"text": " meters of enemies grant a stack of Proximity Power "
+						"text": " meters of an enemy grant a stack of Proximity Power "
 					},
 					{
 						"type": "numeric",
@@ -33102,16 +33206,16 @@
 		"name": "Tight Fit",
 		"itemHash": 1793346751,
 		"itemName": "Speedloader Slacks",
-		"lastUpload": 1766530840776,
+		"lastUpload": 1767720923295,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
 				"content": [
 					{
 						"type": "text",
-						"text": "Dealing Weapon Damage generates Class Ability Energy. Scoring multiple Direct Weapon Hits within "
+						"text": "At any time, scoring multiple Direct Weapon Hits within "
 					},
 					{
 						"type": "numeric",
@@ -33316,7 +33420,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Class Ability usage reloads all equipped weapons and grants you "
+						"text": "Casting Dodge reloads all equipped weapons and grants you "
 					},
 					{
 						"type": "numeric",
@@ -33371,7 +33475,7 @@
 					},
 					{
 						"type": "text",
-						"text": " meters receive the same number of stacks as you have after the Class Ability usage."
+						"text": " meters receive the same number of stacks as you have after the Dodge."
 					}
 				]
 			},
@@ -35079,7 +35183,7 @@
 		"name": "Blessing of Order",
 		"itemHash": 597039524,
 		"itemName": "Boots of the Assembler",
-		"lastUpload": 1767547360680,
+		"lastUpload": 1767665829609,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -42083,7 +42187,7 @@
 	"1089671869": {
 		"hash": 1089671869,
 		"name": "Elemental Honing",
-		"lastUpload": 1766867819246,
+		"lastUpload": 1767715813450,
 		"type": "Weapon Trait",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -42092,7 +42196,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Dealing Elemental Damage grants a Stack of Elemental Honing for "
+						"text": "Dealing Elemental Damage grants a stack of Elemental Honing for "
 					},
 					{
 						"type": "numeric",
@@ -42127,7 +42231,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Gaining a Stack refreshes the buff duration. Duration cannot be refreshed at "
+						"text": "Gaining a stack refreshes the buff duration. Duration cannot be refreshed once at "
 					},
 					{
 						"type": "numeric",
@@ -42137,7 +42241,7 @@
 					},
 					{
 						"type": "text",
-						"text": " Stacks."
+						"text": " stacks."
 					}
 				]
 			},
@@ -42214,7 +42318,7 @@
 					},
 					{
 						"type": "text",
-						"text": " Stacks by weapon damage type:"
+						"text": " stacks by weapon damage type:"
 					}
 				]
 			},
@@ -48625,13 +48729,9 @@
 					},
 					{
 						"type": "numeric",
-						"text": "5",
+						"text": "5.",
 						"isUnknown": false,
-						"isEstimate": true
-					},
-					{
-						"type": "text",
-						"text": "."
+						"isEstimate": false
 					}
 				]
 			}
@@ -49080,7 +49180,7 @@
 	"1202584452": {
 		"hash": 1202584452,
 		"name": "Ancillary Ordinance",
-		"lastUpload": 1766867819246,
+		"lastUpload": 1767715813450,
 		"type": "Weapon Trait",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -49099,7 +49199,17 @@
 					},
 					{
 						"type": "text",
-						"text": " Elemental Kills grants this weapon one stack of Ancillary Ordinance. Maximum of "
+						"text": " Elemental Kills within "
+					},
+					{
+						"type": "numeric",
+						"text": "4",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds of each grants this weapon one stack of Ancillary Ordinance. Maximum of "
 					},
 					{
 						"type": "numeric",
@@ -52857,6 +52967,35 @@
 			}
 		]
 	},
+	"1342449029": {
+		"hash": 1342449029,
+		"name": "Adept Shield Duration",
+		"lastUpload": 1767718346138,
+		"type": "Weapon Mod",
+		"uploadedBy": "Hawkmoona",
+		"descriptions": [
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Passively grants "
+					},
+					{
+						"type": "numeric",
+						"text": "10",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Shield Duration."
+					}
+				]
+			}
+		],
+		"definitions": []
+	},
 	"1347741687": {
 		"hash": 1347741687,
 		"name": "Outlaw",
@@ -53799,7 +53938,7 @@
 		"name": "Ionic Conductor",
 		"itemHash": 1849149215,
 		"itemName": "Fallen Sunstar",
-		"lastUpload": 1767547360680,
+		"lastUpload": 1767665829609,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -57039,7 +57178,7 @@
 	"1511100135": {
 		"hash": 1511100135,
 		"name": "Supercharged Magazine",
-		"lastUpload": 1766867819246,
+		"lastUpload": 1767715813450,
 		"type": "Weapon Trait",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -61093,6 +61232,45 @@
 			}
 		]
 	},
+	"1596513538": {
+		"hash": 1596513538,
+		"name": "Tactical",
+		"lastUpload": 1767718346138,
+		"type": "Weapon Mod",
+		"uploadedBy": "Hawkmoona",
+		"descriptions": [
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Passively grants "
+					},
+					{
+						"type": "numeric",
+						"text": "6",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Reload Speed and "
+					},
+					{
+						"type": "numeric",
+						"text": "6",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Handling."
+					}
+				]
+			}
+		],
+		"definitions": []
+	},
 	"1598147670": {
 		"hash": 1598147670,
 		"name": "Psychohack",
@@ -62436,7 +62614,7 @@
 	"1631667848": {
 		"hash": 1631667848,
 		"name": "Grave Robber",
-		"lastUpload": 1735009175023,
+		"lastUpload": 1767715813450,
 		"type": "Weapon Trait",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -62445,7 +62623,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Elemental Melee Hits and (Glaive) Melee Kills "
+						"text": "Powered Melee Hits and (Glaive) Melee Kills "
 					},
 					{
 						"type": "definitionReference",
@@ -62479,31 +62657,6 @@
 					{
 						"type": "text",
 						"text": " second cooldown between activations."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "labelledLine",
-				"label": [
-					{
-						"type": "text",
-						"text": "Clarity tooltip editor's note"
-					},
-					{
-						"type": "text",
-						"text": ": "
-					}
-				],
-				"value": [
-					{
-						"type": "text",
-						"text": "We're replacing the previous Powered Melee term with Elemental Melee. The former is now exclusively used for perks that require the consumption of a Melee Ability Charge. This note is temporary and will be removed in the future."
 					}
 				]
 			}
@@ -63294,7 +63447,7 @@
 		"name": "Survival Well",
 		"itemHash": 1591207519,
 		"itemName": "Crest of Alpha Lupi",
-		"lastUpload": 1767547360680,
+		"lastUpload": 1767665829609,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -68105,7 +68258,7 @@
 	"1771339417": {
 		"hash": 1771339417,
 		"name": "Firing Line",
-		"lastUpload": 1719594243302,
+		"lastUpload": 1767715813450,
 		"type": "Weapon Trait",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -70092,7 +70245,7 @@
 		"name": "Parting Gift",
 		"itemHash": 1219761634,
 		"itemName": "The Bombardiers",
-		"lastUpload": 1767547360680,
+		"lastUpload": 1767665829609,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -71508,7 +71661,7 @@
 	"1870851715": {
 		"hash": 1870851715,
 		"name": "Under-Over",
-		"lastUpload": 1743183422022,
+		"lastUpload": 1767715813450,
 		"type": "Weapon Trait",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -73061,7 +73214,7 @@
 	"1906137414": {
 		"hash": 1906137414,
 		"name": "Exhaustive Research",
-		"lastUpload": 1753831097929,
+		"lastUpload": 1767715813450,
 		"type": "Weapon Trait Origin",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -73084,13 +73237,13 @@
 					},
 					{
 						"type": "numeric",
-						"text": "1",
+						"text": "0.6",
 						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " second."
+						"text": " seconds."
 					}
 				]
 			},
@@ -73140,9 +73293,9 @@
 				"content": [
 					{
 						"type": "numeric",
-						"text": "5",
+						"text": "5.5",
 						"isUnknown": false,
-						"isEstimate": true
+						"isEstimate": false
 					},
 					{
 						"type": "text",
@@ -73344,7 +73497,7 @@
 	"1909124648": {
 		"hash": 1909124648,
 		"name": "Thermal Atomization",
-		"lastUpload": 1766867819246,
+		"lastUpload": 1767715813450,
 		"type": "Weapon Trait",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -73460,7 +73613,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Enemies explode on kill, dealing "
+						"text": "Enemies explode on direct damage kills, dealing up "
 					},
 					{
 						"type": "numeric",
@@ -73480,7 +73633,7 @@
 					},
 					{
 						"type": "text",
-						"text": " meter radius"
+						"text": " meter radius."
 					}
 				]
 			},
@@ -73641,7 +73794,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Explosion falloff drops to a minimum of "
+						"text": "Detonation damage falls off to "
 					},
 					{
 						"type": "numeric",
@@ -73676,7 +73829,7 @@
 	"1918398421": {
 		"hash": 1918398421,
 		"name": "Built to Blast",
-		"lastUpload": 1766867819246,
+		"lastUpload": 1767643103025,
 		"type": "Weapon Trait",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -74520,7 +74673,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "5.25",
+						"text": "4.5",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -74583,7 +74736,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "0.75",
+						"text": "1.5",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -74601,7 +74754,7 @@
 		"name": "Unplanned Reprieve",
 		"itemHash": 2208405142,
 		"itemName": "Telesto",
-		"lastUpload": 1767547360680,
+		"lastUpload": 1767665829609,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -78289,7 +78442,7 @@
 	"2048641572": {
 		"hash": 2048641572,
 		"name": "Destabilizing Rounds",
-		"lastUpload": 1766867819246,
+		"lastUpload": 1767715813450,
 		"type": "Weapon Trait",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -78332,7 +78485,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "4.5",
+						"text": "3",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -79857,7 +80010,7 @@
 		"name": "Vanishing Shadow",
 		"itemHash": 407148246,
 		"itemName": "Graviton Forfeit",
-		"lastUpload": 1767547360680,
+		"lastUpload": 1767665829609,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -80219,7 +80372,7 @@
 	"2120661319": {
 		"hash": 2120661319,
 		"name": "Field-Tested",
-		"lastUpload": 1714568937735,
+		"lastUpload": 1767715813450,
 		"type": "Weapon Trait Origin",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -81143,6 +81296,28 @@
 				"label": [
 					{
 						"type": "text",
+						"text": "Sniper Rifles"
+					},
+					{
+						"type": "text",
+						"text": ": "
+					}
+				],
+				"value": [
+					{
+						"type": "numeric",
+						"text": "2.5x",
+						"isUnknown": false,
+						"isEstimate": false
+					}
+				],
+				"isListItem": true
+			},
+			{
+				"type": "labelledLine",
+				"label": [
+					{
+						"type": "text",
 						"text": "Breech-Loaded Grenade Launchers"
 					},
 					{
@@ -81504,7 +81679,17 @@
 					},
 					{
 						"type": "text",
-						"text": " Elemental Kills grants this weapon one stack of Ancillary Ordinance. Maximum of "
+						"text": " Elemental Kills within "
+					},
+					{
+						"type": "numeric",
+						"text": "4",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds of each grants this weapon one stack of Ancillary Ordinance. Maximum of "
 					},
 					{
 						"type": "enhancedArrow",
@@ -84512,7 +84697,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Timer starts as soon as ADS inpout is pressed.  Unscoping immediately removes the buff."
+						"text": "Timer starts as soon as ADS input is pressed.  Unscoping immediately removes the buff."
 					}
 				]
 			},
@@ -85002,7 +85187,7 @@
 	"2244851822": {
 		"hash": 2244851822,
 		"name": "Flash Counter",
-		"lastUpload": 1766867819246,
+		"lastUpload": 1767715813450,
 		"type": "Weapon Trait",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -85161,7 +85346,7 @@
 				"content": [
 					{
 						"type": "numeric",
-						"text": "2.25",
+						"text": "2.5",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -87639,7 +87824,7 @@
 	"2289534249": {
 		"hash": 2289534249,
 		"name": "Bewildering Burst",
-		"lastUpload": 1766867819246,
+		"lastUpload": 1767715813450,
 		"type": "Weapon Trait",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -87648,7 +87833,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Finishing a reload "
+						"text": "Finishing a reload within "
 					},
 					{
 						"type": "numeric",
@@ -87658,7 +87843,7 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds after a kill grants Bewildering Burst for "
+						"text": " seconds of a kill grants 'Bewildering Burst' for "
 					},
 					{
 						"type": "numeric",
@@ -87683,7 +87868,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "On Direct Hit, spawn a "
+						"text": "While Bewildering Burst is active, your next Direct Hit spawns a "
 					},
 					{
 						"type": "icon",
@@ -87703,11 +87888,41 @@
 					},
 					{
 						"type": "text",
-						"text": " second delay and applies Disorient to enemies within a "
+						"text": " second delay. The detonation deals "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "10",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "4",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " damage and Disorients enemies within a "
 					},
 					{
 						"type": "numeric",
-						"text": "9",
+						"text": "10",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -89314,7 +89529,7 @@
 		"name": "Kismet",
 		"itemHash": 4010324161,
 		"itemName": "Fortune's Favor",
-		"lastUpload": 1767547360680,
+		"lastUpload": 1767665829609,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -94446,13 +94661,9 @@
 					},
 					{
 						"type": "numeric",
-						"text": "5",
+						"text": "5.",
 						"isUnknown": false,
-						"isEstimate": true
-					},
-					{
-						"type": "text",
-						"text": "."
+						"isEstimate": false
 					}
 				]
 			}
@@ -99440,7 +99651,7 @@
 	"2621346526": {
 		"hash": 2621346526,
 		"name": "Ensemble",
-		"lastUpload": 1723480728683,
+		"lastUpload": 1767715813450,
 		"type": "Weapon Trait",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -100414,7 +100625,7 @@
 	"2626922126": {
 		"hash": 2626922126,
 		"name": "Facet of Dawn",
-		"lastUpload": 1755984214899,
+		"lastUpload": 1767715813450,
 		"type": "Subclass Fragment",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -100488,7 +100699,7 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds to."
+						"text": " seconds."
 					}
 				]
 			},
@@ -111703,7 +111914,7 @@
 				"content": [
 					{
 						"type": "numeric",
-						"text": "2.25",
+						"text": "2.5",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -117003,7 +117214,7 @@
 	"2988596335": {
 		"hash": 2988596335,
 		"name": "Alacrity",
-		"lastUpload": 1748096928214,
+		"lastUpload": 1767715813450,
 		"type": "Weapon Trait Origin",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -117036,8 +117247,8 @@
 					},
 					{
 						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
+						"text": "10",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
@@ -117046,8 +117257,8 @@
 					},
 					{
 						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
+						"text": "10",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
@@ -117056,8 +117267,8 @@
 					},
 					{
 						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
+						"text": "25",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
@@ -117066,8 +117277,8 @@
 					},
 					{
 						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
+						"text": "5",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
@@ -117873,6 +118084,21 @@
 			},
 			{
 				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Self-damage and environmental damage do not count."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
 				"isEnhanced": true,
 				"content": [
 					{
@@ -118136,7 +118362,7 @@
 	"3017780555": {
 		"hash": 3017780555,
 		"name": "Heal Clip",
-		"lastUpload": 1712008312346,
+		"lastUpload": 1767715813450,
 		"type": "Weapon Trait",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -118201,7 +118427,7 @@
 						"type": "numeric",
 						"text": "15",
 						"isUnknown": false,
-						"isEstimate": true
+						"isEstimate": false
 					},
 					{
 						"type": "text",
@@ -118395,7 +118621,7 @@
 		"name": "Webcatcher",
 		"itemHash": 2647299044,
 		"itemName": "Moirai",
-		"lastUpload": 1767547360680,
+		"lastUpload": 1767665829609,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -118516,9 +118742,9 @@
 	"3024601835": {
 		"hash": 3024601835,
 		"name": "Stunloader",
-		"lastUpload": 1729072787613,
+		"lastUpload": 1767718346138,
 		"type": "Weapon Mod",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -118541,7 +118767,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "?%",
+						"text": "50%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
@@ -121422,7 +121648,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Elemental Melee Hits and (Glaive) Melee Kills "
+						"text": "Powered Melee Hits and (Glaive) Melee Kills "
 					},
 					{
 						"type": "definitionReference",
@@ -121456,31 +121682,6 @@
 					{
 						"type": "text",
 						"text": " second cooldown between activations."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "labelledLine",
-				"label": [
-					{
-						"type": "text",
-						"text": "Clarity tooltip editor's note"
-					},
-					{
-						"type": "text",
-						"text": ": "
-					}
-				],
-				"value": [
-					{
-						"type": "text",
-						"text": "We're replacing the previous Powered Melee term with Elemental Melee. The former is now exclusively used for perks that require the consumption of a Melee Ability Charge. This note is temporary and will be removed in the future."
 					}
 				]
 			}
@@ -130182,6 +130383,21 @@
 			},
 			{
 				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Self-damage and environmental damage do not count."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
 				"isEnhanced": true,
 				"content": [
 					{
@@ -130779,7 +130995,7 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds after conditions are no longer met."
+						"text": " seconds once conditions are no longer met."
 					}
 				]
 			}
@@ -131971,7 +132187,7 @@
 	"3454102905": {
 		"hash": 3454102905,
 		"name": "Problem Solver",
-		"lastUpload": 1753831097929,
+		"lastUpload": 1767715813450,
 		"type": "Weapon Trait Origin",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -131985,8 +132201,8 @@
 					},
 					{
 						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
+						"text": "5",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
@@ -135680,7 +135896,7 @@
 		"name": "Voltaic Mirror",
 		"itemHash": 863908533,
 		"itemName": "Blight Ranger",
-		"lastUpload": 1767547360680,
+		"lastUpload": 1767665829609,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -137009,7 +137225,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Enemies explode on kill, dealing "
+						"text": "Enemies explode on direct damage kills, dealing up "
 					},
 					{
 						"type": "numeric",
@@ -137029,7 +137245,7 @@
 					},
 					{
 						"type": "text",
-						"text": " meter radius"
+						"text": " meter radius."
 					}
 				]
 			},
@@ -137190,7 +137406,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Explosion falloff drops to a minimum of "
+						"text": "Detonation damage falls off to "
 					},
 					{
 						"type": "numeric",
@@ -139015,7 +139231,7 @@
 		"name": "Dreaded Visage",
 		"itemHash": 3883866764,
 		"itemName": "Mask of the Quiet One",
-		"lastUpload": 1767547360680,
+		"lastUpload": 1767665829609,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -143585,7 +143801,7 @@
 	"3764420437": {
 		"hash": 3764420437,
 		"name": "Aggregate Charge",
-		"lastUpload": 1767547360680,
+		"lastUpload": 1767665829609,
 		"type": "Weapon Trait",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -145176,7 +145392,7 @@
 	"3824105627": {
 		"hash": 3824105627,
 		"name": "Firefly",
-		"lastUpload": 1753831097929,
+		"lastUpload": 1767715813450,
 		"type": "Weapon Trait",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -147857,7 +148073,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Finishing a reload "
+						"text": "Finishing a reload within "
 					},
 					{
 						"type": "numeric",
@@ -147867,7 +148083,7 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds after a kill grants Bewildering Burst for "
+						"text": " seconds of a kill grants 'Bewildering Burst' for "
 					},
 					{
 						"type": "enhancedArrow",
@@ -147898,7 +148114,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "On Direct Hit, spawn a "
+						"text": "While Bewildering Burst is active, your next Direct Hit spawns a "
 					},
 					{
 						"type": "icon",
@@ -147918,11 +148134,41 @@
 					},
 					{
 						"type": "text",
-						"text": " second delay and applies Disorient to enemies within a "
+						"text": " second delay. The detonation deals "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "10",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "4",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " damage and Disorients enemies within a "
 					},
 					{
 						"type": "numeric",
-						"text": "9",
+						"text": "10",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -149793,7 +150039,7 @@
 	"3938834702": {
 		"hash": 3938834702,
 		"name": "To the Pain",
-		"lastUpload": 1719594243302,
+		"lastUpload": 1767715813450,
 		"type": "Weapon Trait",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -149882,6 +150128,21 @@
 					{
 						"type": "text",
 						"text": " Aim Assist."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Self-damage and environmental damage do not count."
 					}
 				]
 			}
@@ -151591,7 +151852,7 @@
 	"3988215619": {
 		"hash": 3988215619,
 		"name": "Veist Stinger",
-		"lastUpload": 1738687242983,
+		"lastUpload": 1767715813450,
 		"type": "Weapon Trait Origin",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -151601,7 +151862,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Hits have a chance to activate Veist Stinger for "
+						"text": "Hits have a chance to trigger 'Veist Stinger' for "
 					},
 					{
 						"type": "numeric",
@@ -151612,34 +151873,6 @@
 					{
 						"type": "text",
 						"text": " seconds, granting the following bonuses:"
-					}
-				]
-			},
-			{
-				"type": "line",
-				"isListItem": true,
-				"content": [
-					{
-						"type": "definitionReference",
-						"index": 1
-					},
-					{
-						"type": "text",
-						"text": "Refills"
-					},
-					{
-						"type": "text",
-						"text": " "
-					},
-					{
-						"type": "numeric",
-						"text": "25%",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " of Magazine from reserves on activation"
 					}
 				]
 			},
@@ -151688,6 +151921,34 @@
 					{
 						"type": "text",
 						"text": " Charge Rate to Swords"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "definitionReference",
+						"index": 1
+					},
+					{
+						"type": "text",
+						"text": "Refills"
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "numeric",
+						"text": "25%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " of Magazine from reserves on activation. Rounds up. Cannot load the Magazine beyond its base capacity."
 					}
 				]
 			},
@@ -152917,9 +153178,9 @@
 		"name": "Misdirection",
 		"itemHash": 1163283805,
 		"itemName": "Gemini Jester",
-		"lastUpload": 1739032704660,
+		"lastUpload": 1767719022767,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -152930,7 +153191,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "22",
+						"text": "10",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -152977,29 +153238,32 @@
 				]
 			},
 			{
-				"type": "labelledLine",
-				"label": [
+				"type": "pve",
+				"content": [
 					{
-						"type": "pve",
-						"content": [
+						"type": "labelledLine",
+						"label": [
 							{
 								"type": "text",
 								"text": "PVE"
-							}
-						]
-					},
-					{
-						"type": "text",
-						"text": ": "
-					}
-				],
-				"value": [
-					{
-						"type": "pve",
-						"content": [
+							},
 							{
 								"type": "text",
-								"text": "Disorients Minors and Elites for "
+								"text": ": "
+							}
+						],
+						"value": [
+							{
+								"type": "text",
+								"text": "Disorients "
+							},
+							{
+								"type": "text",
+								"text": "Minors and Elites"
+							},
+							{
+								"type": "text",
+								"text": " for "
 							},
 							{
 								"type": "numeric",
@@ -153011,32 +153275,27 @@
 								"type": "text",
 								"text": " seconds"
 							}
-						]
+						],
+						"isListItem": true
 					}
-				],
-				"isListItem": true
+				]
 			},
 			{
-				"type": "labelledLine",
-				"label": [
+				"type": "pvp",
+				"content": [
 					{
-						"type": "pvp",
-						"content": [
+						"type": "labelledLine",
+						"label": [
 							{
 								"type": "text",
 								"text": "PVP"
+							},
+							{
+								"type": "text",
+								"text": ": "
 							}
-						]
-					},
-					{
-						"type": "text",
-						"text": ": "
-					}
-				],
-				"value": [
-					{
-						"type": "pvp",
-						"content": [
+						],
+						"value": [
 							{
 								"type": "text",
 								"text": "briefly distorts audio, Disorients, and disables Radar for "
@@ -153051,10 +153310,10 @@
 								"type": "text",
 								"text": " seconds"
 							}
-						]
+						],
+						"isListItem": true
 					}
-				],
-				"isListItem": true
+				]
 			}
 		],
 		"definitions": []
@@ -154972,7 +155231,7 @@
 	"4091460919": {
 		"hash": 4091460919,
 		"name": "One Quiet Moment",
-		"lastUpload": 1753831097929,
+		"lastUpload": 1767715813450,
 		"type": "Weapon Trait Origin",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -155132,6 +155391,21 @@
 					{
 						"type": "text",
 						"text": "Can activate while stowed."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Exchanging damage refers to either dealing or receiving damage. Self-damage and environmental damage do not count."
 					}
 				]
 			}
@@ -155777,7 +156051,7 @@
 		"name": "Touch of Venom",
 		"itemHash": 2757274117,
 		"itemName": "Khepri's Sting",
-		"lastUpload": 1767547360680,
+		"lastUpload": 1767665829609,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -155902,7 +156176,7 @@
 	"4104185692": {
 		"hash": 4104185692,
 		"name": "Frenzy",
-		"lastUpload": 1753831097929,
+		"lastUpload": 1767715813450,
 		"type": "Weapon Trait",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -156012,6 +156286,21 @@
 					{
 						"type": "text",
 						"text": " seconds."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Self-damage and environmental damage do not count."
 					}
 				]
 			}
@@ -158452,7 +158741,7 @@
 	"4190679284": {
 		"hash": 4190679284,
 		"name": "Proximity Power",
-		"lastUpload": 1755815364903,
+		"lastUpload": 1767715813450,
 		"type": "Weapon Trait",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -158471,7 +158760,7 @@
 					},
 					{
 						"type": "text",
-						"text": " meters of enemies grant a stack of Proximity Power "
+						"text": " meters of an enemy grant a stack of Proximity Power "
 					},
 					{
 						"type": "numeric",
@@ -160432,7 +160721,7 @@
 						"type": "numeric",
 						"text": "15",
 						"isUnknown": false,
-						"isEstimate": true
+						"isEstimate": false
 					},
 					{
 						"type": "text",
@@ -162603,14 +162892,20 @@
 						"text": " for the next swing within "
 					},
 					{
+						"type": "enhancedArrow",
+						"classNames": [
+							"enhancedArrow"
+						]
+					},
+					{
 						"type": "numeric",
-						"text": "1",
+						"text": "1.5",
 						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " second."
+						"text": " seconds."
 					}
 				]
 			},
@@ -162657,7 +162952,17 @@
 					},
 					{
 						"type": "text",
-						"text": " Buff Duration is increased."
+						"text": " Buff Duration is increased by "
+					},
+					{
+						"type": "numeric",
+						"text": "0.5",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds."
 					}
 				]
 			}
@@ -162667,7 +162972,7 @@
 	"4274614370": {
 		"hash": 4274614370,
 		"name": "Valiant Charge",
-		"lastUpload": 1732310012188,
+		"lastUpload": 1767715813450,
 		"type": "Weapon Trait",
 		"uploadedBy": "Stardust",
 		"descriptions": [
