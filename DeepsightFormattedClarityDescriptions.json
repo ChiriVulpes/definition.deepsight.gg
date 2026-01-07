@@ -1279,19 +1279,104 @@
 		],
 		"definitions": []
 	},
-	"25156514": {
-		"hash": 25156514,
-		"name": "Empowering Rift",
-		"lastUpload": 1739032704660,
-		"type": "Subclass Class",
-		"uploadedBy": "Stardust",
+	"25154119": {
+		"hash": 25154119,
+		"name": "Special Ammo Scout",
+		"lastUpload": 1767742675724,
+		"type": "Armor Mod General",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
 				"content": [
 					{
 						"type": "text",
-						"text": "Only usable while on the ground. Casting the Rift while sprinting causes you to slide into the cast animation."
+						"text": "Special Ammo bricks spawned from your ammo meter now appear for allies as well. These bricks contain "
+					},
+					{
+						"type": "numeric",
+						"text": "37%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "67%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "100%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " of the ammo a regular brick would have at "
+					},
+					{
+						"type": "numeric",
+						"text": "1",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "2",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "3",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " copies of the mod."
+					}
+				]
+			}
+		],
+		"definitions": []
+	},
+	"25156514": {
+		"hash": 25156514,
+		"name": "Empowering Rift",
+		"lastUpload": 1767737163134,
+		"type": "Subclass Class",
+		"uploadedBy": "Hawkmoona",
+		"descriptions": [
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Only usable while on the ground. Movement speed is slowed by "
+					},
+					{
+						"type": "numeric",
+						"text": "50%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " during the cast animation."
 					}
 				]
 			},
@@ -1330,7 +1415,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "4",
+						"text": "5",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -1348,11 +1433,18 @@
 			},
 			{
 				"type": "line",
+				"isLabel": true,
 				"content": [
 					{
 						"type": "text",
-						"text": "Grants a "
-					},
+						"text": "Grants the following benefits to you and allies within the rift:"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
 					{
 						"type": "pve",
 						"content": [
@@ -1381,7 +1473,7 @@
 					},
 					{
 						"type": "text",
-						"text": " "
+						"text": " Increased Damage ("
 					},
 					{
 						"type": "text",
@@ -1389,7 +1481,99 @@
 					},
 					{
 						"type": "text",
-						"text": " to you and allies inside the Rift."
+						"text": ")"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "260%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "104%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " Additional Base Grenade and Melee Regeneration Rate"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "230%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "92%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " Additional Base Class Regeneration Rate"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "Kills generate "
+					},
+					{
+						"type": "numeric",
+						"text": "15%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Increased Ammo Meter Progress"
 					}
 				]
 			}
@@ -1399,16 +1583,26 @@
 	"25156515": {
 		"hash": 25156515,
 		"name": "Healing Rift",
-		"lastUpload": 1739032704660,
+		"lastUpload": 1767742675724,
 		"type": "Subclass Class",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
 				"content": [
 					{
 						"type": "text",
-						"text": "Only usable while on the ground. Casting the Rift while sprinting causes you to slide into the cast animation."
+						"text": "Only usable while on the ground. Movement speed is slowed by "
+					},
+					{
+						"type": "numeric",
+						"text": "50%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " during the cast animation."
 					}
 				]
 			},
@@ -1447,7 +1641,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "4",
+						"text": "5",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -1471,10 +1665,30 @@
 						"text": "Heals you and allies in the Rift for "
 					},
 					{
-						"type": "numeric",
-						"text": "40",
-						"isUnknown": false,
-						"isEstimate": false
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "40",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "35",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
 					},
 					{
 						"type": "text",
@@ -14958,7 +15172,17 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Only usable while on the ground. Casting the Rift while sprinting causes you to slide into the cast animation."
+						"text": "Only usable while on the ground. Movement speed is slowed by "
+					},
+					{
+						"type": "numeric",
+						"text": "50%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " during the cast animation."
 					}
 				]
 			},
@@ -14997,7 +15221,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "4",
+						"text": "5",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -15021,10 +15245,30 @@
 						"text": "Heals you and allies in the Rift for "
 					},
 					{
-						"type": "numeric",
-						"text": "40",
-						"isUnknown": false,
-						"isEstimate": false
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "40",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "35",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
 					},
 					{
 						"type": "text",
@@ -15097,7 +15341,17 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Only usable while on the ground. Casting the Rift while sprinting causes you to slide into the cast animation."
+						"text": "Only usable while on the ground. Movement speed is slowed by "
+					},
+					{
+						"type": "numeric",
+						"text": "50%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " during the cast animation."
 					}
 				]
 			},
@@ -15136,7 +15390,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "4",
+						"text": "5",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -15154,11 +15408,18 @@
 			},
 			{
 				"type": "line",
+				"isLabel": true,
 				"content": [
 					{
 						"type": "text",
-						"text": "Grants a "
-					},
+						"text": "Grants the following benefits to you and allies within the rift:"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
 					{
 						"type": "pve",
 						"content": [
@@ -15187,7 +15448,7 @@
 					},
 					{
 						"type": "text",
-						"text": " "
+						"text": " Increased Damage ("
 					},
 					{
 						"type": "text",
@@ -15195,7 +15456,99 @@
 					},
 					{
 						"type": "text",
-						"text": " to you and allies inside the Rift."
+						"text": ")"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "260%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "104%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " Additional Base Grenade and Melee Regeneration Rate"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "230%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "92%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " Additional Base Class Regeneration Rate"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "Kills generate "
+					},
+					{
+						"type": "numeric",
+						"text": "15%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Increased Ammo Meter Progress"
 					}
 				]
 			}
@@ -16955,9 +17308,9 @@
 	"426473316": {
 		"hash": 426473316,
 		"name": "Marksman's Dodge",
-		"lastUpload": 1755984214899,
+		"lastUpload": 1767735373031,
 		"type": "Subclass Class",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -16979,7 +17332,17 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Performs an evasive maneuver in your movement input's direction that instantly reloads your held weapon."
+						"text": "Performs an evasive maneuver in your movement input's direction that instantly reloads all equipped weapons and collects ammo bricks that are on the ground within a "
+					},
+					{
+						"type": "numeric",
+						"text": "15",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meter radius of you."
 					}
 				]
 			},
@@ -17019,9 +17382,9 @@
 	"426473317": {
 		"hash": 426473317,
 		"name": "Gambler's Dodge",
-		"lastUpload": 1735009175023,
+		"lastUpload": 1767736565847,
 		"type": "Subclass Class",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -17076,14 +17439,99 @@
 						"text": "Grants "
 					},
 					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "1%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "0.35%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " Fixed Melee Ability Energy per "
+					},
+					{
 						"type": "numeric",
-						"text": "100%",
-						"isUnknown": true,
+						"text": "1",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " Melee Ability Energy if used within "
+						"text": " point in the Melee Stat, up to "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "100%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "35%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " at "
+					},
+					{
+						"type": "numeric",
+						"text": "100",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Melee Stat."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Melee Energy is doubled if performed within "
 					},
 					{
 						"type": "numeric",
@@ -17093,7 +17541,37 @@
 					},
 					{
 						"type": "text",
-						"text": " meters of an enemy."
+						"text": " meters of an enemy, allowing for a maximum refund of "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "200%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "70%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " energy."
 					}
 				]
 			},
@@ -50927,6 +51405,81 @@
 		],
 		"definitions": []
 	},
+	"1274140735": {
+		"hash": 1274140735,
+		"name": "Heavy Ammo Scout",
+		"lastUpload": 1767742675724,
+		"type": "Armor Mod General",
+		"uploadedBy": "Hawkmoona",
+		"descriptions": [
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Heavy Ammo bricks spawned from your ammo meter now appear for allies as well. These bricks contain "
+					},
+					{
+						"type": "numeric",
+						"text": "37%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "67%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "100%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " of the ammo a regular brick would have at "
+					},
+					{
+						"type": "numeric",
+						"text": "1",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "2",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "3",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " copies of the mod."
+					}
+				]
+			}
+		],
+		"definitions": []
+	},
 	"1275731761": {
 		"hash": 1275731761,
 		"name": "Cluster Bomb",
@@ -51171,14 +51724,99 @@
 						"text": "Grants "
 					},
 					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "1%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "0.35%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " Fixed Melee Ability Energy per "
+					},
+					{
 						"type": "numeric",
-						"text": "100%",
-						"isUnknown": true,
+						"text": "1",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " Melee Ability Energy if used within "
+						"text": " point in the Melee Stat, up to "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "100%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "35%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " at "
+					},
+					{
+						"type": "numeric",
+						"text": "100",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Melee Stat."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Melee Energy is doubled if performed within "
 					},
 					{
 						"type": "numeric",
@@ -51188,7 +51826,37 @@
 					},
 					{
 						"type": "text",
-						"text": " meters of an enemy."
+						"text": " meters of an enemy, allowing for a maximum refund of "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "200%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "70%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " energy."
 					}
 				]
 			},
@@ -51245,7 +51913,17 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Performs an evasive maneuver in your movement input's direction that instantly reloads your held weapon."
+						"text": "Performs an evasive maneuver in your movement input's direction that instantly reloads all equipped weapons and collects ammo bricks that are on the ground within a "
+					},
+					{
+						"type": "numeric",
+						"text": "15",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meter radius of you."
 					}
 				]
 			},
@@ -55540,7 +56218,17 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Only usable while on the ground. Casting the Rift while sprinting causes you to slide into the cast animation."
+						"text": "Only usable while on the ground. Movement speed is slowed by "
+					},
+					{
+						"type": "numeric",
+						"text": "50%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " during the cast animation."
 					}
 				]
 			},
@@ -55579,7 +56267,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "4",
+						"text": "5",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -55603,10 +56291,30 @@
 						"text": "Heals you and allies in the Rift for "
 					},
 					{
-						"type": "numeric",
-						"text": "40",
-						"isUnknown": false,
-						"isEstimate": false
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "40",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "35",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
 					},
 					{
 						"type": "text",
@@ -55679,7 +56387,17 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Only usable while on the ground. Casting the Rift while sprinting causes you to slide into the cast animation."
+						"text": "Only usable while on the ground. Movement speed is slowed by "
+					},
+					{
+						"type": "numeric",
+						"text": "50%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " during the cast animation."
 					}
 				]
 			},
@@ -55718,7 +56436,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "4",
+						"text": "5",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -55736,11 +56454,18 @@
 			},
 			{
 				"type": "line",
+				"isLabel": true,
 				"content": [
 					{
 						"type": "text",
-						"text": "Grants a "
-					},
+						"text": "Grants the following benefits to you and allies within the rift:"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
 					{
 						"type": "pve",
 						"content": [
@@ -55769,7 +56494,7 @@
 					},
 					{
 						"type": "text",
-						"text": " "
+						"text": " Increased Damage ("
 					},
 					{
 						"type": "text",
@@ -55777,7 +56502,99 @@
 					},
 					{
 						"type": "text",
-						"text": " to you and allies inside the Rift."
+						"text": ")"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "260%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "104%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " Additional Base Grenade and Melee Regeneration Rate"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "230%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "92%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " Additional Base Class Regeneration Rate"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "Kills generate "
+					},
+					{
+						"type": "numeric",
+						"text": "15%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Increased Ammo Meter Progress"
 					}
 				]
 			}
@@ -83923,7 +84740,17 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Only usable while on the ground. Casting the Rift while sprinting causes you to slide into the cast animation."
+						"text": "Only usable while on the ground. Movement speed is slowed by "
+					},
+					{
+						"type": "numeric",
+						"text": "50%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " during the cast animation."
 					}
 				]
 			},
@@ -83962,7 +84789,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "4",
+						"text": "5",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -83980,11 +84807,18 @@
 			},
 			{
 				"type": "line",
+				"isLabel": true,
 				"content": [
 					{
 						"type": "text",
-						"text": "Grants a "
-					},
+						"text": "Grants the following benefits to you and allies within the rift:"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
 					{
 						"type": "pve",
 						"content": [
@@ -84013,7 +84847,7 @@
 					},
 					{
 						"type": "text",
-						"text": " "
+						"text": " Increased Damage ("
 					},
 					{
 						"type": "text",
@@ -84021,7 +84855,99 @@
 					},
 					{
 						"type": "text",
-						"text": " to you and allies inside the Rift."
+						"text": ")"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "260%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "104%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " Additional Base Grenade and Melee Regeneration Rate"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "230%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "92%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " Additional Base Class Regeneration Rate"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "Kills generate "
+					},
+					{
+						"type": "numeric",
+						"text": "15%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Increased Ammo Meter Progress"
 					}
 				]
 			}
@@ -84040,7 +84966,17 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Only usable while on the ground. Casting the Rift while sprinting causes you to slide into the cast animation."
+						"text": "Only usable while on the ground. Movement speed is slowed by "
+					},
+					{
+						"type": "numeric",
+						"text": "50%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " during the cast animation."
 					}
 				]
 			},
@@ -84079,7 +85015,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "4",
+						"text": "5",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -84103,10 +85039,30 @@
 						"text": "Heals you and allies in the Rift for "
 					},
 					{
-						"type": "numeric",
-						"text": "40",
-						"isUnknown": false,
-						"isEstimate": false
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "40",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "35",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
 					},
 					{
 						"type": "text",
@@ -104741,14 +105697,99 @@
 						"text": "Grants "
 					},
 					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "1%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "0.35%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " Fixed Melee Ability Energy per "
+					},
+					{
 						"type": "numeric",
-						"text": "100%",
-						"isUnknown": true,
+						"text": "1",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " Melee Ability Energy if used within "
+						"text": " point in the Melee Stat, up to "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "100%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "35%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " at "
+					},
+					{
+						"type": "numeric",
+						"text": "100",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Melee Stat."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Melee Energy is doubled if performed within "
 					},
 					{
 						"type": "numeric",
@@ -104758,7 +105799,37 @@
 					},
 					{
 						"type": "text",
-						"text": " meters of an enemy."
+						"text": " meters of an enemy, allowing for a maximum refund of "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "200%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "70%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " energy."
 					}
 				]
 			},
@@ -104815,7 +105886,17 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Performs an evasive maneuver in your movement input's direction that instantly reloads your held weapon."
+						"text": "Performs an evasive maneuver in your movement input's direction that instantly reloads all equipped weapons and collects ammo bricks that are on the ground within a "
+					},
+					{
+						"type": "numeric",
+						"text": "15",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meter radius of you."
 					}
 				]
 			},
@@ -110129,7 +111210,17 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Performs an evasive maneuver in your movement input's direction that instantly reloads your held weapon."
+						"text": "Performs an evasive maneuver in your movement input's direction that instantly reloads all equipped weapons and collects ammo bricks that are on the ground within a "
+					},
+					{
+						"type": "numeric",
+						"text": "15",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meter radius of you."
 					}
 				]
 			},
@@ -110226,14 +111317,99 @@
 						"text": "Grants "
 					},
 					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "1%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "0.35%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " Fixed Melee Ability Energy per "
+					},
+					{
 						"type": "numeric",
-						"text": "100%",
-						"isUnknown": true,
+						"text": "1",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " Melee Ability Energy if used within "
+						"text": " point in the Melee Stat, up to "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "100%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "35%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " at "
+					},
+					{
+						"type": "numeric",
+						"text": "100",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Melee Stat."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Melee Energy is doubled if performed within "
 					},
 					{
 						"type": "numeric",
@@ -110243,7 +111419,37 @@
 					},
 					{
 						"type": "text",
-						"text": " meters of an enemy."
+						"text": " meters of an enemy, allowing for a maximum refund of "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "200%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "70%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " energy."
 					}
 				]
 			},
@@ -116597,7 +117803,17 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Only usable while on the ground. Casting the Rift while sprinting causes you to slide into the cast animation."
+						"text": "Only usable while on the ground. Movement speed is slowed by "
+					},
+					{
+						"type": "numeric",
+						"text": "50%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " during the cast animation."
 					}
 				]
 			},
@@ -116636,7 +117852,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "4",
+						"text": "5",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -116654,11 +117870,18 @@
 			},
 			{
 				"type": "line",
+				"isLabel": true,
 				"content": [
 					{
 						"type": "text",
-						"text": "Grants a "
-					},
+						"text": "Grants the following benefits to you and allies within the rift:"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
 					{
 						"type": "pve",
 						"content": [
@@ -116687,7 +117910,7 @@
 					},
 					{
 						"type": "text",
-						"text": " "
+						"text": " Increased Damage ("
 					},
 					{
 						"type": "text",
@@ -116695,7 +117918,99 @@
 					},
 					{
 						"type": "text",
-						"text": " to you and allies inside the Rift."
+						"text": ")"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "260%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "104%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " Additional Base Grenade and Melee Regeneration Rate"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "230%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "92%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " Additional Base Class Regeneration Rate"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "Kills generate "
+					},
+					{
+						"type": "numeric",
+						"text": "15%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Increased Ammo Meter Progress"
 					}
 				]
 			}
@@ -116714,7 +118029,17 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Only usable while on the ground. Casting the Rift while sprinting causes you to slide into the cast animation."
+						"text": "Only usable while on the ground. Movement speed is slowed by "
+					},
+					{
+						"type": "numeric",
+						"text": "50%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " during the cast animation."
 					}
 				]
 			},
@@ -116753,7 +118078,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "4",
+						"text": "5",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -116777,10 +118102,30 @@
 						"text": "Heals you and allies in the Rift for "
 					},
 					{
-						"type": "numeric",
-						"text": "40",
-						"isUnknown": false,
-						"isEstimate": false
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "40",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "35",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
 					},
 					{
 						"type": "text",
@@ -134260,7 +135605,17 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Only usable while on the ground. Casting the Rift while sprinting causes you to slide into the cast animation."
+						"text": "Only usable while on the ground. Movement speed is slowed by "
+					},
+					{
+						"type": "numeric",
+						"text": "50%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " during the cast animation."
 					}
 				]
 			},
@@ -134299,7 +135654,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "4",
+						"text": "5",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -134317,11 +135672,18 @@
 			},
 			{
 				"type": "line",
+				"isLabel": true,
 				"content": [
 					{
 						"type": "text",
-						"text": "Grants a "
-					},
+						"text": "Grants the following benefits to you and allies within the rift:"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
 					{
 						"type": "pve",
 						"content": [
@@ -134350,7 +135712,7 @@
 					},
 					{
 						"type": "text",
-						"text": " "
+						"text": " Increased Damage ("
 					},
 					{
 						"type": "text",
@@ -134358,7 +135720,99 @@
 					},
 					{
 						"type": "text",
-						"text": " to you and allies inside the Rift."
+						"text": ")"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "260%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "104%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " Additional Base Grenade and Melee Regeneration Rate"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "230%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "92%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " Additional Base Class Regeneration Rate"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "Kills generate "
+					},
+					{
+						"type": "numeric",
+						"text": "15%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Increased Ammo Meter Progress"
 					}
 				]
 			}
@@ -134377,7 +135831,17 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Only usable while on the ground. Casting the Rift while sprinting causes you to slide into the cast animation."
+						"text": "Only usable while on the ground. Movement speed is slowed by "
+					},
+					{
+						"type": "numeric",
+						"text": "50%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " during the cast animation."
 					}
 				]
 			},
@@ -134416,7 +135880,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "4",
+						"text": "5",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -134440,10 +135904,30 @@
 						"text": "Heals you and allies in the Rift for "
 					},
 					{
-						"type": "numeric",
-						"text": "40",
-						"isUnknown": false,
-						"isEstimate": false
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "40",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "35",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
 					},
 					{
 						"type": "text",
@@ -138238,7 +139722,17 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Performs an evasive maneuver in your movement input's direction that instantly reloads your held weapon."
+						"text": "Performs an evasive maneuver in your movement input's direction that instantly reloads all equipped weapons and collects ammo bricks that are on the ground within a "
+					},
+					{
+						"type": "numeric",
+						"text": "15",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meter radius of you."
 					}
 				]
 			},
@@ -138335,14 +139829,99 @@
 						"text": "Grants "
 					},
 					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "1%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "0.35%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " Fixed Melee Ability Energy per "
+					},
+					{
 						"type": "numeric",
-						"text": "100%",
-						"isUnknown": true,
+						"text": "1",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " Melee Ability Energy if used within "
+						"text": " point in the Melee Stat, up to "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "100%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "35%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " at "
+					},
+					{
+						"type": "numeric",
+						"text": "100",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Melee Stat."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Melee Energy is doubled if performed within "
 					},
 					{
 						"type": "numeric",
@@ -138352,7 +139931,37 @@
 					},
 					{
 						"type": "text",
-						"text": " meters of an enemy."
+						"text": " meters of an enemy, allowing for a maximum refund of "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "200%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "70%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " energy."
 					}
 				]
 			},
@@ -149558,7 +151167,17 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Performs an evasive maneuver in your movement input's direction that instantly reloads your held weapon."
+						"text": "Performs an evasive maneuver in your movement input's direction that instantly reloads all equipped weapons and collects ammo bricks that are on the ground within a "
+					},
+					{
+						"type": "numeric",
+						"text": "15",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meter radius of you."
 					}
 				]
 			},
@@ -149655,14 +151274,99 @@
 						"text": "Grants "
 					},
 					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "1%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "0.35%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " Fixed Melee Ability Energy per "
+					},
+					{
 						"type": "numeric",
-						"text": "100%",
-						"isUnknown": true,
+						"text": "1",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " Melee Ability Energy if used within "
+						"text": " point in the Melee Stat, up to "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "100%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "35%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " at "
+					},
+					{
+						"type": "numeric",
+						"text": "100",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Melee Stat."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Melee Energy is doubled if performed within "
 					},
 					{
 						"type": "numeric",
@@ -149672,7 +151376,37 @@
 					},
 					{
 						"type": "text",
-						"text": " meters of an enemy."
+						"text": " meters of an enemy, allowing for a maximum refund of "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "200%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "70%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " energy."
 					}
 				]
 			},
