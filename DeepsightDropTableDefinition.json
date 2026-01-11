@@ -349,7 +349,9 @@
 			"iconHash": 0,
 			"hasIcon": false
 		},
-		"dropTable": {},
+		"dropTable": {
+			"4118334987": {}
+		},
 		"typeDisplayProperties": {
 			"name": "Crucible Ops",
 			"description": "Hone your skills and win glory in battle against other Guardians.",
@@ -498,6 +500,24 @@
 		"displayProperties": {
 			"description": "Jump coordinates matching an errant distress signal.",
 			"name": "Presage",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"iconHash": 0,
+			"hasIcon": false
+		},
+		"dropTable": {},
+		"typeDisplayProperties": {
+			"name": "Pinnacle Ops",
+			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
+			"icon": "/img/destiny_content/portal/category_prestige.png"
+		}
+	},
+	"962366573": {
+		"hash": 962366573,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Delve ever deeper into the myriad pathways of Riven's Lair in The Coil. Face greater challenges and retrieve greater rewards.",
+			"name": "The Coil",
 			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
 			"iconHash": 0,
 			"hasIcon": false
@@ -871,7 +891,9 @@
 			"iconHash": 0,
 			"hasIcon": false
 		},
-		"dropTable": {},
+		"dropTable": {
+			"4104613038": {}
+		},
 		"typeDisplayProperties": {
 			"name": "Pinnacle Ops",
 			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
@@ -1066,7 +1088,11 @@
 			"iconHash": 0,
 			"hasIcon": false
 		},
-		"dropTable": {},
+		"dropTable": {
+			"385833378": {},
+			"1934339678": {},
+			"2248528889": {}
+		},
 		"typeDisplayProperties": {
 			"name": "Pinnacle Ops",
 			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
@@ -1456,11 +1482,7 @@
 			"iconHash": 0,
 			"hasIcon": false
 		},
-		"dropTable": {
-			"293267476": {},
-			"1057430865": {},
-			"2676446840": {}
-		},
+		"dropTable": {},
 		"typeDisplayProperties": {
 			"name": "Solo Ops",
 			"description": "Protect Earth from Sol's greatest foes as a one-Guardian fireteam and the Vanguard's last line of defense.",
@@ -1710,7 +1732,9 @@
 			"iconHash": 0,
 			"hasIcon": false
 		},
-		"dropTable": {},
+		"dropTable": {
+			"3615748501": {}
+		},
 		"typeDisplayProperties": {
 			"name": "Pinnacle Ops",
 			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
@@ -2359,11 +2383,7 @@
 			"iconHash": 0,
 			"hasIcon": false
 		},
-		"dropTable": {
-			"1248547982": {},
-			"3120202721": {},
-			"3462703357": {}
-		},
+		"dropTable": {},
 		"typeDisplayProperties": {
 			"name": "Arena Ops",
 			"description": "Join a large group of Lightbearers executing Vanguard operations around Sol and crushing Earth's deadliest foes.",
@@ -2381,9 +2401,7 @@
 			"iconHash": 0,
 			"hasIcon": false
 		},
-		"dropTable": {
-			"2297554989": {}
-		},
+		"dropTable": {},
 		"typeDisplayProperties": {
 			"name": "Crucible Ops",
 			"description": "Hone your skills and win glory in battle against other Guardians.",
@@ -2643,26 +2661,6 @@
 			"hasIcon": false
 		},
 		"dropTable": {},
-		"typeDisplayProperties": {
-			"name": "Pinnacle Ops",
-			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
-			"icon": "/img/destiny_content/portal/category_prestige.png"
-		}
-	},
-	"3698225057": {
-		"hash": 3698225057,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Delve ever deeper into the myriad pathways of Riven's Lair in The Coil. Face greater challenges and retrieve greater rewards.",
-			"name": "The Coil",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"iconHash": 0,
-			"hasIcon": false
-		},
-		"dropTable": {
-			"260532765": {}
-		},
 		"typeDisplayProperties": {
 			"name": "Pinnacle Ops",
 			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
@@ -3007,7 +3005,11 @@
 			"iconHash": 0,
 			"hasIcon": false
 		},
-		"dropTable": {},
+		"dropTable": {
+			"2370945771": {},
+			"4037429988": {},
+			"4199055647": {}
+		},
 		"typeDisplayProperties": {
 			"name": "Arena Ops",
 			"description": "Join a large group of Lightbearers executing Vanguard operations around Sol and crushing Earth's deadliest foes.",
@@ -3025,7 +3027,9 @@
 			"iconHash": 0,
 			"hasIcon": false
 		},
-		"dropTable": {},
+		"dropTable": {
+			"1402874079": {}
+		},
 		"typeDisplayProperties": {
 			"name": "Solo Ops",
 			"description": "Protect Earth from Sol's greatest foes as a one-Guardian fireteam and the Vanguard's last line of defense.",
@@ -3190,9 +3194,7 @@
 			"iconHash": 0,
 			"hasIcon": false
 		},
-		"dropTable": {
-			"4104613038": {}
-		},
+		"dropTable": {},
 		"typeDisplayProperties": {
 			"name": "Pinnacle Ops",
 			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
@@ -3495,9 +3497,7 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"2370945771": {},
-			"4037429988": {},
-			"4199055647": {}
+			"1685533876": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Solo Ops",
@@ -3517,7 +3517,9 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"3201200906": {}
+			"2849508185": {},
+			"3554497829": {},
+			"4066564572": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Arena Ops",
@@ -3536,11 +3538,7 @@
 			"iconHash": 0,
 			"hasIcon": false
 		},
-		"dropTable": {
-			"262826703": {},
-			"1504698788": {},
-			"1604556427": {}
-		},
+		"dropTable": {},
 		"typeDisplayProperties": {
 			"name": "Pinnacle Ops",
 			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
