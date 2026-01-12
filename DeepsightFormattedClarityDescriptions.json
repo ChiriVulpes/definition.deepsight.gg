@@ -3351,9 +3351,9 @@
 	"74393640": {
 		"hash": 74393640,
 		"name": "Facet of Defiance",
-		"lastUpload": 1738975855601,
+		"lastUpload": 1768192546229,
 		"type": "Subclass Fragment",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -3364,7 +3364,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "150",
+						"text": "135",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -4048,6 +4048,412 @@
 					{
 						"type": "text",
 						"text": " Stack of Armor Charge."
+					}
+				]
+			}
+		],
+		"definitions": []
+	},
+	"89777927": {
+		"hash": 89777927,
+		"name": "Ranged Weapon",
+		"itemHash": 3049715579,
+		"itemName": "Praxic Blade",
+		"lastUpload": 1768192546229,
+		"type": "Weapon Frame Exotic",
+		"uploadedBy": "Hawkmoona",
+		"descriptions": [
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Intrinsically "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"barrier"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Anti-Barrier."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Melee Hits can discharge "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"arc"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Bolt Charge stacks."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Tapping [Heavy Attack] throws your blade out up to "
+					},
+					{
+						"type": "numeric",
+						"text": "50",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meters away, seeking towards "
+					},
+					{
+						"type": "numeric",
+						"text": "3",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " enemies and then returning. Blade deals "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "945",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "174",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " damage to each target, and deals "
+					},
+					{
+						"type": "numeric",
+						"text": "80%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " reduced damage while returning. Pressing Light Attack recalls the blade early."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Holding [Heavy Attack] throws your blade "
+					},
+					{
+						"type": "numeric",
+						"text": "20",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meters in a straight path forward, forgoing distance and seeking capabilities to deal "
+					},
+					{
+						"type": "numeric",
+						"text": "100%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " increased damage."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "labelledLine",
+				"label": [
+					{
+						"type": "text",
+						"text": "With Gyro Core Equipped:"
+					},
+					{
+						"type": "text",
+						"text": " Thrown Blade Hits apply elemental effects matching your subclass:"
+					},
+					{
+						"type": "text",
+						"text": ": "
+					}
+				],
+				"value": []
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "icon",
+						"classNames": [
+							"arc"
+						]
+					},
+					{
+						"type": "text",
+						"text": " Grants "
+					},
+					{
+						"type": "numeric",
+						"text": "x1",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Bolt Charge"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "numeric",
+						"text": "35",
+						"isUnknown": false,
+						"isEstimate": true
+					},
+					{
+						"type": "text",
+						"text": " Scorch ("
+					},
+					{
+						"type": "numeric",
+						"text": "50",
+						"isUnknown": false,
+						"isEstimate": true
+					},
+					{
+						"type": "text",
+						"text": " with "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Ember of Ashes)"
+					},
+					{
+						"type": "text",
+						"text": ". Stacks vary?"
+					},
+					{
+						"type": "text",
+						"text": " between the two heavy attacks"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "icon",
+						"classNames": [
+							"void"
+						]
+					},
+					{
+						"type": "text",
+						"text": " Weakens for "
+					},
+					{
+						"type": "numeric",
+						"text": "6",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "icon",
+						"classNames": [
+							"stasis"
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "numeric",
+						"text": "50",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Slow for "
+					},
+					{
+						"type": "numeric",
+						"text": "4",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds ("
+					},
+					{
+						"type": "numeric",
+						"text": "8",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " with "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"stasis"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Whisper of Durance)"
+					},
+					{
+						"type": "text",
+						"text": ". Stacks vary?"
+					},
+					{
+						"type": "text",
+						"text": " between the two heavy attacks"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "icon",
+						"classNames": [
+							"strand"
+						]
+					},
+					{
+						"type": "text",
+						"text": " Severs for "
+					},
+					{
+						"type": "numeric",
+						"text": "10",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds ("
+					},
+					{
+						"type": "numeric",
+						"text": "15",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " with "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"strand"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Thread of Continuity)"
 					}
 				]
 			}
@@ -13272,9 +13678,9 @@
 	"362132289": {
 		"hash": 362132289,
 		"name": "Ember of Combustion",
-		"lastUpload": 1714219892088,
+		"lastUpload": 1768192546229,
 		"type": "Subclass Fragment",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -13312,31 +13718,6 @@
 					{
 						"type": "text",
 						"text": "Firesprite at their location."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "line",
-				"content": [
-					{
-						"type": "text",
-						"text": "Deadshot Golden Gun refunds "
-					},
-					{
-						"type": "numeric",
-						"text": "1",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " ammo per kill."
 					}
 				]
 			},
@@ -50587,6 +50968,128 @@
 		],
 		"definitions": []
 	},
+	"1258693557": {
+		"hash": 1258693557,
+		"name": "Bolt Thrower",
+		"itemHash": 1685137410,
+		"itemName": "Heirloom",
+		"lastUpload": 1768192546229,
+		"type": "Weapon Frame Exotic",
+		"uploadedBy": "Hawkmoona",
+		"descriptions": [
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Intrinsically "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"unstoppable"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Anti-Unstoppable."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Balanced 'Perfect Vent' Heat Weapon."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Scorch and "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Ignitions that originate from this weapon deal "
+					},
+					{
+						"type": "numeric",
+						"text": "110%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " increased damage."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Charges explosive bolts that deal damage in a "
+					},
+					{
+						"type": "numeric",
+						"text": "4",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meter radius, dealing a maximum of "
+					},
+					{
+						"type": "numeric",
+						"text": "50%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " damage at the edge of the radius."
+					}
+				]
+			}
+		],
+		"definitions": []
+	},
 	"1260401931": {
 		"hash": 1260401931,
 		"name": "Hot Swap",
@@ -70444,6 +70947,209 @@
 		],
 		"definitions": []
 	},
+	"1818108773": {
+		"hash": 1818108773,
+		"name": "Dichotomous Thinking",
+		"itemHash": 4284533075,
+		"itemName": "Service of Luzaku",
+		"lastUpload": 1768192546229,
+		"type": "Weapon Frame Exotic",
+		"uploadedBy": "Hawkmoona",
+		"descriptions": [
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Deals "
+					},
+					{
+						"type": "numeric",
+						"text": "30%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " more damage than other High Impact Machine Guns."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Scoring hits grant "
+					},
+					{
+						"type": "numeric",
+						"text": "10%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Healing Charge. Unlike Support-Frame Auto Rifles, this is the only way to gain charge."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Hip-fire to shoot Healing Rounds at "
+					},
+					{
+						"type": "numeric",
+						"text": "600",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " RPM that seek allies within the reticle. Healing Rounds do not consume ammo, instead taking "
+					},
+					{
+						"type": "numeric",
+						"text": "2%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Healing Charge each, and restore "
+					},
+					{
+						"type": "numeric",
+						"text": "30",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " HP per hit. Landing a healing round "
+					},
+					{
+						"type": "text",
+						"text": "refills"
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "numeric",
+						"text": "2",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " ammo into the magazine."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Landing "
+					},
+					{
+						"type": "numeric",
+						"text": "6",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " healing rounds within "
+					},
+					{
+						"type": "numeric",
+						"text": "1",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " second of each other spawns a "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"strand"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Threadling at the ally's location, and grants both you and them the 'Support Frame Boost'"
+					},
+					{
+						"type": "text",
+						"text": ". Support Frame Boost increases Weapon Damage by "
+					},
+					{
+						"type": "numeric",
+						"text": "10%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " for "
+					},
+					{
+						"type": "numeric",
+						"text": "6",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds and stacks with everything."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Healing a Teeming Nest also grants you the Support Frame Boost."
+					}
+				]
+			}
+		],
+		"definitions": []
+	},
 	"1820235745": {
 		"hash": 1820235745,
 		"name": "Subsistence",
@@ -83153,6 +83859,52 @@
 					{
 						"type": "text",
 						"text": " Reload Speed."
+					}
+				]
+			}
+		],
+		"definitions": []
+	},
+	"2144580852": {
+		"hash": 2144580852,
+		"name": "Tri-Planar Mass Driver",
+		"itemHash": 2973900274,
+		"itemName": "Third Iteration",
+		"lastUpload": 1768192546229,
+		"type": "Weapon Frame Exotic",
+		"uploadedBy": "Hawkmoona",
+		"descriptions": [
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Fires a spread of four "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"void"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Void projectiles per shot."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Aiming Down Sights tightens the spread."
 					}
 				]
 			}
@@ -98054,6 +98806,62 @@
 					{
 						"type": "text",
 						"text": " seconds."
+					}
+				]
+			}
+		],
+		"definitions": []
+	},
+	"2575933030": {
+		"hash": 2575933030,
+		"name": "Atomizing Rounds",
+		"itemHash": 1736135946,
+		"itemName": "New Malpais",
+		"lastUpload": 1768192546229,
+		"type": "Weapon Frame Exotic",
+		"uploadedBy": "Hawkmoona",
+		"descriptions": [
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Fires a "
+					},
+					{
+						"type": "numeric",
+						"text": "3",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": "-round burst of delayed micro-missile projectiles that detonate after "
+					},
+					{
+						"type": "numeric",
+						"text": "6",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds of being embedded into a target."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Hold [Reload] to instantly detonate all fired rounds."
 					}
 				]
 			}
@@ -125250,6 +126058,283 @@
 			}
 		]
 	},
+	"3200860608": {
+		"hash": 3200860608,
+		"name": "Coronal Culmination",
+		"itemHash": 1202007252,
+		"itemName": "Whirling Ovation",
+		"lastUpload": 1768192546229,
+		"type": "Weapon Frame Exotic",
+		"uploadedBy": "Hawkmoona",
+		"descriptions": [
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Counts as a "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"strand"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Strand Weapon for most armor mods. "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Solar Explosion will only be buffed by Solar Surge mods."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Hold down the trigger to charge this weapon's rocket through three stages. Upon reaching the first stage, a high damage delayed "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Solar Explosive is added to the rocket, which detonates after "
+					},
+					{
+						"type": "numeric",
+						"text": "1",
+						"isUnknown": false,
+						"isEstimate": true
+					},
+					{
+						"type": "text",
+						"text": " second and deals damage in a "
+					},
+					{
+						"type": "numeric",
+						"text": "10",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meter radius."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Holding down the trigger for "
+					},
+					{
+						"type": "numeric",
+						"text": "0.4",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds after reaching maximum charge automatically fires the rocket. At base, it takes "
+					},
+					{
+						"type": "numeric",
+						"text": "4.85",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds to fully charge Whirling Ovation"
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"isLabel": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "Benefits at "
+					},
+					{
+						"type": "numeric",
+						"text": "33%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "numeric",
+						"text": "-66%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "66%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "numeric",
+						"text": "-99%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "100%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Charge Level:"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "numeric",
+						"text": "207%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "315%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "525%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " overall damage increase"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "numeric",
+						"text": "55%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "109%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "212%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " increased impact damage"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "[-]%"
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "35%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "52%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " increased explosion damage"
+					}
+				]
+			}
+		],
+		"definitions": []
+	},
 	"3201496230": {
 		"hash": 3201496230,
 		"name": "Redirection",
@@ -128052,9 +129137,9 @@
 	"3277705906": {
 		"hash": 3277705906,
 		"name": "Spark of Amplitude",
-		"lastUpload": 1723480728683,
+		"lastUpload": 1768192546229,
 		"type": "Subclass Fragment",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -128102,6 +129187,21 @@
 					{
 						"type": "text",
 						"text": " Super Energy."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "The kill that makes you amplified counts towards this requirement."
 					}
 				]
 			},
@@ -140840,7 +141940,7 @@
 		"name": "Dreaded Visage",
 		"itemHash": 3883866764,
 		"itemName": "Mask of the Quiet One",
-		"lastUpload": 1767665829609,
+		"lastUpload": 1768192546229,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -140934,7 +142034,41 @@
 					},
 					{
 						"type": "text",
-						"text": "Devour."
+						"text": "Devour for "
+					},
+					{
+						"type": "numeric",
+						"text": "5",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds ("
+					},
+					{
+						"type": "numeric",
+						"text": "7.5",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds with "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"void"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Echo of Persistance)"
+					},
+					{
+						"type": "text",
+						"text": "."
 					}
 				]
 			},
@@ -154912,7 +156046,7 @@
 		"name": "Misdirection",
 		"itemHash": 1163283805,
 		"itemName": "Gemini Jester",
-		"lastUpload": 1767719022767,
+		"lastUpload": 1768192546229,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -154924,10 +156058,30 @@
 						"text": "Class Ability usage applies Misdirection to enemies within "
 					},
 					{
-						"type": "numeric",
-						"text": "10",
-						"isUnknown": false,
-						"isEstimate": false
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "10",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "22",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
 					},
 					{
 						"type": "text",
