@@ -386,7 +386,7 @@ export default Task('DeepsightDropTableDefinition', async () => {
 					description: { DestinyFireteamFinderActivityGraphDefinition: portalNode.fireteamFinderGraph.hash },
 					icon: portalNode.icon,
 				}),
-				pgcrImage: activity.definition?.activityModeHashes.includes(ActivityModeHashes.Crucible) ? (await DestinyActivityDefinition.get(ActivityHashes.TwilightGap111657329))?.pgcrImage : undefined,
+				pgcrImage: activity.definition?.activityModeHashes?.includes(ActivityModeHashes.Crucible) ? (await DestinyActivityDefinition.get(ActivityHashes.TwilightGap111657329))?.pgcrImage : undefined,
 			}
 		}
 	}
