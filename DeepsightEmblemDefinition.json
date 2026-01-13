@@ -773,9 +773,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/ad87c470ef0a97716e2be95cf6a18c8a.png",
 		"secondarySpecial": "/common/destiny2_content/icons/fa2be3352c5aff4d6a89cec1c16983ca.jpg",
 		"backgroundColor": {
-			"red": 107,
-			"green": 60,
-			"blue": 51,
+			"red": 102,
+			"green": 56,
+			"blue": 80,
 			"alpha": 255
 		}
 	},
@@ -2834,9 +2834,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/70bd3b710d12ccb0b898a57d088ccd6b.png",
 		"secondarySpecial": "/common/destiny2_content/icons/c380723c06f0e037928a6a0894de77f7.jpg",
 		"backgroundColor": {
-			"red": 106,
-			"green": 79,
-			"blue": 62,
+			"red": 96,
+			"green": 81,
+			"blue": 72,
 			"alpha": 255
 		}
 	},
@@ -4253,9 +4253,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/85eb575dc2595cdbabeaa27c7993e138.png",
 		"secondarySpecial": "/common/destiny2_content/icons/46de18dc17e0ecdc280f46f57ca8a25a.jpg",
 		"backgroundColor": {
-			"red": 73,
-			"green": 102,
-			"blue": 136,
+			"red": 69,
+			"green": 98,
+			"blue": 135,
 			"alpha": 255
 		}
 	},
@@ -4852,9 +4852,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/c3cb95218234dab1661c421a7fc262e3.png",
 		"secondarySpecial": "/common/destiny2_content/icons/209f74fd231244658f85cb38f80d95a1.png",
 		"backgroundColor": {
-			"red": 237,
-			"green": 154,
-			"blue": 38,
+			"red": 239,
+			"green": 151,
+			"blue": 37,
 			"alpha": 255
 		}
 	},
@@ -6305,9 +6305,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/e9382ad7a20a7aa0d9d38cdc6f3b1f43.png",
 		"secondarySpecial": "/common/destiny2_content/icons/67d2d8d4ea76502fef88bcaf0077027a.jpg",
 		"backgroundColor": {
-			"red": 106,
-			"green": 32,
-			"blue": 85,
+			"red": 104,
+			"green": 34,
+			"blue": 88,
 			"alpha": 255
 		}
 	},
@@ -9704,9 +9704,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/9939dd44cedcaa2fe2a9cc15e29e6676.png",
 		"secondarySpecial": "/common/destiny2_content/icons/9c879815f40a8ff7435f596ee639784f.jpg",
 		"backgroundColor": {
-			"red": 73,
-			"green": 21,
-			"blue": 121,
+			"red": 71,
+			"green": 19,
+			"blue": 124,
 			"alpha": 255
 		}
 	},
@@ -11201,9 +11201,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/7a61faf3c0adbfadfb44c887990f8122.png",
 		"secondarySpecial": "/common/destiny2_content/icons/123890ad7f3dd3bbb192b526d1a2df0c.jpg",
 		"backgroundColor": {
-			"red": 65,
-			"green": 96,
-			"blue": 134,
+			"red": 70,
+			"green": 99,
+			"blue": 139,
 			"alpha": 255
 		}
 	},
@@ -15174,9 +15174,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/f4b95d2ebfde5674f38b3d9a9f5cbdd9.png",
 		"secondarySpecial": "/common/destiny2_content/icons/b8b340b097ee44677a3eaab3956c23f6.jpg",
 		"backgroundColor": {
-			"red": 228,
-			"green": 68,
-			"blue": 73,
+			"red": 231,
+			"green": 86,
+			"blue": 70,
 			"alpha": 255
 		}
 	},
@@ -17531,9 +17531,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/f85fad46db0cb8e3c3745c31f49d59c3.png",
 		"secondarySpecial": "/common/destiny2_content/icons/77688f0c6f117bfca8101a127fae9445.jpg",
 		"backgroundColor": {
-			"red": 15,
-			"green": 20,
-			"blue": 16,
+			"red": 23,
+			"green": 19,
+			"blue": 18,
 			"alpha": 255
 		}
 	},
@@ -17791,9 +17791,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/3fc38d9332665c057dfa98f873f54054.png",
 		"secondarySpecial": "/common/destiny2_content/icons/5f77ab650f3c2d4f122d19663ab5abe6.jpg",
 		"backgroundColor": {
-			"red": 58,
-			"green": 105,
-			"blue": 120,
+			"red": 69,
+			"green": 99,
+			"blue": 110,
 			"alpha": 255
 		}
 	},
@@ -18210,9 +18210,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/74a420af8993c8f481edc9ca400a295e.png",
 		"secondarySpecial": "/common/destiny2_content/icons/0f1dd33b6780cded79d539f7c6a67d55.jpg",
 		"backgroundColor": {
-			"red": 27,
-			"green": 28,
-			"blue": 23,
+			"red": 32,
+			"green": 29,
+			"blue": 24,
 			"alpha": 255
 		}
 	},
@@ -19170,7 +19170,7 @@
 		"secondarySpecial": "/common/destiny2_content/icons/ef0b9b230335257c9478e400e44ca512.jpg",
 		"backgroundColor": {
 			"red": 15,
-			"green": 84,
+			"green": 81,
 			"blue": 194,
 			"alpha": 255
 		}
