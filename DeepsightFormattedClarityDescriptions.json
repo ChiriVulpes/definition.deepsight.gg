@@ -49731,9 +49731,9 @@
 	"1194056669": {
 		"hash": 1194056669,
 		"name": "Closing Time",
-		"lastUpload": 1745179110048,
+		"lastUpload": 1768580227910,
 		"type": "Weapon Trait",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -49865,10 +49865,6 @@
 				"type": "line",
 				"content": [
 					{
-						"type": "text",
-						"text": "Benefits are halved on "
-					},
-					{
 						"type": "icon",
 						"classNames": [
 							"special"
@@ -49876,7 +49872,17 @@
 					},
 					{
 						"type": "text",
-						"text": "Special Ammo weapons."
+						"text": "Special weapons only receive "
+					},
+					{
+						"type": "numeric",
+						"text": "50%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " of the benefits. Stats are rounded up."
 					}
 				]
 			}
@@ -153154,10 +153160,6 @@
 				"type": "line",
 				"content": [
 					{
-						"type": "text",
-						"text": "Benefits are halved on "
-					},
-					{
 						"type": "icon",
 						"classNames": [
 							"special"
@@ -153165,7 +153167,17 @@
 					},
 					{
 						"type": "text",
-						"text": "Special Ammo weapons."
+						"text": "Special weapons only receive "
+					},
+					{
+						"type": "numeric",
+						"text": "50%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " of the benefits. Stats are rounded up."
 					}
 				]
 			},
@@ -156046,7 +156058,7 @@
 		"name": "Misdirection",
 		"itemHash": 1163283805,
 		"itemName": "Gemini Jester",
-		"lastUpload": 1768192546229,
+		"lastUpload": 1768580227910,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -158044,9 +158056,9 @@
 	"4087056174": {
 		"hash": 4087056174,
 		"name": "Recuperation",
-		"lastUpload": 1755815364903,
+		"lastUpload": 1768580227910,
 		"type": "Armor Mod General",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -158066,7 +158078,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "75",
+						"text": "21",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -158075,7 +158087,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "75",
+						"text": "21",
 						"isUnknown": false,
 						"isEstimate": false
 					},
