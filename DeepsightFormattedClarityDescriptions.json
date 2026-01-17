@@ -40486,9 +40486,9 @@
 	"1015611457": {
 		"hash": 1015611457,
 		"name": "Kill Clip",
-		"lastUpload": 1743183422022,
+		"lastUpload": 1768614120914,
 		"type": "Weapon Trait",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -40505,7 +40505,7 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds of a Weapon Kill grants "
+						"text": " seconds of a kill grants "
 					},
 					{
 						"type": "numeric",
@@ -50355,9 +50355,9 @@
 		"name": "Ascending Amplitude",
 		"itemHash": 1747063685,
 		"itemName": "Stormdancer's Brace",
-		"lastUpload": 1766530840776,
+		"lastUpload": 1768614120914,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -50524,9 +50524,37 @@
 					},
 					{
 						"type": "numeric",
-						"text": "50%.",
+						"text": "50%",
 						"isUnknown": true,
 						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " ("
+					},
+					{
+						"type": "numeric",
+						"text": "6.25%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": "🠚"
+					},
+					{
+						"type": "numeric",
+						"text": "3.125%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": ")"
+					},
+					{
+						"type": "text",
+						"text": "."
 					}
 				]
 			},
@@ -81539,7 +81567,7 @@
 		"name": "Vanishing Shadow",
 		"itemHash": 407148246,
 		"itemName": "Graviton Forfeit",
-		"lastUpload": 1767665829609,
+		"lastUpload": 1768614120914,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -81731,7 +81759,7 @@
 				"value": [
 					{
 						"type": "numeric",
-						"text": "?%",
+						"text": "166%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
@@ -81740,7 +81768,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "?%",
+						"text": "333%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
@@ -81749,7 +81777,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "?%",
+						"text": "500%",
 						"isUnknown": true,
 						"isEstimate": false
 					}
@@ -81771,7 +81799,7 @@
 				"value": [
 					{
 						"type": "numeric",
-						"text": "?%",
+						"text": "166%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
@@ -81780,7 +81808,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "?%",
+						"text": "333%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
@@ -81789,7 +81817,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "?%",
+						"text": "500%",
 						"isUnknown": true,
 						"isEstimate": false
 					}
@@ -116780,7 +116808,7 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds of a Weapon Kill grants "
+						"text": " seconds of a kill grants "
 					},
 					{
 						"type": "numeric",
