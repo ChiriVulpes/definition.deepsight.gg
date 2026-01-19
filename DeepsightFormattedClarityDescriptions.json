@@ -79,7 +79,7 @@
 		"name": "Weft Cutter",
 		"itemHash": 1441805468,
 		"itemName": "The Navigator",
-		"lastUpload": 1768690440907,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -104,7 +104,7 @@
 					},
 					{
 						"type": "text",
-						"text": " second each other applies "
+						"text": " second of each other applies "
 					},
 					{
 						"type": "icon",
@@ -176,7 +176,7 @@
 		"name": "Chaotic Exchanger",
 		"itemHash": 1906093346,
 		"itemName": "Contraverse Hold",
-		"lastUpload": 1767665829609,
+		"lastUpload": 1768768955912,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -250,7 +250,7 @@
 					},
 					{
 						"type": "text",
-						"text": " second and grant additional base grenade Regeneration Rate depending on the equipped grenade for "
+						"text": " seconds and grant additional base grenade Regeneration Rate depending on the equipped grenade for "
 					},
 					{
 						"type": "numeric",
@@ -3618,9 +3618,9 @@
 	"65797256": {
 		"hash": 65797256,
 		"name": "Fleet Footed",
-		"lastUpload": 1767472203079,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Trait Origin",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -3692,7 +3692,7 @@
 					},
 					{
 						"type": "text",
-						"text": " Increased Movement Speed for "
+						"text": " increased Movement Speed for "
 					},
 					{
 						"type": "numeric",
@@ -4654,7 +4654,7 @@
 		"name": "Ranged Weapon",
 		"itemHash": 3049715579,
 		"itemName": "Praxic Blade",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1768802028093,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -4674,6 +4674,59 @@
 					{
 						"type": "text",
 						"text": "Anti-Barrier."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Deals "
+					},
+					{
+						"type": "numeric",
+						"text": "50%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " increased damage to PvE Combatant Shields and "
+					},
+					{
+						"type": "numeric",
+						"text": "200%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " increased damage to "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"barrier"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Barrier "
+					},
+					{
+						"type": "text",
+						"text": "Champion"
+					},
+					{
+						"type": "text",
+						"text": " shields."
 					}
 				]
 			},
@@ -4763,7 +4816,7 @@
 					},
 					{
 						"type": "text",
-						"text": " damage to each target and deals "
+						"text": " damage to each target and "
 					},
 					{
 						"type": "numeric",
@@ -5563,7 +5616,7 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds of each spawns a "
+						"text": " seconds of each other spawns a "
 					},
 					{
 						"type": "icon",
@@ -5956,9 +6009,9 @@
 		"name": "The Dance",
 		"itemHash": 1702288800,
 		"itemName": "Radiant Dance Machines",
-		"lastUpload": 1767472203079,
+		"lastUpload": 1768768955912,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -6136,7 +6189,7 @@
 					},
 					{
 						"type": "text",
-						"text": " are uniquely tuned and do not recieve as significant of a benefit."
+						"text": " are uniquely tuned and do not receive as significant of a benefit."
 					}
 				]
 			},
@@ -6688,7 +6741,7 @@
 		"name": "Hierarchy of Needs Catalyst",
 		"itemHash": 4174431791,
 		"itemName": "Hierarchy of Needs",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -6724,7 +6777,7 @@
 					},
 					{
 						"type": "text",
-						"text": " decreased Draw Animation Speed"
+						"text": " decreased Draw Time"
 					}
 				]
 			},
@@ -6756,7 +6809,7 @@
 					},
 					{
 						"type": "text",
-						"text": " decreased Reload Animation Speed"
+						"text": " decreased Reload Animation Duration"
 					}
 				]
 			}
@@ -8473,7 +8526,7 @@
 	"136456835": {
 		"hash": 136456835,
 		"name": "Reversal of Fortune",
-		"lastUpload": 1768690440907,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Trait",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -9763,7 +9816,7 @@
 		"name": "Volatile Battery",
 		"itemHash": 4289226715,
 		"itemName": "Vex Mythoclast",
-		"lastUpload": 1768752461507,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Perk Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -10635,7 +10688,7 @@
 		"name": "Lightning Rod",
 		"itemHash": 814876685,
 		"itemName": "Trinity Ghoul",
-		"lastUpload": 1768752461507,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -10894,7 +10947,7 @@
 		"name": "Paracausal Shot",
 		"itemHash": 3856705927,
 		"itemName": "Hawkmoon",
-		"lastUpload": 1768752461507,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -11650,7 +11703,7 @@
 		"name": "The Master",
 		"itemHash": 2581676735,
 		"itemName": "New Land Beyond",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -11710,7 +11763,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Grants diminishingly increased Precision Damage across "
+						"text": "Grants diminishing increases to Precision Damage across "
 					},
 					{
 						"type": "numeric",
@@ -12198,7 +12251,7 @@
 					},
 					{
 						"type": "text",
-						"text": " weapon element-matching damage in a "
+						"text": " weapon element-matching damage in an "
 					},
 					{
 						"type": "numeric",
@@ -15669,7 +15722,7 @@
 		"name": "Release the Wolves",
 		"itemHash": 3413860063,
 		"itemName": "Lord of Wolves",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -15796,7 +15849,7 @@
 					},
 					{
 						"type": "text",
-						"text": " increased bodyshot damage and recieve no increase to precision damage."
+						"text": " increased bodyshot damage and receive no increase to precision damage."
 					}
 				]
 			}
@@ -20032,7 +20085,7 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds of each spawns a "
+						"text": " seconds of each other spawns a "
 					},
 					{
 						"type": "icon",
@@ -25876,7 +25929,7 @@
 		"name": "Shrapnel Launcher",
 		"itemHash": 3413860063,
 		"itemName": "Lord of Wolves",
-		"lastUpload": 1768752461507,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -27665,7 +27718,7 @@
 		"name": "Dark-Forged Trigger",
 		"itemHash": 2188764214,
 		"itemName": "Dead Man's Tale",
-		"lastUpload": 1768752461507,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -29565,7 +29618,7 @@
 		"name": "Compression Chamber",
 		"itemHash": 3460576091,
 		"itemName": "Duality",
-		"lastUpload": 1768752461507,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -33381,7 +33434,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Swords recieve "
+						"text": "Swords receive "
 					},
 					{
 						"type": "numeric",
@@ -40754,7 +40807,7 @@
 		"name": "Break the Bank",
 		"itemHash": 2357297366,
 		"itemName": "Witherhoard",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -40788,7 +40841,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Targets can only take damage from a instance of Blighted at a time."
+						"text": "Targets can only take damage from a single instance of Blighted at a time."
 					}
 				]
 			},
@@ -42536,7 +42589,7 @@
 		"name": "Evolution",
 		"itemHash": 1363238943,
 		"itemName": "Ruinous Effigy",
-		"lastUpload": 1768752461507,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -43035,7 +43088,7 @@
 		"name": "Temporal Unlimiter",
 		"itemHash": 4289226715,
 		"itemName": "Vex Mythoclast",
-		"lastUpload": 1768752461507,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -44078,9 +44131,9 @@
 	"831391274": {
 		"hash": 831391274,
 		"name": "Hatchling",
-		"lastUpload": 1766867819246,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Trait",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -44107,7 +44160,7 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds of each spawns a "
+						"text": " seconds of each other spawns a "
 					},
 					{
 						"type": "icon",
@@ -46405,7 +46458,7 @@
 		"name": "Shot in the Dark",
 		"itemHash": 3664831848,
 		"itemName": "Heartshadow",
-		"lastUpload": 1768752461507,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -60808,7 +60861,7 @@
 		"name": "Exhumation",
 		"itemHash": 3664831848,
 		"itemName": "Heartshadow",
-		"lastUpload": 1768752461507,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -65588,7 +65641,7 @@
 		"name": "Nano-Assault",
 		"itemHash": 1753923263,
 		"itemName": "Wolfsbane",
-		"lastUpload": 1768752461507,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -73470,7 +73523,7 @@
 	"1319823571": {
 		"hash": 1319823571,
 		"name": "Cranial Spike",
-		"lastUpload": 1768752461507,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -82211,7 +82264,7 @@
 		"name": "Superconductor",
 		"itemHash": 3089417789,
 		"itemName": "Riskrunner",
-		"lastUpload": 1768752461507,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -91121,7 +91174,7 @@
 		"name": "EM Anomaly",
 		"itemHash": 3761898871,
 		"itemName": "Lorentz Driver",
-		"lastUpload": 1768752461507,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -95821,7 +95874,7 @@
 		"name": "Judgment",
 		"itemHash": 4103414242,
 		"itemName": "Divinity",
-		"lastUpload": 1768752461507,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -97364,7 +97417,7 @@
 		"name": "Inverse Relationship",
 		"itemHash": 427899681,
 		"itemName": "Red Death Reformed",
-		"lastUpload": 1768752461507,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -98461,9 +98514,9 @@
 	"1847323754": {
 		"hash": 1847323754,
 		"name": "Accelerated Assault",
-		"lastUpload": 1767472203079,
+		"lastUpload": 1768840853073,
 		"type": "Weapon Trait Origin",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -98523,11 +98576,17 @@
 						"text": " Reload Speed and "
 					},
 					{
+						"type": "enhancedArrow",
+						"classNames": [
+							"enhancedArrow"
+						]
+					},
+					{
 						"type": "pve",
 						"content": [
 							{
 								"type": "numeric",
-								"text": "5%",
+								"text": "6%",
 								"isUnknown": true,
 								"isEstimate": false
 							}
@@ -98675,11 +98734,17 @@
 						"text": " of the magazine and grants "
 					},
 					{
+						"type": "enhancedArrow",
+						"classNames": [
+							"enhancedArrow"
+						]
+					},
+					{
 						"type": "pve",
 						"content": [
 							{
 								"type": "numeric",
-								"text": "5%",
+								"text": "6%",
 								"isUnknown": true,
 								"isEstimate": false
 							}
@@ -98713,6 +98778,62 @@
 					{
 						"type": "text",
 						"text": " seconds."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"isEnhanced": true,
+				"content": [
+					{
+						"type": "enhancedArrow",
+						"classNames": [
+							"enhancedArrow"
+						]
+					},
+					{
+						"type": "text",
+						"text": " Damage bonus is increased by "
+					},
+					{
+						"type": "numeric",
+						"text": "20%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " ("
+					},
+					{
+						"type": "numeric",
+						"text": "5%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": "🠚"
+					},
+					{
+						"type": "numeric",
+						"text": "6%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": ")"
+					},
+					{
+						"type": "text",
+						"text": "."
 					}
 				]
 			}
@@ -106837,9 +106958,9 @@
 		"name": "The Fourth Magic",
 		"itemHash": 2428181146,
 		"itemName": "Verity's Brow",
-		"lastUpload": 1766530840776,
+		"lastUpload": 1768768955912,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -107220,7 +107341,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Grapple Grenade is uniquely tuned and recieves an additive buff instead ("
+						"text": "Grapple Grenade is uniquely tuned and receives an additive buff instead ("
 					},
 					{
 						"type": "numeric",
@@ -107533,7 +107654,7 @@
 		"name": "Loyal Moths",
 		"itemHash": 3821409356,
 		"itemName": "Ex Diris",
-		"lastUpload": 1768752461507,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -115205,7 +115326,7 @@
 		"name": "Noble Rounds",
 		"itemHash": 3512014804,
 		"itemName": "Lumina",
-		"lastUpload": 1768752461507,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -115766,7 +115887,7 @@
 		"name": "Perpetual Loophole",
 		"itemHash": 3118061005,
 		"itemName": "Vexcalibur",
-		"lastUpload": 1768752461507,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -126481,7 +126602,7 @@
 		"name": "Umbral Sustenance",
 		"itemHash": 3505113722,
 		"itemName": "Collective Obligation",
-		"lastUpload": 1768752461507,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -126690,9 +126811,9 @@
 	"2396489472": {
 		"hash": 2396489472,
 		"name": "Chain Reaction",
-		"lastUpload": 1766867819246,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Trait",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -131456,7 +131577,7 @@
 		"name": "Prototype Trueseeker",
 		"itemHash": 1201830623,
 		"itemName": "Truth",
-		"lastUpload": 1768752461507,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -133422,7 +133543,7 @@
 		"name": "Arc Conductor",
 		"itemHash": 3089417789,
 		"itemName": "Riskrunner",
-		"lastUpload": 1768752461507,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -143558,9 +143679,9 @@
 	"2671305723": {
 		"hash": 2671305723,
 		"name": "Accelerated Assault",
-		"lastUpload": 1767472203079,
+		"lastUpload": 1768840853073,
 		"type": "Weapon Trait Origin",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -144788,9 +144909,9 @@
 	"2697390518": {
 		"hash": 2697390518,
 		"name": "Accelerated Assault",
-		"lastUpload": 1767472203079,
+		"lastUpload": 1768840853073,
 		"type": "Weapon Trait Origin",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -149111,7 +149232,7 @@
 		"name": "Fan Fire",
 		"itemHash": 1364093401,
 		"itemName": "The Last Word",
-		"lastUpload": 1768752461507,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -155906,7 +156027,7 @@
 		"name": "Lagrangian Sight",
 		"itemHash": 3761898871,
 		"itemName": "Lorentz Driver",
-		"lastUpload": 1768752461507,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -159362,7 +159483,7 @@
 		"name": "Grenades and Horseshoes",
 		"itemHash": 1201830623,
 		"itemName": "Truth",
-		"lastUpload": 1768752461507,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -162218,7 +162339,7 @@
 		"name": "Screaming Swarm",
 		"itemHash": 46524085,
 		"itemName": "Osteo Striga",
-		"lastUpload": 1768752461507,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -167267,7 +167388,7 @@
 		"name": "The Fundamentals",
 		"itemHash": 3141979347,
 		"itemName": "Borealis",
-		"lastUpload": 1768752461507,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -172421,7 +172542,7 @@
 		"name": "Coronal Culmination",
 		"itemHash": 1202007252,
 		"itemName": "Whirling Ovation",
-		"lastUpload": 1768752461507,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -174001,9 +174122,9 @@
 		"name": "Jump Jets",
 		"itemHash": 53126581,
 		"itemName": "Lion Rampant",
-		"lastUpload": 1766530840776,
+		"lastUpload": 1768768955912,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -174319,7 +174440,7 @@
 					},
 					{
 						"type": "text",
-						"text": " are uniquely tuned and do not recieve as significant of a benefit."
+						"text": " are uniquely tuned and do not receive as significant of a benefit."
 					}
 				]
 			}
@@ -178960,9 +179081,9 @@
 		"name": "Alchemical Etchings",
 		"itemHash": 418363297,
 		"itemName": "Lunafaction Boots",
-		"lastUpload": 1766530840776,
+		"lastUpload": 1768768955912,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -179060,7 +179181,7 @@
 					},
 					{
 						"type": "text",
-						"text": " Primary Weapons recieve the following bonuses while hipfiring:"
+						"text": " Primary Weapons receive the following bonuses while hipfiring:"
 					}
 				]
 			},
@@ -179169,7 +179290,7 @@
 					},
 					{
 						"type": "text",
-						"text": " are uniquely tuned and do not recieve as significant of a benefit."
+						"text": " are uniquely tuned and do not receive as significant of a benefit."
 					}
 				]
 			}
@@ -182193,7 +182314,7 @@
 		"name": "Void Leech",
 		"itemHash": 3505113722,
 		"itemName": "Collective Obligation",
-		"lastUpload": 1768752461507,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -186746,7 +186867,7 @@
 		"name": "Anticipation",
 		"itemHash": 1202007252,
 		"itemName": "Whirling Ovation",
-		"lastUpload": 1768752461507,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -191289,7 +191410,7 @@
 		"name": "Redemption",
 		"itemHash": 427899681,
 		"itemName": "Red Death Reformed",
-		"lastUpload": 1768752461507,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -196032,9 +196153,9 @@
 	"3713579091": {
 		"hash": 3713579091,
 		"name": "Accelerated Assault",
-		"lastUpload": 1767472203079,
+		"lastUpload": 1768840853073,
 		"type": "Weapon Trait Origin",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -196094,17 +196215,11 @@
 						"text": " Reload Speed and "
 					},
 					{
-						"type": "enhancedArrow",
-						"classNames": [
-							"enhancedArrow"
-						]
-					},
-					{
 						"type": "pve",
 						"content": [
 							{
 								"type": "numeric",
-								"text": "6%",
+								"text": "5%",
 								"isUnknown": true,
 								"isEstimate": false
 							}
@@ -196252,17 +196367,11 @@
 						"text": " of the magazine and grants "
 					},
 					{
-						"type": "enhancedArrow",
-						"classNames": [
-							"enhancedArrow"
-						]
-					},
-					{
 						"type": "pve",
 						"content": [
 							{
 								"type": "numeric",
-								"text": "6%",
+								"text": "5%",
 								"isUnknown": true,
 								"isEstimate": false
 							}
@@ -196296,62 +196405,6 @@
 					{
 						"type": "text",
 						"text": " seconds."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "line",
-				"isEnhanced": true,
-				"content": [
-					{
-						"type": "enhancedArrow",
-						"classNames": [
-							"enhancedArrow"
-						]
-					},
-					{
-						"type": "text",
-						"text": " Damage bonus is increased by "
-					},
-					{
-						"type": "numeric",
-						"text": "20%",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " ("
-					},
-					{
-						"type": "numeric",
-						"text": "5%",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": "🠚"
-					},
-					{
-						"type": "numeric",
-						"text": "6%",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": ")"
-					},
-					{
-						"type": "text",
-						"text": "."
 					}
 				]
 			}
@@ -203085,7 +203138,7 @@
 		"name": "Pack Hunter",
 		"itemHash": 1363886209,
 		"itemName": "Gjallarhorn",
-		"lastUpload": 1768752461507,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -219746,9 +219799,9 @@
 	"4198902903": {
 		"hash": 4198902903,
 		"name": "Detonator Beam",
-		"lastUpload": 1755815364903,
+		"lastUpload": 1768768955912,
 		"type": "Weapon Trait",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -219805,7 +219858,7 @@
 					},
 					{
 						"type": "text",
-						"text": " weapon element-matching damage in a "
+						"text": " weapon element-matching damage in an "
 					},
 					{
 						"type": "numeric",
@@ -220473,7 +220526,7 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds of each spawns a "
+						"text": " seconds of each other spawns a "
 					},
 					{
 						"type": "icon",
