@@ -1072,9 +1072,9 @@
 	"19542588": {
 		"hash": 19542588,
 		"name": "Nano-Munitions",
-		"lastUpload": 1731793916910,
+		"lastUpload": 1768945490209,
 		"type": "Weapon Trait Origin",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -1101,7 +1101,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Grants a Stack of Nano-Munitions every "
+						"text": "Grants a stack of Nano-Munitions every "
 					},
 					{
 						"type": "numeric",
@@ -1121,7 +1121,7 @@
 					},
 					{
 						"type": "text",
-						"text": " Stacks."
+						"text": " stacks."
 					}
 				]
 			},
@@ -1136,7 +1136,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Emptying the Magazine consumes a Stack to "
+						"text": "Emptying this weapon's magazine consumes a stack to "
 					},
 					{
 						"type": "definitionReference",
@@ -1158,11 +1158,11 @@
 					},
 					{
 						"type": "text",
-						"text": " of it (rounded up)"
+						"text": " of your magazine (rounded up)"
 					},
 					{
 						"type": "text",
-						"text": ". Consuming a Stack restarts the timer for gaining new Stacks."
+						"text": ". Consuming a stack restarts the timer for gaining new stacks."
 					}
 				]
 			},
@@ -1177,7 +1177,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Readying a Power Weapon consumes all Stacks with each one refilling "
+						"text": "Emptying the magazine of any other weapon consumes all stacks, with each stack refilling "
 					},
 					{
 						"type": "numeric",
@@ -1191,7 +1191,22 @@
 					},
 					{
 						"type": "text",
-						"text": "."
+						"text": ". Holding a weapon with an empty magazine also consumes these stacks."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Heat weapons confuse the perk in unexpected and inconsistent ways, and all stacks may be consumed at random while using one."
 					}
 				]
 			}
@@ -49059,7 +49074,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "7",
+						"text": "5",
 						"isUnknown": false,
 						"isEstimate": true
 					},
@@ -98514,7 +98529,7 @@
 	"1847323754": {
 		"hash": 1847323754,
 		"name": "Accelerated Assault",
-		"lastUpload": 1768840853073,
+		"lastUpload": 1768945490209,
 		"type": "Weapon Trait Origin",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -143679,7 +143694,7 @@
 	"2671305723": {
 		"hash": 2671305723,
 		"name": "Accelerated Assault",
-		"lastUpload": 1768840853073,
+		"lastUpload": 1768945490209,
 		"type": "Weapon Trait Origin",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -144909,7 +144924,7 @@
 	"2697390518": {
 		"hash": 2697390518,
 		"name": "Accelerated Assault",
-		"lastUpload": 1768840853073,
+		"lastUpload": 1768945490209,
 		"type": "Weapon Trait Origin",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -196153,7 +196168,7 @@
 	"3713579091": {
 		"hash": 3713579091,
 		"name": "Accelerated Assault",
-		"lastUpload": 1768840853073,
+		"lastUpload": 1768945490209,
 		"type": "Weapon Trait Origin",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -209081,9 +209096,9 @@
 	"3978468247": {
 		"hash": 3978468247,
 		"name": "Discord",
-		"lastUpload": 1766867819246,
+		"lastUpload": 1768945490209,
 		"type": "Weapon Trait",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -209105,7 +209120,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "7",
+						"text": "5",
 						"isUnknown": false,
 						"isEstimate": true
 					},
