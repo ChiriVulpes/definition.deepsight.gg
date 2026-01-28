@@ -452,7 +452,7 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 			items: getExoticArmourForMoment(MomentHashes.Renegades),
 			category: DeepsightItemSourceCategory.Campaign,
 			displayProperties: DestinyManifestReference.resolveAll({
-				name: { DestinyActivityDefinition: ActivityHashes.Renegades_PlaceHash3747705955 },
+				name: { DestinyActivityDefinition: ActivityHashes.Renegades },
 				subtitle: { DestinyActivityDefinition: ActivityHashes.Campaign_PlaceHash2961497387 },
 				icon: { DestinyActivityModeDefinition: ActivityModeHashes.LawlessFrontier },
 			}),
@@ -462,7 +462,7 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 			category: DeepsightItemSourceCategory.Destination,
 			displayProperties: DestinyManifestReference.resolveAll({
 				name: { DestinyActivityModeDefinition: ActivityModeHashes.LawlessFrontier },
-				subtitle: { DestinyActivityDefinition: ActivityHashes.Renegades_PlaceHash3747705955 },
+				subtitle: { DestinyActivityDefinition: ActivityHashes.Renegades },
 				icon: { DestinyActivityModeDefinition: ActivityModeHashes.LawlessFrontier },
 			}),
 		},

@@ -811,8 +811,8 @@ const DeepsightMomentDefinitionData: Record<keyof typeof MomentHashes, Deepsight
 	Renegades: {
 		id: 'renegades',
 		displayProperties: {
-			name: { DestinyActivityDefinition: ActivityHashes.Renegades_PlaceHash3747705955 },
-			description: { DestinyActivityDefinition: ActivityHashes.Renegades_PlaceHash3747705955 },
+			name: { DestinyActivityDefinition: ActivityHashes.Renegades },
+			description: { DestinyActivityDefinition: ActivityHashes.Renegades },
 			icon: { DestinyInventoryItemDefinition: { hash: InventoryItemHashes.RenegadesQuestStep_Step0_ActionUndefined, iconSequence: 0, frame: 2 } },
 		},
 		iconWatermark: { DestinyInventoryItemDefinition: InventoryItemHashes.PraxicBladeSword },
