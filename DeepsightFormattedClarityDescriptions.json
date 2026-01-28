@@ -39491,7 +39491,7 @@
 				"label": [
 					{
 						"type": "text",
-						"text": "Scout Rifles"
+						"text": "Scout Rifles, Special Ammo Hand Cannons"
 					},
 					{
 						"type": "text",
@@ -39534,93 +39534,7 @@
 				"label": [
 					{
 						"type": "text",
-						"text": "Special Ammo Hand Cannon"
-					},
-					{
-						"type": "text",
-						"text": ": "
-					}
-				],
-				"value": [
-					{
-						"type": "enhancedArrow",
-						"classNames": [
-							"enhancedArrow"
-						]
-					},
-					{
-						"type": "numeric",
-						"text": "6",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "stackSeparator"
-					},
-					{
-						"type": "icon",
-						"classNames": [
-							"arc"
-						]
-					},
-					{
-						"type": "numeric",
-						"text": "4",
-						"isUnknown": false,
-						"isEstimate": false
-					}
-				],
-				"isListItem": true
-			},
-			{
-				"type": "labelledLine",
-				"label": [
-					{
-						"type": "text",
-						"text": "Glaives"
-					},
-					{
-						"type": "text",
-						"text": ": "
-					}
-				],
-				"value": [
-					{
-						"type": "enhancedArrow",
-						"classNames": [
-							"enhancedArrow"
-						]
-					},
-					{
-						"type": "numeric",
-						"text": "3",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "stackSeparator"
-					},
-					{
-						"type": "icon",
-						"classNames": [
-							"arc"
-						]
-					},
-					{
-						"type": "numeric",
-						"text": "3",
-						"isUnknown": false,
-						"isEstimate": false
-					}
-				],
-				"isListItem": true
-			},
-			{
-				"type": "labelledLine",
-				"label": [
-					{
-						"type": "text",
-						"text": "Linear Fusion Rifle"
+						"text": "Glaives, Linear Fusion Rifles"
 					},
 					{
 						"type": "text",
@@ -39706,7 +39620,7 @@
 				"label": [
 					{
 						"type": "text",
-						"text": "Grenade Launchers"
+						"text": "Bows, Grenade Launchers"
 					},
 					{
 						"type": "text",
@@ -69457,23 +69371,43 @@
 	"1226351311": {
 		"hash": 1226351311,
 		"name": "All-Star",
-		"lastUpload": 1766867819246,
+		"lastUpload": 1769582204667,
 		"type": "Weapon Trait",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
 				"content": [
 					{
 						"type": "text",
-						"text": "Picking up an ammo brick refills the magazine and grants "
+						"text": "Picking up a "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"special"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Special ammo brick refills the magazine and grants "
+					},
+					{
+						"type": "numeric",
+						"text": "100",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Reload and "
 					},
 					{
 						"type": "pve",
 						"content": [
 							{
 								"type": "numeric",
-								"text": "15%",
+								"text": "35%",
 								"isUnknown": true,
 								"isEstimate": false
 							}
@@ -69488,7 +69422,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "?",
+								"text": "15%",
 								"isUnknown": true,
 								"isEstimate": false
 							}
@@ -69497,6 +69431,26 @@
 					{
 						"type": "text",
 						"text": " increased damage for "
+					},
+					{
+						"type": "numeric",
+						"text": "6",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds. "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"heavy"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Heavy ammo bricks grants the buff for "
 					},
 					{
 						"type": "numeric",
@@ -69521,7 +69475,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Buff timer begins on readying the weapon."
+						"text": "Timer only begins upon readying the weapon."
 					}
 				]
 			}
@@ -125005,7 +124959,7 @@
 		"name": "Kismet",
 		"itemHash": 4010324161,
 		"itemName": "Fortune's Favor",
-		"lastUpload": 1767665829609,
+		"lastUpload": 1769582204667,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -125044,7 +124998,7 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds, continuously generates a "
+						"text": " seconds continuously generates "
 					},
 					{
 						"type": "pve",
@@ -175461,14 +175415,34 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Picking up an ammo brick refills the magazine and grants "
+						"text": "Picking up a "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"special"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Special ammo brick refills the magazine and grants "
+					},
+					{
+						"type": "numeric",
+						"text": "100",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Reload and "
 					},
 					{
 						"type": "pve",
 						"content": [
 							{
 								"type": "numeric",
-								"text": "15%",
+								"text": "35%",
 								"isUnknown": true,
 								"isEstimate": false
 							}
@@ -175483,7 +175457,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "?",
+								"text": "15%",
 								"isUnknown": true,
 								"isEstimate": false
 							}
@@ -175492,6 +175466,32 @@
 					{
 						"type": "text",
 						"text": " increased damage for "
+					},
+					{
+						"type": "enhancedArrow",
+						"classNames": [
+							"enhancedArrow"
+						]
+					},
+					{
+						"type": "numeric",
+						"text": "7",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds. "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"heavy"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Heavy ammo bricks grants the buff for "
 					},
 					{
 						"type": "enhancedArrow",
@@ -175522,7 +175522,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Buff timer begins on readying the weapon."
+						"text": "Timer only begins upon readying the weapon."
 					}
 				]
 			},
@@ -207676,9 +207676,9 @@
 	"3966416502": {
 		"hash": 3966416502,
 		"name": "Jolting Feedback",
-		"lastUpload": 1766867819246,
+		"lastUpload": 1769542492526,
 		"type": "Weapon Trait",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -207994,7 +207994,7 @@
 				"label": [
 					{
 						"type": "text",
-						"text": "Scout Rifles"
+						"text": "Scout Rifles, Special Ammo Hand Cannons"
 					},
 					{
 						"type": "text",
@@ -208031,81 +208031,7 @@
 				"label": [
 					{
 						"type": "text",
-						"text": "Special Ammo Hand Cannon"
-					},
-					{
-						"type": "text",
-						"text": ": "
-					}
-				],
-				"value": [
-					{
-						"type": "numeric",
-						"text": "7",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "stackSeparator"
-					},
-					{
-						"type": "icon",
-						"classNames": [
-							"arc"
-						]
-					},
-					{
-						"type": "numeric",
-						"text": "4",
-						"isUnknown": false,
-						"isEstimate": false
-					}
-				],
-				"isListItem": true
-			},
-			{
-				"type": "labelledLine",
-				"label": [
-					{
-						"type": "text",
-						"text": "Glaives"
-					},
-					{
-						"type": "text",
-						"text": ": "
-					}
-				],
-				"value": [
-					{
-						"type": "numeric",
-						"text": "4",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "stackSeparator"
-					},
-					{
-						"type": "icon",
-						"classNames": [
-							"arc"
-						]
-					},
-					{
-						"type": "numeric",
-						"text": "3",
-						"isUnknown": false,
-						"isEstimate": false
-					}
-				],
-				"isListItem": true
-			},
-			{
-				"type": "labelledLine",
-				"label": [
-					{
-						"type": "text",
-						"text": "Linear Fusion Rifle"
+						"text": "Glaives, Linear Fusion Rifles"
 					},
 					{
 						"type": "text",
@@ -208179,7 +208105,7 @@
 				"label": [
 					{
 						"type": "text",
-						"text": "Grenade Launchers"
+						"text": "Bows, Grenade Launchers"
 					},
 					{
 						"type": "text",

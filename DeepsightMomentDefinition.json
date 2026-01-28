@@ -37,7 +37,7 @@
 		"id": "dawning",
 		"iconWatermark": "/common/destiny2_content/icons/83fbcacd223402c09af4b7ab067f8cce.png",
 		"subsumeIconWatermarks": [
-			"/common/destiny2_content/icons/c933d4e7b7a7dd15a46cac1553a98439.png"
+			"/common/destiny2_content/icons/83fbcacd223402c09af4b7ab067f8cce.png"
 		],
 		"event": 2302439334,
 		"hash": 1001,
@@ -91,7 +91,7 @@
 		"id": "solstice",
 		"iconWatermark": "/common/destiny2_content/icons/50c3ebe414c6946429934d79504922fa.png",
 		"subsumeIconWatermarks": [
-			"/common/destiny2_content/icons/6379c64752a37732c4de73c85cb8af7c.png"
+			"/common/destiny2_content/icons/50c3ebe414c6946429934d79504922fa.png"
 		],
 		"event": 3841872876,
 		"hash": 1004,
@@ -114,7 +114,7 @@
 		],
 		"iconWatermark": "/common/destiny2_content/icons/53dc0b02306726ff1517af33ac908cef.png",
 		"subsumeIconWatermarks": [
-			"/common/destiny2_content/icons/b9620c9768c298515caeb183a3388163.png"
+			"/common/destiny2_content/icons/53dc0b02306726ff1517af33ac908cef.png"
 		],
 		"event": 3265920761,
 		"hash": 1005,
@@ -810,7 +810,7 @@
 		},
 		"iconWatermark": "/common/destiny2_content/icons/60d34bc853c51063b79592233c3661d4.png",
 		"subsumeIconWatermarks": [
-			"/common/destiny2_content/icons/b2410a70904ab0b09a716054c83fbcfd.png"
+			"/common/destiny2_content/icons/60d34bc853c51063b79592233c3661d4.png"
 		],
 		"images": [
 			"/img/destiny_content/pgcr/onslaught-vostok.jpg",
@@ -946,7 +946,7 @@
 		},
 		"iconWatermark": "/common/destiny2_content/icons/0d6c3365022ed3b059eac467b076978f.png",
 		"subsumeIconWatermarks": [
-			"/common/destiny2_content/icons/03d000a7f097b6e12012b8c2eab0b1ad.png"
+			"/common/destiny2_content/icons/0d6c3365022ed3b059eac467b076978f.png"
 		],
 		"images": [
 			"/img/destiny_content/pgcr/supercluster_vendor.jpg"
