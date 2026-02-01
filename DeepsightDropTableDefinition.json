@@ -370,11 +370,7 @@
 			"iconHash": 0,
 			"hasIcon": false
 		},
-		"dropTable": {
-			"1343009820": {},
-			"1883377784": {},
-			"3520307277": {}
-		},
+		"dropTable": {},
 		"typeDisplayProperties": {
 			"name": "Pinnacle Ops",
 			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
@@ -541,6 +537,24 @@
 		"displayProperties": {
 			"description": "Jump coordinates matching an errant distress signal.",
 			"name": "Presage",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"iconHash": 0,
+			"hasIcon": false
+		},
+		"dropTable": {},
+		"typeDisplayProperties": {
+			"name": "Pinnacle Ops",
+			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
+			"icon": "/img/destiny_content/portal/category_prestige.png"
+		}
+	},
+	"962366573": {
+		"hash": 962366573,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Delve ever deeper into the myriad pathways of Riven's Lair in The Coil. Face greater challenges and retrieve greater rewards.",
+			"name": "The Coil",
 			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
 			"iconHash": 0,
 			"hasIcon": false
@@ -914,7 +928,11 @@
 			"iconHash": 0,
 			"hasIcon": false
 		},
-		"dropTable": {},
+		"dropTable": {
+			"262826703": {},
+			"1504698788": {},
+			"1604556427": {}
+		},
 		"typeDisplayProperties": {
 			"name": "Pinnacle Ops",
 			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
@@ -1481,7 +1499,9 @@
 			"iconHash": 0,
 			"hasIcon": false
 		},
-		"dropTable": {},
+		"dropTable": {
+			"1685533876": {}
+		},
 		"typeDisplayProperties": {
 			"name": "Solo Ops",
 			"description": "Protect Earth from Sol's greatest foes as a one-Guardian fireteam and the Vanguard's last line of defense.",
@@ -1657,9 +1677,7 @@
 			"iconHash": 0,
 			"hasIcon": false
 		},
-		"dropTable": {
-			"2875763009": {}
-		},
+		"dropTable": {},
 		"typeDisplayProperties": {
 			"name": "Solo Ops",
 			"description": "Protect Earth from Sol's greatest foes as a one-Guardian fireteam and the Vanguard's last line of defense.",
@@ -1677,7 +1695,9 @@
 			"iconHash": 0,
 			"hasIcon": false
 		},
-		"dropTable": {},
+		"dropTable": {
+			"3421075982": {}
+		},
 		"typeDisplayProperties": {
 			"name": "Arena Ops",
 			"description": "Join a large group of Lightbearers executing Vanguard operations around Sol and crushing Earth's deadliest foes.",
@@ -1695,7 +1715,11 @@
 			"iconHash": 0,
 			"hasIcon": false
 		},
-		"dropTable": {},
+		"dropTable": {
+			"445076215": {},
+			"2639123099": {},
+			"3558781766": {}
+		},
 		"typeDisplayProperties": {
 			"name": "Pinnacle Ops",
 			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
@@ -2385,9 +2409,7 @@
 			"iconHash": 0,
 			"hasIcon": false
 		},
-		"dropTable": {
-			"3556730800": {}
-		},
+		"dropTable": {},
 		"typeDisplayProperties": {
 			"name": "Arena Ops",
 			"description": "Join a large group of Lightbearers executing Vanguard operations around Sol and crushing Earth's deadliest foes.",
@@ -2405,9 +2427,7 @@
 			"iconHash": 0,
 			"hasIcon": false
 		},
-		"dropTable": {
-			"1402874079": {}
-		},
+		"dropTable": {},
 		"typeDisplayProperties": {
 			"name": "Crucible Ops",
 			"description": "Hone your skills and win glory in battle against other Guardians.",
@@ -2681,28 +2701,6 @@
 			"hasIcon": false
 		},
 		"dropTable": {},
-		"typeDisplayProperties": {
-			"name": "Pinnacle Ops",
-			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
-			"icon": "/img/destiny_content/portal/category_prestige.png"
-		}
-	},
-	"3698225057": {
-		"hash": 3698225057,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Delve ever deeper into the myriad pathways of Riven's Lair in The Coil. Face greater challenges and retrieve greater rewards.",
-			"name": "The Coil",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"iconHash": 0,
-			"hasIcon": false
-		},
-		"dropTable": {
-			"445076215": {},
-			"2639123099": {},
-			"3558781766": {}
-		},
 		"typeDisplayProperties": {
 			"name": "Pinnacle Ops",
 			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
@@ -3028,7 +3026,9 @@
 			"iconHash": 0,
 			"hasIcon": false
 		},
-		"dropTable": {},
+		"dropTable": {
+			"2297554989": {}
+		},
 		"typeDisplayProperties": {
 			"name": "Crucible Ops",
 			"description": "Hone your skills and win glory in battle against other Guardians.",
@@ -3230,7 +3230,9 @@
 			"iconHash": 0,
 			"hasIcon": false
 		},
-		"dropTable": {},
+		"dropTable": {
+			"827835657": {}
+		},
 		"typeDisplayProperties": {
 			"name": "Pinnacle Ops",
 			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
@@ -3533,9 +3535,7 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"1066619413": {},
-			"3031404418": {},
-			"3173749166": {}
+			"3556730800": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Solo Ops",
@@ -3555,9 +3555,7 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"1248547982": {},
-			"3120202721": {},
-			"3462703357": {}
+			"1402874079": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Arena Ops",
@@ -3576,9 +3574,7 @@
 			"iconHash": 0,
 			"hasIcon": false
 		},
-		"dropTable": {
-			"260532765": {}
-		},
+		"dropTable": {},
 		"typeDisplayProperties": {
 			"name": "Pinnacle Ops",
 			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
