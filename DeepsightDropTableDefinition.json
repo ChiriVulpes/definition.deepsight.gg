@@ -1,24 +1,4 @@
 {
-	"122763493": {
-		"hash": 122763493,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Stifle the legacy of a notorious ironmonger providing weapons to the Shadow Legion.",
-			"name": "The Arms Dealer",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"iconHash": 0,
-			"hasIcon": false
-		},
-		"dropTable": {
-			"3615748501": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Fireteam Ops",
-			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
-			"icon": "/img/destiny_content/portal/category_fireteam_ops.png"
-		}
-	},
 	"300092127": {
 		"hash": 300092127,
 		"displayProperties": {
@@ -304,25 +284,6 @@
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_f20ebb76bee675ca429e470cec58cc7b.png"
 		}
 	},
-	"385674984": {
-		"hash": 385674984,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Achieve victory by capturing zones and defeating opponents.",
-			"name": "Control",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"iconHash": 0,
-			"hasIcon": false
-		},
-		"dropTable": {},
-		"typeDisplayProperties": {
-			"name": "Crucible Ops",
-			"description": "Hone your skills and win glory in battle against other Guardians.",
-			"icon": "/img/destiny_content/portal/category_crucible.png"
-		},
-		"pgcrImage": "/img/destiny_content/pgcr/crucible_twilight_gap.jpg"
-	},
 	"429161651": {
 		"hash": 429161651,
 		"type": "bonus-focus",
@@ -334,7 +295,11 @@
 			"iconHash": 0,
 			"hasIcon": false
 		},
-		"dropTable": {},
+		"dropTable": {
+			"262826703": {},
+			"1504698788": {},
+			"1604556427": {}
+		},
 		"typeDisplayProperties": {
 			"name": "Pinnacle Ops",
 			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
@@ -370,9 +335,7 @@
 			"iconHash": 0,
 			"hasIcon": false
 		},
-		"dropTable": {
-			"827835657": {}
-		},
+		"dropTable": {},
 		"typeDisplayProperties": {
 			"name": "Pinnacle Ops",
 			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
@@ -390,7 +353,11 @@
 			"iconHash": 0,
 			"hasIcon": false
 		},
-		"dropTable": {},
+		"dropTable": {
+			"1930651768": {},
+			"2039591531": {},
+			"2278464039": {}
+		},
 		"typeDisplayProperties": {
 			"name": "Crucible Ops",
 			"description": "Hone your skills and win glory in battle against other Guardians.",
@@ -785,6 +752,30 @@
 			"hasIcon": true
 		}
 	},
+	"1221538367": {
+		"hash": 1221538367,
+		"displayProperties": {
+			"name": "Operation: Seraph's Shield",
+			"description": "Infiltrate Seraph Station in Earth's orbit to plant a virus in the Warsat network.",
+			"icon": "/common/destiny2_content/icons/2ffa90c58bdadcca8226f553315212e7.png",
+			"subtitle": "Operation: Seraph's Shield: Standard"
+		},
+		"dropTable": {
+			"1473821207": {}
+		},
+		"master": {
+			"activityHash": 2919809209,
+			"availability": "rotator"
+		},
+		"availability": "rotator",
+		"endTime": "2026-02-10T17:00:00Z",
+		"type": "exotic-mission",
+		"typeDisplayProperties": {
+			"name": "Exotic Mission",
+			"description": "Form a fireteam of up to three, and brave the strange and powerful realms of our enemies.",
+			"icon": "/common/destiny2_content/icons/2ffa90c58bdadcca8226f553315212e7.png"
+		}
+	},
 	"1262462921": {
 		"hash": 1262462921,
 		"dropTable": {
@@ -1101,8 +1092,8 @@
 				4152669757
 			],
 			"interval": "weekly",
-			"current": 120,
-			"next": "2026-02-03T17:00:00Z"
+			"current": 121,
+			"next": "2026-02-10T17:00:00Z"
 		},
 		"availability": "repeatable",
 		"type": "raid",
@@ -1284,8 +1275,8 @@
 				2098788044
 			],
 			"interval": "weekly",
-			"current": 121,
-			"next": "2026-02-03T17:00:00Z"
+			"current": 122,
+			"next": "2026-02-10T17:00:00Z"
 		},
 		"availability": "repeatable",
 		"type": "raid",
@@ -1295,6 +1286,24 @@
 			"icon": "/common/destiny2_content/icons/bd7a1fc995f87be96698263bc16698e7.png",
 			"iconHash": 0,
 			"hasIcon": true
+		}
+	},
+	"1478695866": {
+		"hash": 1478695866,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Defend the Advanced Defensive Unit against an onslaught of 30 combatant waves.",
+			"name": "Widow's Court",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"iconHash": 0,
+			"hasIcon": false
+		},
+		"dropTable": {},
+		"typeDisplayProperties": {
+			"name": "Pinnacle Ops",
+			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
+			"icon": "/img/destiny_content/portal/category_prestige.png"
 		}
 	},
 	"1534952762": {
@@ -1461,8 +1470,8 @@
 				1315424373
 			],
 			"interval": "weekly",
-			"current": 83,
-			"next": "2026-02-03T17:00:00Z"
+			"current": 84,
+			"next": "2026-02-10T17:00:00Z"
 		},
 		"master": {
 			"activityHash": 4129614942,
@@ -1709,7 +1718,9 @@
 			"iconHash": 0,
 			"hasIcon": false
 		},
-		"dropTable": {},
+		"dropTable": {
+			"827835657": {}
+		},
 		"typeDisplayProperties": {
 			"name": "Pinnacle Ops",
 			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
@@ -1727,11 +1738,7 @@
 			"iconHash": 0,
 			"hasIcon": false
 		},
-		"dropTable": {
-			"1343009820": {},
-			"1883377784": {},
-			"3520307277": {}
-		},
+		"dropTable": {},
 		"typeDisplayProperties": {
 			"name": "Pinnacle Ops",
 			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
@@ -1993,24 +2000,6 @@
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_f20ebb76bee675ca429e470cec58cc7b.png"
 		}
 	},
-	"2144591146": {
-		"hash": 2144591146,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Defend the Advanced Defensive Unit against an onslaught of 30 combatant waves.",
-			"name": "Midtown",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"iconHash": 0,
-			"hasIcon": false
-		},
-		"dropTable": {},
-		"typeDisplayProperties": {
-			"name": "Pinnacle Ops",
-			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
-			"icon": "/img/destiny_content/portal/category_prestige.png"
-		}
-	},
 	"2381413764": {
 		"hash": 2381413764,
 		"displayProperties": {
@@ -2183,8 +2172,8 @@
 				1616571513
 			],
 			"interval": "weekly",
-			"current": 148,
-			"next": "2026-02-03T17:00:00Z"
+			"current": 149,
+			"next": "2026-02-10T17:00:00Z"
 		},
 		"availability": "repeatable",
 		"type": "raid",
@@ -2212,6 +2201,45 @@
 			"name": "Solo Ops",
 			"description": "Protect Earth from Sol's greatest foes as a one-Guardian fireteam and the Vanguard's last line of defense.",
 			"icon": "/img/destiny_content/portal/category_solo_ops.png"
+		}
+	},
+	"2546271325": {
+		"hash": 2546271325,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Achieve victory by capturing zones and defeating opponents.",
+			"name": "Control",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"iconHash": 0,
+			"hasIcon": false
+		},
+		"dropTable": {},
+		"typeDisplayProperties": {
+			"name": "Crucible Ops",
+			"description": "Hone your skills and win glory in battle against other Guardians.",
+			"icon": "/img/destiny_content/portal/category_crucible.png"
+		},
+		"pgcrImage": "/img/destiny_content/pgcr/crucible_twilight_gap.jpg"
+	},
+	"2557918592": {
+		"hash": 2557918592,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Help the Drifter restore order at the Prison of Elders.",
+			"name": "Warden of Nothing",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"iconHash": 0,
+			"hasIcon": false
+		},
+		"dropTable": {
+			"3318545829": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Fireteam Ops",
+			"description": "Team up with fellow Guardians to defend the Last City and reclaim Sol from humanity's adversaries.",
+			"icon": "/img/destiny_content/portal/category_fireteam_ops.png"
 		}
 	},
 	"2582501063": {
@@ -2368,30 +2396,6 @@
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_f20ebb76bee675ca429e470cec58cc7b.png"
 		}
 	},
-	"2668737148": {
-		"hash": 2668737148,
-		"displayProperties": {
-			"name": "Vox Obscura",
-			"description": "A Psionic propaganda transmission threatens to destabilize the Vanguard's Cabal allies. Breach the rebel stronghold to discover who's behind the new Psionic offensive.",
-			"icon": "/common/destiny2_content/icons/2ffa90c58bdadcca8226f553315212e7.png",
-			"subtitle": "Vox Obscura: Standard"
-		},
-		"dropTable": {
-			"46125926": {}
-		},
-		"master": {
-			"activityHash": 666172264,
-			"availability": "rotator"
-		},
-		"availability": "rotator",
-		"endTime": "2026-02-03T17:00:00Z",
-		"type": "exotic-mission",
-		"typeDisplayProperties": {
-			"name": "Exotic Mission",
-			"description": "Form a fireteam of up to three, and brave the strange and powerful realms of our enemies.",
-			"icon": "/common/destiny2_content/icons/2ffa90c58bdadcca8226f553315212e7.png"
-		}
-	},
 	"2678247592": {
 		"hash": 2678247592,
 		"type": "bonus-focus",
@@ -2403,50 +2407,14 @@
 			"iconHash": 0,
 			"hasIcon": false
 		},
-		"dropTable": {},
+		"dropTable": {
+			"2875763009": {}
+		},
 		"typeDisplayProperties": {
 			"name": "Arena Ops",
 			"description": "Join a large group of Lightbearers executing Vanguard operations around Sol and crushing Earth's deadliest foes.",
 			"icon": "/img/destiny_content/portal/category_arena_ops.png"
 		}
-	},
-	"2723561970": {
-		"hash": 2723561970,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Eliminate your opponents or capture the zone to win. Earn as many round and match wins on a ticket as you can.\n\nPassages grant reward bonus.",
-			"name": "Trials of Osiris",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"iconHash": 0,
-			"hasIcon": false
-		},
-		"dropTable": {},
-		"typeDisplayProperties": {
-			"name": "Crucible Ops",
-			"description": "Hone your skills and win glory in battle against other Guardians.",
-			"icon": "/img/destiny_content/portal/category_crucible.png"
-		},
-		"pgcrImage": "/img/destiny_content/pgcr/crucible_twilight_gap.jpg"
-	},
-	"2726272323": {
-		"hash": 2726272323,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Volatile Weapon mods enabled for curated weapons. \nMedieval weapons only: Bows, Glaives, and Swords. Hardware modifier active, no abilities or Supers. Weapons only.",
-			"name": "Arms Week: Medieval Hardware",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"iconHash": 0,
-			"hasIcon": false
-		},
-		"dropTable": {},
-		"typeDisplayProperties": {
-			"name": "Crucible Ops",
-			"description": "Hone your skills and win glory in battle against other Guardians.",
-			"icon": "/img/destiny_content/portal/category_crucible.png"
-		},
-		"pgcrImage": "/img/destiny_content/pgcr/crucible_twilight_gap.jpg"
 	},
 	"2789426440": {
 		"hash": 2789426440,
@@ -2621,33 +2589,14 @@
 			"iconHash": 0,
 			"hasIcon": false
 		},
-		"dropTable": {},
+		"dropTable": {
+			"1685533876": {}
+		},
 		"typeDisplayProperties": {
 			"name": "Solo Ops",
 			"description": "Protect Earth from Sol's greatest foes as a one-Guardian fireteam and the Vanguard's last line of defense.",
 			"icon": "/img/destiny_content/portal/category_solo_ops.png"
 		}
-	},
-	"3078484283": {
-		"hash": 3078484283,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Achieve victory by defeating opponents and preventing revives. Win the most rounds or face off in an elimination showdown.",
-			"name": "Showdown",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"iconHash": 0,
-			"hasIcon": false
-		},
-		"dropTable": {
-			"2344383760": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Crucible Ops",
-			"description": "Hone your skills and win glory in battle against other Guardians.",
-			"icon": "/img/destiny_content/portal/category_crucible.png"
-		},
-		"pgcrImage": "/img/destiny_content/pgcr/crucible_twilight_gap.jpg"
 	},
 	"3120544689": {
 		"hash": 3120544689,
@@ -2696,11 +2645,7 @@
 			"iconHash": 0,
 			"hasIcon": false
 		},
-		"dropTable": {
-			"262826703": {},
-			"1504698788": {},
-			"1604556427": {}
-		},
+		"dropTable": {},
 		"typeDisplayProperties": {
 			"name": "Pinnacle Ops",
 			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
@@ -3002,8 +2947,8 @@
 				274420331
 			],
 			"interval": "weekly",
-			"current": 119,
-			"next": "2026-02-03T17:00:00Z"
+			"current": 120,
+			"next": "2026-02-10T17:00:00Z"
 		},
 		"availability": "repeatable",
 		"type": "raid",
@@ -3014,25 +2959,6 @@
 			"iconHash": 0,
 			"hasIcon": true
 		}
-	},
-	"3916302830": {
-		"hash": 3916302830,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Volatile Weapon mods enabled for curated weapons. Hardware modifier active, no abilities or Supers. Weapons only.",
-			"name": "Arms Week: Rumble Hardware",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"iconHash": 0,
-			"hasIcon": false
-		},
-		"dropTable": {},
-		"typeDisplayProperties": {
-			"name": "Crucible Ops",
-			"description": "Hone your skills and win glory in battle against other Guardians.",
-			"icon": "/img/destiny_content/portal/category_crucible.png"
-		},
-		"pgcrImage": "/img/destiny_content/pgcr/crucible_twilight_gap.jpg"
 	},
 	"3985011110": {
 		"hash": 3985011110,
@@ -3045,14 +2971,31 @@
 			"iconHash": 0,
 			"hasIcon": false
 		},
-		"dropTable": {
-			"1763361847": {}
-		},
+		"dropTable": {},
 		"typeDisplayProperties": {
 			"name": "Arena Ops",
 			"description": "Join a large group of Lightbearers executing Vanguard operations around Sol and crushing Earth's deadliest foes.",
 			"icon": "/img/destiny_content/portal/category_arena_ops.png"
 		}
+	},
+	"3986076500": {
+		"hash": 3986076500,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Achieve victory by defeating opponents. No teams. No allegiance. A free-for-all where the leader had better watch their back.",
+			"name": "Rumble",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"iconHash": 0,
+			"hasIcon": false
+		},
+		"dropTable": {},
+		"typeDisplayProperties": {
+			"name": "Crucible Ops",
+			"description": "Hone your skills and win glory in battle against other Guardians.",
+			"icon": "/img/destiny_content/portal/category_crucible.png"
+		},
+		"pgcrImage": "/img/destiny_content/pgcr/crucible_twilight_gap.jpg"
 	},
 	"4008836256": {
 		"hash": 4008836256,
@@ -3065,9 +3008,7 @@
 			"iconHash": 0,
 			"hasIcon": false
 		},
-		"dropTable": {
-			"3556730800": {}
-		},
+		"dropTable": {},
 		"typeDisplayProperties": {
 			"name": "Solo Ops",
 			"description": "Protect Earth from Sol's greatest foes as a one-Guardian fireteam and the Vanguard's last line of defense.",
@@ -3535,9 +3476,7 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"2849508185": {},
-			"3554497829": {},
-			"4066564572": {}
+			"1402874079": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Solo Ops",
@@ -3557,7 +3496,9 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"2875763009": {}
+			"1066619413": {},
+			"3031404418": {},
+			"3173749166": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Arena Ops",
@@ -3576,7 +3517,9 @@
 			"iconHash": 0,
 			"hasIcon": false
 		},
-		"dropTable": {},
+		"dropTable": {
+			"4104613038": {}
+		},
 		"typeDisplayProperties": {
 			"name": "Pinnacle Ops",
 			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
