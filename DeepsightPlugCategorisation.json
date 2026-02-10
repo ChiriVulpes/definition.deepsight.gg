@@ -11153,9 +11153,11 @@
 	},
 	"433219358": {
 		"hash": 433219358,
-		"category": 9,
-		"categoryName": "Classified",
-		"fullName": "Classified"
+		"category": 6,
+		"type": 19,
+		"categoryName": "Cosmetic",
+		"typeName": "OrnamentWeaponExotic",
+		"fullName": "Cosmetic/OrnamentWeaponExotic"
 	},
 	"433294875": {
 		"hash": 433294875,
@@ -79761,9 +79763,11 @@
 	},
 	"3204751449": {
 		"hash": 3204751449,
-		"category": 9,
-		"categoryName": "Classified",
-		"fullName": "Classified"
+		"category": 6,
+		"type": 1,
+		"categoryName": "Cosmetic",
+		"typeName": "Shader",
+		"fullName": "Cosmetic/Shader"
 	},
 	"3205431489": {
 		"hash": 3205431489,
@@ -86086,9 +86090,11 @@
 	},
 	"3453579319": {
 		"hash": 3453579319,
-		"category": 9,
-		"categoryName": "Classified",
-		"fullName": "Classified"
+		"category": 6,
+		"type": 4,
+		"categoryName": "Cosmetic",
+		"typeName": "Emote",
+		"fullName": "Cosmetic/Emote"
 	},
 	"3453656710": {
 		"hash": 3453656710,
