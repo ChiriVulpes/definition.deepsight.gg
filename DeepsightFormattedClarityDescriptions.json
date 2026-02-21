@@ -34209,31 +34209,10 @@
 		"name": "Warlord's End",
 		"itemHash": 728668916,
 		"itemName": "Felwinter's Helm",
-		"lastUpload": 1766530840776,
+		"lastUpload": 1771691917050,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Stardust",
 		"descriptions": [
-			{
-				"type": "line",
-				"content": [
-					{
-						"type": "text",
-						"text": "Powered Melee and Finisher Kills disorient and debuff enemies in a given radius around the target, increasing damage received by them by "
-					},
-					{
-						"type": "numeric",
-						"text": "30%.",
-						"isUnknown": true,
-						"isEstimate": false
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
 			{
 				"type": "line",
 				"content": [
@@ -34259,7 +34238,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Song of Flame."
+						"text": "Song of Flame melees."
 					}
 				]
 			},
@@ -34274,27 +34253,76 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Screen becomes fully blackened for "
+						"text": "Powered Melee damage "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"void"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Weakens targets for "
 					},
 					{
 						"type": "numeric",
-						"text": "7.5",
+						"text": "6",
 						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " seconds upon getting hit by the debuff before gradually fading away over the next "
+						"text": " seconds ("
 					},
 					{
 						"type": "numeric",
-						"text": "7.5",
-						"isUnknown": false,
+						"text": "15%",
+						"isUnknown": true,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " seconds. (HUD remains unobstructed)"
+						"text": " debuff)"
+					},
+					{
+						"type": "text",
+						"text": "."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Powered Melee and Finisher Kills disorient and apply a stronger ("
+					},
+					{
+						"type": "numeric",
+						"text": "30%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": ") "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"void"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Weaken debuff to enemies in a given radius around the target."
 					}
 				]
 			},
@@ -34461,7 +34489,52 @@
 					},
 					{
 						"type": "text",
-						"text": " meters. Both duration and radius are capped at the values provided by Bosses."
+						"text": " meters. Both duration and radius are capped at the values provided by killing (Mini)Bosses."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "labelledLine",
+				"label": [
+					{
+						"type": "text",
+						"text": "Additional PvP effects of on-kill debuffs"
+					},
+					{
+						"type": "text",
+						"text": ": "
+					}
+				],
+				"value": [
+					{
+						"type": "text",
+						"text": "screen is blackened for "
+					},
+					{
+						"type": "numeric",
+						"text": "7.5",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds before gradually fading away over the following "
+					},
+					{
+						"type": "numeric",
+						"text": "7.5",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds. (HUD remains unobstructed)"
 					}
 				]
 			},
@@ -63223,7 +63296,7 @@
 		"name": "Stylostixis",
 		"itemHash": 1003391927,
 		"itemName": "Mataiodoxía",
-		"lastUpload": 1766530840776,
+		"lastUpload": 1771691917050,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -63512,7 +63585,7 @@
 					},
 					{
 						"type": "text",
-						"text": " damage."
+						"text": " damage and inherits Super damage buffs."
 					}
 				]
 			},
