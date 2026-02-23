@@ -3633,7 +3633,7 @@
 	"65797256": {
 		"hash": 65797256,
 		"name": "Fleet Footed",
-		"lastUpload": 1768768955912,
+		"lastUpload": 1771797410523,
 		"type": "Weapon Trait Origin",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -3668,7 +3668,7 @@
 						"type": "numeric",
 						"text": "5",
 						"isUnknown": false,
-						"isEstimate": true
+						"isEstimate": false
 					},
 					{
 						"type": "text",
@@ -3713,7 +3713,7 @@
 						"type": "numeric",
 						"text": "5",
 						"isUnknown": false,
-						"isEstimate": true
+						"isEstimate": false
 					},
 					{
 						"type": "text",
@@ -4134,7 +4134,7 @@
 		"name": "Final Warning Catalyst",
 		"itemHash": 3121540812,
 		"itemName": "Final Warning",
-		"lastUpload": 1768710027464,
+		"lastUpload": 1771797410523,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -4186,7 +4186,16 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Hits against marked targets have a "
+						"text": "Hits against marked Minors and Elites|Minibosses and Bosses have an "
+					},
+					{
+						"type": "numeric",
+						"text": "85%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
 					},
 					{
 						"type": "numeric",
@@ -28330,7 +28339,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Recieving "
+						"text": "Receiving "
 					},
 					{
 						"type": "icon",
@@ -51285,9 +51294,9 @@
 	"934928524": {
 		"hash": 934928524,
 		"name": "Contending Cascade",
-		"lastUpload": 1767472203079,
+		"lastUpload": 1771797410523,
 		"type": "Weapon Trait Origin",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -61168,16 +61177,16 @@
 	"1115162408": {
 		"hash": 1115162408,
 		"name": "Trickle Charge",
-		"lastUpload": 1766867819246,
+		"lastUpload": 1771797410523,
 		"type": "Weapon Trait",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
 				"content": [
 					{
 						"type": "text",
-						"text": "Recieving "
+						"text": "Receiving "
 					},
 					{
 						"type": "icon",
@@ -64459,9 +64468,9 @@
 		"name": "Horns of Doom",
 		"itemHash": 241462141,
 		"itemName": "Doom Fang Pauldron",
-		"lastUpload": 1766867819246,
+		"lastUpload": 1771797410523,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -64711,7 +64720,27 @@
 					},
 					{
 						"type": "text",
-						"text": " Super Energy, extending the Super's Duration."
+						"text": " Super Energy, extending the Super's Duration. "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"void"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Sentinel Shield Light Attacks grant "
+					},
+					{
+						"type": "numeric",
+						"text": "100%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Shield Throw energy."
 					}
 				]
 			}
@@ -69025,7 +69054,7 @@
 		"name": "Ascending Amplitude",
 		"itemHash": 1747063685,
 		"itemName": "Stormdancer's Brace",
-		"lastUpload": 1768614120914,
+		"lastUpload": 1771797410523,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -69045,6 +69074,31 @@
 					{
 						"type": "text",
 						"text": "Stormtrance to be equipped to function."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Casting your Super grants "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"arc"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Amplified."
 					}
 				]
 			},
@@ -90362,9 +90416,9 @@
 	"1673863459": {
 		"hash": 1673863459,
 		"name": "Roar of Battle",
-		"lastUpload": 1753831097929,
+		"lastUpload": 1771797410523,
 		"type": "Weapon Trait Origin",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -90375,7 +90429,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "0.5",
+						"text": "0.65",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -100623,26 +100677,16 @@
 	"1888882410": {
 		"hash": 1888882410,
 		"name": "Collective Pugilism",
-		"lastUpload": 1766867819246,
+		"lastUpload": 1771797410523,
 		"type": "Weapon Trait",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
 				"content": [
 					{
 						"type": "text",
-						"text": "Collecting an Elemental Pickup enables Weapon Damage to generate "
-					},
-					{
-						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " Melee Ability energy per hit for "
+						"text": "Collecting an Elemental Pickup enables Weapon Damage to generate Melee Ability energy per hit for "
 					},
 					{
 						"type": "numeric",
@@ -100652,7 +100696,113 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds. Additional pickups extend the timer to a maximum of "
+						"text": " seconds."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "icon",
+						"classNames": [
+							"arc"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Ionic Traces, "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"stasis"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Stasis Shards, and Shot "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"strand"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Tangles extend the timer by "
+					},
+					{
+						"type": "numeric",
+						"text": "4",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds. "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Firesprites, "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"void"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Void Breaches, and Thrown "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"strand"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Tangles extend the timer by "
+					},
+					{
+						"type": "numeric",
+						"text": "8",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Timer can be extended to a maximum of "
 					},
 					{
 						"type": "numeric",
@@ -100663,6 +100813,169 @@
 					{
 						"type": "text",
 						"text": " seconds."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"isLabel": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "Melee energy granted by weapon type:"
+					}
+				]
+			},
+			{
+				"type": "labelledLine",
+				"label": [
+					{
+						"type": "text",
+						"text": "Spreadshot HC"
+					},
+					{
+						"type": "text",
+						"text": ": "
+					}
+				],
+				"value": [
+					{
+						"type": "numeric",
+						"text": "0.5%",
+						"isUnknown": true,
+						"isEstimate": false
+					}
+				]
+			},
+			{
+				"type": "labelledLine",
+				"label": [
+					{
+						"type": "text",
+						"text": "Burst Sidearm"
+					},
+					{
+						"type": "text",
+						"text": ": "
+					}
+				],
+				"value": [
+					{
+						"type": "numeric",
+						"text": "0.78%",
+						"isUnknown": true,
+						"isEstimate": false
+					}
+				]
+			},
+			{
+				"type": "labelledLine",
+				"label": [
+					{
+						"type": "text",
+						"text": "Fusion Rifle"
+					},
+					{
+						"type": "text",
+						"text": ": "
+					}
+				],
+				"value": [
+					{
+						"type": "numeric",
+						"text": "1.15%",
+						"isUnknown": true,
+						"isEstimate": false
+					}
+				]
+			},
+			{
+				"type": "labelledLine",
+				"label": [
+					{
+						"type": "text",
+						"text": "Rocket Pulse"
+					},
+					{
+						"type": "text",
+						"text": ": "
+					}
+				],
+				"value": [
+					{
+						"type": "numeric",
+						"text": "1.95%",
+						"isUnknown": true,
+						"isEstimate": false
+					}
+				]
+			},
+			{
+				"type": "labelledLine",
+				"label": [
+					{
+						"type": "text",
+						"text": "Sidearm"
+					},
+					{
+						"type": "text",
+						"text": ": "
+					}
+				],
+				"value": [
+					{
+						"type": "numeric",
+						"text": "2.34%",
+						"isUnknown": true,
+						"isEstimate": false
+					}
+				]
+			},
+			{
+				"type": "labelledLine",
+				"label": [
+					{
+						"type": "text",
+						"text": "Scout"
+					},
+					{
+						"type": "text",
+						"text": ": "
+					}
+				],
+				"value": [
+					{
+						"type": "numeric",
+						"text": "3.34%",
+						"isUnknown": true,
+						"isEstimate": false
+					}
+				]
+			},
+			{
+				"type": "labelledLine",
+				"label": [
+					{
+						"type": "text",
+						"text": "Rocket Launcher"
+					},
+					{
+						"type": "text",
+						"text": ": "
+					}
+				],
+				"value": [
+					{
+						"type": "numeric",
+						"text": "12.9%",
+						"isUnknown": true,
+						"isEstimate": false
 					}
 				]
 			},
@@ -102008,9 +102321,9 @@
 	"1909124648": {
 		"hash": 1909124648,
 		"name": "Thermal Atomization",
-		"lastUpload": 1767715813450,
+		"lastUpload": 1771797410523,
 		"type": "Weapon Trait",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -102060,8 +102373,8 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "?",
-								"isUnknown": true,
+								"text": "3.5",
+								"isUnknown": false,
 								"isEstimate": false
 							}
 						]
@@ -109207,7 +109520,7 @@
 		"name": "Property: Irreducible",
 		"itemHash": 3561203890,
 		"itemName": "Tessellation",
-		"lastUpload": 1768710027464,
+		"lastUpload": 1771797410523,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -109402,17 +109715,17 @@
 					},
 					{
 						"type": "text",
-						"text": " gains "
+						"text": "'s damage is increased by "
 					},
 					{
 						"type": "numeric",
-						"text": "25%",
+						"text": "19%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " increased damage if you are Transcendent."
+						"text": " if you are Transcendent."
 					}
 				]
 			}
@@ -125657,9 +125970,9 @@
 	"2360347339": {
 		"hash": 2360347339,
 		"name": "Impromptu Ammunition",
-		"lastUpload": 1766867819246,
+		"lastUpload": 1771797410523,
 		"type": "Weapon Trait",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -125676,12 +125989,52 @@
 					},
 					{
 						"type": "text",
-						"text": " improved ammo generation from all sources for "
+						"text": " improved "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"special"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Special ammo generation and "
 					},
 					{
 						"type": "numeric",
-						"text": "?",
+						"text": "10%",
 						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " improved "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"heavy"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Heavy ammo generation from all sources for "
+					},
+					{
+						"type": "numeric",
+						"text": "5",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds. Additional Weapon Kills extend the buff duration up to "
+					},
+					{
+						"type": "numeric",
+						"text": "7",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
@@ -188878,11 +189231,93 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds of a Weapon Kill grants "
+						"text": " seconds after scoring "
 					},
 					{
 						"type": "numeric",
-						"text": "?%",
+						"text": "1",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "2",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "3",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "4",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "5",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Weapon Kills grants "
+					},
+					{
+						"type": "numeric",
+						"text": "5.7%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "8%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "9.7%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "13.3%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "20%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
@@ -190365,8 +190800,8 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "?",
-								"isUnknown": true,
+								"text": "3.5",
+								"isUnknown": false,
 								"isEstimate": false
 							}
 						]
@@ -195178,23 +195613,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Collecting an Elemental Pickup enables Weapon Damage to generate "
-					},
-					{
-						"type": "enhancedArrow",
-						"classNames": [
-							"enhancedArrow"
-						]
-					},
-					{
-						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " Melee Ability energy per hit for "
+						"text": "Collecting an Elemental Pickup enables Weapon Damage to generate Melee Ability energy per hit for "
 					},
 					{
 						"type": "numeric",
@@ -195204,7 +195623,113 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds. Additional pickups extend the timer to a maximum of "
+						"text": " seconds."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "icon",
+						"classNames": [
+							"arc"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Ionic Traces, "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"stasis"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Stasis Shards, and Shot "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"strand"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Tangles extend the timer by "
+					},
+					{
+						"type": "numeric",
+						"text": "4",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds. "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Firesprites, "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"void"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Void Breaches, and Thrown "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"strand"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Tangles extend the timer by "
+					},
+					{
+						"type": "numeric",
+						"text": "8",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Timer can be extended to a maximum of "
 					},
 					{
 						"type": "numeric",
@@ -195226,7 +195751,27 @@
 			},
 			{
 				"type": "line",
+				"isLabel": true,
 				"content": [
+					{
+						"type": "text",
+						"text": "Melee energy granted by weapon type:"
+					}
+				]
+			},
+			{
+				"type": "labelledLine",
+				"label": [
+					{
+						"type": "text",
+						"text": "Spreadshot HC"
+					},
+					{
+						"type": "text",
+						"text": ": "
+					}
+				],
+				"value": [
 					{
 						"type": "enhancedArrow",
 						"classNames": [
@@ -195234,8 +195779,172 @@
 						]
 					},
 					{
+						"type": "numeric",
+						"text": "0.55%",
+						"isUnknown": true,
+						"isEstimate": false
+					}
+				]
+			},
+			{
+				"type": "labelledLine",
+				"label": [
+					{
 						"type": "text",
-						"text": " Melee Energy generated is increased."
+						"text": "Burst Sidearm"
+					},
+					{
+						"type": "text",
+						"text": ": "
+					}
+				],
+				"value": [
+					{
+						"type": "enhancedArrow",
+						"classNames": [
+							"enhancedArrow"
+						]
+					},
+					{
+						"type": "numeric",
+						"text": "0.86%",
+						"isUnknown": true,
+						"isEstimate": false
+					}
+				]
+			},
+			{
+				"type": "labelledLine",
+				"label": [
+					{
+						"type": "text",
+						"text": "Fusion Rifle"
+					},
+					{
+						"type": "text",
+						"text": ": "
+					}
+				],
+				"value": [
+					{
+						"type": "enhancedArrow",
+						"classNames": [
+							"enhancedArrow"
+						]
+					},
+					{
+						"type": "numeric",
+						"text": "1.27%",
+						"isUnknown": true,
+						"isEstimate": false
+					}
+				]
+			},
+			{
+				"type": "labelledLine",
+				"label": [
+					{
+						"type": "text",
+						"text": "Rocket Pulse"
+					},
+					{
+						"type": "text",
+						"text": ": "
+					}
+				],
+				"value": [
+					{
+						"type": "enhancedArrow",
+						"classNames": [
+							"enhancedArrow"
+						]
+					},
+					{
+						"type": "numeric",
+						"text": "2.15%",
+						"isUnknown": true,
+						"isEstimate": false
+					}
+				]
+			},
+			{
+				"type": "labelledLine",
+				"label": [
+					{
+						"type": "text",
+						"text": "Sidearm"
+					},
+					{
+						"type": "text",
+						"text": ": "
+					}
+				],
+				"value": [
+					{
+						"type": "enhancedArrow",
+						"classNames": [
+							"enhancedArrow"
+						]
+					},
+					{
+						"type": "numeric",
+						"text": "2.57%",
+						"isUnknown": true,
+						"isEstimate": false
+					}
+				]
+			},
+			{
+				"type": "labelledLine",
+				"label": [
+					{
+						"type": "text",
+						"text": "Scout"
+					},
+					{
+						"type": "text",
+						"text": ": "
+					}
+				],
+				"value": [
+					{
+						"type": "enhancedArrow",
+						"classNames": [
+							"enhancedArrow"
+						]
+					},
+					{
+						"type": "numeric",
+						"text": "3.67%",
+						"isUnknown": true,
+						"isEstimate": false
+					}
+				]
+			},
+			{
+				"type": "labelledLine",
+				"label": [
+					{
+						"type": "text",
+						"text": "Rocket Launcher"
+					},
+					{
+						"type": "text",
+						"text": ": "
+					}
+				],
+				"value": [
+					{
+						"type": "enhancedArrow",
+						"classNames": [
+							"enhancedArrow"
+						]
+					},
+					{
+						"type": "numeric",
+						"text": "14.19%",
+						"isUnknown": true,
+						"isEstimate": false
 					}
 				]
 			},
@@ -195301,6 +196010,34 @@
 					{
 						"type": "text",
 						"text": "Void Breaches."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"isEnhanced": true,
+				"content": [
+					{
+						"type": "enhancedArrow",
+						"classNames": [
+							"enhancedArrow"
+						]
+					},
+					{
+						"type": "text",
+						"text": " Melee Energy generated is increased by "
+					},
+					{
+						"type": "numeric",
+						"text": "10%.",
+						"isUnknown": true,
+						"isEstimate": false
 					}
 				]
 			}
@@ -196202,9 +196939,9 @@
 	"3713215006": {
 		"hash": 3713215006,
 		"name": "Recycled Energy",
-		"lastUpload": 1753831097929,
+		"lastUpload": 1771797410523,
 		"type": "Weapon Trait",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -196221,11 +196958,93 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds of a Weapon Kill grants "
+						"text": " seconds after scoring "
 					},
 					{
 						"type": "numeric",
-						"text": "?%",
+						"text": "1",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "2",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "3",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "4",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "5",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Weapon Kills grants "
+					},
+					{
+						"type": "numeric",
+						"text": "5.7%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "8%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "9.7%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "13.3%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "20%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
@@ -215169,7 +215988,37 @@
 					},
 					{
 						"type": "text",
-						"text": " improved ammo generation from all sources for "
+						"text": " improved "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"special"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Special ammo generation and "
+					},
+					{
+						"type": "numeric",
+						"text": "10%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " improved "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"heavy"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Heavy ammo generation from all sources for "
 					},
 					{
 						"type": "enhancedArrow",
@@ -215179,8 +216028,18 @@
 					},
 					{
 						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
+						"text": "5.5",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds. Additional Weapon Kills extend the buff duration up to "
+					},
+					{
+						"type": "numeric",
+						"text": "7",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
@@ -215226,8 +216085,8 @@
 					},
 					{
 						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
+						"text": "0.5",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
