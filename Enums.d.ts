@@ -13813,6 +13813,7 @@ export declare const enum CollectibleHashes {
 	Mechabre = 3644093059,
 	SolsticeHelmMajestic_ItemHash4116309852 = 3645090342,
 	IronPrecious = 3645350512,
+	Soulbright = 3645527676,
 	BlisteringSlipstream = 3646111895,
 	EaterOfWorldsOrnament_ItemHash2837735361 = 3646831311,
 	MythosHack41_ItemHash2752838425 = 3646998024,
