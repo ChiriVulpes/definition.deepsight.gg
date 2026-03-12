@@ -16691,9 +16691,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/488b4af39dffb4fcfc85ca7f8347c6fb.png",
 		"secondarySpecial": "/common/destiny2_content/icons/24a6d3a6c54caad25e524868a3090cb8.jpg",
 		"backgroundColor": {
-			"red": 120,
-			"green": 104,
-			"blue": 130,
+			"red": 124,
+			"green": 90,
+			"blue": 144,
 			"alpha": 255
 		}
 	},
@@ -16831,9 +16831,9 @@
 		"secondaryOverlay": "/common/destiny2_content/icons/6266e32c873a61514ed6132ffb8a83dd.png",
 		"secondarySpecial": "/common/destiny2_content/icons/76fbea02992a4e56c1662332f98af6ed.jpg",
 		"backgroundColor": {
-			"red": 52,
-			"green": 25,
-			"blue": 133,
+			"red": 53,
+			"green": 26,
+			"blue": 132,
 			"alpha": 255
 		}
 	},
