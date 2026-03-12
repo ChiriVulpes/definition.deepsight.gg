@@ -1,0 +1,20 @@
+name: Check manifest for updates or push main, depending on the github event
+# because npm doesn't support multiple different github actions workflow files to be set up for oidc
+
+on:
+  push:
+    branches: [ manifest, main ]
+
+  schedule:
+    - cron: '3/5 * * * *'
+
+jobs:
+  check-manifest:
+    if: github.event_name == 'schedule' || (github.event_name == 'push' && github.ref_name == 'manifest')
+    uses: ./.github/workflows/check-manifest.yml
+    secrets: inherit
+
+  push-main:
+    if: github.event_name == 'push' && github.ref_name == 'main'
+    uses: ./.github/workflows/push-main.yml
+    secrets: inherit
