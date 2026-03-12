@@ -32,32 +32,7 @@ namespace ItemPreferred {
 			|| !(item.itemCategoryHashes?.includes(ItemCategoryHashes.Weapon) || item.itemCategoryHashes?.includes(ItemCategoryHashes.Armor))
 	}
 
-	const IGNORED_ITEMS = [
-		InventoryItemHashes.BraytechWerewolfAutoRifle528834068, // older
-		InventoryItemHashes.BraytechWerewolfAutoRifle2869466318, // older
-		InventoryItemHashes.CompassRoseShotgun233896077, // has less links to other things in the manifest
-		InventoryItemHashes.CompassRoseShotgun2591111628, // older
-		InventoryItemHashes.TaraxipposScoutRifle3007479950, // displays weirdly in the screenshot
-		InventoryItemHashes.TheTitleSubmachineGun294129361, // older
-		InventoryItemHashes.BondOfTheGreatHuntWarlockBond2280287728, // has less links to other things in the manifest, displays weirdly in the screenshot
-		InventoryItemHashes.GauntletsOfTheGreatHuntGauntlets576683388, // has less links to other things in the manifest
-		InventoryItemHashes.GripsOfTheGreatHuntGauntlets1127835600, // has less links to other things in the manifest
-		InventoryItemHashes.MarkOfTheGreatHuntTitanMark16387641, // has less links to other things in the manifest
-		InventoryItemHashes.RobesOfTheGreatHuntChestArmor776723133, // has less links to other things in the manifest
-		InventoryItemHashes.CrowningDuologueRocketLauncher_SecondaryIconUndefined, // older
-		InventoryItemHashes.SomethingNewHandCannon1856262127, // older
-		InventoryItemHashes.JurassicGreenPulseRifle2261046232, // older
-		InventoryItemHashes.JurassicGreenPulseRifle2603335652, // older
-		InventoryItemHashes.MechabreSniperRifle1280894514, // older
-		InventoryItemHashes.ZephyrSword396910433, // older
-		InventoryItemHashes.AvalancheMachineGun495940989, // older
-		InventoryItemHashes.HullabalooGrenadeLauncher657927352, // older
-		InventoryItemHashes.TaraxipposScoutRifle1389546626, // older
-		InventoryItemHashes.TheTitleSubmachineGun655712834, // older
-		InventoryItemHashes.FortunateStarCombatBow2326578623, // older
-		InventoryItemHashes.JudgmentAdeptHandCannon_IsHolofoiltrue, // special
-		InventoryItemHashes.ArcaneEmbraceShotgun3649985571, // older
-		InventoryItemHashes.MistralLiftLinearFusionRifle3483485727, // older
+	const IGNORED_ITEMS: number[] = [
 	]
 
 	export function isIgnored (item: InventoryItemHashes) {
@@ -74,13 +49,15 @@ namespace ItemPreferred {
 	const armorArchetypePlugset = 1315181101
 	const hasArchetypeSocket = (item: DestinyInventoryItemDefinition) =>
 		!!item.sockets?.socketEntries.some(socket => socket.randomizedPlugSetHash === armorArchetypePlugset)
+	const powerCap = (item: DestinyInventoryItemDefinition, powerCaps: Record<number, DestinyPowerCapDefinition>) =>
+		powerCaps[item.quality?.versions[item.quality.currentVersion]?.powerCapHash ?? 0]?.powerCap ?? 0
+	const notPowerCapped = (item: DestinyInventoryItemDefinition, powerCaps: Record<number, DestinyPowerCapDefinition>) =>
+		powerCap(item, powerCaps) > 900_000
+	const TRAIT_RELEASE_VERSION_REGEX = /(?:\.|^)v(\d+)(?:\.|$)/
+	const traitReleaseVersion = (item: DestinyInventoryItemDefinition) =>
+		item.traitIds?.map(id => +id.match(TRAIT_RELEASE_VERSION_REGEX)?.[1]! || 0).splat(Math.max) || 0
 
 	export function sortPreferredCopy (itemA: DestinyInventoryItemDefinition, itemB: DestinyInventoryItemDefinition, powerCaps: Record<number, DestinyPowerCapDefinition>) {
-		// eslint-disable-next-line @typescript-eslint/no-non-null-asserted-optional-chain
-		const powerCapA = powerCaps[itemA.quality?.versions[itemA.quality.currentVersion]?.powerCapHash!]
-		// eslint-disable-next-line @typescript-eslint/no-non-null-asserted-optional-chain
-		const powerCapB = powerCaps[itemB.quality?.versions[itemB.quality.currentVersion]?.powerCapHash!]
-
 		return 0
 			|| +IGNORED_ITEMS.includes(itemA.hash) - +IGNORED_ITEMS.includes(itemB.hash)
 			|| +itemA.isHolofoil - +itemB.isHolofoil
@@ -88,8 +65,9 @@ namespace ItemPreferred {
 			|| +!itemB.plug - +!itemA.plug
 			|| +hasArchetypeSocket(itemB) - +hasArchetypeSocket(itemA)
 			|| +hasDeprecatedArmorPerksSocket(itemA) - +hasDeprecatedArmorPerksSocket(itemB)
-			|| +((powerCapB?.powerCap ?? 0) > 900_000) - +((powerCapA?.powerCap ?? 0) > 900_000)
+			|| +notPowerCapped(itemB, powerCaps) - +notPowerCapped(itemA, powerCaps)
 			|| +hasDeepsightSocket(itemB) - +hasDeepsightSocket(itemA)
+			|| +traitReleaseVersion(itemB) - +traitReleaseVersion(itemA)
 	}
 }
 
