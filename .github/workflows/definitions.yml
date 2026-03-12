@@ -39,7 +39,7 @@ jobs:
         uses: actions/setup-node@v6
         with:
           node-version: '22'
-          registry-url: 'https://registry.npmjs.org'
+          # registry-url: 'https://registry.npmjs.org'
           cache: pnpm
           
       - name: Update npm
@@ -98,6 +98,8 @@ jobs:
         run: pnpm run manifest
         
       - name: Commit & Publish definitions
+        env:
+          NPM_CONFIG_PROVENANCE: true
         run: |
           cd definitions
           git add .
