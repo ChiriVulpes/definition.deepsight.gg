@@ -20,5 +20,9 @@
 	"author": "Chiri Vulpes",
 	"dependencies": {
 		"bungie-api-ts": "^5.0.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ChiriVulpes/definition.deepsight.gg"
 	}
 }
