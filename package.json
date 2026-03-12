@@ -41,9 +41,5 @@
 	"dependencies": {
 		"lint": "github:fluff4me/lint#c0ccd500c35a06157376a78ac911147be44c27cd",
 		"task": "github:chirivulpes/task#ef1975228fec597c8112a51ec4786b5b210c83d9"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/ChiriVulpes/definition.deepsight.gg"
 	}
 }
