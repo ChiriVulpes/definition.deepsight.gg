@@ -1,0 +1,1820 @@
+{
+	"31057037": {
+		"hash": 31057037,
+		"displayProperties": {
+			"description": "Well-rounded, reliable, fires a 3-round burst.",
+			"name": "Adaptive Burst",
+			"icon": "/common/destiny2_content/icons/967fb4abc6ab98f74639d6c08e5f56ee.png",
+			"iconHash": 2251942812,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/967fb4abc6ab98f74639d6c08e5f56ee.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/29d2bf2c0944a34e20a88b3f7b796767.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			14
+		]
+	},
+	"183772609": {
+		"hash": 183772609,
+		"displayProperties": {
+			"description": "[Heavy Attack]  : Launch a heavy projectile attack.\nHeavy attacks are stronger with full energy.",
+			"name": "Caster Frame",
+			"icon": "/common/destiny2_content/icons/21cba9f6f6b34dced5a3cd8a6fd53c52.png",
+			"iconHash": 1373269536,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/21cba9f6f6b34dced5a3cd8a6fd53c52.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/6bdd82fa727c6d7d1e2eb06cdc4397cc.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			54
+		]
+	},
+	"216781713": {
+		"hash": 216781713,
+		"displayProperties": {
+			"description": "This weapon fires a small auto-tracking missile. Missiles lock onto targets when aimed.",
+			"name": "Precision Frame",
+			"icon": "/common/destiny2_content/icons/e9dd736124e8ef94048901a279a5bb18.png",
+			"iconHash": 3276799434,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/e9dd736124e8ef94048901a279a5bb18.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/b42a6514169fb87249c2338a542de0dc.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			13
+		]
+	},
+	"263649945": {
+		"hash": 263649945,
+		"displayProperties": {
+			"description": "[Heavy Attack]  : Launch a heavy spin attack.\nHeavy attacks are stronger with full energy.",
+			"name": "Vortex Frame",
+			"icon": "/common/destiny2_content/icons/23e50e126159f0f22983f73d6a246f0d.png",
+			"iconHash": 3415561464,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/23e50e126159f0f22983f73d6a246f0d.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/e9446fe01bebbf03f6826b399a211e30.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			54
+		]
+	},
+	"385138649": {
+		"hash": 385138649,
+		"displayProperties": {
+			"description": "Burst fire Grenade Launcher. Each projectile creates a lingering pool on impact that deals damage over time.",
+			"name": "Area Denial Frame",
+			"icon": "/common/destiny2_content/icons/d1c2cea4a7325962a493283c5615d260.png",
+			"iconHash": 385138649,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/d1c2cea4a7325962a493283c5615d260.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/3998709e6eb0f0eed2f08232c5dc1edf.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			153950757
+		]
+	},
+	"407573255": {
+		"hash": 407573255,
+		"displayProperties": {
+			"description": "Fast-firing slug rounds with deeper ammo reserves.",
+			"name": "Rapid Fire Slug",
+			"icon": "/common/destiny2_content/icons/801d62d1f9783bee81d5700c54c24fda.png",
+			"iconHash": 407573255,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/801d62d1f9783bee81d5700c54c24fda.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/39df71ad319df817b456e7337f008101.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			11
+		]
+	},
+	"430173891": {
+		"hash": 430173891,
+		"displayProperties": {
+			"description": "Heavy attack deploys a shockwave uppercut and launches the user into the air.\nAn immediate follow up swing after the uppercut deploys a homing strike that aggressively seeks a target.",
+			"name": "Wave Sword Frame",
+			"icon": "/common/destiny2_content/icons/a036d40aac06df275ffbb37ab370d7b7.png",
+			"iconHash": 430173891,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/a036d40aac06df275ffbb37ab370d7b7.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/33a5c201607e81fe85214f23af1deaf6.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			54
+		]
+	},
+	"474269988": {
+		"hash": 474269988,
+		"displayProperties": {
+			"description": "One-shot handheld Grenade Launcher with remote detonation. \n[Shoot]  : Fire; release to detonate.",
+			"name": "Lightweight Frame",
+			"icon": "/common/destiny2_content/icons/6db8cd21c2b3e6fffeb6f111d6c70dd2.png",
+			"iconHash": 388312098,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/6db8cd21c2b3e6fffeb6f111d6c70dd2.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/ec5e2e80eebea0ca87df1b2459a981a8.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			153950757
+		]
+	},
+	"695966445": {
+		"hash": 695966445,
+		"displayProperties": {
+			"description": "Hard-hitting four-burst fire.",
+			"name": "Aggressive Burst",
+			"icon": "/common/destiny2_content/icons/64209c4fd20513b33109c374179d0958.png",
+			"iconHash": 1094144678,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/64209c4fd20513b33109c374179d0958.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/42f5d0513fbd62a30410c992544d80f1.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			3954685534
+		]
+	},
+	"715195141": {
+		"hash": 715195141,
+		"displayProperties": {
+			"description": "Compound Bow. Longer draw time optimized for damage. \n[Reload]  : Use while drawn to cancel the shot.",
+			"name": "Precision Frame",
+			"icon": "/common/destiny2_content/icons/db45b9d8b807d52fab288e8c04733065.png",
+			"iconHash": 385123685,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/db45b9d8b807d52fab288e8c04733065.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/69a96f7548b1d77bc88fba2c61ffa21b.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			3317538576
+		]
+	},
+	"806997698": {
+		"hash": 806997698,
+		"displayProperties": {
+			"description": "Full Auto. Deeper ammo reserves. Slightly faster reload when magazine is empty.",
+			"name": "Rapid-Fire Frame",
+			"icon": "/common/destiny2_content/icons/801d62d1f9783bee81d5700c54c24fda.png",
+			"iconHash": 2799308583,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/801d62d1f9783bee81d5700c54c24fda.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/39df71ad319df817b456e7337f008101.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			14
+		]
+	},
+	"836583820": {
+		"hash": 836583820,
+		"displayProperties": {
+			"description": "[Heavy Attack]  : Launch a heavy slam attack.\nHeavy attacks are stronger with full energy.",
+			"name": "Aggressive Frame",
+			"icon": "/common/destiny2_content/icons/64209c4fd20513b33109c374179d0958.png",
+			"iconHash": 1094144678,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/64209c4fd20513b33109c374179d0958.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/42f5d0513fbd62a30410c992544d80f1.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			54
+		]
+	},
+	"878286503": {
+		"hash": 878286503,
+		"displayProperties": {
+			"description": "Deeper ammo reserves. Slightly faster reload when magazine is empty.",
+			"name": "Rapid-Fire Frame",
+			"icon": "/common/destiny2_content/icons/801d62d1f9783bee81d5700c54c24fda.png",
+			"iconHash": 2799308583,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/801d62d1f9783bee81d5700c54c24fda.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/39df71ad319df817b456e7337f008101.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			7,
+			10,
+			5,
+			9,
+			12
+		]
+	},
+	"895140517": {
+		"hash": 895140517,
+		"displayProperties": {
+			"description": "This weapon's recoil pattern is more predictably vertical.",
+			"name": "Precision Frame",
+			"icon": "/common/destiny2_content/icons/e9dd736124e8ef94048901a279a5bb18.png",
+			"iconHash": 3276799434,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/e9dd736124e8ef94048901a279a5bb18.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/b42a6514169fb87249c2338a542de0dc.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			11
+		]
+	},
+	"918679156": {
+		"hash": 918679156,
+		"displayProperties": {
+			"description": "Fires a single-slug round. This weapon's recoil pattern is more predictably vertical.",
+			"name": "Pinpoint Slug Frame",
+			"icon": "/common/destiny2_content/icons/e9dd736124e8ef94048901a279a5bb18.png",
+			"iconHash": 3276799434,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/e9dd736124e8ef94048901a279a5bb18.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/b42a6514169fb87249c2338a542de0dc.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			11
+		]
+	},
+	"996573084": {
+		"hash": 996573084,
+		"displayProperties": {
+			"description": "Fires full auto with deeper ammo reserves. Faster reload when weapon is empty.",
+			"name": "Rapid-Fire Frame",
+			"icon": "/common/destiny2_content/icons/801d62d1f9783bee81d5700c54c24fda.png",
+			"iconHash": 2799308583,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/801d62d1f9783bee81d5700c54c24fda.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/39df71ad319df817b456e7337f008101.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			11
+		]
+	},
+	"1002219198": {
+		"hash": 1002219198,
+		"displayProperties": {
+			"description": "Increased damage versus powerful combatants. Very low heat generated. [Reload]  to vent heat from the weapon. Overheating forces a sustained vent. Manually venting at very high heat greatly increases venting speed.",
+			"name": "Balanced Heat Weapon",
+			"icon": "/common/destiny2_content/icons/b46e3f554098e175b34f6abe2b311c7c.png",
+			"iconHash": 3771737927,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/b46e3f554098e175b34f6abe2b311c7c.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/dc5ef700194e7d822be54297fc14bbcb.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			8
+		]
+	},
+	"1019291327": {
+		"hash": 1019291327,
+		"displayProperties": {
+			"description": "Slow firing and high damage. This weapon is more accurate when stationary, moving slowly, and aiming down sights.",
+			"name": "High-Impact Frame",
+			"icon": "/common/destiny2_content/icons/34573143849cf910d2381554bb57a10d.png",
+			"iconHash": 4244559935,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/34573143849cf910d2381554bb57a10d.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/a53825cfb2ea2cd5f01207b3d59e22f5.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			13,
+			9,
+			12,
+			7,
+			3317538576,
+			8,
+			5
+		]
+	},
+	"1282254042": {
+		"hash": 1282254042,
+		"displayProperties": {
+			"description": "A well-rounded grip, reliable and sturdy. Final blows with this weapon reload and overflow a bonus damage round into Sturm.",
+			"name": "Together Forever",
+			"icon": "/common/destiny2_content/icons/03e3c6ba0e31dff161f21184212abb90.png",
+			"iconHash": 3866621678,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/03e3c6ba0e31dff161f21184212abb90.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/260be169b4efb338311fe188576e7309.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			14
+		]
+	},
+	"1294026524": {
+		"hash": 1294026524,
+		"displayProperties": {
+			"description": "A well-rounded grip, reliable and sturdy.",
+			"name": "Adaptive Frame",
+			"icon": "/common/destiny2_content/icons/967fb4abc6ab98f74639d6c08e5f56ee.png",
+			"iconHash": 2251942812,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/967fb4abc6ab98f74639d6c08e5f56ee.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/29d2bf2c0944a34e20a88b3f7b796767.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			6,
+			10,
+			14,
+			7,
+			12,
+			2489664120,
+			5,
+			9,
+			13,
+			3954685534,
+			153950757,
+			3317538576
+		]
+	},
+	"1316753551": {
+		"hash": 1316753551,
+		"displayProperties": {
+			"description": "Balanced melee/ranged polearm with a frontal shield. Generates shield energy on dealing ranged damage.",
+			"name": "Adaptive Glaive",
+			"icon": "/common/destiny2_content/icons/7fa898f1f8ec97eaad5c5214a850f85c.png",
+			"iconHash": 3392344687,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/7fa898f1f8ec97eaad5c5214a850f85c.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/6fe7d9d019163501e6e710664a368d36.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			3871742104
+		]
+	},
+	"1322370662": {
+		"hash": 1322370662,
+		"displayProperties": {
+			"description": "Recoil pattern on this weapon is predictably more vertical. Fires quickly with high accuracy. Move faster while aiming down sights with this weapon equipped.",
+			"name": "Precision Frame",
+			"icon": "/common/destiny2_content/icons/e9dd736124e8ef94048901a279a5bb18.png",
+			"iconHash": 3276799434,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/e9dd736124e8ef94048901a279a5bb18.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/b42a6514169fb87249c2338a542de0dc.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			6
+		]
+	},
+	"1395789926": {
+		"hash": 1395789926,
+		"displayProperties": {
+			"description": "One-shot handheld Grenade Launcher. Projectiles release a wave of energy when they contact the ground.",
+			"name": "Wave Frame",
+			"icon": "/common/destiny2_content/icons/30428876335fdd1e164128b9e5a6e4ad.png",
+			"iconHash": 612973252,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/30428876335fdd1e164128b9e5a6e4ad.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/b15a6f824856986abc7cf446b51c4c1d.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			153950757
+		]
+	},
+	"1406835319": {
+		"hash": 1406835319,
+		"displayProperties": {
+			"description": "Higher base damage. High heat generated, [Reload]  to vent heat from the weapon. Overheating forces a sustained vent. Weapon cools down more rapidly between shots.",
+			"name": "Dynamic Heat Weapon",
+			"icon": "/common/destiny2_content/icons/4e065ecc7e8166279873c55b563b5311.png",
+			"iconHash": 339157456,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/4e065ecc7e8166279873c55b563b5311.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/641d10d58a6c56036843247ff1a8090a.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			6
+		]
+	},
+	"1442784346": {
+		"hash": 1442784346,
+		"displayProperties": {
+			"description": "Higher base damage. High heat generated, [Reload]  to vent heat from the weapon. Overheating forces a sustained vent. Weapon cools down more rapidly between shots.",
+			"name": "Dynamic Heat Weapon",
+			"icon": "/common/destiny2_content/icons/4e065ecc7e8166279873c55b563b5311.png",
+			"iconHash": 2331097520,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/4e065ecc7e8166279873c55b563b5311.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/641d10d58a6c56036843247ff1a8090a.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			10
+		]
+	},
+	"1458010786": {
+		"hash": 1458010786,
+		"displayProperties": {
+			"description": "Superb handling. Move faster with this weapon equipped.",
+			"name": "Lightweight Frame",
+			"icon": "/common/destiny2_content/icons/6db8cd21c2b3e6fffeb6f111d6c70dd2.png",
+			"iconHash": 388312098,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/6db8cd21c2b3e6fffeb6f111d6c70dd2.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/ec5e2e80eebea0ca87df1b2459a981a8.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			7,
+			14,
+			3954685534,
+			11,
+			8,
+			6,
+			5
+		]
+	},
+	"1525239159": {
+		"hash": 1525239159,
+		"displayProperties": {
+			"description": "High damage, high recoil.",
+			"name": "Aggressive Frame",
+			"icon": "/common/destiny2_content/icons/64209c4fd20513b33109c374179d0958.png",
+			"iconHash": 1094144678,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/64209c4fd20513b33109c374179d0958.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/42f5d0513fbd62a30410c992544d80f1.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			3954685534
+		]
+	},
+	"1546108491": {
+		"hash": 1546108491,
+		"displayProperties": {
+			"description": "Fires a single heavy-hitting round. Disintegrates targets on impact.",
+			"name": "Disruption Weapon",
+			"icon": "/common/destiny2_content/icons/6f7531eb708f3aedfbfdaff774a479db.png",
+			"iconHash": 1546108491,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/6f7531eb708f3aedfbfdaff774a479db.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/e23c774ab3102f8f5e71e1c7336ae985.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			10
+		]
+	},
+	"1611330137": {
+		"hash": 1611330137,
+		"displayProperties": {
+			"description": "Higher base damage, increased damage versus powerful combatants. High heat generated. [Reload]  to vent heat from the weapon. Overheating forces a sustained vent. Weapon cools down more rapidly between shots.",
+			"name": "Dynamic Heat Weapon",
+			"icon": "/common/destiny2_content/icons/4e065ecc7e8166279873c55b563b5311.png",
+			"iconHash": 2331097520,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/4e065ecc7e8166279873c55b563b5311.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/641d10d58a6c56036843247ff1a8090a.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			6
+		]
+	},
+	"1615948893": {
+		"hash": 1615948893,
+		"displayProperties": {
+			"description": "Fires self-propelled micro-missiles that explode on impact for high damage. Final blows with this weapon reload and overflow a bonus damage round into Sturm.",
+			"name": "Together Forever",
+			"icon": "/common/destiny2_content/icons/674b4302b9f943583121465a968ba982.png",
+			"iconHash": 1615948893,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/674b4302b9f943583121465a968ba982.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/73ab13219cbd5df931c5b95875985388.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			14
+		]
+	},
+	"1634975868": {
+		"hash": 1634975868,
+		"displayProperties": {
+			"description": "Fires a hard-hitting, two-round burst. Slightly reduces flinching from incoming fire while aiming.",
+			"name": "Heavy Burst",
+			"icon": "/common/destiny2_content/icons/5c4c7b8c580a97ede3981eceefb63540.png",
+			"iconHash": 1634975868,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/5c4c7b8c580a97ede3981eceefb63540.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/fccfadbf979b95d0f2c21cd402ca398b.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			7
+		]
+	},
+	"1636108362": {
+		"hash": 1636108362,
+		"displayProperties": {
+			"description": "This weapon's recoil pattern is more predictably vertical.",
+			"name": "Precision Frame",
+			"icon": "/common/destiny2_content/icons/e9dd736124e8ef94048901a279a5bb18.png",
+			"iconHash": 3276799434,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/e9dd736124e8ef94048901a279a5bb18.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/b42a6514169fb87249c2338a542de0dc.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			5,
+			8,
+			14,
+			9,
+			11,
+			3954685534
+		]
+	},
+	"1713206376": {
+		"hash": 1713206376,
+		"displayProperties": {
+			"description": "[Heavy Attack]  : Launch a heavy dash attack.\nHeavy attacks are stronger with full energy.",
+			"name": "Lightweight Frame",
+			"icon": "/common/destiny2_content/icons/6db8cd21c2b3e6fffeb6f111d6c70dd2.png",
+			"iconHash": 388312098,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/6db8cd21c2b3e6fffeb6f111d6c70dd2.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/ec5e2e80eebea0ca87df1b2459a981a8.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			54
+		]
+	},
+	"1759472859": {
+		"hash": 1759472859,
+		"displayProperties": {
+			"description": "Hard-hitting twin-fire rounds.",
+			"name": "Double Fire",
+			"icon": "/common/destiny2_content/icons/5c4c7b8c580a97ede3981eceefb63540.png",
+			"iconHash": 1634975868,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/5c4c7b8c580a97ede3981eceefb63540.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/fccfadbf979b95d0f2c21cd402ca398b.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			153950757
+		]
+	},
+	"1888623310": {
+		"hash": 1888623310,
+		"displayProperties": {
+			"description": "This weapon's recoil pattern is more predictably vertical. When MIDA Multi-Tool is equipped, this weapon grants additional speed benefits and final blows grant modification progress to MIDA Multi-Tool.",
+			"name": "MIDA Synergy",
+			"icon": "/common/destiny2_content/icons/c72e5f5231907cd3382d13b6197ba7bd.png",
+			"iconHash": 1888623310,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/c72e5f5231907cd3382d13b6197ba7bd.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/4699453459bf750c9346ef71dbf4d020.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			11
+		]
+	},
+	"1956005708": {
+		"hash": 1956005708,
+		"displayProperties": {
+			"description": "Fast firing melee/ranged polearm with a frontal shield. Generates shield energy on dealing ranged damage.",
+			"name": "Rapid-Fire Glaive",
+			"icon": "/common/destiny2_content/icons/801d62d1f9783bee81d5700c54c24fda.png",
+			"iconHash": 2799308583,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/801d62d1f9783bee81d5700c54c24fda.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/39df71ad319df817b456e7337f008101.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			3871742104
+		]
+	},
+	"1986105578": {
+		"hash": 1986105578,
+		"displayProperties": {
+			"description": "Hard-hitting, slow melee/ranged polearm with a frontal shield. Generates shield energy on dealing ranged damage.",
+			"name": "Aggressive Glaive",
+			"icon": "/common/destiny2_content/icons/64209c4fd20513b33109c374179d0958.png",
+			"iconHash": 1094144678,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/64209c4fd20513b33109c374179d0958.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/42f5d0513fbd62a30410c992544d80f1.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			3871742104
+		]
+	},
+	"2057203855": {
+		"hash": 2057203855,
+		"displayProperties": {
+			"description": "Fires a long-range precision energy bolt. This weapon's recoil pattern is more predictably vertical.",
+			"name": "Precision Frame",
+			"icon": "/common/destiny2_content/icons/e9dd736124e8ef94048901a279a5bb18.png",
+			"iconHash": 3276799434,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/e9dd736124e8ef94048901a279a5bb18.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/b42a6514169fb87249c2338a542de0dc.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			9,
+			1504945536
+		]
+	},
+	"2108556049": {
+		"hash": 2108556049,
+		"displayProperties": {
+			"description": "Recurve Bow. Draw quickly and move faster while this weapon is equipped. \n[Reload]  : Use while drawn to cancel the shot.",
+			"name": "Lightweight Frame",
+			"icon": "/common/destiny2_content/icons/b57de72ef16609f38557f1739e43b9c7.png",
+			"iconHash": 1434176177,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/b57de72ef16609f38557f1739e43b9c7.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/670f257da39015d3370a8359b35678db.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			3317538576
+		]
+	},
+	"2167115920": {
+		"hash": 2167115920,
+		"displayProperties": {
+			"description": "Increased damage versus powerful combatants. Very low heat generated. [Reload]  to vent heat from the weapon. Overheating forces a sustained vent. Manually venting at very high heat greatly increases venting speed.",
+			"name": "Balanced Heat Weapon",
+			"icon": "/common/destiny2_content/icons/b46e3f554098e175b34f6abe2b311c7c.png",
+			"iconHash": 3771737927,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/b46e3f554098e175b34f6abe2b311c7c.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/dc5ef700194e7d822be54297fc14bbcb.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			3954685534
+		]
+	},
+	"2189829540": {
+		"hash": 2189829540,
+		"displayProperties": {
+			"description": "A well-rounded grip, reliable and sturdy.",
+			"name": "Adaptive Frame",
+			"icon": "/common/destiny2_content/icons/967fb4abc6ab98f74639d6c08e5f56ee.png",
+			"iconHash": 2251942812,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/967fb4abc6ab98f74639d6c08e5f56ee.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/29d2bf2c0944a34e20a88b3f7b796767.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			6
+		]
+	},
+	"2213377102": {
+		"hash": 2213377102,
+		"displayProperties": {
+			"description": "Superb handling. Move faster with this weapon equipped. When MIDA Multi-Tool is equipped, this weapon grants additional speed benefits and final blows grant modification progress to MIDA Multi-Tool.",
+			"name": "MIDA Synergy",
+			"icon": "/common/destiny2_content/icons/d8d316f540b241ebab16b4c9a6e73d18.png",
+			"iconHash": 911385842,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/d8d316f540b241ebab16b4c9a6e73d18.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/435741f04583a173a4dee151aa3c9398.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			3954685534
+		]
+	},
+	"2235383762": {
+		"hash": 2235383762,
+		"displayProperties": {
+			"description": "Capable of healing allies and hurting foes. Harming targets builds a restorative charge. Hip firing at allies while this weapon is charged heals them. Rapid healing increases weapon damage and grants Overshield to your allies.",
+			"name": "Support Frame",
+			"icon": "/common/destiny2_content/icons/922b3354dd900848ecf72bcf9e1ae022.png",
+			"iconHash": 2622129339,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/922b3354dd900848ecf72bcf9e1ae022.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/3067606d6401e929441354bfa8d31e6f.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			5
+		]
+	},
+	"2331097520": {
+		"hash": 2331097520,
+		"displayProperties": {
+			"description": "Higher base damage, increased damage versus powerful combatants. High heat generated. [Reload]  to vent heat from the weapon. Overheating forces a sustained vent. Weapon cools down more rapidly between shots.",
+			"name": "Dynamic Heat Weapon",
+			"icon": "/common/destiny2_content/icons/4e065ecc7e8166279873c55b563b5311.png",
+			"iconHash": 2331097520,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/4e065ecc7e8166279873c55b563b5311.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/641d10d58a6c56036843247ff1a8090a.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			7
+		]
+	},
+	"2353477480": {
+		"hash": 2353477480,
+		"displayProperties": {
+			"description": "Deeper ammo reserves. Slightly faster reload when magazine is empty.",
+			"name": "Rapid-Fire Frame",
+			"icon": "/common/destiny2_content/icons/801d62d1f9783bee81d5700c54c24fda.png",
+			"iconHash": 2799308583,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/801d62d1f9783bee81d5700c54c24fda.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/39df71ad319df817b456e7337f008101.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			153950757
+		]
+	},
+	"2427219599": {
+		"hash": 2427219599,
+		"displayProperties": {
+			"description": "Fires a short range spread of pellets.",
+			"name": "Spread Shot",
+			"icon": "/common/destiny2_content/icons/b473eb1143bf843be894a88bedee0550.png",
+			"iconHash": 2427219599,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/b473eb1143bf843be894a88bedee0550.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/acf6f5d35a9baac6acd6ab445111d785.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			6
+		]
+	},
+	"2518716062": {
+		"hash": 2518716062,
+		"displayProperties": {
+			"description": "High damage, moderate charge time. Fires a horizontal volley.",
+			"name": "Aggressive Frame",
+			"icon": "/common/destiny2_content/icons/64209c4fd20513b33109c374179d0958.png",
+			"iconHash": 320919248,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/64209c4fd20513b33109c374179d0958.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/42f5d0513fbd62a30410c992544d80f1.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			9
+		]
+	},
+	"2571259936": {
+		"hash": 2571259936,
+		"displayProperties": {
+			"description": "Projectiles release a wave of compressed energy when they contact the ground.",
+			"name": "Compressed Wave Frame",
+			"icon": "/common/destiny2_content/icons/00c13147258a00b339f472516328267f.png",
+			"iconHash": 2571259936,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/00c13147258a00b339f472516328267f.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/73d3da00a788a3ba8cb1ff6848771c2f.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			153950757
+		]
+	},
+	"2622129339": {
+		"hash": 2622129339,
+		"displayProperties": {
+			"description": "Capable of healing allies and hurting foes. Harming targets builds a restorative charge. Hip firing at allies while this weapon is charged heals them. Rapid healing increases weapon damage and bestows restoration to your allies.",
+			"name": "Support Frame",
+			"icon": "/common/destiny2_content/icons/922b3354dd900848ecf72bcf9e1ae022.png",
+			"iconHash": 2622129339,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/922b3354dd900848ecf72bcf9e1ae022.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/3067606d6401e929441354bfa8d31e6f.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			5
+		]
+	},
+	"2732952950": {
+		"hash": 2732952950,
+		"displayProperties": {
+			"description": "Very low heat generated. [Reload]  to vent heat from the weapon. Overheating forces a sustained vent. Manually venting at very high heat greatly increases venting speed.",
+			"name": "Balanced Heat Weapon",
+			"icon": "/common/destiny2_content/icons/b46e3f554098e175b34f6abe2b311c7c.png",
+			"iconHash": 3771737927,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/b46e3f554098e175b34f6abe2b311c7c.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/dc5ef700194e7d822be54297fc14bbcb.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			12
+		]
+	},
+	"2757685314": {
+		"hash": 2757685314,
+		"displayProperties": {
+			"description": "High damage, high recoil. Optimized for long-distance shooting.",
+			"name": "Aggressive Frame",
+			"icon": "/common/destiny2_content/icons/64209c4fd20513b33109c374179d0958.png",
+			"iconHash": 1094144678,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/64209c4fd20513b33109c374179d0958.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/42f5d0513fbd62a30410c992544d80f1.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			6
+		]
+	},
+	"2874284214": {
+		"hash": 2874284214,
+		"displayProperties": {
+			"description": "Hard-hitting four-burst fire.",
+			"name": "Aggressive Burst",
+			"icon": "/common/destiny2_content/icons/64209c4fd20513b33109c374179d0958.png",
+			"iconHash": 1094144678,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/64209c4fd20513b33109c374179d0958.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/42f5d0513fbd62a30410c992544d80f1.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			7
+		]
+	},
+	"2928496916": {
+		"hash": 2928496916,
+		"displayProperties": {
+			"description": "Fires self-propelled micro-missiles that explode on impact for high damage.",
+			"name": "Micro-Missile Frame",
+			"icon": "/common/destiny2_content/icons/0362f949c16fe72358a5c7bb93be3f60.png",
+			"iconHash": 2928496916,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/0362f949c16fe72358a5c7bb93be3f60.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/3c23c0f416928bdfa50f0a1b5a67cdef.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			7,
+			14
+		]
+	},
+	"3054949324": {
+		"hash": 3054949324,
+		"displayProperties": {
+			"description": "Aggressive frame Shotgun modified to have more uniform pellet spread.",
+			"name": "Shot Package",
+			"icon": "/common/destiny2_content/icons/385f8d4a171f2a1b208f1708292caaa9.png",
+			"iconHash": 4291104141,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/385f8d4a171f2a1b208f1708292caaa9.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/7b37702f823946d424758dca9332b0fb.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			11
+		]
+	},
+	"3330548924": {
+		"hash": 3330548924,
+		"displayProperties": {
+			"description": "Fires a hard-hitting, two-round burst. Slightly reduces flinching from incoming fire while aiming.",
+			"name": "Heavy Burst",
+			"icon": "/common/destiny2_content/icons/5c4c7b8c580a97ede3981eceefb63540.png",
+			"iconHash": 1634975868,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/5c4c7b8c580a97ede3981eceefb63540.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/fccfadbf979b95d0f2c21cd402ca398b.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			14
+		]
+	},
+	"3364911712": {
+		"hash": 3364911712,
+		"displayProperties": {
+			"description": "Fires full auto with deeper ammo reserves. Faster reload when weapon is empty.",
+			"name": "Rapid-Fire Frame",
+			"icon": "/common/destiny2_content/icons/801d62d1f9783bee81d5700c54c24fda.png",
+			"iconHash": 2799308583,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/801d62d1f9783bee81d5700c54c24fda.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/39df71ad319df817b456e7337f008101.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			8
+		]
+	},
+	"3419274965": {
+		"hash": 3419274965,
+		"displayProperties": {
+			"description": "This weapon fires a small auto-tracking missile. Missiles lock onto targets when aimed.",
+			"name": "Precision Frame",
+			"icon": "/common/destiny2_content/icons/e9dd736124e8ef94048901a279a5bb18.png",
+			"iconHash": 123239697,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/e9dd736124e8ef94048901a279a5bb18.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/b42a6514169fb87249c2338a542de0dc.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			13
+		]
+	},
+	"3449390870": {
+		"hash": 3449390870,
+		"displayProperties": {
+			"description": "Well-rounded, reliable, fires a 3-round burst.",
+			"name": "Adaptive Burst",
+			"icon": "/common/destiny2_content/icons/967fb4abc6ab98f74639d6c08e5f56ee.png",
+			"iconHash": 2251942812,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/967fb4abc6ab98f74639d6c08e5f56ee.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/29d2bf2c0944a34e20a88b3f7b796767.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			14
+		]
+	},
+	"3468089894": {
+		"hash": 3468089894,
+		"displayProperties": {
+			"description": "High damage, high recoil.",
+			"name": "Aggressive Frame",
+			"icon": "/common/destiny2_content/icons/64209c4fd20513b33109c374179d0958.png",
+			"iconHash": 1094144678,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/64209c4fd20513b33109c374179d0958.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/42f5d0513fbd62a30410c992544d80f1.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			8,
+			3954685534,
+			13,
+			10,
+			11,
+			12,
+			6
+		]
+	},
+	"3488129416": {
+		"hash": 3488129416,
+		"displayProperties": {
+			"description": "Capable of healing allies and hurting targets. Harming targets builds a restorative charge. Hip firing at allies while this weapon is charged heals them. Rapid healing increases weapon damage and spawns Unraveling projectiles.",
+			"name": "Support Frame",
+			"icon": "/common/destiny2_content/icons/922b3354dd900848ecf72bcf9e1ae022.png",
+			"iconHash": 2622129339,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/922b3354dd900848ecf72bcf9e1ae022.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/3067606d6401e929441354bfa8d31e6f.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			5
+		]
+	},
+	"3530948111": {
+		"hash": 3530948111,
+		"displayProperties": {
+			"description": "Fires a three-round burst.",
+			"name": "Adaptive Burst",
+			"icon": "/common/destiny2_content/icons/967fb4abc6ab98f74639d6c08e5f56ee.png",
+			"iconHash": 2251942812,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/967fb4abc6ab98f74639d6c08e5f56ee.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/29d2bf2c0944a34e20a88b3f7b796767.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			9,
+			1504945536
+		]
+	},
+	"3572001649": {
+		"hash": 3572001649,
+		"displayProperties": {
+			"description": "High power draw with overpenetrating arrows.",
+			"name": "High-Impact Longbow",
+			"icon": "/common/destiny2_content/icons/f83cdb9430e520faf003af3eb2d71cae.png",
+			"iconHash": 3572001649,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/f83cdb9430e520faf003af3eb2d71cae.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/a8a0311248507505387b019936d143d1.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			3317538576
+		]
+	},
+	"3758615625": {
+		"hash": 3758615625,
+		"displayProperties": {
+			"description": "This weapon fires a high-speed micro-missile in a straight line and deals reduced self-damage. Move faster with this weapon equipped.",
+			"name": "Micro-Missile Frame",
+			"icon": "/common/destiny2_content/icons/0362f949c16fe72358a5c7bb93be3f60.png",
+			"iconHash": 2928496916,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/0362f949c16fe72358a5c7bb93be3f60.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/3c23c0f416928bdfa50f0a1b5a67cdef.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			153950757
+		]
+	},
+	"3771737927": {
+		"hash": 3771737927,
+		"displayProperties": {
+			"description": "Increased damage versus powerful combatants. Very low heat generated. [Reload]  to vent heat from the weapon. Overheating forces a sustained vent. Manually venting at very high heat greatly increases venting speed.",
+			"name": "Balanced Heat Weapon",
+			"icon": "/common/destiny2_content/icons/b46e3f554098e175b34f6abe2b311c7c.png",
+			"iconHash": 3771737927,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/b46e3f554098e175b34f6abe2b311c7c.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/dc5ef700194e7d822be54297fc14bbcb.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			7,
+			5
+		]
+	},
+	"3920852688": {
+		"hash": 3920852688,
+		"displayProperties": {
+			"description": "Fires full auto with deeper ammo reserves. Faster reload when weapon is empty.",
+			"name": "Rapid-Fire Frame",
+			"icon": "/common/destiny2_content/icons/801d62d1f9783bee81d5700c54c24fda.png",
+			"iconHash": 2799308583,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/801d62d1f9783bee81d5700c54c24fda.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/39df71ad319df817b456e7337f008101.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			8
+		]
+	},
+	"3923638944": {
+		"hash": 3923638944,
+		"displayProperties": {
+			"description": "Fires a hard-hitting, two-round burst. Slightly reduces flinching from incoming fire while aiming.",
+			"name": "Heavy Burst",
+			"icon": "/common/destiny2_content/icons/5c4c7b8c580a97ede3981eceefb63540.png",
+			"iconHash": 1634975868,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/5c4c7b8c580a97ede3981eceefb63540.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/fccfadbf979b95d0f2c21cd402ca398b.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			6,
+			11
+		]
+	},
+	"3983457027": {
+		"hash": 3983457027,
+		"displayProperties": {
+			"description": "Hard-hitting, high recoil. Increases rate of fire after kill.",
+			"name": "Aggressive Frame",
+			"icon": "/common/destiny2_content/icons/64209c4fd20513b33109c374179d0958.png",
+			"iconHash": 1094144678,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/64209c4fd20513b33109c374179d0958.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/42f5d0513fbd62a30410c992544d80f1.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			11
+		]
+	},
+	"4108848057": {
+		"hash": 4108848057,
+		"displayProperties": {
+			"description": "Higher base damage, increased damage versus powerful combatants. High heat generated. [Reload]  to vent heat from the weapon. Overheating forces a sustained vent. Weapon cools down more rapidly between shots.",
+			"name": "Dynamic Heat Weapon",
+			"icon": "/common/destiny2_content/icons/4e065ecc7e8166279873c55b563b5311.png",
+			"iconHash": 2331097520,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/4e065ecc7e8166279873c55b563b5311.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/641d10d58a6c56036843247ff1a8090a.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			14
+		]
+	},
+	"4130495068": {
+		"hash": 4130495068,
+		"displayProperties": {
+			"description": "Fires a slower grenade projectile that bounces. \n[Shoot]  : Fire; release to detonate.",
+			"name": "Precision Frame",
+			"icon": "/common/destiny2_content/icons/e9dd736124e8ef94048901a279a5bb18.png",
+			"iconHash": 3276799434,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/e9dd736124e8ef94048901a279a5bb18.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/b42a6514169fb87249c2338a542de0dc.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			153950757
+		]
+	},
+	"4172222323": {
+		"hash": 4172222323,
+		"displayProperties": {
+			"description": "Customized frame with dramatically increased accuracy, stability, and targeting while hip firing.",
+			"name": "Legacy PR-55 Frame",
+			"icon": "/common/destiny2_content/icons/a3402f39212e2996a198d4c3882ef15d.png",
+			"iconHash": 3801139261,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/a3402f39212e2996a198d4c3882ef15d.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/02855ce0e11d4fc1cef630ff1c0bdd43.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			7
+		]
+	},
+	"4172267910": {
+		"hash": 4172267910,
+		"displayProperties": {
+			"description": "[Heavy Attack]  : Launch a heavy uppercut attack.\nHeavy attacks are stronger with full energy.",
+			"name": "Adaptive Frame",
+			"icon": "/common/destiny2_content/icons/967fb4abc6ab98f74639d6c08e5f56ee.png",
+			"iconHash": 2251942812,
+			"iconSequences": [
+				{
+					"frames": [
+						"/common/destiny2_content/icons/967fb4abc6ab98f74639d6c08e5f56ee.png"
+					]
+				},
+				{
+					"frames": [
+						"/common/destiny2_content/icons/29d2bf2c0944a34e20a88b3f7b796767.png"
+					]
+				}
+			],
+			"hasIcon": true
+		},
+		"weaponTypes": [
+			54
+		]
+	}
+}
