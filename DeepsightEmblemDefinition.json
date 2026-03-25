@@ -999,6 +999,26 @@
 			"alpha": 255
 		}
 	},
+	"215338185": {
+		"hash": 215338185,
+		"displayProperties": {
+			"description": "",
+			"name": "Take the Mantle",
+			"icon": "/common/destiny2_content/icons/a34eec39e67232dce134420ea9bd3541.jpg",
+			"iconHash": 470609973,
+			"hasIcon": true
+		},
+		"collectibleHash": 3420566443,
+		"secondaryIcon": "/common/destiny2_content/icons/7005a7ab5f9a038c8de4da69187bb16f.jpg",
+		"secondaryOverlay": "/common/destiny2_content/icons/74b193b70eddcec118c1c847da37cc72.png",
+		"secondarySpecial": "/common/destiny2_content/icons/dbcb06761d559855542665b7e7d3e0dd.jpg",
+		"backgroundColor": {
+			"red": 61,
+			"green": 31,
+			"blue": 55,
+			"alpha": 255
+		}
+	},
 	"215338186": {
 		"hash": 215338186,
 		"displayProperties": {
@@ -2103,18 +2123,18 @@
 		"displayProperties": {
 			"description": "",
 			"name": "Reigning Medalist",
-			"icon": "/common/destiny2_content/icons/1278344ed0b8bcf11e66d60122b1a8ac.jpg",
+			"icon": "/common/destiny2_content/icons/ded92f3e9bebd7c2e8f48c968d601f46.jpg",
 			"iconHash": 748692002,
 			"hasIcon": true
 		},
 		"collectibleHash": 3080923306,
-		"secondaryIcon": "/common/destiny2_content/icons/a2e74324c1b28cf23303beaf1146c979.jpg",
-		"secondaryOverlay": "/common/destiny2_content/icons/654bf8ede5cae55cd214ee6169902d64.png",
-		"secondarySpecial": "/common/destiny2_content/icons/413687a583f18175db01e5e950401847.jpg",
+		"secondaryIcon": "/common/destiny2_content/icons/23568027f88c563f885a9ae76e6ec978.jpg",
+		"secondaryOverlay": "/common/destiny2_content/icons/afdfea7971e26e158c9e5e7434a4a77b.png",
+		"secondarySpecial": "/common/destiny2_content/icons/81e11feef465ccbae41afc30b9b9404c.jpg",
 		"backgroundColor": {
-			"red": 245,
-			"green": 0,
-			"blue": 245,
+			"red": 4,
+			"green": 22,
+			"blue": 42,
 			"alpha": 255
 		}
 	},
@@ -4648,6 +4668,7 @@
 			"iconHash": 1391923617,
 			"hasIcon": true
 		},
+		"collectibleHash": 1194028860,
 		"secondaryIcon": "/common/destiny2_content/icons/37a9da8c172deed58d95f9890e29f043.jpg",
 		"secondaryOverlay": "/common/destiny2_content/icons/2c97aea22e186670e1d60a156203a210.png",
 		"secondarySpecial": "/common/destiny2_content/icons/0ab4aea874b6c5ac68481690e657074f.jpg",
@@ -11197,7 +11218,7 @@
 			"iconHash": 2680217529,
 			"hasIcon": true
 		},
-		"collectibleHash": 3140613121,
+		"collectibleHash": 3382909772,
 		"secondaryIcon": "/common/destiny2_content/icons/0639521caaebd9bc34338713e66faa6f.jpg",
 		"secondaryOverlay": "/common/destiny2_content/icons/c37590deced8e2de3d0d2341e6f6f9ef.png",
 		"secondarySpecial": "/common/destiny2_content/icons/a4e1733335c6391a11e4093982c29a9f.jpg",
