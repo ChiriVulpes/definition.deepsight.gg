@@ -532,7 +532,7 @@ const DeepsightMomentDefinitionData: Record<keyof typeof MomentHashes, Deepsight
 		images: [
 			{ DestinyActivityDefinition: { hash: ActivityHashes.SalvageAndSalvation_Tiern1, property: 'pgcrImage' } },
 			{ DestinyActivityDefinition: { hash: ActivityHashes.ExpeditionCosmodrome_ActivityLightLevel0, property: 'pgcrImage' } },
-			{ DestinyActivityDefinition: { hash: ActivityHashes.KetchcrashCustomize, property: 'pgcrImage' } },
+			{ DestinyActivityDefinition: { hash: ActivityHashes.KetchcrashCustomize_TraitHashesLength10, property: 'pgcrImage' } },
 			{ DestinyActivityDefinition: { hash: ActivityHashes.PirateHideoutTheBeastTamer, property: 'pgcrImage' } },
 		],
 		season: 18,
@@ -709,13 +709,13 @@ const DeepsightMomentDefinitionData: Record<keyof typeof MomentHashes, Deepsight
 	EpisodeRevenant: {
 		id: 'revenant',
 		iconWatermark: { DestinyInventoryItemDefinition: InventoryItemHashes.IceBreakerSniperRifle },
-		primaryImage: { DestinyActivityDefinition: { hash: ActivityHashes.KellsFallCustomize, property: 'pgcrImage' } },
+		primaryImage: { DestinyActivityDefinition: { hash: ActivityHashes.KellsFallCustomize_TraitHashesLength10, property: 'pgcrImage' } },
 		images: [
 			{ DestinyActivityDefinition: { hash: ActivityHashes.TombOfEldersMatchmade, property: 'pgcrImage' } },
 			{ DestinyActivityDefinition: { hash: ActivityHashes.KellsGraveOnslaughtSalvation, property: 'pgcrImage' } },
 			{ DestinyActivityDefinition: { hash: ActivityHashes.WidowsCourtOnslaughtSalvation, property: 'pgcrImage' } },
 			{ DestinyActivityDefinition: { hash: ActivityHashes.EventideRuinsOnslaughtSalvation, property: 'pgcrImage' } },
-			{ DestinyActivityDefinition: { hash: ActivityHashes.KellsFallCustomize, property: 'pgcrImage' } },
+			{ DestinyActivityDefinition: { hash: ActivityHashes.KellsFallCustomize_TraitHashesLength10, property: 'pgcrImage' } },
 			{ DestinyActivityDefinition: { hash: ActivityHashes.VespersHostNormal, property: 'pgcrImage' } },
 		],
 		season: 25,
