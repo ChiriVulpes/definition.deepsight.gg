@@ -1,0 +1,312 @@
+{
+	"0": {
+		"hash": 0,
+		"category": 0,
+		"displayProperties": {
+			"name": "Commander Zavala",
+			"subtitle": "Legacy Gear",
+			"description": "The resolute Commander Zavala advises Guardians on all Vanguard-related activities.",
+			"icon": "/common/destiny2_content/icons/b46bfdaa8287c0af02e597a6090ca767.png"
+		}
+	},
+	"1": {
+		"hash": 1,
+		"category": 0,
+		"displayProperties": {
+			"name": "Lord Shaxx",
+			"subtitle": "Legacy Gear",
+			"description": "The Crucible is the arena in which Guardians forge their Light. Lord Shaxx is the Crucible.",
+			"icon": "/common/destiny2_content/icons/63912bb6dbdbaab769880e7a15a55386.png"
+		}
+	},
+	"2": {
+		"hash": 2,
+		"category": 0,
+		"displayProperties": {
+			"name": "The Drifter",
+			"subtitle": "Legacy Gear",
+			"description": "The name says it all.",
+			"icon": "/common/destiny2_content/icons/b7c164377f46128cd26d9268115039ad.png"
+		}
+	},
+	"3": {
+		"hash": 3,
+		"category": 0,
+		"displayProperties": {
+			"name": "Saint-14",
+			"subtitle": "Legacy Gear",
+			"description": "A legendary hero and the former Titan Vanguard, Saint-14 disappeared into the Infinite Forest only to be later rescued by a fellow Guardian.",
+			"icon": "/common/destiny2_content/icons/7add0da73da4c4d88cb3cbb717d5ddf9.png"
+		}
+	},
+	"4": {
+		"hash": 4,
+		"category": 0,
+		"rotates": true,
+		"displayProperties": {
+			"name": "Banshee-44",
+			"subtitle": "Legacy Focused Decoding",
+			"description": "Banshee-44 has lived many lives. As master weaponsmith for the Tower, he supplies Guardians with only the best.",
+			"icon": "/common/destiny2_content/icons/16f38e867ad607cb5e1aae5c3594fbdc.png"
+		}
+	},
+	"5": {
+		"hash": 5,
+		"category": 0,
+		"rotates": true,
+		"displayProperties": {
+			"name": "Banshee-44",
+			"subtitle": "Gunsmith",
+			"description": "Banshee-44 has lived many lives. As master weaponsmith for the Tower, he supplies Guardians with only the best.",
+			"icon": "/common/destiny2_content/icons/16f38e867ad607cb5e1aae5c3594fbdc.png"
+		}
+	},
+	"6": {
+		"hash": 6,
+		"category": 0,
+		"event": 3319172235,
+		"displayProperties": {
+			"name": "Valus Saladin",
+			"subtitle": "Legacy Gear",
+			"description": "Saladin Forge, the last surviving Iron Lord and Valus of Caiatl's empire, oversees the Iron Banner event: trial by combat where only the strongest survive.",
+			"icon": "/common/destiny2_content/icons/e21e97ef6c0343c611a46b77f8b9937c.png"
+		}
+	},
+	"7": {
+		"hash": 7,
+		"category": 1,
+		"displayProperties": {
+			"name": "Vanguard Ops",
+			"description": "The Vanguard seeks Guardians to undertake high-priority missions against the City's enemies.",
+			"icon": "/common/destiny2_content/icons/3642cf9e2acd174dcab5b5f9e3a3a45d.png"
+		}
+	},
+	"8": {
+		"hash": 8,
+		"category": 1,
+		"displayProperties": {
+			"name": "Pinnacle Ops",
+			"description": "Test your might against the toughest combatants.",
+			"icon": "/common/destiny2_content/icons/DestinyActivityDefinition_d80e05f226db50bac4bc1479568ea87f.png"
+		}
+	},
+	"9": {
+		"hash": 9,
+		"category": 1,
+		"displayProperties": {
+			"name": "Crucible Ops",
+			"description": "Hone your skills and win glory in battle against other Guardians.",
+			"icon": "/common/destiny2_content/icons/DestinyActivityDefinition_b843fe750dcb70115d677e5bc1b7070c.png"
+		}
+	},
+	"10": {
+		"hash": 10,
+		"category": 1,
+		"displayProperties": {
+			"name": "Trials of Osiris",
+			"description": "Eliminate your opponents or capture the zone to win. Earn as many round and match wins on a ticket as you can.",
+			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_e35792b49b249ca5dcdb1e7657ca42b6.png"
+		}
+	},
+	"11": {
+		"hash": 11,
+		"category": 4,
+		"event": 1392131908,
+		"displayProperties": {
+			"name": "Arms Week",
+			"subtitle": "Ada-1",
+			"icon": "/common/destiny2_content/icons/DestinyEventCardDefinition_a6387809eb029e6fb70d40c3326d8a02.png",
+			"description": ""
+		}
+	},
+	"12": {
+		"hash": 12,
+		"category": 2,
+		"event": 3841872876,
+		"displayProperties": {
+			"name": "Solstice",
+			"icon": "/common/destiny2_content/icons/DestinyEventCardDefinition_4f9324534754826fe140c9b487884b9d.png",
+			"description": ""
+		}
+	},
+	"13": {
+		"hash": 13,
+		"category": 3,
+		"displayProperties": {
+			"name": "Kepler",
+			"subtitle": "The Edge of Fate",
+			"icon": "/common/destiny2_content/icons/c197d7085c39c4bc2385f2cdb0dbb65d.png",
+			"description": ""
+		}
+	},
+	"14": {
+		"hash": 14,
+		"category": 2,
+		"event": 1625344077,
+		"displayProperties": {
+			"name": "Heavy Metal",
+			"icon": "/common/destiny2_content/icons/DestinyEventCardDefinition_8219d7d63beb7cbaf05cf2c0c2ba1648.png",
+			"description": ""
+		}
+	},
+	"15": {
+		"hash": 15,
+		"category": 2,
+		"event": 3319172235,
+		"displayProperties": {
+			"name": "Iron Banner",
+			"icon": "/common/destiny2_content/icons/DestinyEventCardDefinition_056b2afd04dbab4ba6c41d6a44ae9ea6.png",
+			"description": ""
+		}
+	},
+	"16": {
+		"hash": 16,
+		"category": 0,
+		"rotates": true,
+		"displayProperties": {
+			"name": "Xûr",
+			"subtitle": "Strange Gear Offers",
+			"description": "A peddler of strange curios, Xûr's motives are not his own. He bows to his distant masters, the Nine.",
+			"icon": "/common/destiny2_content/icons/0c4e426abcae67819183ec3ce6d2a68c.png"
+		}
+	},
+	"17": {
+		"hash": 17,
+		"category": 0,
+		"event": 3319172235,
+		"displayProperties": {
+			"name": "Valus Saladin",
+			"subtitle": "Legacy Gear",
+			"description": "Saladin Forge, the last surviving Iron Lord and Valus of Caiatl's empire, oversees the Iron Banner event: trial by combat where only the strongest survive.",
+			"icon": "/common/destiny2_content/icons/e21e97ef6c0343c611a46b77f8b9937c.png"
+		}
+	},
+	"18": {
+		"hash": 18,
+		"category": 2,
+		"event": 3265920761,
+		"displayProperties": {
+			"name": "Festival of the Lost",
+			"icon": "/common/destiny2_content/icons/DestinyEventCardDefinition_1a1e3f8074c98241af80f4bee77084c3.png",
+			"description": ""
+		}
+	},
+	"19": {
+		"hash": 19,
+		"category": 2,
+		"event": 4023942872,
+		"displayProperties": {
+			"name": "Call to Arms",
+			"icon": "/common/destiny2_content/icons/DestinyEventCardDefinition_aa23778b4fa231f096456ebaaf8738ea.png",
+			"description": ""
+		}
+	},
+	"20": {
+		"hash": 20,
+		"category": 3,
+		"displayProperties": {
+			"name": "Lawless Frontier",
+			"subtitle": "Renegades",
+			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7ea033d5203044ba378c14100c646e11.png",
+			"description": ""
+		}
+	},
+	"21": {
+		"hash": 21,
+		"category": 5,
+		"displayProperties": {
+			"name": "Renegades",
+			"subtitle": "Campaign",
+			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7ea033d5203044ba378c14100c646e11.png",
+			"description": ""
+		}
+	},
+	"22": {
+		"hash": 22,
+		"category": 5,
+		"displayProperties": {
+			"name": "The Edge of Fate",
+			"subtitle": "Campaign",
+			"icon": "/common/destiny2_content/icons/c197d7085c39c4bc2385f2cdb0dbb65d.png",
+			"description": ""
+		}
+	},
+	"23": {
+		"hash": 23,
+		"category": 6,
+		"displayProperties": {
+			"name": "Fire and Ice",
+			"subtitle": "With Aunor's guidance, enter a Praxic Vault on Europa and claim your Blade.",
+			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_7ea033d5203044ba378c14100c646e11.png",
+			"description": ""
+		}
+	},
+	"24": {
+		"hash": 24,
+		"category": 2,
+		"event": 2302439334,
+		"displayProperties": {
+			"name": "The Dawning",
+			"icon": "/common/destiny2_content/icons/DestinyEventCardDefinition_de8fe70bc9e0537c04681f5581c6c452.png",
+			"description": ""
+		}
+	},
+	"25": {
+		"hash": 25,
+		"category": 7,
+		"displayProperties": {
+			"name": "The Desert Perpetual",
+			"subtitle": "Step across the threshold of the infinite.",
+			"icon": "/common/destiny2_content/icons/867b6cee0a67b366eb5329a011cd45aa.png",
+			"description": ""
+		}
+	},
+	"26": {
+		"hash": 26,
+		"category": 7,
+		"displayProperties": {
+			"name": "The Desert Perpetual (Epic)",
+			"subtitle": "Sing for the end of the unknown.",
+			"icon": "/common/destiny2_content/icons/867b6cee0a67b366eb5329a011cd45aa.png",
+			"description": ""
+		}
+	},
+	"27": {
+		"hash": 27,
+		"category": 8,
+		"displayProperties": {
+			"name": "Equilibrium",
+			"subtitle": "Between fire and shadow, the path to balance.",
+			"icon": "/common/destiny2_content/icons/c0b62717cdf4e9d6268106164cb878cd.png",
+			"description": ""
+		}
+	},
+	"28": {
+		"hash": 28,
+		"category": 9,
+		"displayProperties": {
+			"name": "Lawless",
+			"icon": "/common/destiny2_content/icons/DestinySeasonPassDefinition_e26d26718aa8cdda042e116085bd3473.png",
+			"description": ""
+		}
+	},
+	"29": {
+		"hash": 29,
+		"category": 9,
+		"displayProperties": {
+			"name": "Reclamation",
+			"icon": "/common/destiny2_content/icons/DestinySeasonPassDefinition_a16e9585a24eaccc9ef3021a1769e50d.png",
+			"description": ""
+		}
+	},
+	"30": {
+		"hash": 30,
+		"category": 6,
+		"displayProperties": {
+			"name": "Heliostat",
+			"subtitle": "Infiltrate a forgotten Golden Age facility to prevent the Conductor from launching a dangerously modified Warsat.",
+			"icon": "/common/destiny2_content/icons/DestinySeasonPassDefinition_a16e9585a24eaccc9ef3021a1769e50d.png",
+			"description": ""
+		}
+	}
+}
