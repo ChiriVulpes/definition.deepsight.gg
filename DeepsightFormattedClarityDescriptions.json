@@ -49311,9 +49311,9 @@
 		"name": "Puppeteer's Control",
 		"itemHash": 3637722482,
 		"itemName": "Abeyant Leap",
-		"lastUpload": 1766530840776,
+		"lastUpload": 1775584357698,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -49436,7 +49436,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Currently provides no extension to "
+						"text": "Increases base "
 					},
 					{
 						"type": "icon",
@@ -49446,7 +49446,17 @@
 					},
 					{
 						"type": "text",
-						"text": "Suspension duration, unlike what the in-game tooltip says."
+						"text": "Suspension duration by "
+					},
+					{
+						"type": "numeric",
+						"text": "?",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds."
 					}
 				]
 			},
@@ -91361,9 +91371,9 @@
 		"name": "Illegally Modded Holster",
 		"itemHash": 193869522,
 		"itemName": "Lucky Pants",
-		"lastUpload": 1729536274338,
+		"lastUpload": 1775584357698,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -91599,6 +91609,7 @@
 			},
 			{
 				"type": "line",
+				"isListItem": true,
 				"content": [
 					{
 						"type": "text",
@@ -91616,31 +91627,111 @@
 					},
 					{
 						"type": "text",
-						"text": " increased damage per Stack. "
+						"text": " increased damage per Stack ("
 					},
+					{
+						"type": "numeric",
+						"text": "300%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": ")"
+					},
+					{
+						"type": "text",
+						"text": "."
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
 					{
 						"type": "text",
 						"text": "Sturm"
 					},
 					{
 						"type": "text",
-						"text": "'s Overcharged Rounds, "
+						"text": "'s Overcharged Rounds only receive "
+					},
+					{
+						"type": "numeric",
+						"text": "11%",
+						"isUnknown": true,
+						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": "Malfeasance"
+						"text": " increased damage per Stack ("
+					},
+					{
+						"type": "numeric",
+						"text": "110%",
+						"isUnknown": true,
+						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": "'s Explosive Shadow, and "
+						"text": ")"
 					},
+					{
+						"type": "text",
+						"text": "."
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
 					{
 						"type": "text",
 						"text": "Hawkmoon"
 					},
 					{
 						"type": "text",
-						"text": "'s Paracausal Shot are unaffected by the buff."
+						"text": "'s Paracausal Shot receives "
+					},
+					{
+						"type": "numeric",
+						"text": "5%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " increased damage per stack upon being fired ("
+					},
+					{
+						"type": "numeric",
+						"text": "50%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": ")"
+					},
+					{
+						"type": "text",
+						"text": "."
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "Malfeasance"
+					},
+					{
+						"type": "text",
+						"text": "'s Explosive Shadow is unaffected by the buff."
 					}
 				]
 			},
