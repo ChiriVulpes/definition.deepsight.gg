@@ -1,20 +1,20 @@
 {
-	"DeepsightDropTableDefinition": 830,
+	"DeepsightDropTableDefinition": 831,
 	"DeepsightMomentDefinition": 25,
 	"DeepsightPlugCategorisation": 53,
 	"DeepsightWallpaperDefinition": 14,
-	"Enums": 201,
+	"Enums": 202,
 	"Interfaces": 58,
-	"deepsight": 1819,
+	"deepsight": 1821,
 	"DeepsightTierTypeDefinition": 1,
-	"lastDailyReset": "2026-05-20T17:00:00Z",
+	"lastDailyReset": "2026-05-21T17:00:00Z",
 	"lastWeeklyReset": "2026-05-19T17:00:00Z",
 	"lastTrialsReset": "2026-05-22T17:00:00Z",
 	"referencePostGameCarnageReportSinceDailyReset": {
-		"instanceId": "16846505575",
-		"period": "2026-05-20T21:11:44Z"
+		"instanceId": "16846855617",
+		"period": "2026-05-21T17:42:51Z"
 	},
-	"updated": "2026-05-21T01:19:00Z",
+	"updated": "2026-05-21T17:51:00Z",
 	"DeepsightVendorDefinition": 630,
 	"DeepsightStats": 13,
 	"DeepsightCollectionsDefinition": 27,
