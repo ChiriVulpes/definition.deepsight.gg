@@ -26,9 +26,17 @@ Use `pnpm exec task save_wiki` if the `wiki` folder is not present or seems old,
 The bungie-api-ts dependency contains almost all of the Bungie API documentation in JSDoc form.
 
 ## Validation
-Lightweight static checks are okay when they do not rewrite generated artifacts. Prefer focused checks first, and report clearly if broader checks fail because the existing generated data is out of sync.
+Do validation in this order:
+- Use typechecks as the first line of defense.
+- Use `pnpm exec task manifest` to rerun the build against the current data.
+- If there is new Bungie API data, the `manifest` task will regenerate enums. If there isn't new data, but you've changed the enum generation code, run `$env:ENUMS_NEED_UPDATE='true' pnpm exec task generate_enums` to force enum regeneration. 
 
-Do not validate routine work by running the main generation/build/watch tasks unless the user explicitly asks.
+For Bungie defs updates and enum-reference compatibility work, validate behavior at the generated output layer via the `definition_diff` task, which compares local `docs/definitions` against the CI/output branch data with stable pretty JSON diffing:
+
+- Use `pnpm exec task definition_diff` for a compact Git diff & summary.
+- Use `pnpm exec task definition_diff --params --file <DefinitionName>.json --full` to inspect one suspicious definition file in detail.
+- Treat enum declaration diffs as supporting context only. They show name churn, not whether curated deepsight definition output stayed intentional.
+- If the diff is broad because Bungie data legitimately changed, summarize which generated definition files changed and call out unexpected removals, remaps, or key movement.
 
 ## JSON data querying
 Use `pnpm exec task json_search --params ...` for fast questions about large JSON data shapes and manifest records.
