@@ -4,6 +4,9 @@ docs/
 static/testiny
 static/js/vendor
 task/manifest/Enums.d.ts
+task/manifest/Enums.js
+task/manifest/Interfaces.d.ts
+task/manifest/Interfaces.js
 static/definitions/DeepsightPlugCategorisation.d.ts
 static/definitions/DeepsightBreakerTypeDefinition.d.ts
 static/definitions/DeepsightEmblemDefinition.json

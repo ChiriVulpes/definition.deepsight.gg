@@ -17,52 +17,52 @@ import DestinyRequest from './DestinyRequest'
 const _ = undefined
 
 const VENDOR_BACKGROUNDS: Partial<Record<VendorHashes, string | Partial<Record<DestinationHashes | EventCardHashes, string>>>> = {
-	[VendorHashes.ValusSaladin]: 'lordsaladin',
-	[VendorHashes.Nimbus]: 'nimbus',
-	[VendorHashes.Fynch]: 'fynch',
-	[VendorHashes.Xur_CategoriesLength27]: 'xurxurstreasurehoard',
-	[VendorHashes.Xur_CategoriesLength23]: 'xurtower',
-	[VendorHashes.Ada1_Enabledtrue]: 'ada1',
-	[VendorHashes.Banshee44_Enabledtrue]: 'banshee44',
-	[VendorHashes.CommanderZavala_Enabledtrue]: 'commanderzavala',
-	[VendorHashes.TheDrifter_Enabledtrue]: 'thedrifter',
-	[VendorHashes.Saint14]: 'saint14',
-	[VendorHashes.LordShaxx_Enabledtrue]: 'lordshaxx',
-	[VendorHashes.DevrimKay]: 'devrimkay',
-	[VendorHashes.Failsafe]: 'failsafe',
+	[VendorHashes.IronBanner]: 'lordsaladin',
+	[VendorHashes.NeomunaFaction]: 'nimbus',
+	[VendorHashes.ThroneworldFaction]: 'fynch',
+	[VendorHashes["30thAnniversaryXur"]]: 'xurxurstreasurehoard',
+	[VendorHashes.TowerNine]: 'xurtower',
+	[VendorHashes.TowerAda]: 'ada1',
+	[VendorHashes.Gunsmith]: 'banshee44',
+	[VendorHashes.TitanVanguard]: 'commanderzavala',
+	[VendorHashes.Gambit]: 'thedrifter',
+	[VendorHashes.TowerSaint14]: 'saint14',
+	[VendorHashes.Crucible]: 'lordshaxx',
+	[VendorHashes.PlanetEdz]: 'devrimkay',
+	[VendorHashes.PlanetNessus]: 'failsafe',
 	[VendorHashes.ErisMorn]: 'erismorn',
-	[VendorHashes.LecternOfEnchantment]: 'lecternofenchantment',
-	[VendorHashes.ShawHan]: 'shawhan',
-	[VendorHashes.PetraVenj]: `petravenj${Rotation.resolve({ anchor: '2024-01-16T17:00:00Z' }, ['thestrand', 'divalianmists', 'rheasilvia'])}`,
-	[VendorHashes.VariksTheLoyal]: 'varikstheloyal',
-	[VendorHashes.Starhorse]: 'starhorse',
-	[VendorHashes.EvaLevante]: {
+	[VendorHashes.RuneTable]: 'lecternofenchantment',
+	[VendorHashes.CosmodromeFaction]: 'shawhan',
+	[VendorHashes.DreamingCityPetraVenj]: `petravenj${Rotation.resolve({ anchor: '2024-01-16T17:00:00Z' }, ['thestrand', 'divalianmists', 'rheasilvia'])}`,
+	[VendorHashes.EuropaFaction]: 'varikstheloyal',
+	[VendorHashes["30thAnniversaryStarhorse"]]: 'starhorse',
+	[VendorHashes.EvaLevanteVendor]: {
 		[EventCardHashes.GuardianGames]: 'evalevanteguardiangames',
 	},
 }
 
 const VENDOR_GROUP_OVERRIDES: Partial<Record<VendorHashes, VendorGroupHashes[]>> = {
-	[VendorHashes.LordShaxx_Enabledtrue]: [VendorGroupHashes.LimitedTime],
-	[VendorHashes.EvaLevante]: [VendorGroupHashes.Tower, VendorGroupHashes.LimitedTime],
-	[VendorHashes.ValusSaladin]: [VendorGroupHashes.Tower, VendorGroupHashes.LimitedTime],
-	[VendorHashes.Nimbus]: [VendorGroupHashes.Destination, VendorGroupHashes.Lightfall],
-	[VendorHashes.Fynch]: [VendorGroupHashes.Destination, VendorGroupHashes.TheWitchQueen],
-	[VendorHashes.Xur_CategoriesLength27]: [VendorGroupHashes.Destination, VendorGroupHashes['30thAnniversary']],
-	[VendorHashes.Xur_CategoriesLength23]: [VendorGroupHashes.Tower, VendorGroupHashes.LimitedTime],
+	[VendorHashes.Crucible]: [VendorGroupHashes.LimitedTime],
+	[VendorHashes.EvaLevanteVendor]: [VendorGroupHashes.Tower, VendorGroupHashes.LimitedTime],
+	[VendorHashes.IronBanner]: [VendorGroupHashes.Tower, VendorGroupHashes.LimitedTime],
+	[VendorHashes.NeomunaFaction]: [VendorGroupHashes.Destination, VendorGroupHashes.Lightfall],
+	[VendorHashes.ThroneworldFaction]: [VendorGroupHashes.Destination, VendorGroupHashes.TheWitchQueen],
+	[VendorHashes["30thAnniversaryXur"]]: [VendorGroupHashes.Destination, VendorGroupHashes['30thAnniversary']],
+	[VendorHashes.TowerNine]: [VendorGroupHashes.Tower, VendorGroupHashes.LimitedTime],
 }
 
 const VENDOR_MOMENTS: Partial<Record<VendorHashes, MomentHashes>> = {
-	[VendorHashes.Nimbus]: MomentHashes.Lightfall,
-	[VendorHashes.WarTable]: MomentHashes.SeasonOfDefiance,
-	[VendorHashes.Fynch]: MomentHashes.TheWitchQueen,
-	[VendorHashes.Xur_CategoriesLength23]: MomentHashes.Bungie30thAnniversary,
-	[VendorHashes.DevrimKay]: MomentHashes.TheRedWar,
-	[VendorHashes.Failsafe]: MomentHashes.TheRedWar,
+	[VendorHashes.NeomunaFaction]: MomentHashes.Lightfall,
+	[VendorHashes.HelmWarTable]: MomentHashes.SeasonOfDefiance,
+	[VendorHashes.ThroneworldFaction]: MomentHashes.TheWitchQueen,
+	[VendorHashes.TowerNine]: MomentHashes.Bungie30thAnniversary,
+	[VendorHashes.PlanetEdz]: MomentHashes.TheRedWar,
+	[VendorHashes.PlanetNessus]: MomentHashes.TheRedWar,
 	[VendorHashes.ErisMorn]: MomentHashes.Shadowkeep,
-	[VendorHashes.LecternOfEnchantment]: MomentHashes.Shadowkeep,
-	[VendorHashes.ShawHan]: MomentHashes.BeyondLight,
-	[VendorHashes.PetraVenj]: MomentHashes.Forsaken,
-	[VendorHashes.VariksTheLoyal]: MomentHashes.BeyondLight,
+	[VendorHashes.RuneTable]: MomentHashes.Shadowkeep,
+	[VendorHashes.CosmodromeFaction]: MomentHashes.BeyondLight,
+	[VendorHashes.DreamingCityPetraVenj]: MomentHashes.Forsaken,
+	[VendorHashes.EuropaFaction]: MomentHashes.BeyondLight,
 }
 
 function one<T> (array: T[], id: string, def: { displayProperties: DestinyDisplayPropertiesDefinition }, hash?: (value: T) => any) {
@@ -123,7 +123,7 @@ export default Model(async () =>
 
 				let background = VENDOR_BACKGROUNDS[vendorHash]
 				if (typeof background === 'object') {
-					if (vendorHash === VendorHashes.EvaLevante) {
+					if (vendorHash === VendorHashes.EvaLevanteVendor) {
 						if (!activeEvent)
 							throw new Error('Eva Levante is here, but she has no event!!!! Spooky!')
 

@@ -349,11 +349,54 @@ export class EnumHelper {
 
 }
 
+async function writeRuntimeConstEnumModule (source: string, jsTarget: string, dtsTarget: string, dtsReExport: string) {
+	const enums = await fs.readFile(source, 'utf8')
+	let currentEnum: string | undefined
+	let currentValue = 0
+	let runtimeEnums = ''
+	for (const line of enums.split(/\r?\n/g)) {
+		const enumStart = /^export declare const enum ([a-zA-Z0-9_]+) \{$/.exec(line)
+		if (enumStart) {
+			currentEnum = enumStart[1]
+			currentValue = 0
+			runtimeEnums += `exports.${currentEnum} = {\n`
+			continue
+		}
+
+		if (currentEnum && line === '}') {
+			runtimeEnums += '}\n\n'
+			currentEnum = undefined
+			continue
+		}
+
+		if (currentEnum) {
+			const enumValue = /^\t(.+?)(?: = (-?[0-9]+))?,$/.exec(line)
+			if (enumValue) {
+				if (enumValue[2] !== undefined)
+					currentValue = +enumValue[2]
+
+				runtimeEnums += `\t${enumValue[1]}: ${currentValue},\n`
+				currentValue++
+			}
+		}
+	}
+
+	await fs.mkdirp('task/manifest')
+	await fs.writeFile(jsTarget, runtimeEnums)
+	await fs.writeFile(dtsTarget, `export * from '${dtsReExport}'\n`)
+}
+
+async function writeRuntimeDefinitions () {
+	await writeRuntimeConstEnumModule('static/definitions/Enums.d.ts', 'task/manifest/Enums.js', 'task/manifest/Enums.d.ts', '../../static/definitions/Enums')
+	await writeRuntimeConstEnumModule('static/definitions/Interfaces.d.ts', 'task/manifest/Interfaces.js', 'task/manifest/Interfaces.d.ts', '../../static/definitions/Interfaces')
+}
+
 export default Task('generate_enums', async () => {
 	const enumsTime = await fs.stat('static/definitions/Enums.d.ts').then(stats => stats.mtimeMs).catch(() => 0)
 	const manifestTime = await fs.stat('static/testiny/.v').then(stats => stats.mtimeMs).catch(() => 0)
 	if (enumsTime > manifestTime && !Env.ENUMS_NEED_UPDATE) {
 		Log.info(ansicolor.lightGreen('Enums OK!'))
+		await writeRuntimeDefinitions()
 		await fs.mkdirp('docs/definitions')
 		await fs.copyFile('static/definitions/Enums.d.ts', 'docs/definitions/Enums.d.ts')
 		return
@@ -476,6 +519,7 @@ export default Task('generate_enums', async () => {
 	if (dedupeFailures.length)
 		throw new Error(`Failed to dedupe the following enums:\n\n${dedupeFailures.join('\n\n')}`)
 
+	await writeRuntimeDefinitions()
 	await fs.mkdirp('docs/definitions')
 	await fs.copyFile('static/definitions/Enums.d.ts', 'docs/definitions/Enums.d.ts')
 })
