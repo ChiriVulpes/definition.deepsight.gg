@@ -13,3 +13,5 @@ static/definitions/Enums.json
 auth.json
 activitycache.json*
 charm/
+wiki/
+.query/
