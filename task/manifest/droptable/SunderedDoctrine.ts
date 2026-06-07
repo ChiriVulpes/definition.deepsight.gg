@@ -1,10 +1,10 @@
-import { ActivityHashes, InventoryItemHashes } from "@deepsight.gg/Enums";
-import type { DeepsightDropTableDefinition } from "./DeepsightDropTableDefinition";
+import { ActivityHashes, InventoryItemHashes } from '@deepsight.gg/Enums'
+import type { DeepsightDropTableDefinition } from './DeepsightDropTableDefinition'
 
 export default {
 	hash: ActivityHashes.SunderedDoctrineNormal,
 	displayProperties: {
-		icon: "./image/png/activity/sundereddoctrine.png",
+		icon: './image/png/activity/sundereddoctrine.png',
 	},
 	dropTable: {
 		[InventoryItemHashes.UnlovedHandCannon]: {},
@@ -35,15 +35,15 @@ export default {
 		{
 			traversal: true,
 			displayProperties: {
-				directive: "Find the Path",
-				description: "Make your way to where the Dread are congregating within the Pyramid.",
+				directive: 'Find the Path',
+				description: 'Make your way to where the Dread are congregating within the Pyramid.',
 			},
 		},
 		{
 			displayProperties: {
-				name: "The Riddle",
-				directive: "Solve the Riddle",
-				description: "Cast a light on the mysteries of the Pyramid.",
+				name: 'The Riddle',
+				directive: 'Solve the Riddle',
+				description: 'Cast a light on the mysteries of the Pyramid.',
 			},
 			dropTable: {
 				[InventoryItemHashes.UnworthyScoutRifle]: {},
@@ -52,15 +52,15 @@ export default {
 		{
 			traversal: true,
 			displayProperties: {
-				directive: "Navigate the Maze",
-				description: "Find your way through the labyrinth.",
+				directive: 'Navigate the Maze',
+				description: 'Find your way through the labyrinth.',
 			},
 		},
 		{
 			displayProperties: {
-				name: "Zoetic Lockset",
-				directive: "Open the Locks",
-				description: "Unbar your way forward.",
+				name: 'Zoetic Lockset',
+				directive: 'Open the Locks',
+				description: 'Unbar your way forward.',
 			},
 			dropTable: {
 				[InventoryItemHashes.UnvoicedShotgun]: {},
@@ -69,15 +69,15 @@ export default {
 		{
 			traversal: true,
 			displayProperties: {
-				directive: "Locate the Vault",
-				description: "Seek the Dread at the end of Rhulk's storehouses and laboratories.",
+				directive: 'Locate the Vault',
+				description: 'Seek the Dread at the end of Rhulk\'s storehouses and laboratories.',
 			},
 		},
 		{
 			displayProperties: {
-				name: "Kerrev, the Erased",
-				directive: "Defeat Kerrev, the Erased",
-				description: "Stop the dread from opening the vault door.",
+				name: 'Kerrev, the Erased',
+				directive: 'Defeat Kerrev, the Erased',
+				description: 'Stop the dread from opening the vault door.',
 			},
 			dropTable: {
 				[InventoryItemHashes.UnvoicedShotgun]: {},
@@ -103,4 +103,4 @@ export default {
 	master: {
 		activityHash: ActivityHashes.SunderedDoctrineMaster,
 	},
-} satisfies DeepsightDropTableDefinition;
+} satisfies DeepsightDropTableDefinition

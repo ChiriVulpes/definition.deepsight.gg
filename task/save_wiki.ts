@@ -1,7 +1,7 @@
-import fs from 'fs-extra';
-import path from 'path';
-import { Task } from 'task';
-import Log from './utility/Log';
+import fs from 'fs-extra'
+import path from 'path'
+import { Task } from 'task'
+import Log from './utility/Log'
 
 const WIKI_ROOT = 'https://github.com/ChiriVulpes/deepsight.gg/wiki'
 const RAW_WIKI_ROOT = 'https://raw.githubusercontent.com/wiki/ChiriVulpes/deepsight.gg'

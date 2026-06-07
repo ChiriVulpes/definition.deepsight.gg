@@ -1,4 +1,3 @@
-
 export enum BreakerSource {
 	None,
 	IntrinsicShieldPierce,

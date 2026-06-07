@@ -1,7 +1,7 @@
-import { ItemTierTypeHashes } from "@deepsight.gg/Enums";
-import type { DestinyInventoryItemDefinition } from "bungie-api-ts/destiny2";
-import { DestinyItemType } from "bungie-api-ts/destiny2";
-import manifest from "../utility/endpoint/DestinyManifest";
+import { ItemTierTypeHashes } from '@deepsight.gg/Enums'
+import type { DestinyInventoryItemDefinition } from 'bungie-api-ts/destiny2'
+import { DestinyItemType } from 'bungie-api-ts/destiny2'
+import manifest from '../utility/endpoint/DestinyManifest'
 
 export enum DeepsightPlugContext {
 	Intrinsic,
@@ -11,83 +11,83 @@ export enum DeepsightPlugContext {
 }
 
 interface DeepsightPlugContextDefinition {
-	definition: DestinyInventoryItemDefinition;
-	contexts: Partial<Record<DeepsightPlugContext, number[]>>;
-	contextTypes: Partial<Record<DestinyItemType, number[]>>;
-	contextTiers: Partial<Record<ItemTierTypeHashes, number[]>>;
+	definition: DestinyInventoryItemDefinition
+	contexts: Partial<Record<DeepsightPlugContext, number[]>>
+	contextTypes: Partial<Record<DestinyItemType, number[]>>
+	contextTiers: Partial<Record<ItemTierTypeHashes, number[]>>
 }
 
 namespace DeepsightPlugContextDefinition {
 	export async function discover () {
-		const { DestinyPlugSetDefinition, DestinyInventoryItemDefinition: DestinyInventoryItemDefinitionPromise } = manifest;
+		const { DestinyPlugSetDefinition, DestinyInventoryItemDefinition: DestinyInventoryItemDefinitionPromise } = manifest
 
-		const DestinyInventoryItemDefinition = await DestinyInventoryItemDefinitionPromise.all();
+		const DestinyInventoryItemDefinition = await DestinyInventoryItemDefinitionPromise.all()
 
-		const plugContexts: Record<number, DeepsightPlugContextDefinition> = {};
+		const plugContexts: Record<number, DeepsightPlugContextDefinition> = {}
 		const addPlugContext = (hash: number, containingItemDefinition?: DestinyInventoryItemDefinition, context?: DeepsightPlugContext) => {
-			const definition = DestinyInventoryItemDefinition[hash];
+			const definition = DestinyInventoryItemDefinition[hash]
 			if (!definition)
-				return;
+				return
 
 			const contextDef = plugContexts[hash] ??= {
 				definition,
 				contexts: {},
 				contextTypes: {},
 				contextTiers: {},
-			};
+			}
 
 			if (!containingItemDefinition)
-				return;
+				return
 
 			if (context !== undefined)
 				(contextDef.contexts[context] ??= []).push(containingItemDefinition.hash);
 
-			(contextDef.contextTypes[containingItemDefinition.itemType] ??= []).push(containingItemDefinition.hash);
+			(contextDef.contextTypes[containingItemDefinition.itemType] ??= []).push(containingItemDefinition.hash)
 
-			const tierHash = containingItemDefinition.inventory?.tierTypeHash;
+			const tierHash = containingItemDefinition.inventory?.tierTypeHash
 			if (tierHash)
-				(contextDef.contextTiers[tierHash as ItemTierTypeHashes] ??= []).push(containingItemDefinition.hash);
-		};
+				(contextDef.contextTiers[tierHash as ItemTierTypeHashes] ??= []).push(containingItemDefinition.hash)
+		}
 
 		for (const [itemHash, itemDef] of Object.entries(DestinyInventoryItemDefinition)) {
 			if (itemDef.plug)
-				addPlugContext(itemDef.hash);
+				addPlugContext(itemDef.hash)
 
 			if (!itemDef.sockets)
-				continue;
+				continue
 
 			for (const socket of itemDef.sockets.intrinsicSockets)
-				addPlugContext(socket.plugItemHash, itemDef, DeepsightPlugContext.Intrinsic);
+				addPlugContext(socket.plugItemHash, itemDef, DeepsightPlugContext.Intrinsic)
 
 			for (const socket of itemDef.sockets.socketEntries) {
-				addPlugContext(socket.singleInitialItemHash, itemDef, DeepsightPlugContext.SocketEntryInitial);
+				addPlugContext(socket.singleInitialItemHash, itemDef, DeepsightPlugContext.SocketEntryInitial)
 
-				const reusablePlugSet = await DestinyPlugSetDefinition.get(socket.reusablePlugSetHash);
+				const reusablePlugSet = await DestinyPlugSetDefinition.get(socket.reusablePlugSetHash)
 				for (const plug of reusablePlugSet?.reusablePlugItems ?? [])
-					addPlugContext(plug.plugItemHash, itemDef, DeepsightPlugContext.SocketEntryReusablePlugSet);
+					addPlugContext(plug.plugItemHash, itemDef, DeepsightPlugContext.SocketEntryReusablePlugSet)
 
-				const randomizedPlugSet = await DestinyPlugSetDefinition.get(socket.randomizedPlugSetHash);
+				const randomizedPlugSet = await DestinyPlugSetDefinition.get(socket.randomizedPlugSetHash)
 				for (const plug of randomizedPlugSet?.reusablePlugItems ?? [])
-					addPlugContext(plug.plugItemHash, itemDef, DeepsightPlugContext.SocketEntryRandomizedPlugSet);
+					addPlugContext(plug.plugItemHash, itemDef, DeepsightPlugContext.SocketEntryRandomizedPlugSet)
 			}
 		}
 
-		return plugContexts;
+		return plugContexts
 	}
 
 	export function isExoticOnly (context: DeepsightPlugContextDefinition) {
 		return !!context.contextTiers[ItemTierTypeHashes.Exotic]?.length
 			&& !context.contextTiers[ItemTierTypeHashes.Legendary]?.length
 			&& !context.contextTiers[ItemTierTypeHashes.Rare]?.length
-			&& !context.contextTiers[ItemTierTypeHashes.Common]?.length;
+			&& !context.contextTiers[ItemTierTypeHashes.Common]?.length
 	}
 
 	export function isOnOnlyType (type: DestinyItemType, context: DeepsightPlugContextDefinition) {
 		return !!context.contextTypes[type]?.length
 			&& Object.keys(context.contextTypes)
 				.every(t => +t === DestinyItemType.Dummy || +t === DestinyItemType.None
-					|| ((+t === type) === !!context.contextTypes[+t as DestinyItemType]?.length));
+					|| ((+t === type) === !!context.contextTypes[+t as DestinyItemType]?.length))
 	}
 }
 
-export default DeepsightPlugContextDefinition;
+export default DeepsightPlugContextDefinition

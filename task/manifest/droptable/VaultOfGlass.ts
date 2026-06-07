@@ -1,5 +1,5 @@
-import { ActivityHashes, ActivityModifierHashes, InventoryItemHashes, RecordHashes } from "@deepsight.gg/Enums";
-import type { DeepsightDropTableDefinition } from "./DeepsightDropTableDefinition";
+import { ActivityHashes, ActivityModifierHashes, InventoryItemHashes, RecordHashes } from '@deepsight.gg/Enums'
+import type { DeepsightDropTableDefinition } from './DeepsightDropTableDefinition'
 
 export default {
 	hash: ActivityHashes.VaultOfGlassStandard,
@@ -10,30 +10,30 @@ export default {
 		{
 			traversal: true,
 			displayProperties: {
-				name: "Enter the Vault of Glass",
-				description: "Enter the Vault of Glass and face what lies within.",
+				name: 'Enter the Vault of Glass',
+				description: 'Enter the Vault of Glass and face what lies within.',
 			},
 		},
 		{
 			traversal: true,
 			displayProperties: {
-				name: "Raise the Spire",
-				description: "Find a way to open the Vault of Glass.",
+				name: 'Raise the Spire',
+				description: 'Find a way to open the Vault of Glass.',
 			},
 		},
 		{
 			traversal: true,
 			displayProperties: {
-				name: "Delve Further",
-				description: "Delve further into the Vault of Glass.",
+				name: 'Delve Further',
+				description: 'Delve further into the Vault of Glass.',
 			},
 		},
 		{
 			phaseHash: 1327839050,
 			displayProperties: {
-				name: "Confluxes",
-				directive: "Defend all three Confluxes",
-				description: "Do not let the Vex reach the confluxes.",
+				name: 'Confluxes',
+				directive: 'Defend all three Confluxes',
+				description: 'Do not let the Vex reach the confluxes.',
 			},
 			dropTable: {
 				[InventoryItemHashes.VisionOfConfluenceScoutRifle_TooltipNotificationsLength3]: {},
@@ -50,9 +50,9 @@ export default {
 		{
 			phaseHash: 1327839048,
 			displayProperties: {
-				name: "Oracles",
-				directive: "Destroy the Oracles",
-				description: "Silence the Oracles' song.",
+				name: 'Oracles',
+				directive: 'Destroy the Oracles',
+				description: 'Silence the Oracles\' song.',
 			},
 			dropTable: {
 				[InventoryItemHashes.PraedythsRevengeSniperRifle_TooltipNotificationsLength3]: {},
@@ -69,9 +69,9 @@ export default {
 		{
 			phaseHash: 1327839049,
 			displayProperties: {
-				name: "The Templar",
-				directive: "Defeat the Templar",
-				description: "Defeat the Templar and its legions.",
+				name: 'The Templar',
+				directive: 'Defeat the Templar',
+				description: 'Defeat the Templar and its legions.',
 			},
 			dropTable: {
 				[InventoryItemHashes.FatebringerHandCannon_TooltipNotificationsLength3]: {},
@@ -88,30 +88,30 @@ export default {
 		{
 			traversal: true,
 			displayProperties: {
-				name: "The Great Fall",
-				description: "Survive the great fall.",
+				name: 'The Great Fall',
+				description: 'Survive the great fall.',
 			},
 		},
 		{
 			traversal: true,
 			displayProperties: {
-				name: "The Labyrinth",
-				description: "Find a way through the Gorgons' Labyrinth.",
+				name: 'The Labyrinth',
+				description: 'Find a way through the Gorgons\' Labyrinth.',
 			},
 		},
 		{
 			traversal: true,
 			displayProperties: {
-				name: "The Chasm",
-				description: "Find a way to cross the chasm and reach the Glass Throne.",
+				name: 'The Chasm',
+				description: 'Find a way to cross the chasm and reach the Glass Throne.',
 			},
 		},
 		{
 			phaseHash: 3793779770,
 			displayProperties: {
-				name: "Gatekeepers",
-				directive: "Awaken the Glass Throne",
-				description: "Protect the timelines and awaken the Glass Throne.",
+				name: 'Gatekeepers',
+				directive: 'Awaken the Glass Throne',
+				description: 'Protect the timelines and awaken the Glass Throne.',
 			},
 			dropTable: {
 				[InventoryItemHashes.FatebringerHandCannon_TooltipNotificationsLength3]: {},
@@ -128,9 +128,9 @@ export default {
 		{
 			phaseHash: 3793779769,
 			displayProperties: {
-				name: "Atheon, Time's Conflux",
-				directive: "Destroy Atheon",
-				description: "Destroy Atheon, Time's Conflux.",
+				name: 'Atheon, Time\'s Conflux',
+				directive: 'Destroy Atheon',
+				description: 'Destroy Atheon, Time\'s Conflux.',
 			},
 			dropTable: {
 				[InventoryItemHashes.PraedythsRevengeSniperRifle_TooltipNotificationsLength3]: {},
@@ -153,7 +153,7 @@ export default {
 		},
 	},
 	rotations: {
-		anchor: "2023-10-17T17:00:00Z",
+		anchor: '2023-10-17T17:00:00Z',
 		masterDrops: [
 			InventoryItemHashes.FatebringerTimelostHandCannon_TooltipNotificationsLength3,
 			InventoryItemHashes.HezenVengeanceTimelostRocketLauncher_TooltipNotificationsLength3,
@@ -169,4 +169,4 @@ export default {
 			ActivityModifierHashes.TheOnlyOracleForYou,
 		],
 	},
-} satisfies DeepsightDropTableDefinition;
+} satisfies DeepsightDropTableDefinition

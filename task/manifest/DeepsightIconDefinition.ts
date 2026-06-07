@@ -19,8 +19,8 @@ export default Task('DeepsightIconDefinition', async task => {
 	await fs.mkdirp(iconDir)
 
 	// eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
-	const DeepsightIconDefinition: Record<number, DestinyIconDefinition>
-		= await fs.readJson('static/definitions/DeepsightIconDefinition.json').catch(() => ({}))
+	const DeepsightIconDefinition: Record<number, DestinyIconDefinition> =
+		await fs.readJson('static/definitions/DeepsightIconDefinition.json').catch(() => ({}))
 
 	const [DestinyInventoryItemDefinition, DestinyIconDefinition, DeepsightPlugCategorisation] = await Promise.all([
 		DestinyManifest.DestinyInventoryItemDefinition.all(),

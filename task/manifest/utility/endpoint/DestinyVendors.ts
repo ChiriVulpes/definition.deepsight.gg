@@ -20,7 +20,7 @@ const VENDOR_BACKGROUNDS: Partial<Record<VendorHashes, string | Partial<Record<D
 	[VendorHashes.IronBanner]: 'lordsaladin',
 	[VendorHashes.NeomunaFaction]: 'nimbus',
 	[VendorHashes.ThroneworldFaction]: 'fynch',
-	[VendorHashes["30thAnniversaryXur"]]: 'xurxurstreasurehoard',
+	[VendorHashes['30thAnniversaryXur']]: 'xurxurstreasurehoard',
 	[VendorHashes.TowerNine]: 'xurtower',
 	[VendorHashes.TowerAda]: 'ada1',
 	[VendorHashes.Gunsmith]: 'banshee44',
@@ -35,7 +35,7 @@ const VENDOR_BACKGROUNDS: Partial<Record<VendorHashes, string | Partial<Record<D
 	[VendorHashes.CosmodromeFaction]: 'shawhan',
 	[VendorHashes.DreamingCityPetraVenj]: `petravenj${Rotation.resolve({ anchor: '2024-01-16T17:00:00Z' }, ['thestrand', 'divalianmists', 'rheasilvia'])}`,
 	[VendorHashes.EuropaFaction]: 'varikstheloyal',
-	[VendorHashes["30thAnniversaryStarhorse"]]: 'starhorse',
+	[VendorHashes['30thAnniversaryStarhorse']]: 'starhorse',
 	[VendorHashes.EvaLevanteVendor]: {
 		[EventCardHashes.GuardianGames]: 'evalevanteguardiangames',
 	},
@@ -47,7 +47,7 @@ const VENDOR_GROUP_OVERRIDES: Partial<Record<VendorHashes, VendorGroupHashes[]>>
 	[VendorHashes.IronBanner]: [VendorGroupHashes.Tower, VendorGroupHashes.LimitedTime],
 	[VendorHashes.NeomunaFaction]: [VendorGroupHashes.Destination, VendorGroupHashes.Lightfall],
 	[VendorHashes.ThroneworldFaction]: [VendorGroupHashes.Destination, VendorGroupHashes.TheWitchQueen],
-	[VendorHashes["30thAnniversaryXur"]]: [VendorGroupHashes.Destination, VendorGroupHashes['30thAnniversary']],
+	[VendorHashes['30thAnniversaryXur']]: [VendorGroupHashes.Destination, VendorGroupHashes['30thAnniversary']],
 	[VendorHashes.TowerNine]: [VendorGroupHashes.Tower, VendorGroupHashes.LimitedTime],
 }
 

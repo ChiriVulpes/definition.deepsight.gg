@@ -1,18 +1,18 @@
-import { VendorHashes } from "@deepsight.gg/Enums";
-import fs from "fs-extra";
-import { Task } from "task";
-import DestinyVendors from "./utility/endpoint/DestinyVendors";
+import { VendorHashes } from '@deepsight.gg/Enums'
+import fs from 'fs-extra'
+import { Task } from 'task'
+import DestinyVendors from './utility/endpoint/DestinyVendors'
 
-export default Task("DeepsightVendorDefinition", async () => {
-	const vendors = await DestinyVendors.get();
+export default Task('DeepsightVendorDefinition', async () => {
+	const vendors = await DestinyVendors.get()
 
 	const DeepsightVendorDefinition = {
 		[VendorHashes.IronBanner]: vendors[VendorHashes.IronBanner],
 		[VendorHashes.NeomunaFaction]: vendors[VendorHashes.NeomunaFaction],
 		[VendorHashes.ThroneworldFaction]: vendors[VendorHashes.ThroneworldFaction],
-		[VendorHashes["30thAnniversaryStarhorse"]]: vendors[VendorHashes["30thAnniversaryStarhorse"]],
+		[VendorHashes['30thAnniversaryStarhorse']]: vendors[VendorHashes['30thAnniversaryStarhorse']],
 		[VendorHashes.TowerNine]: vendors[VendorHashes.TowerNine],
-		[VendorHashes["30thAnniversaryXur"]]: vendors[VendorHashes["30thAnniversaryXur"]],
+		[VendorHashes['30thAnniversaryXur']]: vendors[VendorHashes['30thAnniversaryXur']],
 		[VendorHashes.TowerAda]: vendors[VendorHashes.TowerAda],
 		[VendorHashes.Gunsmith]: vendors[VendorHashes.Gunsmith],
 		[VendorHashes.TessEveris]: vendors[VendorHashes.TessEveris],
@@ -29,11 +29,11 @@ export default Task("DeepsightVendorDefinition", async () => {
 		[VendorHashes.EuropaFaction]: vendors[VendorHashes.EuropaFaction],
 		[VendorHashes.HelmWarTable]: vendors[VendorHashes.HelmWarTable],
 		[VendorHashes.EvaLevanteVendor]: vendors[VendorHashes.EvaLevanteVendor],
-	};
+	}
 
 	////////////////////////////////////
 	// Write!
 
-	await fs.mkdirp('docs/definitions');
-	await fs.writeJson("docs/definitions/DeepsightVendorDefinition.json", DeepsightVendorDefinition, { spaces: "\t" });
-});
+	await fs.mkdirp('docs/definitions')
+	await fs.writeJson('docs/definitions/DeepsightVendorDefinition.json', DeepsightVendorDefinition, { spaces: '\t' })
+})

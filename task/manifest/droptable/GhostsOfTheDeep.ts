@@ -1,10 +1,10 @@
-import { ActivityHashes, InventoryItemHashes } from "@deepsight.gg/Enums";
-import type { DeepsightDropTableDefinition } from "./DeepsightDropTableDefinition";
+import { ActivityHashes, InventoryItemHashes } from '@deepsight.gg/Enums'
+import type { DeepsightDropTableDefinition } from './DeepsightDropTableDefinition'
 
 export default {
 	hash: ActivityHashes.GhostsOfTheDeepStandard,
 	displayProperties: {
-		icon: "./image/png/activity/gotd.png",
+		icon: './image/png/activity/gotd.png',
 	},
 	dropTable: {
 		[InventoryItemHashes.NoSurvivorsSubmachineGun3262192268]: {},
@@ -17,15 +17,15 @@ export default {
 		{
 			traversal: true,
 			displayProperties: {
-				name: "Locate the Ritual Site",
-				description: "Find the Lucent Hive ritual site.",
+				name: 'Locate the Ritual Site',
+				description: 'Find the Lucent Hive ritual site.',
 			},
 		},
 		{
 			phaseHash: 160562459, // best guess
 			displayProperties: {
-				name: "Break the Ritual",
-				description: "Unravel the Lucent Hive ritual.",
+				name: 'Break the Ritual',
+				description: 'Unravel the Lucent Hive ritual.',
 			},
 			dropTable: {
 				[InventoryItemHashes.NewPacificEpitaphGrenadeLauncher1125217994]: {},
@@ -41,45 +41,45 @@ export default {
 			phaseHash: 3491633841, // best guess
 			traversal: true,
 			displayProperties: {
-				name: "Explore the Arcology",
-				description: "Explore the New Pacific Arcology in search of the Lucent Hive.",
+				name: 'Explore the Arcology',
+				description: 'Explore the New Pacific Arcology in search of the Lucent Hive.',
 			},
 		},
 		{
 			traversal: true,
 			displayProperties: {
-				name: "Explore the Arcology",
-				description: "Continue deeper into the New Pacific Arcology.",
+				name: 'Explore the Arcology',
+				description: 'Continue deeper into the New Pacific Arcology.',
 			},
 		},
 		{
 			phaseHash: 2368968549, // best guess
 			traversal: true,
 			displayProperties: {
-				name: "Dive",
-				description: "Reach the seafloor.",
+				name: 'Dive',
+				description: 'Reach the seafloor.',
 			},
 		},
 		{
 			traversal: true,
 			displayProperties: {
-				name: "Reach the Wreckage",
-				description: "Traverse the seafloor to reach the wrecked Lucent Hive ship.",
+				name: 'Reach the Wreckage',
+				description: 'Traverse the seafloor to reach the wrecked Lucent Hive ship.',
 			},
 		},
 		{
 			phaseHash: 3040454024, // best guess
 			traversal: true,
 			displayProperties: {
-				name: "Explore the Wreckage",
-				description: "Search the depths of the wrecked Lucent Hive ship.",
+				name: 'Explore the Wreckage',
+				description: 'Search the depths of the wrecked Lucent Hive ship.',
 			},
 		},
 		{
 			phaseHash: 3469402858, // best guess
 			displayProperties: {
-				name: "Defeat the Shield of Savathûn",
-				description: "Defeat Ecthar, the Shield of Savathûn.",
+				name: 'Defeat the Shield of Savathûn',
+				description: 'Defeat Ecthar, the Shield of Savathûn.',
 			},
 			dropTable: {
 				[InventoryItemHashes.GreasyLuckGlaive1757202961]: {},
@@ -95,22 +95,22 @@ export default {
 			phaseHash: 3828564565, // best guess
 			traversal: true,
 			displayProperties: {
-				name: "Go Deeper",
-				description: "Continue exploring the wrecked Hive ship.",
+				name: 'Go Deeper',
+				description: 'Continue exploring the wrecked Hive ship.',
 			},
 		},
 		{
 			traversal: true,
 			displayProperties: {
-				name: "Reach the Ritual Heart",
-				description: "Find the source of the Lucent Hive ritual.",
+				name: 'Reach the Ritual Heart',
+				description: 'Find the source of the Lucent Hive ritual.',
 			},
 		},
 		{
 			phaseHash: 2189312851, // best guess
 			displayProperties: {
-				name: "Defeat Šimmumah ur-Nokru",
-				description: "Defeat the lightforged necromancer, Šimmumah ur-Nokru.",
+				name: 'Defeat Šimmumah ur-Nokru',
+				description: 'Defeat the lightforged necromancer, Šimmumah ur-Nokru.',
 			},
 			dropTable: {
 				[InventoryItemHashes.NewPacificEpitaphGrenadeLauncher1125217994]: {},
@@ -134,4 +134,4 @@ export default {
 	master: {
 		activityHash: ActivityHashes.GhostsOfTheDeepMaster,
 	},
-} satisfies DeepsightDropTableDefinition;
+} satisfies DeepsightDropTableDefinition

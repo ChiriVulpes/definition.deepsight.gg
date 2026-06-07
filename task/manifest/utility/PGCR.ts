@@ -40,7 +40,6 @@ namespace PGCR {
 
 	const pgcrs: (DestinyPostGameCarnageReportData | undefined)[] = []
 	export async function find (id: string, filter: (pgcr: DestinyPostGameCarnageReportData) => any) {
-		// eslint-disable-next-line @typescript-eslint/no-non-null-asserted-optional-chain
 		const from = +(await getRecent())?.instanceId!
 		if (!from)
 			throw new Error('No reference pgcr')

@@ -1,5 +1,5 @@
-import { ActivityHashes, InventoryItemHashes, RecordHashes } from "@deepsight.gg/Enums";
-import type { DeepsightDropTableDefinition } from "./DeepsightDropTableDefinition";
+import { ActivityHashes, InventoryItemHashes, RecordHashes } from '@deepsight.gg/Enums'
+import type { DeepsightDropTableDefinition } from './DeepsightDropTableDefinition'
 
 export default {
 	hash: ActivityHashes.PitOfHeresyStandard,
@@ -29,14 +29,14 @@ export default {
 		{
 			traversal: true,
 			displayProperties: {
-				name: "Descend into the Pit of Heresy",
-				description: "Delve below the Scarlet Keep and into the Pit of Heresy.",
+				name: 'Descend into the Pit of Heresy',
+				description: 'Delve below the Scarlet Keep and into the Pit of Heresy.',
 			},
 		},
 		{
 			displayProperties: {
-				name: "Necropolis",
-				description: "Turn the blades of the enemy against them.",
+				name: 'Necropolis',
+				description: 'Turn the blades of the enemy against them.',
 			},
 			dropTable: {
 				[InventoryItemHashes.ApostateSniperRifle]: { requiresItems: [InventoryItemHashes.HymnOfDesecrationConsumable] },
@@ -58,21 +58,21 @@ export default {
 		{
 			traversal: true,
 			displayProperties: {
-				name: "Descend into the Pit of Heresy",
-				description: "Head toward the Tunnels of Despair.",
+				name: 'Descend into the Pit of Heresy',
+				description: 'Head toward the Tunnels of Despair.',
 			},
 		},
 		{
 			traversal: true,
 			displayProperties: {
-				name: "Tunnels of Despair",
-				description: "Find a way through the Tunnels of Despair.",
+				name: 'Tunnels of Despair',
+				description: 'Find a way through the Tunnels of Despair.',
 			},
 		},
 		{
 			displayProperties: {
-				name: "Chamber of Suffering",
-				description: "Endure the Chamber of Suffering.",
+				name: 'Chamber of Suffering',
+				description: 'Endure the Chamber of Suffering.',
 			},
 			dropTable: {
 				[InventoryItemHashes.ApostateSniperRifle]: { requiresItems: [InventoryItemHashes.HymnOfDesecrationConsumable] },
@@ -94,32 +94,32 @@ export default {
 		{
 			traversal: true,
 			displayProperties: {
-				name: "Descend into the Pit of Heresy",
-				description: "Descend into the Harrow and survive it.",
+				name: 'Descend into the Pit of Heresy',
+				description: 'Descend into the Harrow and survive it.',
 			},
 		},
 		{
 			traversal: true,
 			displayProperties: {
-				name: "The Harrow",
-				description: "The way is shut by dark powers, and the Hive keep it.",
+				name: 'The Harrow',
+				description: 'The way is shut by dark powers, and the Hive keep it.',
 			},
 		},
 		{
 			displayProperties: {
-				name: "Zulmak, Instrument of Torment",
-				directive: "Purge the tormentor",
-				description: "Slay Zulmak, Instrument of Torment.",
+				name: 'Zulmak, Instrument of Torment',
+				directive: 'Purge the tormentor',
+				description: 'Slay Zulmak, Instrument of Torment.',
 			},
 		},
 		{
 			displayProperties: {
-				name: "Volmar, the Tempted",
-				description: "Defeat Volmar, the Tempted",
+				name: 'Volmar, the Tempted',
+				description: 'Defeat Volmar, the Tempted',
 			},
 			dropTable: {
 				[InventoryItemHashes.XenophageMachineGun]: { requiresQuest: InventoryItemHashes.TheJourneyQuestStep_Step4 },
 			},
 		},
 	],
-} satisfies DeepsightDropTableDefinition;
+} satisfies DeepsightDropTableDefinition

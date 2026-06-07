@@ -1,10 +1,10 @@
-import { ActivityHashes, InventoryItemHashes } from "@deepsight.gg/Enums";
-import type { DeepsightDropTableDefinition } from "./DeepsightDropTableDefinition";
+import { ActivityHashes, InventoryItemHashes } from '@deepsight.gg/Enums'
+import type { DeepsightDropTableDefinition } from './DeepsightDropTableDefinition'
 
 export default {
 	hash: ActivityHashes.VespersHostNormal,
 	displayProperties: {
-		icon: "./image/png/activity/vespershost.png",
+		icon: './image/png/activity/vespershost.png',
 	},
 	dropTable: {
 		[InventoryItemHashes.VsGraviticArrestFusionRifle]: {},
@@ -20,15 +20,15 @@ export default {
 		{
 			traversal: true,
 			displayProperties: {
-				directive: "Embarkation",
-				description: "Search for a way into Vesper Station.",
+				directive: 'Embarkation',
+				description: 'Search for a way into Vesper Station.',
 			},
 		},
 		{
 			displayProperties: {
-				name: "Activation",
-				directive: "Reactivate Vesper Station",
-				description: "Reactivate station power to open the path ahead.",
+				name: 'Activation',
+				directive: 'Reactivate Vesper Station',
+				description: 'Reactivate station power to open the path ahead.',
 			},
 			dropTable: {
 				[InventoryItemHashes.VsChillInhibitorGrenadeLauncher]: {},
@@ -52,15 +52,15 @@ export default {
 		{
 			traversal: true,
 			displayProperties: {
-				directive: "Infiltration",
-				description: "Continue moving forward through the station to uncover its mysteries.",
+				directive: 'Infiltration',
+				description: 'Continue moving forward through the station to uncover its mysteries.',
 			},
 		},
 		{
 			displayProperties: {
-				name: "Dismemberment",
-				directive: "Defeat Raneiks Unified",
-				description: "Find a way to defeat the Unified Servitor.",
+				name: 'Dismemberment',
+				directive: 'Defeat Raneiks Unified',
+				description: 'Find a way to defeat the Unified Servitor.',
 			},
 			dropTable: {
 				[InventoryItemHashes.VsChillInhibitorGrenadeLauncher]: {},
@@ -88,15 +88,15 @@ export default {
 		{
 			traversal: true,
 			displayProperties: {
-				directive: "Acceleration",
-				description: "Make your way closer to the Anomaly to find a way to shut it down.",
+				directive: 'Acceleration',
+				description: 'Make your way closer to the Anomaly to find a way to shut it down.',
 			},
 		},
 		{
 			displayProperties: {
-				name: "Shutdown",
-				directive: "Defeat The Corrupted Puppeteer",
-				description: "Take down the Corrupted Puppeteer and stop it from channeling power to the Anomaly.",
+				name: 'Shutdown',
+				directive: 'Defeat The Corrupted Puppeteer',
+				description: 'Take down the Corrupted Puppeteer and stop it from channeling power to the Anomaly.',
 			},
 			dropTable: {
 				[InventoryItemHashes.IceBreakerSniperRifle]: {},
@@ -127,4 +127,4 @@ export default {
 	master: {
 		activityHash: ActivityHashes.VespersHostMaster,
 	},
-} satisfies DeepsightDropTableDefinition;
+} satisfies DeepsightDropTableDefinition

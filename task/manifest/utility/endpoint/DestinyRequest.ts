@@ -2,7 +2,7 @@ import type { ServerResponse } from 'bungie-api-ts/destiny2'
 import Env from '../../../utility/Env'
 import Log from '../../../utility/Log'
 
-export default async function <T> (path: string) {
+export default async function<T> (path: string) {
 	return fetch(path.startsWith('https://') ? path : `https://www.bungie.net/Platform/${path}`, {
 		headers: {
 			'User-Agent': 'deepsight.gg:build/0.0.0',

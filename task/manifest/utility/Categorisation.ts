@@ -1,4 +1,4 @@
-import { DeepsightPlugCategorisation, DeepsightPlugCategoryName, DeepsightPlugFullName } from "../IDeepsightPlugCategorisation"
+import type { DeepsightPlugCategorisation, DeepsightPlugCategoryName, DeepsightPlugFullName } from '../IDeepsightPlugCategorisation'
 
 type PlugCategorisationExpression =
 	| DeepsightPlugFullName

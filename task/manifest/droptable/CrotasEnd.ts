@@ -1,5 +1,5 @@
-import { ActivityHashes, InventoryItemHashes, RecordHashes } from "@deepsight.gg/Enums";
-import type { DeepsightDropTableDefinition } from "./DeepsightDropTableDefinition";
+import { ActivityHashes, InventoryItemHashes, RecordHashes } from '@deepsight.gg/Enums'
+import type { DeepsightDropTableDefinition } from './DeepsightDropTableDefinition'
 
 export default {
     hash: ActivityHashes.CrotasEndNormal,
@@ -10,17 +10,17 @@ export default {
         {
             traversal: true,
             displayProperties: {
-                name: "Descend into the Hellmouth",
-                description: "Find a safe path into the Hellmouth.",
+                name: 'Descend into the Hellmouth',
+                description: 'Find a safe path into the Hellmouth.',
             },
         },
         {
 
             phaseHash: 2890972472,
             displayProperties: {
-                name: "The Abyss",
-                directive: "Traverse the Abyss",
-                description: "Uncover the illuminated path in the darkness.",
+                name: 'The Abyss',
+                directive: 'Traverse the Abyss',
+                description: 'Uncover the illuminated path in the darkness.',
             },
             dropTable: {
                 [InventoryItemHashes.SongOfIrYutMachineGun]: {},
@@ -47,9 +47,9 @@ export default {
         {
             phaseHash: 3768812794,
             displayProperties: {
-                name: "Oversoul Throne Bridge",
-                directive: "Cross the Bridge",
-                description: "Find a way across the chasm.",
+                name: 'Oversoul Throne Bridge',
+                directive: 'Cross the Bridge',
+                description: 'Find a way across the chasm.',
             },
             dropTable: {
                 [InventoryItemHashes.SwordbreakerShotgun]: {},
@@ -76,16 +76,16 @@ export default {
             phaseHash: 3580589436,
             traversal: true,
             displayProperties: {
-                name: "Enter Crota's Chamber",
-                description: "Breach the Hive barrier to access Crota's Chamber.",
+                name: 'Enter Crota\'s Chamber',
+                description: 'Breach the Hive barrier to access Crota\'s Chamber.',
             },
         },
         {
             phaseHash: 1463700798,
             displayProperties: {
-                name: "Ir Yût, the Deathsinger",
-                directive: "Reach the Summoning Crystal",
-                description: "Defeat the Hive Wizard guarding the summoning crystal.",
+                name: 'Ir Yût, the Deathsinger',
+                directive: 'Reach the Summoning Crystal',
+                description: 'Defeat the Hive Wizard guarding the summoning crystal.',
             },
             dropTable: {
                 [InventoryItemHashes.WordOfCrotaHandCannon]: {},
@@ -111,9 +111,9 @@ export default {
         {
             phaseHash: 4240994016,
             displayProperties: {
-                name: "Crota, Son of Oryx",
-                directive: "Defeat Crota",
-                description: "Use Crota's most powerful weapon against him.",
+                name: 'Crota, Son of Oryx',
+                directive: 'Defeat Crota',
+                description: 'Use Crota\'s most powerful weapon against him.',
             },
             dropTable: {
                 [InventoryItemHashes.NecrochasmAutoRifle]: { requiresQuest: InventoryItemHashes.BottomlessPitQuestStep_Step2 },
@@ -159,4 +159,4 @@ export default {
     //         ActivityModifierHashes.AllForOne,
     //     ],
     // },
-} satisfies DeepsightDropTableDefinition;
+} satisfies DeepsightDropTableDefinition

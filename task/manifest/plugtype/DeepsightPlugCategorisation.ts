@@ -934,8 +934,8 @@ namespace DeepsightPlugCategorisation {
 			const primaryInvestmentStat = context.definition.investmentStats[0]
 			result.stat = primaryInvestmentStat?.statTypeHash
 			result.value = primaryInvestmentStat?.value
-			result.complete
-				= type !== DeepsightPlugTypeMasterwork.Weapon && type !== DeepsightPlugTypeMasterwork.Armor && type !== DeepsightPlugTypeMasterwork.Ghost ? undefined
+			result.complete =
+				type !== DeepsightPlugTypeMasterwork.Weapon && type !== DeepsightPlugTypeMasterwork.Armor && type !== DeepsightPlugTypeMasterwork.Ghost ? undefined
 					: result.value === 10
 
 			return result

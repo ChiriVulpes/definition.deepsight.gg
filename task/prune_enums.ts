@@ -1,4 +1,4 @@
-import { InventoryItemHashes } from '@deepsight.gg/Enums'
+import type { InventoryItemHashes } from '@deepsight.gg/Enums'
 import fs from 'fs-extra'
 import { Task } from 'task'
 import { getDeepsightCollectionsDefinition } from './manifest/DeepsightCollectionsDefinition'

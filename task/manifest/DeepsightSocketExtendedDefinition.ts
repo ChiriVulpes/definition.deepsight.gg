@@ -1,9 +1,9 @@
-import { InventoryItemHashes } from "@deepsight.gg/Enums";
-import type { DeepsightSocketExtendedDefinition } from "@deepsight.gg/Interfaces";
-import fs from "fs-extra";
-import { Task } from "task";
+import { InventoryItemHashes } from '@deepsight.gg/Enums'
+import type { DeepsightSocketExtendedDefinition } from '@deepsight.gg/Interfaces'
+import fs from 'fs-extra'
+import { Task } from 'task'
 
-export default Task("DeepsightSocketExtendedDefinition", async () => {
+export default Task('DeepsightSocketExtendedDefinition', async () => {
 	const DeepsightSocketExtendedDefinition: Partial<Record<InventoryItemHashes, DeepsightSocketExtendedDefinition>> = {
 		[InventoryItemHashes.RelativismHunterCloak]: {
 			hash: InventoryItemHashes.RelativismHunterCloak,
@@ -92,8 +92,8 @@ export default Task("DeepsightSocketExtendedDefinition", async () => {
 				},
 			},
 		},
-	};
+	}
 
-	await fs.mkdirp('docs/definitions');
-	await fs.writeJson("docs/definitions/DeepsightSocketExtendedDefinition.json", DeepsightSocketExtendedDefinition, { spaces: "\t" });
-});
+	await fs.mkdirp('docs/definitions')
+	await fs.writeJson('docs/definitions/DeepsightSocketExtendedDefinition.json', DeepsightSocketExtendedDefinition, { spaces: '\t' })
+})

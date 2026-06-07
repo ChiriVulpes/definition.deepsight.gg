@@ -194,7 +194,7 @@ async function computeWatermarkToMomentHashLookupTable () {
 			...moment.subsumeIconWatermarks?.map(icon => [icon, moment.hash] as const) ?? [],
 		])
 		.filter(([iconPath]) => iconPath !== undefined)
-		.toObject() as Record<string, MomentHashes>
+		.toObject()
 }
 
 export async function getWatermarkToMomentHashLookupTable () {

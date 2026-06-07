@@ -1,36 +1,36 @@
-import fs from "fs-extra";
-import { Task } from "task";
-import type { DeepsightTierTypeDefinition } from "../../static/definitions/Interfaces";
-import manifest from "./utility/endpoint/DestinyManifest";
+import fs from 'fs-extra'
+import { Task } from 'task'
+import type { DeepsightTierTypeDefinition } from '../../static/definitions/Interfaces'
+import manifest from './utility/endpoint/DestinyManifest'
 
-export default Task("DeepsightTierTypeDefinition", async () => {
-	const { DestinyItemTierTypeDefinition, DestinyInventoryItemDefinition } = manifest;
-	const definedTiers = await DestinyItemTierTypeDefinition.all();
+export default Task('DeepsightTierTypeDefinition', async () => {
+	const { DestinyItemTierTypeDefinition, DestinyInventoryItemDefinition } = manifest
+	const definedTiers = await DestinyItemTierTypeDefinition.all()
 
-	const hashedTypes: Record<string, DeepsightTierTypeDefinition> = {};
+	const hashedTypes: Record<string, DeepsightTierTypeDefinition> = {}
 
 	for (const definition of Object.values(await DestinyInventoryItemDefinition.all())) {
 		if (!definition.inventory?.tierTypeHash)
-			continue;
+			continue
 
-		const type = definition.inventory.tierType;
-		const hash = definition.inventory.tierTypeHash;
-		const name = definition.inventory.tierTypeName;
-		const hashed = `${type}.${hash}.${name}`;
+		const type = definition.inventory.tierType
+		const hash = definition.inventory.tierTypeHash
+		const name = definition.inventory.tierTypeName
+		const hashed = `${type}.${hash}.${name}`
 		hashedTypes[hashed] ??= {
 			...await DestinyItemTierTypeDefinition.get(hash),
 			hash,
 			tierType: type,
 			displayProperties: { name },
-		};
+		}
 	}
 
-	const defs = Object.values(hashedTypes);
+	const defs = Object.values(hashedTypes)
 	if (defs.length !== Object.values(definedTiers).length)
-		throw new Error(`More tiers were present in item definitions than were defined:\n${JSON.stringify(defs, null, "\t")}`);
+		throw new Error(`More tiers were present in item definitions than were defined:\n${JSON.stringify(defs, null, '\t')}`)
 
-	const DeepsightTierTypeDefinition = Object.fromEntries(defs.map(def => [def.hash, def]));
+	const DeepsightTierTypeDefinition = Object.fromEntries(defs.map(def => [def.hash, def]))
 
-	await fs.mkdirp('docs/definitions');
-	await fs.writeJson("docs/definitions/DeepsightTierTypeDefinition.json", DeepsightTierTypeDefinition, { spaces: "\t" });
-});
+	await fs.mkdirp('docs/definitions')
+	await fs.writeJson('docs/definitions/DeepsightTierTypeDefinition.json', DeepsightTierTypeDefinition, { spaces: '\t' })
+})

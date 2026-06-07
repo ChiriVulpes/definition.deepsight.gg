@@ -1,5 +1,5 @@
-import { ActivityHashes, ActivityModifierHashes, InventoryItemHashes, RecordHashes } from "@deepsight.gg/Enums";
-import type { DeepsightDropTableDefinition } from "./DeepsightDropTableDefinition";
+import { ActivityHashes, ActivityModifierHashes, InventoryItemHashes, RecordHashes } from '@deepsight.gg/Enums'
+import type { DeepsightDropTableDefinition } from './DeepsightDropTableDefinition'
 
 export default {
     hash: ActivityHashes.RootOfNightmaresStandard,
@@ -11,16 +11,16 @@ export default {
             phaseHash: 1326836846, // best guess
             traversal: true,
             displayProperties: {
-                name: "Find Nezarec",
-                description: "Locate Nezarec's body in its encasement.",
+                name: 'Find Nezarec',
+                description: 'Locate Nezarec\'s body in its encasement.',
             },
         },
         {
             phaseHash: 3172054256,
             displayProperties: {
-                name: "Cataclysm",
-                directive: "Survive the Onslaught",
-                description: "Fight for control and stay alive.",
+                name: 'Cataclysm',
+                directive: 'Survive the Onslaught',
+                description: 'Fight for control and stay alive.',
             },
             dropTable: {
                 [InventoryItemHashes.BriarsContemptLinearFusionRifle]: {},
@@ -47,24 +47,24 @@ export default {
             phaseHash: 3920032267, // best guess
             traversal: true,
             displayProperties: {
-                name: "Enter the Root",
-                description: "Continue exploring the Pyramid.",
+                name: 'Enter the Root',
+                description: 'Continue exploring the Pyramid.',
             },
         },
         {
             phaseHash: 1848647602, // best guess
             traversal: true,
             displayProperties: {
-                name: "Enter the Root",
-                description: "Reach the entrance of the root.",
+                name: 'Enter the Root',
+                description: 'Reach the entrance of the root.',
             },
         },
         {
             phaseHash: 2224793617,
             displayProperties: {
-                name: "Scission",
-                directive: "Charge the Root",
-                description: "Overcharge the root to fuel Nezarec's return.",
+                name: 'Scission',
+                directive: 'Charge the Root',
+                description: 'Overcharge the root to fuel Nezarec\'s return.',
             },
             dropTable: {
 
@@ -93,16 +93,16 @@ export default {
             phaseHash: 2184227225, // best guess
             traversal: true,
             displayProperties: {
-                name: "Cross the Chasm",
-                description: "Make your way across the chasm.",
+                name: 'Cross the Chasm',
+                description: 'Make your way across the chasm.',
             },
         },
         {
             phaseHash: 2046062211,
             displayProperties: {
-                name: "Macrocosm",
-                directive: "Defeat the Explicator",
-                description: "Confront the Explicator and disrupt his influence.",
+                name: 'Macrocosm',
+                directive: 'Defeat the Explicator',
+                description: 'Confront the Explicator and disrupt his influence.',
             },
             dropTable: {
 
@@ -132,23 +132,23 @@ export default {
             phaseHash: 3604501642, // best guess
             traversal: true,
             displayProperties: {
-                name: "Charge the Root",
-                description: "Overcharge the root to fuel Nezarec's return.",
+                name: 'Charge the Root',
+                description: 'Overcharge the root to fuel Nezarec\'s return.',
             },
         },
         {
             phaseHash: 3008487717, // best guess
             traversal: true,
             displayProperties: {
-                name: "Return to Nezarec",
-                description: "Locate Nezarec at the place of his newfound power.",
+                name: 'Return to Nezarec',
+                description: 'Locate Nezarec at the place of his newfound power.',
             },
         },
         {
             phaseHash: 2779782231,
             displayProperties: {
-                name: "Defeat Nezarec",
-                description: "Lay Nezarec to his final rest.",
+                name: 'Defeat Nezarec',
+                description: 'Lay Nezarec to his final rest.',
             },
             dropTable: {
                 [InventoryItemHashes.ConditionalFinalityShotgun]: {},
@@ -188,7 +188,7 @@ export default {
         },
     },
     rotations: {
-        anchor: "2023-03-28T17:00:00Z",
+        anchor: '2023-03-28T17:00:00Z',
         challenges: [
             ActivityModifierHashes.IlluminatedTormentChallenge,
             ActivityModifierHashes.CrossfireChallenge,
@@ -196,4 +196,4 @@ export default {
             ActivityModifierHashes.AllHandsChallenge,
         ],
     },
-} satisfies DeepsightDropTableDefinition;
+} satisfies DeepsightDropTableDefinition

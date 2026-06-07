@@ -1,24 +1,24 @@
-import fs from "fs-extra";
-import { Task } from "task";
-import DeepsightPlugCategorisation from "./plugtype/DeepsightPlugCategorisation";
+import fs from 'fs-extra'
+import { Task } from 'task'
+import DeepsightPlugCategorisation from './plugtype/DeepsightPlugCategorisation'
 
-export default Task("DeepsightPlugCategorisation", async () => {
-	DeepsightPlugCategorisation.reset();
-	const result = await DeepsightPlugCategorisation.resolve();
+export default Task('DeepsightPlugCategorisation', async () => {
+	DeepsightPlugCategorisation.reset()
+	const result = await DeepsightPlugCategorisation.resolve()
 
-	await fs.mkdirp('docs/definitions');
+	await fs.mkdirp('docs/definitions')
 
-	const stream = fs.createWriteStream("docs/definitions/DeepsightPlugCategorisation.json");
-	stream.write("{\n\t");
-	const entries = Object.entries(result);
-	let i = 0;
+	const stream = fs.createWriteStream('docs/definitions/DeepsightPlugCategorisation.json')
+	stream.write('{\n\t')
+	const entries = Object.entries(result)
+	let i = 0
 	for (const [key, def] of entries)
-		stream.write(`${i++ ? ",\n\t" : ""}"${key}": ${JSON.stringify(def, null, "\t")
-			.replace(/\n/g, "\n\t")}`);
+		stream.write(`${i++ ? ',\n\t' : ''}"${key}": ${JSON.stringify(def, null, '\t')
+			.replace(/\n/g, '\n\t')}`)
 
-	stream.write("\n}\n");
-	stream.close();
+	stream.write('\n}\n')
+	stream.close()
 
 	if (!stream.writableFinished)
-		await new Promise<void>(resolve => stream.on("finish", resolve));
-});
+		await new Promise<void>(resolve => stream.on('finish', resolve))
+})

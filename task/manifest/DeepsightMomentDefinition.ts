@@ -754,7 +754,7 @@ const DeepsightMomentDefinitionData: Record<keyof typeof MomentHashes, Deepsight
 		},
 		iconWatermark: { DestinyInventoryItemDefinition: InventoryItemHashes.NewPacificEpitaphAdeptGrenadeLauncher_IsHolofoilfalse },
 		subsumeIconWatermarks: [
-			{ DestinyInventoryItemDefinition: InventoryItemHashes.NewPacificEpitaphAdeptGrenadeLauncher_IsHolofoiltrue }
+			{ DestinyInventoryItemDefinition: InventoryItemHashes.NewPacificEpitaphAdeptGrenadeLauncher_IsHolofoiltrue },
 		],
 		images: [
 			{ DestinyActivityDefinition: { hash: ActivityHashes.TheRiteOfTheNine, property: 'pgcrImage' } },

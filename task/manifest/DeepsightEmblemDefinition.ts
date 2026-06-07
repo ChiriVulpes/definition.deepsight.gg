@@ -12,8 +12,8 @@ export default Task('DeepsightEmblemDefinition', async () => {
 	const invItems = Object.entries(await DestinyInventoryItemDefinition.all())
 
 	// eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
-	const DeepsightEmblemDefinition: Record<number, DeepsightEmblemDefinition>
-		= await fs.readJson('static/definitions/DeepsightEmblemDefinition.json').catch(() => ({}))
+	const DeepsightEmblemDefinition: Record<number, DeepsightEmblemDefinition> =
+		await fs.readJson('static/definitions/DeepsightEmblemDefinition.json').catch(() => ({}))
 
 	let i = 0
 	let logI = 0

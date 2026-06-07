@@ -1,18 +1,18 @@
-import { BreakerTypeHashes, InventoryItemHashes, TraitHashes } from "@deepsight.gg/Enums";
-import type { DeepsightBreakerSourceDefinition } from "@deepsight.gg/Interfaces";
-import fs from "fs-extra";
-import { Task } from "task";
-import { BreakerSource } from "./IDeepsightBreakerTypeDefinition";
-import manifest from "./utility/endpoint/DestinyManifest";
+import { BreakerTypeHashes, InventoryItemHashes, TraitHashes } from '@deepsight.gg/Enums'
+import type { DeepsightBreakerSourceDefinition } from '@deepsight.gg/Interfaces'
+import fs from 'fs-extra'
+import { Task } from 'task'
+import { BreakerSource } from './IDeepsightBreakerTypeDefinition'
+import manifest from './utility/endpoint/DestinyManifest'
 
-export default Task("DeepsightBreakerTypeDefinition", async () => {
-	const { DestinyInventoryItemDefinition } = manifest;
+export default Task('DeepsightBreakerTypeDefinition', async () => {
+	const { DestinyInventoryItemDefinition } = manifest
 
-	function source (breakerTypes: BreakerTypeHashes[], trait?: TraitHashes, appliesTraits?: TraitHashes[]): Omit<DeepsightBreakerSourceDefinition, "hash"> {
-		return { trait, appliesTraits, breakerTypes };
+	function source (breakerTypes: BreakerTypeHashes[], trait?: TraitHashes, appliesTraits?: TraitHashes[]): Omit<DeepsightBreakerSourceDefinition, 'hash'> {
+		return { trait, appliesTraits, breakerTypes }
 	}
 
-	const DeepsightBreakerSourceDefinition: Record<BreakerSource, Omit<DeepsightBreakerSourceDefinition, "hash">> = {
+	const DeepsightBreakerSourceDefinition: Record<BreakerSource, Omit<DeepsightBreakerSourceDefinition, 'hash'>> = {
 		[BreakerSource.None]: source([]),
 		[BreakerSource.IntrinsicShieldPierce]: source([BreakerTypeHashes.ShieldPiercing]),
 		[BreakerSource.IntrinsicDisruption]: source([BreakerTypeHashes.Disruption]),
@@ -34,7 +34,7 @@ export default Task("DeepsightBreakerTypeDefinition", async () => {
 
 		[BreakerSource.Suspend]: source([BreakerTypeHashes.Stagger], TraitHashes.KeywordsDebuffsStrandSuspend),
 		[BreakerSource.UnravelingRounds]: source([BreakerTypeHashes.ShieldPiercing], undefined, [TraitHashes.KeywordsDebuffsStrandInfest]),
-	};
+	}
 
 	const DeepsightBreakerTypeDefinition: Record<number, BreakerSource[]> = {
 		// kinetic exotic weapons
@@ -113,38 +113,37 @@ export default Task("DeepsightBreakerTypeDefinition", async () => {
 		[InventoryItemHashes.SpiritOfContactIntrinsicPlug]: [BreakerSource.IntrinsicDisruption],
 		[InventoryItemHashes.SpiritOfTheGyrfalconIntrinsicPlug]: [BreakerSource.VolatileRounds],
 		[InventoryItemHashes.SpiritOfHoarfrostIntrinsicPlug]: [BreakerSource.Freeze],
-	};
+	}
 
-	const allItems = await DestinyInventoryItemDefinition.all();
+	const allItems = await DestinyInventoryItemDefinition.all()
 	for (const [hashString, definition] of Object.entries(allItems)) {
 		const breakerSource = {
 			[BreakerTypeHashes.ShieldPiercing]: BreakerSource.IntrinsicShieldPierce,
 			[BreakerTypeHashes.Disruption]: BreakerSource.IntrinsicDisruption,
 			[BreakerTypeHashes.Stagger]: BreakerSource.IntrinsicStagger,
-		}[definition.breakerTypeHash!];
+		}[definition.breakerTypeHash!]
 		if (!breakerSource)
-			continue;
+			continue
 
-		const hash = +hashString as InventoryItemHashes;
-		DeepsightBreakerTypeDefinition[hash] ??= [];
-		DeepsightBreakerTypeDefinition[hash].push(breakerSource);
+		const hash = +hashString as InventoryItemHashes
+		DeepsightBreakerTypeDefinition[hash] ??= []
+		DeepsightBreakerTypeDefinition[hash].push(breakerSource)
 	}
 
-
-	await fs.mkdirp('docs/definitions');
+	await fs.mkdirp('docs/definitions')
 
 	const breakerSources = Object.fromEntries(Object.entries(DeepsightBreakerSourceDefinition)
 		.map(([hash, source]) => [parseInt(hash), {
 			hash: parseInt(hash),
 			...source,
-		}]));
-	await fs.writeJson("docs/definitions/DeepsightBreakerSourceDefinition.json", breakerSources, { spaces: "\t" });
+		}]))
+	await fs.writeJson('docs/definitions/DeepsightBreakerSourceDefinition.json', breakerSources, { spaces: '\t' })
 
 	const breakerTypes = Object.fromEntries(Object.entries(DeepsightBreakerTypeDefinition)
 		.map(([hash, sources]) => [parseInt(hash), {
 			hash: parseInt(hash),
 			sources,
 			types: [...new Set(sources.flatMap(source => DeepsightBreakerSourceDefinition[source].breakerTypes))],
-		}]));
-	await fs.writeJson("docs/definitions/DeepsightBreakerTypeDefinition.json", breakerTypes, { spaces: "\t" });
-});
+		}]))
+	await fs.writeJson('docs/definitions/DeepsightBreakerTypeDefinition.json', breakerTypes, { spaces: '\t' })
+})

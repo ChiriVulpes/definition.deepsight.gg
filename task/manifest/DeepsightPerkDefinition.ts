@@ -1,6 +1,7 @@
-import { InventoryItemHashes } from "@deepsight.gg/Enums";
-import { DeepsightPerkDamageBuff, DeepsightPerkDamageBuffStackingDynamic, DeepsightPerkDamageBuffStackingStaticAdditive, DeepsightPerkDamageBuffStackingStaticMultiplicative, DeepsightPerkDefinition, DeepsightPerkEffectType } from "./IDeepsightPerkDefinition";
-import DefinitionTable from "./utility/DefinitionTable";
+import { InventoryItemHashes } from '@deepsight.gg/Enums'
+import type { DeepsightPerkDamageBuff, DeepsightPerkDamageBuffStackingDynamic, DeepsightPerkDamageBuffStackingStaticAdditive, DeepsightPerkDamageBuffStackingStaticMultiplicative, DeepsightPerkDefinition } from './IDeepsightPerkDefinition'
+import { DeepsightPerkEffectType } from './IDeepsightPerkDefinition'
+import DefinitionTable from './utility/DefinitionTable'
 
 export function Damage (damage: number): DeepsightPerkDamageBuff {
 	return { type: DeepsightPerkEffectType.DamageBuff, damage }
@@ -22,7 +23,7 @@ export default DefinitionTable<Record<number, DeepsightPerkDefinition>>('Deepsig
 		[InventoryItemHashes.RampageTraitPlug_TooltipNotificationsLength1]: {
 			// there's some weird shit going on here for some archetypes. x1.1 per stack is a pretty midground between everything
 			// Math.ceil((base - 0.5) * (1.1 ** stacks))
-			effects: [StackingDamageMultiplicative(3, 0.10)]
+			effects: [StackingDamageMultiplicative(3, 0.10)],
 		},
 
 		[InventoryItemHashes.OneForAllTraitPlug]: {
