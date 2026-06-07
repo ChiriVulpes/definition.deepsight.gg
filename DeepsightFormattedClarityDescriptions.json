@@ -625,7 +625,7 @@
 	"11551321": {
 		"hash": 11551321,
 		"name": "Iron Grip",
-		"lastUpload": 1766867819246,
+		"lastUpload": 1780776783287,
 		"type": "Weapon Trait",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -32470,7 +32470,7 @@
 	"591790007": {
 		"hash": 591790007,
 		"name": "Iron Reach",
-		"lastUpload": 1729072787613,
+		"lastUpload": 1780776783287,
 		"type": "Weapon Trait",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -165262,7 +165262,7 @@
 					},
 					{
 						"type": "text",
-						"text": " Allowed time between damage exchanges USED TO BE extended by "
+						"text": " Allowed time between damage exchanges extended by "
 					},
 					{
 						"type": "numeric",
@@ -165272,11 +165272,7 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds. Currently (as of v9.0.0.3"
-					},
-					{
-						"type": "text",
-						"text": ") provides no benefit."
+						"text": " seconds."
 					}
 				]
 			}
@@ -168317,7 +168313,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "25.",
+						"text": "15.",
 						"isUnknown": false,
 						"isEstimate": false
 					}
@@ -178649,7 +178645,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "25.",
+						"text": "15.",
 						"isUnknown": false,
 						"isEstimate": false
 					}
@@ -191776,7 +191772,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "25.",
+						"text": "15.",
 						"isUnknown": false,
 						"isEstimate": false
 					}
@@ -216519,9 +216515,9 @@
 	"4104185692": {
 		"hash": 4104185692,
 		"name": "Frenzy",
-		"lastUpload": 1767715813450,
+		"lastUpload": 1780793078387,
 		"type": "Weapon Trait",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -218490,7 +218486,7 @@
 	"4152709778": {
 		"hash": 4152709778,
 		"name": "Iron Gaze",
-		"lastUpload": 1729072787613,
+		"lastUpload": 1780776783287,
 		"type": "Weapon Trait",
 		"uploadedBy": "Stardust",
 		"descriptions": [
