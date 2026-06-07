@@ -27,7 +27,11 @@ The bungie-api-ts dependency contains almost all of the Bungie API documentation
 
 ## Validation
 Do validation in this order:
-- Use typechecks as the first line of defense.
+- Run lint in parallel with the first typecheck pass.
+- Use `pnpm exec tsc --noEmit --incremental false` as the first typecheck pass.
+- Use `pnpm exec lint` for lint validation.
+
+Discuss with the user first, but if they're not running the watch task you can be in charge of building with the following:
 - Use `pnpm exec task manifest` to rerun the build against the current data.
 - If there is new Bungie API data, the `manifest` task will regenerate enums. If there isn't new data, but you've changed the enum generation code, run `$env:ENUMS_NEED_UPDATE='true' pnpm exec task generate_enums` to force enum regeneration. 
 
