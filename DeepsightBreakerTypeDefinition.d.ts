@@ -1,4 +1,3 @@
-
 export declare const enum BreakerSource {
 	None,
 	IntrinsicShieldPierce,

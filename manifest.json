@@ -3,9 +3,9 @@
 	"DeepsightMomentDefinition": 25,
 	"DeepsightPlugCategorisation": 53,
 	"DeepsightWallpaperDefinition": 14,
-	"Enums": 220,
+	"Enums": 221,
 	"Interfaces": 58,
-	"deepsight": 1856,
+	"deepsight": 1857,
 	"DeepsightTierTypeDefinition": 1,
 	"lastDailyReset": "2026-06-07T17:00:00Z",
 	"lastWeeklyReset": "2026-06-02T17:00:00Z",
@@ -14,7 +14,7 @@
 		"instanceId": "16867338999",
 		"period": "2026-06-07T17:58:01Z"
 	},
-	"updated": "2026-06-07T18:16:21Z",
+	"updated": "2026-06-07T23:16:35Z",
 	"DeepsightVendorDefinition": 630,
 	"DeepsightStats": 13,
 	"DeepsightCollectionsDefinition": 27,
@@ -24,7 +24,7 @@
 	"DeepsightSocketExtendedDefinition": 1,
 	"DeepsightCatalystDefinition": 8,
 	"DeepsightBreakerSourceDefinition": 3,
-	"DeepsightBreakerTypeDefinition": 5,
+	"DeepsightBreakerTypeDefinition": 6,
 	"DeepsightItemDamageTypesDefinition": 0,
 	"DeepsightItemSourceDefinition": 20,
 	"DeepsightItemSourceListDefinition": 22,
@@ -36,5 +36,6 @@
 	"DeepsightWeaponTypeDefinition": 4,
 	"DeepsightWeaponFrameDefinition": 2,
 	"DeepsightFoundryDefinition": 1,
-	"DeepsightWeaponFoundryDefinition": 3
+	"DeepsightWeaponFoundryDefinition": 3,
+	"popularity.report": 0
 }
