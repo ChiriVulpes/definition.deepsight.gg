@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-unsafe-argument, @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-return */
+
 namespace Objects {
 
 	export enum DifferenceType {
@@ -17,9 +19,7 @@ namespace Objects {
 			return []
 
 		const differences: Difference[] = []
-		// eslint-disable-next-line @typescript-eslint/no-unsafe-argument
 		for (const key of new Set(objs.flatMap(obj => Object.keys(obj ?? {})))) {
-			// eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
 			const values = objs.map(obj => obj?.[key])
 			if (values.every(value => value === values[0]))
 				continue
@@ -51,7 +51,6 @@ namespace Objects {
 				if (typeof arrays[0][0] === 'object') {
 					const maxLength = Math.max(...arrays.map(arr => arr.length))
 					for (let i = 0; i < maxLength; i++)
-						// eslint-disable-next-line @typescript-eslint/no-unsafe-argument
 						differences.push(...findDifferences(...arrays.map(arr => arr[i]))
 							.map(diff => ({ ...diff, path: `${key}.${i}.${diff.path}` })))
 					continue
@@ -67,7 +66,6 @@ namespace Objects {
 			}
 
 			if (typeof values[0] === 'object') {
-				// eslint-disable-next-line @typescript-eslint/no-unsafe-argument
 				differences.push(...findDifferences(...values).map(diff => ({ ...diff, path: `${key}.${diff.path}` })))
 				continue
 			}
@@ -86,7 +84,7 @@ namespace Objects {
 	export function path (obj: any, path: string) {
 		const keys = path.split(/\./g)
 		for (const key of keys)
-			// eslint-disable-next-line @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-member-access
+			// eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
 			obj = obj?.[key]
 
 		return obj

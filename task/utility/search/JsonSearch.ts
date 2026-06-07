@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-implied-eval, @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-call, @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-return */
+
 import fs from 'fs-extra'
 import path from 'path'
 
@@ -324,7 +326,7 @@ export class SearchDataset {
 	}
 
 	public has (value: unknown) {
-		return this.keys.has(`${value}`) || typeof value === 'number' && this.hashes.has(value)
+		return this.keys.has(String(value)) || (typeof value === 'number' && this.hashes.has(value))
 	}
 
 	public some (predicate: (record: any) => boolean) {

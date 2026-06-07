@@ -49,7 +49,7 @@ namespace DeepsightPlugContextDefinition {
 				(contextDef.contextTiers[tierHash as ItemTierTypeHashes] ??= []).push(containingItemDefinition.hash)
 		}
 
-		for (const [itemHash, itemDef] of Object.entries(DestinyInventoryItemDefinition)) {
+		for (const itemDef of Object.values(DestinyInventoryItemDefinition)) {
 			if (itemDef.plug)
 				addPlugContext(itemDef.hash)
 

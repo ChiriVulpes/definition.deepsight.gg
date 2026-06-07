@@ -15,7 +15,7 @@ async function emit (path: string) {
 
 	// create d.ts version with declared const enums
 	contents = contents
-		.replace(/\/\*%(.*?)\*\//g, (match, group) => group)
+		.replace(/\/\*%(.*?)\*\//g, (_match: string, group: string) => group)
 		.replace(/\/\*<\*\/.*?\/\*>\*\//g, '')
 		.replace(/export const/g, 'export type')
 		.replace(/export enum/g, 'export const enum')

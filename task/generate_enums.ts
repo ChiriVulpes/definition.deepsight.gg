@@ -52,7 +52,7 @@ const EXCLUDED_PATHS: Partial<Record<keyof AllDestinyManifestComponents, string[
 
 type ComponentHashNameGenerator =
 	| keyof AllDestinyManifestComponents
-	| ((definition: any) => string | undefined)
+	| ((definition: Definition) => string | undefined)
 
 const COMPONENT_HASH_PATHS: Partial<Record<keyof AllDestinyManifestComponents, Record<string, ComponentHashNameGenerator>>> = {
 	DestinyInventoryItemDefinition: {
@@ -91,11 +91,14 @@ const COMPONENT_NAME_GENERATORS: { [KEY in keyof AllDestinyManifestComponents]?:
 	DestinyVendorDefinition: def => def.vendorIdentifier,
 	DestinyLoadoutNameDefinition: def => def.name,
 	DestinyLocationDefinition: async (def, api) => Promise
-		.all(([] as (Promise<string | undefined> | string | undefined)[])
-			.concat(api.getName('DestinyVendorDefinition', def.vendorHash))
-			.concat((def.locationReleases ?? []).flatMap(location => ([location.displayProperties.name] as (Promise<string | undefined> | string | undefined)[])
-				.concat(api.getName('DestinyDestinationDefinition', location.destinationHash))
-				.concat(api.getName('DestinyActivityDefinition', location.activityHash)))))
+		.all([
+			api.getName('DestinyVendorDefinition', def.vendorHash),
+			...(def.locationReleases ?? []).flatMap(location => [
+				Promise.resolve(location.displayProperties.name),
+				api.getName('DestinyDestinationDefinition', location.destinationHash),
+				api.getName('DestinyActivityDefinition', location.activityHash),
+			]),
+		])
 		.then(locations => locations.filter(Boolean).distinct().join('$') || undefined),
 	DestinyMedalTierDefinition: def => def.tierName,
 	DestinyPowerCapDefinition: def => `${def.powerCap}`,
@@ -257,7 +260,7 @@ export class EnumHelper {
 			.map(([name, count]) => `${name}: ${count}`)
 	}
 
-	private stringifyValue (value: any) {
+	private stringifyValue (value: unknown) {
 		if (Array.isArray(value)) {
 			if (value.length === 0)
 				return 'ArrayLength0'
@@ -272,13 +275,18 @@ export class EnumHelper {
 			return 'Undefined'
 
 		if (typeof value === 'object')
-			// eslint-disable-next-line @typescript-eslint/no-unsafe-argument
 			return `ObjectLength${Object.entries(value).length}`
 
 		if (typeof value === 'string')
 			return EnumHelper.simplifyName(value)
 
-		return `${value}`.replace('-', 'n')
+		if (typeof value === 'symbol')
+			return EnumHelper.simplifyName(value.description ?? 'Symbol')
+
+		if (typeof value === 'function')
+			return 'Function'
+
+		return `${value as bigint | boolean | number}`.replace('-', 'n')
 	}
 
 	private static async getEnumableName (type: keyof AllDestinyManifestComponents, definition?: number | Definition): Promise<string | undefined> {
@@ -290,7 +298,7 @@ export class EnumHelper {
 
 		const name = OVERRIDDEN_ENUM_NAMES[type]?.[definition.hash!]
 
-			?? await COMPONENT_NAME_GENERATORS[type]?.(definition as any, EnumHelper.getComponentNameGeneratorApi())
+			?? await COMPONENT_NAME_GENERATORS[type]?.(definition as AllDestinyManifestComponents[typeof type][number], EnumHelper.getComponentNameGeneratorApi())
 			?? definition.displayProperties?.name
 			?? MISSING_ENUM_NAMES[type]?.[definition.hash!]
 
@@ -303,10 +311,10 @@ export class EnumHelper {
 				return (await EnumHelper.getEnumableName(c, h)) ?? ''
 			},
 			async get (c, h) {
-				return await manifest[c].get(h) as any
+				return await manifest[c].get(h) as AllDestinyManifestComponents[typeof c] | undefined
 			},
 			async all (c) {
-				return await manifest[c].all() as any
+				return await manifest[c].all() as AllDestinyManifestComponents[typeof c]
 			},
 		}
 	}
@@ -414,8 +422,8 @@ export default Task('generate_enums', async () => {
 	const INVALID_HASH = 2166136261
 
 	async function generateEnum (componentName: keyof AllDestinyManifestComponents): Promise<void>
-	async function generateEnum (componentName: string, componentDefs: Record<number, any>): Promise<void>
-	async function generateEnum (componentName: string, componentDefs?: Record<number, any>) {
+	async function generateEnum (componentName: string, componentDefs: Record<number, Definition>): Promise<void>
+	async function generateEnum (componentName: string, componentDefs?: Record<number, Definition>) {
 		let enumName: string = componentName
 		enumName = enumName.endsWith('Definition') ? enumName.slice(0, -10) : enumName
 		enumName = enumName.startsWith('Destiny') ? enumName.slice(7)
@@ -425,13 +433,13 @@ export default Task('generate_enums', async () => {
 		const componentData = componentDefs ?? await manifest[componentName as keyof AllDestinyManifestComponents].all()
 		const enumHelper = new EnumHelper(componentName)
 
-		for (const definition of Object.values(componentData)) {
+		for (const definition of Object.values(componentData) as Definition[]) {
 			const nameSource = (componentName === 'DestinyTraitDefinition' ? traitIds[definition.hash!] : undefined)
 				?? definition
 			await enumHelper.encounter(nameSource)
 		}
 
-		for (const definition of Object.values(componentData)) {
+		for (const definition of Object.values(componentData) as Definition[]) {
 			const nameSource = (componentName === 'DestinyTraitDefinition' ? traitIds[definition.hash!] : undefined)
 				?? definition
 			const name = await enumHelper.name(nameSource, undefined, componentName as keyof AllDestinyManifestComponents)
@@ -461,7 +469,7 @@ export default Task('generate_enums', async () => {
 		if (componentName === 'DestinyInventoryItemDefinition') {
 			stream.write('export declare const enum PlugCategoryHashes {\n')
 
-			for (const definition of Object.values(componentData)) {
+			for (const definition of Object.values(componentData) as DestinyInventoryItemDefinition[]) {
 				if (definition.traitIds?.length && definition.traitIds.length === definition.traitHashes?.length)
 					for (let i = 0; i < definition.traitIds.length; i++)
 						traitIds[definition.traitHashes[i]] = definition.traitIds[i]

@@ -16,7 +16,7 @@ export function StackingDamageMultiplicative (maxStacks: number, damagePerStack:
 	return { type: DeepsightPerkEffectType.StackingDamageBuffStaticMultiplicative, maxStacks, damagePerStack }
 }
 
-export default DefinitionTable<Record<number, DeepsightPerkDefinition>>('DeepsightPerkDefinition', async () => {
+export default DefinitionTable<Record<number, DeepsightPerkDefinition>>('DeepsightPerkDefinition', () => {
 	return {
 		// a lot of these formulas subtract 0.5 to account for the ceil that happens ingame before we see the numbers
 

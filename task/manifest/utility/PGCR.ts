@@ -20,13 +20,13 @@ namespace PGCR {
 
 	let manifest: DeepsightManifest | undefined
 	async function getManifest (): Promise<DeepsightManifest> {
-		return manifest ??= (await fs.readJson('definitions/manifest.json').catch(() => undefined))
+		return manifest ??= (await fs.readJson('definitions/manifest.json').catch(() => undefined) as DeepsightManifest | undefined)
 			?? (await fetch('https://raw.githubusercontent.com/ChiriVulpes/definition.deepsight.gg/definitions/manifest.json', {
 				headers: {
 					'User-Agent': 'deepsight.gg:build/0.0.0',
 				},
 			})
-				.then(response => response.json()))
+				.then(async response => await response.json() as DeepsightManifest))
 	}
 
 	let recentPGCR: DeepsightManifestReferencePGCR | undefined
@@ -39,7 +39,7 @@ namespace PGCR {
 	}
 
 	const pgcrs: (DestinyPostGameCarnageReportData | undefined)[] = []
-	export async function find (id: string, filter: (pgcr: DestinyPostGameCarnageReportData) => any) {
+	export async function find (id: string, filter: (pgcr: DestinyPostGameCarnageReportData) => unknown) {
 		const from = +(await getRecent())?.instanceId!
 		if (!from)
 			throw new Error('No reference pgcr')
@@ -66,10 +66,10 @@ namespace PGCR {
 		return undefined
 	}
 
-	export async function findByType (type: ActivityTypeHashes, filter?: (pgcr: DestinyPostGameCarnageReportData) => any) {
+	export async function findByType (type: ActivityTypeHashes, filter?: (pgcr: DestinyPostGameCarnageReportData) => unknown) {
 		return find(`activity type ${type}`, pgcr => pgcr.activityDetails.referenceId === type && (!filter || filter(pgcr)))
 	}
-	export async function findByMode (mode: DestinyActivityModeType, filter?: (pgcr: DestinyPostGameCarnageReportData) => any) {
+	export async function findByMode (mode: DestinyActivityModeType, filter?: (pgcr: DestinyPostGameCarnageReportData) => unknown) {
 		return find(`activity mode ${mode}`, pgcr => pgcr.activityDetails.modes.includes(mode) && (!filter || filter(pgcr)))
 	}
 
@@ -102,7 +102,7 @@ namespace PGCR {
 			})
 	}
 
-	async function getMulti (pgcrId: number, amount: number, maxAttempts: number, message: string, filter: (pgcr: DestinyPostGameCarnageReportData) => any) {
+	async function getMulti (pgcrId: number, amount: number, maxAttempts: number, message: string, filter: (pgcr: DestinyPostGameCarnageReportData) => unknown) {
 		let cancelled = false
 		return new Promise<DestinyPostGameCarnageReportData | null | undefined>((resolve, reject) => {
 			const promises = []

@@ -909,7 +909,7 @@ async function computeDeepsightMomentDefinition () {
 		}
 
 		const seasonPasses = await season?.seasonPassList
-			.map(sp => DestinySeasonPassDefinition.get(sp.seasonPassHash))
+			.map(sp => Promise.resolve(DestinySeasonPassDefinition.get(sp.seasonPassHash)))
 			.collect(spPromises => Promise.all(spPromises))
 			.then(sps => sps.filter(sp => sp !== undefined))
 		const seasonPassImages = seasonPasses

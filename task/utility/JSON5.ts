@@ -2,7 +2,7 @@ import fs from 'fs-extra'
 import Errors from './Errors'
 
 namespace JSON5 {
-	export async function readFile<T = any> (path: string): Promise<T> {
+	export async function readFile<T = unknown> (path: string): Promise<T> {
 		let text: string
 		try {
 			text = await fs.readFile(path, 'utf8')
@@ -12,7 +12,7 @@ namespace JSON5 {
 		}
 
 		try {
-			return parse(text)
+			return parse<T>(text)
 		}
  catch (err) {
 			throw Errors.create(`Failed to parse ${path}`, err)
@@ -27,9 +27,9 @@ namespace JSON5 {
 			.replace(/(?<=[{,]\s*)([\w_]+)(?=:)/g, '"$1"')
 	}
 
-	export function parse<T = any> (text: string): T {
+	export function parse<T = unknown> (text: string): T {
 		text = convertToJSON(text)
-		return JSON.parse(text)
+		return JSON.parse(text) as T
 	}
 }
 

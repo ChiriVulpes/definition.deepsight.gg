@@ -85,7 +85,7 @@ function runGit (args: string[], allowDifference = false) {
 		child.stderr.on('data', data => stderr += data)
 		child.on('error', reject)
 		child.on('close', code => {
-			if (code === 0 || allowDifference && code === 1)
+			if (code === 0 || (allowDifference && code === 1))
 				resolve(stdout.trimEnd())
 			else
 				reject(new Error(stderr.trimEnd() || `git ${args.join(' ')} exited with ${code}`))

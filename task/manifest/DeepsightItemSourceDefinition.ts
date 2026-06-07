@@ -36,7 +36,7 @@ async function getVendorCategoryItems (categories: VendorCategoryTuple[]) {
 		.then(items => Array.from(new Set(items.flat())))
 }
 
-async function getDropsFromActivityGraphs (...graphs: ActivityGraphHashes[]) {
+async function GET_DROPS_FROM_ACTIVITY_GRAPHS (...graphs: ActivityGraphHashes[]) {
 	return getActivities(...graphs)
 		.then(activities => Promise.all(activities.map(getDropsFromActivity)))
 		.then(items => Array.from(new Set(items.flat())))
@@ -50,7 +50,7 @@ async function getActivities (...graphs: ActivityGraphHashes[]) {
 		if (!activityGraph)
 			continue
 
-		result.push(...await Promise.all(activityGraph.nodes.flatMap(node => node.activities.map(activity => DestinyActivityDefinition.get(activity.activityHash))))
+		result.push(...await Promise.all(activityGraph.nodes.flatMap(node => node.activities.map(activity => Promise.resolve(DestinyActivityDefinition.get(activity.activityHash)))))
 			.then(activities => activities.filter(activity => activity !== undefined))
 		)
 	}

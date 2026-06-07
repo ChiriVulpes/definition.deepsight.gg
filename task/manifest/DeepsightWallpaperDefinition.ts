@@ -835,7 +835,7 @@ export default Task('DeepsightWallpaperDefinition', async () => {
 	// clear empties
 	for (const [hashStr, value] of Object.entries(DeepsightWallpaperDefinition))
 		if (!value.wallpapers.length && !value.secondaryWallpapers.length)
-			delete (DeepsightWallpaperDefinition as any)[+hashStr]
+			delete DeepsightWallpaperDefinition[+hashStr as Exclude<MomentHashes, MomentHashes.Invalid>]
 
 	await fs.mkdirp('docs/definitions')
 	await fs.writeJson('docs/definitions/DeepsightWallpaperDefinition.json', DeepsightWallpaperDefinition, { spaces: '\t' })

@@ -22,8 +22,8 @@ interface Auth {
 
 let auth: Auth | undefined
 try {
-	// eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
-	auth = require('../auth.json')
+		// eslint-disable-next-line @typescript-eslint/no-require-imports, @typescript-eslint/no-unsafe-assignment
+		auth = require('../auth.json')
 	Env.DEEPSIGHT_MANIFEST_USER_ACCESS_TOKEN = auth?.access_token
 	Env.DEEPSIGHT_MANIFEST_USER_REFRESH_TOKEN = auth?.refresh_token
 }
@@ -60,7 +60,7 @@ export default Task('refresh_token', async () => {
 		Log.info(ansicolor.lightGreen('Token OK!'))
 		return
 	}
-	 
+
 	const result = await fetch('https://www.bungie.net/Platform/app/oauth/token/', {
 		method: 'POST',
 		headers: {

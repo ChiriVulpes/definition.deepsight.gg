@@ -825,10 +825,7 @@ namespace DeepsightPlugCategorisation {
 			return plugType
 		},
 
-		[DeepsightPlugCategory.Seasonal]: context => {
-			switch (context.definition.plug?.plugCategoryHash) {
-			}
-		},
+		[DeepsightPlugCategory.Seasonal]: () => undefined,
 	}
 
 	function getArmourModBucketHash (context: DeepsightPlugContextDefinition) {

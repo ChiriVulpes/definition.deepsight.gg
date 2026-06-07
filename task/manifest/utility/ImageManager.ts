@@ -59,7 +59,7 @@ namespace ImageManager {
 		let response!: Response
 		for (let i = 0; i < 6; i++) {
 			try {
-				response = await fetch(inputPathOrUrl).catch(err => ({ ok: false, statusText: err.message } as Response))
+				response = await fetch(inputPathOrUrl).catch(err => ({ ok: false, statusText: err instanceof Error ? err.message : String(err) } as Response))
 				if (!response.ok)
 					throw new Error(`Failed to fetch image from ${inputPathOrUrl}: ${response.statusText}`)
 			}

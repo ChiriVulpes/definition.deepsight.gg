@@ -65,17 +65,16 @@ const VENDOR_MOMENTS: Partial<Record<VendorHashes, MomentHashes>> = {
 	[VendorHashes.EuropaFaction]: MomentHashes.BeyondLight,
 }
 
-function one<T> (array: T[], id: string, def: { displayProperties: DestinyDisplayPropertiesDefinition }, hash?: (value: T) => any) {
+function one<T> (array: T[], id: string, def: { displayProperties: DestinyDisplayPropertiesDefinition }, hash?: (value: T) => unknown) {
 	if (array.length === 0)
 		return undefined
 
 	if (array.length === 1)
 		return array[0]
 
-	// eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
 	const compare = hash ? hash(array[0]) : array[0]
 	for (let i = 1; i < array.length; i++) {
-		const d = diff(compare, hash ? hash(array[i]) : array[i])
+		const d: unknown = diff(compare, hash ? hash(array[i]) : array[i])
 		if (d) {
 			if (id === 'costs' && def.displayProperties.name === 'Raid Banner')
 				break

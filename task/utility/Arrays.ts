@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-unsafe-argument, @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-return */
+
 import Define from './Define'
 
 export function NonNullish<VALUE> (value: VALUE): value is Exclude<VALUE, null | undefined> {
@@ -133,12 +135,10 @@ namespace Arrays {
 		})
 
 		Define(Array.prototype, 'collect', function (collector, ...args) {
-			// eslint-disable-next-line @typescript-eslint/no-unsafe-argument
 			return collector?.(this, ...args)
 		})
 
 		Define(Array.prototype, 'splat', function (collector, ...args) {
-			// eslint-disable-next-line @typescript-eslint/no-unsafe-argument
 			return collector?.(...this, ...args)
 		})
 
@@ -240,13 +240,11 @@ namespace Arrays {
 			if (index === -1)
 				continue
 
-			// eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
 			const swap = array.pop()
 			if (!array.length)
 				break
 
 			if (index !== array.length)
-				// eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
 				array[index] = swap
 
 			removed = true

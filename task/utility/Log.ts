@@ -1,7 +1,7 @@
 import ansi from 'ansicolor'
 import { timestamp } from './Time'
 
-type LogFunction = (...what: any[]) => void
+type LogFunction = (...what: unknown[]) => void
 
 interface ILog {
 	info: LogFunction
@@ -39,21 +39,21 @@ class LogImplementation implements ILog {
 
 	private source: string | undefined
 
-	public info (...what: any[]) {
+	public info (...what: unknown[]) {
 		if (this.source !== undefined)
 			console.log(timestamp(), this.source, ...what)
 		else
 			console.log(timestamp(), ...what)
 	}
 
-	public warn (...what: any[]) {
+	public warn (...what: unknown[]) {
 		if (this.source !== undefined)
 			console.log(timestamp('yellow'), this.source, ...what)
 		else
 			console.warn(timestamp('yellow'), ...what)
 	}
 
-	public error (...what: any[]) {
+	public error (...what: unknown[]) {
 		if (this.source !== undefined)
 			console.log(timestamp('red'), this.source, ...what)
 		else

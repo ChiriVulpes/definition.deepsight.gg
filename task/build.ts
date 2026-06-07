@@ -33,7 +33,7 @@ export default Task('static', async (task, file?: string) => {
 			delete require.cache[modulePath]
 	}
 
-	// eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
+	// eslint-disable-next-line @typescript-eslint/no-require-imports, @typescript-eslint/no-unsafe-member-access
 	const t = require('./deepsight_manifest').default as typeof deepsight_manifest
 	await task.run(t)
 })

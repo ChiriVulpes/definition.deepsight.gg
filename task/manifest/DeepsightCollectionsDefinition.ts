@@ -174,10 +174,11 @@ export async function getCollectionsCopies (...items: (InventoryItemHashes | Des
 	const collections = await Object.values(await getDeepsightCollectionsDefinition())
 		.flatMap(moment => Object.values(moment.buckets))
 		.flat()
-		.map(itemHash => DestinyInventoryItemDefinition.get(itemHash))
+		.map(itemHash => Promise.resolve(DestinyInventoryItemDefinition.get(itemHash)))
 		.collect(itemPromises => Promise.all(itemPromises))
 
 	const unCollectionsItems = await items.map(itemOrItemHash => typeof itemOrItemHash !== 'number' ? itemOrItemHash : DestinyInventoryItemDefinition.get(itemOrItemHash))
+		.map(item => Promise.resolve(item))
 		.collect(itemPromises => Promise.all(itemPromises)) as DestinyInventoryItemDefinition[]
 
 	return collections.filter((c): c is DestinyInventoryItemDefinition => !!c

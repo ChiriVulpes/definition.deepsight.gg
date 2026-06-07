@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-assignment */
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import ansi from 'ansicolor'
 import fs from 'fs-extra'
 import { diff } from 'json-diff'
@@ -10,13 +10,19 @@ import Hash from './utility/Hash'
 import Log from './utility/Log'
 import Time from './utility/Time'
 
-async function readData (file: string) {
+type VersionsManifest = Record<string, number | string | undefined>
+
+function errorMessage (err: unknown) {
+	return err instanceof Error ? err.message : String(err)
+}
+
+async function readData (file: string): Promise<unknown> {
 	switch (path.extname(file)) {
 		case '.json':
-			return fs.readJson(file)
+			return await fs.readJson(file)
 				.catch(err => {
-					throw new Error(`Failed to parse ${file}: ${err.message}`)
-				})
+					throw new Error(`Failed to parse ${file}: ${errorMessage(err)}`)
+				}) as unknown
 		case '.ts': {
 			const basename = path.basename(file)
 			if (basename === 'Enums.d.ts')
@@ -44,7 +50,7 @@ async function readData (file: string) {
 						return JSON.parse(jsonText) as unknown
 					})
 					.catch(err => {
-						throw new Error(`Failed to parse ${file}: ${err.message}`)
+						throw new Error(`Failed to parse ${file}: ${errorMessage(err)}`)
 					})
 
 			return fs.readFile(file, 'utf8')
@@ -61,7 +67,7 @@ export default Task('bump_versions', async () => {
 
 	const dir = `${isDev ? 'docs/' : ''}definitions/`
 	const versionsFilePath = `${dir}manifest.json`
-	const versions = await fs.readJson(versionsFilePath).catch(() => ({}))
+	const versions = await fs.readJson(versionsFilePath).catch(() => ({})) as VersionsManifest
 	const files = await fs.readdir('docs/definitions')
 
 	let bumped = false
@@ -93,8 +99,9 @@ export default Task('bump_versions', async () => {
 			continue
 
 		bumpMap[basename] = true
-		versions[basename] = (versions[basename] ?? DEFAULT_VERSION) + 1
-		const newVersionString = Env.DEEPSIGHT_ENVIRONMENT === 'dev' ? versions[basename].toString(36).toUpperCase() : `${versions[basename]}`
+		const nextVersion = Number(versions[basename] ?? DEFAULT_VERSION) + 1
+		versions[basename] = nextVersion
+		const newVersionString = Env.DEEPSIGHT_ENVIRONMENT === 'dev' ? nextVersion.toString(36).toUpperCase() : `${nextVersion}`
 		Log.info(`Bumped ${ansi.lightGreen(basename)} version to ${ansi.lightYellow(newVersionString)}`)
 		bumped = true
 	}

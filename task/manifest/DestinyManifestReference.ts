@@ -87,7 +87,7 @@ namespace DestinyManifestReference {
 					return undefined
 				}
 
-				return `${propertyValue}`
+				return String(propertyValue as unknown)
 			}
 
 			if (typeof which === 'object' && 'property' in which && typeof which.property === 'string' && 'displayProperties' in definition) {
@@ -105,7 +105,7 @@ namespace DestinyManifestReference {
 				return result
 		}
 
-		for (const [key, definition] of Object.entries(alternativeSources ?? {})) {
+		for (const definition of Object.values(alternativeSources ?? {})) {
 			if (!definition)
 				continue
 

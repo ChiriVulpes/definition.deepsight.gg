@@ -26,8 +26,7 @@ const DestinyManifest = new Proxy({} as Partial<DestinyManifest>, {
 						.map(file => path.basename(file, '.json') as keyof AllDestinyManifestComponents))
 
 			let manifestItem: PromiseOr<Record<number, DestinyManifestComponentValue>> = fs.readJson(`static/testiny/${componentName}.json`)
-				// eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
-				.then(result => manifestItem = result)
+				.then(result => manifestItem = result as Record<number, DestinyManifestComponentValue>)
 				.catch(err => {
 					// eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
 					if (err.code === 'ENOENT')
