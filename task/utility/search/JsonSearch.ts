@@ -14,6 +14,12 @@ export interface SourceMeta {
 
 export interface QueryMeta {
 	where?: string
+	limit?: 'auto' | 'all' | number
+	totalRecords?: number
+	returnedRecords?: number
+	truncated?: boolean
+	estimatedCharacters?: number
+	characterBudget?: number
 }
 
 export interface SelectionEnvelope {
@@ -43,6 +49,7 @@ export interface CliOptions {
 	where?: string
 	count: boolean
 	columns?: string[]
+	limit?: 'all' | number
 	raw: boolean
 	save: boolean
 	help: boolean
@@ -54,6 +61,8 @@ export interface CliOptions {
 export const LAST_RESULT_PATH = '.query/last.json'
 
 const TABLE_ROOT = 'static/testiny'
+const AUTO_LIMIT_CHARACTER_BUDGET = 12_000
+const AUTO_LIMIT_STEP = 5
 
 export function parseArgs (args: string[]): CliOptions {
 	const options: CliOptions = {
@@ -112,6 +121,21 @@ export function parseArgs (args: string[]): CliOptions {
 			case '--columns':
 				options.columns = next().split(',').map(column => column.trim()).filter(Boolean)
 				break
+
+			case '--limit': {
+				const value = next()
+				if (value === 'all') {
+					options.limit = 'all'
+					break
+				}
+
+				const limit = Number(value)
+				if (!Number.isInteger(limit) || limit < 0)
+					throw new Error('--limit must be a non-negative integer or all')
+
+				options.limit = limit
+				break
+			}
 
 			case '--raw':
 				options.raw = true
@@ -243,6 +267,12 @@ export async function getHelpMarkdown (options: CliOptions, loadedSelection?: Se
 		'### match.*',
 		'- match.name(name: string | RegExp)',
 		'- match.trait(trait: string)',
+		'',
+		'### Output limiting',
+		'- --limit <number> prints at most that many records.',
+		'- --limit all disables output limiting and may print very large JSON.',
+		'- When --limit is omitted, json_search auto-limits printed output in 5-record steps using serialized character count as an estimated token budget.',
+		'- Printed records without an explicit --limit are samples, not exhaustive results. Use --count for exhaustive counts.',
 	)
 
 	return lines.join('\n')
@@ -254,11 +284,90 @@ export function printSelection (selection: SearchSelection, options: CliOptions)
 		return
 	}
 
-	const value = options.columns ? projectColumns(selection.records, options.columns)
-		: options.raw ? toPayload(selection)
-			: toEnvelope(selection)
+	const printable = limitSelectionForPrint(selection, options)
+	const value = selectionPrintValue(printable.selection, options)
 
 	console.log(JSON.stringify(value, undefined, '\t'))
+}
+
+function selectionPrintValue (selection: SearchSelection, options: CliOptions) {
+	return options.columns ? projectColumns(selection.records, options.columns)
+		: options.raw ? toPayload(selection)
+			: toEnvelope(selection)
+}
+
+function limitSelectionForPrint (selection: SearchSelection, options: CliOptions) {
+	const totalRecords = selection.records.length
+
+	if (options.limit === 'all')
+		return withLimitMeta(selection, {
+			limit: 'all',
+			totalRecords,
+			returnedRecords: totalRecords,
+			truncated: false,
+		})
+
+	if (typeof options.limit === 'number') {
+		const returnedRecords = Math.min(options.limit, totalRecords)
+		return withLimitMeta({
+			...selection,
+			records: selection.records.slice(0, returnedRecords),
+		}, {
+			limit: options.limit,
+			totalRecords,
+			returnedRecords,
+			truncated: returnedRecords < totalRecords,
+		})
+	}
+
+	return autoLimitSelectionForPrint(selection, options)
+}
+
+function autoLimitSelectionForPrint (selection: SearchSelection, options: CliOptions) {
+	const totalRecords = selection.records.length
+	let returnedRecords = Math.min(AUTO_LIMIT_STEP, totalRecords)
+	let estimatedCharacters = estimatePrintCharacters(selection, options, returnedRecords)
+
+	while (returnedRecords < totalRecords) {
+		const nextReturnedRecords = Math.min(returnedRecords + AUTO_LIMIT_STEP, totalRecords)
+		const nextEstimatedCharacters = estimatePrintCharacters(selection, options, nextReturnedRecords)
+		if (nextEstimatedCharacters > AUTO_LIMIT_CHARACTER_BUDGET)
+			break
+
+		returnedRecords = nextReturnedRecords
+		estimatedCharacters = nextEstimatedCharacters
+	}
+
+	return withLimitMeta({
+		...selection,
+		records: selection.records.slice(0, returnedRecords),
+	}, {
+		limit: 'auto',
+		totalRecords,
+		returnedRecords,
+		truncated: returnedRecords < totalRecords,
+		estimatedCharacters,
+		characterBudget: AUTO_LIMIT_CHARACTER_BUDGET,
+	})
+}
+
+function estimatePrintCharacters (selection: SearchSelection, options: CliOptions, returnedRecords: number) {
+	return JSON.stringify(selectionPrintValue({
+		...selection,
+		records: selection.records.slice(0, returnedRecords),
+	}, options), undefined, '\t').length
+}
+
+function withLimitMeta (selection: SearchSelection, limit: Required<Pick<QueryMeta, 'limit' | 'totalRecords' | 'returnedRecords' | 'truncated'>> & Pick<QueryMeta, 'estimatedCharacters' | 'characterBudget'>) {
+	return {
+		selection: {
+			...selection,
+			query: {
+				...selection.query,
+				...limit,
+			},
+		},
+	}
 }
 
 function projectColumns (records: SearchRecord[], columns: string[]) {
@@ -596,6 +705,16 @@ export class SemanticIs {
 
 			default:
 				throw new UnsupportedSemanticPredicateError('is.hunter', this.source.table)
+		}
+	}
+
+	public get weapon () {
+		switch (this.source.table) {
+			case 'DestinyInventoryItemDefinition':
+				return !!(this.record.equippable && this.record.equippingBlock?.ammoType)
+
+			default:
+				throw new UnsupportedSemanticPredicateError('is.weapon', this.source.table)
 		}
 	}
 

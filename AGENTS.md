@@ -52,6 +52,7 @@ Core flags:
 - `--where "<js predicate>"` filters records. The current record is available as `record`, its fields are available as bare names, and semantic helpers are available as `is`.
 - `--count` prints only the result count and is incompatible with `--columns`.
 - `--columns "a,b.c"` prints selected fields from matched records.
+- `--limit <n|all>` controls printed result count. If omitted, output is auto-limited in 5-record steps using serialized character count as an estimated token budget. Printed records without an explicit `--limit` are samples, not exhaustive results; use `--count` for exhaustive counts or `--limit all` for deliberate full output.
 - `--raw` prints only the selected data payload instead of the selection envelope.
 - `--save` writes the selection envelope to `.query/last.json` without changing normal output.
 - `--help` prints Markdown help, including semantic helper support, `match.*` helpers, and OpenAPI schema docs when used with `--table <name>` or `--load`. Use `--path <field.path>` for a schema subtree and `--docs-depth <n>` to control recursive expansion; default depth is 2 (shows docs for the table, its properties, and the directly referenced types of its properties)
@@ -68,9 +69,11 @@ Keep `is.*` property-only. Put parameterized helpers on `match.*`, such as `matc
 Use `--help` before guessing what a field means. The help command refreshes Bungie's OpenAPI JSON into `.query/openapi.json` when schema docs are requested and falls back to that cache if the network is unavailable.
 
 ### JSON archaeology notes
-When a search session reveals reusable Bungie/deepsight data structure knowledge, record it in `context/search-history/` before relying on it for follow-up work. Use one markdown file per search session and add a one-sentence entry for it in `context/SEARCH-INDEX.md`.
+When a search session reveals reusable Bungie/deepsight data structure knowledge, record it in `context/search-history/` before relying on it for follow-up work. Use one markdown file per search session and add a one-sentence entry for it in `context/SEARCH-INDEX.md`. This notekeeping should be considered intentionally outside of your normal workflow, not considered part of implementation work, with no need to get approval for it.
 
-Keep notes concise and evidence-oriented:
+When a search note is related to a semantic helper or candidate helper, include that metadata in `context/SEARCH-INDEX.md` so stale or absorbed searches are visible from the index. Use helper syntax such as `is.weapon`. Prefer short statuses such as `candidate`, `implemented`, `superseded`, `rejected`, or `reference`; for example: `Terms: is.weapon; Status: superseded by is.weapon`.
+
+Keep notes very concise and evidence-oriented:
 - List the table/files searched and the useful `json_search` predicates or columns.
 - Record the recurring semantic pattern that was found.
 - Say whether the pattern looks exhaustive enough for a new safe `is.<semantic term>` helper.
