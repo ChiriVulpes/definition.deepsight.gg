@@ -54,9 +54,22 @@ Core flags:
 - `--columns "a,b.c"` prints selected fields from matched records.
 - `--raw` prints only the selected data payload instead of the selection envelope.
 - `--save` writes the selection envelope to `.query/last.json` without changing normal output.
+- `--help` prints dynamically discovered semantic helper support. Use with `--table <name>` or `--load` to filter help to a table.
 
 Examples:
 - `pnpm exec task json_search --params --table DestinyInventoryItemDefinition --where "is.fragment && is.stasis && is.hunter" --count --save`
 - `pnpm exec task json_search --params --load --columns "hash,displayProperties.name,plug.plugCategoryIdentifier,itemTypeDisplayName"`
 
 Semantic helpers must fail closed. Each broad `is.*` predicate must be implemented with table-specific `switch (context.table)` branches and must throw for unsupported tables. Do not add broad semantic predicates unless the rule is exhaustive for every supported table; use a narrower name or an explicit `--where` condition instead.
+
+Keep `is.*` property-only. Put parameterized helpers on `match.*`, such as `match.name('stasis')` or `match.trait('item.plug.fragment')`, so dynamic `--help` can treat `is.<semantic term>` as a clean list of table-vetted boolean terms.
+
+### JSON archaeology notes
+When a search session reveals reusable Bungie/deepsight data structure knowledge, record it in `context/search-history/` before relying on it for follow-up work. Use one markdown file per search session and add a one-sentence entry for it in `context/SEARCH-INDEX.md`.
+
+Keep notes concise and evidence-oriented:
+- List the table/files searched and the useful `json_search` predicates or columns.
+- Record the recurring semantic pattern that was found.
+- Say whether the pattern looks exhaustive enough for a new safe `is.<semantic term>` helper.
+- If adding an `is.*` helper would be too fuzzy or table-specific, say that explicitly.
+- Prefer linking to the note from future implementation work instead of rediscovering the same data shape.

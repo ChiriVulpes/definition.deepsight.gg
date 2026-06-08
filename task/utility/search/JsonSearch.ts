@@ -45,6 +45,7 @@ export interface CliOptions {
 	columns?: string[]
 	raw: boolean
 	save: boolean
+	help: boolean
 }
 
 export const LAST_RESULT_PATH = '.query/last.json'
@@ -59,6 +60,7 @@ export function parseArgs (args: string[]): CliOptions {
 		count: false,
 		raw: false,
 		save: false,
+		help: false,
 	}
 
 	for (let i = 0; i < args.length; i++) {
@@ -114,6 +116,10 @@ export function parseArgs (args: string[]): CliOptions {
 				options.save = true
 				break
 
+			case '--help':
+				options.help = true
+				break
+
 			default:
 				throw new Error(`Unknown json_search argument: ${arg}`)
 		}
@@ -125,7 +131,7 @@ export function parseArgs (args: string[]): CliOptions {
 	if (options.load && options.tables.length)
 		throw new Error('--load is incompatible with --table')
 
-	if (!options.load && !options.tables.length)
+	if (!options.help && !options.load && !options.tables.length)
 		throw new Error('Provide --table <name> or --load')
 
 	return options
@@ -157,16 +163,48 @@ export function filterSelection (selection: SearchSelection, where: string | und
 
 	const names = Object.keys(using)
 	const values = names.map(name => using[name])
-	const predicate = new Function('record', 'is', ...names, `
+	const outerScopeNames = new Set(['arguments', 'is', 'match', 'record', ...names])
+	const predicate = new Function('record', 'is', 'match', ...names, `
 		with (record) {
 			return Boolean(${where});
 		}
-	`) as (record: any, is: SemanticIs, ...using: SearchDataset[]) => boolean
+	`) as (record: any, is: SemanticIs, match: SemanticMatch, ...using: SearchDataset[]) => boolean
 
 	return {
 		...selection,
-		records: selection.records.filter(record => predicate(record.value, new SemanticIs(selection.source, record.value), ...values)),
+		records: selection.records.filter(record => {
+			try {
+				return predicate(
+					createRecordScope(record.value, outerScopeNames),
+					createSemanticIsProxy(selection.source, new SemanticIs(selection.source, record.value)),
+					createSemanticMatchProxy(selection.source, new SemanticMatch(selection.source, record.value)),
+					...values,
+				)
+			} catch (error) {
+				throw new PredicateEvaluationError(selection.source, record, where, error)
+			}
+		}),
 	}
+}
+
+export async function printHelp (options: CliOptions, loadedSelection?: SearchSelection) {
+	const tables = await resolveHelpTables(options, loadedSelection)
+	const semanticTerms = semanticTermNames()
+	const includeEmptyTables = !!options.tables.length || !!options.load
+	const is = tables
+		.map(table => ({
+			table,
+			terms: semanticTerms.filter(term => isSemanticTermSupported(table, term)),
+		}))
+		.filter(table => includeEmptyTables || table.terms.length)
+
+	console.log(JSON.stringify({
+		is,
+		match: [
+			'match.name(name: string | RegExp)',
+			'match.trait(trait: string)',
+		],
+	}, undefined, '\t'))
 }
 
 export function printSelection (selection: SearchSelection, options: CliOptions) {
@@ -311,6 +349,130 @@ function getPath (object: any, objectPath: string) {
 	return object
 }
 
+async function resolveHelpTables (options: CliOptions, loadedSelection: SearchSelection | undefined) {
+	if (options.tables.length)
+		return options.tables
+
+	if (loadedSelection)
+		return [loadedSelection.source.table]
+
+	const files = await fs.readdir(TABLE_ROOT)
+	return files
+		.filter(file => file.endsWith('.json'))
+		.map(file => path.basename(file, '.json'))
+		.sort()
+}
+
+function semanticTermNames () {
+	return Object.entries(Object.getOwnPropertyDescriptors(SemanticIs.prototype))
+		.filter(([name, descriptor]) => name !== 'constructor' && typeof descriptor.get === 'function')
+		.map(([name]) => name)
+		.sort()
+}
+
+function isSemanticTermSupported (table: string, term: string) {
+	const source: SourceMeta = { table, shape: 'records' }
+
+	try {
+		void (new SemanticIs(source, {}) as any)[term]
+		return true
+	} catch (error) {
+		if (error instanceof UnsupportedSemanticPredicateError)
+			return false
+
+		throw new Error(`Failed while probing is.${term} support for ${table}: ${errorMessage(error)}`)
+	}
+}
+
+function createRecordScope (record: any, outerScopeNames: Set<string>) {
+	const target = (typeof record === 'object' && record !== null) || typeof record === 'function'
+		? record
+		: {}
+
+	return new Proxy(target, {
+		has (target, property) {
+			if (typeof property === 'symbol')
+				return property in target
+
+			if (property in target)
+				return true
+
+			if (outerScopeNames.has(property) || property in globalThis)
+				return false
+
+			return true
+		},
+
+		get (target, property, receiver) {
+			if (property === Symbol.unscopables)
+				return undefined
+
+			if (typeof property === 'symbol')
+				return Reflect.get(target, property, receiver)
+
+			if (property in target)
+				return Reflect.get(target, property, receiver)
+
+			return undefined
+		},
+	})
+}
+
+function createSemanticIsProxy (source: SourceMeta, semanticIs: SemanticIs) {
+	return new Proxy(semanticIs, {
+		get (target, property) {
+			if (typeof property === 'symbol')
+				return Reflect.get(target, property)
+
+			const descriptor = propertyDescriptor(target, property)
+			if (descriptor?.get)
+				return Reflect.get(target, property, target)
+
+			if (descriptor)
+				throw new UnsupportedSemanticPredicateError(`is.${property}`, source.table, 'use match.* for parameterized helpers')
+
+			throw new UnsupportedSemanticPredicateError(`is.${property}`, source.table)
+		},
+	})
+}
+
+function createSemanticMatchProxy (source: SourceMeta, semanticMatch: SemanticMatch) {
+	return new Proxy(semanticMatch, {
+		get (target, property) {
+			if (typeof property === 'symbol')
+				return Reflect.get(target, property)
+
+			const descriptor = propertyDescriptor(target, property)
+			if (descriptor) {
+				const value = Reflect.get(target, property, target)
+				return typeof value === 'function' ? value.bind(target) : value
+			}
+
+			throw new UnsupportedSemanticPredicateError(`match.${property}`, source.table)
+		},
+	})
+}
+
+function propertyDescriptor (target: object, property: string) {
+	for (let object = target; object; object = Object.getPrototypeOf(object)) {
+		const descriptor = Object.getOwnPropertyDescriptor(object, property)
+		if (descriptor)
+			return descriptor
+	}
+}
+
+function errorMessage (error: unknown) {
+	return error instanceof Error ? error.message : `${error}`
+}
+
+export class PredicateEvaluationError extends Error {
+
+	public constructor (source: SourceMeta, record: SearchRecord, where: string, cause: unknown) {
+		super(`Predicate failed for ${source.table} record ${record.key} while evaluating ${JSON.stringify(where)}: ${errorMessage(cause)}`)
+	}
+
+}
+
 export class SearchDataset {
 
 	public readonly source: SourceMeta
@@ -345,8 +507,8 @@ export class SearchDataset {
 
 export class UnsupportedSemanticPredicateError extends Error {
 
-	public constructor (predicate: string, table: string) {
-		super(`${predicate} is not supported for ${table}`)
+	public constructor (predicate: string, table: string, detail?: string) {
+		super(`${predicate} is not supported for ${table}${detail ? `: ${detail}` : ''}`)
 	}
 
 }
@@ -419,7 +581,7 @@ export class SemanticIs {
 		}
 	}
 
-	public trait (trait: string) {
+	private trait (trait: string) {
 		switch (this.source.table) {
 			case 'DestinyInventoryItemDefinition':
 				return this.record.traitIds?.includes(trait)
@@ -429,7 +591,26 @@ export class SemanticIs {
 		}
 	}
 
-	public named (name: string | RegExp) {
+}
+
+export class SemanticMatch {
+
+	public constructor (
+		private readonly source: SourceMeta,
+		private readonly record: any,
+	) { }
+
+	public trait (trait: string) {
+		switch (this.source.table) {
+			case 'DestinyInventoryItemDefinition':
+				return this.record.traitIds?.includes(trait)
+
+			default:
+				throw new UnsupportedSemanticPredicateError('match.trait', this.source.table)
+		}
+	}
+
+	public name (name: string | RegExp) {
 		const displayName = `${this.record.displayProperties?.name ?? this.record.name ?? ''}`
 		return typeof name === 'string' ? displayName.toLowerCase().includes(name.toLowerCase()) : name.test(displayName)
 	}
