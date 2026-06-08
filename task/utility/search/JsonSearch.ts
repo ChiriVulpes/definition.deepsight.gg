@@ -46,6 +46,9 @@ export interface CliOptions {
 	raw: boolean
 	save: boolean
 	help: boolean
+	docs: boolean
+	docPath?: string
+	docsDepth: number
 }
 
 export const LAST_RESULT_PATH = '.query/last.json'
@@ -61,6 +64,8 @@ export function parseArgs (args: string[]): CliOptions {
 		raw: false,
 		save: false,
 		help: false,
+		docs: false,
+		docsDepth: 2,
 	}
 
 	for (let i = 0; i < args.length; i++) {
@@ -120,6 +125,20 @@ export function parseArgs (args: string[]): CliOptions {
 				options.help = true
 				break
 
+			case '--docs':
+				options.docs = true
+				break
+
+			case '--path':
+				options.docPath = next()
+				break
+
+			case '--docs-depth':
+				options.docsDepth = Number(next())
+				if (!Number.isInteger(options.docsDepth) || options.docsDepth < 0)
+					throw new Error('--docs-depth must be a non-negative integer')
+				break
+
 			default:
 				throw new Error(`Unknown json_search argument: ${arg}`)
 		}
@@ -131,7 +150,10 @@ export function parseArgs (args: string[]): CliOptions {
 	if (options.load && options.tables.length)
 		throw new Error('--load is incompatible with --table')
 
-	if (!options.help && !options.load && !options.tables.length)
+	if (options.docs && !options.load && !options.tables.length)
+		throw new Error('--docs requires --table <name> or --load')
+
+	if (!options.help && !options.docs && !options.load && !options.tables.length)
 		throw new Error('Provide --table <name> or --load')
 
 	return options
@@ -188,6 +210,10 @@ export function filterSelection (selection: SearchSelection, where: string | und
 }
 
 export async function printHelp (options: CliOptions, loadedSelection?: SearchSelection) {
+	console.log(await getHelpMarkdown(options, loadedSelection))
+}
+
+export async function getHelpMarkdown (options: CliOptions, loadedSelection?: SearchSelection) {
 	const tables = await resolveHelpTables(options, loadedSelection)
 	const semanticTerms = semanticTermNames()
 	const includeEmptyTables = !!options.tables.length || !!options.load
@@ -198,13 +224,28 @@ export async function printHelp (options: CliOptions, loadedSelection?: SearchSe
 		}))
 		.filter(table => includeEmptyTables || table.terms.length)
 
-	console.log(JSON.stringify({
-		is,
-		match: [
-			'match.name(name: string | RegExp)',
-			'match.trait(trait: string)',
-		],
-	}, undefined, '\t'))
+	const lines = [
+		'## json_search help',
+		'',
+		'### is.<term>',
+	]
+
+	if (is.length === 1 && (options.tables.length === 1 || loadedSelection)) {
+		const [table] = is
+		lines.push(...(table.terms.length ? table.terms.map(term => `- is.${term}`) : ['- none']))
+	} else {
+		for (const table of is)
+			lines.push(`- ${table.table}: ${table.terms.length ? table.terms.map(term => `is.${term}`).join(', ') : 'none'}`)
+	}
+
+	lines.push(
+		'',
+		'### match.*',
+		'- match.name(name: string | RegExp)',
+		'- match.trait(trait: string)',
+	)
+
+	return lines.join('\n')
 }
 
 export function printSelection (selection: SearchSelection, options: CliOptions) {

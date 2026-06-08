@@ -54,15 +54,18 @@ Core flags:
 - `--columns "a,b.c"` prints selected fields from matched records.
 - `--raw` prints only the selected data payload instead of the selection envelope.
 - `--save` writes the selection envelope to `.query/last.json` without changing normal output.
-- `--help` prints dynamically discovered semantic helper support. Use with `--table <name>` or `--load` to filter help to a table.
+- `--help` prints Markdown help, including semantic helper support, `match.*` helpers, and OpenAPI schema docs when used with `--table <name>` or `--load`. Use `--path <field.path>` for a schema subtree and `--docs-depth <n>` to control recursive expansion; default depth is 2 (shows docs for the table, its properties, and the directly referenced types of its properties)
 
 Examples:
 - `pnpm exec task json_search --params --table DestinyInventoryItemDefinition --where "is.fragment && is.stasis && is.hunter" --count --save`
 - `pnpm exec task json_search --params --load --columns "hash,displayProperties.name,plug.plugCategoryIdentifier,itemTypeDisplayName"`
+- `pnpm exec task json_search --params --table DestinyInventoryItemDefinition --help --path sockets`
 
 Semantic helpers must fail closed. Each broad `is.*` predicate must be implemented with table-specific `switch (context.table)` branches and must throw for unsupported tables. Do not add broad semantic predicates unless the rule is exhaustive for every supported table; use a narrower name or an explicit `--where` condition instead.
 
 Keep `is.*` property-only. Put parameterized helpers on `match.*`, such as `match.name('stasis')` or `match.trait('item.plug.fragment')`, so dynamic `--help` can treat `is.<semantic term>` as a clean list of table-vetted boolean terms.
+
+Use `--help` before guessing what a field means. The help command refreshes Bungie's OpenAPI JSON into `.query/openapi.json` when schema docs are requested and falls back to that cache if the network is unavailable.
 
 ### JSON archaeology notes
 When a search session reveals reusable Bungie/deepsight data structure knowledge, record it in `context/search-history/` before relying on it for follow-up work. Use one markdown file per search session and add a one-sentence entry for it in `context/SEARCH-INDEX.md`.

@@ -1,11 +1,22 @@
 import { Task } from 'task'
-import { filterSelection, loadMainSelection, loadUsingSources, parseArgs, printHelp, printSelection, saveSelection } from './utility/search/JsonSearch'
+import { filterSelection, getHelpMarkdown, loadMainSelection, loadUsingSources, parseArgs, printSelection, saveSelection } from './utility/search/JsonSearch'
+import { getOpenApiDocsMarkdown, printOpenApiDocs } from './utility/search/OpenApiDocs'
 
 export default Task(null, async (_task, ...args: string[]) => {
 	const options = parseArgs(args)
 	if (options.help) {
 		const source = options.load ? await loadMainSelection(options) : undefined
-		await printHelp(options, source)
+		const sections = [await getHelpMarkdown(options, source)]
+		if (options.tables.length || source)
+			sections.push(await getOpenApiDocsMarkdown(options, source))
+
+		console.log(sections.join('\n\n'))
+		return
+	}
+
+	if (options.docs) {
+		const source = options.load ? await loadMainSelection(options) : undefined
+		await printOpenApiDocs(options, source)
 		return
 	}
 

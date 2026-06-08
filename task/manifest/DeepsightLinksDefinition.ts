@@ -2,6 +2,7 @@ import type { DeepsightComponentLinksDefinition, DeepsightDefinitionLinkDefiniti
 import type { AllDestinyManifestComponents } from 'bungie-api-ts/destiny2'
 import fs from 'fs-extra'
 import { Task } from 'task'
+import { createOpenApiComponentNameMap, isOpenApiReference, loadBungieOpenApi, openApiReferenceName, resolveOpenApiReference, type OpenAPIDefinition, type OpenAPIReference } from '../utility/BungieOpenApi'
 import getDestinyManifestComponents from './utility/endpoint/DestinyManifestComponents'
 
 declare module 'bungie-api-ts/destiny2/manifest' {
@@ -22,140 +23,10 @@ export default Task('DeepsightLinksDefinition', async () => {
 	////////////////////////////////////
 	//#region Destiny
 
-	////////////////////////////////////
-	//#region OpenAPI
-
-	type OpenAPIDefinition =
-		| OpenAPIEnumDefinition
-		| OpenAPIObjectDefinition
-		| OpenAPIArrayDefinition
-		| OpenAPIStringDefinition
-		| OpenAPINumberDefinition
-		| OpenAPIBooleanDefinition
-
-	const OPEN_API_REFERENCE_PREFIX = '#/components/schemas/'
-	interface OpenAPIReference {
-		$ref: `${typeof OPEN_API_REFERENCE_PREFIX}${string}`
-	}
-
-	type OpenAPINumberFormat = 'byte' | 'int16' | 'int32' | 'int64' | 'float' | 'double'
-	type OpenAPIStringFormat = 'date-time'
-
-	interface OpenAPIBaseDefinition {
-		type: string
-		description?: string
-		nullable?: boolean
-	}
-
-	////////////////////////////////////
-	//#region Enum
-
-	interface OpenAPIEnumDefinition extends OpenAPIBaseDefinition {
-		'type': 'integer'
-		'format': OpenAPINumberFormat
-		'enum': `${number}`[]
-		'x-enum-values'?: OpenAPIEnumValue[]
-		'x-enum-is-bitmask'?: true
-	}
-
-	interface OpenAPIEnumValue {
-		numericValue: `${number}`
-		identifier: string
-		description?: string
-	}
-
-	//#endregion
-	////////////////////////////////////
-
-	////////////////////////////////////
-	//#region Object
-
-	interface OpenAPIObjectDefinition extends OpenAPIBaseDefinition {
-		'type': 'object'
-		'properties'?: Record<string, OpenAPIDefinition | OpenAPIReference>
-		'additionalProperties'?: {
-			'$ref': `${typeof OPEN_API_REFERENCE_PREFIX}${string}`
-			'x-destiny-component-type-dependency'?: string
-		}
-		'allOf'?: (OpenAPIDefinition | OpenAPIReference)[]
-		'x-destiny-component-type-dependency'?: string
-		'x-dictionary-key'?: OpenAPINumberDefinition | OpenAPIStringDefinition
-		'x-mapped-definition'?: { $ref: `${typeof OPEN_API_REFERENCE_PREFIX}${string}` }
-	}
-
-	//#endregion
-	////////////////////////////////////
-
-	////////////////////////////////////
-	//#region Array
-
-	interface OpenAPIArrayDefinition extends OpenAPIBaseDefinition {
-		'type': 'array'
-		'items': OpenAPIDefinition | OpenAPIReference
-		'x-mapped-definition'?: {
-			$ref: `${typeof OPEN_API_REFERENCE_PREFIX}${string}`
-		}
-	}
-
-	//#endregion
-	////////////////////////////////////
-
-	////////////////////////////////////
-	//#region String
-
-	interface OpenAPIStringDefinition extends OpenAPIBaseDefinition {
-		type: 'string'
-		format?: OpenAPIStringFormat
-	}
-
-	//#endregion
-	////////////////////////////////////
-
-	////////////////////////////////////
-	//#region Number
-
-	interface OpenAPINumberDefinition extends OpenAPIBaseDefinition {
-		'type': 'number' | 'integer'
-		'format': OpenAPINumberFormat
-		'x-enum-reference'?: {
-			$ref: `${typeof OPEN_API_REFERENCE_PREFIX}${string}`
-		}
-		'x-enum-is-bitmask'?: boolean
-		'x-mapped-definition'?: {
-			$ref: `${typeof OPEN_API_REFERENCE_PREFIX}${string}`
-		}
-	}
-
-	//#endregion
-	////////////////////////////////////
-
-	////////////////////////////////////
-	//#region Boolean
-
-	interface OpenAPIBooleanDefinition extends OpenAPIBaseDefinition {
-		type: 'boolean'
-	}
-
-	//#endregion
-	////////////////////////////////////
-
-	//#endregion
-	////////////////////////////////////
-
 	const componentNames = await getDestinyManifestComponents()
-	const openapi = await fetch('https://raw.githubusercontent.com/Bungie-net/api/refs/heads/master/openapi.json').then(res => res.json() as Promise<{ components: { schemas: Record<string, OpenAPIDefinition | OpenAPIReference> } }>)
+	const openapi = await loadBungieOpenApi()
 
-	const foundComponents = new Set<string>()
-	const componentNamesToDefNamesAndViceVersa = new Map<string, string>()
-	for (const definitionName of Object.keys(openapi.components.schemas)) {
-		const componentName = componentNames.find(name => definitionName.endsWith(`.${name}`))
-		if (!componentName)
-			continue
-
-		foundComponents.add(componentName)
-		componentNamesToDefNamesAndViceVersa.set(componentName, definitionName)
-		componentNamesToDefNamesAndViceVersa.set(definitionName, componentName)
-	}
+	const { foundComponents, names: componentNamesToDefNamesAndViceVersa } = createOpenApiComponentNameMap(openapi, componentNames)
 
 	for (const [definitionName, definition] of Object.entries(openapi.components.schemas)) {
 		const componentName = componentNamesToDefNamesAndViceVersa.get(definitionName) as ComponentNames | undefined
@@ -175,21 +46,19 @@ export default Task('DeepsightLinksDefinition', async () => {
 			if (!def)
 				return []
 
-			if ('$ref' in def) {
-				const ref = def.$ref.slice(OPEN_API_REFERENCE_PREFIX.length)
-				return getLinks(openapi.components.schemas[ref], path)
-			}
+			if (isOpenApiReference(def))
+				return getLinks(resolveOpenApiReference(openapi, def), path)
 
 			if (def.type === 'number' || (def.type === 'integer' && !('enum' in def) && !('x-enum-reference' in def))) {
 				mappedDef = def['x-mapped-definition'] ?? mappedDef
-				const defName = mappedDef?.$ref.slice(OPEN_API_REFERENCE_PREFIX.length)
+				const defName = mappedDef && openApiReferenceName(mappedDef)
 				const componentName = defName && componentNamesToDefNamesAndViceVersa.get(defName) as ComponentNames | undefined
 				return !componentName ? []
 					: [{ component: componentName, path: path.join('.') }]
 			}
 
 			if (def.type === 'integer' && 'x-enum-reference' in def) {
-				const enumSchemaName = def['x-enum-reference']!.$ref.slice(OPEN_API_REFERENCE_PREFIX.length)
+				const enumSchemaName = openApiReferenceName(def['x-enum-reference']!)
 				const enumName = enumSchemaName.split('.').pop()!
 				addEnum(enumName)
 				return [{ enum: enumName, path: path.join('.') }]
@@ -210,7 +79,7 @@ export default Task('DeepsightLinksDefinition', async () => {
 			if (def.additionalProperties && def['x-dictionary-key'])
 				links.push(...getLinks(def['x-dictionary-key'], [...path, '{}'], def['x-mapped-definition']))
 
-			if (def.additionalProperties && '$ref' in def.additionalProperties)
+			if (isOpenApiReference(def.additionalProperties))
 				links.push(...getLinks(def.additionalProperties, [...path, '{}']))
 
 			if (def.allOf)
@@ -272,7 +141,7 @@ export default Task('DeepsightLinksDefinition', async () => {
 			enums[enumName] = {
 				name: enumName,
 				members,
-				bitmask: schema['x-enum-is-bitmask'],
+				bitmask: schema['x-enum-is-bitmask'] ? true : undefined,
 			}
 		}
 	}
