@@ -1,4 +1,4 @@
-import type { DeepsightComponentLinksDefinition, DeepsightDefinitionLinkDefinition, DeepsightEnumDefinition, DeepsightEnumLinkDefinition, DeepsightLinksDefinition, DeepsightManifestComponentsMap } from '@deepsight.gg/Interfaces'
+import type { DeepsightComponentLinksDefinition, DeepsightDefinitionLinkDefinition, DeepsightEnumDefinition, DeepsightEnumLinkDefinition, DeepsightLinksDefinition, DeepsightManifestComponentsMap, PopularityreportManifestComponentsMap } from '@deepsight.gg/Interfaces'
 import type { AllDestinyManifestComponents } from 'bungie-api-ts/destiny2'
 import fs from 'fs-extra'
 import { Task } from 'task'
@@ -16,7 +16,7 @@ declare module 'bungie-api-ts/destiny2/manifest' {
 const _ = undefined
 
 export default Task('DeepsightLinksDefinition', async () => {
-	type ComponentNames = keyof AllDestinyManifestComponents | keyof DeepsightManifestComponentsMap | 'ClarityDescriptions'
+	type ComponentNames = keyof AllDestinyManifestComponents | keyof DeepsightManifestComponentsMap | keyof PopularityreportManifestComponentsMap | 'ClarityDescriptions'
 	const components: Partial<Record<ComponentNames, DeepsightComponentLinksDefinition>> = {}
 	const enums: Partial<Record<string, DeepsightEnumDefinition>> = {}
 
@@ -401,6 +401,21 @@ export default Task('DeepsightLinksDefinition', async () => {
 
 	addAugmentation('DestinyInventoryItemDefinition', 'ClarityDescriptions')
 	addAugmentation('DestinyInventoryItemDefinition', 'DeepsightFormattedClarityDescriptions')
+
+	////////////////////////////////////
+	//#region Popularityreport
+
+	components.PopularityreportQuantilesDefinition = {
+		component: 'PopularityreportQuantilesDefinition',
+		links: [
+			{ path: 'director_activity', component: 'DestinyActivityDefinition' },
+			{ path: 'activity', component: 'DestinyActivityDefinition' },
+		],
+	}
+	addAugmentation('DestinyActivityDefinition', 'PopularityreportQuantilesDefinition')
+
+	//#endregion
+	////////////////////////////////////
 
 	const DeepsightLinksDefinition: DeepsightLinksDefinition = { components, enums }
 
