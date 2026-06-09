@@ -898,7 +898,8 @@
 				}
 			],
 			"augmentations": [
-				"DeepsightDropTableDefinition"
+				"DeepsightDropTableDefinition",
+				"PopularityreportQuantilesDefinition"
 			]
 		},
 		"DestinyActivityModifierDefinition": {
@@ -2546,6 +2547,19 @@
 				{
 					"path": "weaponTypes.[]",
 					"component": "DestinyItemCategoryDefinition"
+				}
+			]
+		},
+		"PopularityreportQuantilesDefinition": {
+			"component": "PopularityreportQuantilesDefinition",
+			"links": [
+				{
+					"path": "director_activity",
+					"component": "DestinyActivityDefinition"
+				},
+				{
+					"path": "activity",
+					"component": "DestinyActivityDefinition"
 				}
 			]
 		}

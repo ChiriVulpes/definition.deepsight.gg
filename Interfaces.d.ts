@@ -87,6 +87,58 @@ export declare interface DeepsightManifestComponentsMap {
 	DeepsightWeaponFoundryDefinition: Record<number, DeepsightWeaponFoundryDefinition>
 }
 
+export declare interface PopularityreportManifestComponentsMap {
+	PopularityreportQuantilesDefinition: Record<string, PopularityreportQuantilesDefinition>
+}
+
+////////////////////////////////////
+//#region Popularityreport
+
+export declare interface PopularityreportQuantiles {
+	meta: PopularityreportQuantilesMetaEntry[]
+	data: PopularityreportQuantileEntry[]
+	rows: number
+	statistics: {
+		elapsed: number
+		rows_read: number
+		bytes_read: number
+	}
+}
+
+export declare interface PopularityreportQuantilesMetaEntry {
+	name: 'director_activity' | 'activity' | 'quantiles'
+	type: 'UInt32' | 'Array(UInt64)'
+}
+
+export declare interface PopularityreportQuantileEntry {
+	director_activity: ActivityHashes
+	activity: ActivityHashes
+	quantiles: PopularityreportQuantileTuple
+}
+
+export declare interface PopularityreportQuantilesDefinition extends PopularityreportQuantileEntry {
+	/**
+	 * Stable composite key for this `director_activity` and `activity` pair.
+	 */
+	hash: string
+}
+
+export declare type PopularityreportQuantileTuple = [
+	_005: number,
+	_01: number,
+	_02: number,
+	_03: number,
+	_04: number,
+	_05: number,
+	_1: number,
+	_2: number,
+	_25: number,
+	_5: number,
+]
+
+//#endregion
+////////////////////////////////////
+
 export declare interface DeepsightDisplayPropertiesDefinition {
 	name?: string
 	subtitle?: string
@@ -650,7 +702,7 @@ export declare interface DeepsightItemSourceDefinition {
 ////////////////////////////////////
 //#region Links
 
-export declare type ComponentName = keyof AllDestinyManifestComponents | keyof DeepsightManifestComponentsMap | 'ClarityDescriptions'
+export declare type ComponentName = keyof AllDestinyManifestComponents | keyof DeepsightManifestComponentsMap | keyof PopularityreportManifestComponentsMap | 'ClarityDescriptions'
 export declare interface DeepsightLinksDefinition {
 	components: Partial<Record<ComponentName, DeepsightComponentLinksDefinition>>
 	enums: Partial<Record<string, DeepsightEnumDefinition>>
