@@ -6,6 +6,8 @@ import Env from './utility/Env'
 import FileHeader from './utility/FileHeader'
 import Log from './utility/Log'
 
+const DEFINITION_DOWNLOAD_CONCURRENCY = 8
+
 interface Manifest {
 	Response: {
 		version: string
@@ -65,13 +67,29 @@ export default Task('destiny_manifest', async () => {
 
 	await fs.mkdir('static/testiny').catch(() => { })
 
-	for (const key of Object.keys(manifest.jsonWorldComponentContentPaths.en).sort((a, b) => a.localeCompare(b))) {
+	const componentContentPaths = manifest.jsonWorldComponentContentPaths.en
+	const componentKeys = Object.keys(componentContentPaths).sort((a, b) => a.localeCompare(b))
+	let cursor = 0
+	await Promise.all(Array.from({ length: Math.min(DEFINITION_DOWNLOAD_CONCURRENCY, componentKeys.length) }, async () => {
+		while (cursor < componentKeys.length) {
+			const key = componentKeys[cursor++]
+			if (key)
+				await downloadComponent(key)
+		}
+	}))
+
+	await fs.writeFile('static/testiny/.v', bungieVersion)
+	Env.ENUMS_NEED_UPDATE = 'true'
+
+	Log.info('Manifest download complete.')
+
+	async function downloadComponent (key: string) {
 		let writeStream!: fs.WriteStream
 		let isValid = false
 		for (let attempt = 0; attempt < 5; attempt++) {
 			Log.info(`Downloading definitions ${key}...`)
 			const downloaded = await new Promise<boolean>(resolve => https
-				.get(`https://www.bungie.net/${manifest.jsonWorldComponentContentPaths.en[key]}`, {
+				.get(`https://www.bungie.net/${componentContentPaths[key]}`, {
 					headers: {
 						'User-Agent': 'deepsight.gg:build/0.0.0',
 					},
@@ -114,9 +132,4 @@ export default Task('destiny_manifest', async () => {
 				await new Promise<void>(resolve => writeStream?.on('finish', resolve))
 		}
 	}
-
-	await fs.writeFile('static/testiny/.v', bungieVersion)
-	Env.ENUMS_NEED_UPDATE = 'true'
-
-	Log.info('Manifest download complete.')
 })

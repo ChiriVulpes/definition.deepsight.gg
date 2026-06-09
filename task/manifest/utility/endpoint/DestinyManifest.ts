@@ -22,7 +22,7 @@ const DestinyManifest = new Proxy({} as Partial<DestinyManifest>, {
 				return target.ALL = fs.readdir('static/testiny')
 
 					.then(componentFiles => target.ALL = componentFiles
-						.filter(file => file !== '.v')
+						.filter(file => file !== '.v' && file !== 'profile.json')
 						.map(file => path.basename(file, '.json') as keyof AllDestinyManifestComponents))
 
 			let manifestItem: PromiseOr<Record<number, DestinyManifestComponentValue>> = fs.readJson(`static/testiny/${componentName}.json`)
