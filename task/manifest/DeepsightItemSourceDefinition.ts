@@ -262,12 +262,12 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 			}),
 		},
 		[DeepsightItemSourceType.BansheeFocusedDecoding]: {
-			items: getVendorCategories(VendorHashes.GunsmithFocusedDecoding),
+			items: getVendorCategories(VendorHashes.LegacyFocusedDecoding),
 			category: DeepsightItemSourceCategory.Vendor,
 			rotates: true,
 			displayProperties: DestinyManifestReference.resolveAll({
 				name: { DestinyVendorDefinition: VendorHashes.Gunsmith },
-				subtitle: { DestinyVendorDefinition: VendorHashes.GunsmithFocusedDecoding },
+				subtitle: { DestinyVendorDefinition: VendorHashes.LegacyFocusedDecoding },
 				description: { DestinyVendorDefinition: VendorHashes.Gunsmith },
 				icon: { DestinyVendorDefinition: { hash: VendorHashes.Gunsmith, property: 'mapIcon' } },
 			}),
@@ -345,34 +345,6 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 		////////////////////////////////////
 		//#region Events
 
-		[DeepsightItemSourceType.ArmsWeekEvent]: {
-			items: getSeasonVendorEngrams('Arms Week').then(engrams => getVendorCategories(engrams, VendorHashes.TowerShootingRangeAda)),
-			category: DeepsightItemSourceCategory.EventVendor,
-			event: EventCardHashes.ArmsWeek,
-			displayProperties: DestinyManifestReference.resolveAll({
-				name: { DestinyEventCardDefinition: EventCardHashes.ArmsWeek },
-				subtitle: { DestinyVendorDefinition: { hash: VendorHashes.TowerShootingRangeAda, property: 'name' } },
-				icon: { DestinyEventCardDefinition: EventCardHashes.ArmsWeek },
-			}),
-		},
-		[DeepsightItemSourceType.SolsticeEvent]: {
-			items: getSeasonVendorEngrams('Solstice'),
-			category: DeepsightItemSourceCategory.EventReward,
-			event: EventCardHashes.Solstice,
-			displayProperties: DestinyManifestReference.resolveAll({
-				name: { DestinyEventCardDefinition: EventCardHashes.Solstice },
-				icon: { DestinyEventCardDefinition: EventCardHashes.Solstice },
-			}),
-		},
-		[DeepsightItemSourceType.HeavyMetalEvent]: {
-			items: getSeasonVendorEngrams('Heavy Metal'),
-			category: DeepsightItemSourceCategory.EventReward,
-			event: EventCardHashes.HeavyMetal,
-			displayProperties: DestinyManifestReference.resolveAll({
-				name: { DestinyEventCardDefinition: EventCardHashes.HeavyMetal },
-				icon: { DestinyEventCardDefinition: EventCardHashes.HeavyMetal },
-			}),
-		},
 		[DeepsightItemSourceType.IronBannerEvent]: {
 			items: Promise.all([getSeasonVendorEngrams('Iron Banner'), getVendorEngrams(DeepsightItemSourceType.IronBannerEvent)]).then(engrams => engrams.flat()),
 			category: DeepsightItemSourceCategory.EventReward,
@@ -391,33 +363,6 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 				subtitle: { DestinyVendorDefinition: VendorHashes.IronBannerEngramFocusingLegacy },
 				description: { DestinyVendorDefinition: VendorHashes.IronBanner },
 				icon: { DestinyVendorDefinition: { hash: VendorHashes.IronBanner, property: 'mapIcon' } },
-			}),
-		},
-		[DeepsightItemSourceType.FestivalOfTheLost]: {
-			items: getSeasonVendorEngrams('Eerie Weapons'),
-			category: DeepsightItemSourceCategory.EventReward,
-			event: EventCardHashes.FestivalOfTheLost,
-			displayProperties: DestinyManifestReference.resolveAll({
-				name: { DestinyEventCardDefinition: EventCardHashes.FestivalOfTheLost },
-				icon: { DestinyEventCardDefinition: EventCardHashes.FestivalOfTheLost },
-			}),
-		},
-		[DeepsightItemSourceType.CallToArmsEvent]: {
-			items: getSeasonVendorEngrams('Call to Arms'),
-			category: DeepsightItemSourceCategory.EventReward,
-			event: EventCardHashes.CallToArms,
-			displayProperties: DestinyManifestReference.resolveAll({
-				name: { DestinyEventCardDefinition: EventCardHashes.CallToArms },
-				icon: { DestinyEventCardDefinition: EventCardHashes.CallToArms },
-			}),
-		},
-		[DeepsightItemSourceType.TheDawning]: {
-			items: getSeasonVendorEngrams('Dawning').then(vendors => vendors.filter(vendor => vendor.hash !== VendorHashes.DawningEngram)),
-			category: DeepsightItemSourceCategory.EventReward,
-			event: EventCardHashes.TheDawning,
-			displayProperties: DestinyManifestReference.resolveAll({
-				name: { DestinyEventCardDefinition: EventCardHashes.TheDawning },
-				icon: { DestinyEventCardDefinition: EventCardHashes.TheDawning },
 			}),
 		},
 
@@ -485,8 +430,8 @@ export default Task('DeepsightItemSourceDefinition', async task => {
 			items: [InventoryItemHashes.ServiceOfLuzakuMachineGun],
 			category: DeepsightItemSourceCategory.SeasonPass,
 			displayProperties: DestinyManifestReference.resolveAll({
-				name: { DestinySeasonPassDefinition: SeasonPassHashes.Lawless_ColorObjectLength4 },
-				icon: { DestinySeasonPassDefinition: SeasonPassHashes.Lawless_ColorObjectLength4 },
+				name: { DestinySeasonPassDefinition: SeasonPassHashes.Lawless },
+				icon: { DestinySeasonPassDefinition: SeasonPassHashes.Lawless },
 			}),
 		},
 

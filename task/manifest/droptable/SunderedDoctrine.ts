@@ -7,8 +7,8 @@ export default {
 		icon: './image/png/activity/sundereddoctrine.png',
 	},
 	dropTable: {
-		[InventoryItemHashes.UnlovedHandCannon]: {},
-		[InventoryItemHashes.UnswornTraceRifle]: {},
+		[InventoryItemHashes.UnlovedHandCannon_TooltipNotificationsLength3]: {},
+		[InventoryItemHashes.UnswornTraceRifle_TooltipNotificationsLength3]: {},
 
 		[InventoryItemHashes.MaskOfTheFlainHelmetPlug1274101249]: {},
 		[InventoryItemHashes.MaskOfTheFlainHelmetPlug2146870895]: {},
@@ -46,7 +46,7 @@ export default {
 				description: 'Cast a light on the mysteries of the Pyramid.',
 			},
 			dropTable: {
-				[InventoryItemHashes.UnworthyScoutRifle]: {},
+				[InventoryItemHashes.UnworthyScoutRifle_TooltipNotificationsLength3]: {},
 			},
 		},
 		{
@@ -63,7 +63,7 @@ export default {
 				description: 'Unbar your way forward.',
 			},
 			dropTable: {
-				[InventoryItemHashes.UnvoicedShotgun]: {},
+				[InventoryItemHashes.UnvoicedShotgun_TooltipNotificationsLength3]: {},
 			},
 		},
 		{
@@ -80,8 +80,8 @@ export default {
 				description: 'Stop the dread from opening the vault door.',
 			},
 			dropTable: {
-				[InventoryItemHashes.UnvoicedShotgun]: {},
-				[InventoryItemHashes.UnworthyScoutRifle]: {},
+				[InventoryItemHashes.UnvoicedShotgun_TooltipNotificationsLength3]: {},
+				[InventoryItemHashes.UnworthyScoutRifle_TooltipNotificationsLength3]: {},
 				[InventoryItemHashes.FinalitysAugerLinearFusionRifle]: {},
 
 				[InventoryItemHashes.AdornmentOfTheFlainChestArmorPlug2299285295]: {},

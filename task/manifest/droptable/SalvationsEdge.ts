@@ -2,7 +2,7 @@ import { ActivityHashes, ActivityModifierHashes, InventoryItemHashes, RecordHash
 import type { DeepsightDropTableDefinition } from './DeepsightDropTableDefinition'
 
 export default {
-	hash: ActivityHashes.SalvationsEdgeStandard1541433876,
+	hash: ActivityHashes.SalvationsEdgeStandard_ChallengesLength1,
 	displayProperties: {
 		icon: { DestinyRecordDefinition: RecordHashes.SalvationsEdge_RewardItemsLength1 },
 	},
@@ -27,16 +27,16 @@ export default {
 				[InventoryItemHashes.ImminenceSubmachineGun]: {},
 
 				// hunter
-				[InventoryItemHashes.PromisedReignGripsGauntletsPlug]: {},
-				[InventoryItemHashes.PromisedReignVestChestArmorPlug]: {},
+				[InventoryItemHashes.PromisedReignGripsGauntletsPlug2730105984]: {},
+				[InventoryItemHashes.PromisedReignVestChestArmorPlug2256359240]: {},
 
 				// warlock
-				[InventoryItemHashes.PromisedVictoryWrapsGauntletsPlug]: {},
-				[InventoryItemHashes.PromisedVictoryRobesChestArmorPlug]: {},
+				[InventoryItemHashes.PromisedVictoryWrapsGauntletsPlug4055964141]: {},
+				[InventoryItemHashes.PromisedVictoryRobesChestArmorPlug1806218131]: {},
 
 				// titan
-				[InventoryItemHashes.PromisedReunionGauntletsGauntletsPlug]: {},
-				[InventoryItemHashes.PromisedReunionPlateChestArmorPlug]: {},
+				[InventoryItemHashes.PromisedReunionGauntletsGauntletsPlug3629884836]: {},
+				[InventoryItemHashes.PromisedReunionPlateChestArmorPlug3725435036]: {},
 
 			},
 		},
@@ -61,16 +61,16 @@ export default {
 				[InventoryItemHashes.ImminenceSubmachineGun]: {},
 
 				// hunter
-				[InventoryItemHashes.PromisedReignMaskHelmetPlug]: {},
-				[InventoryItemHashes.PromisedReignCloakHunterCloakPlug]: {},
+				[InventoryItemHashes.PromisedReignMaskHelmetPlug1026610441]: {},
+				[InventoryItemHashes.PromisedReignCloakHunterCloakPlug87946917]: {},
 
 				// warlock
-				[InventoryItemHashes.PromisedVictoryHoodHelmetPlug]: {},
-				[InventoryItemHashes.PromisedVictoryBondWarlockBondPlug]: {},
+				[InventoryItemHashes.PromisedVictoryHoodHelmetPlug930168404]: {},
+				[InventoryItemHashes.PromisedVictoryBondWarlockBondPlug141134282]: {},
 
 				// titan
-				[InventoryItemHashes.PromisedReunionHelmHelmetPlug]: {},
-				[InventoryItemHashes.PromisedReunionMarkTitanMarkPlug]: {},
+				[InventoryItemHashes.PromisedReunionHelmHelmetPlug659074261]: {},
+				[InventoryItemHashes.PromisedReunionMarkTitanMarkPlug1140861969]: {},
 
 			},
 		},
@@ -94,13 +94,13 @@ export default {
 				[InventoryItemHashes.ForthcomingDevianceGlaive]: {},
 
 				// hunter
-				[InventoryItemHashes.PromisedReignGripsGauntletsPlug]: {},
+				[InventoryItemHashes.PromisedReignGripsGauntletsPlug2730105984]: {},
 
 				// warlock
-				[InventoryItemHashes.PromisedVictoryWrapsGauntletsPlug]: {},
+				[InventoryItemHashes.PromisedVictoryWrapsGauntletsPlug4055964141]: {},
 
 				// titan
-				[InventoryItemHashes.PromisedReunionGauntletsGauntletsPlug]: {},
+				[InventoryItemHashes.PromisedReunionGauntletsGauntletsPlug3629884836]: {},
 
 			},
 		},
@@ -124,13 +124,13 @@ export default {
 				[InventoryItemHashes.ImminenceSubmachineGun]: {},
 
 				// hunter
-				[InventoryItemHashes.PromisedReignStridesLegArmorPlug]: {},
+				[InventoryItemHashes.PromisedReignStridesLegArmorPlug1807926458]: {},
 
 				// warlock
-				[InventoryItemHashes.PromisedVictoryBootsLegArmorPlug]: {},
+				[InventoryItemHashes.PromisedVictoryBootsLegArmorPlug7338415]: {},
 
 				// titan
-				[InventoryItemHashes.PromisedReunionGreavesLegArmorPlug]: {},
+				[InventoryItemHashes.PromisedReunionGreavesLegArmorPlug1265563470]: {},
 
 			},
 		},
@@ -155,16 +155,16 @@ export default {
 				[InventoryItemHashes.CriticalAnomalySniperRifle]: {},
 
 				// hunter
-				[InventoryItemHashes.PromisedReignMaskHelmetPlug]: {},
-				[InventoryItemHashes.PromisedReignStridesLegArmorPlug]: {},
+				[InventoryItemHashes.PromisedReignMaskHelmetPlug1026610441]: {},
+				[InventoryItemHashes.PromisedReignStridesLegArmorPlug1807926458]: {},
 
 				// warlock
-				[InventoryItemHashes.PromisedVictoryHoodHelmetPlug]: {},
-				[InventoryItemHashes.PromisedVictoryBootsLegArmorPlug]: {},
+				[InventoryItemHashes.PromisedVictoryHoodHelmetPlug930168404]: {},
+				[InventoryItemHashes.PromisedVictoryBootsLegArmorPlug7338415]: {},
 
 				// titan
-				[InventoryItemHashes.PromisedReunionHelmHelmetPlug]: {},
-				[InventoryItemHashes.PromisedReunionGreavesLegArmorPlug]: {},
+				[InventoryItemHashes.PromisedReunionHelmHelmetPlug659074261]: {},
+				[InventoryItemHashes.PromisedReunionGreavesLegArmorPlug1265563470]: {},
 
 			},
 		},

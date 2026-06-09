@@ -2,7 +2,7 @@ import { ActivityHashes, InventoryItemHashes, RecordHashes } from '@deepsight.gg
 import type { DeepsightDropTableDefinition } from './DeepsightDropTableDefinition'
 
 export default {
-    hash: ActivityHashes.DeepStoneCrypt_ChallengesLength0,
+    hash: ActivityHashes.DeepStoneCrypt_GuidedGameUndefined,
     displayProperties: {
         icon: { DestinyRecordDefinition: RecordHashes.RaidDeepStoneCrypt_RecordTypeNameTriumphs },
     },
@@ -25,19 +25,19 @@ export default {
                 [InventoryItemHashes.TrusteeScoutRifle]: {},
 
                 // hunter
-                [InventoryItemHashes.LegacysOathGripsGauntletsPlug]: {},
-                [InventoryItemHashes.LegacysOathStridesLegArmorPlug]: {},
-                [InventoryItemHashes.LegacysOathCloakHunterCloakPlug]: {},
+                [InventoryItemHashes.LegacysOathGripsGauntletsPlug2343515647]: {},
+                [InventoryItemHashes.LegacysOathStridesLegArmorPlug1264765761]: {},
+                [InventoryItemHashes.LegacysOathCloakHunterCloakPlug1021060724]: {},
 
                 // warlock
-                [InventoryItemHashes.LegacysOathGlovesGauntletsPlug]: {},
-                [InventoryItemHashes.LegacysOathBootsLegArmorPlug]: {},
-                [InventoryItemHashes.LegacysOathBondWarlockBondPlug]: {},
+                [InventoryItemHashes.LegacysOathGlovesGauntletsPlug79460168]: {},
+                [InventoryItemHashes.LegacysOathBootsLegArmorPlug756445218]: {},
+                [InventoryItemHashes.LegacysOathBondWarlockBondPlug2902277629]: {},
 
                 // titan
-                [InventoryItemHashes.LegacysOathGauntletsGauntletsPlug]: {},
-                [InventoryItemHashes.LegacysOathGreavesLegArmorPlug]: {},
-                [InventoryItemHashes.LegacysOathMarkTitanMarkPlug]: {},
+                [InventoryItemHashes.LegacysOathGauntletsGauntletsPlug1887490701]: {},
+                [InventoryItemHashes.LegacysOathGreavesLegArmorPlug2558289743]: {},
+                [InventoryItemHashes.LegacysOathMarkTitanMarkPlug2956588906]: {},
             },
         },
         {
@@ -60,19 +60,19 @@ export default {
                 [InventoryItemHashes.HeritageShotgun]: {},
 
                 // hunter
-                [InventoryItemHashes.LegacysOathGripsGauntletsPlug]: {},
-                [InventoryItemHashes.LegacysOathStridesLegArmorPlug]: {},
-                [InventoryItemHashes.LegacysOathCloakHunterCloakPlug]: {},
+                [InventoryItemHashes.LegacysOathGripsGauntletsPlug2343515647]: {},
+                [InventoryItemHashes.LegacysOathStridesLegArmorPlug1264765761]: {},
+                [InventoryItemHashes.LegacysOathCloakHunterCloakPlug1021060724]: {},
 
                 // warlock
-                [InventoryItemHashes.LegacysOathGlovesGauntletsPlug]: {},
-                [InventoryItemHashes.LegacysOathBootsLegArmorPlug]: {},
-                [InventoryItemHashes.LegacysOathBondWarlockBondPlug]: {},
+                [InventoryItemHashes.LegacysOathGlovesGauntletsPlug79460168]: {},
+                [InventoryItemHashes.LegacysOathBootsLegArmorPlug756445218]: {},
+                [InventoryItemHashes.LegacysOathBondWarlockBondPlug2902277629]: {},
 
                 // titan
-                [InventoryItemHashes.LegacysOathGauntletsGauntletsPlug]: {},
-                [InventoryItemHashes.LegacysOathGreavesLegArmorPlug]: {},
-                [InventoryItemHashes.LegacysOathMarkTitanMarkPlug]: {},
+                [InventoryItemHashes.LegacysOathGauntletsGauntletsPlug1887490701]: {},
+                [InventoryItemHashes.LegacysOathGreavesLegArmorPlug2558289743]: {},
+                [InventoryItemHashes.LegacysOathMarkTitanMarkPlug2956588906]: {},
             },
         },
         {
@@ -94,19 +94,19 @@ export default {
                 [InventoryItemHashes.PosterityHandCannon]: {},
 
                 // hunter
-                [InventoryItemHashes.LegacysOathGripsGauntletsPlug]: {},
-                [InventoryItemHashes.LegacysOathVestChestArmorPlug]: {},
-                [InventoryItemHashes.LegacysOathCloakHunterCloakPlug]: {},
+                [InventoryItemHashes.LegacysOathGripsGauntletsPlug2343515647]: {},
+                [InventoryItemHashes.LegacysOathVestChestArmorPlug4001862073]: {},
+                [InventoryItemHashes.LegacysOathCloakHunterCloakPlug1021060724]: {},
 
                 // warlock
-                [InventoryItemHashes.LegacysOathGlovesGauntletsPlug]: {},
-                [InventoryItemHashes.LegacysOathRobesChestArmorPlug]: {},
-                [InventoryItemHashes.LegacysOathBondWarlockBondPlug]: {},
+                [InventoryItemHashes.LegacysOathGlovesGauntletsPlug79460168]: {},
+                [InventoryItemHashes.LegacysOathRobesChestArmorPlug3975122240]: {},
+                [InventoryItemHashes.LegacysOathBondWarlockBondPlug2902277629]: {},
 
                 // titan
-                [InventoryItemHashes.LegacysOathGauntletsGauntletsPlug]: {},
-                [InventoryItemHashes.LegacysOathPlateChestArmorPlug]: {},
-                [InventoryItemHashes.LegacysOathMarkTitanMarkPlug]: {},
+                [InventoryItemHashes.LegacysOathGauntletsGauntletsPlug1887490701]: {},
+                [InventoryItemHashes.LegacysOathPlateChestArmorPlug751162931]: {},
+                [InventoryItemHashes.LegacysOathMarkTitanMarkPlug2956588906]: {},
             },
         },
         {
@@ -130,19 +130,19 @@ export default {
                 [InventoryItemHashes.EyesOfTomorrowRocketLauncher]: {},
 
                 // hunter
-                [InventoryItemHashes.LegacysOathMaskHelmetPlug]: {},
-                [InventoryItemHashes.LegacysOathVestChestArmorPlug]: {},
-                [InventoryItemHashes.LegacysOathStridesLegArmorPlug]: {},
+                [InventoryItemHashes.LegacysOathMaskHelmetPlug893751566]: {},
+                [InventoryItemHashes.LegacysOathVestChestArmorPlug4001862073]: {},
+                [InventoryItemHashes.LegacysOathStridesLegArmorPlug1264765761]: {},
 
                 // warlock
-                [InventoryItemHashes.LegacysOathCowlHelmetPlug]: {},
-                [InventoryItemHashes.LegacysOathRobesChestArmorPlug]: {},
-                [InventoryItemHashes.LegacysOathBootsLegArmorPlug]: {},
+                [InventoryItemHashes.LegacysOathCowlHelmetPlug1462908657]: {},
+                [InventoryItemHashes.LegacysOathRobesChestArmorPlug3975122240]: {},
+                [InventoryItemHashes.LegacysOathBootsLegArmorPlug756445218]: {},
 
                 // titan
-                [InventoryItemHashes.LegacysOathHelmHelmetPlug]: {},
-                [InventoryItemHashes.LegacysOathPlateChestArmorPlug]: {},
-                [InventoryItemHashes.LegacysOathGreavesLegArmorPlug]: {},
+                [InventoryItemHashes.LegacysOathHelmHelmetPlug3015085684]: {},
+                [InventoryItemHashes.LegacysOathPlateChestArmorPlug751162931]: {},
+                [InventoryItemHashes.LegacysOathGreavesLegArmorPlug2558289743]: {},
             },
         },
     ],

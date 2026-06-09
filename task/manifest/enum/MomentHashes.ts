@@ -43,4 +43,5 @@ export enum MomentHashes {
 	SeasonReclamation,
 	Renegades,
 	SeasonLawless,
+	MonumentOfTriumph,
 }

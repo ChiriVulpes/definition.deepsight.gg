@@ -27,7 +27,7 @@ export default Task('DeepsightWeaponFoundryDefinition', async () => {
 				name: 'Cassoid',
 				icon: { DestinyInventoryItemDefinition: InventoryItemHashes.WildCardOriginTraitPlug },
 			},
-			overlay: { DestinyInventoryItemDefinition: InventoryItemHashes.NoxPerennialVFusionRifle },
+			overlay: { DestinyInventoryItemDefinition: InventoryItemHashes.NoxPerennialVFusionRifle_TooltipNotificationsLength0 },
 		},
 		[FoundryHashes.Nadir]: {
 			displayProperties: {
@@ -69,14 +69,14 @@ export default Task('DeepsightWeaponFoundryDefinition', async () => {
 				name: 'Omolon',
 				icon: { DestinyInventoryItemDefinition: { hash: InventoryItemHashes.OmolonUpgradeEmblem, property: 'secondaryOverlay' } },
 			},
-			overlay: { DestinyInventoryItemDefinition: InventoryItemHashes.AurvandilFr6FusionRifle },
+			overlay: { DestinyInventoryItemDefinition: InventoryItemHashes.AurvandilFr6FusionRifle3786215462 },
 		},
 		[FoundryHashes.BlackArmory]: {
 			displayProperties: {
 				name: 'Black Armory',
 				icon: { DestinyRecordDefinition: RecordHashes.EdzBlackArmorySmith },
 			},
-			overlay: { DestinyInventoryItemDefinition: InventoryItemHashes.TataraGazeSniperRifle },
+			overlay: { DestinyInventoryItemDefinition: InventoryItemHashes.TataraGazeSniperRifle1449922174 },
 		},
 		[FoundryHashes.BRAVE]: {
 			displayProperties: {

@@ -7,7 +7,7 @@ export default {
 		icon: './image/png/activity/warlords.png',
 	},
 	dropTable: {
-		[InventoryItemHashes.IndebtedKindnessSidearm]: {},
+		[InventoryItemHashes.IndebtedKindnessSidearm3381450498]: {},
 		[InventoryItemHashes.DarkAgeGripsGauntletsPlug1316592242]: {},
 		[InventoryItemHashes.DarkAgeGlovesGauntletsPlug2572175997]: {},
 		[InventoryItemHashes.DarkAgeGauntletsGauntletsPlug652593750]: {},
@@ -27,8 +27,8 @@ export default {
 				description: 'A corrupted Knight stands between you and answers. Meet their challenge, leave them broken, but beware latent curses.',
 			},
 			dropTable: {
-				[InventoryItemHashes.VengefulWhisperCombatBow]: {},
-				[InventoryItemHashes.DragoncultSickleSword]: {},
+				[InventoryItemHashes.VengefulWhisperCombatBow839344841]: {},
+				[InventoryItemHashes.DragoncultSickleSword3668817296]: {},
 
 				// hunter
 				[InventoryItemHashes.DarkAgeMaskHelmetPlug220527011]: {},
@@ -82,8 +82,8 @@ export default {
 				description: 'Wish for warmth, brave the frigid winds, and silence the Locus of Wailing Grief that sustains them.',
 			},
 			dropTable: {
-				[InventoryItemHashes.NaeemsLanceSniperRifle]: {},
-				[InventoryItemHashes.VengefulWhisperCombatBow]: {},
+				[InventoryItemHashes.NaeemsLanceSniperRifle2806569825]: {},
+				[InventoryItemHashes.VengefulWhisperCombatBow839344841]: {},
 
 				// hunter
 				[InventoryItemHashes.DarkAgeHarnessChestArmorPlug1450838966]: {},
@@ -121,8 +121,8 @@ export default {
 				description: '"You have taken my vengeance. My task is done, Naeem\'s wish fulfilled. Come then, slay me. Let it end." —Hefnd',
 			},
 			dropTable: {
-				[InventoryItemHashes.NaeemsLanceSniperRifle]: {},
-				[InventoryItemHashes.DragoncultSickleSword]: {},
+				[InventoryItemHashes.NaeemsLanceSniperRifle2806569825]: {},
+				[InventoryItemHashes.DragoncultSickleSword3668817296]: {},
 				[InventoryItemHashes.BuriedBloodlineSidearm]: {},
 
 				// hunter

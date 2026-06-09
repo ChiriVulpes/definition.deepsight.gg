@@ -36,9 +36,6 @@ const VENDOR_BACKGROUNDS: Partial<Record<VendorHashes, string | Partial<Record<D
 	[VendorHashes.DreamingCityPetraVenj]: `petravenj${Rotation.resolve({ anchor: '2024-01-16T17:00:00Z' }, ['thestrand', 'divalianmists', 'rheasilvia'])}`,
 	[VendorHashes.EuropaFaction]: 'varikstheloyal',
 	[VendorHashes['30thAnniversaryStarhorse']]: 'starhorse',
-	[VendorHashes.EvaLevanteVendor]: {
-		[EventCardHashes.GuardianGames]: 'evalevanteguardiangames',
-	},
 }
 
 const VENDOR_GROUP_OVERRIDES: Partial<Record<VendorHashes, VendorGroupHashes[]>> = {

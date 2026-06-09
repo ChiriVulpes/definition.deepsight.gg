@@ -1,4 +1,4 @@
-import { ActivityHashes, ActivityTypeHashes, EventCardHashes, InventoryItemHashes, PresentationNodeHashes, RecordHashes, SandboxPerkHashes, SeasonHashes } from '@deepsight.gg/Enums'
+import { ActivityHashes, ActivityTypeHashes, InventoryItemHashes, PresentationNodeHashes, RecordHashes, SandboxPerkHashes, SeasonHashes, SeasonPassHashes } from '@deepsight.gg/Enums'
 import { DeepsightMomentDefinition } from '@deepsight.gg/Interfaces'
 import fs from 'fs-extra'
 import { Task } from 'task'
@@ -78,7 +78,6 @@ const DeepsightMomentDefinitionData: Record<keyof typeof MomentHashes, Deepsight
 		subsumeIconWatermarks: [
 			{ DestinyInventoryItemDefinition: InventoryItemHashes.PermafrostGrenadeLauncher_IsHolofoiltrue },
 		],
-		event: EventCardHashes.TheDawning,
 	},
 	CrimsonDays: {
 		id: 'crimsondays',
@@ -96,7 +95,6 @@ const DeepsightMomentDefinitionData: Record<keyof typeof MomentHashes, Deepsight
 	GuardianGames: {
 		id: 'guardiangames',
 		iconWatermark: { DestinyInventoryItemDefinition: InventoryItemHashes.TheTitleSubmachineGun294129361 },
-		event: EventCardHashes.GuardianGames,
 	},
 	Solstice: {
 		id: 'solstice',
@@ -104,7 +102,6 @@ const DeepsightMomentDefinitionData: Record<keyof typeof MomentHashes, Deepsight
 		subsumeIconWatermarks: [
 			{ DestinyInventoryItemDefinition: InventoryItemHashes.FestivalFlightGrenadeLauncher_IsHolofoiltrue },
 		],
-		event: EventCardHashes.Solstice,
 	},
 	FestivalOfTheLost: {
 		id: 'festivalofthelost',
@@ -113,7 +110,6 @@ const DeepsightMomentDefinitionData: Record<keyof typeof MomentHashes, Deepsight
 		subsumeIconWatermarks: [
 			{ DestinyInventoryItemDefinition: InventoryItemHashes.HushedWhisperCombatBow_IsHolofoiltrue },
 		],
-		event: EventCardHashes.FestivalOfTheLost,
 	},
 	TheRedWar: {
 		id: 'redwar',
@@ -264,14 +260,14 @@ const DeepsightMomentDefinitionData: Record<keyof typeof MomentHashes, Deepsight
 		id: 'shadowkeep',
 		displayProperties: {
 			name: { DestinyRecordDefinition: RecordHashes.Shadowkeep },
-			description: { DestinyActivityDefinition: ActivityHashes.Destiny2Shadowkeep_TraitHashesUndefined },
+			description: { DestinyActivityDefinition: ActivityHashes.Destiny2Shadowkeep_Tier0 },
 			icon: { DestinySandboxPerkDefinition: SandboxPerkHashes.BlindClutch },
 		},
 		iconWatermark: { DestinyInventoryItemDefinition: InventoryItemHashes.SymphonyOfDeathQuestStep_Step0 },
 		primaryImage: { DestinyActivityDefinition: { hash: ActivityHashes.TheScarletKeep346345236, property: 'pgcrImage' } },
 		images: [
 			{ DestinyActivityDefinition: { hash: ActivityHashes.AMysteriousDisturbance845208861, property: 'pgcrImage' } },
-			{ DestinyActivityDefinition: { hash: ActivityHashes.InSearchOfAnswers_PlaceHash3325508439, property: 'pgcrImage' } },
+			{ DestinyActivityDefinition: { hash: ActivityHashes.InSearchOfAnswers_Tier0, property: 'pgcrImage' } },
 			{ DestinyActivityDefinition: { hash: ActivityHashes.TheScarletKeep346345236, property: 'pgcrImage' } },
 			{ DestinyActivityDefinition: { hash: ActivityHashes.InTheDeep471727774, property: 'pgcrImage' } },
 			{ DestinyActivityDefinition: { hash: ActivityHashes.Beyond778535230, property: 'pgcrImage' } },
@@ -347,11 +343,11 @@ const DeepsightMomentDefinitionData: Record<keyof typeof MomentHashes, Deepsight
 		images: [
 			{ DestinyActivityDefinition: { hash: ActivityHashes.TheNewKell, property: 'pgcrImage' } },
 			{ DestinyActivityDefinition: { hash: ActivityHashes.RisingResistance, property: 'pgcrImage' } },
-			{ DestinyActivityDefinition: { hash: ActivityHashes.TheWarrior_ActivityLightLevel0, property: 'pgcrImage' } },
-			{ DestinyActivityDefinition: { hash: ActivityHashes.TheTechnocrat_ActivityLightLevel0, property: 'pgcrImage' } },
+			{ DestinyActivityDefinition: { hash: ActivityHashes.TheWarriorCustomize, property: 'pgcrImage' } },
+			{ DestinyActivityDefinition: { hash: ActivityHashes.TheTechnocratCustomize, property: 'pgcrImage' } },
 			{ DestinyActivityDefinition: { hash: ActivityHashes.TheGlassway376759502, property: 'pgcrImage' } },
 			{ DestinyActivityDefinition: { hash: ActivityHashes.TheKellOfDarkness, property: 'pgcrImage' } },
-			{ DestinyActivityDefinition: { hash: ActivityHashes.DeepStoneCrypt_ChallengesLength0, property: 'pgcrImage' } },
+			{ DestinyActivityDefinition: { hash: ActivityHashes.DeepStoneCrypt_GuidedGameUndefined, property: 'pgcrImage' } },
 		],
 		expansion: true,
 		year: 4,
@@ -399,7 +395,7 @@ const DeepsightMomentDefinitionData: Record<keyof typeof MomentHashes, Deepsight
 			icon: { DestinySandboxPerkDefinition: SandboxPerkHashes.VitreousEntrance },
 		},
 		iconWatermark: { DestinyInventoryItemDefinition: InventoryItemHashes.NoSignalEmotePlug },
-		primaryImage: { DestinyActivityDefinition: { hash: ActivityHashes.OverrideLastCity, property: 'pgcrImage' } },
+		primaryImage: { DestinyActivityDefinition: { hash: ActivityHashes.OverrideLastCityCustomize, property: 'pgcrImage' } },
 		images: [
 			{ DestinyActivityDefinition: { hash: ActivityHashes.ExpungeTartarusNormal, property: 'pgcrImage' } },
 			{ DestinyActivityDefinition: { hash: ActivityHashes.ExpungeCorruptedTartarus, property: 'pgcrImage' } },
@@ -408,10 +404,10 @@ const DeepsightMomentDefinitionData: Record<keyof typeof MomentHashes, Deepsight
 			{ DestinyActivityDefinition: { hash: ActivityHashes.ExpungeLabyrinthNormal, property: 'pgcrImage' } },
 			{ DestinyActivityDefinition: { hash: ActivityHashes.ExpungeCorruptedLabyrinth, property: 'pgcrImage' } },
 			{ DestinyActivityDefinition: { hash: ActivityHashes.ExpungeDelphi, property: 'pgcrImage' } },
-			{ DestinyActivityDefinition: { hash: ActivityHashes.OverrideTangledShore, property: 'pgcrImage' } },
-			{ DestinyActivityDefinition: { hash: ActivityHashes.OverrideTheMoon, property: 'pgcrImage' } },
-			{ DestinyActivityDefinition: { hash: ActivityHashes.OverrideEuropa, property: 'pgcrImage' } },
-			{ DestinyActivityDefinition: { hash: ActivityHashes.OverrideLastCity, property: 'pgcrImage' } },
+			{ DestinyActivityDefinition: { hash: ActivityHashes.OverrideTangledShore3933916447, property: 'pgcrImage' } },
+			{ DestinyActivityDefinition: { hash: ActivityHashes.OverrideTheMoon2865532048, property: 'pgcrImage' } },
+			{ DestinyActivityDefinition: { hash: ActivityHashes.OverrideEuropa25688104, property: 'pgcrImage' } },
+			{ DestinyActivityDefinition: { hash: ActivityHashes.OverrideLastCity612985278, property: 'pgcrImage' } },
 		],
 		season: 14,
 		year: 4,
@@ -531,8 +527,9 @@ const DeepsightMomentDefinitionData: Record<keyof typeof MomentHashes, Deepsight
 		iconWatermark: { DestinyInventoryItemDefinition: InventoryItemHashes.IntendedAuthorityWeaponOrnamentPlug },
 		images: [
 			{ DestinyActivityDefinition: { hash: ActivityHashes.SalvageAndSalvation_Tiern1, property: 'pgcrImage' } },
-			{ DestinyActivityDefinition: { hash: ActivityHashes.ExpeditionCosmodrome_ActivityLightLevel0, property: 'pgcrImage' } },
-			{ DestinyActivityDefinition: { hash: ActivityHashes.KetchcrashCustomize_TraitHashesLength10, property: 'pgcrImage' } },
+			{ DestinyActivityDefinition: { hash: ActivityHashes.ExpeditionCosmodrome1516872608, property: 'pgcrImage' } },
+			{ DestinyActivityDefinition: { hash: ActivityHashes.Ketchcrash3594496514, property: 'pgcrImage' } },
+			{ DestinyActivityDefinition: { hash: ActivityHashes.KetchcrashCustomize_TraitHashesLength15, property: 'pgcrImage' } },
 			{ DestinyActivityDefinition: { hash: ActivityHashes.PirateHideoutTheBeastTamer, property: 'pgcrImage' } },
 		],
 		season: 18,
@@ -649,9 +646,9 @@ const DeepsightMomentDefinitionData: Record<keyof typeof MomentHashes, Deepsight
 			{ DestinyInventoryItemDefinition: InventoryItemHashes.HungJurySr4ScoutRifle205225492 },
 		],
 		images: [
-			{ DestinyActivityDefinition: { hash: ActivityHashes.VostokOnslaught_ChallengesLength0, property: 'pgcrImage' } },
-			{ DestinyActivityDefinition: { hash: ActivityHashes.MidtownOnslaught_ChallengesLength0, property: 'pgcrImage' } },
-			{ DestinyActivityDefinition: { hash: ActivityHashes.MothyardsOnslaught_ChallengesLength0, property: 'pgcrImage' } },
+			{ DestinyActivityDefinition: { hash: ActivityHashes.VostokOnslaught_Tiern1, property: 'pgcrImage' } },
+			{ DestinyActivityDefinition: { hash: ActivityHashes.MidtownOnslaught_Tiern1, property: 'pgcrImage' } },
+			{ DestinyActivityDefinition: { hash: ActivityHashes.MothyardsOnslaught_Tiern1, property: 'pgcrImage' } },
 		],
 		expansion: true,
 		year: 6,
@@ -684,7 +681,7 @@ const DeepsightMomentDefinitionData: Record<keyof typeof MomentHashes, Deepsight
 			{ DestinyActivityDefinition: { hash: ActivityHashes.IconoclasmNormal, property: 'pgcrImage' } },
 			{ DestinyActivityDefinition: { hash: ActivityHashes.TransmigrationNormal, property: 'pgcrImage' } },
 
-			{ DestinyActivityDefinition: { hash: ActivityHashes.SalvationsEdgeStandard1541433876, property: 'pgcrImage' } },
+			{ DestinyActivityDefinition: { hash: ActivityHashes.SalvationsEdgeStandard_ChallengesLength0, property: 'pgcrImage' } },
 			{ DestinyActivityDefinition: { hash: ActivityHashes.DualDestiny, property: 'pgcrImage' } },
 		],
 		expansion: true,
@@ -709,13 +706,13 @@ const DeepsightMomentDefinitionData: Record<keyof typeof MomentHashes, Deepsight
 	EpisodeRevenant: {
 		id: 'revenant',
 		iconWatermark: { DestinyInventoryItemDefinition: InventoryItemHashes.IceBreakerSniperRifle },
-		primaryImage: { DestinyActivityDefinition: { hash: ActivityHashes.KellsFallCustomize_TraitHashesLength10, property: 'pgcrImage' } },
+		primaryImage: { DestinyActivityDefinition: { hash: ActivityHashes.KellsFallCustomize_TraitHashesLength16, property: 'pgcrImage' } },
 		images: [
 			{ DestinyActivityDefinition: { hash: ActivityHashes.TombOfEldersMatchmade, property: 'pgcrImage' } },
 			{ DestinyActivityDefinition: { hash: ActivityHashes.KellsGraveOnslaughtSalvation, property: 'pgcrImage' } },
 			{ DestinyActivityDefinition: { hash: ActivityHashes.WidowsCourtOnslaughtSalvation, property: 'pgcrImage' } },
 			{ DestinyActivityDefinition: { hash: ActivityHashes.EventideRuinsOnslaughtSalvation, property: 'pgcrImage' } },
-			{ DestinyActivityDefinition: { hash: ActivityHashes.KellsFallCustomize_TraitHashesLength10, property: 'pgcrImage' } },
+			{ DestinyActivityDefinition: { hash: ActivityHashes.KellsFallCustomize_TraitHashesLength16, property: 'pgcrImage' } },
 			{ DestinyActivityDefinition: { hash: ActivityHashes.VespersHostNormal, property: 'pgcrImage' } },
 		],
 		season: 25,
@@ -826,6 +823,10 @@ const DeepsightMomentDefinitionData: Record<keyof typeof MomentHashes, Deepsight
 	},
 	SeasonLawless: {
 		id: 'lawless',
+		displayProperties: {
+			name: { DestinySeasonPassDefinition: SeasonPassHashes.Lawless },
+			icon: { DestinySeasonPassDefinition: SeasonPassHashes.Lawless },
+		},
 		iconWatermark: { DestinyInventoryItemDefinition: InventoryItemHashes.FerropotentCoverHelmetPlug },
 		itemHashes: [
 			InventoryItemHashes.GizmoWeftGrenadeLauncher_IsHolofoilfalse,
@@ -833,8 +834,20 @@ const DeepsightMomentDefinitionData: Record<keyof typeof MomentHashes, Deepsight
 		],
 		year: 8,
 		season: 28,
-		seasonHash: SeasonHashes.Season28Lawless_SeasonNumber28,
 	},
+	MonumentOfTriumph: {
+		id: 'triumph',
+		aliases: ['mot'],
+		displayProperties: {
+			name: { DestinySeasonDefinition: SeasonHashes.MonumentOfTriumph },
+			description: { DestinyActivityDefinition: SeasonHashes.MonumentOfTriumph },
+			icon: { DestinyPresentationNodeDefinition: PresentationNodeHashes.MonumentOfTriumph4024048810 },
+		},
+		iconWatermark: { DestinyInventoryItemDefinition: InventoryItemHashes.Decatur02AutoRifle },
+		year: 8,
+		expansion: true,
+	},
+
 }
 
 //#endregion

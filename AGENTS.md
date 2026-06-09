@@ -71,7 +71,9 @@ Use `--help` before guessing what a field means. The help command refreshes Bung
 ### JSON archaeology notes
 When a search session reveals reusable Bungie/deepsight data structure knowledge, record it in `context/search-history/` before relying on it for follow-up work. Use one markdown file per search session and add a one-sentence entry for it in `context/SEARCH-INDEX.md`. This notekeeping should be considered intentionally outside of your normal workflow, not considered part of implementation work, with no need to get approval for it.
 
-When a search note is related to a semantic helper or candidate helper, include that metadata in `context/SEARCH-INDEX.md` so stale or absorbed searches are visible from the index. Use helper syntax such as `is.weapon`. Prefer short statuses such as `candidate`, `implemented`, `superseded`, `rejected`, or `reference`; for example: `Terms: is.weapon; Status: superseded by is.weapon`.
+This search history record is meant to help us improve the generator's semantic helpers and to avoid rediscovering the same data shapes or patterns. It is not meant to be a comprehensive research log or a place for implementation notes. If you find something interesting but aren't sure if it's reusable enough for a helper, it's still worth recording in a search note, but be clear about the uncertainty and the table-specificity of the finding.
+
+When a search note could be related to a semantic helper or candidate helper, include that metadata in `context/SEARCH-INDEX.md` so stale or absorbed searches are visible from the index. Use the actual potential helper syntax such as `is.weapon`. Prefer short statuses such as `candidate`, `implemented`, `superseded`, `rejected`, or `reference`; for example: `Terms: is.weapon; Status: superseded by is.weapon`.
 
 Keep notes very concise and evidence-oriented:
 - List the table/files searched and the useful `json_search` predicates or columns.

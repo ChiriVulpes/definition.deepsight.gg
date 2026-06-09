@@ -28,19 +28,19 @@ export default {
                 [InventoryItemHashes.NessasOblationShotgun]: {},
 
                 // hunter
-                [InventoryItemHashes.MaskOfTrepidationHelmetPlug]: {},
-                [InventoryItemHashes.GripsOfTrepidationGauntletsPlug]: {},
-                [InventoryItemHashes.VestOfTrepidationChestArmorPlug]: {},
+                [InventoryItemHashes.MaskOfTrepidationHelmetPlug3810243376]: {},
+                [InventoryItemHashes.GripsOfTrepidationGauntletsPlug3608027009]: {},
+                [InventoryItemHashes.VestOfTrepidationChestArmorPlug2787963735]: {},
 
                 // warlock
-                [InventoryItemHashes.MaskOfDetestationHelmetPlug]: {},
-                [InventoryItemHashes.WrapsOfDetestationGauntletsPlug]: {},
-                [InventoryItemHashes.RobesOfDetestationChestArmorPlug]: {},
+                [InventoryItemHashes.MaskOfDetestationHelmetPlug4123705451]: {},
+                [InventoryItemHashes.WrapsOfDetestationGauntletsPlug2445962586]: {},
+                [InventoryItemHashes.RobesOfDetestationChestArmorPlug2597227950]: {},
 
                 // titan
-                [InventoryItemHashes.HelmOfAgonyHelmetPlug]: {},
-                [InventoryItemHashes.GauntletsOfAgonyGauntletsPlug]: {},
-                [InventoryItemHashes.PlateOfAgonyChestArmorPlug]: {},
+                [InventoryItemHashes.HelmOfAgonyHelmetPlug3475635982]: {},
+                [InventoryItemHashes.GauntletsOfAgonyGauntletsPlug630432767]: {},
+                [InventoryItemHashes.PlateOfAgonyChestArmorPlug824228793]: {},
             },
         },
         {
@@ -74,19 +74,19 @@ export default {
                 [InventoryItemHashes.AcasiasDejectionTraceRifle]: {},
 
                 // hunter
-                [InventoryItemHashes.GripsOfTrepidationGauntletsPlug]: {},
-                [InventoryItemHashes.VestOfTrepidationChestArmorPlug]: {},
-                [InventoryItemHashes.BootsOfTrepidationLegArmorPlug]: {},
+                [InventoryItemHashes.GripsOfTrepidationGauntletsPlug3608027009]: {},
+                [InventoryItemHashes.VestOfTrepidationChestArmorPlug2787963735]: {},
+                [InventoryItemHashes.BootsOfTrepidationLegArmorPlug807905267]: {},
 
                 // warlock
-                [InventoryItemHashes.WrapsOfDetestationGauntletsPlug]: {},
-                [InventoryItemHashes.RobesOfDetestationChestArmorPlug]: {},
-                [InventoryItemHashes.BootsOfDetestationLegArmorPlug]: {},
+                [InventoryItemHashes.WrapsOfDetestationGauntletsPlug2445962586]: {},
+                [InventoryItemHashes.RobesOfDetestationChestArmorPlug2597227950]: {},
+                [InventoryItemHashes.BootsOfDetestationLegArmorPlug3702434452]: {},
 
                 // titan
-                [InventoryItemHashes.GauntletsOfAgonyGauntletsPlug]: {},
-                [InventoryItemHashes.PlateOfAgonyChestArmorPlug]: {},
-                [InventoryItemHashes.GreavesOfAgonyLegArmorPlug]: {},
+                [InventoryItemHashes.GauntletsOfAgonyGauntletsPlug630432767]: {},
+                [InventoryItemHashes.PlateOfAgonyChestArmorPlug824228793]: {},
+                [InventoryItemHashes.GreavesOfAgonyLegArmorPlug3846650177]: {},
             },
         },
         {
@@ -112,19 +112,19 @@ export default {
                 [InventoryItemHashes.AcasiasDejectionTraceRifle]: {},
 
                 // hunter
-                [InventoryItemHashes.VestOfTrepidationChestArmorPlug]: {},
-                [InventoryItemHashes.BootsOfTrepidationLegArmorPlug]: {},
-                [InventoryItemHashes.CloakOfTrepidationHunterCloakPlug]: {},
+                [InventoryItemHashes.VestOfTrepidationChestArmorPlug2787963735]: {},
+                [InventoryItemHashes.BootsOfTrepidationLegArmorPlug807905267]: {},
+                [InventoryItemHashes.CloakOfTrepidationHunterCloakPlug621315878]: {},
 
                 // warlock
-                [InventoryItemHashes.RobesOfDetestationChestArmorPlug]: {},
-                [InventoryItemHashes.BootsOfDetestationLegArmorPlug]: {},
-                [InventoryItemHashes.BondOfDetestationWarlockBondPlug]: {},
+                [InventoryItemHashes.RobesOfDetestationChestArmorPlug2597227950]: {},
+                [InventoryItemHashes.BootsOfDetestationLegArmorPlug3702434452]: {},
+                [InventoryItemHashes.BondOfDetestationWarlockBondPlug2915322487]: {},
 
                 // titan
-                [InventoryItemHashes.PlateOfAgonyChestArmorPlug]: {},
-                [InventoryItemHashes.GreavesOfAgonyLegArmorPlug]: {},
-                [InventoryItemHashes.MarkOfAgonyTitanMarkPlug]: {},
+                [InventoryItemHashes.PlateOfAgonyChestArmorPlug824228793]: {},
+                [InventoryItemHashes.GreavesOfAgonyLegArmorPlug3846650177]: {},
+                [InventoryItemHashes.MarkOfAgonyTitanMarkPlug2138394740]: {},
 
             },
         },
@@ -160,19 +160,19 @@ export default {
                 [InventoryItemHashes.NessasOblationShotgun]: {},
 
                 // hunter
-                [InventoryItemHashes.MaskOfTrepidationHelmetPlug]: {},
-                [InventoryItemHashes.BootsOfTrepidationLegArmorPlug]: {},
-                [InventoryItemHashes.CloakOfTrepidationHunterCloakPlug]: {},
+                [InventoryItemHashes.MaskOfTrepidationHelmetPlug3810243376]: {},
+                [InventoryItemHashes.BootsOfTrepidationLegArmorPlug807905267]: {},
+                [InventoryItemHashes.CloakOfTrepidationHunterCloakPlug621315878]: {},
 
                 // warlock
-                [InventoryItemHashes.MaskOfDetestationHelmetPlug]: {},
-                [InventoryItemHashes.BootsOfDetestationLegArmorPlug]: {},
-                [InventoryItemHashes.BondOfDetestationWarlockBondPlug]: {},
+                [InventoryItemHashes.MaskOfDetestationHelmetPlug4123705451]: {},
+                [InventoryItemHashes.BootsOfDetestationLegArmorPlug3702434452]: {},
+                [InventoryItemHashes.BondOfDetestationWarlockBondPlug2915322487]: {},
 
                 // titan
-                [InventoryItemHashes.HelmOfAgonyHelmetPlug]: {},
-                [InventoryItemHashes.GreavesOfAgonyLegArmorPlug]: {},
-                [InventoryItemHashes.MarkOfAgonyTitanMarkPlug]: {},
+                [InventoryItemHashes.HelmOfAgonyHelmetPlug3475635982]: {},
+                [InventoryItemHashes.GreavesOfAgonyLegArmorPlug3846650177]: {},
+                [InventoryItemHashes.MarkOfAgonyTitanMarkPlug2138394740]: {},
             },
         },
     ],

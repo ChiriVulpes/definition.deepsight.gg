@@ -33,6 +33,8 @@ namespace ItemPreferred {
 	}
 
 	const IGNORED_ITEMS: number[] = [
+		// Masterworked Mint Retrograde duplicate of the normal collection copy.
+		InventoryItemHashes.MintRetrogradePulseRifle1715391576,
 	]
 
 	export function isIgnored (item: InventoryItemHashes) {

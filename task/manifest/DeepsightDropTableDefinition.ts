@@ -21,101 +21,6 @@ export default Task('DeepsightDropTableDefinition', async () => {
 	const activities = await DestinyActivities.get()
 
 	////////////////////////////////////
-	//#region Exotic Mission
-
-	let normalExoticMission: Activity | undefined
-	let legendExoticMission: Activity | undefined
-
-	if (!normalExoticMission || !legendExoticMission) {
-		const legendsGraph = DestinyActivityGraphDefinition[ActivityGraphHashes.Legends]
-		const exoticMissionsNodeHash = 329299745
-		const exoticMissionsNode = legendsGraph?.nodes.find(node => node.nodeId === exoticMissionsNodeHash)
-		const exoticMissions = activities.filter(activity => exoticMissionsNode?.activities.some(exoticMission => exoticMission.activityHash === activity.activity.activityHash))
-
-		for (const activity of exoticMissions) {
-			if (activity.definition?.selectionScreenDisplayProperties?.name === 'Standard')
-				normalExoticMission = activity
-			else if (activity.definition?.selectionScreenDisplayProperties?.name === 'Normal')
-				normalExoticMission = activity
-			else if (activity.definition?.selectionScreenDisplayProperties?.name === 'Legend')
-				legendExoticMission = activity
-			else if (activity.definition?.selectionScreenDisplayProperties?.name === 'Expert')
-				legendExoticMission = activity
-		}
-
-		if (!normalExoticMission || !legendExoticMission)
-			for (const activity of exoticMissions) {
-				if (activity.definition?.displayProperties?.name.includes('Normal'))
-					normalExoticMission = activity
-				else if (activity.definition?.displayProperties?.name.includes('Standard'))
-					normalExoticMission = activity
-				else if (activity.definition?.displayProperties?.name.includes('Legend'))
-					legendExoticMission = activity
-				else if (activity.definition?.displayProperties?.name.includes('Expert'))
-					legendExoticMission = activity
-			}
-
-		if (!normalExoticMission && legendExoticMission)
-			for (const activity of exoticMissions) {
-				const isLegend = activity.definition?.displayProperties?.name.includes('Legend')
-					|| activity.definition?.displayProperties?.name.includes('Expert')
-					|| activity.definition?.selectionScreenDisplayProperties?.name.includes('Legend')
-					|| activity.definition?.selectionScreenDisplayProperties?.name.includes('Expert')
-				if (!isLegend)
-					normalExoticMission = activity
-			}
-
-		if (!normalExoticMission || !legendExoticMission)
-			throw new Error('Failed to get the current exotic mission :(')
-	}
-
-	if (normalExoticMission && legendExoticMission) {
-		let [exoticWeapon] = await getCollectionsCopies(...normalExoticMission.definition!.rewards
-			.flatMap(reward => reward.rewardItems)
-			.map(item => item.itemHash))
-
-		if (normalExoticMission.definition?.displayProperties.name.includes('Starcrossed'))
-			[exoticWeapon] = await getCollectionsCopies(InventoryItemHashes.WishKeeperCombatBow)
-		else if (normalExoticMission.definition?.displayProperties.name.includes('AVALON'))
-			[exoticWeapon] = await getCollectionsCopies(InventoryItemHashes.VexcaliburGlaive)
-		else if (normalExoticMission.definition?.displayProperties.name.includes('Encore'))
-			[exoticWeapon] = await getCollectionsCopies(InventoryItemHashes.ChoirOfOneAutoRifle)
-		else if (normalExoticMission.definition?.displayProperties.name.includes('Kell\'s Fall'))
-			[exoticWeapon] = await getCollectionsCopies(InventoryItemHashes.SlayersFangShotgun)
-
-		if (!exoticWeapon)
-			throw new Error('Failed to get the exotic weapon from the current exotic mission :(')
-
-		Log.info('Exotic Mission:', normalExoticMission.definition!.displayProperties.name, normalExoticMission.activity.activityHash)
-		DeepsightDropTableDefinition[normalExoticMission.activity.activityHash as ActivityHashes] = {
-			hash: normalExoticMission.activity.activityHash,
-			displayProperties: {
-				name: normalExoticMission.definition!.originalDisplayProperties.name,
-				description: normalExoticMission.definition!.originalDisplayProperties.description,
-				icon: { DestinyTraitDefinition: TraitHashes.ItemQuestExotic },
-			},
-			dropTable: {
-				[exoticWeapon.hash]: {},
-			},
-			master: {
-				activityHash: legendExoticMission.activity.activityHash,
-				availability: 'rotator',
-			},
-			availability: 'rotator',
-			endTime: Time.iso(Time.nextWeeklyReset),
-			type: 'exotic-mission',
-			typeDisplayProperties: await DestinyManifestReference.resolveAll({
-				name: { DestinyActivityTypeDefinition: ActivityTypeHashes.ExoticMission },
-				description: { DestinyActivityTypeDefinition: ActivityTypeHashes.Dungeon },
-				icon: { DestinyTraitDefinition: TraitHashes.ItemQuestExotic },
-			}),
-		}
-	}
-
-	//#endregion
-	////////////////////////////////////
-
-	////////////////////////////////////
 	//#region Static Tweaks
 	// Fix up drop static tables based on manifest and profile data
 
@@ -378,7 +283,7 @@ export default Task('DeepsightDropTableDefinition', async () => {
 				availability: 'rotator',
 				displayProperties: {
 					...displayProperties,
-					icon: await DestinyManifestReference.resolve({ DestinyRecordDefinition: RecordHashes.ThisOrderlyConduct_RewardItems0Quantity1 }, 'icon'),
+					icon: await DestinyManifestReference.resolve({ DestinyRecordDefinition: RecordHashes.ThisOrderlyConduct_RewardItemsLength4 }, 'icon'),
 				},
 				dropTable: bonusFocus.toObject(bonusFocus => [bonusFocus.itemQuantity.itemHash, {}]),
 				typeDisplayProperties: await DestinyManifestReference.resolveAll({

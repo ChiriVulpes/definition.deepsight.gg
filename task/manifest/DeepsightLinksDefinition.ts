@@ -1,4 +1,4 @@
-import type { DeepsightComponentLinksDefinition, DeepsightDefinitionLinkDefinition, DeepsightEnumDefinition, DeepsightEnumLinkDefinition, DeepsightLinksDefinition, DeepsightManifestComponentsMap, PopularityreportManifestComponentsMap } from '@deepsight.gg/Interfaces'
+import type { DeepsightComponentLinksDefinition, DeepsightDefinitionLinkDefinition, DeepsightEnumDefinition, DeepsightEnumLinkDefinition, DeepsightLinksDefinition, DeepsightManifestComponentsMap, LinksSourceComponentName, PopularityreportManifestComponentsMap } from '@deepsight.gg/Interfaces'
 import type { AllDestinyManifestComponents } from 'bungie-api-ts/destiny2'
 import fs from 'fs-extra'
 import { Task } from 'task'
@@ -17,7 +17,7 @@ const _ = undefined
 
 export default Task('DeepsightLinksDefinition', async () => {
 	type ComponentNames = keyof AllDestinyManifestComponents | keyof DeepsightManifestComponentsMap | keyof PopularityreportManifestComponentsMap | 'ClarityDescriptions'
-	const components: Partial<Record<ComponentNames, DeepsightComponentLinksDefinition>> = {}
+	const components: Partial<Record<LinksSourceComponentName, DeepsightComponentLinksDefinition>> = {}
 	const enums: Partial<Record<string, DeepsightEnumDefinition>> = {}
 
 	////////////////////////////////////
@@ -34,60 +34,13 @@ export default Task('DeepsightLinksDefinition', async () => {
 			continue
 
 		// console.log(componentName)
-		// console.log(getLinks(definition))
-		const links = getLinks(definition)
+		// console.log(getOpenApiLinks(definition))
+		const links = getOpenApiLinks(definition)
 		if (links.length)
 			components[componentName] = {
 				component: componentName,
 				links,
 			}
-
-		function getLinks (def?: OpenAPIDefinition | OpenAPIReference, path: string[] = [], mappedDef?: OpenAPIReference): (DeepsightDefinitionLinkDefinition | DeepsightEnumLinkDefinition)[] {
-			if (!def)
-				return []
-
-			if (isOpenApiReference(def))
-				return getLinks(resolveOpenApiReference(openapi, def), path)
-
-			if (def.type === 'number' || (def.type === 'integer' && !('enum' in def) && !('x-enum-reference' in def))) {
-				mappedDef = def['x-mapped-definition'] ?? mappedDef
-				const defName = mappedDef && openApiReferenceName(mappedDef)
-				const componentName = defName && componentNamesToDefNamesAndViceVersa.get(defName) as ComponentNames | undefined
-				return !componentName ? []
-					: [{ component: componentName, path: path.join('.') }]
-			}
-
-			if (def.type === 'integer' && 'x-enum-reference' in def) {
-				const enumSchemaName = openApiReferenceName(def['x-enum-reference']!)
-				const enumName = enumSchemaName.split('.').pop()!
-				addEnum(enumName)
-				return [{ enum: enumName, path: path.join('.') }]
-			}
-
-			if (def.type !== 'object' && def.type !== 'array')
-				return []
-
-			if (def.type === 'array')
-				return getLinks(def.items, [...path, '[]'], def['x-mapped-definition'])
-
-			const links: (DeepsightDefinitionLinkDefinition | DeepsightEnumLinkDefinition)[] = []
-
-			if (def.properties)
-				for (const [propName, propDef] of Object.entries(def.properties))
-					links.push(...getLinks(propDef, [...path, propName]))
-
-			if (def.additionalProperties && def['x-dictionary-key'])
-				links.push(...getLinks(def['x-dictionary-key'], [...path, '{}'], def['x-mapped-definition']))
-
-			if (isOpenApiReference(def.additionalProperties))
-				links.push(...getLinks(def.additionalProperties, [...path, '{}']))
-
-			if (def.allOf)
-				for (const subDef of def.allOf)
-					links.push(...getLinks(subDef, path))
-
-			return links
-		}
 	}
 
 	const missingComponents = componentNames.filter(name => !foundComponents.has(name))
@@ -112,6 +65,16 @@ export default Task('DeepsightLinksDefinition', async () => {
 		'portalActivityGraphRootNodesWithIcons.{}',
 		'DestinyFireteamFinderActivityGraphDefinition',
 	)
+
+	addVirtualOpenApiComponentLinks('profiles', getProfileSchema())
+	addVirtualOpenApiComponentLinks('pgcrs', {
+		type: 'object',
+		properties: {
+			profile: getProfileSchema(),
+			activity: openApiReference('Destiny.HistoricalStats.DestinyHistoricalStatsPeriodGroup'),
+			pgcr: openApiReference('Destiny.HistoricalStats.DestinyPostGameCarnageReportData'),
+		},
+	})
 
 	//#endregion
 	////////////////////////////////////
@@ -143,6 +106,114 @@ export default Task('DeepsightLinksDefinition', async () => {
 				members,
 				bitmask: schema['x-enum-is-bitmask'] ? true : undefined,
 			}
+		}
+	}
+
+	function getOpenApiLinks (def?: OpenAPIDefinition | OpenAPIReference, path: string[] = [], mappedDef?: OpenAPIReference): (DeepsightDefinitionLinkDefinition | DeepsightEnumLinkDefinition)[] {
+		if (!def)
+			return []
+
+		if (isOpenApiReference(def))
+			return getOpenApiLinks(resolveOpenApiReference(openapi, def), path)
+
+		if (def.type === 'number' || (def.type === 'integer' && !('enum' in def) && !('x-enum-reference' in def))) {
+			mappedDef = def['x-mapped-definition'] ?? mappedDef
+			const defName = mappedDef && openApiReferenceName(mappedDef)
+			const componentName = defName && componentNamesToDefNamesAndViceVersa.get(defName) as ComponentNames | undefined
+			return !componentName ? []
+				: [{ component: componentName, path: path.join('.') }]
+		}
+
+		if (def.type === 'integer' && 'x-enum-reference' in def) {
+			const enumSchemaName = openApiReferenceName(def['x-enum-reference']!)
+			const enumName = enumSchemaName.split('.').pop()!
+			addEnum(enumName)
+			return [{ enum: enumName, path: path.join('.') }]
+		}
+
+		if (def.type !== 'object' && def.type !== 'array')
+			return []
+
+		if (def.type === 'array')
+			return getOpenApiLinks(def.items, [...path, '[]'], def['x-mapped-definition'])
+
+		const links: (DeepsightDefinitionLinkDefinition | DeepsightEnumLinkDefinition)[] = []
+
+		if (def.properties)
+			for (const [propName, propDef] of Object.entries(def.properties))
+				links.push(...getOpenApiLinks(propDef, [...path, propName]))
+
+		if (def.additionalProperties && def['x-dictionary-key'])
+			links.push(...getOpenApiLinks(def['x-dictionary-key'], [...path, '{}'], def['x-mapped-definition']))
+
+		if (isOpenApiReference(def.additionalProperties))
+			links.push(...getOpenApiLinks(def.additionalProperties, [...path, '{}']))
+
+		if (def.allOf)
+			for (const subDef of def.allOf)
+				links.push(...getOpenApiLinks(subDef, path))
+
+		return links
+	}
+
+	function addVirtualOpenApiComponentLinks (component: LinksSourceComponentName, definition: OpenAPIDefinition) {
+		const links = getOpenApiLinks(definition)
+		if (links.length)
+			components[component] = {
+				component,
+				links,
+			}
+	}
+
+	function getProfileSchema (): OpenAPIDefinition {
+		return {
+			type: 'object',
+			properties: {
+				type: enumReference('BungieMembershipType'),
+				classType: enumReference('Destiny.DestinyClass'),
+				emblem: {
+					type: 'object',
+					properties: {
+						hash: mappedDefinitionReference('Destiny.Definitions.DestinyInventoryItemDefinition'),
+					},
+				},
+				characters: {
+					type: 'array',
+					items: {
+						type: 'object',
+						properties: {
+							metadata: openApiReference('Destiny.Entities.Characters.DestinyCharacterComponent'),
+							emblem: {
+								type: 'object',
+								properties: {
+									hash: mappedDefinitionReference('Destiny.Definitions.DestinyInventoryItemDefinition'),
+								},
+							},
+						},
+					},
+				},
+			},
+		}
+	}
+
+	function openApiReference (schema: string): OpenAPIReference {
+		return { $ref: `#/components/schemas/${schema}` }
+	}
+
+	function mappedDefinitionReference (schema: string): OpenAPIDefinition {
+		return {
+			'type': 'integer',
+			'format': 'uint32',
+			'x-mapped-definition': openApiReference(schema),
+		}
+	}
+
+	function enumReference (schema: string): OpenAPIDefinition {
+		return {
+			'type': 'integer',
+			'format': 'int32',
+			'x-enum-reference': openApiReference(schema),
+			'x-enum-is-bitmask': false,
 		}
 	}
 

@@ -15,7 +15,7 @@ export default Task('DeepsightVendorDefinition', async () => {
 		[VendorHashes['30thAnniversaryXur']]: vendors[VendorHashes['30thAnniversaryXur']],
 		[VendorHashes.TowerAda]: vendors[VendorHashes.TowerAda],
 		[VendorHashes.Gunsmith]: vendors[VendorHashes.Gunsmith],
-		[VendorHashes.TessEveris]: vendors[VendorHashes.TessEveris],
+		[VendorHashes.TessEveris_FailureStringsLength0]: vendors[VendorHashes.TessEveris_FailureStringsLength0],
 		[VendorHashes.TitanVanguard]: vendors[VendorHashes.TitanVanguard],
 		[VendorHashes.Gambit]: vendors[VendorHashes.Gambit],
 		[VendorHashes.TowerSaint14]: vendors[VendorHashes.TowerSaint14],

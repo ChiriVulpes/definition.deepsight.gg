@@ -28,19 +28,19 @@ export default {
                 [InventoryItemHashes.AbyssDefiantAutoRifle]: {},
 
                 // hunter
-                [InventoryItemHashes.UnyieldingCasqueHelmetPlug]: {},
-                [InventoryItemHashes.DoggedGageGauntletsPlug]: {},
-                [InventoryItemHashes.RelentlessHarnessChestArmorPlug]: {},
+                [InventoryItemHashes.UnyieldingCasqueHelmetPlug859929450]: {},
+                [InventoryItemHashes.DoggedGageGauntletsPlug441033139]: {},
+                [InventoryItemHashes.RelentlessHarnessChestArmorPlug3714937821]: {},
 
                 // warlock
-                [InventoryItemHashes.DeathsingersGazeHelmetPlug]: {},
-                [InventoryItemHashes.DeathsingersGripGauntletsPlug]: {},
-                [InventoryItemHashes.DeathsingersMantleChestArmorPlug]: {},
+                [InventoryItemHashes.DeathsingersGazeHelmetPlug1964816829]: {},
+                [InventoryItemHashes.DeathsingersGripGauntletsPlug427348780]: {},
+                [InventoryItemHashes.DeathsingersMantleChestArmorPlug1386180724]: {},
 
                 // titan
-                [InventoryItemHashes.WillbreakersWatchHelmetPlug]: {},
-                [InventoryItemHashes.WillbreakersFistsGauntletsPlug]: {},
-                [InventoryItemHashes.WillbreakersResolveChestArmorPlug]: {},
+                [InventoryItemHashes.WillbreakersWatchHelmetPlug1328334240]: {},
+                [InventoryItemHashes.WillbreakersFistsGauntletsPlug3189374833]: {},
+                [InventoryItemHashes.WillbreakersResolveChestArmorPlug1261894567]: {},
 
             },
         },
@@ -57,19 +57,19 @@ export default {
                 [InventoryItemHashes.OversoulEdictPulseRifle]: {},
 
                 // hunter
-                [InventoryItemHashes.DoggedGageGauntletsPlug]: {},
-                [InventoryItemHashes.RelentlessHarnessChestArmorPlug]: {},
-                [InventoryItemHashes.TirelessStridersLegArmorPlug]: {},
+                [InventoryItemHashes.DoggedGageGauntletsPlug441033139]: {},
+                [InventoryItemHashes.RelentlessHarnessChestArmorPlug3714937821]: {},
+                [InventoryItemHashes.TirelessStridersLegArmorPlug175883909]: {},
 
                 // warlock
-                [InventoryItemHashes.DeathsingersGripGauntletsPlug]: {},
-                [InventoryItemHashes.DeathsingersMantleChestArmorPlug]: {},
-                [InventoryItemHashes.DeathsingersHeraldLegArmorPlug]: {},
+                [InventoryItemHashes.DeathsingersGripGauntletsPlug427348780]: {},
+                [InventoryItemHashes.DeathsingersMantleChestArmorPlug1386180724]: {},
+                [InventoryItemHashes.DeathsingersHeraldLegArmorPlug1497538390]: {},
 
                 // titan
-                [InventoryItemHashes.WillbreakersFistsGauntletsPlug]: {},
-                [InventoryItemHashes.WillbreakersResolveChestArmorPlug]: {},
-                [InventoryItemHashes.WillbreakersGreavesLegArmorPlug]: {},
+                [InventoryItemHashes.WillbreakersFistsGauntletsPlug3189374833]: {},
+                [InventoryItemHashes.WillbreakersResolveChestArmorPlug1261894567]: {},
+                [InventoryItemHashes.WillbreakersGreavesLegArmorPlug3020524483]: {},
             },
         },
         {
@@ -93,19 +93,19 @@ export default {
                 [InventoryItemHashes.OversoulEdictPulseRifle]: {},
 
                 // hunter
-                [InventoryItemHashes.RelentlessHarnessChestArmorPlug]: {},
-                [InventoryItemHashes.TirelessStridersLegArmorPlug]: {},
-                [InventoryItemHashes.ShroudOfFliesHunterCloakPlug]: {},
+                [InventoryItemHashes.RelentlessHarnessChestArmorPlug3714937821]: {},
+                [InventoryItemHashes.TirelessStridersLegArmorPlug175883909]: {},
+                [InventoryItemHashes.ShroudOfFliesHunterCloakPlug1306415888]: {},
 
                 // warlock
-                [InventoryItemHashes.DeathsingersMantleChestArmorPlug]: {},
-                [InventoryItemHashes.DeathsingersHeraldLegArmorPlug]: {},
-                [InventoryItemHashes.BoneCircletWarlockBondPlug]: {},
+                [InventoryItemHashes.DeathsingersMantleChestArmorPlug1386180724]: {},
+                [InventoryItemHashes.DeathsingersHeraldLegArmorPlug1497538390]: {},
+                [InventoryItemHashes.BoneCircletWarlockBondPlug2130010697]: {},
 
                 // titan
-                [InventoryItemHashes.WillbreakersResolveChestArmorPlug]: {},
-                [InventoryItemHashes.WillbreakersGreavesLegArmorPlug]: {},
-                [InventoryItemHashes.MarkOfThePitTitanMarkPlug]: {},
+                [InventoryItemHashes.WillbreakersResolveChestArmorPlug1261894567]: {},
+                [InventoryItemHashes.WillbreakersGreavesLegArmorPlug3020524483]: {},
+                [InventoryItemHashes.MarkOfThePitTitanMarkPlug2401746614]: {},
             },
         },
         {
@@ -122,19 +122,19 @@ export default {
                 [InventoryItemHashes.SwordbreakerShotgun]: {},
 
                 // hunter
-                [InventoryItemHashes.UnyieldingCasqueHelmetPlug]: {},
-                [InventoryItemHashes.TirelessStridersLegArmorPlug]: {},
-                [InventoryItemHashes.ShroudOfFliesHunterCloakPlug]: {},
+                [InventoryItemHashes.UnyieldingCasqueHelmetPlug859929450]: {},
+                [InventoryItemHashes.TirelessStridersLegArmorPlug175883909]: {},
+                [InventoryItemHashes.ShroudOfFliesHunterCloakPlug1306415888]: {},
 
                 // warlock
-                [InventoryItemHashes.DeathsingersGazeHelmetPlug]: {},
-                [InventoryItemHashes.DeathsingersHeraldLegArmorPlug]: {},
-                [InventoryItemHashes.BoneCircletWarlockBondPlug]: {},
+                [InventoryItemHashes.DeathsingersGazeHelmetPlug1964816829]: {},
+                [InventoryItemHashes.DeathsingersHeraldLegArmorPlug1497538390]: {},
+                [InventoryItemHashes.BoneCircletWarlockBondPlug2130010697]: {},
 
                 // titan
-                [InventoryItemHashes.WillbreakersWatchHelmetPlug]: {},
-                [InventoryItemHashes.WillbreakersGreavesLegArmorPlug]: {},
-                [InventoryItemHashes.MarkOfThePitTitanMarkPlug]: {},
+                [InventoryItemHashes.WillbreakersWatchHelmetPlug1328334240]: {},
+                [InventoryItemHashes.WillbreakersGreavesLegArmorPlug3020524483]: {},
+                [InventoryItemHashes.MarkOfThePitTitanMarkPlug2401746614]: {},
             },
         },
     ],

@@ -6,7 +6,7 @@ import Env from '../../utility/Env'
 import Log from '../../utility/Log'
 import type { PromiseOr } from '../../utility/Type'
 import type { DeepsightItemInvestmentStatDefinition, DeepsightPlugCategorisationMasterwork, DeepsightPlugCategorisationMod, DeepsightPlugCategorisationSubclass } from '../IDeepsightPlugCategorisation'
-import { DeepsightPlugCategorisation, DeepsightPlugCategory, DeepsightPlugTypeCosmetic, DeepsightPlugTypeDestination, DeepsightPlugTypeExtractable, DeepsightPlugTypeIntrinsic, DeepsightPlugTypeMap, DeepsightPlugTypeMasterwork, DeepsightPlugTypeMod, DeepsightPlugTypePerk, DeepsightPlugTypeSubclass, DeepsightPlugTypeVendor } from '../IDeepsightPlugCategorisation'
+import { DeepsightPlugCategorisation, DeepsightPlugCategory, DeepsightPlugTypeArtifact, DeepsightPlugTypeCosmetic, DeepsightPlugTypeDestination, DeepsightPlugTypeExtractable, DeepsightPlugTypeIntrinsic, DeepsightPlugTypeMap, DeepsightPlugTypeMasterwork, DeepsightPlugTypeMod, DeepsightPlugTypePerk, DeepsightPlugTypeSubclass, DeepsightPlugTypeVendor } from '../IDeepsightPlugCategorisation'
 import manifest from '../utility/endpoint/DestinyManifest'
 import DeepsightPlugContextDefinition from './DeepsightPlugContextDefinition'
 
@@ -49,6 +49,10 @@ namespace DeepsightPlugCategorisation {
 			case PlugCategoryHashes.SchismBoonsDestinationModsInfo:
 				return DeepsightPlugCategory.Information
 
+			case PlugCategoryHashes.ArtifactPerks:
+			case PlugCategoryHashes.ArtifactReset:
+				return DeepsightPlugCategory.Artifact
+
 			case PlugCategoryHashes.Intrinsics:
 			case PlugCategoryHashes.Origins:
 			case PlugCategoryHashes.V300VehiclesModControls:
@@ -86,6 +90,7 @@ namespace DeepsightPlugCategorisation {
 			case PlugCategoryHashes.ExoticWeaponMasterworkUpgrade:
 			case PlugCategoryHashes.V400EmptyExoticMasterwork:
 			case PlugCategoryHashes.CraftingPlugsWeaponsModsEnhancers:
+			case PlugCategoryHashes.WeaponTieringPlugsModsEnhancers:
 			case PlugCategoryHashes.V460PlugsArmorMasterworks:
 			case PlugCategoryHashes.V950NewSword0Masterwork:
 				return DeepsightPlugCategory.Masterwork
@@ -227,6 +232,9 @@ namespace DeepsightPlugCategorisation {
 		if (plugCategoryIdentifier?.startsWith('armor_skins_'))
 			return DeepsightPlugCategory.Cosmetic
 
+		if (plugCategoryIdentifier?.endsWith('_skins'))
+			return DeepsightPlugCategory.Cosmetic
+
 		if (plugCategoryIdentifier?.endsWith('.masterworks.trackers'))
 			return DeepsightPlugCategory.Cosmetic
 
@@ -283,6 +291,8 @@ namespace DeepsightPlugCategorisation {
 					return DeepsightPlugTypeMasterwork.AuthorizationEmpty
 				case InventoryItemHashes.EmptyWeaponLevelBoostSocketPlug:
 					return DeepsightPlugTypeMasterwork.ShapedWeaponEmpty
+				case InventoryItemHashes.EmptyGearTierUpgradePlug:
+					return DeepsightPlugTypeMasterwork.GearTierEmpty
 				case InventoryItemHashes.MasterworkUpgradePlug236077174:
 				case InventoryItemHashes.RandomMasterworkWeaponModDummyPlug:
 					return DeepsightPlugTypeMasterwork.WeaponEmpty
@@ -302,6 +312,8 @@ namespace DeepsightPlugCategorisation {
 					return DeepsightPlugTypeMasterwork.ExoticCatalystEmpty
 				case PlugCategoryHashes.CraftingPlugsWeaponsModsEnhancers:
 					return DeepsightPlugTypeMasterwork.Enhancement
+				case PlugCategoryHashes.WeaponTieringPlugsModsEnhancers:
+					return DeepsightPlugTypeMasterwork.GearTier
 			}
 
 			const plugCategoryIdentifier = context.definition.plug?.plugCategoryIdentifier
@@ -336,6 +348,16 @@ namespace DeepsightPlugCategorisation {
 
 			if (context.definition.inventory?.tierTypeHash === ItemTierTypeHashes.Exotic && plugCategoryIdentifier?.endsWith('.masterwork'))
 				return DeepsightPlugTypeMasterwork.ExoticCatalyst
+		},
+		[DeepsightPlugCategory.Artifact]: context => {
+			switch (context.definition.plug?.plugCategoryHash) {
+				case PlugCategoryHashes.ArtifactReset:
+					return DeepsightPlugTypeArtifact.Reset
+				case PlugCategoryHashes.ArtifactPerks:
+					return context.definition.displayProperties.name === 'Empty Artifact Mod' || !context.definition.displayProperties.name
+						? DeepsightPlugTypeArtifact.Empty
+						: DeepsightPlugTypeArtifact.Perk
+			}
 		},
 		[DeepsightPlugCategory.Vendor]: context => {
 			switch (context.definition.plug?.plugCategoryHash) {
@@ -810,6 +832,9 @@ namespace DeepsightPlugCategorisation {
 
 				if (plugCategoryIdentifier?.startsWith('armor_skins_'))
 					return DeepsightPlugTypeCosmetic.OrnamentArmor
+
+				if (plugCategoryIdentifier?.endsWith('_skins'))
+					return DeepsightPlugTypeCosmetic.OrnamentWeapon
 			})()
 
 			switch (context.definition.inventory?.tierTypeHash) {
@@ -848,7 +873,7 @@ namespace DeepsightPlugCategorisation {
 	function getArmourModRaidActivityHash (context: DeepsightPlugContextDefinition) {
 		switch (context.definition.itemTypeDisplayName) {
 			case 'Deep Stone Crypt Raid Mod':
-				return ActivityHashes.DeepStoneCrypt_ChallengesLength0
+				return ActivityHashes.DeepStoneCrypt_GuidedGameUndefined
 			case 'Root of Nightmares Armor Mod':
 				return ActivityHashes.RootOfNightmaresStandard
 			case 'Crota\'s End Mod':

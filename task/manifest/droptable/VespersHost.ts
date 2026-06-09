@@ -7,7 +7,7 @@ export default {
 		icon: './image/png/activity/vespershost.png',
 	},
 	dropTable: {
-		[InventoryItemHashes.VsGraviticArrestFusionRifle]: {},
+		[InventoryItemHashes.VsGraviticArrestFusionRifle_TooltipNotificationsLength3]: {},
 
 		[InventoryItemHashes.SpacewalkBootsLegArmorPlug1025368892]: {},
 		[InventoryItemHashes.SpacewalkBootsLegArmorPlug3901727798]: {},
@@ -31,8 +31,8 @@ export default {
 				description: 'Reactivate station power to open the path ahead.',
 			},
 			dropTable: {
-				[InventoryItemHashes.VsChillInhibitorGrenadeLauncher]: {},
-				[InventoryItemHashes.VsVelocityBatonGrenadeLauncher]: {},
+				[InventoryItemHashes.VsChillInhibitorGrenadeLauncher_TooltipNotificationsLength3]: {},
+				[InventoryItemHashes.VsVelocityBatonGrenadeLauncher_TooltipNotificationsLength3]: {},
 
 				[InventoryItemHashes.SpacewalkPlateChestArmorPlug1615763427]: {},
 				[InventoryItemHashes.SpacewalkPlateChestArmorPlug3820841619]: {},
@@ -63,8 +63,8 @@ export default {
 				description: 'Find a way to defeat the Unified Servitor.',
 			},
 			dropTable: {
-				[InventoryItemHashes.VsChillInhibitorGrenadeLauncher]: {},
-				[InventoryItemHashes.VsPyroelectricPropellantAutoRifle]: {},
+				[InventoryItemHashes.VsChillInhibitorGrenadeLauncher_TooltipNotificationsLength3]: {},
+				[InventoryItemHashes.VsPyroelectricPropellantAutoRifle_TooltipNotificationsLength3]: {},
 
 				[InventoryItemHashes.SpacewalkHelmHelmetPlug2244013188]: {},
 				[InventoryItemHashes.SpacewalkHelmHelmetPlug4036496212]: {},
@@ -100,8 +100,8 @@ export default {
 			},
 			dropTable: {
 				[InventoryItemHashes.IceBreakerSniperRifle]: {},
-				[InventoryItemHashes.VsVelocityBatonGrenadeLauncher]: {},
-				[InventoryItemHashes.VsPyroelectricPropellantAutoRifle]: {},
+				[InventoryItemHashes.VsVelocityBatonGrenadeLauncher_TooltipNotificationsLength3]: {},
+				[InventoryItemHashes.VsPyroelectricPropellantAutoRifle_TooltipNotificationsLength3]: {},
 
 				[InventoryItemHashes.SpacewalkHelmHelmetPlug2244013188]: {},
 				[InventoryItemHashes.SpacewalkHelmHelmetPlug4036496212]: {},
