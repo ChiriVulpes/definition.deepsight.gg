@@ -2199,6 +2199,244 @@
 				}
 			]
 		},
+		"profiles": {
+			"component": "profiles",
+			"links": [
+				{
+					"enum": "BungieMembershipType",
+					"path": "type"
+				},
+				{
+					"enum": "DestinyClass",
+					"path": "classType"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "emblem.hash"
+				},
+				{
+					"enum": "BungieMembershipType",
+					"path": "characters.[].metadata.membershipType"
+				},
+				{
+					"component": "DestinyRaceDefinition",
+					"path": "characters.[].metadata.raceHash"
+				},
+				{
+					"component": "DestinyGenderDefinition",
+					"path": "characters.[].metadata.genderHash"
+				},
+				{
+					"component": "DestinyClassDefinition",
+					"path": "characters.[].metadata.classHash"
+				},
+				{
+					"enum": "DestinyRace",
+					"path": "characters.[].metadata.raceType"
+				},
+				{
+					"enum": "DestinyClass",
+					"path": "characters.[].metadata.classType"
+				},
+				{
+					"enum": "DestinyGender",
+					"path": "characters.[].metadata.genderType"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "characters.[].metadata.emblemHash"
+				},
+				{
+					"component": "DestinyProgressionDefinition",
+					"path": "characters.[].metadata.levelProgression.progressionHash"
+				},
+				{
+					"enum": "DestinyProgressionRewardItemState",
+					"path": "characters.[].metadata.levelProgression.rewardItemStates.[]"
+				},
+				{
+					"component": "DestinyStatDefinition",
+					"path": "characters.[].metadata.levelProgression.rewardItemSocketOverrideStates.{}.rewardItemStats.{}"
+				},
+				{
+					"component": "DestinyStatDefinition",
+					"path": "characters.[].metadata.levelProgression.rewardItemSocketOverrideStates.{}.rewardItemStats.{}.statHash"
+				},
+				{
+					"enum": "ItemState",
+					"path": "characters.[].metadata.levelProgression.rewardItemSocketOverrideStates.{}.itemState"
+				},
+				{
+					"component": "DestinyRecordDefinition",
+					"path": "characters.[].metadata.titleRecordHash"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "characters.[].emblem.hash"
+				}
+			]
+		},
+		"pgcrs": {
+			"component": "pgcrs",
+			"links": [
+				{
+					"enum": "BungieMembershipType",
+					"path": "profile.type"
+				},
+				{
+					"enum": "DestinyClass",
+					"path": "profile.classType"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "profile.emblem.hash"
+				},
+				{
+					"enum": "BungieMembershipType",
+					"path": "profile.characters.[].metadata.membershipType"
+				},
+				{
+					"component": "DestinyRaceDefinition",
+					"path": "profile.characters.[].metadata.raceHash"
+				},
+				{
+					"component": "DestinyGenderDefinition",
+					"path": "profile.characters.[].metadata.genderHash"
+				},
+				{
+					"component": "DestinyClassDefinition",
+					"path": "profile.characters.[].metadata.classHash"
+				},
+				{
+					"enum": "DestinyRace",
+					"path": "profile.characters.[].metadata.raceType"
+				},
+				{
+					"enum": "DestinyClass",
+					"path": "profile.characters.[].metadata.classType"
+				},
+				{
+					"enum": "DestinyGender",
+					"path": "profile.characters.[].metadata.genderType"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "profile.characters.[].metadata.emblemHash"
+				},
+				{
+					"component": "DestinyProgressionDefinition",
+					"path": "profile.characters.[].metadata.levelProgression.progressionHash"
+				},
+				{
+					"enum": "DestinyProgressionRewardItemState",
+					"path": "profile.characters.[].metadata.levelProgression.rewardItemStates.[]"
+				},
+				{
+					"component": "DestinyStatDefinition",
+					"path": "profile.characters.[].metadata.levelProgression.rewardItemSocketOverrideStates.{}.rewardItemStats.{}"
+				},
+				{
+					"component": "DestinyStatDefinition",
+					"path": "profile.characters.[].metadata.levelProgression.rewardItemSocketOverrideStates.{}.rewardItemStats.{}.statHash"
+				},
+				{
+					"enum": "ItemState",
+					"path": "profile.characters.[].metadata.levelProgression.rewardItemSocketOverrideStates.{}.itemState"
+				},
+				{
+					"component": "DestinyRecordDefinition",
+					"path": "profile.characters.[].metadata.titleRecordHash"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "profile.characters.[].emblem.hash"
+				},
+				{
+					"component": "DestinyActivityDefinition",
+					"path": "activity.activityDetails.referenceId"
+				},
+				{
+					"component": "DestinyActivityDefinition",
+					"path": "activity.activityDetails.directorActivityHash"
+				},
+				{
+					"enum": "DestinyActivityModeType",
+					"path": "activity.activityDetails.mode"
+				},
+				{
+					"enum": "DestinyActivityModeType",
+					"path": "activity.activityDetails.modes.[]"
+				},
+				{
+					"enum": "BungieMembershipType",
+					"path": "activity.activityDetails.membershipType"
+				},
+				{
+					"component": "DestinyActivityDefinition",
+					"path": "pgcr.activityDetails.referenceId"
+				},
+				{
+					"component": "DestinyActivityDefinition",
+					"path": "pgcr.activityDetails.directorActivityHash"
+				},
+				{
+					"enum": "DestinyActivityModeType",
+					"path": "pgcr.activityDetails.mode"
+				},
+				{
+					"enum": "DestinyActivityModeType",
+					"path": "pgcr.activityDetails.modes.[]"
+				},
+				{
+					"enum": "BungieMembershipType",
+					"path": "pgcr.activityDetails.membershipType"
+				},
+				{
+					"enum": "BungieMembershipType",
+					"path": "pgcr.entries.[].player.destinyUserInfo.crossSaveOverride"
+				},
+				{
+					"enum": "BungieMembershipType",
+					"path": "pgcr.entries.[].player.destinyUserInfo.applicableMembershipTypes.[]"
+				},
+				{
+					"enum": "BungieMembershipType",
+					"path": "pgcr.entries.[].player.destinyUserInfo.membershipType"
+				},
+				{
+					"component": "DestinyClassDefinition",
+					"path": "pgcr.entries.[].player.classHash"
+				},
+				{
+					"component": "DestinyRaceDefinition",
+					"path": "pgcr.entries.[].player.raceHash"
+				},
+				{
+					"component": "DestinyGenderDefinition",
+					"path": "pgcr.entries.[].player.genderHash"
+				},
+				{
+					"enum": "BungieMembershipType",
+					"path": "pgcr.entries.[].player.bungieNetUserInfo.crossSaveOverride"
+				},
+				{
+					"enum": "BungieMembershipType",
+					"path": "pgcr.entries.[].player.bungieNetUserInfo.applicableMembershipTypes.[]"
+				},
+				{
+					"enum": "BungieMembershipType",
+					"path": "pgcr.entries.[].player.bungieNetUserInfo.membershipType"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "pgcr.entries.[].player.emblemHash"
+				},
+				{
+					"component": "DestinyInventoryItemDefinition",
+					"path": "pgcr.entries.[].extended.weapons.[].referenceId"
+				}
+			]
+		},
 		"DeepsightDropTableDefinition": {
 			"component": "DeepsightDropTableDefinition",
 			"links": [
@@ -4992,6 +5230,76 @@
 				}
 			]
 		},
+		"DestinyProgressionRewardItemState": {
+			"name": "DestinyProgressionRewardItemState",
+			"members": [
+				{
+					"name": "None",
+					"value": 0
+				},
+				{
+					"name": "Invisible",
+					"value": 1,
+					"description": "If this is set, the reward should be hidden."
+				},
+				{
+					"name": "Earned",
+					"value": 2,
+					"description": "If this is set, the reward has been earned."
+				},
+				{
+					"name": "Claimed",
+					"value": 4,
+					"description": "If this is set, the reward has been claimed."
+				},
+				{
+					"name": "ClaimAllowed",
+					"value": 8,
+					"description": "If this is set, the reward is allowed to be claimed by this Character. An item can be earned but still can't be claimed in certain circumstances, like if it's only allowed for certain subclasses. It also might not be able to be claimed if you already claimed it!"
+				}
+			],
+			"bitmask": true
+		},
+		"ItemState": {
+			"name": "ItemState",
+			"members": [
+				{
+					"name": "None",
+					"value": 0
+				},
+				{
+					"name": "Locked",
+					"value": 1,
+					"description": "If this bit is set, the item has been \"locked\" by the user and cannot be deleted. You may want to represent this visually with a \"lock\" icon."
+				},
+				{
+					"name": "Tracked",
+					"value": 2,
+					"description": "If this bit is set, the item is a quest that's being tracked by the user. You may want a visual indicator to show that this is a tracked quest."
+				},
+				{
+					"name": "Masterwork",
+					"value": 4,
+					"description": "If this bit is set, the item has a Masterwork plug inserted. This usually coincides with having a special \"glowing\" effect applied to the item's icon."
+				},
+				{
+					"name": "Crafted",
+					"value": 8,
+					"description": "If this bit is set, the item has been 'crafted' by the player. You may want to represent this visually with a \"crafted\" icon overlay."
+				},
+				{
+					"name": "HighlightedObjective",
+					"value": 16,
+					"description": "If this bit is set, the item has a 'highlighted' objective. You may want to represent this with an orange-red icon border color."
+				},
+				{
+					"name": "Enhanced",
+					"value": 32,
+					"description": "If this bit is set, the item has been 'enhanced' by the player."
+				}
+			],
+			"bitmask": true
+		},
 		"DeepsightItemSourceType": {
 			"name": "DeepsightItemSourceType",
 			"members": [
@@ -5040,84 +5348,60 @@
 					"value": 10
 				},
 				{
-					"name": "ArmsWeekEvent",
+					"name": "Kepler",
 					"value": 11
 				},
 				{
-					"name": "SolsticeEvent",
+					"name": "IronBannerEvent",
 					"value": 12
 				},
 				{
-					"name": "Kepler",
+					"name": "XurStrangeGear",
 					"value": 13
 				},
 				{
-					"name": "HeavyMetalEvent",
+					"name": "ValusSaladinLegacyGear",
 					"value": 14
 				},
 				{
-					"name": "IronBannerEvent",
+					"name": "LawlessFrontier",
 					"value": 15
 				},
 				{
-					"name": "XurStrangeGear",
+					"name": "Renegades",
 					"value": 16
 				},
 				{
-					"name": "ValusSaladinLegacyGear",
+					"name": "TheEdgeOfFate",
 					"value": 17
 				},
 				{
-					"name": "FestivalOfTheLost",
+					"name": "FireAndIce",
 					"value": 18
 				},
 				{
-					"name": "CallToArmsEvent",
+					"name": "TheDesertPerpetual",
 					"value": 19
 				},
 				{
-					"name": "LawlessFrontier",
+					"name": "TheDesertPerpetualEpic",
 					"value": 20
 				},
 				{
-					"name": "Renegades",
+					"name": "Equilibrium",
 					"value": 21
 				},
 				{
-					"name": "TheEdgeOfFate",
+					"name": "SeasonLawless",
 					"value": 22
 				},
 				{
-					"name": "FireAndIce",
+					"name": "SeasonReclamation",
 					"value": 23
 				},
 				{
-					"name": "TheDawning",
-					"value": 24
-				},
-				{
-					"name": "TheDesertPerpetual",
-					"value": 25
-				},
-				{
-					"name": "TheDesertPerpetualEpic",
-					"value": 26
-				},
-				{
-					"name": "Equilibrium",
-					"value": 27
-				},
-				{
-					"name": "SeasonLawless",
-					"value": 28
-				},
-				{
-					"name": "SeasonReclamation",
-					"value": 29
-				},
-				{
 					"name": "Heliostat",
-					"value": 30
+					"value": 24
 				}
 			]
 		},

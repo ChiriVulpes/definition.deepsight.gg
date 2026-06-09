@@ -194,6 +194,15 @@ export declare const enum DeepsightPlugTypeMasterwork {
 	EventSolsticeKindlingEmpty,
 	ShapedWeaponEmpty,
 	WeaponEmpty,
+	GearTierEmpty,
+	GearTier,
+}
+
+export declare const enum DeepsightPlugTypeArtifact {
+	None,
+	Perk,
+	Empty,
+	Reset,
 }
 
 export declare const enum DeepsightPlugTypeVendor {
@@ -237,7 +246,7 @@ export declare type DeepsightPlugTypeMap = {
 	[DeepsightPlugCategory.Subclass]: typeof DeepsightPlugTypeSubclass,
 	[DeepsightPlugCategory.Cosmetic]: typeof DeepsightPlugTypeCosmetic,
 	[DeepsightPlugCategory.Masterwork]: typeof DeepsightPlugTypeMasterwork,
-	[DeepsightPlugCategory.Artifact]: null,
+	[DeepsightPlugCategory.Artifact]: typeof DeepsightPlugTypeArtifact,
 	[DeepsightPlugCategory.Vendor]: typeof DeepsightPlugTypeVendor,
 	[DeepsightPlugCategory.StatusEffect]: null,
 	[DeepsightPlugCategory.Infusion]: null,

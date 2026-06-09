@@ -6,7 +6,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 27564,
+		"index": 27912,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -17,7 +17,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 13551,
+		"index": 13721,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -28,7 +28,18 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17964,
+		"index": 18144,
+		"redacted": false,
+		"blacklisted": false
+	},
+	"23016037": {
+		"hash": 23016037,
+		"foreground": "/image/generated/icon/23016037.png",
+		"background": "/image/png/mod/mod_empty.png",
+		"secondaryBackground": "",
+		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
+		"highResForeground": "",
+		"index": 2906,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -39,7 +50,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 25698,
+		"index": 25992,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -50,7 +61,7 @@
 		"secondaryBackground": "/image/png/mod/mod_enhanced_overlay.png",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay.png",
 		"highResForeground": "",
-		"index": 13601,
+		"index": 13771,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -61,7 +72,7 @@
 		"secondaryBackground": "/image/png/mod/mod_enhanced_overlay.png",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay.png",
 		"highResForeground": "",
-		"index": 15209,
+		"index": 15379,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -72,7 +83,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17970,
+		"index": 18150,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -83,7 +94,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 29607,
+		"index": 29992,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -94,7 +105,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 22590,
+		"index": 22802,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -105,7 +116,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 28443,
+		"index": 28822,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -116,7 +127,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 13605,
+		"index": 13775,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -127,7 +138,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 28400,
+		"index": 28772,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -138,7 +149,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 26509,
+		"index": 26834,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -149,7 +160,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 28989,
+		"index": 29368,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -160,7 +171,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 23309,
+		"index": 23527,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -171,7 +182,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25544,
+		"index": 25838,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -182,7 +193,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 14553,
+		"index": 14723,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -193,7 +204,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30148,
+		"index": 30544,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -204,7 +215,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 22633,
+		"index": 22845,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -215,7 +226,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 20848,
+		"index": 21052,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -226,7 +237,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 31315,
+		"index": 31843,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -237,7 +248,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 31316,
+		"index": 31844,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -248,7 +259,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 18042,
+		"index": 18222,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -259,7 +270,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25535,
+		"index": 25829,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -270,7 +281,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 23315,
+		"index": 23533,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -281,7 +292,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27531,
+		"index": 27879,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -292,7 +303,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27532,
+		"index": 27880,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -303,7 +314,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27529,
+		"index": 27877,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -314,7 +325,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27530,
+		"index": 27878,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -325,7 +336,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27527,
+		"index": 27875,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -336,7 +347,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27528,
+		"index": 27876,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -347,7 +358,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27525,
+		"index": 27873,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -358,7 +369,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27526,
+		"index": 27874,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -369,7 +380,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27523,
+		"index": 27871,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -380,7 +391,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27524,
+		"index": 27872,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -391,7 +402,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 8963,
+		"index": 9133,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -402,7 +413,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 8964,
+		"index": 9134,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -413,7 +424,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 8965,
+		"index": 9135,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -424,7 +435,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 20939,
+		"index": 21149,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -435,7 +446,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 26136,
+		"index": 26447,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -446,7 +457,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 9969,
+		"index": 10139,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -457,7 +468,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17974,
+		"index": 18154,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -468,7 +479,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17973,
+		"index": 18153,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -479,7 +490,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30139,
+		"index": 30535,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -490,7 +501,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 24888,
+		"index": 25172,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -501,7 +512,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 8954,
+		"index": 9124,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -512,7 +523,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 8955,
+		"index": 9125,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -523,7 +534,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 8956,
+		"index": 9126,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -534,7 +545,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 24580,
+		"index": 24846,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -545,7 +556,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 23384,
+		"index": 23627,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -556,7 +567,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17953,
+		"index": 18133,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -567,7 +578,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 20847,
+		"index": 21051,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -578,7 +589,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 16377,
+		"index": 16557,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -589,7 +600,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30160,
+		"index": 30556,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -600,7 +611,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 16791,
+		"index": 16971,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -611,7 +622,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 13552,
+		"index": 13722,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -622,7 +633,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25620,
+		"index": 25914,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -633,7 +644,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 8943,
+		"index": 9113,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -644,7 +655,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 8945,
+		"index": 9115,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -655,7 +666,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 8944,
+		"index": 9114,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -666,7 +677,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 18063,
+		"index": 18243,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -677,7 +688,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 29793,
+		"index": 30178,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -688,7 +699,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 18041,
+		"index": 18221,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -699,7 +710,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 2864,
+		"index": 2915,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -710,7 +721,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 2865,
+		"index": 2916,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -721,7 +732,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 2868,
+		"index": 2919,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -732,7 +743,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 2869,
+		"index": 2920,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -743,7 +754,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 2866,
+		"index": 2917,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -754,7 +765,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 2867,
+		"index": 2918,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -765,7 +776,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 15467,
+		"index": 15637,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -776,7 +787,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 31069,
+		"index": 31596,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -787,7 +798,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 26999,
+		"index": 27346,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -798,7 +809,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17957,
+		"index": 18137,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -809,7 +820,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 4214,
+		"index": 4280,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -820,7 +831,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 4215,
+		"index": 4281,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -831,7 +842,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 4216,
+		"index": 4282,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -842,7 +853,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 20838,
+		"index": 21042,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -853,7 +864,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30161,
+		"index": 30557,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -864,7 +875,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25600,
+		"index": 25894,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -875,7 +886,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30149,
+		"index": 30545,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -886,7 +897,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17976,
+		"index": 18156,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -897,7 +908,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17977,
+		"index": 18157,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -908,7 +919,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 23374,
+		"index": 23617,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -919,7 +930,7 @@
 		"secondaryBackground": "/image/png/mod/mod_enhanced_overlay.png",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay.png",
 		"highResForeground": "",
-		"index": 28440,
+		"index": 28819,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -930,7 +941,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 12218,
+		"index": 12388,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -941,7 +952,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25561,
+		"index": 25855,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -952,7 +963,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 24076,
+		"index": 24342,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -963,7 +974,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 23376,
+		"index": 23619,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -974,7 +985,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 22631,
+		"index": 22843,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -985,7 +996,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 18615,
+		"index": 18795,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -996,7 +1007,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 13611,
+		"index": 13781,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1007,7 +1018,7 @@
 		"secondaryBackground": "/image/png/mod/mod_enhanced_overlay.png",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay.png",
 		"highResForeground": "",
-		"index": 28452,
+		"index": 28831,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1018,7 +1029,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25580,
+		"index": 25874,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1029,7 +1040,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 18066,
+		"index": 18246,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1040,7 +1051,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 22593,
+		"index": 22805,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1051,7 +1062,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 12195,
+		"index": 12365,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1062,7 +1073,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 21348,
+		"index": 21560,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1073,7 +1084,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 11680,
+		"index": 11850,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1084,7 +1095,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 26506,
+		"index": 26831,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1095,7 +1106,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17941,
+		"index": 18121,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1106,7 +1117,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17956,
+		"index": 18136,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1117,7 +1128,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25567,
+		"index": 25861,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1128,7 +1139,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 9947,
+		"index": 10117,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1139,7 +1150,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 12212,
+		"index": 12382,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1150,7 +1161,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 22912,
+		"index": 23124,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1161,7 +1172,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 18043,
+		"index": 18223,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1172,7 +1183,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30152,
+		"index": 30548,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1183,7 +1194,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 11251,
+		"index": 11421,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1194,7 +1205,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25578,
+		"index": 25872,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1205,7 +1216,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 20809,
+		"index": 21013,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1216,7 +1227,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 21926,
+		"index": 22138,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1227,7 +1238,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25566,
+		"index": 25860,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1238,7 +1249,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17971,
+		"index": 18151,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1249,7 +1260,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 22632,
+		"index": 22844,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1260,7 +1271,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 28451,
+		"index": 28830,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1271,7 +1282,18 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 31307,
+		"index": 31835,
+		"redacted": false,
+		"blacklisted": false
+	},
+	"579550218": {
+		"hash": 579550218,
+		"foreground": "/image/generated/icon/579550218.png",
+		"background": "/image/png/mod/exotic_intrinsic_empty.png",
+		"secondaryBackground": "",
+		"specialBackground": "",
+		"highResForeground": "",
+		"index": 32284,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1282,7 +1304,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25616,
+		"index": 25910,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1293,7 +1315,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 9950,
+		"index": 10120,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1304,7 +1326,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 16005,
+		"index": 16185,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1315,7 +1337,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 9951,
+		"index": 10121,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1326,7 +1348,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 19546,
+		"index": 19726,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1337,7 +1359,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 28449,
+		"index": 28828,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1348,7 +1370,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 26177,
+		"index": 26502,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1359,7 +1381,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 20837,
+		"index": 21041,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1370,7 +1392,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 22707,
+		"index": 22919,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1381,7 +1403,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25543,
+		"index": 25837,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1392,7 +1414,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30155,
+		"index": 30551,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1403,7 +1425,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 30601,
+		"index": 31128,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1414,7 +1436,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30140,
+		"index": 30536,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1425,7 +1447,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 22249,
+		"index": 22461,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1436,7 +1458,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25592,
+		"index": 25886,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1447,7 +1469,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 21857,
+		"index": 22069,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1458,7 +1480,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 20940,
+		"index": 21150,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1469,7 +1491,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 13553,
+		"index": 13723,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1480,7 +1502,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 12193,
+		"index": 12363,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1491,7 +1513,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30785,
+		"index": 31312,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1502,7 +1524,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30784,
+		"index": 31311,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1513,7 +1535,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 11248,
+		"index": 11418,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1524,7 +1546,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25572,
+		"index": 25866,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1535,7 +1557,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27688,
+		"index": 28036,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1546,7 +1568,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25553,
+		"index": 25847,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1557,7 +1579,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25552,
+		"index": 25846,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1568,7 +1590,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25555,
+		"index": 25849,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1579,7 +1601,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25554,
+		"index": 25848,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1590,7 +1612,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 20846,
+		"index": 21050,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1601,7 +1623,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 20881,
+		"index": 21091,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1612,7 +1634,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 12188,
+		"index": 12358,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1623,7 +1645,7 @@
 		"secondaryBackground": "/image/png/mod/mod_enhanced_overlay.png",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay.png",
 		"highResForeground": "",
-		"index": 29685,
+		"index": 30070,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1634,7 +1656,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 9990,
+		"index": 10160,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1645,7 +1667,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 12185,
+		"index": 12355,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1656,7 +1678,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25545,
+		"index": 25839,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1667,7 +1689,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 2880,
+		"index": 2931,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1678,7 +1700,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 2882,
+		"index": 2933,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1689,7 +1711,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 2881,
+		"index": 2932,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1700,7 +1722,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 2884,
+		"index": 2935,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1711,7 +1733,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 2883,
+		"index": 2934,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1722,7 +1744,7 @@
 		"secondaryBackground": "/image/png/mod/mod_enhanced_overlay.png",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay.png",
 		"highResForeground": "",
-		"index": 29682,
+		"index": 30067,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1733,7 +1755,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17943,
+		"index": 18123,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1744,7 +1766,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 22706,
+		"index": 22918,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1755,7 +1777,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27701,
+		"index": 28049,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1766,7 +1788,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 20873,
+		"index": 21083,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1777,7 +1799,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 11252,
+		"index": 11422,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1788,7 +1810,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30158,
+		"index": 30554,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1799,7 +1821,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 27566,
+		"index": 27914,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1810,7 +1832,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 20807,
+		"index": 21011,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1821,7 +1843,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 24939,
+		"index": 25233,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1832,7 +1854,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 9960,
+		"index": 10130,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1843,7 +1865,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25612,
+		"index": 25906,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1854,7 +1876,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 12194,
+		"index": 12364,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1865,7 +1887,7 @@
 		"secondaryBackground": "/image/png/mod/mod_enhanced_overlay.png",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay.png",
 		"highResForeground": "",
-		"index": 29684,
+		"index": 30069,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1876,7 +1898,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17965,
+		"index": 18145,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1887,7 +1909,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 26144,
+		"index": 26455,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1898,7 +1920,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 22354,
+		"index": 22566,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1909,7 +1931,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30157,
+		"index": 30553,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1920,7 +1942,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 25627,
+		"index": 25921,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1931,7 +1953,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 23439,
+		"index": 23682,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1942,7 +1964,18 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 20806,
+		"index": 21010,
+		"redacted": false,
+		"blacklisted": false
+	},
+	"954094982": {
+		"hash": 954094982,
+		"foreground": "/image/generated/icon/954094982.png",
+		"background": "/image/png/mod/mod_empty.png",
+		"secondaryBackground": "",
+		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
+		"highResForeground": "",
+		"index": 2903,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1953,7 +1986,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 20877,
+		"index": 21087,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1964,7 +1997,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30166,
+		"index": 30562,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1975,7 +2008,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 22592,
+		"index": 22804,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1986,7 +2019,7 @@
 		"secondaryBackground": "/image/png/mod/mod_enhanced_overlay.png",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay.png",
 		"highResForeground": "",
-		"index": 28456,
+		"index": 28835,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -1997,7 +2030,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 20875,
+		"index": 21085,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2008,7 +2041,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 31066,
+		"index": 31593,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2019,7 +2052,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17972,
+		"index": 18152,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2030,7 +2063,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17975,
+		"index": 18155,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2041,7 +2074,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17978,
+		"index": 18158,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2052,7 +2085,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17981,
+		"index": 18161,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2063,7 +2096,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27691,
+		"index": 28039,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2074,7 +2107,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17988,
+		"index": 18168,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2085,7 +2118,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 31319,
+		"index": 31847,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2096,7 +2129,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 31320,
+		"index": 31848,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2107,7 +2140,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 24490,
+		"index": 24756,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2118,7 +2151,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 23383,
+		"index": 23626,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2129,7 +2162,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 13609,
+		"index": 13779,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2140,7 +2173,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25601,
+		"index": 25895,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2151,7 +2184,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17983,
+		"index": 18163,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2162,7 +2195,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 27568,
+		"index": 27916,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2173,7 +2206,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30154,
+		"index": 30550,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2184,7 +2217,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 18712,
+		"index": 18892,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2195,7 +2228,7 @@
 		"secondaryBackground": "/image/png/mod/mod_enhanced_overlay.png",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay.png",
 		"highResForeground": "",
-		"index": 15214,
+		"index": 15384,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2206,7 +2239,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 24019,
+		"index": 24273,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2217,7 +2250,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25589,
+		"index": 25883,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2228,7 +2261,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 18064,
+		"index": 18244,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2239,7 +2272,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 11683,
+		"index": 11853,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2250,7 +2283,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 11250,
+		"index": 11420,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2261,7 +2294,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 20811,
+		"index": 21015,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2272,7 +2305,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 11249,
+		"index": 11419,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2283,7 +2316,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27516,
+		"index": 27864,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2294,7 +2327,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 8962,
+		"index": 9132,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2305,7 +2338,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 8961,
+		"index": 9131,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2316,7 +2349,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 8960,
+		"index": 9130,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2327,7 +2360,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25551,
+		"index": 25845,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2338,7 +2371,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 23440,
+		"index": 23683,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2349,7 +2382,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17984,
+		"index": 18164,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2360,7 +2393,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25590,
+		"index": 25884,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2371,7 +2404,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 28441,
+		"index": 28820,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2382,7 +2415,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25591,
+		"index": 25885,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2393,7 +2426,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25541,
+		"index": 25835,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2404,7 +2437,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25619,
+		"index": 25913,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2415,7 +2448,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30779,
+		"index": 31306,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2426,7 +2459,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30780,
+		"index": 31307,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2437,7 +2470,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 20841,
+		"index": 21045,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2448,7 +2481,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 11255,
+		"index": 11425,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2459,7 +2492,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17955,
+		"index": 18135,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2470,18 +2503,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17986,
-		"redacted": false,
-		"blacklisted": false
-	},
-	"1254077559": {
-		"hash": 1254077559,
-		"foreground": "/image/generated/icon/1254077559.png",
-		"background": "/image/png/mod/mod_empty_seasonal.png",
-		"secondaryBackground": "/image/png/mod/mod_enhanced_overlay.png",
-		"specialBackground": "/image/png/mod/mod_fragile_overlay_seasonal.png",
-		"highResForeground": "",
-		"index": 6755,
+		"index": 18166,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2492,7 +2514,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30150,
+		"index": 30546,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2503,7 +2525,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25569,
+		"index": 25863,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2514,7 +2536,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 19404,
+		"index": 19584,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2525,7 +2547,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 11253,
+		"index": 11423,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2536,7 +2558,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 23438,
+		"index": 23681,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2547,7 +2569,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 20836,
+		"index": 21040,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2558,7 +2580,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 14550,
+		"index": 14720,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2569,7 +2591,7 @@
 		"secondaryBackground": "/image/png/mod/mod_enhanced_overlay.png",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay.png",
 		"highResForeground": "",
-		"index": 28438,
+		"index": 28817,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2580,7 +2602,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27518,
+		"index": 27866,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2591,7 +2613,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 20869,
+		"index": 21079,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2602,7 +2624,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 22589,
+		"index": 22801,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2613,7 +2635,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 24561,
+		"index": 24827,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2624,7 +2646,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 18065,
+		"index": 18245,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2635,7 +2657,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 29610,
+		"index": 29995,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2646,7 +2668,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30782,
+		"index": 31309,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2657,7 +2679,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 16792,
+		"index": 16972,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2668,7 +2690,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25579,
+		"index": 25873,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2679,7 +2701,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 23307,
+		"index": 23525,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2690,7 +2712,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 15462,
+		"index": 15632,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2701,7 +2723,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25531,
+		"index": 25825,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2712,7 +2734,7 @@
 		"secondaryBackground": "/image/png/mod/mod_enhanced_overlay.png",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay.png",
 		"highResForeground": "",
-		"index": 13612,
+		"index": 13782,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2723,7 +2745,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 13558,
+		"index": 13728,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2734,7 +2756,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 13559,
+		"index": 13729,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2745,7 +2767,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 26521,
+		"index": 26846,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2756,7 +2778,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 12216,
+		"index": 12386,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2767,7 +2789,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 23443,
+		"index": 23686,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2778,7 +2800,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25597,
+		"index": 25891,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2789,7 +2811,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 24886,
+		"index": 25170,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2800,7 +2822,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27702,
+		"index": 28050,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2811,7 +2833,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25622,
+		"index": 25916,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2822,7 +2844,7 @@
 		"secondaryBackground": "/image/png/mod/mod_enhanced_overlay.png",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay.png",
 		"highResForeground": "",
-		"index": 29687,
+		"index": 30072,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2833,7 +2855,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 23378,
+		"index": 23621,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2844,7 +2866,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30168,
+		"index": 30564,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2855,7 +2877,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 26513,
+		"index": 26838,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2866,7 +2888,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 2872,
+		"index": 2923,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2877,7 +2899,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 20845,
+		"index": 21049,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2888,7 +2910,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 8942,
+		"index": 9112,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2899,7 +2921,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 8941,
+		"index": 9111,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2910,7 +2932,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 9955,
+		"index": 10125,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2921,7 +2943,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30774,
+		"index": 31301,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2932,7 +2954,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 16787,
+		"index": 16967,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2943,7 +2965,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 28993,
+		"index": 29372,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2954,7 +2976,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 14571,
+		"index": 14741,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2965,7 +2987,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 23370,
+		"index": 23613,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2976,7 +2998,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25588,
+		"index": 25882,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2987,7 +3009,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27692,
+		"index": 28040,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -2998,7 +3020,7 @@
 		"secondaryBackground": "/image/png/mod/mod_enhanced_overlay.png",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay.png",
 		"highResForeground": "",
-		"index": 29691,
+		"index": 30076,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3009,7 +3031,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25606,
+		"index": 25900,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3020,7 +3042,7 @@
 		"secondaryBackground": "/image/png/mod/mod_enhanced_overlay.png",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay.png",
 		"highResForeground": "",
-		"index": 13604,
+		"index": 13774,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3031,7 +3053,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25585,
+		"index": 25879,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3042,7 +3064,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 20871,
+		"index": 21081,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3053,7 +3075,7 @@
 		"secondaryBackground": "/image/png/mod/mod_enhanced_overlay.png",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay.png",
 		"highResForeground": "",
-		"index": 28444,
+		"index": 28823,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3064,7 +3086,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27547,
+		"index": 27895,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3075,7 +3097,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27548,
+		"index": 27896,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3086,7 +3108,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27545,
+		"index": 27893,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3097,7 +3119,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27546,
+		"index": 27894,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3108,7 +3130,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27543,
+		"index": 27891,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3119,7 +3141,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27544,
+		"index": 27892,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3130,7 +3152,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25546,
+		"index": 25840,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3141,7 +3163,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 15215,
+		"index": 15385,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3152,7 +3174,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 18619,
+		"index": 18799,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3163,7 +3185,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 23371,
+		"index": 23614,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3174,7 +3196,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 21350,
+		"index": 21562,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3185,7 +3207,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 26514,
+		"index": 26839,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3196,7 +3218,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25605,
+		"index": 25899,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3207,7 +3229,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 24938,
+		"index": 25232,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3218,7 +3240,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27703,
+		"index": 28051,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3229,7 +3251,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 19405,
+		"index": 19585,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3240,7 +3262,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 22338,
+		"index": 22550,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3251,7 +3273,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 22337,
+		"index": 22549,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3262,7 +3284,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30159,
+		"index": 30555,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3273,7 +3295,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17966,
+		"index": 18146,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3284,7 +3306,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 31080,
+		"index": 31607,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3295,7 +3317,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 12187,
+		"index": 12357,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3306,7 +3328,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 15464,
+		"index": 15634,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3317,7 +3339,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 18062,
+		"index": 18242,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3328,7 +3350,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 20834,
+		"index": 21038,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3339,7 +3361,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 2888,
+		"index": 2939,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3350,7 +3372,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 2892,
+		"index": 2943,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3361,7 +3383,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 2891,
+		"index": 2942,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3372,7 +3394,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 2890,
+		"index": 2941,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3383,7 +3405,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 2889,
+		"index": 2940,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3394,7 +3416,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 16004,
+		"index": 16184,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3405,7 +3427,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 31060,
+		"index": 31587,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3416,7 +3438,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 12219,
+		"index": 12389,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3427,7 +3449,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25584,
+		"index": 25878,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3438,7 +3460,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 26504,
+		"index": 26829,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3449,7 +3471,7 @@
 		"secondaryBackground": "/image/png/mod/mod_enhanced_overlay.png",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay.png",
 		"highResForeground": "",
-		"index": 28446,
+		"index": 28825,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3460,7 +3482,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25529,
+		"index": 25823,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3471,7 +3493,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 27559,
+		"index": 27907,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3482,7 +3504,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25556,
+		"index": 25850,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3493,7 +3515,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 2873,
+		"index": 2924,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3504,7 +3526,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 2874,
+		"index": 2925,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3515,7 +3537,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 2877,
+		"index": 2928,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3526,7 +3548,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 2878,
+		"index": 2929,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3537,7 +3559,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 2875,
+		"index": 2926,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3548,7 +3570,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 2876,
+		"index": 2927,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3559,7 +3581,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 19547,
+		"index": 19727,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3570,7 +3592,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 18563,
+		"index": 18743,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3581,7 +3603,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 20882,
+		"index": 21092,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3592,7 +3614,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 31321,
+		"index": 31849,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3603,7 +3625,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 14938,
+		"index": 15108,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3614,7 +3636,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 8952,
+		"index": 9122,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3625,7 +3647,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 8953,
+		"index": 9123,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3636,7 +3658,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 8951,
+		"index": 9121,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3647,7 +3669,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 18714,
+		"index": 18894,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3658,7 +3680,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 28437,
+		"index": 28816,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3669,7 +3691,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 28611,
+		"index": 28990,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3680,7 +3702,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 28610,
+		"index": 28989,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3691,7 +3713,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 23313,
+		"index": 23531,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3702,7 +3724,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30170,
+		"index": 30566,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3713,7 +3735,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 20878,
+		"index": 21088,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3724,7 +3746,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 27563,
+		"index": 27911,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3735,7 +3757,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 28445,
+		"index": 28824,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3746,7 +3768,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 20844,
+		"index": 21048,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3757,7 +3779,7 @@
 		"secondaryBackground": "/image/png/mod/mod_enhanced_overlay.png",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay.png",
 		"highResForeground": "",
-		"index": 28434,
+		"index": 28813,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3768,7 +3790,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25562,
+		"index": 25856,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3779,7 +3801,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 15210,
+		"index": 15380,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3790,7 +3812,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 14572,
+		"index": 14742,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3801,7 +3823,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 13554,
+		"index": 13724,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3812,7 +3834,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 23311,
+		"index": 23529,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3823,7 +3845,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30163,
+		"index": 30559,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3834,7 +3856,7 @@
 		"secondaryBackground": "/image/png/mod/mod_enhanced_overlay.png",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay.png",
 		"highResForeground": "",
-		"index": 29690,
+		"index": 30075,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3845,7 +3867,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 18562,
+		"index": 18742,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3856,7 +3878,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 13548,
+		"index": 13718,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3867,7 +3889,7 @@
 		"secondaryBackground": "/image/png/mod/mod_enhanced_overlay.png",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay.png",
 		"highResForeground": "",
-		"index": 29693,
+		"index": 30078,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3878,7 +3900,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 11679,
+		"index": 11849,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3889,7 +3911,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 24562,
+		"index": 24828,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3900,7 +3922,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 20874,
+		"index": 21084,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3911,7 +3933,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 22602,
+		"index": 22814,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3922,7 +3944,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 31306,
+		"index": 31834,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3933,7 +3955,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25558,
+		"index": 25852,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3944,7 +3966,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 16259,
+		"index": 16439,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3955,7 +3977,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25547,
+		"index": 25841,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3966,7 +3988,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30147,
+		"index": 30543,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3977,7 +3999,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 15463,
+		"index": 15633,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3988,7 +4010,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 22927,
+		"index": 23139,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -3999,7 +4021,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 28401,
+		"index": 28773,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4010,7 +4032,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 2861,
+		"index": 2910,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4021,7 +4043,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25549,
+		"index": 25843,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4032,7 +4054,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 11256,
+		"index": 11426,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4043,7 +4065,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 12184,
+		"index": 12354,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4054,7 +4076,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17844,
+		"index": 18024,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4065,7 +4087,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25624,
+		"index": 25918,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4076,7 +4098,18 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25611,
+		"index": 25905,
+		"redacted": false,
+		"blacklisted": false
+	},
+	"2135480054": {
+		"hash": 2135480054,
+		"foreground": "/image/generated/icon/2135480054.png",
+		"background": "/image/png/mod/mod_empty.png",
+		"secondaryBackground": "",
+		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
+		"highResForeground": "",
+		"index": 2912,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4087,7 +4120,7 @@
 		"secondaryBackground": "/image/png/mod/mod_enhanced_overlay.png",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay.png",
 		"highResForeground": "",
-		"index": 28454,
+		"index": 28833,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4098,7 +4131,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17846,
+		"index": 18026,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4109,7 +4142,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25548,
+		"index": 25842,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4120,7 +4153,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 26146,
+		"index": 26457,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4131,7 +4164,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30167,
+		"index": 30563,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4142,7 +4175,7 @@
 		"secondaryBackground": "/image/png/mod/mod_enhanced_overlay.png",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay.png",
 		"highResForeground": "",
-		"index": 29686,
+		"index": 30071,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4153,7 +4186,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 27570,
+		"index": 27918,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4164,7 +4197,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 13556,
+		"index": 13726,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4175,7 +4208,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 13557,
+		"index": 13727,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4186,7 +4219,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 13550,
+		"index": 13720,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4197,7 +4230,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 13549,
+		"index": 13719,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4208,7 +4241,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30156,
+		"index": 30552,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4219,7 +4252,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 20808,
+		"index": 21012,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4230,7 +4263,7 @@
 		"secondaryBackground": "/image/png/mod/mod_enhanced_overlay.png",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay.png",
 		"highResForeground": "",
-		"index": 29694,
+		"index": 30079,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4241,7 +4274,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 24573,
+		"index": 24839,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4252,7 +4285,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 26175,
+		"index": 26500,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4263,7 +4296,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25559,
+		"index": 25853,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4274,7 +4307,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 14558,
+		"index": 14728,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4285,7 +4318,7 @@
 		"secondaryBackground": "/image/png/mod/mod_enhanced_overlay.png",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay.png",
 		"highResForeground": "",
-		"index": 29692,
+		"index": 30077,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4296,7 +4329,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 22250,
+		"index": 22462,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4307,7 +4340,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 28455,
+		"index": 28834,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4318,7 +4351,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 2858,
+		"index": 2904,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4329,7 +4362,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 31070,
+		"index": 31597,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4340,7 +4373,7 @@
 		"secondaryBackground": "/image/png/mod/mod_enhanced_overlay.png",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay.png",
 		"highResForeground": "",
-		"index": 31065,
+		"index": 31592,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4351,7 +4384,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 20839,
+		"index": 21043,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4362,7 +4395,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 20876,
+		"index": 21086,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4373,7 +4406,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 25695,
+		"index": 25989,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4384,7 +4417,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 26134,
+		"index": 26445,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4395,7 +4428,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17764,
+		"index": 17944,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4406,7 +4439,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 9954,
+		"index": 10124,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4417,7 +4450,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17987,
+		"index": 18167,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4428,7 +4461,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 31308,
+		"index": 31836,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4439,7 +4472,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 11254,
+		"index": 11424,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4450,7 +4483,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25570,
+		"index": 25864,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4461,7 +4494,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 23373,
+		"index": 23616,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4472,7 +4505,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25610,
+		"index": 25904,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4483,7 +4516,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 27571,
+		"index": 27919,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4494,7 +4527,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25575,
+		"index": 25869,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4505,7 +4538,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 14568,
+		"index": 14738,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4516,7 +4549,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 9975,
+		"index": 10145,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4527,7 +4560,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 13615,
+		"index": 13785,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4538,7 +4571,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 12214,
+		"index": 12384,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4549,7 +4582,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 28447,
+		"index": 28826,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4560,7 +4593,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25573,
+		"index": 25867,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4571,7 +4604,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17967,
+		"index": 18147,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4582,7 +4615,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 28439,
+		"index": 28818,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4593,7 +4626,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 26135,
+		"index": 26446,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4604,7 +4637,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 11676,
+		"index": 11846,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4615,7 +4648,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 23441,
+		"index": 23684,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4626,7 +4659,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 20879,
+		"index": 21089,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4637,7 +4670,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 16788,
+		"index": 16968,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4648,7 +4681,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 2860,
+		"index": 2908,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4659,7 +4692,40 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25596,
+		"index": 25890,
+		"redacted": false,
+		"blacklisted": false
+	},
+	"2483028032": {
+		"hash": 2483028032,
+		"foreground": "/image/generated/icon/2483028032.png",
+		"background": "/image/png/mod/mod_empty.png",
+		"secondaryBackground": "",
+		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
+		"highResForeground": "",
+		"index": 4284,
+		"redacted": false,
+		"blacklisted": false
+	},
+	"2483028033": {
+		"hash": 2483028033,
+		"foreground": "/image/generated/icon/2483028033.png",
+		"background": "/image/png/mod/mod_empty.png",
+		"secondaryBackground": "",
+		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
+		"highResForeground": "",
+		"index": 4285,
+		"redacted": false,
+		"blacklisted": false
+	},
+	"2483028035": {
+		"hash": 2483028035,
+		"foreground": "/image/generated/icon/2483028035.png",
+		"background": "/image/png/mod/mod_empty.png",
+		"secondaryBackground": "",
+		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
+		"highResForeground": "",
+		"index": 4283,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4670,7 +4736,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25623,
+		"index": 25917,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4681,7 +4747,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25582,
+		"index": 25876,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4692,7 +4758,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 14560,
+		"index": 14730,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4703,7 +4769,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 9979,
+		"index": 10149,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4714,7 +4780,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 22355,
+		"index": 22567,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4725,7 +4791,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 23387,
+		"index": 23630,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4736,7 +4802,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17831,
+		"index": 18011,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4747,7 +4813,7 @@
 		"secondaryBackground": "/image/png/mod/mod_enhanced_overlay.png",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay.png",
 		"highResForeground": "",
-		"index": 29689,
+		"index": 30074,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4758,7 +4824,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30144,
+		"index": 30540,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4769,7 +4835,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25576,
+		"index": 25870,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4780,7 +4846,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25583,
+		"index": 25877,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4791,7 +4857,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 8966,
+		"index": 9136,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4802,7 +4868,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 8967,
+		"index": 9137,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4813,7 +4879,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 26842,
+		"index": 27179,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4824,7 +4890,18 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25563,
+		"index": 25857,
+		"redacted": false,
+		"blacklisted": false
+	},
+	"2570630406": {
+		"hash": 2570630406,
+		"foreground": "/image/generated/icon/2570630406.png",
+		"background": "/image/png/mod/mod_empty.png",
+		"secondaryBackground": "",
+		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
+		"highResForeground": "",
+		"index": 2909,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4835,7 +4912,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 28612,
+		"index": 28991,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4846,7 +4923,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 23306,
+		"index": 23524,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4857,7 +4934,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 18640,
+		"index": 18820,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4868,7 +4945,7 @@
 		"secondaryBackground": "/image/png/mod/mod_enhanced_overlay.png",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay.png",
 		"highResForeground": "",
-		"index": 13608,
+		"index": 13778,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4879,7 +4956,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 21924,
+		"index": 22136,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4890,7 +4967,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30146,
+		"index": 30542,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4901,7 +4978,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 26507,
+		"index": 26832,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4912,7 +4989,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17767,
+		"index": 17947,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4923,7 +5000,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 28436,
+		"index": 28815,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4934,7 +5011,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25574,
+		"index": 25868,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4945,7 +5022,7 @@
 		"secondaryBackground": "/image/png/mod/mod_enhanced_overlay.png",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay.png",
 		"highResForeground": "",
-		"index": 29688,
+		"index": 30073,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4956,7 +5033,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 9982,
+		"index": 10152,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4967,7 +5044,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 26145,
+		"index": 26456,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4978,7 +5055,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 12189,
+		"index": 12359,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -4989,7 +5066,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 18564,
+		"index": 18744,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5000,7 +5077,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25557,
+		"index": 25851,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5011,7 +5088,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17969,
+		"index": 18149,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5022,7 +5099,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30151,
+		"index": 30547,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5033,7 +5110,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27515,
+		"index": 27863,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5044,7 +5121,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 22928,
+		"index": 23140,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5055,7 +5132,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 9986,
+		"index": 10156,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5066,7 +5143,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25534,
+		"index": 25828,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5077,7 +5154,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25533,
+		"index": 25827,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5088,7 +5165,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 23372,
+		"index": 23615,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5099,7 +5176,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 13602,
+		"index": 13772,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5110,7 +5187,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25565,
+		"index": 25859,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5121,7 +5198,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 16260,
+		"index": 16440,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5132,7 +5209,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 20936,
+		"index": 21146,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5143,7 +5220,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 20840,
+		"index": 21044,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5154,7 +5231,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 25625,
+		"index": 25919,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5165,7 +5242,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 14556,
+		"index": 14726,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5176,7 +5253,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 16003,
+		"index": 16183,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5187,7 +5264,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30783,
+		"index": 31310,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5198,7 +5275,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 24577,
+		"index": 24843,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5209,7 +5286,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 29696,
+		"index": 30081,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5220,7 +5297,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 27565,
+		"index": 27913,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5231,7 +5308,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 25700,
+		"index": 25994,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5242,7 +5319,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17766,
+		"index": 17946,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5253,7 +5330,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25608,
+		"index": 25902,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5264,7 +5341,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 2859,
+		"index": 2905,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5275,7 +5352,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 31317,
+		"index": 31845,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5286,7 +5363,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 26847,
+		"index": 27184,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5297,7 +5374,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 14565,
+		"index": 14735,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5308,7 +5385,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 24937,
+		"index": 25231,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5319,7 +5396,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30169,
+		"index": 30565,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5330,7 +5407,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25609,
+		"index": 25903,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5341,7 +5418,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 13613,
+		"index": 13783,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5352,7 +5429,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25577,
+		"index": 25871,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5363,7 +5440,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 9987,
+		"index": 10157,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5374,7 +5451,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25603,
+		"index": 25897,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5385,7 +5462,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 9970,
+		"index": 10140,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5396,7 +5473,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 16256,
+		"index": 16436,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5407,7 +5484,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25537,
+		"index": 25831,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5418,7 +5495,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 20938,
+		"index": 21148,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5429,7 +5506,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 23386,
+		"index": 23629,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5440,7 +5517,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 24074,
+		"index": 24340,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5451,7 +5528,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 31061,
+		"index": 31588,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5462,7 +5539,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 2862,
+		"index": 2911,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5473,7 +5550,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 29698,
+		"index": 30083,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5484,7 +5561,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 28435,
+		"index": 28814,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5495,7 +5572,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 8937,
+		"index": 9107,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5506,7 +5583,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 8938,
+		"index": 9108,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5517,7 +5594,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 8939,
+		"index": 9109,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5528,7 +5605,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 8940,
+		"index": 9110,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5539,7 +5616,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 15216,
+		"index": 15386,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5550,7 +5627,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 2871,
+		"index": 2922,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5561,7 +5638,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25527,
+		"index": 25821,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5572,7 +5649,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30141,
+		"index": 30537,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5583,7 +5660,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 11685,
+		"index": 11855,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5594,7 +5671,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 27567,
+		"index": 27915,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5605,7 +5682,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25536,
+		"index": 25830,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5616,7 +5693,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25604,
+		"index": 25898,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5627,7 +5704,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17778,
+		"index": 17958,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5638,7 +5715,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27705,
+		"index": 28053,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5649,7 +5726,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30164,
+		"index": 30560,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5660,7 +5737,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 2846,
+		"index": 2891,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5671,7 +5748,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 24492,
+		"index": 24758,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5682,7 +5759,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 28991,
+		"index": 29370,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5693,7 +5770,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25595,
+		"index": 25889,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5704,7 +5781,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25538,
+		"index": 25832,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5715,7 +5792,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 28457,
+		"index": 28836,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5726,7 +5803,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25599,
+		"index": 25893,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5737,62 +5814,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 22591,
-		"redacted": false,
-		"blacklisted": false
-	},
-	"3176795729": {
-		"hash": 3176795729,
-		"foreground": "/image/generated/icon/3176795729.png",
-		"background": "/image/png/mod/mod_empty_seasonal.png",
-		"secondaryBackground": "",
-		"specialBackground": "/image/png/mod/mod_fragile_overlay_seasonal_glow.png",
-		"highResForeground": "",
-		"index": 6752,
-		"redacted": false,
-		"blacklisted": false
-	},
-	"3176795732": {
-		"hash": 3176795732,
-		"foreground": "/image/generated/icon/3176795732.png",
-		"background": "/image/png/mod/mod_empty_seasonal.png",
-		"secondaryBackground": "",
-		"specialBackground": "/image/png/mod/mod_fragile_overlay_seasonal_glow.png",
-		"highResForeground": "",
-		"index": 6758,
-		"redacted": false,
-		"blacklisted": false
-	},
-	"3176795733": {
-		"hash": 3176795733,
-		"foreground": "/image/generated/icon/3176795733.png",
-		"background": "/image/png/mod/mod_empty_seasonal.png",
-		"secondaryBackground": "",
-		"specialBackground": "/image/png/mod/mod_fragile_overlay_seasonal_glow.png",
-		"highResForeground": "",
-		"index": 6760,
-		"redacted": false,
-		"blacklisted": false
-	},
-	"3176795734": {
-		"hash": 3176795734,
-		"foreground": "/image/generated/icon/3176795734.png",
-		"background": "/image/png/mod/mod_empty_seasonal.png",
-		"secondaryBackground": "",
-		"specialBackground": "/image/png/mod/mod_fragile_overlay_seasonal_glow.png",
-		"highResForeground": "",
-		"index": 6754,
-		"redacted": false,
-		"blacklisted": false
-	},
-	"3176795735": {
-		"hash": 3176795735,
-		"foreground": "/image/generated/icon/3176795735.png",
-		"background": "/image/png/mod/mod_empty_seasonal.png",
-		"secondaryBackground": "",
-		"specialBackground": "/image/png/mod/mod_fragile_overlay_seasonal_glow.png",
-		"highResForeground": "",
-		"index": 6756,
+		"index": 22803,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5803,7 +5825,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 28399,
+		"index": 28771,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5814,7 +5836,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 24489,
+		"index": 24755,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5825,7 +5847,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 14562,
+		"index": 14732,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5836,7 +5858,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 27569,
+		"index": 27917,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5847,7 +5869,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 26520,
+		"index": 26845,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5858,7 +5880,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 20842,
+		"index": 21046,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5869,7 +5891,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 23310,
+		"index": 23528,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5880,7 +5902,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25530,
+		"index": 25824,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5891,7 +5913,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 29608,
+		"index": 29993,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5902,7 +5924,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 22331,
+		"index": 22543,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5913,7 +5935,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 22332,
+		"index": 22544,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5924,7 +5946,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 22330,
+		"index": 22542,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5935,7 +5957,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17968,
+		"index": 18148,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5946,7 +5968,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 20867,
+		"index": 21077,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5957,7 +5979,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 26176,
+		"index": 26501,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5968,7 +5990,18 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17771,
+		"index": 17951,
+		"redacted": false,
+		"blacklisted": false
+	},
+	"3259193064": {
+		"hash": 3259193064,
+		"foreground": "/image/generated/icon/3259193064.png",
+		"background": "/image/png/mod/mod_empty.png",
+		"secondaryBackground": "",
+		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
+		"highResForeground": "",
+		"index": 2914,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5979,7 +6012,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25607,
+		"index": 25901,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -5990,7 +6023,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25539,
+		"index": 25833,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6001,7 +6034,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 31062,
+		"index": 31589,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6012,7 +6045,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 31064,
+		"index": 31591,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6023,7 +6056,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 31063,
+		"index": 31590,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6034,7 +6067,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25617,
+		"index": 25911,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6045,7 +6078,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17960,
+		"index": 18140,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6056,7 +6089,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 16376,
+		"index": 16556,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6067,7 +6100,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 31059,
+		"index": 31586,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6078,7 +6111,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 31067,
+		"index": 31594,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6089,7 +6122,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 20810,
+		"index": 21014,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6100,7 +6133,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 28442,
+		"index": 28821,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6111,7 +6144,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25594,
+		"index": 25888,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6122,7 +6155,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25587,
+		"index": 25881,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6133,7 +6166,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 2863,
+		"index": 2913,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6144,7 +6177,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17765,
+		"index": 17945,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6155,7 +6188,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 8735,
+		"index": 8905,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6166,7 +6199,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25621,
+		"index": 25915,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6177,7 +6210,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 8947,
+		"index": 9117,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6188,7 +6221,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 8948,
+		"index": 9118,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6199,7 +6232,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 8946,
+		"index": 9116,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6210,7 +6243,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25532,
+		"index": 25826,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6221,7 +6254,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25614,
+		"index": 25908,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6232,7 +6265,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 27561,
+		"index": 27909,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6243,7 +6276,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 12186,
+		"index": 12356,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6254,7 +6287,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 28453,
+		"index": 28832,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6265,7 +6298,18 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 9991,
+		"index": 10161,
+		"redacted": false,
+		"blacklisted": false
+	},
+	"3433588174": {
+		"hash": 3433588174,
+		"foreground": "/image/generated/icon/3433588174.png",
+		"background": "/image/png/mod/exotic_intrinsic_empty.png",
+		"secondaryBackground": "",
+		"specialBackground": "",
+		"highResForeground": "",
+		"index": 32636,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6276,7 +6320,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17769,
+		"index": 17949,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6287,7 +6331,7 @@
 		"secondaryBackground": "/image/png/mod/mod_enhanced_overlay.png",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay.png",
 		"highResForeground": "",
-		"index": 13614,
+		"index": 13784,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6298,7 +6342,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 18713,
+		"index": 18893,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6309,7 +6353,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 26508,
+		"index": 26833,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6320,7 +6364,18 @@
 		"secondaryBackground": "/image/png/mod/mod_enhanced_overlay.png",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay.png",
 		"highResForeground": "",
-		"index": 29683,
+		"index": 30068,
+		"redacted": false,
+		"blacklisted": false
+	},
+	"3457794063": {
+		"hash": 3457794063,
+		"foreground": "/image/generated/icon/3457794063.png",
+		"background": "/image/png/mod/mod_empty.png",
+		"secondaryBackground": "",
+		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
+		"highResForeground": "",
+		"index": 2907,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6331,7 +6386,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 29697,
+		"index": 30082,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6342,7 +6397,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 24488,
+		"index": 24754,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6353,7 +6408,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25542,
+		"index": 25836,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6364,7 +6419,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25618,
+		"index": 25912,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6375,7 +6430,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25568,
+		"index": 25862,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6386,18 +6441,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27519,
-		"redacted": false,
-		"blacklisted": false
-	},
-	"3481749002": {
-		"hash": 3481749002,
-		"foreground": "/image/generated/icon/3481749002.png",
-		"background": "/image/png/mod/mod_empty_seasonal.png",
-		"secondaryBackground": "/image/png/mod/mod_enhanced_overlay.png",
-		"specialBackground": "/image/png/mod/mod_fragile_overlay_seasonal.png",
-		"highResForeground": "",
-		"index": 6753,
+		"index": 27867,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6408,7 +6452,7 @@
 		"secondaryBackground": "/image/png/mod/mod_enhanced_overlay.png",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay.png",
 		"highResForeground": "",
-		"index": 28450,
+		"index": 28829,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6419,7 +6463,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27517,
+		"index": 27865,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6430,7 +6474,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17980,
+		"index": 18160,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6441,7 +6485,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17979,
+		"index": 18159,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6452,7 +6496,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 2887,
+		"index": 2938,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6463,7 +6507,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 2886,
+		"index": 2937,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6474,7 +6518,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 21844,
+		"index": 22056,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6485,7 +6529,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25598,
+		"index": 25892,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6496,7 +6540,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30143,
+		"index": 30539,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6507,7 +6551,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 23442,
+		"index": 23685,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6518,7 +6562,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 20880,
+		"index": 21090,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6529,7 +6573,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30775,
+		"index": 31302,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6540,7 +6584,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30776,
+		"index": 31303,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6551,7 +6595,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27704,
+		"index": 28052,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6562,7 +6606,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 8936,
+		"index": 9106,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6573,7 +6617,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 8935,
+		"index": 9105,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6584,7 +6628,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25602,
+		"index": 25896,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6595,7 +6639,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30162,
+		"index": 30558,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6606,7 +6650,7 @@
 		"secondaryBackground": "/image/png/mod/mod_enhanced_overlay.png",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay.png",
 		"highResForeground": "",
-		"index": 28432,
+		"index": 28811,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6617,7 +6661,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 22594,
+		"index": 22806,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6628,7 +6672,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 31082,
+		"index": 31609,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6639,7 +6683,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 20941,
+		"index": 21151,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6650,7 +6694,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 21324,
+		"index": 21536,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6661,7 +6705,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 26510,
+		"index": 26835,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6672,7 +6716,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 9958,
+		"index": 10128,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6683,7 +6727,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 18061,
+		"index": 18241,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6694,7 +6738,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 15466,
+		"index": 15636,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6705,7 +6749,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17954,
+		"index": 18134,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6716,7 +6760,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25528,
+		"index": 25822,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6727,7 +6771,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25581,
+		"index": 25875,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6738,7 +6782,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27698,
+		"index": 28046,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6749,7 +6793,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25540,
+		"index": 25834,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6760,7 +6804,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27686,
+		"index": 28034,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6771,7 +6815,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 20883,
+		"index": 21093,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6782,7 +6826,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 12192,
+		"index": 12362,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6793,7 +6837,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27689,
+		"index": 28037,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6804,7 +6848,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27700,
+		"index": 28048,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6815,7 +6859,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 31068,
+		"index": 31595,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6826,7 +6870,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 11259,
+		"index": 11429,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6837,7 +6881,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 14569,
+		"index": 14739,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6848,7 +6892,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30778,
+		"index": 31305,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6859,7 +6903,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 26845,
+		"index": 27182,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6870,18 +6914,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25586,
-		"redacted": false,
-		"blacklisted": false
-	},
-	"3804466364": {
-		"hash": 3804466364,
-		"foreground": "/image/generated/icon/3804466364.png",
-		"background": "/image/png/mod/mod_empty_seasonal.png",
-		"secondaryBackground": "/image/png/mod/mod_enhanced_overlay.png",
-		"specialBackground": "/image/png/mod/mod_fragile_overlay_seasonal.png",
-		"highResForeground": "",
-		"index": 6757,
+		"index": 25880,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6892,7 +6925,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 24563,
+		"index": 24829,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6903,7 +6936,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 23377,
+		"index": 23620,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6914,7 +6947,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 28433,
+		"index": 28812,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6925,7 +6958,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 20937,
+		"index": 21147,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6936,7 +6969,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 23385,
+		"index": 23628,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6947,7 +6980,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30777,
+		"index": 31304,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6958,7 +6991,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 31318,
+		"index": 31846,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6969,7 +7002,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 9981,
+		"index": 10151,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -6980,18 +7013,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 24884,
-		"redacted": false,
-		"blacklisted": false
-	},
-	"3890581141": {
-		"hash": 3890581141,
-		"foreground": "/image/generated/icon/3890581141.png",
-		"background": "/image/png/mod/mod_empty_seasonal.png",
-		"secondaryBackground": "/image/png/mod/mod_enhanced_overlay.png",
-		"specialBackground": "/image/png/mod/mod_fragile_overlay_seasonal.png",
-		"highResForeground": "",
-		"index": 6751,
+		"index": 25168,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7002,7 +7024,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30145,
+		"index": 30541,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7013,7 +7035,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 20805,
+		"index": 21009,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7024,7 +7046,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 23389,
+		"index": 23632,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7035,7 +7057,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 11257,
+		"index": 11427,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7046,7 +7068,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 22336,
+		"index": 22548,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7057,7 +7079,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 22335,
+		"index": 22547,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7068,7 +7090,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 22334,
+		"index": 22546,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7079,7 +7101,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27534,
+		"index": 27882,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7090,7 +7112,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27533,
+		"index": 27881,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7101,7 +7123,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27542,
+		"index": 27890,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7112,7 +7134,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27541,
+		"index": 27889,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7123,7 +7145,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27540,
+		"index": 27888,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7134,7 +7156,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27539,
+		"index": 27887,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7145,7 +7167,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27538,
+		"index": 27886,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7156,7 +7178,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27537,
+		"index": 27885,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7167,7 +7189,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27536,
+		"index": 27884,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7178,7 +7200,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27535,
+		"index": 27883,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7189,7 +7211,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27693,
+		"index": 28041,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7200,7 +7222,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 21845,
+		"index": 22057,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7211,7 +7233,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25571,
+		"index": 25865,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7222,7 +7244,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30142,
+		"index": 30538,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7233,7 +7255,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 24075,
+		"index": 24341,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7244,7 +7266,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 19406,
+		"index": 19586,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7255,7 +7277,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 24493,
+		"index": 24759,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7266,7 +7288,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 24494,
+		"index": 24760,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7277,7 +7299,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 24495,
+		"index": 24761,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7288,7 +7310,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 24496,
+		"index": 24762,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7299,7 +7321,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17768,
+		"index": 17948,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7310,7 +7332,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 21349,
+		"index": 21561,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7321,7 +7343,7 @@
 		"secondaryBackground": "/image/png/mod/mod_enhanced_overlay.png",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay.png",
 		"highResForeground": "",
-		"index": 13610,
+		"index": 13780,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7332,7 +7354,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17985,
+		"index": 18165,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7343,7 +7365,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 25696,
+		"index": 25990,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7354,7 +7376,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 20835,
+		"index": 21039,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7365,7 +7387,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 11258,
+		"index": 11428,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7376,7 +7398,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 8950,
+		"index": 9120,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7387,7 +7409,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 8949,
+		"index": 9119,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7398,7 +7420,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27706,
+		"index": 28054,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7409,7 +7431,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17951,
+		"index": 18131,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7420,7 +7442,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 23308,
+		"index": 23526,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7431,18 +7453,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25564,
-		"redacted": false,
-		"blacklisted": false
-	},
-	"4043176609": {
-		"hash": 4043176609,
-		"foreground": "/image/generated/icon/4043176609.png",
-		"background": "/image/png/mod/mod_empty_seasonal.png",
-		"secondaryBackground": "/image/png/mod/mod_enhanced_overlay.png",
-		"specialBackground": "/image/png/mod/mod_fragile_overlay_seasonal.png",
-		"highResForeground": "",
-		"index": 6759,
+		"index": 25858,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7453,7 +7464,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 12213,
+		"index": 12383,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7464,7 +7475,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 9977,
+		"index": 10147,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7475,7 +7486,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 22356,
+		"index": 22568,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7486,7 +7497,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17773,
+		"index": 17953,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7497,7 +7508,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 27562,
+		"index": 27910,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7508,7 +7519,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 22353,
+		"index": 22565,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7519,7 +7530,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27554,
+		"index": 27902,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7530,7 +7541,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27553,
+		"index": 27901,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7541,7 +7552,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27552,
+		"index": 27900,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7552,7 +7563,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27551,
+		"index": 27899,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7563,7 +7574,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27558,
+		"index": 27906,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7574,7 +7585,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27557,
+		"index": 27905,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7585,7 +7596,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27556,
+		"index": 27904,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7596,7 +7607,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27555,
+		"index": 27903,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7607,7 +7618,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27550,
+		"index": 27898,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7618,7 +7629,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27549,
+		"index": 27897,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7629,7 +7640,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 26515,
+		"index": 26840,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7640,7 +7651,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 22329,
+		"index": 22541,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7651,7 +7662,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 22328,
+		"index": 22540,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7662,7 +7673,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 22327,
+		"index": 22539,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7673,7 +7684,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 16378,
+		"index": 16558,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7684,7 +7695,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17952,
+		"index": 18132,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7695,7 +7706,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 31081,
+		"index": 31608,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7706,7 +7717,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30781,
+		"index": 31308,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7717,7 +7728,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 25630,
+		"index": 25924,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7728,7 +7739,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 26522,
+		"index": 26847,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7739,7 +7750,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 8957,
+		"index": 9127,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7750,7 +7761,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 8958,
+		"index": 9128,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7761,7 +7772,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 8959,
+		"index": 9129,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7772,7 +7783,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17958,
+		"index": 18138,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7783,7 +7794,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17962,
+		"index": 18142,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7794,7 +7805,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 12191,
+		"index": 12361,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7805,7 +7816,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 12190,
+		"index": 12360,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7816,7 +7827,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 24021,
+		"index": 24275,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7827,7 +7838,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 28988,
+		"index": 29367,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7838,7 +7849,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 30602,
+		"index": 31129,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7849,7 +7860,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 13555,
+		"index": 13725,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7860,7 +7871,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 25699,
+		"index": 25993,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7871,7 +7882,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 23375,
+		"index": 23618,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7882,7 +7893,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 25697,
+		"index": 25991,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7893,7 +7904,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 9965,
+		"index": 10135,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7904,7 +7915,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 14564,
+		"index": 14734,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7915,7 +7926,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 30153,
+		"index": 30549,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7926,7 +7937,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25613,
+		"index": 25907,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7937,7 +7948,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 27520,
+		"index": 27868,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7948,7 +7959,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 21925,
+		"index": 22137,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7959,7 +7970,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17948,
+		"index": 18128,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7970,7 +7981,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17947,
+		"index": 18127,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7981,7 +7992,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17950,
+		"index": 18130,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -7992,7 +8003,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17949,
+		"index": 18129,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -8003,7 +8014,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17946,
+		"index": 18126,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -8014,7 +8025,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 17945,
+		"index": 18125,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -8025,7 +8036,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 19548,
+		"index": 19728,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -8036,7 +8047,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "",
 		"highResForeground": "",
-		"index": 22913,
+		"index": 23125,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -8047,7 +8058,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25615,
+		"index": 25909,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -8058,7 +8069,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 25560,
+		"index": 25854,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -8069,7 +8080,7 @@
 		"secondaryBackground": "/image/png/mod/mod_enhanced_overlay.png",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay.png",
 		"highResForeground": "",
-		"index": 28448,
+		"index": 28827,
 		"redacted": false,
 		"blacklisted": false
 	},
@@ -8080,7 +8091,7 @@
 		"secondaryBackground": "",
 		"specialBackground": "/image/png/mod/mod_fragile_overlay_glow.png",
 		"highResForeground": "",
-		"index": 20843,
+		"index": 21047,
 		"redacted": false,
 		"blacklisted": false
 	}

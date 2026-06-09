@@ -648,20 +648,14 @@ export declare const enum DeepsightItemSourceType {
 	PinnacleOps,
 	CrucibleOpsActivityReward,
 	TrialsOfOsiris,
-	ArmsWeekEvent,
-	SolsticeEvent,
 	Kepler,
-	HeavyMetalEvent,
 	IronBannerEvent,
 	XurStrangeGear,
 	ValusSaladinLegacyGear,
-	FestivalOfTheLost,
-	CallToArmsEvent,
 	LawlessFrontier,
 	Renegades,
 	TheEdgeOfFate,
 	FireAndIce,
-	TheDawning,
 	TheDesertPerpetual,
 	TheDesertPerpetualEpic,
 	Equilibrium,
@@ -703,13 +697,15 @@ export declare interface DeepsightItemSourceDefinition {
 //#region Links
 
 export declare type ComponentName = keyof AllDestinyManifestComponents | keyof DeepsightManifestComponentsMap | keyof PopularityreportManifestComponentsMap | 'ClarityDescriptions'
+export declare type VirtualComponentName = 'profiles' | 'pgcrs'
+export declare type LinksSourceComponentName = ComponentName | VirtualComponentName
 export declare interface DeepsightLinksDefinition {
-	components: Partial<Record<ComponentName, DeepsightComponentLinksDefinition>>
+	components: Partial<Record<LinksSourceComponentName, DeepsightComponentLinksDefinition>>
 	enums: Partial<Record<string, DeepsightEnumDefinition>>
 }
 
 export declare interface DeepsightComponentLinksDefinition {
-	component: ComponentName
+	component: LinksSourceComponentName
 	links?: (DeepsightDefinitionLinkDefinition | DeepsightEnumLinkDefinition)[]
 	augmentations?: ComponentName[]
 }

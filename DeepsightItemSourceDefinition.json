@@ -110,27 +110,6 @@
 	},
 	"11": {
 		"hash": 11,
-		"category": 4,
-		"event": 1392131908,
-		"displayProperties": {
-			"name": "Arms Week",
-			"subtitle": "Ada-1",
-			"icon": "/common/destiny2_content/icons/DestinyEventCardDefinition_a6387809eb029e6fb70d40c3326d8a02.png",
-			"description": ""
-		}
-	},
-	"12": {
-		"hash": 12,
-		"category": 2,
-		"event": 3841872876,
-		"displayProperties": {
-			"name": "Solstice",
-			"icon": "/common/destiny2_content/icons/DestinyEventCardDefinition_4f9324534754826fe140c9b487884b9d.png",
-			"description": ""
-		}
-	},
-	"13": {
-		"hash": 13,
 		"category": 3,
 		"displayProperties": {
 			"name": "Kepler",
@@ -139,18 +118,8 @@
 			"description": ""
 		}
 	},
-	"14": {
-		"hash": 14,
-		"category": 2,
-		"event": 1625344077,
-		"displayProperties": {
-			"name": "Heavy Metal",
-			"icon": "/common/destiny2_content/icons/DestinyEventCardDefinition_8219d7d63beb7cbaf05cf2c0c2ba1648.png",
-			"description": ""
-		}
-	},
-	"15": {
-		"hash": 15,
+	"12": {
+		"hash": 12,
 		"category": 2,
 		"event": 3319172235,
 		"displayProperties": {
@@ -159,8 +128,8 @@
 			"description": ""
 		}
 	},
-	"16": {
-		"hash": 16,
+	"13": {
+		"hash": 13,
 		"category": 0,
 		"rotates": true,
 		"displayProperties": {
@@ -170,8 +139,8 @@
 			"icon": "/common/destiny2_content/icons/0c4e426abcae67819183ec3ce6d2a68c.png"
 		}
 	},
-	"17": {
-		"hash": 17,
+	"14": {
+		"hash": 14,
 		"category": 0,
 		"event": 3319172235,
 		"displayProperties": {
@@ -181,28 +150,8 @@
 			"icon": "/common/destiny2_content/icons/e21e97ef6c0343c611a46b77f8b9937c.png"
 		}
 	},
-	"18": {
-		"hash": 18,
-		"category": 2,
-		"event": 3265920761,
-		"displayProperties": {
-			"name": "Festival of the Lost",
-			"icon": "/common/destiny2_content/icons/DestinyEventCardDefinition_1a1e3f8074c98241af80f4bee77084c3.png",
-			"description": ""
-		}
-	},
-	"19": {
-		"hash": 19,
-		"category": 2,
-		"event": 4023942872,
-		"displayProperties": {
-			"name": "Call to Arms",
-			"icon": "/common/destiny2_content/icons/DestinyEventCardDefinition_aa23778b4fa231f096456ebaaf8738ea.png",
-			"description": ""
-		}
-	},
-	"20": {
-		"hash": 20,
+	"15": {
+		"hash": 15,
 		"category": 3,
 		"displayProperties": {
 			"name": "Lawless Frontier",
@@ -211,8 +160,8 @@
 			"description": ""
 		}
 	},
-	"21": {
-		"hash": 21,
+	"16": {
+		"hash": 16,
 		"category": 5,
 		"displayProperties": {
 			"name": "Renegades",
@@ -221,8 +170,8 @@
 			"description": ""
 		}
 	},
-	"22": {
-		"hash": 22,
+	"17": {
+		"hash": 17,
 		"category": 5,
 		"displayProperties": {
 			"name": "The Edge of Fate",
@@ -231,8 +180,8 @@
 			"description": ""
 		}
 	},
-	"23": {
-		"hash": 23,
+	"18": {
+		"hash": 18,
 		"category": 6,
 		"displayProperties": {
 			"name": "Fire and Ice",
@@ -241,18 +190,8 @@
 			"description": ""
 		}
 	},
-	"24": {
-		"hash": 24,
-		"category": 2,
-		"event": 2302439334,
-		"displayProperties": {
-			"name": "The Dawning",
-			"icon": "/common/destiny2_content/icons/DestinyEventCardDefinition_de8fe70bc9e0537c04681f5581c6c452.png",
-			"description": ""
-		}
-	},
-	"25": {
-		"hash": 25,
+	"19": {
+		"hash": 19,
 		"category": 7,
 		"displayProperties": {
 			"name": "The Desert Perpetual",
@@ -261,8 +200,8 @@
 			"description": ""
 		}
 	},
-	"26": {
-		"hash": 26,
+	"20": {
+		"hash": 20,
 		"category": 7,
 		"displayProperties": {
 			"name": "The Desert Perpetual (Epic)",
@@ -271,8 +210,8 @@
 			"description": ""
 		}
 	},
-	"27": {
-		"hash": 27,
+	"21": {
+		"hash": 21,
 		"category": 8,
 		"displayProperties": {
 			"name": "Equilibrium",
@@ -281,8 +220,8 @@
 			"description": ""
 		}
 	},
-	"28": {
-		"hash": 28,
+	"22": {
+		"hash": 22,
 		"category": 9,
 		"displayProperties": {
 			"name": "Lawless",
@@ -290,8 +229,8 @@
 			"description": ""
 		}
 	},
-	"29": {
-		"hash": 29,
+	"23": {
+		"hash": 23,
 		"category": 9,
 		"displayProperties": {
 			"name": "Reclamation",
@@ -299,8 +238,8 @@
 			"description": ""
 		}
 	},
-	"30": {
-		"hash": 30,
+	"24": {
+		"hash": 24,
 		"category": 6,
 		"displayProperties": {
 			"name": "Heliostat",

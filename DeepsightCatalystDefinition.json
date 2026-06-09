@@ -1,4 +1,12 @@
 {
+	"14194600": {
+		"hash": 14194600,
+		"record": 1359628777,
+		"primaryObjectiveHashes": [
+			4066813156
+		],
+		"progressDescription": "Targets defeated"
+	},
 	"17096506": {
 		"hash": 17096506,
 		"record": 3465971755,
@@ -97,6 +105,22 @@
 		],
 		"progressDescription": "Targets defeated"
 	},
+	"449318888": {
+		"hash": 449318888,
+		"record": 973174495,
+		"primaryObjectiveHashes": [
+			1417824983
+		],
+		"progressDescription": "Targets defeated"
+	},
+	"542203595": {
+		"hash": 542203595,
+		"record": 2145973004,
+		"primaryObjectiveHashes": [
+			3650170579
+		],
+		"progressDescription": "Targets defeated"
+	},
 	"603721696": {
 		"hash": 603721696,
 		"record": 250211794,
@@ -118,6 +142,14 @@
 		"record": 1586771061,
 		"primaryObjectiveHashes": [
 			3510116410
+		],
+		"progressDescription": "Targets defeated"
+	},
+	"814876684": {
+		"hash": 814876684,
+		"record": 3176275318,
+		"primaryObjectiveHashes": [
+			861147776
 		],
 		"progressDescription": "Targets defeated"
 	},
@@ -152,6 +184,14 @@
 			911278004
 		],
 		"progressDescription": "Catalyst reshaped"
+	},
+	"1201830623": {
+		"hash": 1201830623,
+		"record": 3865040202,
+		"primaryObjectiveHashes": [
+			735466242
+		],
+		"progressDescription": "Targets defeated"
 	},
 	"1234150730": {
 		"hash": 1234150730,
@@ -198,6 +238,14 @@
 		"record": 1855685192,
 		"primaryObjectiveHashes": [
 			56878078
+		],
+		"progressDescription": "Targets defeated"
+	},
+	"1364093401": {
+		"hash": 1364093401,
+		"record": 281511019,
+		"primaryObjectiveHashes": [
+			2527921341
 		],
 		"progressDescription": "Targets defeated"
 	},
@@ -305,6 +353,14 @@
 		],
 		"progressDescription": "Targets defeated"
 	},
+	"1852863732": {
+		"hash": 1852863732,
+		"record": 642042685,
+		"primaryObjectiveHashes": [
+			1367155432
+		],
+		"progressDescription": "Targets defeated"
+	},
 	"1853180924": {
 		"hash": 1853180924,
 		"record": 571025162,
@@ -369,14 +425,6 @@
 		],
 		"progressDescription": "Combatants defeated"
 	},
-	"2232171099": {
-		"hash": 2232171099,
-		"record": 2254190310,
-		"primaryObjectiveHashes": [
-			765488993
-		],
-		"progressDescription": "Targets defeated"
-	},
 	"2350354266": {
 		"hash": 2350354266,
 		"record": 2744508352,
@@ -401,11 +449,35 @@
 		],
 		"progressDescription": "Fireteam Rat King Kills"
 	},
+	"2376481550": {
+		"hash": 2376481550,
+		"record": 1956344781,
+		"primaryObjectiveHashes": [
+			2018595790
+		],
+		"progressDescription": "Targets defeated"
+	},
+	"2399110176": {
+		"hash": 2399110176,
+		"record": 3159084201,
+		"primaryObjectiveHashes": [
+			1006363205
+		],
+		"progressDescription": "Targets defeated"
+	},
 	"2415517654": {
 		"hash": 2415517654,
 		"record": 2660706768,
 		"primaryObjectiveHashes": [
 			3678360595
+		],
+		"progressDescription": "Targets defeated"
+	},
+	"2535142413": {
+		"hash": 2535142413,
+		"record": 888259608,
+		"primaryObjectiveHashes": [
+			2960816159
 		],
 		"progressDescription": "Targets defeated"
 	},
@@ -441,6 +513,14 @@
 		],
 		"progressDescription": "Targets defeated"
 	},
+	"2812324400": {
+		"hash": 2812324400,
+		"record": 3391166559,
+		"primaryObjectiveHashes": [
+			1901307574
+		],
+		"progressDescription": "Targets defeated"
+	},
 	"2816212794": {
 		"hash": 2816212794,
 		"record": 748675128,
@@ -456,6 +536,14 @@
 			1104649782
 		],
 		"progressDescription": "Crucible Enemies Defeated"
+	},
+	"2905188646": {
+		"hash": 2905188646,
+		"record": 3786958609,
+		"primaryObjectiveHashes": [
+			1823213538
+		],
+		"progressDescription": "Targets defeated"
 	},
 	"2907129556": {
 		"hash": 2907129556,
@@ -508,6 +596,22 @@
 		],
 		"progressDescription": "Catalyst Progress"
 	},
+	"3110698812": {
+		"hash": 3110698812,
+		"record": 2139231909,
+		"primaryObjectiveHashes": [
+			3043155823
+		],
+		"progressDescription": "Targets defeated"
+	},
+	"3118061004": {
+		"hash": 3118061004,
+		"record": 3241341815,
+		"primaryObjectiveHashes": [
+			1820843243
+		],
+		"progressDescription": "Targets defeated"
+	},
 	"3121540812": {
 		"hash": 3121540812,
 		"record": 1450844310,
@@ -550,11 +654,27 @@
 		],
 		"progressDescription": "Targets defeated"
 	},
+	"3284383335": {
+		"hash": 3284383335,
+		"record": 590601685,
+		"primaryObjectiveHashes": [
+			3203822995
+		],
+		"progressDescription": "Targets defeated"
+	},
 	"3325463374": {
 		"hash": 3325463374,
 		"record": 2571854597,
 		"primaryObjectiveHashes": [
 			1746343880
+		],
+		"progressDescription": "Targets defeated"
+	},
+	"3371017761": {
+		"hash": 3371017761,
+		"record": 3548810755,
+		"primaryObjectiveHashes": [
+			2156648720
 		],
 		"progressDescription": "Targets defeated"
 	},
@@ -565,6 +685,14 @@
 			2557507168
 		],
 		"progressDescription": "Enemies Defeated"
+	},
+	"3413860062": {
+		"hash": 3413860062,
+		"record": 4286234468,
+		"primaryObjectiveHashes": [
+			4000030634
+		],
+		"progressDescription": "Targets defeated"
 	},
 	"3413860063": {
 		"hash": 3413860063,
@@ -587,6 +715,22 @@
 		"record": 2135780490,
 		"primaryObjectiveHashes": [
 			3033168168
+		],
+		"progressDescription": "Targets defeated"
+	},
+	"3487253372": {
+		"hash": 3487253372,
+		"record": 1312984121,
+		"primaryObjectiveHashes": [
+			2527750505
+		],
+		"progressDescription": "Targets defeated"
+	},
+	"3505113722": {
+		"hash": 3505113722,
+		"record": 1483034863,
+		"primaryObjectiveHashes": [
+			1315904438
 		],
 		"progressDescription": "Targets defeated"
 	},
@@ -808,6 +952,14 @@
 			4285451500
 		],
 		"progressDescription": "Enemies Defeated"
+	},
+	"4207066264": {
+		"hash": 4207066264,
+		"record": 953650385,
+		"primaryObjectiveHashes": [
+			3438022194
+		],
+		"progressDescription": "Targets defeated"
 	},
 	"4284533075": {
 		"hash": 4284533075,

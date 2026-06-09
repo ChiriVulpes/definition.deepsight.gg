@@ -39,19 +39,13 @@
 		"subsumeIconWatermarks": [
 			"/common/destiny2_content/icons/83fbcacd223402c09af4b7ab067f8cce.png"
 		],
-		"event": 2302439334,
 		"hash": 1001,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/be60f0242a039e62f1c5d4fc97801c75.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/be60f0242a039e62f1c5d4fc97801c75.png",
 		"displayProperties": {
-			"name": "The Dawning",
-			"description": "Complete limited-time Event Card challenges to earn various rewards and make progress toward event Title completion.",
-			"icon": "/common/destiny2_content/icons/DestinyEventCardDefinition_de8fe70bc9e0537c04681f5581c6c452.png"
-		},
-		"primaryImage": "/img/destiny_content/event_cards/dawning/theme-background.jpg",
-		"images": [
-			"/img/destiny_content/event_cards/dawning/theme-background.jpg"
-		]
+			"name": "",
+			"description": ""
+		}
 	},
 	"1002": {
 		"id": "crimsondays",
@@ -73,19 +67,13 @@
 	"1003": {
 		"id": "guardiangames",
 		"iconWatermark": "/common/destiny2_content/icons/9c091ec0e22c01dacc25efb63b46eb9b.png",
-		"event": 3461628897,
 		"hash": 1003,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/5cb49360f28fa037106307dda7cc7495.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/5cb49360f28fa037106307dda7cc7495.png",
 		"displayProperties": {
-			"name": "Guardian Games",
-			"description": "Complete limited-time Event Card challenges to earn various rewards and make progress toward event Title completion.",
-			"icon": "/common/destiny2_content/icons/DestinyEventCardDefinition_ce6c2cf855dce694bcc89803b6bc44b7.png"
-		},
-		"primaryImage": "/img/destiny_content/event_cards/guardian-games/theme-background.jpg",
-		"images": [
-			"/img/destiny_content/event_cards/guardian-games/theme-background.jpg"
-		]
+			"name": "",
+			"description": ""
+		}
 	},
 	"1004": {
 		"id": "solstice",
@@ -93,19 +81,13 @@
 		"subsumeIconWatermarks": [
 			"/common/destiny2_content/icons/50c3ebe414c6946429934d79504922fa.png"
 		],
-		"event": 3841872876,
 		"hash": 1004,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/518a725160c326a532b33c4af7a5e027.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/518a725160c326a532b33c4af7a5e027.png",
 		"displayProperties": {
-			"name": "Solstice",
-			"description": "Complete limited-time Event Card challenges to earn various rewards and make progress toward event Title completion.",
-			"icon": "/common/destiny2_content/icons/DestinyEventCardDefinition_4f9324534754826fe140c9b487884b9d.png"
-		},
-		"primaryImage": "/img/destiny_content/event_cards/solstice/theme-background.png",
-		"images": [
-			"/img/destiny_content/event_cards/solstice/theme-background.png"
-		]
+			"name": "",
+			"description": ""
+		}
 	},
 	"1005": {
 		"id": "festivalofthelost",
@@ -116,19 +98,13 @@
 		"subsumeIconWatermarks": [
 			"/common/destiny2_content/icons/53dc0b02306726ff1517af33ac908cef.png"
 		],
-		"event": 3265920761,
 		"hash": 1005,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/6529f7497921fd62d40c7fa7a1e00dd3.png",
 		"iconWatermarkFeatured": "/common/destiny2_content/icons/6529f7497921fd62d40c7fa7a1e00dd3.png",
 		"displayProperties": {
-			"name": "Festival of the Lost",
-			"description": "Complete limited-time Event Card challenges to earn various rewards and make progress toward event Title completion.",
-			"icon": "/common/destiny2_content/icons/DestinyEventCardDefinition_1a1e3f8074c98241af80f4bee77084c3.png"
-		},
-		"primaryImage": "/img/destiny_content/event_cards/fotl/theme-background.jpg",
-		"images": [
-			"/img/destiny_content/event_cards/fotl/theme-background.jpg"
-		]
+			"name": "",
+			"description": ""
+		}
 	},
 	"2000": {
 		"id": "redwar",
@@ -314,7 +290,9 @@
 			"description": "New nightmares have emerged from the shadows of our Moon. Called forth by haunting visions, Eris Morn has returned. Join her to slay these nightmares before they reach out beyond the Moon to cast humanity back into an age of darkness.",
 			"icon": "/common/destiny2_content/icons/f6b19d9b1db82598cbd234f42a5ee7f2.png"
 		},
-		"iconWatermark": "/common/destiny2_content/icons/a15754752f40aaf7b1b00aadb70a8f35.png",
+		"iconWatermark": {
+			"DestinyInventoryItemDefinition": 613601972
+		},
 		"primaryImage": "/img/destiny_content/pgcr/strike_the_scarlet_keep.jpg",
 		"images": [
 			"/img/destiny_content/pgcr/story_a_mysterious_disturbance.jpg",
@@ -326,9 +304,7 @@
 		],
 		"expansion": true,
 		"year": 3,
-		"hash": 2007,
-		"iconWatermarkShelved": "/common/destiny2_content/icons/59172b06d7abeca120ecf35f79e33a67.png",
-		"iconWatermarkFeatured": "/common/destiny2_content/icons/59172b06d7abeca120ecf35f79e33a67.png"
+		"hash": 2007
 	},
 	"2008": {
 		"id": "undying",
@@ -488,8 +464,9 @@
 			"description": "As the Last City is consumed by an Endless Night, Guardians must hack their way through the Vex Network with help from Mithrax, the Sacred Splicer."
 		},
 		"iconWatermark": "/common/destiny2_content/icons/36418dde751148bd3b95a023d491ea73.png",
-		"primaryImage": "/img/destiny_content/pgcr/season_14_override_last_city.jpg",
+		"primaryImage": "/img/theme/destiny/bgs/pgcrs/placeholder.jpg",
 		"images": [
+			"/img/theme/destiny/bgs/pgcrs/placeholder.jpg",
 			"/img/destiny_content/pgcr/season_14_expunge_tartarus.jpg",
 			"/img/destiny_content/pgcr/season_14_expunge_corrupted_tartarus.jpg",
 			"/img/destiny_content/pgcr/season_14_expunge_styx.jpg",
@@ -646,6 +623,7 @@
 		"images": [
 			"/img/destiny_content/pgcr/season_18_intro.jpg",
 			"/img/destiny_content/pgcr/season_18_expedition.jpg",
+			"/img/destiny_content/pgcr/season_18_ketchcrash.jpg",
 			"/img/destiny_content/pgcr/offensive_voyage.jpg",
 			"/img/destiny_content/pgcr/season_18_pirate_hideout.jpg"
 		],
@@ -686,7 +664,7 @@
 		"displayProperties": {
 			"name": "Lightfall",
 			"description": "Prevent the apocalypse by racing Emperor Calus to the edge of the solar system. \n\nDiscover a new destination and master Strand, a new subclass.",
-			"icon": "/common/destiny2_content/icons/764123441e45763f0cdc279486d01e49.png"
+			"icon": "/common/destiny2_content/icons/49d17e7690ec0e6a091f2522bc4e7ef7.png"
 		},
 		"iconWatermark": "/common/destiny2_content/icons/fc02418ad2002351a3f88faa5b14eb88.png",
 		"primaryImage": "/img/destiny_content/pgcr/lightfall_mission_workout.jpg",
@@ -1045,6 +1023,11 @@
 	},
 	"2037": {
 		"id": "lawless",
+		"displayProperties": {
+			"name": "Lawless",
+			"icon": "/common/destiny2_content/icons/DestinySeasonPassDefinition_e26d26718aa8cdda042e116085bd3473.png",
+			"description": ""
+		},
 		"iconWatermark": "/common/destiny2_content/icons/4376a7d734583ae347acf9732aa3bb43.png",
 		"itemHashes": [
 			4069880346,
@@ -1052,18 +1035,25 @@
 		],
 		"year": 8,
 		"season": 28,
-		"seasonHash": 2758726560,
 		"hash": 2037,
 		"iconWatermarkShelved": "/common/destiny2_content/icons/c94c3d69d636310a10bf1d39fc4a3e29.png",
-		"iconWatermarkFeatured": "/common/destiny2_content/icons/c94c3d69d636310a10bf1d39fc4a3e29.png",
+		"iconWatermarkFeatured": "/common/destiny2_content/icons/c94c3d69d636310a10bf1d39fc4a3e29.png"
+	},
+	"2038": {
+		"id": "triumph",
+		"aliases": [
+			"mot"
+		],
 		"displayProperties": {
-			"name": "Season 28: Lawless",
-			"description": "A Prophecy foretells extinction. A new threat rises in the Barant Imperium. And the Drifter's past is catching up to him…",
-			"icon": "/common/destiny2_content/icons/DestinySeasonDefinition_e26d26718aa8cdda042e116085bd3473.png"
+			"name": "Monument of Triumph",
+			"description": "",
+			"icon": "/common/destiny2_content/icons/5907bec072b601dcccaaa757f1f701c9.png"
 		},
-		"primaryImage": "/img/destiny_content/seasons/season_passes/season28-pass-0-background.png",
-		"images": [
-			"/img/destiny_content/seasons/season_passes/season28-pass-0-background.png"
-		]
+		"iconWatermark": "/common/destiny2_content/icons/e78fd9419f99464816ac8f628bc3c4af.png",
+		"year": 8,
+		"expansion": true,
+		"hash": 2038,
+		"iconWatermarkShelved": "/common/destiny2_content/icons/e6ef9fc1f8c33bf80f770400d8e7fb03.png",
+		"iconWatermarkFeatured": "/common/destiny2_content/icons/e6ef9fc1f8c33bf80f770400d8e7fb03.png"
 	}
 }

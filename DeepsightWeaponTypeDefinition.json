@@ -6,7 +6,7 @@
 			"name": "Auto Rifles",
 			"iconHash": 0,
 			"hasIcon": false,
-			"icon": "/common/destiny2_content/icons/30367order_icon_weapon_autorifle.v2.png"
+			"icon": "/common/destiny2_content/icons/30803order_icon_weapon_autorifle.v2.png"
 		},
 		"frames": [
 			1458010786,
@@ -14,9 +14,11 @@
 			1636108362,
 			878286503,
 			1294026524,
+			2799967529,
 			3488129416,
 			2235383762,
 			3771737927,
+			2078075300,
 			2622129339
 		]
 	},
@@ -27,7 +29,7 @@
 			"name": "Hand Cannons",
 			"iconHash": 0,
 			"hasIcon": false,
-			"icon": "/common/destiny2_content/icons/30398order_icon_weapon_handcannon.v2.png"
+			"icon": "/common/destiny2_content/icons/30834order_icon_weapon_handcannon.v2.png"
 		},
 		"frames": [
 			1458010786,
@@ -35,8 +37,8 @@
 			3468089894,
 			1322370662,
 			2757685314,
-			3923638944,
 			2427219599,
+			3923638944,
 			1611330137,
 			1406835319,
 			2189829540
@@ -49,7 +51,7 @@
 			"name": "Pulse Rifles",
 			"iconHash": 0,
 			"hasIcon": false,
-			"icon": "/common/destiny2_content/icons/30366order_icon_weapon_pulserifle.v2.png"
+			"icon": "/common/destiny2_content/icons/30802order_icon_weapon_pulserifle.v2.png"
 		},
 		"frames": [
 			1458010786,
@@ -57,11 +59,11 @@
 			878286503,
 			1294026524,
 			2928496916,
-			1634975868,
 			2874284214,
+			1634975868,
+			4172222323,
 			3771737927,
-			2331097520,
-			4172222323
+			2331097520
 		]
 	},
 	"8": {
@@ -71,7 +73,7 @@
 			"name": "Scout Rifles",
 			"iconHash": 0,
 			"hasIcon": false,
-			"icon": "/common/destiny2_content/icons/30389order_icon_weapon_scoutrifle.v2.png"
+			"icon": "/common/destiny2_content/icons/30825order_icon_weapon_scoutrifle.v2.png"
 		},
 		"frames": [
 			1458010786,
@@ -90,7 +92,7 @@
 			"name": "Fusion Rifles",
 			"iconHash": 0,
 			"hasIcon": false,
-			"icon": "/common/destiny2_content/icons/30397order_icon_weapon_fusionrifle.v2.png"
+			"icon": "/common/destiny2_content/icons/30833order_icon_weapon_fusionrifle.v2.png"
 		},
 		"frames": [
 			1019291327,
@@ -109,9 +111,10 @@
 			"name": "Sniper Rifles",
 			"iconHash": 0,
 			"hasIcon": false,
-			"icon": "/common/destiny2_content/icons/30388order_icon_weapon_sniper.v2.png"
+			"icon": "/common/destiny2_content/icons/30824order_icon_weapon_sniper.v2.png"
 		},
 		"frames": [
+			1019291327,
 			878286503,
 			1294026524,
 			3468089894,
@@ -126,7 +129,7 @@
 			"name": "Shotguns",
 			"iconHash": 0,
 			"hasIcon": false,
-			"icon": "/common/destiny2_content/icons/30396order_icon_weapon_shotgun.v2.png"
+			"icon": "/common/destiny2_content/icons/30832order_icon_weapon_shotgun.v2.png"
 		},
 		"frames": [
 			1458010786,
@@ -135,11 +138,11 @@
 			3468089894,
 			3983457027,
 			1888623310,
+			895140517,
 			407573255,
 			996573084,
-			3923638944,
-			895140517,
-			3054949324
+			3054949324,
+			3923638944
 		]
 	},
 	"12": {
@@ -149,7 +152,7 @@
 			"name": "Machine Guns",
 			"iconHash": 0,
 			"hasIcon": false,
-			"icon": "/common/destiny2_content/icons/30391order_icon_weapon_machinegun.v2.png"
+			"icon": "/common/destiny2_content/icons/30827order_icon_weapon_machinegun.v2.png"
 		},
 		"frames": [
 			1019291327,
@@ -166,7 +169,7 @@
 			"name": "Rocket Launchers",
 			"iconHash": 0,
 			"hasIcon": false,
-			"icon": "/common/destiny2_content/icons/30390order_icon_weapon_rocketlauncher.v2.png"
+			"icon": "/common/destiny2_content/icons/30826order_icon_weapon_rocketlauncher.v2.png"
 		},
 		"frames": [
 			1019291327,
@@ -183,7 +186,7 @@
 			"name": "Sidearms",
 			"iconHash": 0,
 			"hasIcon": false,
-			"icon": "/common/destiny2_content/icons/30395order_icon_weapon_sidearm.v2.png"
+			"icon": "/common/destiny2_content/icons/30831order_icon_weapon_sidearm.v2.png"
 		},
 		"frames": [
 			1458010786,
@@ -194,8 +197,8 @@
 			2928496916,
 			806997698,
 			1282254042,
-			1615948893,
 			3330548924,
+			1615948893,
 			4108848057
 		]
 	},
@@ -206,15 +209,15 @@
 			"name": "Swords",
 			"iconHash": 0,
 			"hasIcon": false,
-			"icon": "/common/destiny2_content/icons/30387order_icon_weapon_sword.v2.png"
+			"icon": "/common/destiny2_content/icons/30823order_icon_weapon_sword.v2.png"
 		},
 		"frames": [
 			183772609,
 			4172267910,
-			430173891,
 			263649945,
-			836583820,
-			1713206376
+			1713206376,
+			430173891,
+			836583820
 		]
 	},
 	"153950757": {
@@ -224,18 +227,18 @@
 			"name": "Grenade Launchers",
 			"iconHash": 0,
 			"hasIcon": false,
-			"icon": "/common/destiny2_content/icons/30392order_icon_weapon_grenadelauncher.v2.png"
+			"icon": "/common/destiny2_content/icons/30828order_icon_weapon_grenadelauncher.v2.png"
 		},
 		"frames": [
 			1294026524,
+			2571259936,
+			385138649,
 			474269988,
 			1395789926,
 			3758615625,
 			2353477480,
-			4130495068,
-			385138649,
 			1759472859,
-			2571259936
+			4130495068
 		]
 	},
 	"1504945536": {
@@ -245,7 +248,7 @@
 			"name": "Linear Fusion Rifles",
 			"iconHash": 0,
 			"hasIcon": false,
-			"icon": "/common/destiny2_content/icons/30385order_icon_weapon_linearfusion.v2.png"
+			"icon": "/common/destiny2_content/icons/30821order_icon_weapon_linearfusion.v2.png"
 		},
 		"frames": [
 			2057203855,
@@ -259,7 +262,7 @@
 			"name": "Trace Rifles",
 			"iconHash": 0,
 			"hasIcon": false,
-			"icon": "/common/destiny2_content/icons/30383order_icon_weapon_tracerifle.v2.png"
+			"icon": "/common/destiny2_content/icons/30819order_icon_weapon_tracerifle.v2.png"
 		},
 		"frames": [
 			1294026524
@@ -272,7 +275,7 @@
 			"name": "Bows",
 			"iconHash": 0,
 			"hasIcon": false,
-			"icon": "/common/destiny2_content/icons/30384order_icon_weapon_bow.v2.png"
+			"icon": "/common/destiny2_content/icons/30820order_icon_weapon_bow.v2.png"
 		},
 		"frames": [
 			1019291327,
@@ -289,7 +292,7 @@
 			"name": "Glaives",
 			"iconHash": 0,
 			"hasIcon": false,
-			"icon": "/common/destiny2_content/icons/30386order_icon_weapon_glaive.v2.png"
+			"icon": "/common/destiny2_content/icons/30822order_icon_weapon_glaive.v2.png"
 		},
 		"frames": [
 			1316753551,
@@ -304,7 +307,7 @@
 			"name": "Submachine Guns",
 			"iconHash": 0,
 			"hasIcon": false,
-			"icon": "/common/destiny2_content/icons/30394order_icon_weapon_smg.v2.png"
+			"icon": "/common/destiny2_content/icons/30830order_icon_weapon_smg.v2.png"
 		},
 		"frames": [
 			1458010786,
@@ -312,8 +315,8 @@
 			1294026524,
 			3468089894,
 			1525239159,
-			2213377102,
 			695966445,
+			2213377102,
 			2167115920
 		]
 	}
