@@ -2612,7 +2612,7 @@
 			"links": [
 				{
 					"path": "sources.[]",
-					"enum": "DeepsightItemSourceType"
+					"component": "DeepsightItemSourceDefinition"
 				}
 			]
 		},
