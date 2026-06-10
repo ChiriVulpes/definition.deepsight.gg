@@ -830,6 +830,11 @@ export default Task('DeepsightWallpaperDefinition', async () => {
 			wallpapers: [],
 			secondaryWallpapers: [],
 		},
+		[MomentHashes.MonumentOfTriumph]: {
+			hash: MomentHashes.MonumentOfTriumph,
+			wallpapers: [],
+			secondaryWallpapers: [],
+		},
 	}
 
 	// clear empties

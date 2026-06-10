@@ -1,139 +1,146 @@
-import { ActivityHashes, InventoryItemHashes, RecordHashes } from '@deepsight.gg/Enums'
+import { ActivityHashes, MomentHashes, RecordHashes } from '@deepsight.gg/Enums'
+import { coalesceItemSet, getMomentCollectionsItemSet } from '../DeepsightCollectionsDefinition'
 import type { DeepsightDropTableDefinition } from './DeepsightDropTableDefinition'
 
-export default {
-	hash: ActivityHashes.Prophecy_ChallengesLength0,
-	displayProperties: {
-		icon: { DestinyRecordDefinition: RecordHashes.ProphecyComplete872886548 },
-	},
-	encounters: [
-		{
-			traversal: true,
-			displayProperties: {
-				name: 'Seek the Nine',
-				description: 'Seek an audience with the Nine.',
-			},
+export default async function () {
+	const motItemSet = await getMomentCollectionsItemSet(MomentHashes.MonumentOfTriumph)
+	const arrivalsItemSet = await getMomentCollectionsItemSet(MomentHashes.SeasonOfArrivals)
+	const itemByName = coalesceItemSet(motItemSet, arrivalsItemSet).byName
+
+	return {
+		hash: ActivityHashes.Prophecy_ChallengesLength0,
+		displayProperties: {
+			icon: { DestinyRecordDefinition: RecordHashes.ProphecyComplete872886548 },
 		},
-		{
-			phaseHash: 2400102494,
-			displayProperties: {
-				name: 'Defeat the Phalanx Echo',
-				description: 'Confront the Phalanx Echo, a part of the Nine\'s answer to your question.',
+		encounters: [
+			{
+				traversal: true,
+				displayProperties: {
+					name: 'Seek the Nine',
+					description: 'Seek an audience with the Nine.',
+				},
 			},
-			dropTable: {
-				[InventoryItemHashes.ProsecutorAutoRifle3483591058]: {},
-				[InventoryItemHashes.RelentlessPulseRifle435821041]: {},
-				[InventoryItemHashes.CrushingGreavesCodaLegArmorPlug1219883244]: {},
-				[InventoryItemHashes.MarkJudgmentCodaTitanMarkPlug1900280383]: {},
-				[InventoryItemHashes.FlowingBootsCodaLegArmorPlug3155320806]: {},
-				[InventoryItemHashes.CloakJudgmentCodaHunterCloakPlug1717940633]: {},
-				[InventoryItemHashes.ChannelingTreadsCodaLegArmorPlug2022923313]: {},
-				[InventoryItemHashes.BondJudgmentCodaWarlockBondPlug2966633380]: {},
+			{
+				phaseHash: 2400102494,
+				displayProperties: {
+					name: 'Defeat the Phalanx Echo',
+					description: 'Confront the Phalanx Echo, a part of the Nine\'s answer to your question.',
+				},
+				dropTable: {
+					[itemByName('Prosecutor').hash]: {},
+					[itemByName('Relentless').hash]: {},
+					[itemByName('Crushing Greaves (CODA)').hash]: {},
+					[itemByName('Mark Judgment (CODA)').hash]: {},
+					[itemByName('Flowing Boots (CODA)').hash]: {},
+					[itemByName('Cloak Judgment (CODA)').hash]: {},
+					[itemByName('Channeling Treads (CODA)').hash]: {},
+					[itemByName('Bond Judgment (CODA)').hash]: {},
+				},
 			},
-		},
-		{
-			phaseHash: 1692344396,
-			traversal: true,
-			displayProperties: {
-				name: 'Sink',
-				description: 'Descend.',
+			{
+				phaseHash: 1692344396,
+				traversal: true,
+				displayProperties: {
+					name: 'Sink',
+					description: 'Descend.',
+				},
 			},
-		},
-		{
-			phaseHash: 382168380,
-			traversal: true,
-			displayProperties: {
-				name: 'Wasteland',
-				description: 'Navigate the expanse of the wasteland.',
+			{
+				phaseHash: 382168380,
+				traversal: true,
+				displayProperties: {
+					name: 'Wasteland',
+					description: 'Navigate the expanse of the wasteland.',
+				},
 			},
-		},
-		{
-			phaseHash: 2132736886,
-			traversal: true,
-			displayProperties: {
-				name: 'Escape the Wasteland',
-				description: 'Traverse deeper into this realm of the Nine.',
+			{
+				phaseHash: 2132736886,
+				traversal: true,
+				displayProperties: {
+					name: 'Escape the Wasteland',
+					description: 'Traverse deeper into this realm of the Nine.',
+				},
 			},
-		},
-		{
-			phaseHash: 3585780724,
-			displayProperties: {
-				name: 'Escape',
-				description: 'Find a way forward.',
+			{
+				phaseHash: 3585780724,
+				displayProperties: {
+					name: 'Escape',
+					description: 'Find a way forward.',
+				},
+				dropTable: {
+					[itemByName('Adjudicator').hash]: {},
+					[itemByName('A Sudden Death').hash]: {},
+					[itemByName('Crushing Guard (CODA)').hash]: {},
+					[itemByName('Flowing Grips (CODA)').hash]: {},
+					[itemByName('Channeling Wraps (CODA)').hash]: {},
+				},
 			},
-			dropTable: {
-				[InventoryItemHashes.AdjudicatorSubmachineGun1013434963]: {},
-				[InventoryItemHashes.ASuddenDeathShotgun4097972038]: {},
-				[InventoryItemHashes.CrushingGuardCodaGauntletsPlug818644818]: {},
-				[InventoryItemHashes.FlowingGripsCodaGauntletsPlug4194072668]: {},
-				[InventoryItemHashes.ChannelingWrapsCodaGauntletsPlug1406846351]: {},
+			{
+				phaseHash: 3999204422,
+				traversal: true,
+				displayProperties: {
+					name: 'Return to the Wasteland',
+					description: 'Cross the wasteland once more.',
+				},
 			},
-		},
-		{
-			phaseHash: 3999204422,
-			traversal: true,
-			displayProperties: {
-				name: 'Return to the Wasteland',
-				description: 'Cross the wasteland once more.',
+			{
+				phaseHash: 2229343072,
+				traversal: true,
+				displayProperties: {
+					name: 'Deadsea',
+					description: 'Traverse the sea.',
+				},
 			},
-		},
-		{
-			phaseHash: 2229343072,
-			traversal: true,
-			displayProperties: {
-				name: 'Deadsea',
-				description: 'Traverse the sea.',
+			{
+				phaseHash: 2543744318,
+				traversal: true,
+				displayProperties: {
+					name: 'Traverse Deeper',
+					description: 'Face the final answer to your question.',
+				},
 			},
-		},
-		{
-			phaseHash: 2543744318,
-			traversal: true,
-			displayProperties: {
-				name: 'Traverse Deeper',
-				description: 'Face the final answer to your question.',
+			{
+				phaseHash: 3492117941,
+				displayProperties: {
+					name: 'Defeat the Kell Echo',
+					description: 'Confront the Kell Echo, a part of the Nine\'s answer to your question.',
+				},
+				dropTable: {
+					[itemByName('Judgment').hash]: {},
+					[itemByName('Darkest Before').hash]: {},
+					[itemByName('Crushing Helm (CODA)').hash]: {},
+					[itemByName('Crushing Plate (CODA)').hash]: {},
+					[itemByName('Mark Judgment (CODA)').hash]: {},
+					[itemByName('Moonfang-X7 Helm').hash]: {},
+					[itemByName('Moonfang-X7 Gauntlets').hash]: {},
+					[itemByName('Moonfang-X7 Chassis').hash]: {},
+					[itemByName('Moonfang-X7 Greaves').hash]: {},
+					[itemByName('Moonfang-X7 Mark').hash]: {},
+					[itemByName('Flowing Cowl (CODA)').hash]: {},
+					[itemByName('Flowing Vest (CODA)').hash]: {},
+					[itemByName('Cloak Judgment (CODA)').hash]: {},
+					[itemByName('Moonfang-X7 Mask').hash]: {},
+					[itemByName('Moonfang-X7 Grips').hash]: {},
+					[itemByName('Moonfang-X7 Rig').hash]: {},
+					[itemByName('Moonfang-X7 Strides').hash]: {},
+					[itemByName('Moonfang-X7 Cloak').hash]: {},
+					[itemByName('Channeling Cowl (CODA)').hash]: {},
+					[itemByName('Channeling Robes (CODA)').hash]: {},
+					[itemByName('Bond Judgment (CODA)').hash]: {},
+					[itemByName('Moonfang-X7 Crown').hash]: {},
+					[itemByName('Moonfang-X7 Gloves').hash]: {},
+					[itemByName('Moonfang-X7 Boots').hash]: {},
+					[itemByName('Moonfang-X7 Bond').hash]: {},
+				},
 			},
-		},
-		{
-			phaseHash: 3492117941,
-			displayProperties: {
-				name: 'Defeat the Kell Echo',
-				description: 'Confront the Kell Echo, a part of the Nine\'s answer to your question.',
+			{
+				phaseHash: 3998734759,
+				traversal: true,
+				displayProperties: {
+					name: 'Receive the Answer',
+					description: 'Collect your reward from the Nine.',
+				},
 			},
-			dropTable: {
-				[InventoryItemHashes.JudgmentHandCannon2969415423]: {},
-				[InventoryItemHashes.DarkestBeforePulseRifle435821040]: {},
-				[InventoryItemHashes.CrushingHelmCodaHelmetPlug3976073347]: {},
-				[InventoryItemHashes.CrushingPlateCodaChestArmorPlug2570653206]: {},
-				[InventoryItemHashes.MarkJudgmentCodaTitanMarkPlug1900280383]: {},
-				[InventoryItemHashes.MoonfangX7HelmHelmetPlug]: {},
-				[InventoryItemHashes.MoonfangX7GauntletsGauntletsPlug]: {},
-				[InventoryItemHashes.MoonfangX7ChassisChestArmorPlug]: {},
-				[InventoryItemHashes.MoonfangX7GreavesLegArmorPlug]: {},
-				[InventoryItemHashes.MoonfangX7MarkTitanMarkPlug]: {},
-				[InventoryItemHashes.FlowingCowlCodaHelmetPlug3075372781]: {},
-				[InventoryItemHashes.FlowingVestCodaChestArmorPlug508076356]: {},
-				[InventoryItemHashes.CloakJudgmentCodaHunterCloakPlug1717940633]: {},
-				[InventoryItemHashes.MoonfangX7MaskHelmetPlug]: {},
-				[InventoryItemHashes.MoonfangX7GripsGauntletsPlug]: {},
-				[InventoryItemHashes.MoonfangX7RigChestArmorPlug]: {},
-				[InventoryItemHashes.MoonfangX7StridesLegArmorPlug]: {},
-				[InventoryItemHashes.MoonfangX7CloakHunterCloakPlug]: {},
-				[InventoryItemHashes.ChannelingCowlCodaHelmetPlug2602907742]: {},
-				[InventoryItemHashes.ChannelingRobesCodaChestArmorPlug1652467433]: {},
-				[InventoryItemHashes.BondJudgmentCodaWarlockBondPlug2966633380]: {},
-				[InventoryItemHashes.MoonfangX7CrownHelmetPlug]: {},
-				[InventoryItemHashes.MoonfangX7GlovesGauntletsPlug]: {},
-				[InventoryItemHashes.MoonfangX7BootsLegArmorPlug]: {},
-				[InventoryItemHashes.MoonfangX7BondWarlockBondPlug]: {},
-			},
-		},
-		{
-			phaseHash: 3998734759,
-			traversal: true,
-			displayProperties: {
-				name: 'Receive the Answer',
-				description: 'Collect your reward from the Nine.',
-			},
-		},
-	],
-} satisfies DeepsightDropTableDefinition
+		],
+	} satisfies DeepsightDropTableDefinition
+}

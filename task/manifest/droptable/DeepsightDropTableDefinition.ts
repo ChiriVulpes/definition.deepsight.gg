@@ -1,5 +1,6 @@
 import type { ActivityHashes } from '@deepsight.gg/Enums'
 import type { DeepsightDropTableDefinition as DeepsightDropTableDefinitionBase, DeepsightDropTableRotationsDefinition as DeepsightDropTableRotationsDefinitionBase, ISOString } from '../../../static/definitions/Interfaces'
+import type { PromiseOr } from '../../utility/Type'
 import type DestinyManifestReference from '../DestinyManifestReference'
 import CrotasEnd from './CrotasEnd'
 import DeepStoneCrypt from './DeepStoneCrypt'
@@ -37,26 +38,38 @@ export interface DeepsightDropTableRotationsDefinition extends Omit<DeepsightDro
 	next?: ISOString
 }
 
-export default {
-	[SunderedDoctrine.hash]: SunderedDoctrine,
-	[VespersHost.hash]: VespersHost,
-	[WarlordsRuin.hash]: WarlordsRuin,
-	[GhostsOfTheDeep.hash]: GhostsOfTheDeep,
-	[SpireOfTheWatcher.hash]: SpireOfTheWatcher,
-	[Duality.hash]: Duality,
-	[GraspOfAvarice.hash]: GraspOfAvarice,
-	[Prophecy.hash]: Prophecy,
-	[PitOfHeresy.hash]: PitOfHeresy,
-	[TheShatteredThrone.hash]: TheShatteredThrone,
+export type DeepsightDropTableDefinitionFactory = () => PromiseOr<DeepsightDropTableDefinition>
+export type DeepsightDropTableDefinitionModule = DeepsightDropTableDefinition | DeepsightDropTableDefinitionFactory
 
-	[DesertPerpetual.hash]: DesertPerpetual,
-	[SalvationsEdge.hash]: SalvationsEdge,
-	[CrotasEnd.hash]: CrotasEnd,
-	[RootOfNightmares.hash]: RootOfNightmares,
-	[KingsFall.hash]: KingsFall,
-	[VowOfTheDisciple.hash]: VowOfTheDisciple,
-	[VaultOfGlass.hash]: VaultOfGlass,
-	[DeepStoneCrypt.hash]: DeepStoneCrypt,
-	[GardenOfSalvation.hash]: GardenOfSalvation,
-	[LastWish.hash]: LastWish,
-} as Partial<Record<ActivityHashes, DeepsightDropTableDefinition>>
+const dropTableModules: DeepsightDropTableDefinitionModule[] = [
+	SunderedDoctrine,
+	VespersHost,
+	WarlordsRuin,
+	GhostsOfTheDeep,
+	SpireOfTheWatcher,
+	Duality,
+	GraspOfAvarice,
+	Prophecy,
+	PitOfHeresy,
+	TheShatteredThrone,
+
+	DesertPerpetual,
+	SalvationsEdge,
+	CrotasEnd,
+	RootOfNightmares,
+	KingsFall,
+	VowOfTheDisciple,
+	VaultOfGlass,
+	DeepStoneCrypt,
+	GardenOfSalvation,
+	LastWish,
+]
+
+export default async function getDeepsightDropTableDefinition () {
+	const definitions = await Promise.all(dropTableModules.map(resolveDropTableModule))
+	return Object.fromEntries(definitions.map(definition => [definition.hash, definition])) as Partial<Record<ActivityHashes, DeepsightDropTableDefinition>>
+}
+
+async function resolveDropTableModule (module: DeepsightDropTableDefinitionModule) {
+	return typeof module === 'function' ? await module() : module
+}

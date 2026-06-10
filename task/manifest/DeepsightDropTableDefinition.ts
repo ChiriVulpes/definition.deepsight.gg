@@ -1,14 +1,13 @@
-import { ActivityGraphHashes, ActivityHashes, ActivityModeHashes, ActivityTypeHashes, InventoryItemHashes, RecordHashes, TraitHashes } from '@deepsight.gg/Enums'
+import type { ActivityGraphHashes } from '@deepsight.gg/Enums'
+import { ActivityHashes, ActivityModeHashes, ActivityTypeHashes, RecordHashes } from '@deepsight.gg/Enums'
 import fs from 'fs-extra'
-import { Log, Task } from 'task'
+import { Task } from 'task'
 import type { DeepsightDisplayPropertiesDefinition, DeepsightDropTableRotationsDefinition } from '../../static/definitions/Interfaces'
 import { NonNullish } from '../utility/Arrays'
 import Time from '../utility/Time'
-import { getCollectionsCopies } from './DeepsightCollectionsDefinition'
 import DestinyManifestReference from './DestinyManifestReference'
-import DeepsightDropTableDefinition from './droptable/DeepsightDropTableDefinition'
+import getDeepsightDropTableDefinition from './droptable/DeepsightDropTableDefinition'
 import Rotation from './utility/Rotations'
-import type { Activity } from './utility/endpoint/DestinyActivities'
 import DestinyActivities from './utility/endpoint/DestinyActivities'
 import manifest, { DESTINY_MANIFEST_MISSING_ICON_PATH } from './utility/endpoint/DestinyManifest'
 
@@ -19,6 +18,7 @@ export default Task('DeepsightDropTableDefinition', async () => {
 
 	const { DestinyActivityDefinition } = manifest
 	const activities = await DestinyActivities.get()
+	const DeepsightDropTableDefinition = await getDeepsightDropTableDefinition()
 
 	////////////////////////////////////
 	//#region Static Tweaks

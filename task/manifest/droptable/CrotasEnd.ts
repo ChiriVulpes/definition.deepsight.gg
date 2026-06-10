@@ -1,162 +1,169 @@
-import { ActivityHashes, InventoryItemHashes, RecordHashes } from '@deepsight.gg/Enums'
+import { ActivityHashes, InventoryItemHashes, MomentHashes, RecordHashes } from '@deepsight.gg/Enums'
+import { coalesceItemSet, getMomentCollectionsItemSet } from '../DeepsightCollectionsDefinition'
 import type { DeepsightDropTableDefinition } from './DeepsightDropTableDefinition'
 
-export default {
-    hash: ActivityHashes.CrotasEndNormal,
-    displayProperties: {
-        icon: { DestinyRecordDefinition: RecordHashes.CrotasEnd2045739672 },
-    },
-    encounters: [
-        {
-            traversal: true,
-            displayProperties: {
-                name: 'Descend into the Hellmouth',
-                description: 'Find a safe path into the Hellmouth.',
-            },
-        },
-        {
+export default async function () {
+    const monumentOfTriumphItemSet = await getMomentCollectionsItemSet(MomentHashes.MonumentOfTriumph)
+    const seasonOfTheWitchItemSet = await getMomentCollectionsItemSet(MomentHashes.SeasonOfTheWitch)
+    const itemByName = coalesceItemSet(monumentOfTriumphItemSet, seasonOfTheWitchItemSet).byName
 
-            phaseHash: 2890972472,
-            displayProperties: {
-                name: 'The Abyss',
-                directive: 'Traverse the Abyss',
-                description: 'Uncover the illuminated path in the darkness.',
+    return {
+        hash: ActivityHashes.CrotasEndNormal,
+        displayProperties: {
+            icon: { DestinyRecordDefinition: RecordHashes.CrotasEnd2045739672 },
+        },
+        encounters: [
+            {
+                traversal: true,
+                displayProperties: {
+                    name: 'Descend into the Hellmouth',
+                    description: 'Find a safe path into the Hellmouth.',
+                },
             },
+            {
+
+                phaseHash: 2890972472,
+                displayProperties: {
+                    name: 'The Abyss',
+                    directive: 'Traverse the Abyss',
+                    description: 'Uncover the illuminated path in the darkness.',
+                },
+                dropTable: {
+                    [itemByName('Song of Ir Yût').hash]: {},
+                    [itemByName('Fang of Ir Yût').hash]: {},
+                    [itemByName('Abyss Defiant').hash]: {},
+
+                    // hunter
+                    [itemByName('Unyielding Casque').hash]: {},
+                    [itemByName('Dogged Gage').hash]: {},
+                    [itemByName('Relentless Harness').hash]: {},
+
+                    // warlock
+                    [itemByName('Deathsinger\'s Gaze').hash]: {},
+                    [itemByName('Deathsinger\'s Grip').hash]: {},
+                    [itemByName('Deathsinger\'s Mantle').hash]: {},
+
+                    // titan
+                    [itemByName('Willbreaker\'s Watch').hash]: {},
+                    [itemByName('Willbreaker\'s Fists').hash]: {},
+                    [itemByName('Willbreaker\'s Resolve').hash]: {},
+
+                },
+            },
+            {
+                phaseHash: 3768812794,
+                displayProperties: {
+                    name: 'Oversoul Throne Bridge',
+                    directive: 'Cross the Bridge',
+                    description: 'Find a way across the chasm.',
+                },
+                dropTable: {
+                    [itemByName('Swordbreaker').hash]: {},
+                    [itemByName('Fang of Ir Yût').hash]: {},
+                    [itemByName('Oversoul Edict').hash]: {},
+
+                    // hunter
+                    [itemByName('Dogged Gage').hash]: {},
+                    [itemByName('Relentless Harness').hash]: {},
+                    [itemByName('Tireless Striders').hash]: {},
+
+                    // warlock
+                    [itemByName('Deathsinger\'s Grip').hash]: {},
+                    [itemByName('Deathsinger\'s Mantle').hash]: {},
+                    [itemByName('Deathsinger\'s Herald').hash]: {},
+
+                    // titan
+                    [itemByName('Willbreaker\'s Fists').hash]: {},
+                    [itemByName('Willbreaker\'s Resolve').hash]: {},
+                    [itemByName('Willbreaker\'s Greaves').hash]: {},
+                },
+            },
+            {
+                phaseHash: 3580589436,
+                traversal: true,
+                displayProperties: {
+                    name: 'Enter Crota\'s Chamber',
+                    description: 'Breach the Hive barrier to access Crota\'s Chamber.',
+                },
+            },
+            {
+                phaseHash: 1463700798,
+                displayProperties: {
+                    name: 'Ir Yût, the Deathsinger',
+                    directive: 'Reach the Summoning Crystal',
+                    description: 'Defeat the Hive Wizard guarding the summoning crystal.',
+                },
+                dropTable: {
+                    [itemByName('Word of Crota').hash]: {},
+                    [itemByName('Song of Ir Yût').hash]: {},
+                    [itemByName('Oversoul Edict').hash]: {},
+
+                    // hunter
+                    [itemByName('Relentless Harness').hash]: {},
+                    [itemByName('Tireless Striders').hash]: {},
+                    [itemByName('Shroud of Flies').hash]: {},
+
+                    // warlock
+                    [itemByName('Deathsinger\'s Mantle').hash]: {},
+                    [itemByName('Deathsinger\'s Herald').hash]: {},
+                    [itemByName('Bone Circlet').hash]: {},
+
+                    // titan
+                    [itemByName('Willbreaker\'s Resolve').hash]: {},
+                    [itemByName('Willbreaker\'s Greaves').hash]: {},
+                    [itemByName('Mark of the Pit').hash]: {},
+                },
+            },
+            {
+                phaseHash: 4240994016,
+                displayProperties: {
+                    name: 'Crota, Son of Oryx',
+                    directive: 'Defeat Crota',
+                    description: 'Use Crota\'s most powerful weapon against him.',
+                },
+                dropTable: {
+                    [itemByName('Necrochasm').hash]: { requiresQuest: InventoryItemHashes.BottomlessPitQuestStep_Step2 },
+                    [itemByName('Word of Crota').hash]: {},
+                    [itemByName('Abyss Defiant').hash]: {},
+                    [itemByName('Swordbreaker').hash]: {},
+
+                    // hunter
+                    [itemByName('Unyielding Casque').hash]: {},
+                    [itemByName('Tireless Striders').hash]: {},
+                    [itemByName('Shroud of Flies').hash]: {},
+
+                    // warlock
+                    [itemByName('Deathsinger\'s Gaze').hash]: {},
+                    [itemByName('Deathsinger\'s Herald').hash]: {},
+                    [itemByName('Bone Circlet').hash]: {},
+
+                    // titan
+                    [itemByName('Willbreaker\'s Watch').hash]: {},
+                    [itemByName('Willbreaker\'s Greaves').hash]: {},
+                    [itemByName('Mark of the Pit').hash]: {},
+                },
+            },
+        ],
+        master: {
+            activityHash: ActivityHashes.CrotasEndMaster,
             dropTable: {
-                [InventoryItemHashes.SongOfIrYutMachineGun]: {},
-                [InventoryItemHashes.FangOfIrYutScoutRifle]: {},
-                [InventoryItemHashes.AbyssDefiantAutoRifle]: {},
-
-                // hunter
-                [InventoryItemHashes.UnyieldingCasqueHelmetPlug859929450]: {},
-                [InventoryItemHashes.DoggedGageGauntletsPlug441033139]: {},
-                [InventoryItemHashes.RelentlessHarnessChestArmorPlug3714937821]: {},
-
-                // warlock
-                [InventoryItemHashes.DeathsingersGazeHelmetPlug1964816829]: {},
-                [InventoryItemHashes.DeathsingersGripGauntletsPlug427348780]: {},
-                [InventoryItemHashes.DeathsingersMantleChestArmorPlug1386180724]: {},
-
-                // titan
-                [InventoryItemHashes.WillbreakersWatchHelmetPlug1328334240]: {},
-                [InventoryItemHashes.WillbreakersFistsGauntletsPlug3189374833]: {},
-                [InventoryItemHashes.WillbreakersResolveChestArmorPlug1261894567]: {},
-
+                [itemByName('Song of Ir Yût (Adept)').hash]: {},
+                [itemByName('Oversoul Edict (Adept)').hash]: {},
+                [itemByName('Word of Crota (Adept)').hash]: {},
+                [itemByName('Abyss Defiant (Adept)').hash]: {},
+                [itemByName('Fang of Ir Yût (Adept)').hash]: {},
+                [itemByName('Swordbreaker (Adept)').hash]: {},
             },
         },
-        {
-            phaseHash: 3768812794,
-            displayProperties: {
-                name: 'Oversoul Throne Bridge',
-                directive: 'Cross the Bridge',
-                description: 'Find a way across the chasm.',
-            },
-            dropTable: {
-                [InventoryItemHashes.SwordbreakerShotgun]: {},
-                [InventoryItemHashes.FangOfIrYutScoutRifle]: {},
-                [InventoryItemHashes.OversoulEdictPulseRifle]: {},
-
-                // hunter
-                [InventoryItemHashes.DoggedGageGauntletsPlug441033139]: {},
-                [InventoryItemHashes.RelentlessHarnessChestArmorPlug3714937821]: {},
-                [InventoryItemHashes.TirelessStridersLegArmorPlug175883909]: {},
-
-                // warlock
-                [InventoryItemHashes.DeathsingersGripGauntletsPlug427348780]: {},
-                [InventoryItemHashes.DeathsingersMantleChestArmorPlug1386180724]: {},
-                [InventoryItemHashes.DeathsingersHeraldLegArmorPlug1497538390]: {},
-
-                // titan
-                [InventoryItemHashes.WillbreakersFistsGauntletsPlug3189374833]: {},
-                [InventoryItemHashes.WillbreakersResolveChestArmorPlug1261894567]: {},
-                [InventoryItemHashes.WillbreakersGreavesLegArmorPlug3020524483]: {},
-            },
-        },
-        {
-            phaseHash: 3580589436,
-            traversal: true,
-            displayProperties: {
-                name: 'Enter Crota\'s Chamber',
-                description: 'Breach the Hive barrier to access Crota\'s Chamber.',
-            },
-        },
-        {
-            phaseHash: 1463700798,
-            displayProperties: {
-                name: 'Ir Yût, the Deathsinger',
-                directive: 'Reach the Summoning Crystal',
-                description: 'Defeat the Hive Wizard guarding the summoning crystal.',
-            },
-            dropTable: {
-                [InventoryItemHashes.WordOfCrotaHandCannon]: {},
-                [InventoryItemHashes.SongOfIrYutMachineGun]: {},
-                [InventoryItemHashes.OversoulEdictPulseRifle]: {},
-
-                // hunter
-                [InventoryItemHashes.RelentlessHarnessChestArmorPlug3714937821]: {},
-                [InventoryItemHashes.TirelessStridersLegArmorPlug175883909]: {},
-                [InventoryItemHashes.ShroudOfFliesHunterCloakPlug1306415888]: {},
-
-                // warlock
-                [InventoryItemHashes.DeathsingersMantleChestArmorPlug1386180724]: {},
-                [InventoryItemHashes.DeathsingersHeraldLegArmorPlug1497538390]: {},
-                [InventoryItemHashes.BoneCircletWarlockBondPlug2130010697]: {},
-
-                // titan
-                [InventoryItemHashes.WillbreakersResolveChestArmorPlug1261894567]: {},
-                [InventoryItemHashes.WillbreakersGreavesLegArmorPlug3020524483]: {},
-                [InventoryItemHashes.MarkOfThePitTitanMarkPlug2401746614]: {},
-            },
-        },
-        {
-            phaseHash: 4240994016,
-            displayProperties: {
-                name: 'Crota, Son of Oryx',
-                directive: 'Defeat Crota',
-                description: 'Use Crota\'s most powerful weapon against him.',
-            },
-            dropTable: {
-                [InventoryItemHashes.NecrochasmAutoRifle]: { requiresQuest: InventoryItemHashes.BottomlessPitQuestStep_Step2 },
-                [InventoryItemHashes.WordOfCrotaHandCannon]: {},
-                [InventoryItemHashes.AbyssDefiantAutoRifle]: {},
-                [InventoryItemHashes.SwordbreakerShotgun]: {},
-
-                // hunter
-                [InventoryItemHashes.UnyieldingCasqueHelmetPlug859929450]: {},
-                [InventoryItemHashes.TirelessStridersLegArmorPlug175883909]: {},
-                [InventoryItemHashes.ShroudOfFliesHunterCloakPlug1306415888]: {},
-
-                // warlock
-                [InventoryItemHashes.DeathsingersGazeHelmetPlug1964816829]: {},
-                [InventoryItemHashes.DeathsingersHeraldLegArmorPlug1497538390]: {},
-                [InventoryItemHashes.BoneCircletWarlockBondPlug2130010697]: {},
-
-                // titan
-                [InventoryItemHashes.WillbreakersWatchHelmetPlug1328334240]: {},
-                [InventoryItemHashes.WillbreakersGreavesLegArmorPlug3020524483]: {},
-                [InventoryItemHashes.MarkOfThePitTitanMarkPlug2401746614]: {},
-            },
-        },
-    ],
-    master: {
-        activityHash: ActivityHashes.CrotasEndMaster,
-        dropTable: {
-            [InventoryItemHashes.SongOfIrYutAdeptMachineGun]: {},
-            [InventoryItemHashes.OversoulEdictAdeptPulseRifle]: {},
-            [InventoryItemHashes.WordOfCrotaAdeptHandCannon]: {},
-            [InventoryItemHashes.AbyssDefiantAdeptAutoRifle]: {},
-            [InventoryItemHashes.FangOfIrYutAdeptScoutRifle]: {},
-            [InventoryItemHashes.SwordbreakerAdeptShotgun]: {},
-        },
-    },
-    // bungie broke the crota's end challenges
-    // rotations: {
-    //     anchor: "2023-10-17T17:00:00Z",
-    //     challenges: [
-    //         ActivityModifierHashes.ConservationOfEnergy,
-    //         ActivityModifierHashes.PrecariousBalance,
-    //         ActivityModifierHashes.EqualVessels,
-    //         ActivityModifierHashes.AllForOne,
-    //     ],
-    // },
-} satisfies DeepsightDropTableDefinition
+        // bungie broke the crota's end challenges
+        // rotations: {
+        //     anchor: "2023-10-17T17:00:00Z",
+        //     challenges: [
+        //         ActivityModifierHashes.ConservationOfEnergy,
+        //         ActivityModifierHashes.PrecariousBalance,
+        //         ActivityModifierHashes.EqualVessels,
+        //         ActivityModifierHashes.AllForOne,
+        //     ],
+        // },
+    } satisfies DeepsightDropTableDefinition
+}

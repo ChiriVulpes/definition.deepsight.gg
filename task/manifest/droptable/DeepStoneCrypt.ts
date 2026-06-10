@@ -1,149 +1,157 @@
-import { ActivityHashes, InventoryItemHashes, RecordHashes } from '@deepsight.gg/Enums'
+import { ActivityHashes, MomentHashes, RecordHashes } from '@deepsight.gg/Enums'
+import { coalesceItemSet, getMomentCollectionsItemSet } from '../DeepsightCollectionsDefinition'
 import type { DeepsightDropTableDefinition } from './DeepsightDropTableDefinition'
 
-export default {
-    hash: ActivityHashes.DeepStoneCrypt_GuidedGameUndefined,
-    displayProperties: {
-        icon: { DestinyRecordDefinition: RecordHashes.RaidDeepStoneCrypt_RecordTypeNameTriumphs },
-    },
-    encounters: [
-        {
-            traversal: true,
-            displayProperties: {
-                name: 'Locate the Deep Stone Crypt',
-                description: 'Survive the cold while locating the Deep Stone Crypt.',
-            },
+export default async function () {
+    const monumentOfTriumphItemSet = await getMomentCollectionsItemSet(MomentHashes.MonumentOfTriumph)
+    const intoTheLightItemSet = await getMomentCollectionsItemSet(MomentHashes.IntoTheLight)
+    const beyondLightItemSet = await getMomentCollectionsItemSet(MomentHashes.BeyondLight)
+    const itemByName = coalesceItemSet(monumentOfTriumphItemSet, intoTheLightItemSet, beyondLightItemSet).byName
+
+    return {
+        hash: ActivityHashes.DeepStoneCrypt_GuidedGameUndefined,
+        displayProperties: {
+            icon: { DestinyRecordDefinition: RecordHashes.RaidDeepStoneCrypt_RecordTypeNameTriumphs },
         },
-        {
-            phaseHash: 2776463390,
-            displayProperties: {
-                name: 'Crypt Security',
-                directive: 'Disable Crypt Security',
-                description: 'Destroy the Crypt\'s power system to disable security.',
+        encounters: [
+            {
+                traversal: true,
+                displayProperties: {
+                    name: 'Locate the Deep Stone Crypt',
+                    description: 'Survive the cold while locating the Deep Stone Crypt.',
+                },
             },
-            dropTable: {
-                [InventoryItemHashes.TrusteeScoutRifle]: {},
+            {
+                phaseHash: 2776463390,
+                displayProperties: {
+                    name: 'Crypt Security',
+                    directive: 'Disable Crypt Security',
+                    description: 'Destroy the Crypt\'s power system to disable security.',
+                },
+                dropTable: {
+                    [itemByName('Trustee').hash]: {},
 
-                // hunter
-                [InventoryItemHashes.LegacysOathGripsGauntletsPlug2343515647]: {},
-                [InventoryItemHashes.LegacysOathStridesLegArmorPlug1264765761]: {},
-                [InventoryItemHashes.LegacysOathCloakHunterCloakPlug1021060724]: {},
+                    // hunter
+                    [itemByName('Legacy\'s Oath Grips').hash]: {},
+                    [itemByName('Legacy\'s Oath Strides').hash]: {},
+                    [itemByName('Legacy\'s Oath Cloak').hash]: {},
 
-                // warlock
-                [InventoryItemHashes.LegacysOathGlovesGauntletsPlug79460168]: {},
-                [InventoryItemHashes.LegacysOathBootsLegArmorPlug756445218]: {},
-                [InventoryItemHashes.LegacysOathBondWarlockBondPlug2902277629]: {},
+                    // warlock
+                    [itemByName('Legacy\'s Oath Gloves').hash]: {},
+                    [itemByName('Legacy\'s Oath Boots').hash]: {},
+                    [itemByName('Legacy\'s Oath Bond').hash]: {},
 
-                // titan
-                [InventoryItemHashes.LegacysOathGauntletsGauntletsPlug1887490701]: {},
-                [InventoryItemHashes.LegacysOathGreavesLegArmorPlug2558289743]: {},
-                [InventoryItemHashes.LegacysOathMarkTitanMarkPlug2956588906]: {},
+                    // titan
+                    [itemByName('Legacy\'s Oath Gauntlets').hash]: {},
+                    [itemByName('Legacy\'s Oath Greaves').hash]: {},
+                    [itemByName('Legacy\'s Oath Mark').hash]: {},
+                },
             },
-        },
-        {
-            phaseHash: 3847348336,
-            traversal: true,
-            displayProperties: {
-                name: 'Locate Eramis\'s Followers',
-                description: 'Push deeper into the Crypt and locate Eramis\'s followers.',
+            {
+                phaseHash: 3847348336,
+                traversal: true,
+                displayProperties: {
+                    name: 'Locate Eramis\'s Followers',
+                    description: 'Push deeper into the Crypt and locate Eramis\'s followers.',
+                },
             },
-        },
-        {
-            phaseHash: 416127450,
-            displayProperties: {
-                name: 'Atraks-1',
-                directive: 'Defeat Atraks-1',
-                description: 'Take down the Fallen Exo Atraks-1.',
+            {
+                phaseHash: 416127450,
+                displayProperties: {
+                    name: 'Atraks-1',
+                    directive: 'Defeat Atraks-1',
+                    description: 'Take down the Fallen Exo Atraks-1.',
+                },
+                dropTable: {
+                    [itemByName('Succession').hash]: {},
+                    [itemByName('Heritage').hash]: {},
+
+                    // hunter
+                    [itemByName('Legacy\'s Oath Grips').hash]: {},
+                    [itemByName('Legacy\'s Oath Strides').hash]: {},
+                    [itemByName('Legacy\'s Oath Cloak').hash]: {},
+
+                    // warlock
+                    [itemByName('Legacy\'s Oath Gloves').hash]: {},
+                    [itemByName('Legacy\'s Oath Boots').hash]: {},
+                    [itemByName('Legacy\'s Oath Bond').hash]: {},
+
+                    // titan
+                    [itemByName('Legacy\'s Oath Gauntlets').hash]: {},
+                    [itemByName('Legacy\'s Oath Greaves').hash]: {},
+                    [itemByName('Legacy\'s Oath Mark').hash]: {},
+                },
             },
-            dropTable: {
-                [InventoryItemHashes.SuccessionSniperRifle2990047042]: {},
-                [InventoryItemHashes.HeritageShotgun]: {},
-
-                // hunter
-                [InventoryItemHashes.LegacysOathGripsGauntletsPlug2343515647]: {},
-                [InventoryItemHashes.LegacysOathStridesLegArmorPlug1264765761]: {},
-                [InventoryItemHashes.LegacysOathCloakHunterCloakPlug1021060724]: {},
-
-                // warlock
-                [InventoryItemHashes.LegacysOathGlovesGauntletsPlug79460168]: {},
-                [InventoryItemHashes.LegacysOathBootsLegArmorPlug756445218]: {},
-                [InventoryItemHashes.LegacysOathBondWarlockBondPlug2902277629]: {},
-
-                // titan
-                [InventoryItemHashes.LegacysOathGauntletsGauntletsPlug1887490701]: {},
-                [InventoryItemHashes.LegacysOathGreavesLegArmorPlug2558289743]: {},
-                [InventoryItemHashes.LegacysOathMarkTitanMarkPlug2956588906]: {},
+            {
+                phaseHash: 1370965191,
+                traversal: true,
+                displayProperties: {
+                    name: 'Locate the Nuclear Contingency Chamber',
+                    description: 'Reach the nuclear contingency chamber.',
+                },
             },
-        },
-        {
-            phaseHash: 1370965191,
-            traversal: true,
-            displayProperties: {
-                name: 'Locate the Nuclear Contingency Chamber',
-                description: 'Reach the nuclear contingency chamber.',
-            },
-        },
-        {
-            phaseHash: 1858926029,
-            displayProperties: {
-                name: 'Descent',
-                directive: 'Prevent Europa\'s Destruction',
-                description: 'Disarm the Nuclear Descent Protocol.',
-            },
-            dropTable: {
-                [InventoryItemHashes.PosterityHandCannon]: {},
+            {
+                phaseHash: 1858926029,
+                displayProperties: {
+                    name: 'Descent',
+                    directive: 'Prevent Europa\'s Destruction',
+                    description: 'Disarm the Nuclear Descent Protocol.',
+                },
+                dropTable: {
+                    [itemByName('Posterity').hash]: {},
 
-                // hunter
-                [InventoryItemHashes.LegacysOathGripsGauntletsPlug2343515647]: {},
-                [InventoryItemHashes.LegacysOathVestChestArmorPlug4001862073]: {},
-                [InventoryItemHashes.LegacysOathCloakHunterCloakPlug1021060724]: {},
+                    // hunter
+                    [itemByName('Legacy\'s Oath Grips').hash]: {},
+                    [itemByName('Legacy\'s Oath Vest').hash]: {},
+                    [itemByName('Legacy\'s Oath Cloak').hash]: {},
 
-                // warlock
-                [InventoryItemHashes.LegacysOathGlovesGauntletsPlug79460168]: {},
-                [InventoryItemHashes.LegacysOathRobesChestArmorPlug3975122240]: {},
-                [InventoryItemHashes.LegacysOathBondWarlockBondPlug2902277629]: {},
+                    // warlock
+                    [itemByName('Legacy\'s Oath Gloves').hash]: {},
+                    [itemByName('Legacy\'s Oath Robes').hash]: {},
+                    [itemByName('Legacy\'s Oath Bond').hash]: {},
 
-                // titan
-                [InventoryItemHashes.LegacysOathGauntletsGauntletsPlug1887490701]: {},
-                [InventoryItemHashes.LegacysOathPlateChestArmorPlug751162931]: {},
-                [InventoryItemHashes.LegacysOathMarkTitanMarkPlug2956588906]: {},
+                    // titan
+                    [itemByName('Legacy\'s Oath Gauntlets').hash]: {},
+                    [itemByName('Legacy\'s Oath Plate').hash]: {},
+                    [itemByName('Legacy\'s Oath Mark').hash]: {},
+                },
             },
-        },
-        {
-            traversal: true,
-            phaseHash: 1594577984,
-            displayProperties: {
-                name: 'Emerge from the Wreckage',
-                description: 'Make your way out of the wreckage of the Morning Star.',
+            {
+                traversal: true,
+                phaseHash: 1594577984,
+                displayProperties: {
+                    name: 'Emerge from the Wreckage',
+                    description: 'Make your way out of the wreckage of the Morning Star.',
+                },
             },
-        },
-        {
-            phaseHash: 4035296150,
-            displayProperties: {
-                name: 'Taniks, the Abomination',
-                directive: 'Defeat Taniks, the Abomination',
-                description: 'Defeat Taniks for good.',
+            {
+                phaseHash: 4035296150,
+                displayProperties: {
+                    name: 'Taniks, the Abomination',
+                    directive: 'Defeat Taniks, the Abomination',
+                    description: 'Defeat Taniks for good.',
+                },
+                dropTable: {
+                    [itemByName('Bequest').hash]: {},
+                    [itemByName('Commemoration').hash]: {},
+                    [itemByName('Eyes of Tomorrow').hash]: {},
+
+                    // hunter
+                    [itemByName('Legacy\'s Oath Mask').hash]: {},
+                    [itemByName('Legacy\'s Oath Vest').hash]: {},
+                    [itemByName('Legacy\'s Oath Strides').hash]: {},
+
+                    // warlock
+                    [itemByName('Legacy\'s Oath Cowl').hash]: {},
+                    [itemByName('Legacy\'s Oath Robes').hash]: {},
+                    [itemByName('Legacy\'s Oath Boots').hash]: {},
+
+                    // titan
+                    [itemByName('Legacy\'s Oath Helm').hash]: {},
+                    [itemByName('Legacy\'s Oath Plate').hash]: {},
+                    [itemByName('Legacy\'s Oath Greaves').hash]: {},
+                },
             },
-            dropTable: {
-                [InventoryItemHashes.BequestSword]: {},
-                [InventoryItemHashes.CommemorationMachineGun]: {},
-                [InventoryItemHashes.EyesOfTomorrowRocketLauncher]: {},
-
-                // hunter
-                [InventoryItemHashes.LegacysOathMaskHelmetPlug893751566]: {},
-                [InventoryItemHashes.LegacysOathVestChestArmorPlug4001862073]: {},
-                [InventoryItemHashes.LegacysOathStridesLegArmorPlug1264765761]: {},
-
-                // warlock
-                [InventoryItemHashes.LegacysOathCowlHelmetPlug1462908657]: {},
-                [InventoryItemHashes.LegacysOathRobesChestArmorPlug3975122240]: {},
-                [InventoryItemHashes.LegacysOathBootsLegArmorPlug756445218]: {},
-
-                // titan
-                [InventoryItemHashes.LegacysOathHelmHelmetPlug3015085684]: {},
-                [InventoryItemHashes.LegacysOathPlateChestArmorPlug751162931]: {},
-                [InventoryItemHashes.LegacysOathGreavesLegArmorPlug2558289743]: {},
-            },
-        },
-    ],
-} satisfies DeepsightDropTableDefinition
+        ],
+    } satisfies DeepsightDropTableDefinition
+}

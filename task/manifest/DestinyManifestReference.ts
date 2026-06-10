@@ -170,6 +170,8 @@ namespace DestinyManifestReference {
 			const icon = await DestinyManifestReference.resolve(givenDisplayProperties?.icon, 'icon', alternativeSources)
 			if (icon !== DESTINY_MANIFEST_MISSING_ICON_PATH)
 				displayProperties.icon = icon as DeepsightIconPath | BungieIconPath
+			else
+				displayProperties.icon = undefined
 		}
 
 		displayProperties.name ??= ''

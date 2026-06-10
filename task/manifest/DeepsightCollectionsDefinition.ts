@@ -1,4 +1,4 @@
-import { InventoryItemHashes, type InventoryBucketHashes, type MomentHashes } from '@deepsight.gg/Enums'
+import { InventoryItemHashes, type EquipmentSlotHashes, type InventoryBucketHashes, type MomentHashes } from '@deepsight.gg/Enums'
 import type { DeepsightCollectionsDefinitionManifest } from '@deepsight.gg/Interfaces'
 import ansi from 'ansicolor'
 import type { DestinyInventoryItemDefinition, DestinyPlugSetDefinition } from 'bungie-api-ts/destiny2'
@@ -183,6 +183,78 @@ export async function getCollectionsCopies (...items: (InventoryItemHashes | Des
 
 	return collections.filter((c): c is DestinyInventoryItemDefinition => !!c
 		&& unCollectionsItems.some(item => item.displayProperties.name === c.displayProperties.name))
+}
+
+export interface MomentCollectionsItemSet extends Array<DestinyInventoryItemDefinition> {
+	byName (name: string, options?: MomentCollectionsItemLookupOptions): DestinyInventoryItemDefinition
+}
+
+export interface MomentCollectionsItemLookupOptions {
+	classType?: DestinyClass
+	itemTypeDisplayName?: string
+	bucketTypeHash?: InventoryBucketHashes
+	equipmentSlotTypeHash?: EquipmentSlotHashes
+}
+
+export function coalesceItemSet (...itemSets: MomentCollectionsItemSet[]): MomentCollectionsItemSet {
+	return Object.assign(itemSets.flat(), {
+		byName (name: string, options?: MomentCollectionsItemLookupOptions) {
+			const misses: unknown[] = []
+			for (const itemSet of itemSets) {
+				try {
+					return itemSet.byName(name, options)
+				}
+				catch (error) {
+					if (error instanceof Error && error.message.startsWith('Ambiguous '))
+						throw error
+
+					misses.push(error)
+				}
+			}
+
+			throw new Error(`No coalesced collection item named ${JSON.stringify(name)} matched ${JSON.stringify(options ?? {})}: ${misses.map(String).join('; ')}`)
+		},
+	})
+}
+
+export async function getMomentCollectionsItemSet (moment: MomentHashes): Promise<MomentCollectionsItemSet> {
+	const { DestinyInventoryItemDefinition } = manifest
+	const collections = await getDeepsightCollectionsDefinition()
+	const momentItems = await Object.values(collections[moment]?.buckets ?? {})
+		.flat()
+		.map(itemHash => Promise.resolve(DestinyInventoryItemDefinition.get(itemHash)))
+		.collect(itemPromises => Promise.all(itemPromises))
+		.then(items => items.filter((item): item is DestinyInventoryItemDefinition => !!item))
+
+	return Object.assign(momentItems, {
+		byName (name: string, options: MomentCollectionsItemLookupOptions = {}) {
+			const matches = momentItems.filter(item => true
+				&& item.displayProperties.name === name
+				&& (options.classType === undefined || item.classType === options.classType)
+				&& (options.itemTypeDisplayName === undefined || item.itemTypeDisplayName === options.itemTypeDisplayName)
+				&& (options.bucketTypeHash === undefined || item.inventory?.bucketTypeHash === options.bucketTypeHash)
+				&& (options.equipmentSlotTypeHash === undefined || item.equippingBlock?.equipmentSlotTypeHash === options.equipmentSlotTypeHash))
+
+			if (!matches.length)
+				throw new Error(`No moment ${moment} collection item named ${JSON.stringify(name)} matched ${JSON.stringify(options)}`)
+
+			if (matches.length > 1)
+				throw new Error(`Ambiguous moment ${moment} collection item named ${JSON.stringify(name)} matched ${JSON.stringify(options)}: ${matches.map(describeMomentCollectionItem).join(', ')}`)
+
+			return matches[0]
+		},
+	})
+}
+
+function describeMomentCollectionItem (item: DestinyInventoryItemDefinition) {
+	return [
+		`${item.hash}`,
+		item.displayProperties.name,
+		`class=${item.classType}`,
+		`type=${item.itemTypeDisplayName}`,
+		`bucket=${item.inventory?.bucketTypeHash}`,
+		`slot=${item.equippingBlock?.equipmentSlotTypeHash}`,
+	].join('/')
 }
 
 let WatermarkToMomentHashLookupTable: PromiseOr<Partial<Record<string, MomentHashes>>> | undefined

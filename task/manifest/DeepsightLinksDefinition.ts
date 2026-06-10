@@ -348,7 +348,7 @@ export default Task('DeepsightLinksDefinition', async () => {
 	components.DeepsightItemSourceListDefinition = {
 		component: 'DeepsightItemSourceListDefinition',
 		links: [
-			{ path: 'sources.[]', enum: 'DeepsightItemSourceType' },
+			{ path: 'sources.[]', component: 'DeepsightItemSourceDefinition' },
 		],
 	}
 	await addDeepsightEnum('DeepsightItemSourceType')
