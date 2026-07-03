@@ -39,6 +39,9 @@ namespace DeepsightPlugCategorisation {
 
 			case InventoryItemHashes.RandomMasterworkWeaponModDummyPlug:
 				return DeepsightPlugCategory.Masterwork
+
+			case InventoryItemHashes.BladesOfUnmakingBladePlug:
+				return DeepsightPlugCategory.Perk
 		}
 
 		switch (context.definition.plug?.plugCategoryHash) {
@@ -670,6 +673,9 @@ namespace DeepsightPlugCategorisation {
 
 				case InventoryItemHashes.DeconstructTraitPlug_InventoryTierType3:
 					return DeepsightPlugTypePerk.TraitEnhanced
+
+				case InventoryItemHashes.BladesOfUnmakingBladePlug:
+					return DeepsightPlugTypePerk.Blade
 			}
 
 			const isEnhanced = context.definition.itemTypeDisplayName.includes('Enhanced')
