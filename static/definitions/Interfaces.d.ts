@@ -766,7 +766,7 @@ export declare interface DeepsightComponentLinksDefinition {
 
 export declare interface DeepsightDefinitionLinkDefinition {
 	path: string
-	component: ComponentName
+	component: LinksSourceComponentName
 	primaryKey?: string
 }
 
