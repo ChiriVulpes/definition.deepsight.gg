@@ -21,12 +21,15 @@ namespace PGCR {
 	let manifest: DeepsightManifest | undefined
 	async function getManifest (): Promise<DeepsightManifest> {
 		return manifest ??= (await fs.readJson('definitions/manifest.json').catch(() => undefined) as DeepsightManifest | undefined)
-			?? (await fetch('https://raw.githubusercontent.com/ChiriVulpes/definition.deepsight.gg/definitions/manifest.json', {
-				headers: {
-					'User-Agent': 'deepsight.gg:build/0.0.0',
-				},
-			})
-				.then(async response => await response.json() as DeepsightManifest))
+			?? (await
+				fetch('https://raw.githubusercontent.com/ChiriVulpes/definition.deepsight.gg/definitions/manifest.json', {
+					headers: {
+						'User-Agent': 'deepsight.gg:build/0.0.0',
+					},
+				})
+					// eslint-disable-next-line @typescript-eslint/no-unsafe-return
+					.then(async response => await response.json())
+			) as DeepsightManifest
 	}
 
 	let recentPGCR: DeepsightManifestReferencePGCR | undefined

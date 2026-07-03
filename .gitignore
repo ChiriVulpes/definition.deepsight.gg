@@ -15,6 +15,7 @@ static/definitions/Enums.d.ts
 static/definitions/Enums.json
 auth.json
 activitycache.json*
+cache/
 charm/
 wiki/
 .query/

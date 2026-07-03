@@ -226,7 +226,8 @@ export function filterSelection (selection: SearchSelection, where: string | und
 					createSemanticMatchProxy(selection.source, new SemanticMatch(selection.source, record.value)),
 					...values,
 				)
-			} catch (error) {
+			}
+			catch (error) {
 				throw new PredicateEvaluationError(selection.source, record, where, error)
 			}
 		}),
@@ -257,7 +258,8 @@ export async function getHelpMarkdown (options: CliOptions, loadedSelection?: Se
 	if (is.length === 1 && (options.tables.length === 1 || loadedSelection)) {
 		const [table] = is
 		lines.push(...(table.terms.length ? table.terms.map(term => `- is.${term}`) : ['- none']))
-	} else {
+	}
+	else {
 		for (const table of is)
 			lines.push(`- ${table.table}: ${table.terms.length ? table.terms.map(term => `is.${term}`).join(', ') : 'none'}`)
 	}
@@ -526,7 +528,8 @@ function isSemanticTermSupported (table: string, term: string) {
 	try {
 		void (new SemanticIs(source, {}) as any)[term]
 		return true
-	} catch (error) {
+	}
+	catch (error) {
 		if (error instanceof UnsupportedSemanticPredicateError)
 			return false
 
@@ -612,7 +615,7 @@ function propertyDescriptor (target: object, property: string) {
 }
 
 function errorMessage (error: unknown) {
-	return error instanceof Error ? error.message : `${error}`
+	return error instanceof Error ? error.message : String(error)
 }
 
 export class PredicateEvaluationError extends Error {

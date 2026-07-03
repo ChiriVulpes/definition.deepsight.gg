@@ -1,7 +1,7 @@
 import fs from 'fs-extra'
 import { Task } from 'task'
 
-export default function DefinitionTable<T> (name: string, supplier: () => Promise<T>) {
+export default function DefinitionTable<T> (name: string, supplier: () => T | Promise<T>) {
 	let result: T | undefined
 	async function get () {
 		return result ??= await supplier()

@@ -1,15 +1,23 @@
-import type { DestinyIconDefinition, DestinyInventoryItemDefinition } from 'bungie-api-ts/destiny2'
+import type { DestinyIconDefinition } from 'bungie-api-ts/destiny2'
 import fs from 'fs-extra'
+import path from 'path'
 import type { Metadata } from 'sharp'
-import { Log, Task } from 'task'
+import { Task } from 'task'
 import Env from '../utility/Env'
 import { DeepsightPlugCategory, DeepsightPlugTypeIntrinsic } from './IDeepsightPlugCategorisation'
 import DeepsightPlugCategorisationSource from './plugtype/DeepsightPlugCategorisation'
 import ImageManager from './utility/ImageManager'
 import DestinyManifest from './utility/endpoint/DestinyManifest'
+import { ProgressLogger, runConcurrent } from './utility/Progress'
 
 const iconPath = 'image/generated/icon'
 const iconDir = `docs/${iconPath}`
+const IMAGE_EXTRACTION_CONCURRENCY = 16
+
+interface IconExtractionJob {
+	readonly name: string
+	run(): Promise<void>
+}
 
 export function getIconPath (iconHash: number) {
 	return `${Env.DEEPSIGHT_PATH}/${iconPath}/${iconHash}.png`
@@ -31,20 +39,7 @@ export default Task('DeepsightIconDefinition', async task => {
 	const invItems = Object.entries(DestinyInventoryItemDefinition)
 
 	const iconURLsExtracted = new Set<number>()
-
-	let i = 0
-	let logI = 0
-	function logCurrent (stage: string, item: DestinyInventoryItemDefinition) {
-		i++
-		if (logI++ % 20)
-			return
-
-		const count = 20
-		const fraction = Math.floor((i / promises.length) * count)
-		Log.info(`${stage} icon`, `[${'#'.repeat(fraction)}${' '.repeat(count - fraction)}]`, item.displayProperties.name)
-	}
-
-	const promises: Promise<void>[] = []
+	const jobs: IconExtractionJob[] = []
 	for (const [itemHash, def] of invItems) {
 		const cat = DeepsightPlugCategorisation[+itemHash]
 		if (cat?.category !== DeepsightPlugCategory.Mod)
@@ -65,81 +60,82 @@ export default Task('DeepsightIconDefinition', async task => {
 			continue
 		}
 
-		if (DeepsightIconDefinition[iconHash]) // already extracted
+		const outputPath = `${iconDir}/${iconHash}.png`
+		if (DeepsightIconDefinition[iconHash] && await fs.pathExists(outputPath)) // already extracted
 			continue
 
 		iconURLsExtracted.add(iconHash)
-		promises.push((async () => {
-			const sharp = await ImageManager.get(`https://www.bungie.net${modIcon}`)
+		jobs.push({
+			name: def.displayProperties.name,
+			async run () {
+				const sharp = await ImageManager.get(`https://www.bungie.net${modIcon}`)
 
-			logCurrent('Extracting', def)
-
-			const emptySeasonal = 'task/manifest/icon/mod_empty_seasonal.png'
-			const emptyVariants = [
-				'task/manifest/icon/mod_empty.png',
-				'task/manifest/icon/mod_empty_2.png',
-				'task/manifest/icon/mod_empty_3.png',
-				'task/manifest/icon/mod_empty_4.png',
-				'task/manifest/icon/mod_empty_5.png',
-				emptySeasonal,
-			]
-
-			let { variant, result } = false
-				|| await resolveVariants(emptyVariants, async variant => await ImageManager.extractForeground(
-					sharp,
-					variant,
-					validate,
-				))
-				// fallback for one mod that produces artifacting and i can't figure out why
-				|| {
-				variant: 'fallback',
-				result: await ImageManager.extractForeground(
-					sharp,
+				const emptySeasonal = 'task/manifest/icon/mod_empty_seasonal.png'
+				const emptyVariants = [
+					'task/manifest/icon/mod_empty.png',
+					'task/manifest/icon/mod_empty_2.png',
 					'task/manifest/icon/mod_empty_3.png',
-				),
-			}
+					'task/manifest/icon/mod_empty_4.png',
+					'task/manifest/icon/mod_empty_5.png',
+					emptySeasonal,
+				]
 
-			if (!result) {
-				console.warn('Failed to extract mod foreground', iconHash, `https://www.bungie.net${modIcon}`)
-				return
-			}
-
-			const enhancedOverlay = 'task/manifest/icon/mod_enhanced_overlay.png'
-			const fragileOverlays = [
-				'task/manifest/icon/mod_fragile_overlay.png',
-				'task/manifest/icon/mod_fragile_overlay_3.png',
-				'task/manifest/icon/mod_fragile_overlay_2.png',
-				'task/manifest/icon/mod_fragile_overlay_4.png',
-			]
-			const artifactsToStrip = [
-				'task/manifest/icon/mod_empty_artifacts_1.png',
-				'task/manifest/icon/mod_empty_artifacts_2.png',
-				'task/manifest/icon/mod_empty_artifacts_3.png',
-				'task/manifest/icon/mod_empty_artifacts_4.png',
-			]
-
-			const outputPath = `${iconDir}/${iconHash}.png`
-			if (result) {
-				const subtractionResult = await ImageManager.subtractOverlays([enhancedOverlay, ...fragileOverlays, ...artifactsToStrip], result)
-				result = subtractionResult.result
-				const isSeasonal = variant === emptySeasonal
-				const isEnhanced = subtractionResult.subtracted.includes(enhancedOverlay)
-				const isFragile = fragileOverlays.some(overlay => subtractionResult.subtracted.includes(overlay))
-				DeepsightIconDefinition[iconHash] = {
-					hash: iconHash,
-					foreground: `/image/generated/icon/${iconHash}.png`,
-					background: `/image/png/mod/${isSeasonal ? 'mod_empty_seasonal' : 'mod_empty'}.png`,
-					secondaryBackground: isEnhanced ? '/image/png/mod/mod_enhanced_overlay.png' : '',
-					specialBackground: !isFragile ? '' : `/image/png/mod/mod_fragile_overlay${isSeasonal ? '_seasonal' : ''}${isEnhanced ? '' : '_glow'}.png`,
-					highResForeground: '',
-					index: iconDef?.index ?? 0,
-					redacted: false,
-					...{ blacklisted: false },
+				let { variant, result } = false
+					|| await resolveVariants(emptyVariants, async variant => await ImageManager.extractForeground(
+						sharp,
+						variant,
+						validate,
+					))
+					// fallback for one mod that produces artifacting and i can't figure out why
+					|| {
+					variant: 'fallback',
+					result: await ImageManager.extractForeground(
+						sharp,
+						'task/manifest/icon/mod_empty_3.png',
+					),
 				}
-			}
 
-			await result.png().toFile(outputPath)
-		})())
+				if (!result) {
+					console.warn('Failed to extract mod foreground', iconHash, `https://www.bungie.net${modIcon}`)
+					return
+				}
+
+				const enhancedOverlay = 'task/manifest/icon/mod_enhanced_overlay.png'
+				const fragileOverlays = [
+					'task/manifest/icon/mod_fragile_overlay.png',
+					'task/manifest/icon/mod_fragile_overlay_3.png',
+					'task/manifest/icon/mod_fragile_overlay_2.png',
+					'task/manifest/icon/mod_fragile_overlay_4.png',
+				]
+				const artifactsToStrip = [
+					'task/manifest/icon/mod_empty_artifacts_1.png',
+					'task/manifest/icon/mod_empty_artifacts_2.png',
+					'task/manifest/icon/mod_empty_artifacts_3.png',
+					'task/manifest/icon/mod_empty_artifacts_4.png',
+				]
+
+				if (result) {
+					const subtractionResult = await ImageManager.subtractOverlays([enhancedOverlay, ...fragileOverlays, ...artifactsToStrip], result)
+					result = subtractionResult.result
+					const isSeasonal = variant === emptySeasonal
+					const isEnhanced = subtractionResult.subtracted.includes(enhancedOverlay)
+					const isFragile = fragileOverlays.some(overlay => subtractionResult.subtracted.includes(overlay))
+					DeepsightIconDefinition[iconHash] = {
+						hash: iconHash,
+						foreground: `/image/generated/icon/${iconHash}.png`,
+						background: `/image/png/mod/${isSeasonal ? 'mod_empty_seasonal' : 'mod_empty'}.png`,
+						secondaryBackground: isEnhanced ? '/image/png/mod/mod_enhanced_overlay.png' : '',
+						specialBackground: !isFragile ? '' : `/image/png/mod/mod_fragile_overlay${isSeasonal ? '_seasonal' : ''}${isEnhanced ? '' : '_glow'}.png`,
+						highResForeground: '',
+						index: iconDef?.index ?? 0,
+						redacted: false,
+						...{ blacklisted: false },
+					}
+				}
+
+				await result.png().toFile(outputPath)
+			},
+		})
 	}
 
 	for (const [itemHash, def] of invItems) {
@@ -161,57 +157,76 @@ export default Task('DeepsightIconDefinition', async task => {
 			continue
 		}
 
-		if (DeepsightIconDefinition[iconHash]) // already extracted
+		const outputPath = `${iconDir}/${iconHash}.png`
+		if (DeepsightIconDefinition[iconHash] && await fs.pathExists(outputPath)) // already extracted
 			continue
 
 		iconURLsExtracted.add(iconHash)
-		promises.push((async () => {
-			const sharp = await ImageManager.get(`https://www.bungie.net${intrinsicIcon}`)
+		jobs.push({
+			name: def.displayProperties.name,
+			async run () {
+				const sharp = await ImageManager.get(`https://www.bungie.net${intrinsicIcon}`)
 
-			logCurrent('Extracting', def)
+				let result = await ImageManager.extractForeground(
+					sharp,
+					'task/manifest/icon/exotic_intrinsic_empty.png',
+				)
 
-			let result = await ImageManager.extractForeground(
-				sharp,
-				'task/manifest/icon/exotic_intrinsic_empty.png',
-			)
-
-			if (!result) {
-				console.warn('Failed to extract mod foreground', iconHash, `https://www.bungie.net${intrinsicIcon}`)
-				return
-			}
-
-			const artifactsToStrip = [
-				'task/manifest/icon/exotic_intrinsic_artifacts_1.png',
-				'task/manifest/icon/exotic_intrinsic_artifacts_2.png',
-			]
-
-			const outputPath = `${iconDir}/${iconHash}.png`
-			if (result) {
-				const subtractionResult = await ImageManager.subtractOverlays([...artifactsToStrip], result)
-				result = subtractionResult.result
-				DeepsightIconDefinition[iconHash] = {
-					hash: iconHash,
-					foreground: `/image/generated/icon/${iconHash}.png`,
-					background: '/image/png/mod/exotic_intrinsic_empty.png',
-					secondaryBackground: '',
-					specialBackground: '',
-					highResForeground: '',
-					index: iconDef?.index ?? 0,
-					redacted: false,
-					...{ blacklisted: false },
+				if (!result) {
+					console.warn('Failed to extract mod foreground', iconHash, `https://www.bungie.net${intrinsicIcon}`)
+					return
 				}
-			}
 
-			await result.png().toFile(outputPath)
-		})())
+				const artifactsToStrip = [
+					'task/manifest/icon/exotic_intrinsic_artifacts_1.png',
+					'task/manifest/icon/exotic_intrinsic_artifacts_2.png',
+				]
+
+				if (result) {
+					const subtractionResult = await ImageManager.subtractOverlays([...artifactsToStrip], result)
+					result = subtractionResult.result
+					DeepsightIconDefinition[iconHash] = {
+						hash: iconHash,
+						foreground: `/image/generated/icon/${iconHash}.png`,
+						background: '/image/png/mod/exotic_intrinsic_empty.png',
+						secondaryBackground: '',
+						specialBackground: '',
+						highResForeground: '',
+						index: iconDef?.index ?? 0,
+						redacted: false,
+						...{ blacklisted: false },
+					}
+				}
+
+				await result.png().toFile(outputPath)
+			},
+		})
 	}
 
-	await Promise.all(promises)
+	const progress = new ProgressLogger('icon extraction', jobs.length, 'icon')
+	progress.start()
+	await runConcurrent(jobs, IMAGE_EXTRACTION_CONCURRENCY, async job => {
+		await job.run()
+		progress.advance('Extracted', job.name)
+	})
+
+	await pruneMissingGeneratedIcons(DeepsightIconDefinition)
 
 	await fs.mkdirp('docs/definitions')
 	await fs.writeJson('static/definitions/DeepsightIconDefinition.json', DeepsightIconDefinition, { spaces: '\t' })
 	await fs.copyFile('static/definitions/DeepsightIconDefinition.json', 'docs/definitions/DeepsightIconDefinition.json')
 })
+
+async function pruneMissingGeneratedIcons (definitions: Record<number, DestinyIconDefinition>) {
+	for (const [hash, definition] of Object.entries(definitions)) {
+		if (!definition.foreground?.startsWith('/image/generated/icon/'))
+			continue
+
+		const localPath = path.join('docs', ...definition.foreground.split('/').filter(Boolean))
+		if (!await fs.pathExists(localPath))
+			delete definitions[Number(hash)]
+	}
+}
 
 const ensureTransparentCoords = [
 	[0, 0],

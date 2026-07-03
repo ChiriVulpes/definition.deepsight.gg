@@ -419,6 +419,20 @@ export default Task('DeepsightLinksDefinition', async () => {
 	}
 	addAugmentation('DestinyInventoryItemDefinition', 'DeepsightEmblemDefinition')
 
+	// components.DeepsightImageAnalysisDefinition = {
+	// 	component: 'DeepsightImageAnalysisDefinition',
+	// 	links: [
+	// 		{ path: 'analysis.{}', enum: 'DeepsightImageCategory' },
+	// 	],
+	// }
+	// components.DeepsightImageCategoryDefinition = {
+	// 	component: 'DeepsightImageCategoryDefinition',
+	// 	links: [
+	// 		{ path: 'hash', enum: 'DeepsightImageCategory' },
+	// 	],
+	// }
+	// await addDeepsightEnum('DeepsightImageCategory')
+
 	components.DeepsightAdeptDefinition = {
 		component: 'DeepsightAdeptDefinition',
 		links: [

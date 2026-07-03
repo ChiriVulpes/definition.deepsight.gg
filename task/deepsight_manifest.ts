@@ -11,6 +11,8 @@ import DeepsightDropTableDefinition from './manifest/DeepsightDropTableDefinitio
 import DeepsightEmblemDefinition from './manifest/DeepsightEmblemDefinition'
 import DeepsightFormattedClarityDescriptions from './manifest/DeepsightFormattedClarityDescriptions'
 import DeepsightIconDefinition from './manifest/DeepsightIconDefinition'
+// import DeepsightImageAnalysisDefinition from './manifest/DeepsightImageAnalysisDefinition'
+// import DeepsightImageCategoryDefinition from './manifest/DeepsightImageCategoryDefinition'
 import DeepsightItemDamageTypesDefinition from './manifest/DeepsightItemDamageTypesDefinition'
 import DeepsightItemSourceDefinition from './manifest/DeepsightItemSourceDefinition'
 import DeepsightLinksDefinition from './manifest/DeepsightLinksDefinition'
@@ -75,6 +77,10 @@ export default Task('deepsight_manifest', task => task.series(
 			)
 		),
 	),
+	// task.series(
+	// 	DeepsightImageCategoryDefinition,
+	// 	DeepsightImageAnalysisDefinition,
+	// ),
 	...Env.DEEPSIGHT_ENVIRONMENT !== 'dev' || Env.DEEPSIGHT_PRUNE ? [prune_enums] : [],
 	bump_versions,
 ))

@@ -1,5 +1,5 @@
-import type { DestinationHashes } from '@deepsight.gg/Enums'
-import { EventCardHashes, MomentHashes, VendorGroupHashes, VendorHashes } from '@deepsight.gg/Enums'
+import type { DestinationHashes, EventCardHashes } from '@deepsight.gg/Enums'
+import { MomentHashes, VendorGroupHashes, VendorHashes } from '@deepsight.gg/Enums'
 import type { DestinyDisplayPropertiesDefinition, DestinyItemComponentSetOfuint32, DestinyVendorsResponse, DictionaryComponentResponse } from 'bungie-api-ts/destiny2'
 import { ComponentPrivacySetting } from 'bungie-api-ts/destiny2'
 import { diff } from 'json-diff'

@@ -12,8 +12,8 @@ export interface BungieOpenApi {
 }
 
 export interface OpenAPIDefinition extends OpenAPIBaseDefinition {
-	'type'?: 'boolean' | 'object' | 'array' | 'string' | 'number' | 'integer' | string
-	'format'?: OpenAPINumberFormat | OpenAPIStringFormat | string
+	'type'?: string
+	'format'?: string
 	'enum'?: `${number}`[]
 	'x-enum-values'?: OpenAPIEnumValue[]
 	'x-enum-is-bitmask'?: boolean
@@ -110,7 +110,8 @@ export async function loadBungieOpenApi () {
 		const openapi = await response.json() as BungieOpenApi
 		await writeOpenApiCache(openapi)
 		return openapi
-	} catch (fetchError) {
+	}
+	catch (fetchError) {
 		if (await fs.pathExists(OPEN_API_CACHE_PATH))
 			return await fs.readJson(OPEN_API_CACHE_PATH) as BungieOpenApi
 
@@ -125,7 +126,8 @@ async function writeOpenApiCache (openapi: BungieOpenApi) {
 	try {
 		await fs.writeJson(tempPath, openapi)
 		await fs.rename(tempPath, OPEN_API_CACHE_PATH)
-	} catch (error) {
+	}
+	catch (error) {
 		await fs.remove(tempPath).catch(() => undefined)
 		throw error
 	}
@@ -172,5 +174,5 @@ export function createOpenApiComponentNameMap (openapi: BungieOpenApi, component
 }
 
 function errorMessage (error: unknown) {
-	return error instanceof Error ? error.message : `${error}`
+	return error instanceof Error ? error.message : String(error)
 }

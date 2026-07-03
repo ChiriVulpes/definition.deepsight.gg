@@ -56,22 +56,25 @@ namespace ImageManager {
 			return sharp(inputPathOrUrl)
 
 		// is remote URL
-		let response!: Response
+		let lastError: Error | undefined
 		for (let i = 0; i < 6; i++) {
 			try {
-				response = await fetch(inputPathOrUrl).catch(err => ({ ok: false, statusText: err instanceof Error ? err.message : String(err) } as Response))
+				const response = await fetch(inputPathOrUrl)
 				if (!response.ok)
 					throw new Error(`Failed to fetch image from ${inputPathOrUrl}: ${response.statusText}`)
+
+				const arrayBuffer = await response.arrayBuffer()
+				const imageBuffer = Buffer.from(arrayBuffer)
+				return sharp(imageBuffer)
 			}
-			catch {
+			catch (error) {
+				lastError = error instanceof Error ? error : new Error(String(error))
 				// exponential backoff
 				await new Promise(res => setTimeout(res, (2 ** i) * 1000))
 			}
 		}
 
-		const arrayBuffer = await response.arrayBuffer()
-		const imageBuffer = Buffer.from(arrayBuffer)
-		return sharp(imageBuffer)
+		throw new Error(`Failed to fetch image from ${inputPathOrUrl}`, { cause: lastError })
 	}
 
 	export async function getMedianColour (image: ImageInput) {

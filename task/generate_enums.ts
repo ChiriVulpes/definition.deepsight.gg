@@ -50,11 +50,11 @@ const EXCLUDED_PATHS: Partial<Record<keyof AllDestinyManifestComponents, string[
 	DestinyDestinationDefinition: ['bubble*', 'activityGraphEntries*'],
 }
 
-type ComponentHashNameGenerator =
+type ComponentHashNameGenerator<DEFINITION = Definition> =
 	| keyof AllDestinyManifestComponents
-	| ((definition: Definition) => string | undefined)
+	| ((definition: DEFINITION) => string | undefined)
 
-const COMPONENT_HASH_PATHS: Partial<Record<keyof AllDestinyManifestComponents, Record<string, ComponentHashNameGenerator>>> = {
+const COMPONENT_HASH_PATHS = ({
 	DestinyInventoryItemDefinition: {
 		'collectibleHash': 'DestinyCollectibleDefinition',
 		'loreHash': 'DestinyLoreDefinition',
@@ -73,7 +73,8 @@ const COMPONENT_HASH_PATHS: Partial<Record<keyof AllDestinyManifestComponents, R
 		placeHash: 'DestinyPlaceDefinition',
 		defaultFreeroamActivityHash: 'DestinyActivityDefinition',
 	},
-}
+} satisfies { [KEY in keyof AllDestinyManifestComponents]?: Record<string, ComponentHashNameGenerator<AllDestinyManifestComponents[KEY][number]>> }
+) as unknown as Partial<Record<keyof AllDestinyManifestComponents, Record<string, ComponentHashNameGenerator>>>
 
 const UNRENDERABLE_PATHS: Partial<Record<keyof AllDestinyManifestComponents, string[]>> = {
 	DestinyInventoryItemDefinition: ['iconWatermark', 'iconWatermarkShelved', 'flavorText'],
@@ -86,7 +87,7 @@ interface IComponentNameGeneratorApi {
 	all<COMPONENT extends keyof AllDestinyManifestComponents> (component: COMPONENT): Promise<AllDestinyManifestComponents[COMPONENT]>
 }
 
-const COMPONENT_NAME_GENERATORS: { [KEY in keyof AllDestinyManifestComponents]?: (definition: AllDestinyManifestComponents[KEY][number], api: IComponentNameGeneratorApi) => Promise<string | undefined> | string | undefined } = {
+const COMPONENT_NAME_GENERATORS = ({
 	DestinyVendorGroupDefinition: def => def.categoryName,
 	DestinyVendorDefinition: def => def.vendorIdentifier,
 	DestinyLoadoutNameDefinition: def => def.name,
@@ -124,7 +125,8 @@ const COMPONENT_NAME_GENERATORS: { [KEY in keyof AllDestinyManifestComponents]?:
 
 		return undefined
 	},
-}
+} satisfies { [KEY in keyof AllDestinyManifestComponents]?: (definition: AllDestinyManifestComponents[KEY][number], api: IComponentNameGeneratorApi) => Promise<string | undefined> | string | undefined }
+) as unknown as Partial<Record<keyof AllDestinyManifestComponents, (definition: Definition, api: IComponentNameGeneratorApi) => Promise<string | undefined> | string | undefined>>
 
 interface Definition {
 	hash?: number
@@ -297,8 +299,7 @@ export class EnumHelper {
 			return undefined
 
 		const name = OVERRIDDEN_ENUM_NAMES[type]?.[definition.hash!]
-
-			?? await COMPONENT_NAME_GENERATORS[type]?.(definition as AllDestinyManifestComponents[typeof type][number], EnumHelper.getComponentNameGeneratorApi())
+			?? await COMPONENT_NAME_GENERATORS[type]?.(definition, EnumHelper.getComponentNameGeneratorApi())
 			?? definition.displayProperties?.name
 			?? MISSING_ENUM_NAMES[type]?.[definition.hash!]
 

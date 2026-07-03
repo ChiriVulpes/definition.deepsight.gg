@@ -68,6 +68,8 @@ export declare interface DeepsightManifestComponentsMap {
 	DeepsightCollectionsDefinition: DeepsightCollectionsDefinitionManifest
 	DeepsightDropTableDefinition: Record<number, DeepsightDropTableDefinition>
 	DeepsightEmblemDefinition: Record<number, DeepsightEmblemDefinition>
+	// DeepsightImageAnalysisDefinition: Record<string, DeepsightImageAnalysisDefinition>
+	// DeepsightImageCategoryDefinition: Record<DeepsightImageCategory, DeepsightImageCategoryDefinition>
 	DeepsightItemDamageTypesDefinition: Record<number, DeepsightItemDamageTypesDefinition>
 	DeepsightMomentDefinition: Record<number, DeepsightMomentDefinition>
 	DeepsightPlugCategorisation: Record<number, DeepsightPlugCategorisation>
@@ -628,6 +630,58 @@ export declare interface DeepsightWeaponFoundryDefinition {
 	hash: FoundryHashes
 	displayProperties: DeepsightDisplayPropertiesDefinition
 	overlay: string
+}
+
+//#endregion
+////////////////////////////////////
+
+////////////////////////////////////
+//#region Image Categorisation
+
+export declare const enum DeepsightImageCategory {
+	PgcrImage,
+	Iconography,
+	Icon,
+	Screenshot,
+	Watermark,
+	Placeholder,
+}
+
+export declare const enum DeepsightImageFraming {
+	CropSafe,
+	Complete,
+}
+
+export declare interface DeepsightImageCategoryDefinition {
+	hash: DeepsightImageCategory
+	framing: DeepsightImageFraming
+	paths: readonly DeepsightImageCategoryPathDefinition[]
+}
+
+export declare interface DeepsightImageCategoryPathDefinition {
+	component: string
+	path: string
+}
+
+export declare interface DeepsightImageAnalysisDefinition {
+	hash: string
+	version: string
+	analysis: Partial<Record<DeepsightImageCategory, boolean>>
+	factsVersion?: string
+	facts?: DeepsightImageAnalysisFacts
+	visualHash?: string
+}
+
+export declare interface DeepsightImageAnalysisFacts {
+	width: number
+	height: number
+	hasAlpha: boolean
+	visiblePixelRatio: number
+	transparentBorderRatio: number
+	lightNeutralVisibleRatio: number
+	whiteVisibleRatio: number
+	darkVisibleRatio: number
+	colouredVisibleRatio: number
 }
 
 //#endregion

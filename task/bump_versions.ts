@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import ansi from 'ansicolor'
 import fs from 'fs-extra'
 import { diff } from 'json-diff'
@@ -114,7 +113,7 @@ export default Task('bump_versions', async () => {
 	await fs.writeFile('docs/definitions/Interfaces.d.ts', interfacesFile)
 
 	if (bumped) {
-		versions.deepsight = (versions.deepsight ?? DEFAULT_VERSION) + 1
+		versions.deepsight = +(versions.deepsight ?? DEFAULT_VERSION) + 1
 		versions.updated = Time.iso()
 
 		const packageJson = JSON.parse(await fs.readFile(`${dir}package.json`, 'utf8').catch(() => '{ "name": "deepsight.gg", "version": "1.0.0", "types": "Interfaces.d.ts" }')) as { version: string }
