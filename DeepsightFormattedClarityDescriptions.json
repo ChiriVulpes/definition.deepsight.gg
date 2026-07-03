@@ -32903,9 +32903,9 @@
 		"name": "Probability Matrix",
 		"itemHash": 903984858,
 		"itemName": "Lucky Raspberry",
-		"lastUpload": 1767665829609,
+		"lastUpload": 1782415343377,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Hawkmoona",
+		"uploadedBy": "Stardust",
 		"descriptions": [
 			{
 				"type": "line",
@@ -32918,27 +32918,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Arcbolt Grenades can chain an additional time ("
-					},
-					{
-						"type": "numeric",
-						"text": "3",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": "🠚"
-					},
-					{
-						"type": "numeric",
-						"text": "4",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": ") "
+						"text": "Arcbolt Grenades "
 					},
 					{
 						"type": "icon",
@@ -32948,7 +32928,31 @@
 					},
 					{
 						"type": "text",
-						"text": "Jolt targets on hit."
+						"text": "Jolt and Disrupt targets on hit and can chain an additional time ("
+					},
+					{
+						"type": "numeric",
+						"text": "4",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": "🠚"
+					},
+					{
+						"type": "numeric",
+						"text": "5",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": ")"
+					},
+					{
+						"type": "text",
+						"text": "."
 					}
 				]
 			},
@@ -32983,11 +32987,21 @@
 					},
 					{
 						"type": "text",
-						"text": "Jolt chain grants "
+						"text": "Jolt chain grant "
 					},
 					{
 						"type": "numeric",
-						"text": "10?%",
+						"text": "15%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " and "
+					},
+					{
+						"type": "numeric",
+						"text": "7.5%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
@@ -33003,7 +33017,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Arcbolt Grenade energy. Due to the nature of "
+						"text": "Arcbolt Grenade energy, respectively. (Due to the nature of "
 					},
 					{
 						"type": "icon",
@@ -33013,38 +33027,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Jolt, these events often happen simultaneously."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "line",
-				"content": [
-					{
-						"type": "icon",
-						"classNames": [
-							"arc"
-						]
-					},
-					{
-						"type": "text",
-						"text": "Ionic Trace Pickups grant "
-					},
-					{
-						"type": "numeric",
-						"text": "7.5%",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " additional Arcbolt Grenade Energy."
+						"text": "Jolt, these events can often happen simultaneously)"
 					}
 				]
 			},

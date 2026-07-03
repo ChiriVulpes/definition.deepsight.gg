@@ -417,6 +417,14 @@
 		],
 		"progressDescription": "Targets defeated"
 	},
+	"2200470033": {
+		"hash": 2200470033,
+		"record": 2673930259,
+		"primaryObjectiveHashes": [
+			2485774279
+		],
+		"progressDescription": ""
+	},
 	"2208405142": {
 		"hash": 2208405142,
 		"record": 3518287681,

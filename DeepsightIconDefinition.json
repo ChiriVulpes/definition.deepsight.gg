@@ -890,6 +890,17 @@
 		"redacted": false,
 		"blacklisted": false
 	},
+	"314907847": {
+		"hash": 314907847,
+		"foreground": "/image/generated/icon/314907847.png",
+		"background": "/image/png/mod/exotic_intrinsic_empty.png",
+		"secondaryBackground": "",
+		"specialBackground": "",
+		"highResForeground": "",
+		"index": 32637,
+		"redacted": false,
+		"blacklisted": false
+	},
 	"315354912": {
 		"hash": 315354912,
 		"foreground": "/image/generated/icon/315354912.png",

@@ -2348,7 +2348,6 @@
 			"iconHash": 690263485,
 			"hasIcon": true
 		},
-		"collectibleHash": 2146123589,
 		"secondaryIcon": "/common/destiny2_content/icons/55a2f41a0bf4b3383d38fe9398e2911b.jpg",
 		"secondaryOverlay": "/common/destiny2_content/icons/edb3908f07388538650816c5eabec807.png",
 		"secondarySpecial": "/common/destiny2_content/icons/944bcb6e518d8b1f8701f694eb2b4f76.jpg",
@@ -4197,6 +4196,26 @@
 			"red": 34,
 			"green": 32,
 			"blue": 33,
+			"alpha": 255
+		}
+	},
+	"1074462696": {
+		"hash": 1074462696,
+		"displayProperties": {
+			"description": "",
+			"name": "Conqueror",
+			"icon": "/common/destiny2_content/icons/0dbfdea28c18b5bc3f1d9d4f4e0f0e90.jpg",
+			"iconHash": 1074462696,
+			"hasIcon": true
+		},
+		"collectibleHash": 2449315792,
+		"secondaryIcon": "/common/destiny2_content/icons/55a2f41a0bf4b3383d38fe9398e2911b.jpg",
+		"secondaryOverlay": "/common/destiny2_content/icons/edb3908f07388538650816c5eabec807.png",
+		"secondarySpecial": "/common/destiny2_content/icons/944bcb6e518d8b1f8701f694eb2b4f76.jpg",
+		"backgroundColor": {
+			"red": 7,
+			"green": 13,
+			"blue": 29,
 			"alpha": 255
 		}
 	},
@@ -17012,7 +17031,7 @@
 		"collectibleHash": 2137196804,
 		"secondaryIcon": "/common/destiny2_content/icons/648e5e751cf7560c99bcadc9538487de.png",
 		"secondaryOverlay": "/common/destiny2_content/icons/ff5e24513b8146145c1400ffff66d4cd.png",
-		"secondarySpecial": "/common/destiny2_content/icons/2884d298d2acf52e5ee6ee5aa4bf9537.jpg",
+		"secondarySpecial": "/common/destiny2_content/icons/c213a387003f343bd5d7518fe2b76b30.jpg",
 		"backgroundColor": {
 			"red": 20,
 			"green": 25,
@@ -17060,6 +17079,46 @@
 			"alpha": 255
 		}
 	},
+	"3888032090": {
+		"hash": 3888032090,
+		"displayProperties": {
+			"description": "",
+			"name": "Oblation I",
+			"icon": "/common/destiny2_content/icons/d1a089dd9c2ebcda8aae3db6a5fca12d.jpg",
+			"iconHash": 3888032090,
+			"hasIcon": true
+		},
+		"collectibleHash": 3364432082,
+		"secondaryIcon": "/common/destiny2_content/icons/0ed628d271155f47aa17f8618d7dbe6f.jpg",
+		"secondaryOverlay": "/common/destiny2_content/icons/fb5c3b20a02f50416c45e70c3b4d74cf.png",
+		"secondarySpecial": "/common/destiny2_content/icons/4dab7e3fb4d08783e040f99dfb0e8a58.jpg",
+		"backgroundColor": {
+			"red": 19,
+			"green": 27,
+			"blue": 4,
+			"alpha": 255
+		}
+	},
+	"3888032091": {
+		"hash": 3888032091,
+		"displayProperties": {
+			"description": "",
+			"name": "Oblation II",
+			"icon": "/common/destiny2_content/icons/bd9976ccbec93a2fbbc31a2e202542c4.jpg",
+			"iconHash": 3888032091,
+			"hasIcon": true
+		},
+		"collectibleHash": 3364432083,
+		"secondaryIcon": "/common/destiny2_content/icons/ddf83686c6ad376d97fd37a86734afcc.jpg",
+		"secondaryOverlay": "/common/destiny2_content/icons/f370c37b092656e13db5bf79d8077323.png",
+		"secondarySpecial": "/common/destiny2_content/icons/ae87f9895d5fe3580274c95a97473593.jpg",
+		"backgroundColor": {
+			"red": 15,
+			"green": 11,
+			"blue": 6,
+			"alpha": 255
+		}
+	},
 	"3888032092": {
 		"hash": 3888032092,
 		"displayProperties": {
@@ -17072,7 +17131,7 @@
 		"collectibleHash": 2137196811,
 		"secondaryIcon": "/common/destiny2_content/icons/e6a672764b7e1d041175596d8a1d5461.jpg",
 		"secondaryOverlay": "/common/destiny2_content/icons/0889f8dc7ac48e250a215497d42581b9.png",
-		"secondarySpecial": "/common/destiny2_content/icons/e5a480094576f7e90f1821898080a643.jpg",
+		"secondarySpecial": "/common/destiny2_content/icons/f2f965d551688d10428ef60a708e1941.jpg",
 		"backgroundColor": {
 			"red": 25,
 			"green": 30,
