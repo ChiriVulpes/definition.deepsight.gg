@@ -4684,7 +4684,7 @@
 		"name": "One Thousand Voices Catalyst",
 		"itemHash": 2069224589,
 		"itemName": "One Thousand Voices",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -4728,7 +4728,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Each of my detonations releases a Taken Seeker which aggressively tracks and then burrows into my targets, dealing "
+						"text": "Each of my detonations releases a Taken Seeker which aggressively tracks and then burrows nearby targets, dealing "
 					},
 					{
 						"type": "numeric",
@@ -4787,7 +4787,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Blighted Enemies (Direct Impacts from Witherhoard)"
+						"text": "Blighted Enemies (directly impacted by Witherhoard)"
 					},
 					{
 						"type": "text",
@@ -4802,6 +4802,37 @@
 					{
 						"type": "text",
 						"text": " increased tick damage."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "I do not interact with "
+					},
+					{
+						"type": "text",
+						"text": "Malfeasance"
+					},
+					{
+						"type": "text",
+						"text": " or "
+					},
+					{
+						"type": "text",
+						"text": "Wish-Ender"
+					},
+					{
+						"type": "text",
+						"text": "."
 					}
 				]
 			},
@@ -4862,7 +4893,7 @@
 		"name": "Ranged Weapon",
 		"itemHash": 3049715579,
 		"itemName": "Praxic Blade",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -6924,7 +6955,7 @@
 		"name": "Hierarchy of Needs Catalyst",
 		"itemHash": 4174431791,
 		"itemName": "Hierarchy of Needs",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -8721,6 +8752,281 @@
 				]
 			}
 		]
+	},
+	"136208450": {
+		"hash": 136208450,
+		"name": "Soulburn",
+		"itemHash": 2200470033,
+		"itemName": "Cull's Shadow",
+		"lastUpload": 1783668742660,
+		"type": "Weapon Frame Exotic",
+		"uploadedBy": "Hawkmoona",
+		"descriptions": [
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "This is a Weapon of Sorrow."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Landing two Frontal Blade hits within "
+					},
+					{
+						"type": "numeric",
+						"text": "2",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds of each other, or scoring a Frontal Blade kill, heals you for "
+					},
+					{
+						"type": "numeric",
+						"text": "?",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " HP and grants one stack of 'Soulfire Charge'"
+					},
+					{
+						"type": "text",
+						"text": ". Maximum of "
+					},
+					{
+						"type": "numeric",
+						"text": "6",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " stacks."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Firing this weapon consumes one stack of Soulfire Charge to apply Potent Corruption (poison) that increases in DOT over time."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Potent Corruption deals "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "65",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "?",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"kinetic"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Kinetic damage once every "
+					},
+					{
+						"type": "numeric",
+						"text": "0.5",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds for "
+					},
+					{
+						"type": "numeric",
+						"text": "10",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds, ramping up in damage by "
+					},
+					{
+						"type": "numeric",
+						"text": "8.7%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " for each tick over "
+					},
+					{
+						"type": "numeric",
+						"text": "20",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " ticks, ending at "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "300",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "?",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " damage on the final tick. In total, one application of Potent Corruption deals "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "2",
+								"isUnknown": false,
+								"isEstimate": false
+							},
+							{
+								"type": "text",
+								"text": ","
+							},
+							{
+								"type": "numeric",
+								"text": "985",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "?",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " damage."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Frontal Blades deal "
+					},
+					{
+						"type": "numeric",
+						"text": "50%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " increased melee damage against corrupted (poisoned) enemies."
+					}
+				]
+			}
+		],
+		"definitions": []
 	},
 	"136456835": {
 		"hash": 136456835,
@@ -12931,7 +13237,7 @@
 		"name": "Apollonic Tangent",
 		"itemHash": 4174431791,
 		"itemName": "Hierarchy of Needs",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -13086,7 +13392,7 @@
 					},
 					{
 						"type": "text",
-						"text": " meters."
+						"text": " meters. Precision hits with the fired arrow guide the seekers towards that enemy."
 					}
 				]
 			},
@@ -13847,7 +14153,7 @@
 	"243981275": {
 		"hash": 243981275,
 		"name": "Attrition Orbs",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Trait",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -16124,7 +16430,7 @@
 		"name": "Revved Consumption",
 		"itemHash": 3487253372,
 		"itemName": "The Lament",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -16284,7 +16590,7 @@
 		"name": "Release the Wolves",
 		"itemHash": 3413860063,
 		"itemName": "Lord of Wolves",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -17445,10 +17751,69 @@
 		"name": "Close the Gap",
 		"itemHash": 3824106094,
 		"itemName": "Devil's Ruin",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Hits against "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"strand"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Suspended enemies inflicts "
+					},
+					{
+						"type": "numeric",
+						"text": "20",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Scorch ("
+					},
+					{
+						"type": "numeric",
+						"text": "30",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " with "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Ember of Ashes)"
+					},
+					{
+						"type": "text",
+						"text": "."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
 			{
 				"type": "line",
 				"content": [
@@ -17489,7 +17854,17 @@
 					},
 					{
 						"type": "text",
-						"text": "Firesprite, hold [Reload] to enable a Charged Laser. Charged Laser fires for "
+						"text": "Firesprite, hold [Reload] to enable a Charged Laser. Charged Laser takes "
+					},
+					{
+						"type": "numeric",
+						"text": "0.5",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds to charge, at which point it fires for "
 					},
 					{
 						"type": "numeric",
@@ -20847,7 +21222,7 @@
 		"name": "MIDA Multi-Tool",
 		"itemHash": 1331482397,
 		"itemName": "MIDA Multi-Tool",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -22293,7 +22668,7 @@
 		"name": "Arc Traps",
 		"itemHash": 2376481550,
 		"itemName": "Anarchy",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -22392,6 +22767,41 @@
 				"content": [
 					{
 						"type": "text",
+						"text": "Unlinked Arc Bolts deal damage in a "
+					},
+					{
+						"type": "numeric",
+						"text": "4",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meter radius after detecting an enemy within "
+					},
+					{
+						"type": "numeric",
+						"text": "5",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meters. Linked Arc Bolts only damage enemies touching the tripwire."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
 						"text": "Traps that are linked together deal "
 					},
 					{
@@ -22402,7 +22812,7 @@
 					},
 					{
 						"type": "text",
-						"text": " bonus damage (compared to a single bolt)"
+						"text": " bonus tick damage (compared to a single bolt)"
 					},
 					{
 						"type": "text",
@@ -24445,7 +24855,7 @@
 		"name": "The Chaperone Catalyst",
 		"itemHash": 3413860062,
 		"itemName": "The Chaperone",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -26512,7 +26922,7 @@
 		"name": "Harvester Spike",
 		"itemHash": 2350354266,
 		"itemName": "Alethonym",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -27219,7 +27629,7 @@
 		"name": "Riskrunner Catalyst",
 		"itemHash": 3089417789,
 		"itemName": "Riskrunner",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -27287,7 +27697,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "2.4",
+						"text": "3",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -32331,7 +32741,7 @@
 		"name": "Prismatic Inferno",
 		"itemHash": 19024058,
 		"itemName": "Prometheus Lens",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -32391,7 +32801,22 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds creates a focused 'Solar Field' that continuously expands. The radius grows up to "
+						"text": " seconds creates a focused 'Solar Field' that continuously expands from the point of impact."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "The radius grows up to "
 					},
 					{
 						"type": "numeric",
@@ -32405,8 +32830,8 @@
 					},
 					{
 						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
+						"text": "4",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
@@ -32418,7 +32843,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "13.47",
+								"text": "19",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -33294,7 +33719,7 @@
 		"name": "Winterbite Catalyst",
 		"itemHash": 3118061004,
 		"itemName": "Winterbite",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -36689,6 +37114,230 @@
 		],
 		"definitions": []
 	},
+	"640169129": {
+		"hash": 640169129,
+		"name": "Quantum Nova",
+		"itemHash": 2197778303,
+		"itemName": "Fafnir",
+		"lastUpload": 1783668742660,
+		"type": "Weapon Frame Exotic",
+		"uploadedBy": "Hawkmoona",
+		"descriptions": [
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Hold [Reload] to consume up to "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"heavy"
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "numeric",
+						"text": "9",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Ammo from reserves and "
+					},
+					{
+						"type": "definitionReference",
+						"index": 1
+					},
+					{
+						"type": "text",
+						"text": "refill"
+					},
+					{
+						"type": "text",
+						"text": " the magazine, activating 'Quantum Nova'"
+					},
+					{
+						"type": "text",
+						"text": "."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "The duration of Quantum Nova depends on the amount of ammo consumed. Buff lasts for "
+					},
+					{
+						"type": "numeric",
+						"text": "4",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "8",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "14",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "20",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds upon consuming "
+					},
+					{
+						"type": "numeric",
+						"text": "1",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "3",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "6",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "9",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " reserve ammo."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "While active, this gun applies a "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"void"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Strong Weaken ("
+					},
+					{
+						"type": "numeric",
+						"text": "30%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": ") that lasts for "
+					},
+					{
+						"type": "numeric",
+						"text": "5",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds on hit."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Timer is paused while stowed."
+					}
+				]
+			}
+		],
+		"definitions": [
+			{
+				"name": "refill",
+				"description": [
+					{
+						"type": "line",
+						"content": [
+							{
+								"type": "text",
+								"text": "Loads bullets into your magazine but does not need a reload animation and doesn't trigger on-reload perks."
+							}
+						]
+					}
+				],
+				"classNames": [
+					"title"
+				]
+			}
+		]
+	},
 	"640727985": {
 		"hash": 640727985,
 		"name": "Cormorant Combo",
@@ -37273,6 +37922,122 @@
 					{
 						"type": "text",
 						"text": "Stowing the weapon removes the buff."
+					}
+				]
+			}
+		],
+		"definitions": []
+	},
+	"651256110": {
+		"hash": 651256110,
+		"name": "Power Surge",
+		"itemHash": 253843484,
+		"itemName": "Turncoat",
+		"lastUpload": 1783637436090,
+		"type": "Weapon Trait Exotic",
+		"uploadedBy": "Hawkmoona",
+		"descriptions": [
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Scoring "
+					},
+					{
+						"type": "numeric",
+						"text": "2",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " hits within "
+					},
+					{
+						"type": "numeric",
+						"text": "3",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds of each causes the next shot fired within "
+					},
+					{
+						"type": "numeric",
+						"text": "3",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds to have an Explosive Payload. Explosive Payload deals "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "122",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "?",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " additional damage over "
+					},
+					{
+						"type": "numeric",
+						"text": "4",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meters."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Hits with this Payload grant "
+					},
+					{
+						"type": "numeric",
+						"text": "8%?",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " additional progress to Latent Power."
 					}
 				]
 			}
@@ -37931,7 +38696,7 @@
 		"name": "Skyburner Catalyst",
 		"itemHash": 4255268456,
 		"itemName": "Skyburner's Oath",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -39708,6 +40473,122 @@
 					{
 						"type": "text",
 						"text": " HP to you for each projectile."
+					}
+				]
+			}
+		],
+		"definitions": []
+	},
+	"695800688": {
+		"hash": 695800688,
+		"name": "Soulforge",
+		"itemHash": 2200470033,
+		"itemName": "Cull's Shadow",
+		"lastUpload": 1783668742660,
+		"type": "Weapon Trait Exotic",
+		"uploadedBy": "Hawkmoona",
+		"descriptions": [
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Enemies that are afflicted by this weapon's Potent Corruption create a 'Soulfire Crystal' upon death."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Soulfire Crystals have "
+					},
+					{
+						"type": "numeric",
+						"text": "400",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " HP and linger in the world for "
+					},
+					{
+						"type": "numeric",
+						"text": "15",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds upon creation. Upon destruction, the crystals explode for "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "1",
+								"isUnknown": false,
+								"isEstimate": false
+							},
+							{
+								"type": "text",
+								"text": ","
+							},
+							{
+								"type": "numeric",
+								"text": "065",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "?",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " damage in an "
+					},
+					{
+						"type": "numeric",
+						"text": "8",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meter radius, experiencing up to "
+					},
+					{
+						"type": "numeric",
+						"text": "25%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " damage falloff at the edge of the blast radius."
 					}
 				]
 			}
@@ -41859,7 +42740,7 @@
 		"name": "Truth Catalyst",
 		"itemHash": 1201830623,
 		"itemName": "Truth",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -42738,7 +43619,7 @@
 		"name": "Break the Bank",
 		"itemHash": 2357297366,
 		"itemName": "Witherhoard",
-		"lastUpload": 1768768955912,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -42820,7 +43701,11 @@
 					},
 					{
 						"type": "text",
-						"text": "STILL NOT CONSIDERED TO BE TAKEN."
+						"text": "STILL NOT CONSIDERED \"TAKEN COMBATANTS\""
+					},
+					{
+						"type": "text",
+						"text": "."
 					}
 				]
 			}
@@ -45038,7 +45923,7 @@
 		"name": "Temporal Unlimiter",
 		"itemHash": 4289226715,
 		"itemName": "Vex Mythoclast",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -45158,7 +46043,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "1417",
+								"text": "1475",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -45239,7 +46124,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Upon leaving this mode, the magazine is refilled."
+						"text": "Exiting Linear Mode refills the magazine."
 					}
 				]
 			}
@@ -46621,7 +47506,7 @@
 		"name": "Vex Mythoclast Catalyst",
 		"itemHash": 4289226715,
 		"itemName": "Vex Mythoclast",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -48920,7 +49805,7 @@
 		"name": "Paracausal Imbuement",
 		"itemHash": 4207066264,
 		"itemName": "Microcosm",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -51319,13 +52204,13 @@
 				"content": [
 					{
 						"type": "numeric",
-						"text": "0.75x",
-						"isUnknown": false,
+						"text": "25%",
+						"isUnknown": true,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " ADS Animation Duration Multiplier"
+						"text": " decreased ADS Animation Duration"
 					}
 				]
 			},
@@ -52355,7 +53240,7 @@
 		"name": "Prospector Catalyst",
 		"itemHash": 3549153979,
 		"itemName": "The Prospector",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -53744,7 +54629,7 @@
 		"name": "Personal Assistant",
 		"itemHash": 3141979346,
 		"itemName": "D.A.R.C.I.",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -57777,6 +58662,395 @@
 		],
 		"definitions": []
 	},
+	"1017906546": {
+		"hash": 1017906546,
+		"name": "Latent Power",
+		"itemHash": 253843484,
+		"itemName": "Turncoat",
+		"lastUpload": 1783637436090,
+		"type": "Weapon Frame Exotic",
+		"uploadedBy": "Hawkmoona",
+		"descriptions": [
+			{
+				"type": "line",
+				"isLabel": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "Direct Hits, Precision Hits, and Kills with this weapon charge 'Latent Power'"
+					},
+					{
+						"type": "text",
+						"text": ". The amount of charge granted varies by source:"
+					}
+				]
+			},
+			{
+				"type": "labelledLine",
+				"label": [
+					{
+						"type": "text",
+						"text": "Hits"
+					},
+					{
+						"type": "text",
+						"text": ": "
+					}
+				],
+				"value": [
+					{
+						"type": "numeric",
+						"text": "4%",
+						"isUnknown": true,
+						"isEstimate": false
+					}
+				],
+				"isListItem": true
+			},
+			{
+				"type": "labelledLine",
+				"label": [
+					{
+						"type": "text",
+						"text": "Precision Hits"
+					},
+					{
+						"type": "text",
+						"text": ": "
+					}
+				],
+				"value": [
+					{
+						"type": "numeric",
+						"text": "8%",
+						"isUnknown": true,
+						"isEstimate": false
+					}
+				],
+				"isListItem": true
+			},
+			{
+				"type": "labelledLine",
+				"label": [
+					{
+						"type": "text",
+						"text": "Kills"
+					},
+					{
+						"type": "text",
+						"text": ": "
+					}
+				],
+				"value": [
+					{
+						"type": "numeric",
+						"text": "25%",
+						"isUnknown": true,
+						"isEstimate": false
+					}
+				],
+				"isListItem": true
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"isLabel": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "Upon reaching "
+					},
+					{
+						"type": "numeric",
+						"text": "100%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Progress towards Latent Power, hold [Reload] to enter 'Unleashed Power' and gain the following benefits for "
+					},
+					{
+						"type": "numeric",
+						"text": "13",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds:"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "Instantly "
+					},
+					{
+						"type": "definitionReference",
+						"index": 1
+					},
+					{
+						"type": "text",
+						"text": "refill"
+					},
+					{
+						"type": "text",
+						"text": " the magazine"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "Increase RPM to "
+					},
+					{
+						"type": "numeric",
+						"text": "225",
+						"isUnknown": false,
+						"isEstimate": false
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "Significantly improved Hip-Fire Accuracy"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "numeric",
+						"text": "?",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Stability and "
+					},
+					{
+						"type": "numeric",
+						"text": "?",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Aim Assist"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "Shots fired are immediately returned to the magazine, effectively granting infinite ammo"
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Every shot fired in this mode also "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"void"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Weakens targets for "
+					},
+					{
+						"type": "numeric",
+						"text": "6",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds on hit and gain Explosive Payloads that deal an additional "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "87",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "?",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " damage on hit."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "After "
+					},
+					{
+						"type": "numeric",
+						"text": "3",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds, Unleashed Power changes into Overwhelming Power, which drains "
+					},
+					{
+						"type": "numeric",
+						"text": "13",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " HP every second for the remaining "
+					},
+					{
+						"type": "numeric",
+						"text": "10",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds of the buff."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "labelledLine",
+				"label": [
+					{
+						"type": "text",
+						"text": "Bug Notice"
+					},
+					{
+						"type": "text",
+						"text": ": "
+					}
+				],
+				"value": [
+					{
+						"type": "text",
+						"text": "While Empowerment is active and this weapon is readied, Rocket Launchers and Micro-Missile damage is increased by "
+					},
+					{
+						"type": "numeric",
+						"text": "30%. ",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": "Hazardous Propulsion"
+					},
+					{
+						"type": "text",
+						"text": " Rockets deal "
+					},
+					{
+						"type": "numeric",
+						"text": "200%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " increased damage."
+					}
+				]
+			}
+		],
+		"definitions": [
+			{
+				"name": "refill",
+				"description": [
+					{
+						"type": "line",
+						"content": [
+							{
+								"type": "text",
+								"text": "Loads bullets into your magazine but does not need a reload animation and doesn't trigger on-reload perks."
+							}
+						]
+					}
+				],
+				"classNames": [
+					"title"
+				]
+			}
+		]
+	},
 	"1019291327": {
 		"hash": 1019291327,
 		"name": "High-Impact Frame",
@@ -58106,7 +59380,7 @@
 		"name": "Banned Weapon",
 		"itemHash": 3437746471,
 		"itemName": "Crimson",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -58767,51 +60041,10 @@
 		"name": "Heirloom Catalyst",
 		"itemHash": 1685137410,
 		"itemName": "Heirloom",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
-			{
-				"type": "line",
-				"content": [
-					{
-						"type": "icon",
-						"classNames": [
-							"solar"
-						]
-					},
-					{
-						"type": "text",
-						"text": "Scorch and "
-					},
-					{
-						"type": "icon",
-						"classNames": [
-							"solar"
-						]
-					},
-					{
-						"type": "text",
-						"text": "Ignitions that originate from this weapon deal "
-					},
-					{
-						"type": "numeric",
-						"text": "110%",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " increased damage."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
 			{
 				"type": "line",
 				"content": [
@@ -64654,7 +65887,7 @@
 	"1133590731": {
 		"hash": 1133590731,
 		"name": "Enhanced Athletics",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Armor Mod General",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -65240,7 +66473,7 @@
 		"name": "Edge of Action Catalyst",
 		"itemHash": 2535142413,
 		"itemName": "Edge of Action",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -66792,7 +68025,7 @@
 		"name": "Merciless Catalyst",
 		"itemHash": 4190156464,
 		"itemName": "Merciless",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -70110,7 +71343,7 @@
 		"name": "Anarchy Catalyst",
 		"itemHash": 2376481550,
 		"itemName": "Anarchy",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -70700,7 +71933,7 @@
 		"name": "Penance",
 		"itemHash": 4103414242,
 		"itemName": "Divinity",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -70771,7 +72004,7 @@
 		"name": "Saint's Fists",
 		"itemHash": 2415517654,
 		"itemName": "Bastion",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -72064,35 +73297,10 @@
 		"name": "Repulsor Force",
 		"itemHash": 3580904581,
 		"itemName": "Tractor Cannon",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
-			{
-				"type": "line",
-				"content": [
-					{
-						"type": "text",
-						"text": "Intrinsically "
-					},
-					{
-						"type": "icon",
-						"classNames": [
-							"overload"
-						]
-					},
-					{
-						"type": "text",
-						"text": "Anti-Overload."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
 			{
 				"type": "line",
 				"content": [
@@ -72484,7 +73692,7 @@
 		"name": "The Lament Catalyst",
 		"itemHash": 3487253372,
 		"itemName": "The Lament",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -72564,8 +73772,8 @@
 				]
 			},
 			{
-				"type": "labelledLine",
-				"label": [
+				"type": "line",
+				"content": [
 					{
 						"type": "text",
 						"text": "Scoring "
@@ -72598,31 +73806,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Scorch the target (Tip"
-					},
-					{
-						"type": "text",
-						"text": ": "
-					}
-				],
-				"value": [
-					{
-						"type": "text",
-						"text": "The Lament performs "
-					},
-					{
-						"type": "numeric",
-						"text": "3",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " hits per revved attack)"
-					},
-					{
-						"type": "text",
-						"text": "."
+						"text": "Scorch the target. This allows The Lament to Scorch through a singular revved attack."
 					}
 				]
 			},
@@ -72658,7 +73842,17 @@
 					},
 					{
 						"type": "text",
-						"text": "Scorch applied by Burning Ambition to Unscorched targets counts as Weapon Damage, and thus, triggers Revved Consumption's healing."
+						"text": "Scorch applied by Burning Ambition to Unscorched targets counts as Weapon Damage, and thus, triggers Revved Consumption's healing, granting "
+					},
+					{
+						"type": "numeric",
+						"text": "7",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": "HP per tick."
 					}
 				]
 			}
@@ -73203,7 +74397,7 @@
 		"name": "Coldheart Catalyst",
 		"itemHash": 1345867571,
 		"itemName": "Coldheart",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -73590,7 +74784,7 @@
 		"name": "Bolt Thrower",
 		"itemHash": 1685137410,
 		"itemName": "Heirloom",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -74720,7 +75914,7 @@
 		"name": "Creeping Attrition",
 		"itemHash": 940371471,
 		"itemName": "Wicked Implement",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -76833,7 +78027,7 @@
 		"name": "Cryocannon",
 		"itemHash": 370712896,
 		"itemName": "Salvation's Grip",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -80464,7 +81658,7 @@
 		"name": "Precision Slug",
 		"itemHash": 3413860062,
 		"itemName": "The Chaperone",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -83539,7 +84733,7 @@
 		"name": "Vexadecimal",
 		"itemHash": 449318888,
 		"itemName": "Deterministic Chaos",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -83558,7 +84752,7 @@
 					},
 					{
 						"type": "text",
-						"text": " rounds makes the "
+						"text": " rounds (is supposed to) make the "
 					},
 					{
 						"type": "numeric",
@@ -83588,11 +84782,7 @@
 					},
 					{
 						"type": "text",
-						"text": " Seconds and grants 'Vexadecimal'"
-					},
-					{
-						"type": "text",
-						"text": "."
+						"text": " Seconds."
 					}
 				]
 			},
@@ -83642,7 +84832,17 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Vexadecemial "
+						"text": "Releasing the trigger after firing a Vexadecemial round ("
+					},
+					{
+						"type": "numeric",
+						"text": "16",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " shots) "
 					},
 					{
 						"type": "definitionReference",
@@ -83664,7 +84864,7 @@
 					},
 					{
 						"type": "text",
-						"text": " ammo from reserves on trigger release as long as the current magazine isn't empty."
+						"text": " ammo from reserves on trigger release, as long as the current magazine isn't empty."
 					}
 				]
 			}
@@ -83694,7 +84894,7 @@
 		"name": "Queen's Wrath",
 		"itemHash": 814876684,
 		"itemName": "Wish-Ender",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -84340,7 +85540,7 @@
 		"name": "Jade Rabbit Catalyst",
 		"itemHash": 3844694310,
 		"itemName": "The Jade Rabbit",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -85386,7 +86586,7 @@
 		"name": "Divinity Catalyst",
 		"itemHash": 4103414242,
 		"itemName": "Divinity",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -85956,7 +87156,7 @@
 		"name": "Taken Ambition",
 		"itemHash": 1481594633,
 		"itemName": "Barrow-Dyad",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -86421,7 +87621,7 @@
 		"name": "Wire Rifle",
 		"itemHash": 2044500762,
 		"itemName": "The Queenbreaker",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -87963,7 +89163,7 @@
 		"name": "Thunderlord Catalyst",
 		"itemHash": 3325463374,
 		"itemName": "Thunderlord",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -88352,7 +89552,7 @@
 		"name": "Taken Resolution",
 		"itemHash": 1481594633,
 		"itemName": "Barrow-Dyad",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -88553,7 +89753,7 @@
 		"name": "Touch of Malice Catalyst",
 		"itemHash": 1802135586,
 		"itemName": "Touch of Malice",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -95804,7 +97004,7 @@
 		"name": "Big-Game Hunter",
 		"itemHash": 2591746970,
 		"itemName": "Leviathan's Breath",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -97329,7 +98529,7 @@
 		"name": "Edge of Concurrence Catalyst",
 		"itemHash": 542203595,
 		"itemName": "Edge of Concurrence",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -99773,7 +100973,7 @@
 		"name": "Crimson Catalyst",
 		"itemHash": 3437746471,
 		"itemName": "Crimson",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -100119,7 +101319,7 @@
 		"name": "Judgment",
 		"itemHash": 4103414242,
 		"itemName": "Divinity",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -101756,7 +102956,7 @@
 		"name": "Sunshot Catalyst",
 		"itemHash": 2907129557,
 		"itemName": "Sunshot",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -103964,7 +105164,7 @@
 		"name": "Mark of the Devourer",
 		"itemHash": 3973202132,
 		"itemName": "Thorn",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -103973,7 +105173,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Weapon of Sorrow."
+						"text": "This is a Weapon of Sorrow."
 					}
 				]
 			},
@@ -104100,7 +105300,7 @@
 		"name": "Hard Light Catalyst",
 		"itemHash": 4124984448,
 		"itemName": "Hard Light",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -104229,7 +105429,7 @@
 					},
 					{
 						"type": "text",
-						"text": " decreased ADS Duration"
+						"text": " decreased ADS Animation Duration"
 					}
 				]
 			}
@@ -106155,7 +107355,7 @@
 		"name": "Edge of Action",
 		"itemHash": 2535142413,
 		"itemName": "Edge of Action",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -109289,7 +110489,7 @@
 		"name": "Balanced Grip",
 		"itemHash": 3049715579,
 		"itemName": "Praxic Blade",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Perk Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -112454,6 +113654,96 @@
 		],
 		"definitions": []
 	},
+	"1980732122": {
+		"hash": 1980732122,
+		"name": "Blades of Unmaking",
+		"itemHash": 2200470033,
+		"itemName": "Cull's Shadow",
+		"lastUpload": 1783668742660,
+		"type": "Weapon Perk Exotic",
+		"uploadedBy": "Hawkmoona",
+		"descriptions": [
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Replaces your melee ability with a "
+					},
+					{
+						"type": "numeric",
+						"text": "2",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": "-hit combo blade attack. Each stab deals "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "543",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "84",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " damage and has an extended lunge range of "
+					},
+					{
+						"type": "numeric",
+						"text": "7",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meters."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Scales with the Melee Stat and Melee-Damage Buffs. Despite its behavior, this is not considered a \"Glaive Melee\""
+					},
+					{
+						"type": "text",
+						"text": "."
+					}
+				]
+			}
+		],
+		"definitions": []
+	},
 	"1988485648": {
 		"hash": 1988485648,
 		"name": "Dealer's Choice",
@@ -113575,7 +114865,7 @@
 		"name": "Thin the Herd",
 		"itemHash": 3549153978,
 		"itemName": "Fighting Lion",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -114805,7 +116095,7 @@
 		"name": "Edge of Intent Catalyst",
 		"itemHash": 14194600,
 		"itemName": "Edge of Intent",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -115981,13 +117271,13 @@
 					},
 					{
 						"type": "numeric",
-						"text": "0.85x",
-						"isUnknown": false,
+						"text": "15%",
+						"isUnknown": true,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " ADS Duration Multiplier."
+						"text": " decreased ADS Animation Duration."
 					}
 				]
 			},
@@ -116064,13 +117354,13 @@
 					},
 					{
 						"type": "numeric",
-						"text": "0.75x",
-						"isUnknown": false,
+						"text": "25%",
+						"isUnknown": true,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " ADS Duration Multiplier."
+						"text": " decreased ADS Animation Duration."
 					}
 				]
 			},
@@ -116122,13 +117412,17 @@
 					},
 					{
 						"type": "text",
-						"text": " with no nearby allies), and the ADS Duration Multiplier in both cases is decreased by "
+						"text": " with no nearby allies), and the ADS Animation Duration is decreased by a further "
 					},
 					{
 						"type": "numeric",
-						"text": "0.05.",
+						"text": "5",
 						"isUnknown": false,
 						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " percentage points."
 					}
 				]
 			}
@@ -116652,7 +117946,7 @@
 		"name": "Borealis Catalyst",
 		"itemHash": 3141979347,
 		"itemName": "Borealis",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -117442,7 +118736,7 @@
 		"name": "Charged with Blight",
 		"itemHash": 1802135586,
 		"itemName": "Touch of Malice",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -117872,7 +119166,7 @@
 		"name": "Xenophage Catalyst",
 		"itemHash": 1395261499,
 		"itemName": "Xenophage",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -122053,7 +123347,7 @@
 		"name": "Banshee's Wail",
 		"itemHash": 3487253372,
 		"itemName": "The Lament",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -122091,7 +123385,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "20?%",
+						"text": "20%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
@@ -122104,7 +123398,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "531",
+								"text": "539",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -122134,7 +123428,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "133",
+								"text": "135",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -122203,7 +123497,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "708",
+								"text": "1054",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -122233,7 +123527,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "133",
+								"text": "198",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -122341,7 +123635,7 @@
 				"value": [
 					{
 						"type": "numeric",
-						"text": "100%",
+						"text": "54%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
@@ -122379,26 +123673,13 @@
 				"value": [
 					{
 						"type": "numeric",
-						"text": "150%",
+						"text": "109%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " increased main attack damage"
-					},
-					{
-						"type": "stackSeparator"
-					},
-					{
-						"type": "numeric",
-						"text": "185%",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " increased secondary hits damage"
+						"text": " increased damage"
 					}
 				],
 				"isListItem": true
@@ -122411,7 +123692,7 @@
 		"name": "Poison Arrows",
 		"itemHash": 3588934839,
 		"itemName": "Le Monarque",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -125989,7 +127270,7 @@
 	"2250679103": {
 		"hash": 2250679103,
 		"name": "Search Party",
-		"lastUpload": 1712008312346,
+		"lastUpload": 1783623797638,
 		"type": "Weapon Trait Origin",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -126035,13 +127316,13 @@
 				"content": [
 					{
 						"type": "numeric",
-						"text": "0.85x",
-						"isUnknown": false,
+						"text": "15%",
+						"isUnknown": true,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " ADS Animation Duration Multiplier"
+						"text": " decreased ADS Animation Duration"
 					}
 				]
 			}
@@ -126227,7 +127508,7 @@
 		"name": "Pyrotoxin Rounds",
 		"itemHash": 1395261499,
 		"itemName": "Xenophage",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -128577,7 +129858,7 @@
 		"name": "Microcosm Catalyst",
 		"itemHash": 4207066264,
 		"itemName": "Microcosm",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -130909,7 +132190,7 @@
 		"name": "Impetus",
 		"itemHash": 4190156464,
 		"itemName": "Merciless",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -131793,7 +133074,7 @@
 		"name": "Leviathan's Breath Catalyst",
 		"itemHash": 2591746970,
 		"itemName": "Leviathan's Breath",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -134628,7 +135909,7 @@
 		"name": "Composite Propellant",
 		"itemHash": 17096506,
 		"itemName": "Dragon's Breath",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -136014,9 +137295,9 @@
 	"2458610193": {
 		"hash": 2458610193,
 		"name": "Light Touch",
-		"lastUpload": 1783446631691,
+		"lastUpload": 1783623797638,
 		"type": "Weapon Trait",
-		"uploadedBy": "Hawkmoona",
+		"uploadedBy": "Stardust",
 		"descriptions": [
 			{
 				"type": "line",
@@ -136118,7 +137399,7 @@
 					},
 					{
 						"type": "text",
-						"text": " decreased ADS Duration"
+						"text": " decreased ADS Animation Duration"
 					}
 				]
 			}
@@ -136663,7 +137944,7 @@
 		"name": "Mad Scientist",
 		"itemHash": 1508896098,
 		"itemName": "The Wardcliff Coil",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -137683,7 +138964,7 @@
 		"name": "Prototype Trueseeker",
 		"itemHash": 1201830623,
 		"itemName": "Truth",
-		"lastUpload": 1768768955912,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -137692,7 +138973,150 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "This rocket's tracking capabilities are significantly stronger than other traditional tracking rocket launchers."
+						"text": "This rocket's tracking capabilities are stronger than other traditional tracking rocket launchers, and have a blast radius of "
+					},
+					{
+						"type": "numeric",
+						"text": "11",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meters."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Dealing damage with "
+					},
+					{
+						"type": "numeric",
+						"text": "3",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " rockets without reloading generates "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"heavy"
+						]
+					},
+					{
+						"type": "numeric",
+						"text": "1",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Ammo. Finishing a reload after having dealt damage with all three rockets grants 'Prototype Trueseeker'"
+					},
+					{
+						"type": "text",
+						"text": "."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"isLabel": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "Prototype Trueseeker grants the following benefits:"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "numeric",
+						"text": "80%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Faster Rate of Fire"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "numeric",
+						"text": "?",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Stability"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "Significantly improved tracking capabilities"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "Rockets now explode into "
+					},
+					{
+						"type": "numeric",
+						"text": "8",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " cluster munitions upon detonation, each cluster having a blast radius of "
+					},
+					{
+						"type": "numeric",
+						"text": "3",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meters."
 					}
 				]
 			}
@@ -138816,7 +140240,7 @@
 		"name": "Bullwhacker",
 		"itemHash": 1685137410,
 		"itemName": "Heirloom",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -140719,7 +142143,7 @@
 		"name": "Ravenous Beast",
 		"itemHash": 3110698812,
 		"itemName": "Tarrabah",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -141920,7 +143344,7 @@
 		"name": "Compounding Force",
 		"itemHash": 2130065553,
 		"itemName": "Arbalest",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -142020,7 +143444,7 @@
 		"name": "Nightsworn Sight",
 		"itemHash": 1047932517,
 		"itemName": "Slayer's Fang",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -143427,7 +144851,7 @@
 	"2579169598": {
 		"hash": 2579169598,
 		"name": "Lone Wolf",
-		"lastUpload": 1745179110048,
+		"lastUpload": 1783623797638,
 		"type": "Weapon Trait",
 		"uploadedBy": "Stardust",
 		"descriptions": [
@@ -143460,13 +144884,13 @@
 					},
 					{
 						"type": "numeric",
-						"text": "0.9x",
-						"isUnknown": false,
+						"text": "10%",
+						"isUnknown": true,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " ADS Duration Multiplier."
+						"text": " decreased ADS Animation Duration."
 					}
 				]
 			},
@@ -143525,13 +144949,13 @@
 					},
 					{
 						"type": "numeric",
-						"text": "0.8x",
-						"isUnknown": false,
+						"text": "20%",
+						"isUnknown": true,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " ADS Duration Multiplier."
+						"text": " decreased ADS Animation Duration."
 					}
 				]
 			}
@@ -144681,7 +146105,7 @@
 		"name": "Heart Piercer",
 		"itemHash": 1047932517,
 		"itemName": "Slayer's Fang",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -153312,7 +154736,7 @@
 		"name": "Touch of Malice",
 		"itemHash": 1802135586,
 		"itemName": "Touch of Malice",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -153321,7 +154745,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Weapon of Sorrow."
+						"text": "This is a Weapon of Sorrow."
 					}
 				]
 			},
@@ -154426,7 +155850,7 @@
 		"name": "Devil's Ruin Catalyst",
 		"itemHash": 3824106094,
 		"itemName": "Devil's Ruin",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -155716,7 +157140,7 @@
 		"name": "Paracausal Beam",
 		"itemHash": 4207066264,
 		"itemName": "Microcosm",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -158458,7 +159882,7 @@
 		"name": "Regenerative Motion",
 		"itemHash": 1912669214,
 		"itemName": "Centrifuse",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -160778,7 +162202,7 @@
 		"name": "Eyes of Tomorrow Catalyst",
 		"itemHash": 2399110176,
 		"itemName": "Eyes of Tomorrow",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -161286,7 +162710,7 @@
 		"name": "Ice Breaker",
 		"itemHash": 1111334348,
 		"itemName": "Ice Breaker",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -166342,7 +167766,7 @@
 		"name": "Grenades and Horseshoes",
 		"itemHash": 1201830623,
 		"itemName": "Truth",
-		"lastUpload": 1768768955912,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -166351,12 +167775,12 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Rockets gain proximity detonation, exploding within a "
+						"text": "Rockets gain proximity detonation, automatically exploding within a "
 					},
 					{
 						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
+						"text": "2",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
@@ -166376,7 +167800,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "These rockets deal increased detonation damage to account for its inability to deal impact damage."
+						"text": "These rockets deal increased detonation damage to account for the inability to deal impact damage."
 					}
 				]
 			}
@@ -168379,7 +169803,7 @@
 		"name": "Wrath of the Colossus",
 		"itemHash": 1763584999,
 		"itemName": "Grand Overture",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -169213,7 +170637,7 @@
 		"name": "Screaming Swarm",
 		"itemHash": 46524085,
 		"itemName": "Osteo Striga",
-		"lastUpload": 1768768955912,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -169222,7 +170646,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Weapon of Sorrow."
+						"text": "This is a Weapon of Sorrow."
 					}
 				]
 			},
@@ -170696,7 +172120,7 @@
 		"name": "Fafnir Catalyst",
 		"itemHash": 2197778303,
 		"itemName": "Fafnir",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783668742660,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -171194,7 +172618,7 @@
 		"name": "Still Hunt Catalyst",
 		"itemHash": 2905188646,
 		"itemName": "Still Hunt",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -172751,7 +174175,7 @@
 		"name": "Edge of Intent",
 		"itemHash": 14194600,
 		"itemName": "Edge of Intent",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -174190,7 +175614,7 @@
 		"name": "Primeval's Torment",
 		"itemHash": 2357297366,
 		"itemName": "Witherhoard",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -174219,7 +175643,22 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds upon impact with the ground. Enemies within the pool take damage every "
+						"text": " seconds upon impact with the ground."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Enemies within the pool take damage every "
 					},
 					{
 						"type": "numeric",
@@ -175174,7 +176613,7 @@
 		"name": "MIDA Software Package",
 		"itemHash": 1331482397,
 		"itemName": "MIDA Multi-Tool",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -175815,7 +177254,7 @@
 		"name": "Khvostov Catalyst",
 		"itemHash": 4129629253,
 		"itemName": "Khvostov 7G-0X",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -177595,7 +179034,7 @@
 		"name": "Wavesplitter Catalyst",
 		"itemHash": 1852863732,
 		"itemName": "Wavesplitter",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -178421,7 +179860,7 @@
 		"name": "Looks Can Kill",
 		"itemHash": 3524313097,
 		"itemName": "Eriana's Vow",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -181190,6 +182629,152 @@
 		],
 		"definitions": []
 	},
+	"3223187793": {
+		"hash": 3223187793,
+		"name": "Subatomic Distortion",
+		"itemHash": 2197778303,
+		"itemName": "Fafnir",
+		"lastUpload": 1783668742660,
+		"type": "Weapon Trait Exotic",
+		"uploadedBy": "Hawkmoona",
+		"descriptions": [
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Hits with this weapon deal three additional damage instances after "
+					},
+					{
+						"type": "numeric",
+						"text": "0.75",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds, lacerating enemies for "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "1032",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "?",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " bonus damage."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Activating Quantum Nova triggers a "
+					},
+					{
+						"type": "numeric",
+						"text": "10",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meter radius detonation around you, applying a "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"void"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Strong Weaken ("
+					},
+					{
+						"type": "numeric",
+						"text": "30%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": ") for "
+					},
+					{
+						"type": "numeric",
+						"text": "5",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds and dealing "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "1420",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "?",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " damage."
+					}
+				]
+			}
+		],
+		"definitions": []
+	},
 	"3224649746": {
 		"hash": 3224649746,
 		"name": "Void Loader",
@@ -182806,7 +184391,7 @@
 	"3242533954": {
 		"hash": 3242533954,
 		"name": "Parasitism",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -184287,7 +185872,7 @@
 		"name": "The Last Word Catalyst",
 		"itemHash": 1364093401,
 		"itemName": "The Last Word",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -185471,7 +187056,7 @@
 		"name": "Defensive Grip",
 		"itemHash": 3049715579,
 		"itemName": "Praxic Blade",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Perk Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -191678,7 +193263,7 @@
 		"name": "Wish-Ender Catalyst",
 		"itemHash": 814876684,
 		"itemName": "Wish-Ender",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -196947,7 +198532,7 @@
 		"name": "Edge of Concurrence",
 		"itemHash": 542203595,
 		"itemName": "Edge of Concurrence",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -199656,7 +201241,7 @@
 		"name": "Timeless Mythoclast",
 		"itemHash": 4289226715,
 		"itemName": "Vex Mythoclast",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -199866,7 +201451,7 @@
 		"name": "Conditional Finality Catalyst",
 		"itemHash": 3371017761,
 		"itemName": "Conditional Finality",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -200734,7 +202319,7 @@
 		"name": "Deterministic Chaos Catalyst",
 		"itemHash": 449318888,
 		"itemName": "Deterministic Chaos",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -201967,7 +203552,7 @@
 		"name": "Twintails",
 		"itemHash": 2694576561,
 		"itemName": "Two-Tailed Fox",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -203280,7 +204865,7 @@
 		"name": "The Fate of All Fools",
 		"itemHash": 3844694310,
 		"itemName": "The Jade Rabbit",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -204889,7 +206474,7 @@
 		"name": "Euphony Catalyst",
 		"itemHash": 3284383335,
 		"itemName": "Euphony",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -205372,7 +206957,7 @@
 		"name": "Ace of Spades Catalyst",
 		"itemHash": 347366834,
 		"itemName": "Ace of Spades",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -208071,7 +209656,7 @@
 		"name": "Tarrabah Catalyst",
 		"itemHash": 3110698812,
 		"itemName": "Tarrabah",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -208860,7 +210445,7 @@
 		"name": "Split Decision",
 		"itemHash": 3371017761,
 		"itemName": "Conditional Finality",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -209836,7 +211421,7 @@
 		"name": "Black Talon Catalyst",
 		"itemHash": 3766045777,
 		"itemName": "Black Talon",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -211101,7 +212686,7 @@
 		"name": "Hunter's Trace",
 		"itemHash": 1473821207,
 		"itemName": "Revision Zero",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -213234,7 +214819,7 @@
 		"name": "Dornröschen",
 		"itemHash": 4036115577,
 		"itemName": "Sleeper Simulant",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -213269,7 +214854,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "390",
+								"text": "369",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -213315,7 +214900,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "90%",
+						"text": "95%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
@@ -217061,7 +218646,7 @@
 	"3938834702": {
 		"hash": 3938834702,
 		"name": "To the Pain",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Trait",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -219029,9 +220614,9 @@
 	"3978468247": {
 		"hash": 3978468247,
 		"name": "Discord",
-		"lastUpload": 1768945490209,
+		"lastUpload": 1783623797638,
 		"type": "Weapon Trait",
-		"uploadedBy": "Hawkmoona",
+		"uploadedBy": "Stardust",
 		"descriptions": [
 			{
 				"type": "line",
@@ -219069,13 +220654,13 @@
 				"content": [
 					{
 						"type": "numeric",
-						"text": "0.75x",
-						"isUnknown": false,
+						"text": "25%",
+						"isUnknown": true,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " ADS Animation Duration Multiplier"
+						"text": " decreased ADS Animation Duration"
 					}
 				]
 			},
@@ -227818,7 +229403,7 @@
 		"name": "Reign Havoc",
 		"itemHash": 3325463374,
 		"itemName": "Thunderlord",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -228524,6 +230109,106 @@
 					{
 						"type": "text",
 						"text": "."
+					}
+				]
+			}
+		],
+		"definitions": []
+	},
+	"4170056386": {
+		"hash": 4170056386,
+		"name": "Turncoat Catalyst",
+		"itemHash": 253843484,
+		"itemName": "Turncoat",
+		"lastUpload": 1783637436090,
+		"type": "Weapon Catalyst Exotic",
+		"uploadedBy": "Hawkmoona",
+		"descriptions": [
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Upon exiting Void Empowerment, gain a "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"void"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Void Overshield for "
+					},
+					{
+						"type": "numeric",
+						"text": "10",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds ("
+					},
+					{
+						"type": "numeric",
+						"text": "15",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " with Echo of Persistence)"
+					},
+					{
+						"type": "text",
+						"text": "."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "The amount of Void Overshield granted is determined by how long you were empowered. "
+					},
+					{
+						"type": "numeric",
+						"text": "3",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " HP is granted for for each second that Empowerment lasted, capping at "
+					},
+					{
+						"type": "numeric",
+						"text": "40",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " HP for "
+					},
+					{
+						"type": "numeric",
+						"text": "13",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds of Empowerment."
 					}
 				]
 			}
@@ -229296,7 +230981,7 @@
 		"name": "Cursebringer",
 		"itemHash": 1034055198,
 		"itemName": "Necrochasm",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -229305,7 +230990,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Weapon of Sorrow."
+						"text": "This is a Weapon of Sorrow."
 					}
 				]
 			},
@@ -234739,7 +236424,7 @@
 		"name": "Parasite Catalyst",
 		"itemHash": 2812324400,
 		"itemName": "Parasite",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -235285,7 +236970,7 @@
 		"name": "Bastion Catalyst",
 		"itemHash": 2415517654,
 		"itemName": "Bastion",
-		"lastUpload": 1783571958607,
+		"lastUpload": 1783637436090,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
