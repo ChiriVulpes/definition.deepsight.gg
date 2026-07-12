@@ -4684,7 +4684,7 @@
 		"name": "One Thousand Voices Catalyst",
 		"itemHash": 2069224589,
 		"itemName": "One Thousand Voices",
-		"lastUpload": 1783711450341,
+		"lastUpload": 1783844849219,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -15165,7 +15165,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "25%",
+						"text": "30%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
@@ -15175,7 +15175,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "27.5%",
+						"text": "33%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
@@ -51526,9 +51526,9 @@
 		"name": "Rapid Cooldown",
 		"itemHash": 609852545,
 		"itemName": "Fr0st-EE5",
-		"lastUpload": 1715800461024,
+		"lastUpload": 1783844849219,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -51678,6 +51678,62 @@
 				"isListItem": true
 			},
 			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "numeric",
+						"text": "1",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " stack of "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"stasis"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Frost Armor every "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "3",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "6",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " seconds"
+					}
+				]
+			},
+			{
 				"type": "spacer",
 				"classNames": [
 					"spacer"
@@ -51689,6 +51745,61 @@
 					{
 						"type": "text",
 						"text": "(Multiplicative Ability Regeneration Rate increase in PVE is applied after all additive Ability Regeneration Rate modifiers)"
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "For as long as "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"stasis"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Frost Armor is active, you are granted "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "x3",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "x1",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " Stasis Weapon Surge."
 					}
 				]
 			}
@@ -82985,7 +83096,7 @@
 	"1427256713": {
 		"hash": 1427256713,
 		"name": "Reservoir Burst",
-		"lastUpload": 1783446631691,
+		"lastUpload": 1783844849219,
 		"type": "Weapon Trait",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -96428,7 +96539,7 @@
 		"name": "Illegally Modded Holster",
 		"itemHash": 193869522,
 		"itemName": "Lucky Pants",
-		"lastUpload": 1775584357698,
+		"lastUpload": 1783844849219,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -96652,9 +96763,19 @@
 					},
 					{
 						"type": "numeric",
-						"text": "450%.",
+						"text": "450%. Boss-Tier Enemies take ",
 						"isUnknown": true,
 						"isEstimate": false
+					},
+					{
+						"type": "numeric",
+						"text": "33%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " decreased damage from Lucky Pants shots."
 					}
 				]
 			},
@@ -96670,11 +96791,11 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Eriana's Vow"
+						"text": "Uncivil Discourse"
 					},
 					{
 						"type": "text",
-						"text": " only receives "
+						"text": " only recieves "
 					},
 					{
 						"type": "numeric",
@@ -96684,21 +96805,7 @@
 					},
 					{
 						"type": "text",
-						"text": " increased damage per Stack ("
-					},
-					{
-						"type": "numeric",
-						"text": "300%",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": ")"
-					},
-					{
-						"type": "text",
-						"text": "."
+						"text": " increased damage per stack."
 					}
 				]
 			},
@@ -98694,11 +98801,11 @@
 	"1731450287": {
 		"hash": 1731450287,
 		"name": "Clenched Fist",
-		"itemHash": 2240152949,
+		"itemHash": 512777670,
 		"itemName": "Stronghold",
-		"lastUpload": 1729681695599,
+		"lastUpload": 1783844849219,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -98820,8 +98927,14 @@
 				"isListItem": true,
 				"content": [
 					{
+						"type": "icon",
+						"classNames": [
+							"heavy"
+						]
+					},
+					{
 						"type": "text",
-						"text": "Sword Energy does not decay from holding guard"
+						"text": "Heavy Ammo Sword Energy does not decay from holding guard"
 					}
 				]
 			},
@@ -159237,9 +159350,9 @@
 		"name": "Rites of Ember",
 		"itemHash": 2316914168,
 		"itemName": "Dawn Chorus",
-		"lastUpload": 1766530840776,
+		"lastUpload": 1783844849219,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -159252,67 +159365,27 @@
 					},
 					{
 						"type": "text",
-						"text": "Daybreak Projectiles deal "
+						"text": "Daybreak Projectiles trigger a "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Solar Ignition on hit. Ignitions from any source deal "
 					},
 					{
 						"type": "numeric",
-						"text": "79%",
+						"text": "100%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " increased damage and apply "
-					},
-					{
-						"type": "numeric",
-						"text": "75",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " "
-					},
-					{
-						"type": "icon",
-						"classNames": [
-							"solar"
-						]
-					},
-					{
-						"type": "text",
-						"text": "Scorch on hit ("
-					},
-					{
-						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " with "
-					},
-					{
-						"type": "icon",
-						"classNames": [
-							"solar"
-						]
-					},
-					{
-						"type": "text",
-						"text": "Ember of Ashes), allowing them to (inconsistently) trigger "
-					},
-					{
-						"type": "icon",
-						"classNames": [
-							"solar"
-						]
-					},
-					{
-						"type": "text",
-						"text": "Solar Ignitions on every hit."
+						"text": " increased damage."
 					}
 				]
 			},
@@ -159327,7 +159400,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "(Daybreak Projectiles can often hit twice for double damage and double "
+						"text": "Each enemy damaged by an "
 					},
 					{
 						"type": "icon",
@@ -159337,19 +159410,18 @@
 					},
 					{
 						"type": "text",
-						"text": "Scorch)"
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "line",
-				"content": [
+						"text": "Ignition grants "
+					},
+					{
+						"type": "numeric",
+						"text": "40%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Melee Ability Energy. "
+					},
 					{
 						"type": "icon",
 						"classNames": [
@@ -159358,37 +159430,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Scorch (from all sources) deals "
-					},
-					{
-						"type": "pve",
-						"content": [
-							{
-								"type": "numeric",
-								"text": "200%",
-								"isUnknown": true,
-								"isEstimate": false
-							}
-						]
-					},
-					{
-						"type": "text",
-						"text": " "
-					},
-					{
-						"type": "pvp",
-						"content": [
-							{
-								"type": "numeric",
-								"text": "50%",
-								"isUnknown": true,
-								"isEstimate": false
-							}
-						]
-					},
-					{
-						"type": "text",
-						"text": " increased damage and each Damage Tick grants "
+						"text": "Scorched enemies grant "
 					},
 					{
 						"type": "numeric",
@@ -159398,7 +159440,49 @@
 					},
 					{
 						"type": "text",
-						"text": " Melee Ability Energy. (Damage increase does not apply to caused "
+						"text": " Melee Ability Energy per tick."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Solar Fulmination"
+					},
+					{
+						"type": "text",
+						"text": " from the "
+					},
+					{
+						"type": "text",
+						"text": "Hunter's Journal Artifact"
+					},
+					{
+						"type": "text",
+						"text": " doubles the Melee Ability Energy gained, and has its own damage doubled as well."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Does not increase "
 					},
 					{
 						"type": "icon",
@@ -159408,7 +159492,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Ignitions)"
+						"text": "Scorch tick damage."
 					}
 				]
 			},
@@ -183950,9 +184034,9 @@
 		"name": "Mecha Holster",
 		"itemHash": 53126580,
 		"itemName": "Peacekeepers",
-		"lastUpload": 1766530840776,
+		"lastUpload": 1783844849219,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -184175,21 +184259,10 @@
 					},
 					{
 						"type": "numeric",
-						"text": "100%.",
+						"text": "100%. ",
 						"isUnknown": true,
 						"isEstimate": false
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "line",
-				"content": [
+					},
 					{
 						"type": "text",
 						"text": "Tarrabah"
@@ -184207,6 +184280,31 @@
 					{
 						"type": "text",
 						"text": " increase per stack."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Boss-Tier Enemies take "
+					},
+					{
+						"type": "numeric",
+						"text": "33%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " decreased damage from Peacekeeper-buffed shots."
 					}
 				]
 			}
@@ -208403,26 +208501,428 @@
 		"name": "Burning Souls",
 		"itemHash": 3562696927,
 		"itemName": "Wormhusk Crown",
-		"lastUpload": 1739032704660,
+		"lastUpload": 1783844849219,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
 				"content": [
 					{
 						"type": "text",
-						"text": "Class Ability usage restores "
+						"text": "Casting your Class Ability grants "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Cure "
 					},
 					{
 						"type": "numeric",
-						"text": "67",
+						"text": "x2.",
+						"isUnknown": true,
+						"isEstimate": false
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Upon scoring multiple "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Solar kills within "
+					},
+					{
+						"type": "numeric",
+						"text": "3",
 						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " HP."
+						"text": " seconds of each, grants one stack of 'Burning Souls' for "
+					},
+					{
+						"type": "numeric",
+						"text": "10",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds. Maximum of "
+					},
+					{
+						"type": "numeric",
+						"text": "3",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " stacks."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"isLabel": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "Progress is granted based on "
+					},
+					{
+						"type": "text",
+						"text": "Enemy Rank"
+					},
+					{
+						"type": "text",
+						"text": ":"
+					}
+				]
+			},
+			{
+				"type": "labelledLine",
+				"label": [
+					{
+						"type": "text",
+						"text": "Minor Enemies"
+					},
+					{
+						"type": "text",
+						"text": ": "
+					}
+				],
+				"value": [
+					{
+						"type": "numeric",
+						"text": "34%",
+						"isUnknown": true,
+						"isEstimate": false
+					}
+				]
+			},
+			{
+				"type": "labelledLine",
+				"label": [
+					{
+						"type": "text",
+						"text": "Elites, Players, and higher"
+					},
+					{
+						"type": "text",
+						"text": ": "
+					}
+				],
+				"value": [
+					{
+						"type": "numeric",
+						"text": "50%",
+						"isUnknown": true,
+						"isEstimate": false
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"isLabel": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "Burning Souls grants the following benefits while active:"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "numeric",
+						"text": "15%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Increased "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Solar Ability Damage"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "Class Ability Healing is enhanced and granted to allies within "
+					},
+					{
+						"type": "numeric",
+						"text": "15",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meters of cast."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"isLabel": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "Healing granted at "
+					},
+					{
+						"type": "numeric",
+						"text": "1",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "2",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "3",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " stacks of Burning Souls:"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Cure "
+					},
+					{
+						"type": "numeric",
+						"text": "x3",
+						"isUnknown": true,
+						"isEstimate": false
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Cure "
+					},
+					{
+						"type": "numeric",
+						"text": "x1",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " + "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Restoration "
+					},
+					{
+						"type": "numeric",
+						"text": "x1",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " for "
+					},
+					{
+						"type": "numeric",
+						"text": "3",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Cure "
+					},
+					{
+						"type": "numeric",
+						"text": "x2",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " + "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Restoration "
+					},
+					{
+						"type": "numeric",
+						"text": "x1",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " for "
+					},
+					{
+						"type": "numeric",
+						"text": "5",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds"
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Restoration duration is increased by "
+					},
+					{
+						"type": "numeric",
+						"text": "50%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " with "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Ember of Solace."
 					}
 				]
 			}
@@ -228119,9 +228619,9 @@
 		"name": "Acrobat's Focus",
 		"itemHash": 192896783,
 		"itemName": "Cyrtarachne's Facade",
-		"lastUpload": 1766530840776,
+		"lastUpload": 1783844849219,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -228162,7 +228662,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "10",
+						"text": "7",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -228197,7 +228697,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "10",
+						"text": "17",
 						"isUnknown": false,
 						"isEstimate": false
 					},
