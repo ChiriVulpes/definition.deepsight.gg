@@ -176,7 +176,7 @@
 		"name": "Chaotic Exchanger",
 		"itemHash": 1906093346,
 		"itemName": "Contraverse Hold",
-		"lastUpload": 1768768955912,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -414,7 +414,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "3000%",
+								"text": "2500%",
 								"isUnknown": true,
 								"isEstimate": false
 							}
@@ -3762,7 +3762,7 @@
 	"74393640": {
 		"hash": 74393640,
 		"name": "Facet of Defiance",
-		"lastUpload": 1768192546229,
+		"lastUpload": 1783935545841,
 		"type": "Subclass Fragment",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -3864,8 +3864,8 @@
 				"value": [
 					{
 						"type": "numeric",
-						"text": "40",
-						"isUnknown": false,
+						"text": "x40",
+						"isUnknown": true,
 						"isEstimate": false
 					},
 					{
@@ -3880,7 +3880,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Scorch Stacks"
+						"text": "Scorch"
 					}
 				],
 				"isListItem": true
@@ -3938,7 +3938,7 @@
 				"value": [
 					{
 						"type": "numeric",
-						"text": "?",
+						"text": "x?",
 						"isUnknown": true,
 						"isEstimate": false
 					},
@@ -3954,7 +3954,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Slow Stacks for "
+						"text": "Slow for "
 					},
 					{
 						"type": "numeric",
@@ -3996,7 +3996,17 @@
 					},
 					{
 						"type": "text",
-						"text": "Sever"
+						"text": "Sever for "
+					},
+					{
+						"type": "numeric",
+						"text": "?",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds"
 					}
 				],
 				"isListItem": true
@@ -4684,7 +4694,7 @@
 		"name": "One Thousand Voices Catalyst",
 		"itemHash": 2069224589,
 		"itemName": "One Thousand Voices",
-		"lastUpload": 1783844849219,
+		"lastUpload": 1783935545841,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -8130,9 +8140,9 @@
 	"124726503": {
 		"hash": 124726503,
 		"name": "Facet of Bravery",
-		"lastUpload": 1738975855601,
+		"lastUpload": 1783935545841,
 		"type": "Subclass Fragment",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -8162,10 +8172,30 @@
 						"text": "Void Weapons for "
 					},
 					{
-						"type": "numeric",
-						"text": "11",
-						"isUnknown": false,
-						"isEstimate": false
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "11",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "7.5",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
 					},
 					{
 						"type": "text",
@@ -8184,7 +8214,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Powered Melee Kills (and Melee Kills with "
+						"text": "Powered Melee Kills (including "
 					},
 					{
 						"type": "icon",
@@ -8194,7 +8224,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Knockout active) grant "
+						"text": "Knockout) grant "
 					},
 					{
 						"type": "icon",
@@ -8224,32 +8254,22 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "labelledLine",
-				"label": [
+						"text": " "
+					},
 					{
-						"type": "text",
-						"text": "Clarity tooltip editor's note"
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "7.5",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
 					},
 					{
 						"type": "text",
-						"text": ": "
-					}
-				],
-				"value": [
-					{
-						"type": "text",
-						"text": "We're replacing the previous Powered Melee term with Elemental Melee. The former is now exclusively used for perks that require the consumption of a Melee Ability Charge. This note is temporary and will be removed in the future."
+						"text": " seconds."
 					}
 				]
 			}
@@ -10400,9 +10420,9 @@
 		"name": "Glacial Guard",
 		"itemHash": 1467044898,
 		"itemName": "Icefall Mantle",
-		"lastUpload": 1731793916910,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -10419,7 +10439,17 @@
 					},
 					{
 						"type": "text",
-						"text": "Stasis Super Ability to be equipped."
+						"text": "Stasis Super Ability to be equipped. Overwrites Barricade Cooldown to Pre-EoF values, resulting in ~"
+					},
+					{
+						"type": "numeric",
+						"text": "1.45x",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " faster Base Class Ability Regeneration."
 					}
 				]
 			},
@@ -13654,9 +13684,9 @@
 		"name": "Peregrine Strike",
 		"itemHash": 2255796155,
 		"itemName": "Peregrine Greaves",
-		"lastUpload": 1766530840776,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -13727,7 +13757,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "400%.",
+						"text": "250%.",
 						"isUnknown": true,
 						"isEstimate": false
 					}
@@ -13756,7 +13786,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "1000%",
+						"text": "550%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
@@ -19826,9 +19856,9 @@
 	"362132295": {
 		"hash": 362132295,
 		"name": "Ember of Beams",
-		"lastUpload": 1723480728683,
+		"lastUpload": 1783935545841,
 		"type": "Subclass Fragment",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -19890,11 +19920,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Song of Flame?"
-					},
-					{
-						"type": "text",
-						"text": " projectiles."
+						"text": "Song of Flame projectiles."
 					}
 				]
 			}
@@ -22853,9 +22879,9 @@
 		"name": "Scatter Charge",
 		"itemHash": 300502917,
 		"itemName": "Nothing Manacles",
-		"lastUpload": 1767472203079,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -22911,13 +22937,13 @@
 					},
 					{
 						"type": "numeric",
-						"text": "4",
+						"text": "3",
 						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " additional scatter submunitions with no cooldown."
+						"text": " additional scatter submunitions. Submunition kills cannot chain."
 					}
 				]
 			},
@@ -32558,9 +32584,9 @@
 		"name": "Force Multiplier",
 		"itemHash": 730200061,
 		"itemName": "No Backup Plans",
-		"lastUpload": 1766530840776,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -32599,40 +32625,20 @@
 			},
 			{
 				"type": "line",
-				"isLabel": true,
 				"content": [
 					{
 						"type": "text",
-						"text": "While a "
-					},
-					{
-						"type": "icon",
-						"classNames": [
-							"void"
-						]
-					},
-					{
-						"type": "text",
-						"text": "Void Super Ability is equipped:"
-					}
-				]
-			},
-			{
-				"type": "line",
-				"content": [
-					{
-						"type": "text",
-						"text": "Scoring "
+						"text": "Scoring Shotgun or Melee Kills begins Health Regeneration after reaching "
 					},
 					{
 						"type": "numeric",
-						"text": "2",
-						"isUnknown": false,
+						"text": "100%",
+						"isUnknown": true,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " Shotgun Kills on "
+						"text": " Progress. "
 					},
 					{
 						"type": "text",
@@ -32640,27 +32646,23 @@
 					},
 					{
 						"type": "text",
-						"text": " or "
+						"text": " grant "
 					},
 					{
 						"type": "numeric",
-						"text": "1",
-						"isUnknown": false,
+						"text": "34%",
+						"isUnknown": true,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " Shotgun Kill on other targets grants a "
+						"text": " progress, while Elites and Guardians grant "
 					},
 					{
-						"type": "icon",
-						"classNames": [
-							"void"
-						]
-					},
-					{
-						"type": "text",
-						"text": "Void Overshield and starts health regeneration."
+						"type": "numeric",
+						"text": "50%.",
+						"isUnknown": true,
+						"isEstimate": false
 					}
 				]
 			},
@@ -32686,7 +32688,47 @@
 					},
 					{
 						"type": "text",
-						"text": "Void Overshield is active:"
+						"text": "Void Overshield, "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"arc"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Amplified, "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Restoration, "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"stasis"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Frost Armor, or "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"strand"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Woven Mail is active:"
 					}
 				]
 			},
@@ -32744,7 +32786,67 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Shotgun Kills refresh "
+						"text": "Melees are granted "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "30%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "?%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " increased damage"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "Shotgun or Melee kills extend the duration of any the above effects by "
+					},
+					{
+						"type": "numeric",
+						"text": "5",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds, up to their respective maximum."
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "If a "
 					},
 					{
 						"type": "icon",
@@ -32754,7 +32856,17 @@
 					},
 					{
 						"type": "text",
-						"text": "Void Overshield duration"
+						"text": "Void Overshield is active, it also recieves "
+					},
+					{
+						"type": "numeric",
+						"text": "15",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " HP."
 					}
 				]
 			}
@@ -33309,7 +33421,7 @@
 		"name": "Praxic Lift",
 		"itemHash": 4184605701,
 		"itemName": "Praxic Vestment",
-		"lastUpload": 1767665829609,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -33336,7 +33448,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "15%",
+						"text": "20%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
@@ -33356,7 +33468,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "35%",
+						"text": "50%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
@@ -33534,7 +33646,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "336",
+								"text": "1509",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -33587,7 +33699,17 @@
 					},
 					{
 						"type": "text",
-						"text": " meter radius, and grants "
+						"text": " meter radius for "
+					},
+					{
+						"type": "numeric",
+						"text": "10",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds, and grants "
 					},
 					{
 						"type": "numeric",
@@ -34084,7 +34206,7 @@
 		"name": "Synapse Junctions",
 		"itemHash": 368733543,
 		"itemName": "Raiden Flux",
-		"lastUpload": 1767665829609,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -34124,6 +34246,37 @@
 					{
 						"type": "text",
 						"text": " Stacks."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "icon",
+						"classNames": [
+							"arc"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Arc Staff hits now apply "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"arc"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Jolt."
 					}
 				]
 			},
@@ -34260,6 +34413,37 @@
 					}
 				],
 				"isListItem": true
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "icon",
+						"classNames": [
+							"arc"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Arc Staff's Heavy Palm Blast (Light->Light->Heavy) recieves "
+					},
+					{
+						"type": "numeric",
+						"text": "150%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " of the above damage bonuses."
+					}
+				]
 			}
 		],
 		"definitions": []
@@ -40187,9 +40371,9 @@
 		"name": "Light Shift",
 		"itemHash": 508515818,
 		"itemName": "Mask of Bakris",
-		"lastUpload": 1767472203079,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -40216,11 +40400,11 @@
 					},
 					{
 						"type": "text",
-						"text": "Arc Super equipped. ("
+						"text": "Arc Super equipped ("
 					},
 					{
 						"type": "text",
-						"text": "Does not work"
+						"text": "does not work"
 					},
 					{
 						"type": "text",
@@ -40234,7 +40418,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Acrobat's Dodge)"
+						"text": "Acrobat's Dodge), and overrides base cooldown to that of Marksman's Dodge."
 					}
 				]
 			},
@@ -40249,7 +40433,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Shift effectively acts as a fast horizontal teleport and has a travel distance of "
+						"text": "Shift effectively acts as a fast horizontal teleport with a travel distance of "
 					},
 					{
 						"type": "numeric",
@@ -40443,7 +40627,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Light Shift's buffs stack with all other buff sources."
+						"text": "Light Shift's buff stacks with all other buff sources."
 					}
 				]
 			},
@@ -40462,7 +40646,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "50?%",
+						"text": "60%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
@@ -46811,16 +46995,16 @@
 		"name": "Seriously, Watch Out",
 		"itemHash": 136355432,
 		"itemName": "Mk. 44 Stand Asides",
-		"lastUpload": 1766530840776,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
 				"content": [
 					{
 						"type": "text",
-						"text": "Grants a stack of "
+						"text": "Grants one stack of "
 					},
 					{
 						"type": "icon",
@@ -46900,19 +47084,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "... who the hell came up with this rework?"
-					},
-					{
-						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
-						"isEstimate": false
+						"text": "...We have no idea what they were cooking with this rework, but it's here to stay I guess."
 					}
 				]
 			}
@@ -48762,7 +48934,7 @@
 		"name": "Tight Fit",
 		"itemHash": 1793346751,
 		"itemName": "Speedloader Slacks",
-		"lastUpload": 1767720923295,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -48775,9 +48947,9 @@
 					},
 					{
 						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
-						"isEstimate": false
+						"text": "3",
+						"isUnknown": false,
+						"isEstimate": true
 					},
 					{
 						"type": "text",
@@ -48926,7 +49098,7 @@
 				"label": [
 					{
 						"type": "text",
-						"text": "Swords"
+						"text": "Swords, Shotguns"
 					},
 					{
 						"type": "text",
@@ -48948,7 +49120,7 @@
 				"label": [
 					{
 						"type": "text",
-						"text": "Bows, Glaives, Grenade Launchers, Shotguns, Sniper Rifles"
+						"text": "Fusion Rifles, Bows, Glaives, Grenade Launchers, Sniper Rifles"
 					},
 					{
 						"type": "text",
@@ -48964,6 +49136,35 @@
 					}
 				],
 				"isListItem": true
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "labelledLine",
+				"label": [
+					{
+						"type": "text",
+						"text": "There is no cooldown on hits or activation procs (Hint"
+					},
+					{
+						"type": "text",
+						"text": ": "
+					}
+				],
+				"value": [
+					{
+						"type": "text",
+						"text": "Use DoT Weapons)"
+					},
+					{
+						"type": "text",
+						"text": "."
+					}
+				]
 			},
 			{
 				"type": "spacer",
@@ -51526,7 +51727,7 @@
 		"name": "Rapid Cooldown",
 		"itemHash": 609852545,
 		"itemName": "Fr0st-EE5",
-		"lastUpload": 1783844849219,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -51574,108 +51775,6 @@
 						"text": "Sprinting grants the following benefits:"
 					}
 				]
-			},
-			{
-				"type": "line",
-				"isListItem": true,
-				"content": [
-					{
-						"type": "pve",
-						"content": [
-							{
-								"type": "numeric",
-								"text": "100%",
-								"isUnknown": true,
-								"isEstimate": false
-							}
-						]
-					},
-					{
-						"type": "text",
-						"text": " "
-					},
-					{
-						"type": "pvp",
-						"content": [
-							{
-								"type": "numeric",
-								"text": "200%",
-								"isUnknown": true,
-								"isEstimate": false
-							}
-						]
-					},
-					{
-						"type": "text",
-						"text": " Additional Base Class Ability Regeneration Rate"
-					}
-				]
-			},
-			{
-				"type": "labelledLine",
-				"label": [
-					{
-						"type": "pve",
-						"content": [
-							{
-								"type": "text",
-								"text": "PVE"
-							}
-						]
-					},
-					{
-						"type": "text",
-						"text": ": "
-					}
-				],
-				"value": [
-					{
-						"type": "pve",
-						"content": [
-							{
-								"type": "text",
-								"text": "Grenade and Melee Ability Regeneration Rate is doubled"
-							}
-						]
-					}
-				],
-				"isListItem": true
-			},
-			{
-				"type": "labelledLine",
-				"label": [
-					{
-						"type": "pvp",
-						"content": [
-							{
-								"type": "text",
-								"text": "PVP"
-							}
-						]
-					},
-					{
-						"type": "text",
-						"text": ": "
-					}
-				],
-				"value": [
-					{
-						"type": "pvp",
-						"content": [
-							{
-								"type": "numeric",
-								"text": "100%",
-								"isUnknown": true,
-								"isEstimate": false
-							},
-							{
-								"type": "text",
-								"text": " Additional Base Grenade and Melee Regeneration Rate"
-							}
-						]
-					}
-				],
-				"isListItem": true
 			},
 			{
 				"type": "line",
@@ -51734,17 +51833,76 @@
 				]
 			},
 			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "100%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "200%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " Additional Base Class Ability Regeneration Rate"
+					}
 				]
 			},
 			{
 				"type": "line",
+				"isListItem": true,
 				"content": [
 					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "text",
+								"text": "Doubled"
+							}
+						]
+					},
+					{
 						"type": "text",
-						"text": "(Multiplicative Ability Regeneration Rate increase in PVE is applied after all additive Ability Regeneration Rate modifiers)"
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "100%",
+								"isUnknown": true,
+								"isEstimate": false
+							},
+							{
+								"type": "text",
+								"text": " Additional"
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " Grenade and Melee Ability Regeneration Rate"
 					}
 				]
 			},
@@ -51800,6 +51958,21 @@
 					{
 						"type": "text",
 						"text": " Stasis Weapon Surge."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Multiplicative Ability Regeneration Rate increase in PVE is applied after all additive Ability Regeneration Rate modifiers."
 					}
 				]
 			}
@@ -52565,7 +52738,7 @@
 		"name": "Puppeteer's Control",
 		"itemHash": 3637722482,
 		"itemName": "Abeyant Leap",
-		"lastUpload": 1775584357698,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -52655,7 +52828,7 @@
 					},
 					{
 						"type": "text",
-						"text": " additional Lashes. Lashes gain stronger seeking capabilities and travel "
+						"text": " additional Lashes. Lashes gain stronger seeking capabilities, travel "
 					},
 					{
 						"type": "numeric",
@@ -52675,22 +52848,7 @@
 					},
 					{
 						"type": "text",
-						"text": " meters) farther."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "line",
-				"content": [
-					{
-						"type": "text",
-						"text": "Increases base "
+						"text": " meters) farther, and "
 					},
 					{
 						"type": "icon",
@@ -52700,17 +52858,31 @@
 					},
 					{
 						"type": "text",
-						"text": "Suspension duration by "
+						"text": "Suspend for "
 					},
 					{
 						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
+						"text": "3",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " seconds."
+						"text": " seconds longer ("
+					},
+					{
+						"type": "numeric",
+						"text": "2",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds for Minibosses)"
+					},
+					{
+						"type": "text",
+						"text": "."
 					}
 				]
 			},
@@ -68648,9 +68820,9 @@
 		"name": "Fury Conductors",
 		"itemHash": 2563444729,
 		"itemName": "ACD/0 Feedback Fence",
-		"lastUpload": 1709252348445,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -68682,7 +68854,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Having active Armor Charges grants Melee Damage Resistance. Receiving a Melee Attack consumes all Armor Charges and emits a "
+						"text": "Having active Armor Charges grants Melee Damage Resistance against Combatants. Receiving a Melee Attack consumes all Armor Charges and emits a "
 					},
 					{
 						"type": "icon",
@@ -68839,7 +69011,7 @@
 				"label": [
 					{
 						"type": "text",
-						"text": "Melee Damage Resistance"
+						"text": "Melee Damage Resistance against Combatants"
 					},
 					{
 						"type": "text",
@@ -79128,110 +79300,16 @@
 		"name": "Starless Night",
 		"itemHash": 106575079,
 		"itemName": "Helm of Saint-14",
-		"lastUpload": 1748244523030,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
 				"content": [
 					{
 						"type": "text",
-						"text": "Guarding with Sentinel Shield disorients enemies within "
-					},
-					{
-						"type": "pve",
-						"content": [
-							{
-								"type": "numeric",
-								"text": "7",
-								"isUnknown": false,
-								"isEstimate": false
-							}
-						]
-					},
-					{
-						"type": "text",
-						"text": " "
-					},
-					{
-						"type": "pvp",
-						"content": [
-							{
-								"type": "numeric",
-								"text": "3.5",
-								"isUnknown": false,
-								"isEstimate": false
-							}
-						]
-					},
-					{
-						"type": "text",
-						"text": " meters for "
-					},
-					{
-						"type": "numeric",
-						"text": "5",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " seconds."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "line",
-				"content": [
-					{
-						"type": "text",
-						"text": "You and allies inside your Ward of Dawn receive 'Armor of Light' and 'Weapons of Light'"
-					},
-					{
-						"type": "text",
-						"text": ". Enemies that enter your Ward of Dawn are disoriented for "
-					},
-					{
-						"type": "numeric",
-						"text": "5",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " seconds."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "line",
-				"content": [
-					{
-						"type": "text",
-						"text": "'Armor of Light' grants a "
-					},
-					{
-						"type": "numeric",
-						"text": "45",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " HP "
+						"text": "Weapons of Light from "
 					},
 					{
 						"type": "icon",
@@ -79241,7 +79319,77 @@
 					},
 					{
 						"type": "text",
-						"text": "Void Overshield for "
+						"text": "Ward of Dawn can now persist outside the bubble for "
+					},
+					{
+						"type": "numeric",
+						"text": "15",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"isLabel": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "While Weapons of Light is active:"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "Gain stacks of 'The Saint' by dealing damage or scoring kills against enemies. Stacks granted by kill are based off "
+					},
+					{
+						"type": "text",
+						"text": "Enemy Rank"
+					},
+					{
+						"type": "text",
+						"text": ", with Minor Tier enemies granting "
+					},
+					{
+						"type": "numeric",
+						"text": "1",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": ", Elite Tier enemies granting "
+					},
+					{
+						"type": "numeric",
+						"text": "2",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": ", and Miniboss+ enemies granting "
+					},
+					{
+						"type": "numeric",
+						"text": "3. Stacks granted on hit are granted after dealing ",
+						"isUnknown": false,
+						"isEstimate": false
 					},
 					{
 						"type": "numeric",
@@ -79251,7 +79399,26 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds upon leaving the "
+						"text": " damage."
+					}
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Maximum of "
+					},
+					{
+						"type": "numeric",
+						"text": "14",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " stacks. Stack duration is equal to the remaining duration of your currently active "
 					},
 					{
 						"type": "icon",
@@ -79273,28 +79440,11 @@
 			},
 			{
 				"type": "line",
+				"isListItem": true,
 				"content": [
 					{
 						"type": "text",
-						"text": "'Weapons of Light' grants "
-					},
-					{
-						"type": "numeric",
-						"text": "25%",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " increased weapon damage ("
-					},
-					{
-						"type": "text",
-						"text": "Empowering Buff"
-					},
-					{
-						"type": "text",
-						"text": ") for "
+						"text": "Kills or dealing "
 					},
 					{
 						"type": "numeric",
@@ -79304,7 +79454,132 @@
 					},
 					{
 						"type": "text",
+						"text": " damage with a "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"kinetic"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Kinetic or "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"void"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Void element triggers a "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"void"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Suppressing Blast in a "
+					},
+					{
+						"type": "numeric",
+						"text": "6",
+						"isUnknown": false,
+						"isEstimate": true
+					},
+					{
+						"type": "text",
+						"text": " meter radius around the target, applying "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"void"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Suppression for "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "6",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "?",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
 						"text": " seconds."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Picking up your "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"void"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Ward of Dawn consumes all stacks of The Saint and extends its active timer by "
+					},
+					{
+						"type": "numeric",
+						"text": "?",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds per stack consumed. Stacks can no longer be earned or consumed once the "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"void"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Ward of Dawn has been relocated two times."
 					}
 				]
 			}
@@ -79413,66 +79688,66 @@
 		"name": "Devouring Rift",
 		"itemHash": 511888814,
 		"itemName": "Secant Filaments",
-		"lastUpload": 1766530840776,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
 				"content": [
 					{
 						"type": "text",
-						"text": "Empowering Rifts you cast grant "
+						"text": "Casting your Empowering Rift with a "
 					},
 					{
 						"type": "icon",
 						"classNames": [
-							"overload"
+							"void"
 						]
 					},
 					{
 						"type": "text",
-						"text": "Overload Shot to you and allies inside it, allowing weapons to cause "
+						"text": "Void Super equipped grants "
 					},
 					{
 						"type": "icon",
 						"classNames": [
-							"overload"
+							"void"
 						]
 					},
 					{
 						"type": "text",
-						"text": "Disruption on hit."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "line",
-				"content": [
+						"text": "Devour for "
+					},
+					{
+						"type": "numeric",
+						"text": "11",
+						"isUnknown": false,
+						"isEstimate": false
+					},
 					{
 						"type": "text",
-						"text": "Weapons with a Breaker Type (either intrinsic or from Artifact Perks) will not benefit from this."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "line",
-				"content": [
+						"text": " seconds ("
+					},
+					{
+						"type": "numeric",
+						"text": "17",
+						"isUnknown": false,
+						"isEstimate": false
+					},
 					{
 						"type": "text",
-						"text": "Kills with "
+						"text": " seconds with "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"void"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Echo of Persistence), and kills with "
 					},
 					{
 						"type": "icon",
@@ -79492,15 +79767,7 @@
 					},
 					{
 						"type": "text",
-						"text": " Class Ability energy. Ability energy gained may be significantly decreased based on your selected ability's Chunk Energy Scalar. Learn more about this mechanic in "
-					},
-					{
-						"type": "text",
-						"text": "our explainer blog post on the Clarity website"
-					},
-					{
-						"type": "text",
-						"text": "."
+						"text": " Class Ability energy."
 					}
 				]
 			},
@@ -79516,17 +79783,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Empowering Rifts cast by you with a "
-					},
-					{
-						"type": "icon",
-						"classNames": [
-							"void"
-						]
-					},
-					{
-						"type": "text",
-						"text": "Void Super equipped have additional behaviors:"
+						"text": "Empowering Rifts cast by you have additional behaviors:"
 					}
 				]
 			},
@@ -79556,7 +79813,17 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds (unaffected by "
+						"text": " seconds ("
+					},
+					{
+						"type": "numeric",
+						"text": "17",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds with "
 					},
 					{
 						"type": "icon",
@@ -79576,7 +79843,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Exiting and re-entering the Rift sets the duration of "
+						"text": "Exiting and re-entering the Rift refreshes the duration of "
 					},
 					{
 						"type": "icon",
@@ -79586,17 +79853,52 @@
 					},
 					{
 						"type": "text",
-						"text": "Devour to "
+						"text": "Devour without needing a kill."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"isLabel": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "Legacy (Non-Functional) Perk:"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Empowering Rifts you cast grant "
 					},
 					{
-						"type": "numeric",
-						"text": "11",
-						"isUnknown": false,
-						"isEstimate": false
+						"type": "icon",
+						"classNames": [
+							"overload"
+						]
 					},
 					{
 						"type": "text",
-						"text": " seconds (even if you had a longer duration)"
+						"text": "Overload Shot to you and allies. Previously, this allowed non-intrinsic weapons to gain "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"overload"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Disruption, with the exception that it could not overwrite pre-existing intrinsics."
 					}
 				]
 			},
@@ -79611,59 +79913,15 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Kills can refresh the duration of "
-					},
-					{
-						"type": "icon",
-						"classNames": [
-							"void"
-						]
+						"text": "However, now that "
 					},
 					{
 						"type": "text",
-						"text": "Devour granted by "
+						"text": "all"
 					},
 					{
 						"type": "text",
-						"text": "Secant Filaments"
-					},
-					{
-						"type": "text",
-						"text": " up to "
-					},
-					{
-						"type": "numeric",
-						"text": "11",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " seconds ("
-					},
-					{
-						"type": "numeric",
-						"text": "22",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " with "
-					},
-					{
-						"type": "icon",
-						"classNames": [
-							"void"
-						]
-					},
-					{
-						"type": "text",
-						"text": "Echo of Persistence)"
-					},
-					{
-						"type": "text",
-						"text": "."
+						"text": " weapons have an intrinsic Breaker-type, Secants can no longer overwrite any of them. This breaks the UI in your weapons tray and leaves this portion of the exotic non-functional."
 					}
 				]
 			}
@@ -80825,7 +81083,7 @@
 		"name": "Ionic Conductor",
 		"itemHash": 1849149215,
 		"itemName": "Fallen Sunstar",
-		"lastUpload": 1767665829609,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -80850,7 +81108,7 @@
 					},
 					{
 						"type": "text",
-						"text": " faster and grant doubled Ability Energy."
+						"text": " faster and grant increased Ability Energy."
 					}
 				]
 			},
@@ -83096,7 +83354,7 @@
 	"1427256713": {
 		"hash": 1427256713,
 		"name": "Reservoir Burst",
-		"lastUpload": 1783844849219,
+		"lastUpload": 1783935545841,
 		"type": "Weapon Trait",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -84450,45 +84708,10 @@
 		"name": "Sharp Edges",
 		"itemHash": 691578979,
 		"itemName": "Shards of Galanor",
-		"lastUpload": 1715800461024,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
-			{
-				"type": "line",
-				"content": [
-					{
-						"type": "icon",
-						"classNames": [
-							"solar"
-						]
-					},
-					{
-						"type": "text",
-						"text": "Blade Barrage Hits and Kills refund Super Energy depending on "
-					},
-					{
-						"type": "text",
-						"text": "Enemy Rank"
-					},
-					{
-						"type": "text",
-						"text": " up the the maximum of "
-					},
-					{
-						"type": "numeric",
-						"text": "50%.",
-						"isUnknown": true,
-						"isEstimate": false
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
 			{
 				"type": "line",
 				"content": [
@@ -84510,7 +84733,188 @@
 					},
 					{
 						"type": "text",
-						"text": " Super Energy depending on Enemy Rank."
+						"text": " Super Energy depending on "
+					},
+					{
+						"type": "text",
+						"text": "Enemy Rank"
+					},
+					{
+						"type": "text",
+						"text": "."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Landing "
+					},
+					{
+						"type": "numeric",
+						"text": "5",
+						"isUnknown": false,
+						"isEstimate": true
+					},
+					{
+						"type": "text",
+						"text": " knives in a single "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Blade Barrage volley triggers a "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Solar Detonation after "
+					},
+					{
+						"type": "numeric",
+						"text": "2",
+						"isUnknown": false,
+						"isEstimate": true
+					},
+					{
+						"type": "text",
+						"text": " seconds. Both volleys can trigger their own detonation, and hits do not have to be sourced on a single target."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Solar Detonation deals significant damage over a "
+					},
+					{
+						"type": "numeric",
+						"text": "?",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meter radius and releases "
+					},
+					{
+						"type": "numeric",
+						"text": "?",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Scorching Shrapnel, which apply "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "numeric",
+						"text": "?",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Scorch ("
+					},
+					{
+						"type": "numeric",
+						"text": "?",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " with "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Ember of Ashes)"
+					},
+					{
+						"type": "text",
+						"text": "."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Blade Barrage Hits and Kills refund Super Energy depending on Enemy Rank up the the maximum of "
+					},
+					{
+						"type": "numeric",
+						"text": "50%.",
+						"isUnknown": true,
+						"isEstimate": false
 					}
 				]
 			}
@@ -93487,11 +93891,11 @@
 	"1640501529": {
 		"hash": 1640501529,
 		"name": "Lancer's Vigil",
-		"itemHash": 3574051505,
+		"itemHash": 2851385306,
 		"itemName": "Cadmus Ridge Lancecap",
-		"lastUpload": 1731793916910,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -93520,7 +93924,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "2",
+						"text": "3",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -93562,16 +93966,27 @@
 					},
 					{
 						"type": "text",
-						"text": "Stasis Super Ability and while standing behind a Rally Barricade:"
+						"text": "Stasis Super Ability equipped, spawn a "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"stasis"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Diamond Lance next to you by performing one of three actions:"
 					}
 				]
 			},
 			{
 				"type": "line",
+				"isListItem": true,
 				"content": [
 					{
 						"type": "text",
-						"text": "Scoring a Kill or "
+						"text": "Stand behind a Rally Barricade and score a Kill or "
 					},
 					{
 						"type": "numeric",
@@ -93591,7 +94006,36 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds of each spawns a "
+						"text": " seconds of each"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "OR"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "Reach "
+					},
+					{
+						"type": "numeric",
+						"text": "100%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " progress by landing hits with "
 					},
 					{
 						"type": "icon",
@@ -93601,7 +94045,182 @@
 					},
 					{
 						"type": "text",
-						"text": "Diamond Lance next to you."
+						"text": "Stasis Weapons. Bodyshots grant "
+					},
+					{
+						"type": "numeric",
+						"text": "5%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " progress, and precision damage grants "
+					},
+					{
+						"type": "numeric",
+						"text": "12%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " progress"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "OR"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "Score two "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"stasis"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Stasis Weapon kills"
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"isLabel": true,
+				"content": [
+					{
+						"type": "icon",
+						"classNames": [
+							"stasis"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Diamond Lance damage is increased at "
+					},
+					{
+						"type": "numeric",
+						"text": "1",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "2",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "3... stacks of ",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"stasis"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Frost Armor:"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "numeric",
+						"text": "144%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "253%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "333%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "389%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "428%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "455%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "475%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Increased Diamond Lance damage"
 					}
 				]
 			},
@@ -93616,7 +94235,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Shares a cooldown with the "
+						"text": "Slamming the "
 					},
 					{
 						"type": "icon",
@@ -93626,7 +94245,42 @@
 					},
 					{
 						"type": "text",
-						"text": "Diamond Lance Aspect but using the Aspect is not required."
+						"text": "Diamond Lance gives "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"stasis"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Frost Armor first, therefore always benefitting from the damage buff."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "This exotic shares the cooldown of the "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"stasis"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Diamond Lance Aspect, but using the Aspect is not required."
 					}
 				]
 			}
@@ -94553,16 +95207,46 @@
 		"name": "Sunfire Furnace",
 		"itemHash": 1192890598,
 		"itemName": "Hallowfire Heart",
-		"lastUpload": 1717539628564,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
 				"content": [
 					{
 						"type": "text",
-						"text": "Passively grants "
+						"text": "While a "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Solar Super is equipped and fully charged, any Ability Kill (even Unpowered Melees) grants "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Cure "
+					},
+					{
+						"type": "numeric",
+						"text": "x2",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " and one stack of 'Sunfire Furnace' for "
 					},
 					{
 						"type": "numeric",
@@ -94572,83 +95256,407 @@
 					},
 					{
 						"type": "text",
-						"text": " Airborne Effectiveness"
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "line",
-				"content": [
-					{
-						"type": "icon",
-						"classNames": [
-							"solar"
-						]
-					},
-					{
-						"type": "text",
-						"text": "Solar Kills while standing in a "
-					},
-					{
-						"type": "icon",
-						"classNames": [
-							"solar"
-						]
-					},
-					{
-						"type": "text",
-						"text": "Sunspot create a "
-					},
-					{
-						"type": "icon",
-						"classNames": [
-							"solar"
-						]
-					},
-					{
-						"type": "text",
-						"text": "Sunspot at the target's location."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "line",
-				"content": [
-					{
-						"type": "text",
-						"text": "Grants "
+						"text": " seconds. Glaive melees do not count. Maximum of "
 					},
 					{
 						"type": "numeric",
-						"text": "350%",
+						"text": "10",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " stacks."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "While Sunfire Furnace is active, kills with your "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Shieldburst Barricade or "
+					},
+					{
+						"type": "text",
+						"text": "ANY"
+					},
+					{
+						"type": "text",
+						"text": " Grenade trigger an "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Ignition (yes, even Forerunner's \"The Rock\")"
+					},
+					{
+						"type": "text",
+						"text": "."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Sunfire Furnace also grants Increased Super Damage and Additional Base Grenade and Class Ability Regneration rate at "
+					},
+					{
+						"type": "numeric",
+						"text": "1",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "2",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "3... stacks.",
+						"isUnknown": false,
+						"isEstimate": false
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "numeric",
+						"text": "6.5%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "13.6%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "22%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "32%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "43%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "57%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "73%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "93%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "118%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "150%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "text",
+						"text": "Increased Super Damage"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "numeric",
+						"text": "?",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "?",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "?",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "?",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "?",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "?",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "?",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "?",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "?",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "250%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " Additional Base Grenade and Melee Regeneration Rate if your "
+						"text": " Base Grenade and Class Ability Regeneration"
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Casting your Super freezes the amount of stacks you have. Refund "
 					},
 					{
-						"type": "icon",
-						"classNames": [
-							"solar"
-						]
+						"type": "numeric",
+						"text": "8%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "20%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "26%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "33%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "45%",
+						"isUnknown": true,
+						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": "Solar Super is Charged."
+						"text": " Super Energy upon exiting at "
+					},
+					{
+						"type": "numeric",
+						"text": "1",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "2",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "3",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "4",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "5+",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " stacks of Sunfire Furnace."
 					}
 				]
 			}
@@ -96539,7 +97547,7 @@
 		"name": "Illegally Modded Holster",
 		"itemHash": 193869522,
 		"itemName": "Lucky Pants",
-		"lastUpload": 1783844849219,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -97812,9 +98820,9 @@
 	"1727069361": {
 		"hash": 1727069361,
 		"name": "Spark of Frequency",
-		"lastUpload": 1755984214899,
+		"lastUpload": 1783935545841,
 		"type": "Subclass Fragment",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -97897,20 +98905,6 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Stronger?"
-					},
-					{
-						"type": "text",
-						"text": " effect (no increase to the Reload Speed bonuses)"
-					}
-				]
-			},
-			{
-				"type": "line",
-				"isListItem": true,
-				"content": [
-					{
-						"type": "text",
 						"text": "(Almost) all sources of "
 					},
 					{
@@ -97922,6 +98916,20 @@
 					{
 						"type": "text",
 						"text": "Bolt Charge now grant an additional stack"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "Grants no additional benefit to reload speed (bug?"
+					},
+					{
+						"type": "text",
+						"text": ")"
 					}
 				]
 			}
@@ -98803,7 +99811,7 @@
 		"name": "Clenched Fist",
 		"itemHash": 512777670,
 		"itemName": "Stronghold",
-		"lastUpload": 1783844849219,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -103839,7 +104847,7 @@
 		"name": "Parting Gift",
 		"itemHash": 1219761634,
 		"itemName": "The Bombardiers",
-		"lastUpload": 1783446631691,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -103880,7 +104888,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "120",
+								"text": "121",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -103898,7 +104906,7 @@
 					},
 					{
 						"type": "text",
-						"text": " meter radius. Detonates instantly on contact with a surface or an enemy."
+						"text": " meter radius."
 					}
 				]
 			},
@@ -103938,15 +104946,21 @@
 				],
 				"value": [
 					{
+						"type": "icon",
+						"classNames": [
+							"arc"
+						]
+					},
+					{
 						"type": "text",
-						"text": "Disorient (not Blind) for "
+						"text": "Blind for "
 					},
 					{
 						"type": "pve",
 						"content": [
 							{
 								"type": "numeric",
-								"text": "7",
+								"text": "10",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -104178,14 +105192,6 @@
 				],
 				"value": [
 					{
-						"type": "text",
-						"text": "'Lite'"
-					},
-					{
-						"type": "text",
-						"text": " "
-					},
-					{
 						"type": "icon",
 						"classNames": [
 							"void"
@@ -104196,34 +105202,23 @@
 						"text": "Suppression for "
 					},
 					{
-						"type": "pve",
-						"content": [
-							{
-								"type": "numeric",
-								"text": "9",
-								"isUnknown": false,
-								"isEstimate": false
-							}
-						]
+						"type": "numeric",
+						"text": "10",
+						"isUnknown": false,
+						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " "
+						"text": " seconds "
 					},
 					{
 						"type": "pvp",
 						"content": [
 							{
-								"type": "numeric",
-								"text": "7",
-								"isUnknown": false,
-								"isEstimate": false
+								"type": "text",
+								"text": "Does not apply to Guardians in their Super"
 							}
 						]
-					},
-					{
-						"type": "text",
-						"text": " seconds"
 					}
 				],
 				"isListItem": true
@@ -104258,20 +105253,60 @@
 						"text": "Sever for "
 					},
 					{
-						"type": "numeric",
-						"text": "10",
-						"isUnknown": false,
-						"isEstimate": false
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "10",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "5",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
 					},
 					{
 						"type": "text",
 						"text": " seconds ("
 					},
 					{
-						"type": "numeric",
-						"text": "15",
-						"isUnknown": false,
-						"isEstimate": false
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "15",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "7",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
 					},
 					{
 						"type": "text",
@@ -104298,67 +105333,24 @@
 			},
 			{
 				"type": "line",
-				"isLabel": true,
 				"content": [
 					{
 						"type": "text",
-						"text": "Lite "
+						"text": "Detonates instantly on contact with a surface or an enemy (for instant detonations, try the "
 					},
 					{
-						"type": "icon",
-						"classNames": [
-							"void"
-						]
-					},
-					{
-						"type": "text",
-						"text": "Suppression does NOT:"
-					}
-				]
-			},
-			{
-				"type": "line",
-				"isListItem": true,
-				"content": [
-					{
-						"type": "text",
-						"text": "Disorient PVE Combatants"
-					}
-				]
-			},
-			{
-				"type": "line",
-				"isListItem": true,
-				"content": [
-					{
-						"type": "icon",
-						"classNames": [
-							"void"
-						]
+						"type": "numeric",
+						"text": "4",
+						"isUnknown": false,
+						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": "Suppress Players or Hive Lightbearers while they are Transcending or are in their Super"
-					}
-				]
-			},
-			{
-				"type": "line",
-				"isListItem": true,
-				"content": [
-					{
-						"type": "text",
-						"text": "Activate "
-					},
-					{
-						"type": "icon",
-						"classNames": [
-							"void"
-						]
+						"text": "pc Dark Age Set Bonus from Warlord's Ruin)"
 					},
 					{
 						"type": "text",
-						"text": "Echo of Domineering or Loose Change"
+						"text": "."
 					}
 				]
 			}
@@ -105053,9 +106045,9 @@
 		"name": "Blastwave Striders",
 		"itemHash": 1188437342,
 		"itemName": "Blastwave Striders",
-		"lastUpload": 1766530840776,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -105066,7 +106058,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "?%",
+						"text": "75%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
@@ -105111,7 +106103,7 @@
 				"value": [
 					{
 						"type": "numeric",
-						"text": "7.5%",
+						"text": "10%",
 						"isUnknown": true,
 						"isEstimate": false
 					}
@@ -105137,7 +106129,29 @@
 				"value": [
 					{
 						"type": "numeric",
-						"text": "15%",
+						"text": "25%",
+						"isUnknown": true,
+						"isEstimate": false
+					}
+				],
+				"isListItem": true
+			},
+			{
+				"type": "labelledLine",
+				"label": [
+					{
+						"type": "text",
+						"text": "Enemy Guardians"
+					},
+					{
+						"type": "text",
+						"text": ": "
+					}
+				],
+				"value": [
+					{
+						"type": "numeric",
+						"text": "20%",
 						"isUnknown": true,
 						"isEstimate": false
 					}
@@ -105195,7 +106209,27 @@
 					},
 					{
 						"type": "text",
-						"text": " charge, sliding or receiving explosive self-damage propels you backwards in an explosive jump, releasing "
+						"text": " charge, deal damage with "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"stasis"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Shiver Strike, "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"stasis"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Howl of The Storm, or explosive self-damage to propel yourself backwards in an explosive jump, releasing "
 					},
 					{
 						"type": "numeric",
@@ -105215,7 +106249,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Stasis Projectiles and granting "
+						"text": "Stasis Shrapnel Projectiles and granting "
 					},
 					{
 						"type": "numeric",
@@ -105235,22 +106269,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Frost Armor Stacks."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "line",
-				"content": [
-					{
-						"type": "text",
-						"text": "Each Projectile deals "
+						"text": "Frost Armor Stacks. Each Projectile deals "
 					},
 					{
 						"type": "pve",
@@ -105293,6 +106312,89 @@
 						"text": "Stasis Crystal on impact."
 					}
 				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "This explosive jump also releases an expanding "
+					},
+					{
+						"type": "numeric",
+						"text": "?",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meter radius "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"stasis"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Stasis Wave that "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"stasis"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Freezes enemies on contact "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "text",
+								"text": "Slows for "
+							},
+							{
+								"type": "numeric",
+								"text": "?",
+								"isUnknown": true,
+								"isEstimate": false
+							},
+							{
+								"type": "text",
+								"text": " seconds"
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": "."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Shrapnel Kills do not charge Blastwave Striders."
+					}
+				]
 			}
 		],
 		"definitions": []
@@ -105302,7 +106404,7 @@
 		"name": "Mark of the Devourer",
 		"itemHash": 3973202132,
 		"itemName": "Thorn",
-		"lastUpload": 1783637436090,
+		"lastUpload": 1783935545841,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -105341,7 +106443,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Direct hits with this weapon apply poison, dealing "
+						"text": "Direct hits with this weapon apply Corruption (DoT Poison), dealing "
 					},
 					{
 						"type": "pve",
@@ -105391,7 +106493,7 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds. Multiple instances of poison can be applied to a single target."
+						"text": " seconds. Multiple instances of Corruption can be stacked on the same target."
 					}
 				]
 			},
@@ -112830,13 +113932,17 @@
 		"name": "Hammer of the Gods",
 		"itemHash": 308767728,
 		"itemName": "Point-Contact Cannon Brace",
-		"lastUpload": 1767472203079,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
 				"content": [
+					{
+						"type": "text",
+						"text": "Casting "
+					},
 					{
 						"type": "icon",
 						"classNames": [
@@ -112845,24 +113951,85 @@
 					},
 					{
 						"type": "text",
-						"text": "Thunderclap strikes enemies within "
+						"text": "Thunderclap refunds ~"
 					},
 					{
 						"type": "numeric",
-						"text": "?",
+						"text": "45%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " meters with Lightning, dealing "
+						"text": " Melee Ability Energy after use. Kills with Thunderclap and this exotic's Lightning Strikes refund "
+					},
+					{
+						"type": "numeric",
+						"text": "?%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " additional melee energy per kill, up to a maximum of "
+					},
+					{
+						"type": "numeric",
+						"text": "50%.",
+						"isUnknown": true,
+						"isEstimate": false
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Upon activating and upon discharging "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"arc"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Thunderclap, summon "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"arc"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Jolting Lightning strikes in a "
+					},
+					{
+						"type": "numeric",
+						"text": "15",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meter radius around you, dealing "
 					},
 					{
 						"type": "pve",
 						"content": [
 							{
 								"type": "numeric",
-								"text": "200",
+								"text": "181",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -112885,7 +114052,17 @@
 					},
 					{
 						"type": "text",
-						"text": " damage. Lightning Strike damage is doubled while "
+						"text": " damage. Lightning Strikes instantly trigger their "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"arc"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Jolt chains during both events, and damage is doubled while "
 					},
 					{
 						"type": "icon",
@@ -112910,30 +114087,18 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Kills with Lightning Strikes grant "
+						"text": "Lightning Damage can be further increased by up to "
 					},
 					{
 						"type": "numeric",
-						"text": "?%",
+						"text": "200%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " Melee energy."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "line",
-				"isLabel": true,
-				"content": [
+						"text": " by fully charging "
+					},
 					{
 						"type": "icon",
 						"classNames": [
@@ -112942,213 +114107,19 @@
 					},
 					{
 						"type": "text",
-						"text": "Thunderclap Kills refund Melee Energy based on "
+						"text": "Thunderclap, which stacks multiplicatively with the damage bonus from being "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"arc"
+						]
 					},
 					{
 						"type": "text",
-						"text": "Enemy Rank"
-					},
-					{
-						"type": "text",
-						"text": ":"
+						"text": "Amplified."
 					}
 				]
-			},
-			{
-				"type": "labelledLine",
-				"label": [
-					{
-						"type": "text",
-						"text": "Tier "
-					},
-					{
-						"type": "numeric",
-						"text": "1",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " (T1"
-					},
-					{
-						"type": "text",
-						"text": ") Minors"
-					},
-					{
-						"type": "text",
-						"text": ": "
-					}
-				],
-				"value": [
-					{
-						"type": "numeric",
-						"text": "11.2%",
-						"isUnknown": true,
-						"isEstimate": false
-					}
-				],
-				"isListItem": true
-			},
-			{
-				"type": "labelledLine",
-				"label": [
-					{
-						"type": "text",
-						"text": "T2"
-					},
-					{
-						"type": "text",
-						"text": " Minors, T1"
-					},
-					{
-						"type": "text",
-						"text": " Elites"
-					},
-					{
-						"type": "text",
-						"text": ": "
-					}
-				],
-				"value": [
-					{
-						"type": "numeric",
-						"text": "13.5%",
-						"isUnknown": true,
-						"isEstimate": false
-					}
-				],
-				"isListItem": true
-			},
-			{
-				"type": "labelledLine",
-				"label": [
-					{
-						"type": "text",
-						"text": "Players"
-					},
-					{
-						"type": "text",
-						"text": ": "
-					}
-				],
-				"value": [
-					{
-						"type": "numeric",
-						"text": "14.7%",
-						"isUnknown": true,
-						"isEstimate": false
-					}
-				],
-				"isListItem": true
-			},
-			{
-				"type": "labelledLine",
-				"label": [
-					{
-						"type": "text",
-						"text": "T3"
-					},
-					{
-						"type": "text",
-						"text": " Minors, T2"
-					},
-					{
-						"type": "text",
-						"text": " Elites"
-					},
-					{
-						"type": "text",
-						"text": ": "
-					}
-				],
-				"value": [
-					{
-						"type": "numeric",
-						"text": "17.6%",
-						"isUnknown": true,
-						"isEstimate": false
-					}
-				],
-				"isListItem": true
-			},
-			{
-				"type": "labelledLine",
-				"label": [
-					{
-						"type": "text",
-						"text": "T4"
-					},
-					{
-						"type": "text",
-						"text": " Minors, T3"
-					},
-					{
-						"type": "text",
-						"text": " Elites"
-					},
-					{
-						"type": "text",
-						"text": ": "
-					}
-				],
-				"value": [
-					{
-						"type": "numeric",
-						"text": "23.4%",
-						"isUnknown": true,
-						"isEstimate": false
-					}
-				],
-				"isListItem": true
-			},
-			{
-				"type": "labelledLine",
-				"label": [
-					{
-						"type": "text",
-						"text": "T4"
-					},
-					{
-						"type": "text",
-						"text": " Elites, Minibosses"
-					},
-					{
-						"type": "text",
-						"text": ": "
-					}
-				],
-				"value": [
-					{
-						"type": "numeric",
-						"text": "30%",
-						"isUnknown": true,
-						"isEstimate": false
-					}
-				],
-				"isListItem": true
-			},
-			{
-				"type": "labelledLine",
-				"label": [
-					{
-						"type": "text",
-						"text": "Bosses"
-					},
-					{
-						"type": "text",
-						"text": ": "
-					}
-				],
-				"value": [
-					{
-						"type": "numeric",
-						"text": "35%",
-						"isUnknown": true,
-						"isEstimate": false
-					}
-				],
-				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -114259,9 +115230,9 @@
 		"name": "Malevolent Grasp",
 		"itemHash": 1479082657,
 		"itemName": "Deimosuffusion",
-		"lastUpload": 1766530840776,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -114361,10 +115332,30 @@
 						"text": "Suspend take ticks of damage every "
 					},
 					{
-						"type": "numeric",
-						"text": "0.467",
-						"isUnknown": false,
-						"isEstimate": false
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "0.467",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "0.3",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
 					},
 					{
 						"type": "text",
@@ -118874,7 +119865,7 @@
 		"name": "Charged with Blight",
 		"itemHash": 1802135586,
 		"itemName": "Touch of Malice",
-		"lastUpload": 1783637436090,
+		"lastUpload": 1783935545841,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -119001,7 +119992,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Arc Damage on direct impact and corrupting field around it that poisons enemies and applies "
+						"text": "Arc Damage on direct impact with a poisoning field around it that inflicts Corruption and applies "
 					},
 					{
 						"type": "icon",
@@ -119126,7 +120117,15 @@
 					},
 					{
 						"type": "text",
-						"text": " increased damage from all Weapons of Sorrow for "
+						"text": " increased damage from all "
+					},
+					{
+						"type": "text",
+						"text": "Weapons of Sorrow"
+					},
+					{
+						"type": "text",
+						"text": " for "
 					},
 					{
 						"type": "numeric",
@@ -123376,11 +124375,11 @@
 	"2179827240": {
 		"hash": 2179827240,
 		"name": "Roast 'Em",
-		"itemHash": 3453042252,
+		"itemHash": 327385975,
 		"itemName": "Caliban's Hand",
-		"lastUpload": 1717539628564,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -123462,12 +124461,119 @@
 				"type": "line",
 				"content": [
 					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Ignition kills (on any subclass) grant a full Melee Ability Charge. This can overflow into one additional "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Solar Knife charge (any knife) or one additional "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"stasis"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Withering Blade charge beyond capacity."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "On Prismatic, this can overflow into two additional "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Knife Trick or "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"stasis"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Withering Blade charges, for four total Melee Charges."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Scorch grants "
+					},
+					{
+						"type": "numeric",
+						"text": "?%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Melee Ability Energy per tick."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
 						"type": "text",
 						"text": "Grants "
 					},
 					{
 						"type": "numeric",
-						"text": "500%",
+						"text": "625%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
@@ -128884,26 +129990,16 @@
 	"2272984669": {
 		"hash": 2272984669,
 		"name": "Echo of Reprisal",
-		"lastUpload": 1714219892088,
+		"lastUpload": 1783935545841,
 		"type": "Subclass Fragment",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
 				"content": [
 					{
 						"type": "text",
-						"text": "Kills grant an additional "
-					},
-					{
-						"type": "numeric",
-						"text": "?%",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " Super Energy while "
+						"text": "Kills grant an additional Super Energy while surrounded by at least "
 					},
 					{
 						"type": "numeric",
@@ -128913,7 +130009,7 @@
 					},
 					{
 						"type": "text",
-						"text": " enemies are within "
+						"text": " enemies within "
 					},
 					{
 						"type": "numeric",
@@ -128937,10 +130033,117 @@
 				"type": "line",
 				"content": [
 					{
+						"type": "text",
+						"text": "Gain "
+					},
+					{
+						"type": "numeric",
+						"text": "0.3%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "0.65%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "1%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "1.6%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "2.3%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " additional Super Energy per kill when surrounded by "
+					},
+					{
+						"type": "numeric",
+						"text": "3",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "4",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "5",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "6",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "7+",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " enemies."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
 						"type": "numeric",
 						"text": "1",
 						"isUnknown": false,
-						"isEstimate": true
+						"isEstimate": false
 					},
 					{
 						"type": "text",
@@ -136478,10 +137681,35 @@
 		"name": "Barri-nade",
 		"itemHash": 90009855,
 		"itemName": "Arbor Warden",
-		"lastUpload": 1766530840776,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Overwrites Barricade Cooldown to Pre-EoF values, resulting in ~"
+					},
+					{
+						"type": "numeric",
+						"text": "1.45x",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " faster Base Class Ability Regeneration."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
 			{
 				"type": "line",
 				"content": [
@@ -146659,9 +147887,11 @@
 	"2618534366": {
 		"hash": 2618534366,
 		"name": "Absorption Cells",
-		"lastUpload": 1755986339031,
+		"itemHash": 2732820041,
+		"itemName": "Mantle of Battle Harmony",
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -146893,6 +148123,126 @@
 						"text": " seconds."
 					}
 				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "After casting your Super Ability, gain "
+					},
+					{
+						"type": "numeric",
+						"text": "x4",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"arc"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Arc, "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Solar, "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"void"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Void, "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"stasis"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Stasis, and "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"stasis"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Strand Weapon Surge for "
+					},
+					{
+						"type": "numeric",
+						"text": "10",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds, and 'Harmonic Munitions' for "
+					},
+					{
+						"type": "numeric",
+						"text": "15",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Harmonic Munitions causes weapons that are the same element as your super to trigger an element-matching explosion on hit. Explosions deal damage in a "
+					},
+					{
+						"type": "numeric",
+						"text": "6",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meter radius and can trigger once per second."
+					}
+				]
 			}
 		],
 		"definitions": []
@@ -147093,9 +148443,9 @@
 	"2626922114": {
 		"hash": 2626922114,
 		"name": "Facet of Balance",
-		"lastUpload": 1738975855601,
+		"lastUpload": 1783935545841,
 		"type": "Subclass Fragment",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -147116,9 +148466,9 @@
 					},
 					{
 						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
-						"isEstimate": false
+						"text": "3",
+						"isUnknown": false,
+						"isEstimate": true
 					},
 					{
 						"type": "text",
@@ -147161,9 +148511,9 @@
 					},
 					{
 						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
-						"isEstimate": false
+						"text": "3",
+						"isUnknown": false,
+						"isEstimate": true
 					},
 					{
 						"type": "text",
@@ -147993,9 +149343,9 @@
 	"2626922126": {
 		"hash": 2626922126,
 		"name": "Facet of Dawn",
-		"lastUpload": 1767715813450,
+		"lastUpload": 1783935545841,
 		"type": "Subclass Fragment",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -148061,38 +149411,13 @@
 					},
 					{
 						"type": "numeric",
-						"text": "4",
+						"text": "5",
 						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
 						"text": " seconds."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "labelledLine",
-				"label": [
-					{
-						"type": "text",
-						"text": "Clarity tooltip editor's note"
-					},
-					{
-						"type": "text",
-						"text": ": "
-					}
-				],
-				"value": [
-					{
-						"type": "text",
-						"text": "We're replacing the previous Powered Melee term with Elemental Melee. The former is now exclusively used for perks that require the consumption of a Melee Ability Charge. This note is temporary and will be removed in the future."
 					}
 				]
 			}
@@ -155221,16 +156546,16 @@
 		"name": "Warlord's Sigil",
 		"itemHash": 900910756,
 		"itemName": "Winter's Guile",
-		"lastUpload": 1766531258278,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
 				"content": [
 					{
 						"type": "text",
-						"text": "Melee Kills grant a stack of 'Warlord's Sigil'"
+						"text": "Melee/Glaive Melee Kills grant a stack of 'Warlord's Sigil'"
 					},
 					{
 						"type": "text",
@@ -159350,7 +160675,7 @@
 		"name": "Rites of Ember",
 		"itemHash": 2316914168,
 		"itemName": "Dawn Chorus",
-		"lastUpload": 1783844849219,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -170021,9 +171346,9 @@
 		"name": "Beacons of Empowerment",
 		"itemHash": 1537074069,
 		"itemName": "Phoenix Cradle",
-		"lastUpload": 1766530840776,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -170146,7 +171471,17 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds by dealing sustained Solar Weapon Damage (feel free to figure out what that means on your own mate)"
+						"text": " seconds by dealing sustained Solar Weapon Damage (seems to not work without the Aspect, and only extends by "
+					},
+					{
+						"type": "numeric",
+						"text": "2",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds)"
 					},
 					{
 						"type": "text",
@@ -173483,7 +174818,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "5",
+						"text": "5.5",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -174102,7 +175437,7 @@
 		"name": "Webcatcher",
 		"itemHash": 2647299044,
 		"itemName": "Moirai",
-		"lastUpload": 1767665829609,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -174141,24 +175476,8 @@
 				"type": "line",
 				"content": [
 					{
-						"type": "icon",
-						"classNames": [
-							"strand"
-						]
-					},
-					{
 						"type": "text",
-						"text": "Threaded Spikes returing after detonating a "
-					},
-					{
-						"type": "icon",
-						"classNames": [
-							"strand"
-						]
-					},
-					{
-						"type": "text",
-						"text": "Tangle equip you with a throwable "
+						"text": "Catching the "
 					},
 					{
 						"type": "icon",
@@ -174168,7 +175487,102 @@
 					},
 					{
 						"type": "text",
-						"text": "Tangle."
+						"text": "Threaded Spike after it detonates a "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"strand"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Tangle equips you with a second throwable "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"strand"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Tangle. Alternatively, failing to catch the "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"strand"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Threaded Spike triggers an "
+					},
+					{
+						"type": "numeric",
+						"text": "8",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meter "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"strand"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Strand Detonation around you, dealing "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "727",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "?",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " damage with no falloff."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "This detonation counts as Powered Melee damage, scaling with the Melee stat and triggering melee-effects."
 					}
 				]
 			},
@@ -174193,7 +175607,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Threaded Spike that doesn't hit a "
+						"text": "Threaded Spike that didn't detonate a "
 					},
 					{
 						"type": "icon",
@@ -184034,7 +185448,7 @@
 		"name": "Mecha Holster",
 		"itemHash": 53126580,
 		"itemName": "Peacekeepers",
-		"lastUpload": 1783844849219,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -184259,27 +185673,9 @@
 					},
 					{
 						"type": "numeric",
-						"text": "100%. ",
+						"text": "100%.",
 						"isUnknown": true,
 						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": "Tarrabah"
-					},
-					{
-						"type": "text",
-						"text": " with Ravenous Beast active only receives a "
-					},
-					{
-						"type": "numeric",
-						"text": "3.5%",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " increase per stack."
 					}
 				]
 			},
@@ -187299,9 +188695,9 @@
 		"name": "Move to Survive",
 		"itemHash": 3948284065,
 		"itemName": "Astrocyte Verse",
-		"lastUpload": 1714219892088,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -187448,7 +188844,96 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Blinking grants "
+						"text": "While Blink is equipped, gain a horizontal 'Dark Blink' bound to your [Air Move]"
+					},
+					{
+						"type": "text",
+						"text": ". Movement is identical to Nova Warp's Dark Blink, which spawns "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "4",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "2",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"void"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Weakening Seekers that scale with the Super stat. Incurs a "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "6",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "8",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " second cooldown on use."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Blinking or casting Dark Blink grants "
 					},
 					{
 						"type": "numeric",
@@ -187468,7 +188953,47 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds and the Radar remains active during the animation."
+						"text": " seconds, "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"void"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Volatile Rounds for "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "9",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "5",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " seconds, and the Radar remains active during the animation."
 					}
 				]
 			},
@@ -187503,11 +189028,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Volatile when initiating Blink (animation does not need to start)"
-					},
-					{
-						"type": "text",
-						"text": "."
+						"text": "Volatile when initiating Blink."
 					}
 				]
 			}
@@ -192765,16 +194286,16 @@
 		"name": "Spheromatik Trigger",
 		"itemHash": 1429817243,
 		"itemName": "Severance Enclosure",
-		"lastUpload": 1766530840776,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
 				"content": [
 					{
 						"type": "text",
-						"text": "Powered Melee Kills and Finishers trigger a Kinetic Explosion at the target's location. "
+						"text": "Powered Melee Kills and Finishers trigger a Kinetic Explosion at the target's location, knocking nearby enemies into the air and Disorienting them. "
 					},
 					{
 						"type": "numeric",
@@ -192921,14 +194442,26 @@
 				"isListItem": true
 			},
 			{
-				"type": "line",
-				"isListItem": true,
-				"content": [
+				"type": "labelledLine",
+				"label": [
 					{
 						"type": "text",
-						"text": "Unknown for Players currently"
+						"text": "Players"
+					},
+					{
+						"type": "text",
+						"text": ": "
 					}
-				]
+				],
+				"value": [
+					{
+						"type": "numeric",
+						"text": "?",
+						"isUnknown": true,
+						"isEstimate": false
+					}
+				],
+				"isListItem": true
 			},
 			{
 				"type": "spacer",
@@ -192951,7 +194484,7 @@
 					},
 					{
 						"type": "text",
-						"text": " decreased damage at the edge of the radius due to falloff. Finishers upgrade the explosion to the one triggered by a Powered Melee on a one rank higher target."
+						"text": " decreased damage at the edge of the radius. Finishers upgrade the explosion to the one triggered by a Powered Melee on a one rank higher target."
 					}
 				]
 			},
@@ -193462,9 +194995,9 @@
 		"name": "Forge Master",
 		"itemHash": 2867399974,
 		"itemName": "Melas Panoplia",
-		"lastUpload": 1767472203079,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -193485,8 +195018,8 @@
 					},
 					{
 						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
+						"text": "3",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
@@ -193505,9 +195038,9 @@
 					},
 					{
 						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
-						"isEstimate": false
+						"text": "3",
+						"isUnknown": false,
+						"isEstimate": true
 					},
 					{
 						"type": "text",
@@ -193546,17 +195079,27 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "While Forge Master is active, "
+						"text": "Upon initially gaining Forge Master, generate ~"
 					},
 					{
-						"type": "icon",
-						"classNames": [
-							"solar"
-						]
+						"type": "numeric",
+						"text": "11.7%",
+						"isUnknown": true,
+						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": "Throwing Hammer is granted improved tracking and can be recalled by pressing your melee input."
+						"text": " Melee Ability Energy per second for "
+					},
+					{
+						"type": "numeric",
+						"text": "8",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds."
 					}
 				]
 			},
@@ -193571,7 +195114,32 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Recalling after "
+						"text": "While Forge Master is active, "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Throwing Hammer is granted improved tracking and can be recalled by pressing your melee input. Recalling your Throwing Hammer guarantees a full refund of the ability, regardless of your Melee Stat."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Recalling after ~"
 					},
 					{
 						"type": "numeric",
@@ -193591,22 +195159,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Throwing Hammer hit performs a Perfect Recall."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "line",
-				"content": [
-					{
-						"type": "text",
-						"text": "Perfect Recall triggers an explosion at the Hammer's location that deals up to "
+						"text": "Throwing Hammer hit performs a Perfect Recall. Perfect Recall triggers an explosion at the Hammer's location that deals up to "
 					},
 					{
 						"type": "pve",
@@ -196503,9 +198056,9 @@
 		"name": "Danger Close",
 		"itemHash": 1909305643,
 		"itemName": "Hazardous Propulsion",
-		"lastUpload": 1731793916910,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -196558,7 +198111,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "600",
+								"text": "540",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -196795,7 +198348,11 @@
 				"label": [
 					{
 						"type": "text",
-						"text": "Trace Rifles"
+						"text": "Trace Rifles and "
+					},
+					{
+						"type": "text",
+						"text": "Vex Mythoclast"
 					},
 					{
 						"type": "text",
@@ -204734,9 +206291,9 @@
 		"name": "Scissor Fingers",
 		"itemHash": 978537162,
 		"itemName": "Ophidia Spathe",
-		"lastUpload": 1766530840776,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -204884,7 +206441,7 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds. Class Ability usage refreshes the buff's duration."
+						"text": " seconds. Casting Gambler's Dodge refreshes the buff's duration."
 					}
 				]
 			},
@@ -204966,7 +206523,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Ignition Kills in which Knife Trick applies "
+						"text": "Ignition Kills in which Knife Trick applied the initial "
 					},
 					{
 						"type": "icon",
@@ -208501,7 +210058,7 @@
 		"name": "Burning Souls",
 		"itemHash": 3562696927,
 		"itemName": "Wormhusk Crown",
-		"lastUpload": 1783844849219,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -212358,9 +213915,9 @@
 		"name": "Grasp of the Devourer",
 		"itemHash": 124786972,
 		"itemName": "Necrotic Grip",
-		"lastUpload": 1767472203079,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "labelledLine",
@@ -212387,7 +213944,7 @@
 				"value": [
 					{
 						"type": "text",
-						"text": "Thorn, Osteo Striga, Touch of Malice, and Necrochasm."
+						"text": "Thorn, Osteo Striga, Touch of Malice, Cull's Shadow, and Necrochasm."
 					}
 				]
 			},
@@ -212402,7 +213959,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Melee Hits apply Necrotic Poison. Poison deals Kinetic damage. Poisoned enemies spread Poison on death in a "
+						"text": "Melee Hits apply Potent Corruption, which deals Kinetic damage. Defeated enemies spread Potent Corruption on death in a "
 					},
 					{
 						"type": "numeric",
@@ -212428,7 +213985,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Kills with the following also spread Poison:"
+						"text": "Kills with the following also spread the Potent Corruption:"
 					}
 				]
 			},
@@ -212448,7 +214005,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Osteo Striga's Poison Effect"
+						"text": "Osteo Striga's Corruption Effect"
 					}
 				]
 			},
@@ -212458,7 +214015,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Touch of Malice's Blight's Poison Effect"
+						"text": "Touch of Malice's Blight's Corruption Effect"
 					}
 				]
 			},
@@ -212468,7 +214025,17 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Necrochasm's Poison and Cursed Thrall Explosions"
+						"text": "Necrochasm's Corruption and Cursed Thrall Explosions"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "Cull's Shadow Corruption Effect"
 					}
 				]
 			},
@@ -212483,14 +214050,14 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Poison ticks every "
+						"text": "Potent Corruption ticks every "
 					},
 					{
 						"type": "pve",
 						"content": [
 							{
 								"type": "numeric",
-								"text": "0.517",
+								"text": "0.52",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -212550,7 +214117,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "9.3",
+								"text": "10",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -212580,7 +214147,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "1361",
+								"text": "1366",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -212618,7 +214185,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Poison's first tick deals "
+						"text": "Corruption's first tick deals "
 					},
 					{
 						"type": "pve",
@@ -212659,28 +214226,21 @@
 				]
 			},
 			{
-				"type": "line",
-				"isLabel": true,
-				"content": [
+				"type": "labelledLine",
+				"label": [
 					{
 						"type": "text",
-						"text": "In PvE, the damage of Poison ramps up every tick with the damage increases compounding together:"
-					}
-				]
-			},
-			{
-				"type": "line",
-				"isListItem": true,
-				"content": [
-					{
-						"type": "numeric",
-						"text": "2",
-						"isUnknown": false,
-						"isEstimate": false
+						"text": "Exclusive to 'Potent Corruption'"
 					},
 					{
 						"type": "text",
-						"text": "nd-"
+						"text": ": "
+					}
+				],
+				"value": [
+					{
+						"type": "text",
+						"text": "DoT ramps up every tick, with the damage increases compounding together. For the first "
 					},
 					{
 						"type": "numeric",
@@ -212690,89 +214250,37 @@
 					},
 					{
 						"type": "text",
-						"text": "th ticks each deal "
+						"text": " ticks, each tick deals "
 					},
 					{
 						"type": "numeric",
-						"text": "3.5585",
+						"text": "11%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " more damage than the last. For the last "
+					},
+					{
+						"type": "numeric",
+						"text": "5",
 						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " more damage compared to the one before"
-					}
-				]
-			},
-			{
-				"type": "line",
-				"isListItem": true,
-				"content": [
+						"text": " ticks, the damage increases by an average of "
+					},
 					{
 						"type": "numeric",
-						"text": "15",
-						"isUnknown": false,
+						"text": "41%",
+						"isUnknown": true,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": "th tick deals "
-					},
-					{
-						"type": "numeric",
-						"text": "9.705",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " more damage than the "
-					},
-					{
-						"type": "numeric",
-						"text": "14",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": "th"
-					}
-				]
-			},
-			{
-				"type": "line",
-				"isListItem": true,
-				"content": [
-					{
-						"type": "numeric",
-						"text": "16",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": "th-"
-					},
-					{
-						"type": "numeric",
-						"text": "19",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": "th ticks each deal "
-					},
-					{
-						"type": "numeric",
-						"text": "14.234",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " more damage than the one before"
+						"text": " per tick."
 					}
 				]
 			}
@@ -216375,9 +217883,9 @@
 		"name": "New Tricks",
 		"itemHash": 1053737370,
 		"itemName": "Shinobu's Vow",
-		"lastUpload": 1735009175023,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -216394,28 +217902,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Skip Grenade Charge."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "line",
-				"content": [
-					{
-						"type": "icon",
-						"classNames": [
-							"arc"
-						]
-					},
-					{
-						"type": "text",
-						"text": "Skip Grenade drones chase enemies much more aggressively."
+						"text": "Skip Grenade Charge. Skip Grenade drones chase enemies much more aggressively."
 					}
 				]
 			},
@@ -216460,7 +217947,23 @@
 					},
 					{
 						"type": "text",
-						"text": " Grenade Ability Energy. (Each drone can hit enemies "
+						"text": " Grenade Ability Energy and "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"arc"
+						]
+					},
+					{
+						"type": "numeric",
+						"text": "x1",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Bolt Charge. Each drone can hit enemies "
 					},
 					{
 						"type": "numeric",
@@ -216476,7 +217979,158 @@
 					},
 					{
 						"type": "text",
-						"text": " times)"
+						"text": " times."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Gaining "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"arc"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Bolt Charge gives "
+					},
+					{
+						"type": "numeric",
+						"text": "?%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " grenade energy per stack."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"isLabel": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "Upon reaching "
+					},
+					{
+						"type": "numeric",
+						"text": "x10",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"arc"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Bolt Charge:"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "Gain "
+					},
+					{
+						"type": "numeric",
+						"text": "40?%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Grenade Ability Energy"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "Heal allies within "
+					},
+					{
+						"type": "numeric",
+						"text": "?",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meters for "
+					},
+					{
+						"type": "numeric",
+						"text": "?",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": "HP"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "Grants 'New Tricks', which enhances the next thrown "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"arc"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Skip Grenade by adding "
+					},
+					{
+						"type": "numeric",
+						"text": "2",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " additional seekers on the first bounce."
 					}
 				]
 			},
@@ -217726,11 +219380,11 @@
 	"3927963100": {
 		"hash": 3927963100,
 		"name": "Cerebral Uplink",
-		"itemHash": 3381022970,
+		"itemHash": 925466717,
 		"itemName": "Eye of Another World",
-		"lastUpload": 1709252348445,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -217751,7 +219405,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "50%",
+						"text": "45%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
@@ -217792,11 +219446,11 @@
 	"3927963101": {
 		"hash": 3927963101,
 		"name": "Abyssal Extractors",
-		"itemHash": 3381022971,
+		"itemHash": 925466716,
 		"itemName": "Nezarec's Sin",
-		"lastUpload": 1735009175023,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -217809,11 +219463,41 @@
 					},
 					{
 						"type": "text",
-						"text": "Void Kills grant Abyssal Extractors for "
+						"text": "Void Kills grant 'Abyssal Extractors' for "
 					},
 					{
 						"type": "numeric",
 						"text": "2.5",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds. While active, kills with Soul Siphon and "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"void"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Void Kills on "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"void"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Suppressed enemies grant "
+					},
+					{
+						"type": "numeric",
+						"text": "4",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -217826,6 +219510,67 @@
 						"text": "20",
 						"isUnknown": false,
 						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "icon",
+						"classNames": [
+							"void"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Soul Siphon hits inflict "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"void"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Suppression for "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "10",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "?",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
 					},
 					{
 						"type": "text",
@@ -217889,9 +219634,9 @@
 		"name": "Actual Grandeur",
 		"itemHash": 1030017949,
 		"itemName": "Skull of Dire Ahamkara",
-		"lastUpload": 1729372904933,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -217925,15 +219670,10 @@
 						"text": "4.5%",
 						"isUnknown": true,
 						"isEstimate": false
-					}
-				]
-			},
-			{
-				"type": "line",
-				"content": [
+					},
 					{
 						"type": "text",
-						"text": "depending on "
+						"text": " depending on "
 					},
 					{
 						"type": "text",
@@ -218010,6 +219750,101 @@
 				"type": "line",
 				"content": [
 					{
+						"type": "text",
+						"text": "Casting "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"void"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Nova Bomb grants the ability to cast "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"void"
+						]
+					},
+					{
+						"type": "text",
+						"text": "'Nova Bomb: Lance' for "
+					},
+					{
+						"type": "numeric",
+						"text": "5",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds. Destroying a "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"void"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Nova Bomb: Cataclysm with the Lance triggers a "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"void"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Nova Vortex alongside the original "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"void"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Nova Bomb, effectively granting the effects of both "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"void"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Nova Bombs. Requires a minimum distance of "
+					},
+					{
+						"type": "numeric",
+						"text": "20",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meters to trigger."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
 						"type": "icon",
 						"classNames": [
 							"void"
@@ -218027,7 +219862,7 @@
 					},
 					{
 						"type": "text",
-						"text": " Super Energy on Kills, up to "
+						"text": " Super Energy per kill, up to "
 					},
 					{
 						"type": "numeric",
@@ -218047,9 +219882,11 @@
 	"3927963103": {
 		"hash": 3927963103,
 		"name": "Conduction Tines",
-		"lastUpload": 1755986339031,
+		"itemHash": 925466718,
+		"itemName": "Crown of Tempests",
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -218109,7 +219946,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "7",
+								"text": "10",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -218280,6 +220117,26 @@
 					{
 						"type": "text",
 						"text": "Stormtrance Super Drain"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "Casting Ionic Sentry spawns a "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"arc"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Storm Grenade on its point of impact"
 					}
 				]
 			}
@@ -223875,7 +225732,7 @@
 		"name": "Toxic Overload",
 		"itemHash": 46524085,
 		"itemName": "Osteo Striga",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1783935545841,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -223914,7 +225771,7 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds of each other, or scoring a kill, triggers a poison burst at the target's location in a "
+						"text": " seconds of each other, or scoring a kill, triggers a burst of Potent Corruption (Poison) at the target's location in a "
 					},
 					{
 						"type": "numeric",
@@ -223939,7 +225796,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Poison deals "
+						"text": "Potent Corruption deals "
 					},
 					{
 						"type": "pve",
@@ -224074,7 +225931,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Poison damage increases by "
+						"text": "Potent Corruption damage increases by "
 					},
 					{
 						"type": "numeric",
@@ -224159,7 +226016,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Targets that die to poison trigger another burst of poison around them. Cooldown of "
+						"text": "Targets that die to the corruption trigger another burst of poison around them. Cooldown of "
 					},
 					{
 						"type": "numeric",
@@ -224184,7 +226041,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Poison counts as weapon damage and benefits from all related buffs. Reapplying the poison resets it back to the first stack."
+						"text": "Osteo Striga's poison counts as weapon damage and benefits from all related buffs. Reapplying the poison resets it back to the first stack."
 					}
 				]
 			}
@@ -227468,30 +229325,105 @@
 		"name": "Winged Eclipse",
 		"itemHash": 3534173884,
 		"itemName": "Mothkeeper's Wraps",
-		"lastUpload": 1715800461024,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
 				"content": [
 					{
 						"type": "text",
-						"text": "Replaces Grenade Ability with 'Cage of Loyal Moths', grants an extra Grenade Ability Charge. Overrides Base (T3"
+						"text": "Kills charge up 'Winged Eclipse', with progress granted based on "
 					},
 					{
 						"type": "text",
-						"text": ") Grenade Ability cooldown to "
+						"text": "Enemy Rank"
 					},
+					{
+						"type": "text",
+						"text": "."
+					}
+				]
+			},
+			{
+				"type": "labelledLine",
+				"label": [
+					{
+						"type": "text",
+						"text": "Minor Enemies"
+					},
+					{
+						"type": "text",
+						"text": ": "
+					}
+				],
+				"value": [
 					{
 						"type": "numeric",
-						"text": "73",
+						"text": "1",
 						"isUnknown": false,
 						"isEstimate": false
+					}
+				],
+				"isListItem": true
+			},
+			{
+				"type": "labelledLine",
+				"label": [
+					{
+						"type": "text",
+						"text": "Elite Enemies"
 					},
 					{
 						"type": "text",
-						"text": " seconds."
+						"text": ": "
+					}
+				],
+				"value": [
+					{
+						"type": "numeric",
+						"text": "2",
+						"isUnknown": false,
+						"isEstimate": false
+					}
+				],
+				"isListItem": true
+			},
+			{
+				"type": "labelledLine",
+				"label": [
+					{
+						"type": "text",
+						"text": "Miniboss+ and Guardians"
+					},
+					{
+						"type": "text",
+						"text": ": "
+					}
+				],
+				"value": [
+					{
+						"type": "numeric",
+						"text": "3",
+						"isUnknown": false,
+						"isEstimate": false
+					}
+				],
+				"isListItem": true
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "At six charges, replaces your grenade abilty with two charges of Loyal Moths. Incurs a six second cooldown upon spending both charges before progress can be gained."
 					}
 				]
 			},
@@ -227506,7 +229438,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Moth Cage explodes on impact, releasing "
+						"text": "Moth Grenades explode on impact, releasing "
 					},
 					{
 						"type": "numeric",
@@ -227516,7 +229448,27 @@
 					},
 					{
 						"type": "text",
-						"text": " Loyal Moths that fly to their nearest target."
+						"text": " Loyal Moths that fly to their nearest target. Moths that spawn closer to allies turn into "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"void"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Void Moths, while Moths that spawn closer to enemies turn into "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"arc"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Arc Moths. When both allies and enemies are close, one of each moth spawns."
 					}
 				]
 			},
@@ -227681,126 +229633,6 @@
 					}
 				],
 				"isListItem": true
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "line",
-				"content": [
-					{
-						"type": "text",
-						"text": "When no enemies are within "
-					},
-					{
-						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " meters of the detonation area, it spawns "
-					},
-					{
-						"type": "numeric",
-						"text": "2",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " "
-					},
-					{
-						"type": "icon",
-						"classNames": [
-							"void"
-						]
-					},
-					{
-						"type": "text",
-						"text": "Void Moths. When only enemies are around, it spawns "
-					},
-					{
-						"type": "numeric",
-						"text": "2",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " "
-					},
-					{
-						"type": "icon",
-						"classNames": [
-							"arc"
-						]
-					},
-					{
-						"type": "text",
-						"text": "Arc Moths."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "line",
-				"content": [
-					{
-						"type": "text",
-						"text": "When both allies and enemies are around, it spawns "
-					},
-					{
-						"type": "numeric",
-						"text": "1",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " "
-					},
-					{
-						"type": "icon",
-						"classNames": [
-							"arc"
-						]
-					},
-					{
-						"type": "text",
-						"text": "Arc Moth and "
-					},
-					{
-						"type": "numeric",
-						"text": "1",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " "
-					},
-					{
-						"type": "icon",
-						"classNames": [
-							"void"
-						]
-					},
-					{
-						"type": "text",
-						"text": "Void Moth."
-					}
-				]
 			}
 		],
 		"definitions": []
@@ -228267,7 +230099,7 @@
 	"4104185692": {
 		"hash": 4104185692,
 		"name": "Frenzy",
-		"lastUpload": 1780793078387,
+		"lastUpload": 1783935545841,
 		"type": "Weapon Trait",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -228619,7 +230451,7 @@
 		"name": "Acrobat's Focus",
 		"itemHash": 192896783,
 		"itemName": "Cyrtarachne's Facade",
-		"lastUpload": 1783844849219,
+		"lastUpload": 1783935545841,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -231506,7 +233338,7 @@
 		"name": "Cursebringer",
 		"itemHash": 1034055198,
 		"itemName": "Necrochasm",
-		"lastUpload": 1783637436090,
+		"lastUpload": 1783935545841,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -231605,7 +233437,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Arc damage and inflict Poison within a "
+						"text": "Arc damage and inflict Corruption (Poison) within a "
 					},
 					{
 						"type": "numeric",
