@@ -4694,7 +4694,7 @@
 		"name": "One Thousand Voices Catalyst",
 		"itemHash": 2069224589,
 		"itemName": "One Thousand Voices",
-		"lastUpload": 1783935545841,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -4783,7 +4783,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "These Taken Seekers can stun "
+						"text": "My Taken Seekers can stun "
 					},
 					{
 						"type": "icon",
@@ -8552,7 +8552,7 @@
 		"name": "Dynamic Charge",
 		"itemHash": 4017959782,
 		"itemName": "Symmetry",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -8630,24 +8630,32 @@
 						"text": " seconds. Arc Seekers gain "
 					},
 					{
-						"type": "numeric",
-						"text": "30%",
-						"isUnknown": true,
-						"isEstimate": false
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "30%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
 					},
 					{
 						"type": "text",
-						"text": " increased damage and "
+						"text": " "
 					},
 					{
-						"type": "numeric",
-						"text": "5%",
-						"isUnknown": true,
-						"isEstimate": false
+						"type": "pvp",
+						"content": [
+							{
+								"type": "text",
+								"text": "Varying"
+							}
+						]
 					},
 					{
 						"type": "text",
-						"text": " increased radius per stack of Revolution, up to "
+						"text": " increased damage per stack of Revolution, up to "
 					},
 					{
 						"type": "numeric",
@@ -8657,17 +8665,7 @@
 					},
 					{
 						"type": "text",
-						"text": " increased damage and a "
-					},
-					{
-						"type": "numeric",
-						"text": "75%",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " larger splash radius."
+						"text": " increased damage."
 					}
 				]
 			},
@@ -8682,7 +8680,83 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "While Revolution is active, Arc Seekers generate "
+						"text": "Arc Seekers also gain a non-linear increase to their splash radius, granting "
+					},
+					{
+						"type": "numeric",
+						"text": "33%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "233%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " increased splash radius at "
+					},
+					{
+						"type": "numeric",
+						"text": "x10",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "x20",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Stacks (up to "
+					},
+					{
+						"type": "numeric",
+						"text": "4",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "7",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meters in radius)"
+					},
+					{
+						"type": "text",
+						"text": "."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "While Revolution's timer is active, Arc Seekers generate "
 					},
 					{
 						"type": "numeric",
@@ -8774,6 +8848,31 @@
 					{
 						"type": "text",
 						"text": "Spark of Frequency."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Review this exotic's intrinsic perk to learn a special note about the "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"arc"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Bolt Charge behavior from this gun."
 					}
 				]
 			}
@@ -9876,7 +9975,7 @@
 		"name": "For the Empire",
 		"itemHash": 4255268456,
 		"itemName": "Skyburner's Oath",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -9889,7 +9988,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "18%",
+						"text": "11%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
@@ -11258,7 +11357,7 @@
 		"name": "Lightning Rod",
 		"itemHash": 814876685,
 		"itemName": "Trinity Ghoul",
-		"lastUpload": 1768768955912,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -11303,7 +11402,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "95",
+								"text": "194",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -11968,7 +12067,7 @@
 		"name": "Snareweaver",
 		"itemHash": 2910326942,
 		"itemName": "Wish-Keeper",
-		"lastUpload": 1768710027464,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -12137,7 +12236,37 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds. Enemies that come into contact with any wire are "
+						"text": " seconds. Enemies that come into contact with any wire take "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "341",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "5",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " damage and are "
 					},
 					{
 						"type": "icon",
@@ -12147,7 +12276,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Suspended, and each wire can Suspend up to "
+						"text": "Suspended. Each wire can Suspend up to "
 					},
 					{
 						"type": "numeric",
@@ -12292,7 +12421,7 @@
 		"name": "The Master",
 		"itemHash": 2581676735,
 		"itemName": "New Land Beyond",
-		"lastUpload": 1768768955912,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -17038,7 +17167,7 @@
 		"name": "Cosmology",
 		"itemHash": 3628991658,
 		"itemName": "Graviton Lance",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -17074,7 +17203,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "437",
+								"text": "470",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -17101,7 +17230,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "5",
+						"text": "7",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -17114,7 +17243,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "67",
+								"text": "51",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -17137,7 +17266,17 @@
 					},
 					{
 						"type": "text",
-						"text": " damage."
+						"text": " damage. Explosion falls to "
+					},
+					{
+						"type": "numeric",
+						"text": "0%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " damage at the edge of its blast radius."
 					}
 				]
 			},
@@ -18667,7 +18806,7 @@
 		"name": "Temporal Manipulation",
 		"itemHash": 648595258,
 		"itemName": "Graviton Spike",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -18751,17 +18890,17 @@
 					},
 					{
 						"type": "text",
-						"text": " RPM and deals splash damage in a "
+						"text": " RPM and deals explosive splash damage in a "
 					},
 					{
 						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
+						"text": "3",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " meter radius"
+						"text": " meter radius."
 					}
 				]
 			},
@@ -20227,7 +20366,7 @@
 		"name": "Third Iteration Catalyst",
 		"itemHash": 2973900274,
 		"itemName": "Third Iteration",
-		"lastUpload": 1768688191696,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -20270,13 +20409,13 @@
 					},
 					{
 						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
+						"text": "5",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " meter radius and apply "
+						"text": " meter radius, while also applying "
 					},
 					{
 						"type": "icon",
@@ -20286,7 +20425,17 @@
 					},
 					{
 						"type": "text",
-						"text": "Weaken for "
+						"text": "Weaken to all enemies within an "
+					},
+					{
+						"type": "numeric",
+						"text": "8",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meter radius for "
 					},
 					{
 						"type": "numeric",
@@ -20297,6 +20446,31 @@
 					{
 						"type": "text",
 						"text": " seconds."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Explosive damage deals "
+					},
+					{
+						"type": "numeric",
+						"text": "20%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " damage at the edge of its radius."
 					}
 				]
 			}
@@ -24326,7 +24500,7 @@
 		"name": "Delayed Gratification",
 		"itemHash": 3549153978,
 		"itemName": "Fighting Lion",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -24336,6 +24510,51 @@
 					{
 						"type": "text",
 						"text": "Grants Lightweight Frame bonuses."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Fires bouncing grenades that can be remotely detonated after "
+					},
+					{
+						"type": "numeric",
+						"text": "0.3",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds. Has a "
+					},
+					{
+						"type": "numeric",
+						"text": "4.5",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meter blast radius, dealing "
+					},
+					{
+						"type": "numeric",
+						"text": "30%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " damage at the edge of the radius."
 					}
 				]
 			},
@@ -26389,7 +26608,7 @@
 		"name": "Stormbringer",
 		"itemHash": 1681583613,
 		"itemName": "Ergo Sum",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -26408,13 +26627,173 @@
 					},
 					{
 						"type": "numeric",
-						"text": "?",
+						"text": "3",
+						"isUnknown": false,
+						"isEstimate": true
+					},
+					{
+						"type": "text",
+						"text": " seconds of each spawns a Lightning Strike centered on the last target defeated, followed by a Lightning Storm."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Lightning Strike deals "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "382",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "?",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " damage in a "
+					},
+					{
+						"type": "numeric",
+						"text": "7",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meter radius after "
+					},
+					{
+						"type": "numeric",
+						"text": "1.1",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds, which falls to "
+					},
+					{
+						"type": "numeric",
+						"text": "0%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " seconds of each spawns a Lightning Storm centered on the last target defeated."
+						"text": " damage at the edge of its radius."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Lighting Storm occurs "
+					},
+					{
+						"type": "numeric",
+						"text": "0.5",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds after the Lightning Strike and releases "
+					},
+					{
+						"type": "numeric",
+						"text": "4",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " bolts spread in an X-Pattern over the target, dealing "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "426",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "?",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " damage in a "
+					},
+					{
+						"type": "numeric",
+						"text": "5",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meter radius. Damage falls to "
+					},
+					{
+						"type": "numeric",
+						"text": "25%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " at the edge of the radius."
 					}
 				]
 			}
@@ -27150,7 +27529,7 @@
 		"name": "Shrapnel Launcher",
 		"itemHash": 3413860063,
 		"itemName": "Lord of Wolves",
-		"lastUpload": 1768768955912,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -27209,7 +27588,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "110%",
+						"text": "53%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
@@ -27219,7 +27598,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "20%",
+						"text": "24%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
@@ -30977,7 +31356,7 @@
 		"name": "Compression Chamber",
 		"itemHash": 3460576091,
 		"itemName": "Duality",
-		"lastUpload": 1768768955912,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -31026,7 +31405,47 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "While Hip-Firing, this gun fires a spread of pellets in the pattern of a Precision Frame shotgun."
+						"text": "While Hip-Firing, this gun fires a spread of "
+					},
+					{
+						"type": "numeric",
+						"text": "12",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " pellets in the pattern of a Precision Frame shotgun, each pellet dealing "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "104",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "?",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " damage."
 					}
 				]
 			},
@@ -31041,7 +31460,37 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "While Aiming Down Sights, this gun fires a single slug round."
+						"text": "While Aiming Down Sights, this gun fires a single slug round, dealing "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "1891",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "?",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " precision damage."
 					}
 				]
 			}
@@ -32878,7 +33327,7 @@
 		"name": "Prismatic Inferno",
 		"itemHash": 19024058,
 		"itemName": "Prometheus Lens",
-		"lastUpload": 1783637436090,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -32907,7 +33356,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "10%",
+						"text": "15%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
@@ -35524,7 +35973,7 @@
 		"name": "Fanatical Lance",
 		"itemHash": 3698448090,
 		"itemName": "Choir of One",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -35533,24 +35982,34 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Kills in either mode within "
+						"text": "Scoring kills in either mode triggers a "
 					},
 					{
 						"type": "numeric",
-						"text": "7",
+						"text": "7.5",
 						"isUnknown": false,
-						"isEstimate": true
+						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " seconds of each other trigger a void explosion, dealing "
+						"text": " meter radius "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"void"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Void explosion, dealing "
 					},
 					{
 						"type": "pve",
 						"content": [
 							{
 								"type": "numeric",
-								"text": "721",
+								"text": "239",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -35580,7 +36039,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "140",
+								"text": "123",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -35603,7 +36062,37 @@
 					},
 					{
 						"type": "text",
-						"text": " damage per tick."
+						"text": " "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"arc"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Arc damage in a "
+					},
+					{
+						"type": "numeric",
+						"text": "3",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meter radius once per second for "
+					},
+					{
+						"type": "numeric",
+						"text": "5",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds."
 					}
 				]
 			},
@@ -35759,6 +36248,146 @@
 					{
 						"type": "text",
 						"text": " meters, and cannot deal precision damage."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Hitting an enemy with the projectile before it splits deals "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "947",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "233",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " damage in a "
+					},
+					{
+						"type": "numeric",
+						"text": "3",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meter radius."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Split projectiles individually deal "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "187",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "49",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " damage each, totalling for "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "985",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "245",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " damage in a "
+					},
+					{
+						"type": "numeric",
+						"text": "3",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meter radius."
 					}
 				]
 			}
@@ -38142,7 +38771,7 @@
 		"name": "Power Surge",
 		"itemHash": 253843484,
 		"itemName": "Turncoat",
-		"lastUpload": 1783637436090,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -38221,7 +38850,17 @@
 					},
 					{
 						"type": "text",
-						"text": " meters."
+						"text": " meters, which deals "
+					},
+					{
+						"type": "numeric",
+						"text": "50%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " reduced damage at the edge of its radius."
 					}
 				]
 			},
@@ -43467,7 +44106,7 @@
 		"name": "No Backpack",
 		"itemHash": 1111334348,
 		"itemName": "Ice Breaker",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -43486,7 +44125,7 @@
 					},
 					{
 						"type": "text",
-						"text": " RPM. Deals "
+						"text": " RPM. Deals ~"
 					},
 					{
 						"type": "numeric",
@@ -43497,6 +44136,51 @@
 					{
 						"type": "text",
 						"text": " increased damage against PvE Combatants compared to an Aggressive-Frame Sniper Rifle."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Shots fired deal "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "2761",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "497",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " precision damage."
 					}
 				]
 			},
@@ -45633,7 +46317,7 @@
 		"name": "Evolution",
 		"itemHash": 1363238943,
 		"itemName": "Ruinous Effigy",
-		"lastUpload": 1768768955912,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -45695,7 +46379,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "300",
+								"text": "270",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -45761,7 +46445,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "1500",
+								"text": "1350",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -45837,7 +46521,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "30",
+								"text": "28",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -46132,7 +46816,7 @@
 		"name": "Temporal Unlimiter",
 		"itemHash": 4289226715,
 		"itemName": "Vex Mythoclast",
-		"lastUpload": 1783637436090,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -46318,7 +47002,17 @@
 					},
 					{
 						"type": "text",
-						"text": "Solar Ignition."
+						"text": "Solar Ignition that deals "
+					},
+					{
+						"type": "numeric",
+						"text": "5%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " more damage than base."
 					}
 				]
 			},
@@ -48159,7 +48853,7 @@
 		"name": "Lightning Seeker",
 		"itemHash": 542203595,
 		"itemName": "Edge of Concurrence",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -48221,7 +48915,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "1440",
+								"text": "1634",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -48235,10 +48929,8 @@
 						"type": "pvp",
 						"content": [
 							{
-								"type": "numeric",
-								"text": "?",
-								"isUnknown": true,
-								"isEstimate": false
+								"type": "text",
+								"text": "Death"
 							}
 						]
 					},
@@ -51261,7 +51953,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "1671.6",
+								"text": "1833",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -51306,7 +51998,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "280",
+								"text": "322",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -51329,13 +52021,23 @@
 					},
 					{
 						"type": "text",
-						"text": " damage Kinetic Shockwave that applies Exhaust in a "
+						"text": " damage Kinetic Shockwave that applies Exhaust for "
+					},
+					{
+						"type": "numeric",
+						"text": "5",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds in a "
 					},
 					{
 						"type": "numeric",
 						"text": "6",
 						"isUnknown": false,
-						"isEstimate": true
+						"isEstimate": false
 					},
 					{
 						"type": "text",
@@ -51449,7 +52151,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "1671.6",
+								"text": "1833",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -51494,7 +52196,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "280",
+								"text": "322",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -51517,13 +52219,23 @@
 					},
 					{
 						"type": "text",
-						"text": " damage Kinetic Shockwave that applies Exhaust in a "
+						"text": " damage Kinetic Shockwave that applies Exhaust for "
+					},
+					{
+						"type": "numeric",
+						"text": "5",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds in a "
 					},
 					{
 						"type": "numeric",
 						"text": "6",
 						"isUnknown": false,
-						"isEstimate": true
+						"isEstimate": false
 					},
 					{
 						"type": "text",
@@ -51637,7 +52349,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "1671.6",
+								"text": "1833",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -51682,7 +52394,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "280",
+								"text": "322",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -51705,13 +52417,23 @@
 					},
 					{
 						"type": "text",
-						"text": " damage Kinetic Shockwave that applies Exhaust in a "
+						"text": " damage Kinetic Shockwave that applies Exhaust for "
+					},
+					{
+						"type": "numeric",
+						"text": "5",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds in a "
 					},
 					{
 						"type": "numeric",
 						"text": "6",
 						"isUnknown": false,
-						"isEstimate": true
+						"isEstimate": false
 					},
 					{
 						"type": "text",
@@ -58135,7 +58857,7 @@
 		"name": "The Perfect Fifth",
 		"itemHash": 3413074534,
 		"itemName": "Polaris Lance",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -58233,7 +58955,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "198",
+								"text": "215",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -58296,13 +59018,23 @@
 					},
 					{
 						"type": "numeric",
-						"text": "2",
+						"text": "4",
 						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " meter radius."
+						"text": " meter radius. Damage falls to "
+					},
+					{
+						"type": "numeric",
+						"text": "0%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " at the edge of the radius."
 					}
 				]
 			}
@@ -58975,7 +59707,7 @@
 		"name": "Latent Power",
 		"itemHash": 253843484,
 		"itemName": "Turncoat",
-		"lastUpload": 1783637436090,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -59300,7 +60032,7 @@
 				"label": [
 					{
 						"type": "text",
-						"text": "Bug Notice"
+						"text": "Special Note"
 					},
 					{
 						"type": "text",
@@ -60349,10 +61081,51 @@
 		"name": "Heirloom Catalyst",
 		"itemHash": 1685137410,
 		"itemName": "Heirloom",
-		"lastUpload": 1783637436090,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Scorch and "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Ignitions that originate from this weapon deal "
+					},
+					{
+						"type": "numeric",
+						"text": "5%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " increased damage."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
 			{
 				"type": "line",
 				"content": [
@@ -75148,7 +75921,7 @@
 		"name": "Temporal Anomaly",
 		"itemHash": 648595258,
 		"itemName": "Graviton Spike",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -75194,7 +75967,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "457",
+								"text": "502",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -75289,7 +76062,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "115",
+								"text": "126",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -79093,7 +79866,7 @@
 		"name": "Unplanned Reprieve",
 		"itemHash": 1681583613,
 		"itemName": "Ergo Sum",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -79109,7 +79882,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "96",
+								"text": "68",
 								"isUnknown": false,
 								"isEstimate": false
 							},
@@ -79119,7 +79892,7 @@
 							},
 							{
 								"type": "numeric",
-								"text": "125",
+								"text": "117",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -81554,7 +82327,7 @@
 		"name": "Overcharge Capacitor",
 		"itemHash": 1912669214,
 		"itemName": "Centrifuse",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -81728,7 +82501,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "174",
+								"text": "95",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -81751,27 +82524,7 @@
 					},
 					{
 						"type": "text",
-						"text": " damage in a "
-					},
-					{
-						"type": "numeric",
-						"text": "12",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " meter radius. At "
-					},
-					{
-						"type": "numeric",
-						"text": "100%",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " charge, these explosions apply "
+						"text": " damage and apply "
 					},
 					{
 						"type": "icon",
@@ -81791,7 +82544,87 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds."
+						"text": " seconds in a "
+					},
+					{
+						"type": "numeric",
+						"text": "7",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meter radius. At "
+					},
+					{
+						"type": "numeric",
+						"text": "100%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " charge, the explosions deal "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "189",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "?",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " damage and "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"arc"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Blind for "
+					},
+					{
+						"type": "numeric",
+						"text": "10",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds in an "
+					},
+					{
+						"type": "numeric",
+						"text": "8",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meter radius."
 					}
 				]
 			},
@@ -87036,9 +87869,9 @@
 	"1517798362": {
 		"hash": 1517798362,
 		"name": "Stopping Power",
-		"lastUpload": 1766867819246,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Trait",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -87050,7 +87883,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "33%",
+						"text": "30%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
@@ -87253,7 +88086,7 @@
 		"name": "The Perfect Fifth",
 		"itemHash": 1681583613,
 		"itemName": "Ergo Sum",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -87282,13 +88115,19 @@
 					},
 					{
 						"type": "numeric",
-						"text": "35%",
+						"text": "41%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " increased damage."
+						"text": " increased damage. While Transcendent, this increases to "
+					},
+					{
+						"type": "numeric",
+						"text": "78.5%.",
+						"isUnknown": true,
+						"isEstimate": false
 					}
 				]
 			},
@@ -87320,7 +88159,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "250",
+								"text": "237",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -87387,7 +88226,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "3",
+						"text": "5",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -87895,7 +88734,7 @@
 		"name": "Superconductor",
 		"itemHash": 3089417789,
 		"itemName": "Riskrunner",
-		"lastUpload": 1768768955912,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -88018,7 +88857,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "19",
+								"text": "22",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -88083,7 +88922,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "22",
+								"text": "28",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -90293,7 +91132,7 @@
 		"name": "Touch of Malice Catalyst",
 		"itemHash": 1802135586,
 		"itemName": "Touch of Malice",
-		"lastUpload": 1783637436090,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -93404,7 +94243,7 @@
 		"name": "Phase Converter",
 		"itemHash": 3725585710,
 		"itemName": "Lodestar",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Perk Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -93413,7 +94252,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "While Aiming Down Sights, this gun becomes a Rapid Fire Pulse Rifle and deals "
+						"text": "While Aiming Down Sights, this gun becomes a Rapid-Fire Pulse Rifle and deals "
 					},
 					{
 						"type": "numeric",
@@ -93465,7 +94304,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "395",
+								"text": "100",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -93488,11 +94327,11 @@
 					},
 					{
 						"type": "text",
-						"text": " damage in a "
+						"text": " damage in an "
 					},
 					{
 						"type": "numeric",
-						"text": "6",
+						"text": "8",
 						"isUnknown": false,
 						"isEstimate": true
 					},
@@ -93518,7 +94357,17 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds."
+						"text": " seconds. Damage falls to "
+					},
+					{
+						"type": "numeric",
+						"text": "0%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " at the edge of the radius."
 					}
 				]
 			}
@@ -94497,7 +95346,7 @@
 		"name": "Charge Shot",
 		"itemHash": 417164956,
 		"itemName": "Jötunn",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -94506,14 +95355,124 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Fires a single tracking projectile that detonates on impact and creates a burning pool of fire. Pool deals "
+						"text": "Fires a single tracking projectile that detonates on impact and creates a burning pool of fire."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Projectile deals "
 					},
 					{
 						"type": "pve",
 						"content": [
 							{
 								"type": "numeric",
-								"text": "31",
+								"text": "1184",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "?",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " impact damage and "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "269",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "?",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " explosive damage over "
+					},
+					{
+						"type": "numeric",
+						"text": "7",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meters. This is reduced to "
+					},
+					{
+						"type": "numeric",
+						"text": "0%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " damage at the edge of the radius."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Lingering pool deals "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "46",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -94568,7 +95527,7 @@
 		"name": "Ahamkara's Eye",
 		"itemHash": 2069224589,
 		"itemName": "One Thousand Voices",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -94597,7 +95556,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "25%",
+						"text": "31.6%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
@@ -96135,9 +97094,9 @@
 		"name": "Auto-Loading Link",
 		"itemHash": 1591207518,
 		"itemName": "Actium War Rig",
-		"lastUpload": 1766530840776,
+		"lastUpload": 1784020334214,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -96302,7 +97261,7 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds, each subsequent stack has a "
+						"text": " seconds, with each subsequent stack having a "
 					},
 					{
 						"type": "numeric",
@@ -96312,7 +97271,7 @@
 					},
 					{
 						"type": "text",
-						"text": " second shorter duration, with the "
+						"text": " second shorter duration. The "
 					},
 					{
 						"type": "numeric",
@@ -96322,7 +97281,7 @@
 					},
 					{
 						"type": "text",
-						"text": "th stack lasting "
+						"text": "th stack lasts "
 					},
 					{
 						"type": "numeric",
@@ -96332,7 +97291,7 @@
 					},
 					{
 						"type": "text",
-						"text": " second."
+						"text": " seconds."
 					}
 				]
 			}
@@ -97456,7 +98415,7 @@
 		"name": "EM Anomaly",
 		"itemHash": 3761898871,
 		"itemName": "Lorentz Driver",
-		"lastUpload": 1768768955912,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -97512,7 +98471,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "301",
+								"text": "341",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -97536,6 +98495,21 @@
 					{
 						"type": "text",
 						"text": " damage."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "For some 'large weight' enemies, they are pushed back instead."
 					}
 				]
 			}
@@ -102465,7 +103439,7 @@
 		"name": "Judgment",
 		"itemHash": 4103414242,
 		"itemName": "Divinity",
-		"lastUpload": 1783637436090,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -103261,22 +104235,7 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds grants a second Stack."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "line",
-				"content": [
-					{
-						"type": "text",
-						"text": "Buff can be activated while stowed. Exchanging damage refreshes the buff duration."
+						"text": " seconds grants a second Stack. Buff can be activated while stowed."
 					}
 				]
 			},
@@ -103415,52 +104374,6 @@
 				"type": "line",
 				"content": [
 					{
-						"type": "text",
-						"text": "Healing burst builds up while the weapon is readied at a rate of "
-					},
-					{
-						"type": "numeric",
-						"text": "5",
-						"isUnknown": false,
-						"isEstimate": true
-					},
-					{
-						"type": "text",
-						"text": " HP/s. The burst is released either every "
-					},
-					{
-						"type": "numeric",
-						"text": "7",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " seconds for a "
-					},
-					{
-						"type": "numeric",
-						"text": "35",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " HP heal or upon stowing the weapon, releasing the built-up health."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "line",
-				"isEnhanced": true,
-				"content": [
-					{
 						"type": "enhancedArrow",
 						"classNames": [
 							"enhancedArrow"
@@ -103479,6 +104392,195 @@
 					{
 						"type": "text",
 						"text": " seconds sooner."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Healing effect is bugged!"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isLabel": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "While Chaos Reshaped "
+					},
+					{
+						"type": "numeric",
+						"text": "x2",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " is active:"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Stowing the weapon or keeping it readied for "
+					},
+					{
+						"type": "numeric",
+						"text": "7",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds grants a continous healing effect of "
+					},
+					{
+						"type": "numeric",
+						"text": "5",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " HP per second."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Stowing this weapon grants the effect for "
+					},
+					{
+						"type": "numeric",
+						"text": "1",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " to "
+					},
+					{
+						"type": "numeric",
+						"text": "7",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds (cycling, it's complicated), while keeping it readied after activation makes the healing effectively constant."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "While this healing effect is active, "
+					},
+					{
+						"type": "text",
+						"text": "NO OTHER SOURCE OF HEALING CAN RESTORE THE FINAL [~"
+					},
+					{
+						"type": "numeric",
+						"text": "5",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " to "
+					},
+					{
+						"type": "numeric",
+						"text": "35",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " HP] OF YOUR HEALTH BAR!"
+					}
+				],
+				"classNames": [
+					"purple"
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "This unrecoverable HP segment can only be healed by Chaos Reshaped's "
+					},
+					{
+						"type": "numeric",
+						"text": "5",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": "/HPs effect."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "For more details, visit the perk description in the "
+					},
+					{
+						"type": "text",
+						"text": "Destiny Data Compendium"
+					},
+					{
+						"type": "text",
+						"text": "."
 					}
 				]
 			}
@@ -105914,7 +107016,7 @@
 		"name": "Business Time",
 		"itemHash": 1345867570,
 		"itemName": "Sweet Business",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -105985,7 +107087,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "51",
+								"text": "56",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -106404,7 +107506,7 @@
 		"name": "Mark of the Devourer",
 		"itemHash": 3973202132,
 		"itemName": "Thorn",
-		"lastUpload": 1783935545841,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -106450,7 +107552,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "26",
+								"text": "30",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -106512,7 +107614,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "10",
+						"text": "15",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -110670,7 +111772,7 @@
 		"name": "Unplanned Reprieve",
 		"itemHash": 2208405142,
 		"itemName": "Telesto",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -110679,7 +111781,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Fires seven bolts that deal impact damage and explode after "
+						"text": "Fires seven bolts that deal impact damage and then explode after "
 					},
 					{
 						"type": "numeric",
@@ -110693,8 +111795,8 @@
 					},
 					{
 						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
+						"text": "3",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
@@ -110714,7 +111816,72 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Due to repeated bugs and exploits, these bolts are now immune to all forms of premature destruction."
+						"text": "Due to repeated bugs and exploits, these bolts are immune to all forms of premature destruction."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Upon detonation, each bolt deals "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "236",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "47",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " damage in a "
+					},
+					{
+						"type": "numeric",
+						"text": "4",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meter radius, down to a minimum of "
+					},
+					{
+						"type": "numeric",
+						"text": "12.5%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " damage at the edge of the radius."
 					}
 				]
 			}
@@ -113824,7 +114991,82 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Aiming Down Sights consumes one ammo to fire single hit-scan projectiles that can deal precision damage."
+						"text": "Aiming Down Sights consumes one ammo to fire a single hit-scan projectile that can deal precision damage."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Projectile deals "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "243",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "40.25",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " bodyshot damage and "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "435",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "72",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " precision damage."
 					}
 				]
 			}
@@ -113845,7 +115087,82 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Aiming Down Sights consumes one ammo to fire single hit-scan projectiles that can deal precision damage."
+						"text": "Aiming Down Sights consumes one ammo to fire a single hit-scan projectile that can deal precision damage."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Projectile deals "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "243",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "40.25",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " bodyshot damage and "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "435",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "72",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " precision damage."
 					}
 				]
 			}
@@ -113866,7 +115183,82 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Aiming Down Sights consumes one ammo to fire single hit-scan projectiles that can deal precision damage."
+						"text": "Aiming Down Sights consumes one ammo to fire a single hit-scan projectile that can deal precision damage."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Projectile deals "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "243",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "40.25",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " bodyshot damage and "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "435",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "72",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " precision damage."
 					}
 				]
 			}
@@ -115060,7 +116452,7 @@
 		"name": "Loyal Moths",
 		"itemHash": 3821409356,
 		"itemName": "Ex Diris",
-		"lastUpload": 1768768955912,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -115134,7 +116526,17 @@
 					},
 					{
 						"type": "text",
-						"text": " damage and "
+						"text": " damage with a blast radius of "
+					},
+					{
+						"type": "numeric",
+						"text": "7",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meters and "
 					},
 					{
 						"type": "icon",
@@ -115994,7 +117396,7 @@
 		"name": "Thin the Herd",
 		"itemHash": 3549153978,
 		"itemName": "Fighting Lion",
-		"lastUpload": 1783637436090,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -116062,9 +117464,9 @@
 					},
 					{
 						"type": "numeric",
-						"text": "7",
+						"text": "7.5",
 						"isUnknown": false,
-						"isEstimate": true
+						"isEstimate": false
 					},
 					{
 						"type": "text",
@@ -116129,6 +117531,132 @@
 				]
 			}
 		]
+	},
+	"2005566727": {
+		"hash": 2005566727,
+		"name": "Nucleosynthetic Magazine",
+		"itemHash": 3821409356,
+		"itemName": "Ex Diris",
+		"lastUpload": 1784020334214,
+		"type": "Weapon Perk Exotic",
+		"uploadedBy": "Hawkmoona",
+		"descriptions": [
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Fires Hive-Knight "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"arc"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Arc Projectiles that deal "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "372",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "21",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " impact damage and "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "355",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "119",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " explosive damage in a "
+					},
+					{
+						"type": "numeric",
+						"text": "4.5",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meter radius."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Damage is decreased by "
+					},
+					{
+						"type": "numeric",
+						"text": "70%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " at the edge of the radius."
+					}
+				]
+			}
+		],
+		"definitions": []
 	},
 	"2010801679": {
 		"hash": 2010801679,
@@ -119865,7 +121393,7 @@
 		"name": "Charged with Blight",
 		"itemHash": 1802135586,
 		"itemName": "Touch of Malice",
-		"lastUpload": 1783935545841,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -119937,7 +121465,17 @@
 					},
 					{
 						"type": "text",
-						"text": "."
+						"text": ". Animation speed is scaled by reload stat. Entering this mode immediately triggers the "
+					},
+					{
+						"type": "numeric",
+						"text": "105",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " HP heal and health regeneration."
 					}
 				]
 			},
@@ -119959,7 +121497,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "208",
+								"text": "220",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -120012,14 +121550,14 @@
 					},
 					{
 						"type": "text",
-						"text": " meter radius. Poison deals "
+						"text": " meter radius. Corruption deals "
 					},
 					{
 						"type": "pve",
 						"content": [
 							{
 								"type": "numeric",
-								"text": "25",
+								"text": "27",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -123191,7 +124729,7 @@
 		"name": "Noble Rounds",
 		"itemHash": 3512014804,
 		"itemName": "Lumina",
-		"lastUpload": 1768768955912,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -123204,7 +124742,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "10",
+						"text": "15",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -123324,7 +124862,7 @@
 		"name": "Tri-Planar Mass Driver",
 		"itemHash": 2973900274,
 		"itemName": "Third Iteration",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -123358,7 +124896,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Aiming Down Sights tightens the spread."
+						"text": "Aiming Down Sights tightens the spread into a compressed high-damage shot."
 					}
 				]
 			}
@@ -124936,7 +126474,7 @@
 		"name": "Poison Arrows",
 		"itemHash": 3588934839,
 		"itemName": "Le Monarque",
-		"lastUpload": 1783637436090,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -124992,7 +126530,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "46",
+								"text": "70",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -125042,7 +126580,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "276",
+								"text": "420",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -125084,7 +126622,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "3",
+						"text": "5",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -130923,7 +132461,7 @@
 		"name": "Broadhead",
 		"itemHash": 814876684,
 		"itemName": "Wish-Ender",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -130964,7 +132502,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "125",
+								"text": "276",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -130987,7 +132525,7 @@
 					},
 					{
 						"type": "text",
-						"text": " damage and can deal Precision Damage. Broadhead deals "
+						"text": " damage, which is further increased by dealing Precision Damage. Broadhead deals "
 					},
 					{
 						"type": "pve",
@@ -131020,7 +132558,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "235",
+								"text": "444",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -131043,7 +132581,52 @@
 					},
 					{
 						"type": "text",
-						"text": " damage, and cannot deal Precision Damage."
+						"text": " damage, and is unaffected by Precision Damage."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "A single arrow can deal up to "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "1164",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "159",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " damage."
 					}
 				]
 			}
@@ -131238,7 +132821,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "33%",
+						"text": "30%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
@@ -131869,7 +133452,7 @@
 		"name": "Harsh Truths",
 		"itemHash": 3628991659,
 		"itemName": "Vigilance Wing",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -131885,6 +133468,21 @@
 					{
 						"type": "text",
 						"text": "-Round Burst Pulse Rifle."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "This weapon has deterministic recoil."
 					}
 				]
 			},
@@ -138229,7 +139827,7 @@
 		"name": "Amalgamation Rounds",
 		"itemHash": 2973900274,
 		"itemName": "Third Iteration",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -138364,6 +139962,81 @@
 					{
 						"type": "text",
 						"text": " increased Amalgamation Round damage to marked targets"
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Defeating a marked target with this gun or scoring a precision kill with an Amalgamation Round grants "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"void"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Void Invisibility for "
+					},
+					{
+						"type": "numeric",
+						"text": "7",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds ("
+					},
+					{
+						"type": "numeric",
+						"text": "10.5",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " with "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"void"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Echo of Persistence) and "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"void"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Truesight for "
+					},
+					{
+						"type": "numeric",
+						"text": "4",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds."
 					}
 				]
 			}
@@ -144729,7 +146402,7 @@
 	"2565067140": {
 		"hash": 2565067140,
 		"name": "Head Rush",
-		"lastUpload": 1783446631691,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Trait Origin",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -144739,7 +146412,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Upon standing up after crouching for "
+						"text": "Upon sliding, or upon standing up after having crouched for "
 					},
 					{
 						"type": "numeric",
@@ -144810,7 +146483,7 @@
 		"name": "Nightsworn Sight",
 		"itemHash": 1047932517,
 		"itemName": "Slayer's Fang",
-		"lastUpload": 1783637436090,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -144890,7 +146563,17 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Nightsworn Sight grants the following benefits:"
+						"text": "Nightsworn Sight grants "
+					},
+					{
+						"type": "numeric",
+						"text": "?",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Reload speed and the following benefits:"
 					}
 				]
 			},
@@ -144982,7 +146665,27 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds and bounce "
+						"text": " seconds"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "Submunitions deal "
+					},
+					{
+						"type": "numeric",
+						"text": "18%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " decreased damage and bounce "
 					},
 					{
 						"type": "numeric",
@@ -144992,23 +146695,7 @@
 					},
 					{
 						"type": "text",
-						"text": " additional time"
-					}
-				]
-			},
-			{
-				"type": "line",
-				"isListItem": true,
-				"content": [
-					{
-						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " Reload Speed"
+						"text": " additional time."
 					}
 				]
 			},
@@ -147471,7 +149158,7 @@
 		"name": "Heart Piercer",
 		"itemHash": 1047932517,
 		"itemName": "Slayer's Fang",
-		"lastUpload": 1783637436090,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -147497,7 +149184,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "88",
+								"text": "99",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -147889,7 +149576,7 @@
 		"name": "Absorption Cells",
 		"itemHash": 2732820041,
 		"itemName": "Mantle of Battle Harmony",
-		"lastUpload": 1783935545841,
+		"lastUpload": 1784020334214,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -147899,7 +149586,17 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Kills with Weapons matching your Super Element grant Super Energy based on "
+						"text": "Kills or scoring "
+					},
+					{
+						"type": "numeric",
+						"text": "5",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " hits with Weapons matching your Super Element grant Super Energy based on "
 					},
 					{
 						"type": "text",
@@ -148230,7 +149927,37 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Harmonic Munitions causes weapons that are the same element as your super to trigger an element-matching explosion on hit. Explosions deal damage in a "
+						"text": "Harmonic Munitions causes weapons that are the same element as your super to trigger an element-matching explosion on hit. Explosions deal "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "180",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "?",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " damage in a "
 					},
 					{
 						"type": "numeric",
@@ -150648,7 +152375,37 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds. Enemies that come into contact with any wire are "
+						"text": " seconds. Enemies that come into contact with any wire take "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "341",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "5",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " damage and are "
 					},
 					{
 						"type": "icon",
@@ -150658,7 +152415,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Suspended, and each wire can Suspend up to "
+						"text": "Suspended. Each wire can Suspend up to "
 					},
 					{
 						"type": "numeric",
@@ -150953,7 +152710,37 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds. Enemies that come into contact with any wire are "
+						"text": " seconds. Enemies that come into contact with any wire take "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "341",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "5",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " damage and are "
 					},
 					{
 						"type": "icon",
@@ -150963,7 +152750,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Suspended, and each wire can Suspend up to "
+						"text": "Suspended. Each wire can Suspend up to "
 					},
 					{
 						"type": "numeric",
@@ -151258,7 +153045,37 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds. Enemies that come into contact with any wire are "
+						"text": " seconds. Enemies that come into contact with any wire take "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "341",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "5",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " damage and are "
 					},
 					{
 						"type": "icon",
@@ -151268,7 +153085,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Suspended, and each wire can Suspend up to "
+						"text": "Suspended. Each wire can Suspend up to "
 					},
 					{
 						"type": "numeric",
@@ -156199,7 +158016,7 @@
 		"name": "Touch of Malice",
 		"itemHash": 1802135586,
 		"itemName": "Touch of Malice",
-		"lastUpload": 1783637436090,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -156230,7 +158047,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "154%",
+								"text": "132%",
 								"isUnknown": true,
 								"isEstimate": false
 							}
@@ -157709,7 +159526,7 @@
 	"2733244971": {
 		"hash": 2733244971,
 		"name": "Trinary Vision",
-		"lastUpload": 1768710027464,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -157759,31 +159576,47 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Each projectile does the full damage of a legendary wave-frame and reaches "
+						"text": "Each projectile deals "
 					},
 					{
-						"type": "numeric",
-						"text": "45%",
-						"isUnknown": true,
-						"isEstimate": false
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "581",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
 					},
 					{
 						"type": "text",
-						"text": " further (up to ~"
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "?",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " damage and travels "
 					},
 					{
 						"type": "numeric",
-						"text": "22",
+						"text": "12",
 						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " meters)"
-					},
-					{
-						"type": "text",
-						"text": "."
+						"text": " meters across the ground."
 					}
 				]
 			}
@@ -157940,7 +159773,7 @@
 		"name": "Slug Rifle",
 		"itemHash": 4255268456,
 		"itemName": "Skyburner's Oath",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -157949,17 +159782,57 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Hip-fired shots become slow traveling projectiles that deal splash damage in a "
+						"text": "Hip-fired shots become slow traveling projectiles that deal up to "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "55",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "?",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " splash damage in a "
 					},
 					{
 						"type": "numeric",
-						"text": "4",
+						"text": "3.5",
 						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " meter radius and apply "
+						"text": " meter radius, down to "
+					},
+					{
+						"type": "numeric",
+						"text": "0%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " at the edge of the radius, and apply "
 					},
 					{
 						"type": "numeric",
@@ -158022,7 +159895,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "2",
+						"text": "3",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -158758,7 +160631,7 @@
 		"name": "Fan Fire",
 		"itemHash": 1364093401,
 		"itemName": "The Last Word",
-		"lastUpload": 1768768955912,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -158770,10 +160643,30 @@
 						"text": "Hip-Fired Precision Hits deal "
 					},
 					{
-						"type": "numeric",
-						"text": "30%",
-						"isUnknown": true,
-						"isEstimate": false
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "88%",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "?",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
 					},
 					{
 						"type": "text",
@@ -160852,7 +162745,7 @@
 		"name": "Silkbound Slayer",
 		"itemHash": 2910326942,
 		"itemName": "Wish-Keeper",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -169119,7 +171012,7 @@
 		"name": "Mortal Polarity",
 		"itemHash": 2603483885,
 		"itemName": "Cloudstrike",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -169135,7 +171028,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "588",
+								"text": "973",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -169162,7 +171055,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "5",
+						"text": "7",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -169189,6 +171082,31 @@
 					{
 						"type": "text",
 						"text": "Bolt Charge."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Lightning strike has damage falloff and deals "
+					},
+					{
+						"type": "numeric",
+						"text": "0%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " damage at the edge of its radius."
 					}
 				]
 			}
@@ -169326,7 +171244,17 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Nightsworn Sight grants the following benefits:"
+						"text": "Nightsworn Sight grants "
+					},
+					{
+						"type": "numeric",
+						"text": "?",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Reload speed and the following benefits:"
 					}
 				]
 			},
@@ -169418,7 +171346,27 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds and bounce "
+						"text": " seconds"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "Submunitions deal "
+					},
+					{
+						"type": "numeric",
+						"text": "18%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " decreased damage and bounce "
 					},
 					{
 						"type": "numeric",
@@ -169428,23 +171376,7 @@
 					},
 					{
 						"type": "text",
-						"text": " additional time"
-					}
-				]
-			},
-			{
-				"type": "line",
-				"isListItem": true,
-				"content": [
-					{
-						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " Reload Speed"
+						"text": " additional time."
 					}
 				]
 			},
@@ -169551,7 +171483,17 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Nightsworn Sight grants the following benefits:"
+						"text": "Nightsworn Sight grants "
+					},
+					{
+						"type": "numeric",
+						"text": "?",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Reload speed and the following benefits:"
 					}
 				]
 			},
@@ -169643,7 +171585,27 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds and bounce "
+						"text": " seconds"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "Submunitions deal "
+					},
+					{
+						"type": "numeric",
+						"text": "18%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " decreased damage and bounce "
 					},
 					{
 						"type": "numeric",
@@ -169653,23 +171615,7 @@
 					},
 					{
 						"type": "text",
-						"text": " additional time"
-					}
-				]
-			},
-			{
-				"type": "line",
-				"isListItem": true,
-				"content": [
-					{
-						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " Reload Speed"
+						"text": " additional time."
 					}
 				]
 			},
@@ -169776,7 +171722,17 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Nightsworn Sight grants the following benefits:"
+						"text": "Nightsworn Sight grants "
+					},
+					{
+						"type": "numeric",
+						"text": "?",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Reload speed and the following benefits:"
 					}
 				]
 			},
@@ -169868,7 +171824,27 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds and bounce "
+						"text": " seconds"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "Submunitions deal "
+					},
+					{
+						"type": "numeric",
+						"text": "18%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " decreased damage and bounce "
 					},
 					{
 						"type": "numeric",
@@ -169878,23 +171854,7 @@
 					},
 					{
 						"type": "text",
-						"text": " additional time"
-					}
-				]
-			},
-			{
-				"type": "line",
-				"isListItem": true,
-				"content": [
-					{
-						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " Reload Speed"
+						"text": " additional time."
 					}
 				]
 			},
@@ -172152,7 +174112,7 @@
 		"name": "Command Frame",
 		"itemHash": 3698448090,
 		"itemName": "Choir of One",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -172161,7 +174121,82 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Aiming Down Sights consumes one ammo to fire single hit-scan projectiles that can deal precision damage."
+						"text": "Aiming Down Sights consumes one ammo to fire a single hit-scan projectile that can deal precision damage."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Projectile deals "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "243",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "40.25",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " bodyshot damage and "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "435",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "72",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " precision damage."
 					}
 				]
 			}
@@ -173837,7 +175872,7 @@
 		"name": "Full Stop",
 		"itemHash": 2179048386,
 		"itemName": "Forerunner",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -173857,6 +175892,21 @@
 					{
 						"type": "text",
 						"text": " increased Precision Damage to PvE Combatants."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Aim well."
 					}
 				]
 			}
@@ -176088,7 +178138,7 @@
 		"name": "Sacred Flame",
 		"itemHash": 1681583613,
 		"itemName": "Ergo Sum",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -176119,7 +178169,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "150",
+								"text": "136",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -176146,13 +178196,28 @@
 					},
 					{
 						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
+						"text": "5",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
 						"text": " meter radius."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Sacred Flame does not recieve the Ergo Sum Transcendence damage buff."
 					}
 				]
 			}
@@ -179179,7 +181244,7 @@
 		"name": "Stormbringer",
 		"itemHash": 2603483885,
 		"itemName": "Cloudstrike",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -179272,7 +181337,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "588",
+								"text": "973",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -179299,7 +181364,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "5",
+						"text": "7",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -179338,7 +181403,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "353",
+								"text": "584",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -179361,7 +181426,17 @@
 					},
 					{
 						"type": "text",
-						"text": " damage in a spread-X pattern."
+						"text": " damage in a spread-X pattern in a "
+					},
+					{
+						"type": "numeric",
+						"text": "5",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meter radius."
 					}
 				]
 			},
@@ -179376,7 +181451,17 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Enemies can only take damage from the storm once."
+						"text": "Lightning storm staggers enemies and deals "
+					},
+					{
+						"type": "numeric",
+						"text": "25%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " damage at the edge of its radius. Enemies can only take damage from the storm once."
 					}
 				]
 			},
@@ -179880,7 +181965,7 @@
 		"name": "Grenade Chaser",
 		"itemHash": 4293613902,
 		"itemName": "Quicksilver Storm",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -179950,7 +182035,7 @@
 							},
 							{
 								"type": "numeric",
-								"text": "201",
+								"text": "308",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -179977,13 +182062,23 @@
 					},
 					{
 						"type": "numeric",
-						"text": "4",
+						"text": "5",
 						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " meter radius with no self-damage."
+						"text": " meter radius with up to "
+					},
+					{
+						"type": "numeric",
+						"text": "30%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " fall off at the edges. Grenades deal no self-damage."
 					}
 				]
 			}
@@ -181383,10 +183478,55 @@
 		"name": "Looks Can Kill",
 		"itemHash": 3524313097,
 		"itemName": "Eriana's Vow",
-		"lastUpload": 1783637436090,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Fires single high-caliber rounds that deal "
+					},
+					{
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "1078",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "123",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " precision damage at base."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
 			{
 				"type": "line",
 				"content": [
@@ -181863,7 +184003,7 @@
 		"name": "Corrupted Nucleosynthesis",
 		"itemHash": 3821409356,
 		"itemName": "Ex Diris",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -184534,17 +186674,17 @@
 					},
 					{
 						"type": "text",
-						"text": " RPM and deals splash damage in a "
+						"text": " RPM and deals explosive splash damage in a "
 					},
 					{
 						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
+						"text": "3",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " meter radius"
+						"text": " meter radius."
 					}
 				]
 			},
@@ -184718,17 +186858,17 @@
 					},
 					{
 						"type": "text",
-						"text": " RPM and deals splash damage in a "
+						"text": " RPM and deals explosive splash damage in a "
 					},
 					{
 						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
+						"text": "3",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " meter radius"
+						"text": " meter radius."
 					}
 				]
 			},
@@ -184902,17 +187042,17 @@
 					},
 					{
 						"type": "text",
-						"text": " RPM and deals splash damage in a "
+						"text": " RPM and deals explosive splash damage in a "
 					},
 					{
 						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
+						"text": "3",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " meter radius"
+						"text": " meter radius."
 					}
 				]
 			},
@@ -185002,7 +187142,7 @@
 		"name": "Sacred Flame",
 		"itemHash": 3260753130,
 		"itemName": "Ticuu's Divination",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -185073,7 +187213,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "204",
+								"text": "295",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -185100,13 +187240,38 @@
 					},
 					{
 						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
+						"text": "5.5",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
 						"text": " meter radius. If a Sacred Flame explosion hits other marked enemies, they too explode."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Sacred Flame explosions are reduced by "
+					},
+					{
+						"type": "numeric",
+						"text": "50%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " damage at the edge of their radius."
 					}
 				]
 			}
@@ -190049,7 +192214,7 @@
 		"name": "Insectoid Robot Grenades",
 		"itemHash": 1681583613,
 		"itemName": "Ergo Sum",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -190058,34 +192223,14 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Kills spawn a seeking Insectoid Robot that hunts enemies within a "
-					},
-					{
-						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " meter radius for "
-					},
-					{
-						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " seconds. Detonates for "
+						"text": "Kills spawn a seeking Insectoid Robot that hunts enemies. Detonates for "
 					},
 					{
 						"type": "pve",
 						"content": [
 							{
 								"type": "numeric",
-								"text": "301",
+								"text": "284",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -190108,7 +192253,17 @@
 					},
 					{
 						"type": "text",
-						"text": " damage on impact."
+						"text": " damage on impact in a "
+					},
+					{
+						"type": "numeric",
+						"text": "3",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " meter radius."
 					}
 				]
 			}
@@ -195256,7 +197411,7 @@
 		"name": "Huckleberry Catalyst",
 		"itemHash": 2286143274,
 		"itemName": "The Huckleberry",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -195268,6 +197423,12 @@
 						"type": "text",
 						"text": "Grants the Kinetic Tremors trait:"
 					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
 				]
 			},
 			{
@@ -195295,22 +197456,7 @@
 					},
 					{
 						"type": "text",
-						"text": " damaging shockwaves from its location at the time of activation. Hit counter persists through stow."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "line",
-				"content": [
-					{
-						"type": "text",
-						"text": "Shockwaves appear "
+						"text": " damaging shockwaves from its location at the time of activation. Shockwaves appear "
 					},
 					{
 						"type": "numeric",
@@ -195330,153 +197476,7 @@
 					},
 					{
 						"type": "text",
-						"text": " second delay between each pulse. With Bows, the initial delay is decreased to "
-					},
-					{
-						"type": "numeric",
-						"text": "0.167",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " seconds."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "line",
-				"content": [
-					{
-						"type": "text",
-						"text": "Each shockwave deals up to "
-					},
-					{
-						"type": "pve",
-						"content": [
-							{
-								"type": "numeric",
-								"text": "90",
-								"isUnknown": false,
-								"isEstimate": false
-							}
-						]
-					},
-					{
-						"type": "text",
-						"text": " "
-					},
-					{
-						"type": "pvp",
-						"content": [
-							{
-								"type": "numeric",
-								"text": "20",
-								"isUnknown": false,
-								"isEstimate": false
-							}
-						]
-					},
-					{
-						"type": "text",
-						"text": " damage in a "
-					},
-					{
-						"type": "numeric",
-						"text": "6",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " meter radius. Shockwaves deal "
-					},
-					{
-						"type": "numeric",
-						"text": "33.33%",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " more damage when activated on "
-					},
-					{
-						"type": "text",
-						"text": "Miniboss or higher tier"
-					},
-					{
-						"type": "text",
-						"text": " PvE Combatants."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "line",
-				"content": [
-					{
-						"type": "text",
-						"text": "Shockwaves inherit Weapon Damage Buffs, the weapon's passive Kinetic Damage Bonus in PVE ("
-					},
-					{
-						"type": "numeric",
-						"text": "10%",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " on "
-					},
-					{
-						"type": "icon",
-						"classNames": [
-							"primary"
-						]
-					},
-					{
-						"type": "text",
-						"text": "Primary, "
-					},
-					{
-						"type": "numeric",
-						"text": "15%",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " on "
-					},
-					{
-						"type": "icon",
-						"classNames": [
-							"special"
-						]
-					},
-					{
-						"type": "text",
-						"text": "Special), and its "
-					},
-					{
-						"type": "text",
-						"text": "Combatant Damage Scaling"
-					},
-					{
-						"type": "text",
-						"text": ". They also count as non-direct Hits with the weapon for other interactions."
+						"text": " second delay between each pulse. Shockwaves inherit Weapon Damage Buffs."
 					}
 				]
 			},
@@ -195513,237 +197513,62 @@
 			},
 			{
 				"type": "line",
-				"isLabel": true,
 				"content": [
 					{
 						"type": "text",
-						"text": "Hits required for Activation:"
-					}
-				]
-			},
-			{
-				"type": "labelledLine",
-				"label": [
-					{
-						"type": "text",
-						"text": "Submachine Guns"
+						"text": "For The Huckleberry, these shockwaves activate after "
 					},
-					{
-						"type": "text",
-						"text": ": "
-					}
-				],
-				"value": [
 					{
 						"type": "numeric",
 						"text": "14",
 						"isUnknown": false,
 						"isEstimate": false
-					}
-				],
-				"isListItem": true
-			},
-			{
-				"type": "labelledLine",
-				"label": [
-					{
-						"type": "text",
-						"text": "Auto Rifles"
 					},
 					{
 						"type": "text",
-						"text": ": "
-					}
-				],
-				"value": [
+						"text": " hits. Each shockwave deals "
+					},
 					{
-						"type": "numeric",
-						"text": "12",
-						"isUnknown": false,
-						"isEstimate": false
-					}
-				],
-				"isListItem": true
-			},
-			{
-				"type": "labelledLine",
-				"label": [
-					{
-						"type": "text",
-						"text": "Pulse Rifles"
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "215",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
 					},
 					{
 						"type": "text",
-						"text": ": "
-					}
-				],
-				"value": [
+						"text": " "
+					},
 					{
-						"type": "numeric",
-						"text": "11",
-						"isUnknown": false,
-						"isEstimate": false
-					}
-				],
-				"isListItem": true
-			},
-			{
-				"type": "labelledLine",
-				"label": [
-					{
-						"type": "text",
-						"text": "Non-burst Sidearms"
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "20",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
 					},
 					{
 						"type": "text",
-						"text": ": "
-					}
-				],
-				"value": [
-					{
-						"type": "numeric",
-						"text": "8",
-						"isUnknown": false,
-						"isEstimate": false
-					}
-				],
-				"isListItem": true
-			},
-			{
-				"type": "labelledLine",
-				"label": [
-					{
-						"type": "text",
-						"text": "Hand Cannons, Scout Rifles"
+						"text": " damage in a "
 					},
-					{
-						"type": "text",
-						"text": ": "
-					}
-				],
-				"value": [
-					{
-						"type": "numeric",
-						"text": "5",
-						"isUnknown": false,
-						"isEstimate": false
-					}
-				],
-				"isListItem": true
-			},
-			{
-				"type": "labelledLine",
-				"label": [
-					{
-						"type": "text",
-						"text": "Bows, Sniper Rifles"
-					},
-					{
-						"type": "text",
-						"text": ": "
-					}
-				],
-				"value": [
-					{
-						"type": "numeric",
-						"text": "3",
-						"isUnknown": false,
-						"isEstimate": false
-					}
-				],
-				"isListItem": true
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "line",
-				"isLabel": true,
-				"content": [
-					{
-						"type": "text",
-						"text": "Frames-specific Hit requirements:"
-					}
-				]
-			},
-			{
-				"type": "labelledLine",
-				"label": [
-					{
-						"type": "text",
-						"text": "High-Impact Auto Rifles"
-					},
-					{
-						"type": "text",
-						"text": ": "
-					}
-				],
-				"value": [
-					{
-						"type": "numeric",
-						"text": "9",
-						"isUnknown": false,
-						"isEstimate": false
-					}
-				],
-				"isListItem": true
-			},
-			{
-				"type": "labelledLine",
-				"label": [
-					{
-						"type": "text",
-						"text": "Precision Hand Cannons and Precision Scout Rifles"
-					},
-					{
-						"type": "text",
-						"text": ": "
-					}
-				],
-				"value": [
 					{
 						"type": "numeric",
 						"text": "6",
 						"isUnknown": false,
 						"isEstimate": false
-					}
-				],
-				"isListItem": true
-			},
-			{
-				"type": "labelledLine",
-				"label": [
-					{
-						"type": "text",
-						"text": "Aggressive ("
-					},
-					{
-						"type": "numeric",
-						"text": "120",
-						"isUnknown": false,
-						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " RPM) Hand Cannons"
-					},
-					{
-						"type": "text",
-						"text": ": "
+						"text": " meter radius and scales with its improved version of Rampage."
 					}
-				],
-				"value": [
-					{
-						"type": "numeric",
-						"text": "4",
-						"isUnknown": false,
-						"isEstimate": false
-					}
-				],
-				"isListItem": true
+				]
 			}
 		],
 		"definitions": []
@@ -197869,7 +199694,7 @@
 		"name": "Restorative Turret",
 		"itemHash": 14194600,
 		"itemName": "Edge of Intent",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -198045,6 +199870,97 @@
 					{
 						"type": "text",
 						"text": " meter radius"
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "If "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Touch of Flame is equipped, the turret grants "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Cure "
+					},
+					{
+						"type": "numeric",
+						"text": "x2",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " and "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Restoration "
+					},
+					{
+						"type": "numeric",
+						"text": "x2",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " for "
+					},
+					{
+						"type": "numeric",
+						"text": "6",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds ("
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "numeric",
+						"text": "9",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " with Ember of Solace)"
 					}
 				]
 			}
@@ -200862,7 +202778,7 @@
 		"name": "Time-Slip",
 		"itemHash": 1594120904,
 		"itemName": "No Time to Explain",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -200947,7 +202863,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "46.1",
+								"text": "49.1",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -200989,7 +202905,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "40",
+						"text": "50",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -202766,7 +204682,7 @@
 		"name": "Missile Tracers",
 		"itemHash": 4293613902,
 		"itemName": "Quicksilver Storm",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -202817,7 +204733,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "148",
+								"text": "160",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -202921,7 +204837,7 @@
 		"name": "Timeless Mythoclast",
 		"itemHash": 4289226715,
 		"itemName": "Vex Mythoclast",
-		"lastUpload": 1783637436090,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -202992,7 +204908,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Unlike traditional Rewind Rounds, this has no cooldown."
+						"text": "Unlike traditional Rewind Rounds, this refill has no cooldown."
 					}
 				]
 			}
@@ -204350,7 +206266,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "60",
+								"text": "77",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -204496,7 +206412,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "60",
+								"text": "77",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -204642,7 +206558,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "60",
+								"text": "77",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -204710,9 +206626,9 @@
 	"3640170453": {
 		"hash": 3640170453,
 		"name": "Chaos Reshaped",
-		"lastUpload": 1723480728683,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Trait",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -204749,22 +206665,7 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds grants a second Stack."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "line",
-				"content": [
-					{
-						"type": "text",
-						"text": "Buff can be activated while stowed. Exchanging damage refreshes the buff duration."
+						"text": " seconds grants a second Stack. Buff can be activated while stowed."
 					}
 				]
 			},
@@ -204904,17 +206805,36 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Healing burst builds up while the weapon is readied at a rate of "
+						"text": "Healing effect is bugged!"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isLabel": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "While Chaos Reshaped "
 					},
 					{
 						"type": "numeric",
-						"text": "5",
-						"isUnknown": false,
-						"isEstimate": true
+						"text": "x2",
+						"isUnknown": true,
+						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " HP/s. The burst is released either every "
+						"text": " is active:"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Stowing the weapon or keeping it readied for "
 					},
 					{
 						"type": "numeric",
@@ -204924,7 +206844,81 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds for a "
+						"text": " seconds grants a continous healing effect of "
+					},
+					{
+						"type": "numeric",
+						"text": "5",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " HP per second."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Stowing this weapon grants the effect for "
+					},
+					{
+						"type": "numeric",
+						"text": "1",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " to "
+					},
+					{
+						"type": "numeric",
+						"text": "7",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds (cycling, it's complicated), while keeping it readied after activation makes the healing effectively constant."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "While this healing effect is active, "
+					},
+					{
+						"type": "text",
+						"text": "NO OTHER SOURCE OF HEALING CAN RESTORE THE FINAL [~"
+					},
+					{
+						"type": "numeric",
+						"text": "5",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " to "
 					},
 					{
 						"type": "numeric",
@@ -204934,7 +206928,58 @@
 					},
 					{
 						"type": "text",
-						"text": " HP heal or upon stowing the weapon, releasing the built-up health."
+						"text": " HP] OF YOUR HEALTH BAR!"
+					}
+				],
+				"classNames": [
+					"purple"
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "This unrecoverable HP segment can only be healed by Chaos Reshaped's "
+					},
+					{
+						"type": "numeric",
+						"text": "5",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": "/HPs effect."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "For more details, visit the perk description in the "
+					},
+					{
+						"type": "text",
+						"text": "Destiny Data Compendium"
+					},
+					{
+						"type": "text",
+						"text": "."
 					}
 				]
 			}
@@ -211504,7 +213549,7 @@
 		"name": "Payday",
 		"itemHash": 1345867570,
 		"itemName": "Sweet Business",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -211513,27 +213558,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Collecting "
-					},
-					{
-						"type": "icon",
-						"classNames": [
-							"special"
-						]
-					},
-					{
-						"type": "text",
-						"text": "Special or "
-					},
-					{
-						"type": "icon",
-						"classNames": [
-							"heavy"
-						]
-					},
-					{
-						"type": "text",
-						"text": "Heavy Ammo "
+						"text": "Collecting an Ammo Brick "
 					},
 					{
 						"type": "definitionReference",
@@ -214719,7 +216744,7 @@
 		"name": "Hunter's Trace",
 		"itemHash": 1473821207,
 		"itemName": "Revision Zero",
-		"lastUpload": 1783637436090,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -214817,7 +216842,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "1671.6",
+								"text": "1833",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -214862,7 +216887,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "280",
+								"text": "322",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -214885,13 +216910,23 @@
 					},
 					{
 						"type": "text",
-						"text": " damage Kinetic Shockwave that applies Exhaust in a "
+						"text": " damage Kinetic Shockwave that applies Exhaust for "
+					},
+					{
+						"type": "numeric",
+						"text": "5",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds in a "
 					},
 					{
 						"type": "numeric",
 						"text": "6",
 						"isUnknown": false,
-						"isEstimate": true
+						"isEstimate": false
 					},
 					{
 						"type": "text",
@@ -220538,7 +222573,7 @@
 		"name": "On Black Wings",
 		"itemHash": 3460576091,
 		"itemName": "Duality",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -220658,7 +222693,41 @@
 					},
 					{
 						"type": "text",
-						"text": " increased precision damage"
+						"text": " increased Slug Precision damage"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"isListItem": true,
+				"content": [
+					{
+						"type": "numeric",
+						"text": "3.5%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "8.8%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "12.4%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " increased Pellet Precision Damage"
 					}
 				]
 			},
@@ -221229,7 +223298,7 @@
 		"name": "Arc Conductor",
 		"itemHash": 1681583613,
 		"itemName": "Ergo Sum",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -221317,7 +223386,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "1.5",
+						"text": "0.25",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -221330,7 +223399,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "180",
+								"text": "171",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -221353,7 +223422,17 @@
 					},
 					{
 						"type": "text",
-						"text": " damage per tick."
+						"text": " damage per tick. On single targets, a bonus second tick triggers every "
+					},
+					{
+						"type": "numeric",
+						"text": "1.5",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " seconds."
 					}
 				]
 			},
@@ -229974,7 +232053,7 @@
 		"name": "Touch of Venom",
 		"itemHash": 2757274117,
 		"itemName": "Khepri's Sting",
-		"lastUpload": 1767665829609,
+		"lastUpload": 1784020334214,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -229983,7 +232062,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Requires "
+						"text": "Requires a "
 					},
 					{
 						"type": "icon",
@@ -229993,7 +232072,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Smoke Bomb to be equipped to function."
+						"text": "Void Melee to be equipped in order to function."
 					}
 				]
 			},
@@ -230235,7 +232314,7 @@
 		"name": "Sun Blast",
 		"itemHash": 2907129557,
 		"itemName": "Sunshot",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -230251,7 +232330,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "409",
+								"text": "432",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -230314,13 +232393,38 @@
 					},
 					{
 						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
+						"text": "6",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
 						"text": " meter radius."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Explosion damage falls to "
+					},
+					{
+						"type": "numeric",
+						"text": "40%",
+						"isUnknown": true,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " at the edge of its radius."
 					}
 				]
 			},
@@ -231208,31 +233312,47 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Each projectile does the full damage of a legendary wave-frame and reaches "
+						"text": "Each projectile deals "
 					},
 					{
-						"type": "numeric",
-						"text": "45%",
-						"isUnknown": true,
-						"isEstimate": false
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "581",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
 					},
 					{
 						"type": "text",
-						"text": " further (up to ~"
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "?",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " damage and travels "
 					},
 					{
 						"type": "numeric",
-						"text": "22",
+						"text": "12",
 						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " meters)"
-					},
-					{
-						"type": "text",
-						"text": "."
+						"text": " meters across the ground."
 					}
 				]
 			}
@@ -231294,31 +233414,47 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Each projectile does the full damage of a legendary wave-frame and reaches "
+						"text": "Each projectile deals "
 					},
 					{
-						"type": "numeric",
-						"text": "45%",
-						"isUnknown": true,
-						"isEstimate": false
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "581",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
 					},
 					{
 						"type": "text",
-						"text": " further (up to ~"
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "?",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " damage and travels "
 					},
 					{
 						"type": "numeric",
-						"text": "22",
+						"text": "12",
 						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " meters)"
-					},
-					{
-						"type": "text",
-						"text": "."
+						"text": " meters across the ground."
 					}
 				]
 			}
@@ -231380,31 +233516,47 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Each projectile does the full damage of a legendary wave-frame and reaches "
+						"text": "Each projectile deals "
 					},
 					{
-						"type": "numeric",
-						"text": "45%",
-						"isUnknown": true,
-						"isEstimate": false
+						"type": "pve",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "581",
+								"isUnknown": false,
+								"isEstimate": false
+							}
+						]
 					},
 					{
 						"type": "text",
-						"text": " further (up to ~"
+						"text": " "
+					},
+					{
+						"type": "pvp",
+						"content": [
+							{
+								"type": "numeric",
+								"text": "?",
+								"isUnknown": true,
+								"isEstimate": false
+							}
+						]
+					},
+					{
+						"type": "text",
+						"text": " damage and travels "
 					},
 					{
 						"type": "numeric",
-						"text": "22",
+						"text": "12",
 						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " meters)"
-					},
-					{
-						"type": "text",
-						"text": "."
+						"text": " meters across the ground."
 					}
 				]
 			}
@@ -233338,7 +235490,7 @@
 		"name": "Cursebringer",
 		"itemHash": 1034055198,
 		"itemName": "Necrochasm",
-		"lastUpload": 1783935545841,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -233404,7 +235556,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "581",
+								"text": "630",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -233437,17 +235589,17 @@
 					},
 					{
 						"type": "text",
-						"text": "Arc damage and inflict Corruption (Poison) within a "
+						"text": "Arc damage and inflict Corruption (Poison) over an "
 					},
 					{
 						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
+						"text": "8",
+						"isUnknown": false,
 						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": " meter radius. Poison lasts for "
+						"text": " meter radius. Corruption lasts for "
 					},
 					{
 						"type": "numeric",
@@ -233464,7 +235616,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "10",
+								"text": "18",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -233539,7 +235691,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Cursed Thrall Explosion and Poison inherit the weapon's "
+						"text": "Cursed Thrall Explosion and Corruption inherit the weapon's "
 					},
 					{
 						"type": "text",
@@ -233577,7 +235729,7 @@
 		"name": "Revolution",
 		"itemHash": 4017959782,
 		"itemName": "Symmetry",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -233618,7 +235770,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "70",
+								"text": "76",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -233652,6 +235804,169 @@
 					{
 						"type": "text",
 						"text": " meter radius."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"isLabel": true,
+				"content": [
+					{
+						"type": "text",
+						"text": "Special Note:"
+					}
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "icon",
+						"classNames": [
+							"arc"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Bolt Charge that is discharged through "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"arc"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Arc Seeker hits counts as 'Scout Rifle Weapon Damage' and benefits from all increases that apply to this damage type. This allows the "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"arc"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Bolt Charge detonations to scale both with traditional weapon damage buffs (like "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Radiant and Surges) and with Combatant Scalars."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "Furthermore, hits that would discharge "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"arc"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Bolt Charge anyway (such as hits behind a "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"arc"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Storm's Keep barricade or hits as the caster of a "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"solar"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Well of Radiance) cause "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"arc"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Bolt Charge to discharge twice, with one buffed as weapon damage and the other being a regular discharge."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "This damage increase to "
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"arc"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Bolt Charge can be further compounded by the "
+					},
+					{
+						"type": "text",
+						"text": "Flashover"
+					},
+					{
+						"type": "text",
+						"text": " Artifact Mod from the "
+					},
+					{
+						"type": "text",
+						"text": "Tablet of Ruin"
+					},
+					{
+						"type": "text",
+						"text": ", which adds a multiplicative "
+					},
+					{
+						"type": "numeric",
+						"text": "50%.",
+						"isUnknown": true,
+						"isEstimate": false
 					}
 				]
 			}
@@ -235477,7 +237792,7 @@
 	"4208418110": {
 		"hash": 4208418110,
 		"name": "The Corruption Spreads",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784020334214,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -235553,7 +237868,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "60",
+								"text": "77",
 								"isUnknown": false,
 								"isEstimate": false
 							}
