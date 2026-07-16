@@ -4694,7 +4694,7 @@
 		"name": "One Thousand Voices Catalyst",
 		"itemHash": 2069224589,
 		"itemName": "One Thousand Voices",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -8552,7 +8552,7 @@
 		"name": "Dynamic Charge",
 		"itemHash": 4017959782,
 		"itemName": "Symmetry",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -9975,7 +9975,7 @@
 		"name": "For the Empire",
 		"itemHash": 4255268456,
 		"itemName": "Skyburner's Oath",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -11357,7 +11357,7 @@
 		"name": "Lightning Rod",
 		"itemHash": 814876685,
 		"itemName": "Trinity Ghoul",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -12067,7 +12067,7 @@
 		"name": "Snareweaver",
 		"itemHash": 2910326942,
 		"itemName": "Wish-Keeper",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -12421,7 +12421,7 @@
 		"name": "The Master",
 		"itemHash": 2581676735,
 		"itemName": "New Land Beyond",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -17167,7 +17167,7 @@
 		"name": "Cosmology",
 		"itemHash": 3628991658,
 		"itemName": "Graviton Lance",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -18806,7 +18806,7 @@
 		"name": "Temporal Manipulation",
 		"itemHash": 648595258,
 		"itemName": "Graviton Spike",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -20366,7 +20366,7 @@
 		"name": "Third Iteration Catalyst",
 		"itemHash": 2973900274,
 		"itemName": "Third Iteration",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -24500,7 +24500,7 @@
 		"name": "Delayed Gratification",
 		"itemHash": 3549153978,
 		"itemName": "Fighting Lion",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -26608,7 +26608,7 @@
 		"name": "Stormbringer",
 		"itemHash": 1681583613,
 		"itemName": "Ergo Sum",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -27529,7 +27529,7 @@
 		"name": "Shrapnel Launcher",
 		"itemHash": 3413860063,
 		"itemName": "Lord of Wolves",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -31356,7 +31356,7 @@
 		"name": "Compression Chamber",
 		"itemHash": 3460576091,
 		"itemName": "Duality",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -33033,7 +33033,7 @@
 		"name": "Force Multiplier",
 		"itemHash": 730200061,
 		"itemName": "No Backup Plans",
-		"lastUpload": 1783935545841,
+		"lastUpload": 1784174968586,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -33318,6 +33318,29 @@
 						"text": " HP."
 					}
 				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
+					{
+						"type": "text",
+						"text": "\"Melee attacks\" performed by Super Abilities are also granted the damage bonus, which stacks additively with the "
+					},
+					{
+						"type": "text",
+						"text": "Shieldcrush"
+					},
+					{
+						"type": "text",
+						"text": " Artifact Mod."
+					}
+				]
 			}
 		],
 		"definitions": []
@@ -33327,7 +33350,7 @@
 		"name": "Prismatic Inferno",
 		"itemHash": 19024058,
 		"itemName": "Prometheus Lens",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -35973,7 +35996,7 @@
 		"name": "Fanatical Lance",
 		"itemHash": 3698448090,
 		"itemName": "Choir of One",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -38655,7 +38678,7 @@
 		"name": "Memento Mori",
 		"itemHash": 347366834,
 		"itemName": "Ace of Spades",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -38796,7 +38819,7 @@
 		"name": "Power Surge",
 		"itemHash": 253843484,
 		"itemName": "Turncoat",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -44131,7 +44154,7 @@
 		"name": "No Backpack",
 		"itemHash": 1111334348,
 		"itemName": "Ice Breaker",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -46342,7 +46365,7 @@
 		"name": "Evolution",
 		"itemHash": 1363238943,
 		"itemName": "Ruinous Effigy",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -46841,7 +46864,7 @@
 		"name": "Temporal Unlimiter",
 		"itemHash": 4289226715,
 		"itemName": "Vex Mythoclast",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -48878,7 +48901,7 @@
 		"name": "Lightning Seeker",
 		"itemHash": 542203595,
 		"itemName": "Edge of Concurrence",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -49651,7 +49674,7 @@
 		"name": "Tight Fit",
 		"itemHash": 1793346751,
 		"itemName": "Speedloader Slacks",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -55137,7 +55160,7 @@
 		"name": "Cayde's Retribution",
 		"itemHash": 2905188646,
 		"itemName": "Still Hunt",
-		"lastUpload": 1768684436352,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -55339,7 +55362,7 @@
 					},
 					{
 						"type": "text",
-						"text": " successive precision shots."
+						"text": " successive precision shots and causes enemies to explode if defeated."
 					}
 				]
 			},
@@ -58877,7 +58900,7 @@
 		"name": "The Perfect Fifth",
 		"itemHash": 3413074534,
 		"itemName": "Polaris Lance",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -59727,7 +59750,7 @@
 		"name": "Latent Power",
 		"itemHash": 253843484,
 		"itemName": "Turncoat",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -61101,7 +61124,7 @@
 		"name": "Heirloom Catalyst",
 		"itemHash": 1685137410,
 		"itemName": "Heirloom",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -75941,7 +75964,7 @@
 		"name": "Temporal Anomaly",
 		"itemHash": 648595258,
 		"itemName": "Graviton Spike",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -79886,7 +79909,7 @@
 		"name": "Unplanned Reprieve",
 		"itemHash": 1681583613,
 		"itemName": "Ergo Sum",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -80093,7 +80116,7 @@
 		"name": "Starless Night",
 		"itemHash": 106575079,
 		"itemName": "Helm of Saint-14",
-		"lastUpload": 1783935545841,
+		"lastUpload": 1784174968586,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -80144,7 +80167,6 @@
 			},
 			{
 				"type": "line",
-				"isListItem": true,
 				"content": [
 					{
 						"type": "text",
@@ -80180,7 +80202,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "3. Stacks granted on hit are granted after dealing ",
+						"text": "3. Stacks granted by hits are granted after dealing ",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -80194,6 +80216,12 @@
 						"type": "text",
 						"text": " damage."
 					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
 				]
 			},
 			{
@@ -80233,21 +80261,10 @@
 			},
 			{
 				"type": "line",
-				"isListItem": true,
 				"content": [
 					{
 						"type": "text",
-						"text": "Kills or dealing "
-					},
-					{
-						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " damage with a "
+						"text": "Gaining a stack of 'The Saint' through "
 					},
 					{
 						"type": "icon",
@@ -80267,7 +80284,7 @@
 					},
 					{
 						"type": "text",
-						"text": "Void element triggers a "
+						"text": "Void damage triggers a "
 					},
 					{
 						"type": "icon",
@@ -80362,17 +80379,7 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds per stack consumed. Stacks can no longer be earned or consumed once the "
-					},
-					{
-						"type": "icon",
-						"classNames": [
-							"void"
-						]
-					},
-					{
-						"type": "text",
-						"text": "Ward of Dawn has been relocated two times."
+						"text": " seconds per stack consumed. Maximum of two extensions per super."
 					}
 				]
 			}
@@ -82347,7 +82354,7 @@
 		"name": "Overcharge Capacitor",
 		"itemHash": 1912669214,
 		"itemName": "Centrifuse",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -87889,7 +87896,7 @@
 	"1517798362": {
 		"hash": 1517798362,
 		"name": "Stopping Power",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Trait",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -88106,7 +88113,7 @@
 		"name": "The Perfect Fifth",
 		"itemHash": 1681583613,
 		"itemName": "Ergo Sum",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -88754,7 +88761,7 @@
 		"name": "Superconductor",
 		"itemHash": 3089417789,
 		"itemName": "Riskrunner",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -91070,7 +91077,7 @@
 		"name": "Touch of Malice Catalyst",
 		"itemHash": 1802135586,
 		"itemName": "Touch of Malice",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -91418,7 +91425,7 @@
 		"name": "Firefly",
 		"itemHash": 347366834,
 		"itemName": "Ace of Spades",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -94181,7 +94188,7 @@
 		"name": "Phase Converter",
 		"itemHash": 3725585710,
 		"itemName": "Lodestar",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Perk Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -94317,9 +94324,9 @@
 		"name": "Percussive Flames",
 		"itemHash": 864224653,
 		"itemName": "Pyrogale Gauntlets",
-		"lastUpload": 1766530840776,
+		"lastUpload": 1784174968586,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -94421,14 +94428,14 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds, deal "
+						"text": " seconds and track enemies, dealing "
 					},
 					{
 						"type": "pve",
 						"content": [
 							{
 								"type": "numeric",
-								"text": "22",
+								"text": "19",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -94461,7 +94468,7 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds, and apply "
+						"text": " seconds, while applying "
 					},
 					{
 						"type": "numeric",
@@ -94529,7 +94536,7 @@
 						"content": [
 							{
 								"type": "numeric",
-								"text": "16",
+								"text": "7",
 								"isUnknown": false,
 								"isEstimate": false
 							}
@@ -94680,7 +94687,7 @@
 		"name": "Lancer's Vigil",
 		"itemHash": 2851385306,
 		"itemName": "Cadmus Ridge Lancecap",
-		"lastUpload": 1783935545841,
+		"lastUpload": 1784174968586,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -94893,7 +94900,6 @@
 			},
 			{
 				"type": "line",
-				"isLabel": true,
 				"content": [
 					{
 						"type": "icon",
@@ -94903,48 +94909,8 @@
 					},
 					{
 						"type": "text",
-						"text": "Diamond Lance damage is increased at "
+						"text": "Diamond Lance damage is increased by "
 					},
-					{
-						"type": "numeric",
-						"text": "1",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "stackSeparator"
-					},
-					{
-						"type": "numeric",
-						"text": "2",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "stackSeparator"
-					},
-					{
-						"type": "numeric",
-						"text": "3... stacks of ",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "icon",
-						"classNames": [
-							"stasis"
-						]
-					},
-					{
-						"type": "text",
-						"text": "Frost Armor:"
-					}
-				]
-			},
-			{
-				"type": "line",
-				"isListItem": true,
-				"content": [
 					{
 						"type": "numeric",
 						"text": "144%",
@@ -95007,7 +94973,41 @@
 					},
 					{
 						"type": "text",
-						"text": " Increased Diamond Lance damage"
+						"text": " at "
+					},
+					{
+						"type": "numeric",
+						"text": "1",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "2",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "stackSeparator"
+					},
+					{
+						"type": "numeric",
+						"text": "3... stacks of ",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "icon",
+						"classNames": [
+							"stasis"
+						]
+					},
+					{
+						"type": "text",
+						"text": "Frost Armor."
 					}
 				]
 			},
@@ -95284,7 +95284,7 @@
 		"name": "Charge Shot",
 		"itemHash": 417164956,
 		"itemName": "Jötunn",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -95465,7 +95465,7 @@
 		"name": "Ahamkara's Eye",
 		"itemHash": 2069224589,
 		"itemName": "One Thousand Voices",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -97032,7 +97032,7 @@
 		"name": "Auto-Loading Link",
 		"itemHash": 1591207518,
 		"itemName": "Actium War Rig",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -98353,7 +98353,7 @@
 		"name": "EM Anomaly",
 		"itemHash": 3761898871,
 		"itemName": "Lorentz Driver",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -103377,7 +103377,7 @@
 		"name": "Judgment",
 		"itemHash": 4103414242,
 		"itemName": "Divinity",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -106954,7 +106954,7 @@
 		"name": "Business Time",
 		"itemHash": 1345867570,
 		"itemName": "Sweet Business",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -107444,7 +107444,7 @@
 		"name": "Mark of the Devourer",
 		"itemHash": 3973202132,
 		"itemName": "Thorn",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -110885,13 +110885,13 @@
 		"name": "Overflowing Light",
 		"itemHash": 502173648,
 		"itemName": "Heart of Inmost Light",
-		"lastUpload": 1767472203079,
+		"lastUpload": 1784174968586,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
-				"type": "line",
-				"content": [
+				"type": "labelledLine",
+				"label": [
 					{
 						"type": "text",
 						"text": "Grenade or Class Ability usage and dealing Elemental Melee damage grants the 'Empowered Abilities' buff to the other two abilities for "
@@ -110904,22 +110904,7 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "labelledLine",
-				"label": [
-					{
-						"type": "text",
-						"text": "e.g."
+						"text": " seconds (e.g."
 					},
 					{
 						"type": "text",
@@ -110929,7 +110914,11 @@
 				"value": [
 					{
 						"type": "text",
-						"text": "Barricade usage 🠚 Empowered Grenade and Melee Abilities"
+						"text": "Barricade usage 🠚 Empowered Grenade and Melee Abilities)"
+					},
+					{
+						"type": "text",
+						"text": ". Casting your super removes all stacks."
 					}
 				]
 			},
@@ -111710,7 +111699,7 @@
 		"name": "Unplanned Reprieve",
 		"itemHash": 2208405142,
 		"itemName": "Telesto",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -116390,7 +116379,7 @@
 		"name": "Loyal Moths",
 		"itemHash": 3821409356,
 		"itemName": "Ex Diris",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -117334,7 +117323,7 @@
 		"name": "Thin the Herd",
 		"itemHash": 3549153978,
 		"itemName": "Fighting Lion",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -117475,7 +117464,7 @@
 		"name": "Nucleosynthetic Magazine",
 		"itemHash": 3821409356,
 		"itemName": "Ex Diris",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Perk Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -121331,7 +121320,7 @@
 		"name": "Charged with Blight",
 		"itemHash": 1802135586,
 		"itemName": "Touch of Malice",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -124667,7 +124656,7 @@
 		"name": "Noble Rounds",
 		"itemHash": 3512014804,
 		"itemName": "Lumina",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -124800,7 +124789,7 @@
 		"name": "Tri-Planar Mass Driver",
 		"itemHash": 2973900274,
 		"itemName": "Third Iteration",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -126412,7 +126401,7 @@
 		"name": "Poison Arrows",
 		"itemHash": 3588934839,
 		"itemName": "Le Monarque",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -132399,7 +132388,7 @@
 		"name": "Broadhead",
 		"itemHash": 814876684,
 		"itemName": "Wish-Ender",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -133390,7 +133379,7 @@
 		"name": "Harsh Truths",
 		"itemHash": 3628991659,
 		"itemName": "Vigilance Wing",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -139765,7 +139754,7 @@
 		"name": "Amalgamation Rounds",
 		"itemHash": 2973900274,
 		"itemName": "Third Iteration",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -146340,7 +146329,7 @@
 	"2565067140": {
 		"hash": 2565067140,
 		"name": "Head Rush",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Trait Origin",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -146421,7 +146410,7 @@
 		"name": "Nightsworn Sight",
 		"itemHash": 1047932517,
 		"itemName": "Slayer's Fang",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -149096,7 +149085,7 @@
 		"name": "Heart Piercer",
 		"itemHash": 1047932517,
 		"itemName": "Slayer's Fang",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -149514,7 +149503,7 @@
 		"name": "Absorption Cells",
 		"itemHash": 2732820041,
 		"itemName": "Mantle of Battle Harmony",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -157954,7 +157943,7 @@
 		"name": "Touch of Malice",
 		"itemHash": 1802135586,
 		"itemName": "Touch of Malice",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -159464,7 +159453,7 @@
 	"2733244971": {
 		"hash": 2733244971,
 		"name": "Trinary Vision",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -159711,7 +159700,7 @@
 		"name": "Slug Rifle",
 		"itemHash": 4255268456,
 		"itemName": "Skyburner's Oath",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -160569,7 +160558,7 @@
 		"name": "Fan Fire",
 		"itemHash": 1364093401,
 		"itemName": "The Last Word",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -162683,7 +162672,7 @@
 		"name": "Silkbound Slayer",
 		"itemHash": 2910326942,
 		"itemName": "Wish-Keeper",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -170950,7 +170939,7 @@
 		"name": "Mortal Polarity",
 		"itemHash": 2603483885,
 		"itemName": "Cloudstrike",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -174050,7 +174039,7 @@
 		"name": "Command Frame",
 		"itemHash": 3698448090,
 		"itemName": "Choir of One",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -175810,7 +175799,7 @@
 		"name": "Full Stop",
 		"itemHash": 2179048386,
 		"itemName": "Forerunner",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -178076,7 +178065,7 @@
 		"name": "Sacred Flame",
 		"itemHash": 1681583613,
 		"itemName": "Ergo Sum",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -181182,7 +181171,7 @@
 		"name": "Stormbringer",
 		"itemHash": 2603483885,
 		"itemName": "Cloudstrike",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -181903,7 +181892,7 @@
 		"name": "Grenade Chaser",
 		"itemHash": 4293613902,
 		"itemName": "Quicksilver Storm",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -183416,7 +183405,7 @@
 		"name": "Looks Can Kill",
 		"itemHash": 3524313097,
 		"itemName": "Eriana's Vow",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -183941,7 +183930,7 @@
 		"name": "Corrupted Nucleosynthesis",
 		"itemHash": 3821409356,
 		"itemName": "Ex Diris",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -187080,7 +187069,7 @@
 		"name": "Sacred Flame",
 		"itemHash": 3260753130,
 		"itemName": "Ticuu's Divination",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -192152,7 +192141,7 @@
 		"name": "Insectoid Robot Grenades",
 		"itemHash": 1681583613,
 		"itemName": "Ergo Sum",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -197349,7 +197338,7 @@
 		"name": "Huckleberry Catalyst",
 		"itemHash": 2286143274,
 		"itemName": "The Huckleberry",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Catalyst Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -199632,7 +199621,7 @@
 		"name": "Restorative Turret",
 		"itemHash": 14194600,
 		"itemName": "Edge of Intent",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -202716,7 +202705,7 @@
 		"name": "Time-Slip",
 		"itemHash": 1594120904,
 		"itemName": "No Time to Explain",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -204620,7 +204609,7 @@
 		"name": "Missile Tracers",
 		"itemHash": 4293613902,
 		"itemName": "Quicksilver Storm",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -204775,7 +204764,7 @@
 		"name": "Timeless Mythoclast",
 		"itemHash": 4289226715,
 		"itemName": "Vex Mythoclast",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -206564,7 +206553,7 @@
 	"3640170453": {
 		"hash": 3640170453,
 		"name": "Chaos Reshaped",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Trait",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -213487,7 +213476,7 @@
 		"name": "Payday",
 		"itemHash": 1345867570,
 		"itemName": "Sweet Business",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -216682,7 +216671,7 @@
 		"name": "Hunter's Trace",
 		"itemHash": 1473821207,
 		"itemName": "Revision Zero",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -219032,7 +219021,7 @@
 	"3891536761": {
 		"hash": 3891536761,
 		"name": "Kinetic Tremors",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Trait",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -222441,7 +222430,7 @@
 		"name": "On Black Wings",
 		"itemHash": 3460576091,
 		"itemName": "Duality",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -223166,7 +223155,7 @@
 		"name": "Arc Conductor",
 		"itemHash": 1681583613,
 		"itemName": "Ergo Sum",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -231921,7 +231910,7 @@
 		"name": "Touch of Venom",
 		"itemHash": 2757274117,
 		"itemName": "Khepri's Sting",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -232182,7 +232171,7 @@
 		"name": "Sun Blast",
 		"itemHash": 2907129557,
 		"itemName": "Sunshot",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -235358,7 +235347,7 @@
 		"name": "Cursebringer",
 		"itemHash": 1034055198,
 		"itemName": "Necrochasm",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -235597,7 +235586,7 @@
 		"name": "Revolution",
 		"itemHash": 4017959782,
 		"itemName": "Symmetry",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -237660,7 +237649,7 @@
 	"4208418110": {
 		"hash": 4208418110,
 		"name": "The Corruption Spreads",
-		"lastUpload": 1784060717044,
+		"lastUpload": 1784174968586,
 		"type": "Weapon Frame Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
