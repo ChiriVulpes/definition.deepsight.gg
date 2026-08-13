@@ -52728,7 +52728,7 @@
 		"name": "Rapid Cooldown",
 		"itemHash": 609852545,
 		"itemName": "Fr0st-EE5",
-		"lastUpload": 1783935545841,
+		"lastUpload": 1786577327548,
 		"type": "Armor Trait Exotic",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -52903,7 +52903,7 @@
 					},
 					{
 						"type": "text",
-						"text": " Grenade and Melee Ability Regeneration Rate"
+						"text": " Base Grenade and Melee Ability Regeneration Rate"
 					}
 				]
 			},
@@ -81891,7 +81891,7 @@
 	"1365187766": {
 		"hash": 1365187766,
 		"name": "Gutshot Straight",
-		"lastUpload": 1783446631691,
+		"lastUpload": 1786577327548,
 		"type": "Weapon Trait",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -81952,7 +81952,7 @@
 				"label": [
 					{
 						"type": "text",
-						"text": "Auto/Scout Rifle, Bow, Hand Cannon"
+						"text": "Auto/Scout/Sniper Rifles, Bows, Hand Cannons"
 					},
 					{
 						"type": "text",
@@ -81974,7 +81974,7 @@
 				"label": [
 					{
 						"type": "text",
-						"text": "Pulse/Trace Rifle, Sidearm, SMG"
+						"text": "Pulse/Trace Rifles, Sidearms, SMGs, LMGs"
 					},
 					{
 						"type": "text",
@@ -163736,9 +163736,9 @@
 		"name": "Nightmare Fuel",
 		"itemHash": 1688602431,
 		"itemName": "Sealed Ahamkara Grasps",
-		"lastUpload": 1767472203079,
+		"lastUpload": 1786593493348,
 		"type": "Armor Trait Exotic",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -163755,17 +163755,7 @@
 					},
 					{
 						"type": "text",
-						"text": " seconds. "
-					},
-					{
-						"type": "icon",
-						"classNames": [
-							"strand"
-						]
-					},
-					{
-						"type": "text",
-						"text": "Grapple Melees do not count."
+						"text": " seconds."
 					}
 				]
 			},
@@ -163780,69 +163770,7 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Gaining Nightmare Fuel "
-					},
-					{
-						"type": "definitionReference",
-						"index": 1
-					},
-					{
-						"type": "text",
-						"text": "refills"
-					},
-					{
-						"type": "text",
-						"text": " the magazine of all stowed weapons from reserves."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "line",
-				"content": [
-					{
-						"type": "text",
-						"text": "Nightmare Fuel grants "
-					},
-					{
-						"type": "numeric",
-						"text": "?",
-						"isUnknown": true,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " Handling and "
-					},
-					{
-						"type": "numeric",
-						"text": "50",
-						"isUnknown": false,
-						"isEstimate": false
-					},
-					{
-						"type": "text",
-						"text": " Airborne Effectiveness while active."
-					}
-				]
-			},
-			{
-				"type": "spacer",
-				"classNames": [
-					"spacer"
-				]
-			},
-			{
-				"type": "line",
-				"content": [
-					{
-						"type": "text",
-						"text": "Readying a different weapon after gaining Nightmare Fuel refreshes its duration and grants "
+						"text": "Gaining Nightmare Fuel grants "
 					},
 					{
 						"type": "pve",
@@ -163880,11 +163808,39 @@
 					},
 					{
 						"type": "text",
-						"text": ")"
+						"text": "), "
+					},
+					{
+						"type": "numeric",
+						"text": "?",
+						"isUnknown": true,
+						"isEstimate": false
 					},
 					{
 						"type": "text",
-						"text": ". Swapping weapons again removes Nightmare Fuel."
+						"text": " Handling, "
+					},
+					{
+						"type": "numeric",
+						"text": "50",
+						"isUnknown": false,
+						"isEstimate": false
+					},
+					{
+						"type": "text",
+						"text": " Airborne Effectiveness, and "
+					},
+					{
+						"type": "definitionReference",
+						"index": 1
+					},
+					{
+						"type": "text",
+						"text": "refills"
+					},
+					{
+						"type": "text",
+						"text": " the magazine of all stowed weapons from reserves."
 					}
 				]
 			},
@@ -163899,11 +163855,22 @@
 				"content": [
 					{
 						"type": "text",
-						"text": "Scoring a Kill with a weapon currently benefiting from the damage buff grants you a fresh instance of Nightmare Fuel (as if you scored another Powered Melee Kill)"
-					},
+						"text": "Readying a different weapon after gaining Nightmare Fuel refreshes its duration. Swapping weapons again removes the buff."
+					}
+				]
+			},
+			{
+				"type": "spacer",
+				"classNames": [
+					"spacer"
+				]
+			},
+			{
+				"type": "line",
+				"content": [
 					{
 						"type": "text",
-						"text": "."
+						"text": "Scoring a kill with a weapon currently benefitting from Nightmare Fuel grants you a fresh instance of the buff (as if you scored another Powered Melee Kill), allowing you to switch weapons again."
 					}
 				]
 			}
@@ -237453,7 +237420,7 @@
 				"label": [
 					{
 						"type": "text",
-						"text": "Auto/Scout Rifle, Bow, Hand Cannon"
+						"text": "Auto/Scout/Sniper Rifles, Bows, Hand Cannons"
 					},
 					{
 						"type": "text",
@@ -237475,7 +237442,7 @@
 				"label": [
 					{
 						"type": "text",
-						"text": "Pulse/Trace Rifle, Sidearm, SMG"
+						"text": "Pulse/Trace Rifles, Sidearms, SMGs, LMGs"
 					},
 					{
 						"type": "text",
@@ -237524,7 +237491,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "20%",
+						"text": "15%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
@@ -237534,7 +237501,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "15%",
+						"text": "10%",
 						"isUnknown": true,
 						"isEstimate": false
 					},
