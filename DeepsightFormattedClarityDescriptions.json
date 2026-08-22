@@ -95894,7 +95894,7 @@
 				"label": [
 					{
 						"type": "text",
-						"text": "Precision Hand Cannons and Precision Scout Rifles"
+						"text": "Hand Cannons or Scout Rifles (Rapid-Fire and Precision-Frame)"
 					},
 					{
 						"type": "text",
@@ -95922,7 +95922,7 @@
 				"label": [
 					{
 						"type": "text",
-						"text": "Hand Cannons, Scout Rifles"
+						"text": "All other Hand Cannons and Scout Rifles"
 					},
 					{
 						"type": "text",
@@ -95939,6 +95939,34 @@
 					{
 						"type": "numeric",
 						"text": "4",
+						"isUnknown": false,
+						"isEstimate": false
+					}
+				],
+				"isListItem": true
+			},
+			{
+				"type": "labelledLine",
+				"label": [
+					{
+						"type": "text",
+						"text": "Rocket Sidearms"
+					},
+					{
+						"type": "text",
+						"text": ": "
+					}
+				],
+				"value": [
+					{
+						"type": "enhancedArrow",
+						"classNames": [
+							"enhancedArrow"
+						]
+					},
+					{
+						"type": "numeric",
+						"text": "3",
 						"isUnknown": false,
 						"isEstimate": false
 					}
@@ -151557,9 +151585,9 @@
 	"2483898430": {
 		"hash": 2483898430,
 		"name": "Whisper of Rime",
-		"lastUpload": 1717539628564,
+		"lastUpload": 1787418555467,
 		"type": "Subclass Fragment",
-		"uploadedBy": "Stardust",
+		"uploadedBy": "Hawkmoona",
 		"descriptions": [
 			{
 				"type": "line",
@@ -151580,7 +151608,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "8",
+						"text": "7",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -151590,7 +151618,7 @@
 					},
 					{
 						"type": "numeric",
-						"text": "13",
+						"text": "6",
 						"isUnknown": false,
 						"isEstimate": false
 					},
@@ -232870,7 +232898,7 @@
 	"3891536761": {
 		"hash": 3891536761,
 		"name": "Kinetic Tremors",
-		"lastUpload": 1784331766324,
+		"lastUpload": 1787418555467,
 		"type": "Weapon Trait",
 		"uploadedBy": "Hawkmoona",
 		"descriptions": [
@@ -233218,7 +233246,7 @@
 				"label": [
 					{
 						"type": "text",
-						"text": "Precision Hand Cannons and Precision Scout Rifles"
+						"text": "Hand Cannons or Scout Rifles (Rapid-Fire and Precision-Frame)"
 					},
 					{
 						"type": "text",
@@ -233240,7 +233268,7 @@
 				"label": [
 					{
 						"type": "text",
-						"text": "Hand Cannons, Scout Rifles"
+						"text": "All other Hand Cannons and Scout Rifles"
 					},
 					{
 						"type": "text",
@@ -233251,6 +233279,28 @@
 					{
 						"type": "numeric",
 						"text": "5",
+						"isUnknown": false,
+						"isEstimate": false
+					}
+				],
+				"isListItem": true
+			},
+			{
+				"type": "labelledLine",
+				"label": [
+					{
+						"type": "text",
+						"text": "Rocket Sidearms"
+					},
+					{
+						"type": "text",
+						"text": ": "
+					}
+				],
+				"value": [
+					{
+						"type": "numeric",
+						"text": "4",
 						"isUnknown": false,
 						"isEstimate": false
 					}
