@@ -295,7 +295,7 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"3610531207": {}
+			"393652859": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Crucible Ops",
@@ -333,7 +333,11 @@
 			"iconHash": 0,
 			"hasIcon": false
 		},
-		"dropTable": {},
+		"dropTable": {
+			"1232186726": {},
+			"1683071779": {},
+			"1692895170": {}
+		},
 		"typeDisplayProperties": {
 			"name": "Pinnacle Ops",
 			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
@@ -499,6 +503,24 @@
 		"displayProperties": {
 			"description": "Jump coordinates matching an errant distress signal.",
 			"name": "Presage",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"iconHash": 0,
+			"hasIcon": false
+		},
+		"dropTable": {},
+		"typeDisplayProperties": {
+			"name": "Pinnacle Ops",
+			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
+			"icon": "/img/destiny_content/portal/category_prestige.png"
+		}
+	},
+	"962366573": {
+		"hash": 962366573,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "Delve ever deeper into the myriad pathways of Riven's Lair in The Coil. Face greater challenges and retrieve greater rewards.",
+			"name": "The Coil",
 			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
 			"iconHash": 0,
 			"hasIcon": false
@@ -1050,7 +1072,7 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"2531614757": {}
+			"52683113": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Arena Ops",
@@ -1239,24 +1261,6 @@
 			"icon": "/common/destiny2_content/icons/bd7a1fc995f87be96698263bc16698e7.png",
 			"iconHash": 0,
 			"hasIcon": true
-		}
-	},
-	"1534952762": {
-		"hash": 1534952762,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "The Warden's sadistic game, enhanced. Survive multiple laps through the prison, each one harder than the last. To the victor, more spoils await.",
-			"name": "Contest of Elders",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"iconHash": 0,
-			"hasIcon": false
-		},
-		"dropTable": {},
-		"typeDisplayProperties": {
-			"name": "Pinnacle Ops",
-			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
-			"icon": "/img/destiny_content/portal/category_prestige.png"
 		}
 	},
 	"1541433876": {
@@ -1460,9 +1464,7 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"591555944": {},
-			"1851922001": {},
-			"2270938588": {}
+			"357669417": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Pinnacle Ops",
@@ -1657,9 +1659,7 @@
 			"iconHash": 0,
 			"hasIcon": false
 		},
-		"dropTable": {
-			"3708636616": {}
-		},
+		"dropTable": {},
 		"typeDisplayProperties": {
 			"name": "Solo Ops",
 			"description": "Protect Earth from Sol's greatest foes as a one-Guardian fireteam and the Vanguard's last line of defense.",
@@ -1695,7 +1695,9 @@
 			"iconHash": 0,
 			"hasIcon": false
 		},
-		"dropTable": {},
+		"dropTable": {
+			"412265080": {}
+		},
 		"typeDisplayProperties": {
 			"name": "Arena Ops",
 			"description": "Join a large group of Lightbearers executing Vanguard operations around Sol and crushing Earth's deadliest foes.",
@@ -1732,7 +1734,7 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"1713388226": {}
+			"1942143745": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Solo Ops",
@@ -2024,9 +2026,7 @@
 			"iconHash": 0,
 			"hasIcon": false
 		},
-		"dropTable": {
-			"2466028274": {}
-		},
+		"dropTable": {},
 		"typeDisplayProperties": {
 			"name": "Pinnacle Ops",
 			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
@@ -2606,6 +2606,26 @@
 			"icon": "/common/destiny2_content/icons/DestinyActivityModeDefinition_f20ebb76bee675ca429e470cec58cc7b.png"
 		}
 	},
+	"2904811582": {
+		"hash": 2904811582,
+		"type": "bonus-focus",
+		"availability": "rotator",
+		"displayProperties": {
+			"description": "The Warden's sadistic game, enhanced. Survive multiple laps through the prison, each one harder than the last. To the victor, more spoils await.",
+			"name": "Contest of Elders",
+			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
+			"iconHash": 0,
+			"hasIcon": false
+		},
+		"dropTable": {
+			"924095500": {}
+		},
+		"typeDisplayProperties": {
+			"name": "Pinnacle Ops",
+			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
+			"icon": "/img/destiny_content/portal/category_prestige.png"
+		}
+	},
 	"3052331015": {
 		"hash": 3052331015,
 		"type": "bonus-focus",
@@ -2671,31 +2691,13 @@
 			"iconHash": 0,
 			"hasIcon": false
 		},
-		"dropTable": {},
+		"dropTable": {
+			"3085559077": {}
+		},
 		"typeDisplayProperties": {
 			"name": "Solo Ops",
 			"description": "Protect Earth from Sol's greatest foes as a one-Guardian fireteam and the Vanguard's last line of defense.",
 			"icon": "/img/destiny_content/portal/category_solo_ops.png"
-		}
-	},
-	"3698225057": {
-		"hash": 3698225057,
-		"type": "bonus-focus",
-		"availability": "rotator",
-		"displayProperties": {
-			"description": "Delve ever deeper into the myriad pathways of Riven's Lair in The Coil. Face greater challenges and retrieve greater rewards.",
-			"name": "The Coil",
-			"icon": "/common/destiny2_content/icons/09943af83832b9020145baa3f816f473.png",
-			"iconHash": 0,
-			"hasIcon": false
-		},
-		"dropTable": {
-			"1692109318": {}
-		},
-		"typeDisplayProperties": {
-			"name": "Pinnacle Ops",
-			"description": "Brave the lairs of humanity's greatest foes to secure Sol for the Vanguard and earn sought-after armaments for the battles to come.",
-			"icon": "/img/destiny_content/portal/category_prestige.png"
 		}
 	},
 	"3834447244": {
@@ -3015,11 +3017,7 @@
 			"iconHash": 0,
 			"hasIcon": false
 		},
-		"dropTable": {
-			"1152238701": {},
-			"1975004305": {},
-			"4285848704": {}
-		},
+		"dropTable": {},
 		"typeDisplayProperties": {
 			"name": "Arena Ops",
 			"description": "Join a large group of Lightbearers executing Vanguard operations around Sol and crushing Earth's deadliest foes.",
@@ -3505,7 +3503,7 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"1713388226": {}
+			"1942143745": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Solo Ops",
@@ -3525,7 +3523,7 @@
 			"hasIcon": false
 		},
 		"dropTable": {
-			"2531614757": {}
+			"52683113": {}
 		},
 		"typeDisplayProperties": {
 			"name": "Arena Ops",
